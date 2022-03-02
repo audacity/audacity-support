@@ -12,6 +12,3 @@ Do check out [tutorials](contributing/tutorials/ "mention") and the [todo](todo/
 
 Want to get started using Audacity? Check out the tutorial series [Audacity Basics](broken-reference).
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}

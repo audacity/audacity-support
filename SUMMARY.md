@@ -56,6 +56,7 @@
 
 * [💬 Discord](https://discord.gg/audacity)
 * [💬 Forum](https://forum.audacityteam.org)
+* [Info for Visually Impaired Users](https://vip.chowo.co.uk/wp-content/uploads/jaws/Audacity-3.1.0-Guide.html)
 
 ***
 
