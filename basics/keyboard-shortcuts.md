@@ -212,12 +212,14 @@ For making a selection of a frequency range.
 
 For modifying a selection, taking account of clips.
 
-| Action                           | Shortcut       | Description                                                                                |
-| -------------------------------- | -------------- | ------------------------------------------------------------------------------------------ |
-| Previous Clip Boundary to Cursor | _(unassigned)_ | Selects from the current cursor position back to the right-hand edge of the previous clip. |
-| Cursor to Next Clip Boundary     | _(unassigned)_ | Selects from the current cursor position forward to the left-hand edge of the next clip.   |
-| Previous Clip                    | Alt+,          | Moves the selection to the previous clip.                                                  |
-| Next Clip                        | Alt+.          | Moves the selection to the next clip.                                                      |
+| Action                           | Shortcut                                                          | Description                                                                                |
+| -------------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| Previous Clip Boundary to Cursor | _(unassigned)_                                                    | Selects from the current cursor position back to the right-hand edge of the previous clip. |
+| Cursor to Next Clip Boundary     | _(unassigned)_                                                    | Selects from the current cursor position forward to the left-hand edge of the next clip.   |
+| Previous Clip on selected track  | Alt+,                                                             | Moves the selection to the previous clip.                                                  |
+| Next Clip on selected Track      | Alt+.                                                             | Moves the selection to the next clip.                                                      |
+| Previous Clip on focused Track   | <p>Shift+Tab<br><em>(not in menu - cannot be reassigned)</em></p> | Moves the selection to the previous clip.                                                  |
+| Next Clip on focused Track       | <p>Tab<br><em>(not in menu - cannot be reassigned)</em></p>       | Moves the selection to the next clip.                                                      |
 
 ### View Menu
 
