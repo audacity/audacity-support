@@ -58,3 +58,5 @@ Your operating system may disable the microphone in general. You need to enable 
 ### WASAPI and USB devices
 
 Due to a Windows limitation, you cannot use WASAPI on a USB device while listening back on an onboard audio card. Use MME or DirectSound instead, or use the USB device for both the input and output (if possible).&#x20;
+
+## Only the left channel is recording
