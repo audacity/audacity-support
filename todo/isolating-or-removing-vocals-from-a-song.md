@@ -1,3 +1,10 @@
+---
+description: >-
+  This page describes techniques which, on some stereo tracks, may allow you to
+  remove or isolate vocals (or other parts of a recording) from the rest. There
+  is no universal, reliable way of doing this
+---
+
 # Isolating or Removing Vocals from a Song
 
 sources to draw from:

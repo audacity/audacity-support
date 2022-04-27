@@ -9,24 +9,71 @@ description: >-
 
 TODO:&#x20;
 
-* [ ] Windows needs to be slightly less handwavy (people on this page will need the level of detail to follow)
+* [x] Windows needs to be slightly less handwavy (people on this page will need the level of detail to follow)
 * [ ] macOS
 * [ ] Also, it should show some more article on what to do next once it's installed.
 
 {% tabs %}
 {% tab title="Windows" %}
-1. Head to the download page: [https://www.audacityteam.org/download/windows/](https://www.audacityteam.org/download/windows/) \
-   It will automatically download Audacity after 5 seconds.&#x20;
-2. If prompted, click **Run** or **Save**.&#x20;
-3. If you clicked Save, head to your downloads, locate the Audacity installer and double-click it.&#x20;
-4. When you see the <\<user account control>>, click **Yes**.
-5. Follow the installation steps.&#x20;
+* Head to the download page: [https://www.audacityteam.org/download/windows/](https://www.audacityteam.org/download/windows/) \
+  It will automatically download the latest version of Audacity after 5 seconds.&#x20;
+* If prompted, click **Run** or **Save**.&#x20;
+* If you clicked Save, head to your downloads, locate the Audacity installer and double-click it.
+  * In Windows 11 it is possible that you get a warning about Audacity being a  non Microsoft-verified app. Click **Install anyway.**
+
+![Windows 11 warning when running Audacity installer](<../.gitbook/assets/Windows 11 - Microsoft-verified app warning.png>)
+
+* When you see the <\<user account control>>, click **Yes**.
+* Select the language to use during the installation and click **OK**.
+
+![Select the language to use during the installation](<../.gitbook/assets/Select Setup Language.png>)
+
+* In the Welcome page click **Next**.
+
+![Welcome page - Click Next](<../.gitbook/assets/Welcome Audacity Setup.png>)
+
+* In the **Information** page you will links to learn more about Audacity and its license. Click **Next** to proceed.
+
+![Information page - Links to learn more about Audacity and its license](<../.gitbook/assets/Setup - License.png>)
+
+* In the **Select Destination Location** page you can select a different folder to install Audacity using the **Browse...** button or simply use the recommended destination. Click **Next** to continue.
+
+![Select the folder to install Audacity](<../.gitbook/assets/Setup - Select Destination Location.png>)
+
+* In the **Select Additional Tasks** page you can choose that the installer adds a shortcut to Audacity in your Desktop.
+  * If you have installed Audacity previously you will have the option to **Reset Preferences.**
+
+![Select if you want to create a shortcut to open Audacity](<../.gitbook/assets/Setup - Additional Tasks.png>)
+
+* Verify your choices and click **Install**
+
+![Verify your choices and click Install](<../.gitbook/assets/Setup - Ready to install.png>)
+
+* Wait a few seconds until the setup process completes.
+
+![Wait until the setup process completes ](<../.gitbook/assets/Setup - Extracting.png>)
+
+* Please take some time to know how to get community support through the Audacity Forum and how to make suggestions or report bugs.
+
+![Information on how to make suggestions or report bugs](<../.gitbook/assets/Setup - Information before finish.png>)
+
+* Click **Finish** to close the installer and **Launch Audacity**
+
+![Click Finish to close the installer](<../.gitbook/assets/Setup - Completed.png>)
+
+Congrats!  Now you can use Audacity to record and edit your audio. Consider these next steps:
+
+{% content-ref url="../basics/recording-your-voice-and-microphone/" %}
+[recording-your-voice-and-microphone](../basics/recording-your-voice-and-microphone/)
+{% endcontent-ref %}
+
+{% content-ref url="../basics/audacity-editing.md" %}
+[audacity-editing.md](../basics/audacity-editing.md)
+{% endcontent-ref %}
 {% endtab %}
 
 {% tab title="macOS" %}
-{% hint style="info" %}
-**Note:** Audacity currently supports Intel hardware only. You need to install Rosetta 2 to use it on Apple Silicon devices.&#x20;
-{% endhint %}
+****
 
 
 {% endtab %}
