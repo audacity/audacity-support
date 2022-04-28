@@ -61,3 +61,7 @@
 ***
 
 * [Imported from the Manual](imported-from-the-manual.md)
+
+## Troubleshooting
+
+* [Recovering Corrupted Projects](troubleshooting/recovering-corrupted-projects.md)
