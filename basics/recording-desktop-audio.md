@@ -34,7 +34,7 @@ When using PulseAudio (default for Ubuntu, Linux Mint, and others):&#x20;
 2.  Set the audio host to ALSA, the recording device to pulse.
 
     If your system uses Pulse by default, the pulse device may be called default.&#x20;
-3. Enable the recording meter by selecting "Click to start monitoring". ![](<../.gitbook/assets/image (15).png>)
+3. Enable the recording meter by selecting "Click to start monitoring". ![](<../.gitbook/assets/image (15) (1).png>)
 4. Open PulseAudio Volume Control and choose the "Recording" tab.
 5. In the "Capture from" dropdown, select the "Monitor" option of the playback device used by the application you want to record from
 6. Launch the application that you wish to record and begin playback.

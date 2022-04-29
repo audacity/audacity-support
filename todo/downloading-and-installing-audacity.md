@@ -23,7 +23,12 @@ Audacity is available from the [Microsoft Store](https://apps.microsoft.com/stor
 * Go to the **** [**Microsoft Store website**](https://apps.microsoft.com/store/detail/audacity/XP8K0J757HHRDW).
 * Click **Get in Store App**.\
   ![](<../.gitbook/assets/Microsoft Store Website.png>)
-* The Microsoft Store app will open. Click **Install** to install Audacity.
+* The Microsoft Store app will open. Click **Install** to install Audacity.\
+  ![](<../.gitbook/assets/image (15).png>)
+* When Windows asks you if the installer may make changes to the system, click **Yes**.\
+  ![](<../.gitbook/assets/image (17).png>)
+
+Audacity is now installed. You can start Audacity from the start menu.
 
 ## Downloading from the Internet
 
