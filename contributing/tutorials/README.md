@@ -9,7 +9,7 @@ description: >-
 
 ## Writing Tutorials and User Guides
 
-You can become an editor on Gitbook (ie this website) by going to [audacityteam.org/gitbook-access](https://audacityteam.org/gitbook-access)
+You can become an editor on Gitbook (ie this website) by making an account and then going to [audacityteam.org/gitbook-access](https://audacityteam.org/gitbook-access)
 
 Editors can edit existing pages (including the stubs found at [todo](../../todo/ "mention")), but cannot create new ones. If you'd like to make a page about a new topic, write to LWinterberg in the [discord server](https://discord.gg/audacity). You also can hand in Markdown files or Word documents to him directly to add.
 

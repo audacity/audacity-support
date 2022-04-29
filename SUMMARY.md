@@ -8,6 +8,7 @@
   * [Translating Audacity](contributing/translating.md)
   * [Developing Audacity](contributing/developing.md)
   * [Testing the Latest Features](contributing/testing.md)
+  * [Plugins](contributing/plugins.md)
   * [Credits & License](contributing/credits-and-license.md)
 * [TODO](todo/README.md)
   * [Testing Latency](todo/testing-latency.md)
