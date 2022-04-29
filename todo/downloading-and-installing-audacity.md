@@ -10,11 +10,23 @@ description: >-
 TODO:&#x20;
 
 * [x] Windows needs to be slightly less handwavy (people on this page will need the level of detail to follow)
+* [ ] Microsoft Store instructions
 * [ ] macOS
-* [ ] Also, it should show some more article on what to do next once it's installed.
+* [x] Also, it should show some more article on what to do next once it's installed.
 
 {% tabs %}
 {% tab title="Windows" %}
+## Downloading through the Microsoft Store
+
+Audacity is available from the [Microsoft Store](https://apps.microsoft.com/store/detail/audacity/XP8K0J757HHRDW).&#x20;
+
+* Go to the **** [**Microsoft Store website**](https://apps.microsoft.com/store/detail/audacity/XP8K0J757HHRDW).
+* Click **Get in Store App**.\
+  ![](<../.gitbook/assets/Microsoft Store Website.png>)
+* The Microsoft Store app will open. Click **Install** to install Audacity.
+
+## Downloading from the Internet
+
 * Head to the download page: [https://www.audacityteam.org/download/windows/](https://www.audacityteam.org/download/windows/) \
   It will automatically download the latest version of Audacity after 5 seconds.&#x20;
 * If prompted, click **Run** or **Save**.&#x20;
@@ -23,7 +35,8 @@ TODO:&#x20;
 
 ![Windows 11 warning when running Audacity installer](<../.gitbook/assets/Windows 11 - Microsoft-verified app warning.png>)
 
-* When you see the <\<user account control>>, click **Yes**.
+* When Windows asks you if the installer may make changes to the system, click **Yes**.\
+  ![](<../.gitbook/assets/image (17).png>)
 * Select the language to use during the installation and click **OK**.
 
 ![Select the language to use during the installation](<../.gitbook/assets/Select Setup Language.png>)
@@ -60,16 +73,6 @@ TODO:&#x20;
 * Click **Finish** to close the installer and **Launch Audacity**
 
 ![Click Finish to close the installer](<../.gitbook/assets/Setup - Completed.png>)
-
-Congrats!  Now you can use Audacity to record and edit your audio. Consider these next steps:
-
-{% content-ref url="../basics/recording-your-voice-and-microphone/" %}
-[recording-your-voice-and-microphone](../basics/recording-your-voice-and-microphone/)
-{% endcontent-ref %}
-
-{% content-ref url="../basics/audacity-editing.md" %}
-[audacity-editing.md](../basics/audacity-editing.md)
-{% endcontent-ref %}
 {% endtab %}
 
 {% tab title="macOS" %}
@@ -82,7 +85,7 @@ Congrats!  Now you can use Audacity to record and edit your audio. Consider thes
 1. Head to the download page: [https://www.audacityteam.org/download/linux/](https://www.audacityteam.org/download/linux/)\
    It will automatically download the AppImage after 5 seconds.&#x20;
 2.  Make the downloaded AppImage runnable. \
-    To do this, you can **right-click** the file **> Properties > Permissions**\
+    To do this, you can **right-click** the file **-> Properties -> Permissions**\
     or run the following command in the terminal:&#x20;
 
     ```
@@ -93,4 +96,14 @@ Congrats!  Now you can use Audacity to record and edit your audio. Consider thes
 Additionally, your Linux distribution (for example Ubuntu, Fedora or Debian) may have a version of Audacity as part of the repository. This version is typically _older_ than the latest AppImage, but may be better integrated into your distribution.&#x20;
 {% endtab %}
 {% endtabs %}
+
+Congrats!  Now you can use Audacity to record and edit your audio. Consider these next steps:
+
+{% content-ref url="../basics/recording-your-voice-and-microphone/" %}
+[recording-your-voice-and-microphone](../basics/recording-your-voice-and-microphone/)
+{% endcontent-ref %}
+
+{% content-ref url="../basics/audacity-editing.md" %}
+[audacity-editing.md](../basics/audacity-editing.md)
+{% endcontent-ref %}
 
