@@ -19,7 +19,6 @@
   * [Using Macros to Automate Frequent Tasks](todo/using-macros-to-automate-frequent-tasks.md)
   * [Using looping Playback](todo/using-looping-playback.md)
   * [Solving other problems](todo/solving-other-problems.md)
-  * [Installing Plugins](todo/installing-plugins.md)
   * [How to use Audacity](todo/how-to-use-audacity.md)
   * [Working with Tracks](todo/untitled.md)
   * [Splitting a Recording into Separate Tracks](todo/splitting-a-recording-into-separate-tracks.md)
@@ -33,6 +32,7 @@
 * [Editing Audio](basics/audacity-editing.md)
 * [Saving and Exporting Projects](basics/saving-and-exporting-projects/README.md)
   * [Installing FFMPEG](basics/saving-and-exporting-projects/installing-ffmpeg.md)
+* [Installing Plugins](basics/installing-plugins.md)
 * [Keyboard Shortcuts](basics/keyboard-shortcuts.md)
 
 ## Repairing Audio Recordings <a href="#repairing-audio" id="repairing-audio"></a>
@@ -52,6 +52,10 @@
 
 * [Spectral Analysis](audio-analysis/untitled.md)
 
+## Troubleshooting
+
+* [Recovering Corrupted Projects](troubleshooting/recovering-corrupted-projects.md)
+
 ## Community
 
 * [💬 Discord](https://discord.gg/audacity)
@@ -61,7 +65,3 @@
 ***
 
 * [Imported from the Manual](imported-from-the-manual.md)
-
-## Troubleshooting
-
-* [Recovering Corrupted Projects](troubleshooting/recovering-corrupted-projects.md)
