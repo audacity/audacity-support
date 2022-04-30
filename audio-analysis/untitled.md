@@ -1,12 +1,10 @@
+---
+description: >-
+  Audacity has several powerful spectral analysis tools: Spectrogram View per
+  track, Plot Spectrum, as well as support for Plugins.
+---
+
 # Spectral Analysis
-
-* [x] Spectrogram View
-* [ ] Plot Spectrum
-
-Audacity has several powerful spectral analysis tools:
-
-* Spectrogram View shows how the audio spectrum changes over time
-* Plot Spectrum shows
 
 ## Spectrogram View
 
@@ -49,4 +47,45 @@ Additionally, while hovering over the frequency scale, you can&#x20;
 
 ## Plot Spectrum
 
-TODO
+To use Plot Spectrum,&#x20;
+
+1. **select** the audio you're interested in analyzing
+2. go to **Analyze -> Plot Spectrum**.
+
+![The Plot Spectrum Window](<../.gitbook/assets/image (17).png>)
+
+### Options
+
+#### Algorithm
+
+* **Spectrum** (default) \
+  Plots the fast Fourier Transform (**FFT**) of the data, with the FFT window size being determined by the **Size** dropdown. The amplitudes are normalized such that a 0 dB sine (pure tone) will be (approximately) 0 dB on the graph.
+* **Autocorrelation**\
+  ****These options measure to what extent the sound repeats itself. \
+  This is done by taking two copies of the audio, and moving one forward by one sample. The two copies are then multiplied together, and all the values added up. This is repeated for two samples difference and so on, up to the number of samples in the **size** option. This gives a small result if the waveform is random (for example, noise) and a large result if it is repetitive (like a musical note). By looking at the peaks in the plot, the key frequencies present can be determined even if there is a lot of noise.
+* **Cepstrum**\
+  ****The cepstrum of an audio signal is related to the spectrum, but presents the rate of change in the different spectrum bands. It's particularly useful for properties of vocal tracks and is used, for example, in software to identify speakers by their voice characteristics.
+
+#### Function
+
+Function offers choices like Rectangular, Hann, Hamming and others. We suggest you use the default Hann for most situations.&#x20;
+
+<details>
+
+<summary>Details</summary>
+
+The fundamental principle at work here is that the way we observe our data changes what we see. The "true spectrum" of your project would be computed over the entire project and would provide very detailed frequency resolution but essentially no time resolution at all. In other words, this "true spectrum" would offer an average frequency distribution over the entire project. If we select a short interval of audio, the short-time spectrum has frequency resolution limited by the observation window time AND the result is affected by the spectrum of the window itself. For general audio analysis, the Rectangular window is least desirable, and the other options offer slightly different effects
+
+</details>
+
+### Exporting a spectrum for further analysis
+
+Click the **Export...** button to export the current view as a tab-separated value text file.&#x20;
+
+## Analyzer Plugins
+
+Audacity supports the **Vamp** plugin format among others. Many of them can be found in the [Vamp Plugin Pack](https://app.gitbook.com/s/klCVENFte0GRy5IqVz0W/real-time-effects/plugin-suites#vamp-plugin-pack).&#x20;
+
+{% content-ref url="https://app.gitbook.com/o/-MhmG2mhIIHTtQPuHV_k/s/klCVENFte0GRy5IqVz0W/" %}
+[Audacity Plugins](https://app.gitbook.com/o/-MhmG2mhIIHTtQPuHV\_k/s/klCVENFte0GRy5IqVz0W/)
+{% endcontent-ref %}

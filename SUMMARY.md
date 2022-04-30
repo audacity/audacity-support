@@ -14,16 +14,16 @@
   * [Testing Latency](todo/testing-latency.md)
   * [Downloading & Installing Audacity](todo/downloading-and-installing-audacity.md)
   * [Isolating or Removing Vocals from a Song](todo/isolating-or-removing-vocals-from-a-song.md)
-  * [ASIO in Audacity](todo/asio-in-audacity.md)
-  * [Synchronizing Tracks](todo/synchronizing-tracks/README.md)
-    * [Keeping Tracks Synchronized](todo/synchronizing-tracks/keeping-tracks-synchronized.md)
+  * [Solving Recording Problems](todo/solving-recording-problems.md)
+  * [Solving other problems](todo/solving-other-problems.md)
+  * [Splitting a Recording into Separate Tracks](todo/splitting-a-recording-into-separate-tracks.md)
+  * [Synchronizing Tracks](todo/synchronizing-tracks.md)
   * [Using Macros to Automate Frequent Tasks](todo/using-macros-to-automate-frequent-tasks.md)
   * [Using looping Playback](todo/using-looping-playback.md)
-  * [Solving other problems](todo/solving-other-problems.md)
   * [How to use Audacity](todo/how-to-use-audacity.md)
   * [Working with Tracks](todo/untitled.md)
-  * [Splitting a Recording into Separate Tracks](todo/splitting-a-recording-into-separate-tracks.md)
-  * [Solving Recording Problems](todo/solving-recording-problems.md)
+  * [ASIO in Audacity](todo/asio-in-audacity.md)
+  * [Keeping Tracks Synchronized](todo/keeping-tracks-synchronized.md)
 
 ## Audacity Basics <a href="#basics" id="basics"></a>
 
