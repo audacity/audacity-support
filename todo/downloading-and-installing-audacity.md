@@ -9,10 +9,7 @@ description: >-
 
 TODO:&#x20;
 
-* [x] Windows needs to be slightly less handwavy (people on this page will need the level of detail to follow)
-* [ ] Microsoft Store instructions
 * [ ] macOS
-* [x] Also, it should show some more article on what to do next once it's installed.
 
 {% tabs %}
 {% tab title="Windows" %}
