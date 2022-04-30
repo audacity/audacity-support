@@ -12,25 +12,6 @@ A set of LADSPA effects.
 
 {% embed url="http://plugin.org.uk" %}
 
-### Vamp Plugin Pack
-
-A plugin collection for various Vamp Analyzers. The plugins included are all open source software developed and published by various different authors and institutions:
-
-* BBC
-* Carl Bussey
-* Chris Cannam
-* Jamie Bullock
-* Marsyas Plugins
-* Matthias Mauch
-* Paul Brossier
-* Queen Mary, University of London
-* Simon Dixon and Chris Cannam
-* University of Alicante
-
-Download page:
-
-{% embed url="https://www.vamp-plugins.org/pack.html" %}
-
 ## Available for Windows
 
 

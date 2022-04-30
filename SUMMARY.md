@@ -14,7 +14,6 @@
 * [Equalizers](real-time-effects/equalizers.md)
 * [Noise Removal and Repair](real-time-effects/noise-removal-and-repair.md)
 * [Spectral Editing tools](real-time-effects/spectral-editing-tools.md)
-* [Analysis plugins](real-time-effects/analysis-plugins.md)
 
 ## Nyquist Plugins
 
@@ -34,4 +33,7 @@
   * [Modulation Effects](nyquist-plugins/effect-plugins/modulation-effects.md)
   * [Sequencer Effects](nyquist-plugins/effect-plugins/sequencer-effects.md)
   * [Time, Pitch and Tempo](nyquist-plugins/effect-plugins/time-pitch-and-tempo.md)
-* [Analyze Plugins](nyquist-plugins/analyze-plugins.md)
+
+## Analyzers
+
+* [Analysis plugins](analyzers/analysis-plugins.md)
