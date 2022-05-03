@@ -32,7 +32,7 @@ When making a loop out of music, you often will be able to see repetitions in th
 
 ### Fine-tuning the loop and removing clicks
 
-To make the loop seamless, you may need to zoom in some more, using `Ctrl+Scroll` (`Cmd+Scroll`) or the ![](<../.gitbook/assets/image (14).png>) magnifying glass.&#x20;
+To make the loop seamless, you may need to zoom in some more, using `Ctrl+Scroll` (`Cmd+Scroll`) or the ![](<../.gitbook/assets/magnifying icon.png>) magnifying glass.&#x20;
 
 {% hint style="success" %}
 Best practice: Set your looping points at a zero crossing, where the waveform (blue line) crosses 0 (black line):&#x20;

@@ -27,7 +27,7 @@ To remove a section of an audio file, first select the section by **clicking and
 ![A selected waveform](../.gitbook/assets/create\_selection.png)
 
 {% hint style="info" %}
-**Hint**: You can zoom in using the ![](<../.gitbook/assets/image (14).png>)Zoom+ icon, or by `Ctrl+Scroll` (`Cmd+Scroll`) to precisely adjust the beginning and end of the selection.
+**Hint**: You can zoom in using the ![](<../.gitbook/assets/magnifying icon.png>)Zoom+ icon, or by `Ctrl+Scroll` (`Cmd+Scroll`) to precisely adjust the beginning and end of the selection.
 {% endhint %}
 
 Once you have a selection, press `Delete` or `Backspace` to delete it.&#x20;

@@ -30,7 +30,7 @@ The time resolution decides on whether the algorithm will focus on frequencies a
 
 To change speed and pitch at the same time, use **Effect > Change Speed**.
 
-![The "Change speed" effect dialog](<../.gitbook/assets/image (10).png>)
+![The "Change speed" effect dialog](<../.gitbook/assets/change speed.png>)
 
 Unlike [Change Tempo](speeding-up-and-slowing-down-audio.md#changing-the-speed-while-preserving-pitch), the Change Speed effect keeps the waveform mostly intact, so you can use this method repeatedly without any major loss in quality.&#x20;
 

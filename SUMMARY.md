@@ -26,7 +26,7 @@
 
 ## Audacity Basics <a href="#basics" id="basics"></a>
 
-* [Downloading & Installing Audacity](basics/downloading-and-installing-audacity.md)
+* [Downloading & Installing Audacity](todo/downloading-and-installing-audacity.md)
 * [Recording your Voice & Microphone](basics/recording-your-voice-and-microphone/README.md)
   * [Setting Recording Levels and Playback Levels](basics/recording-your-voice-and-microphone/setting-recording-levels-and-playback-levels.md)
 * [Recording Desktop Audio](basics/recording-desktop-audio.md)
