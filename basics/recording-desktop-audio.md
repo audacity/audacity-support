@@ -8,7 +8,7 @@ Audacity can record computer audio (including sound from YouTube, Spotify and mo
 {% tab title="Windows" %}
 1.  In the device toolbar, select WASAPI.&#x20;
 
-    ![](<../.gitbook/assets/image (18).png>)
+    ![](<../.gitbook/assets/image (18) (1).png>)
 2. Select the output you want to use (the device you're using to listen) as the input. It will be marked with a (loopback) after it's name. \
    ![](../.gitbook/assets/loopback.png)
 

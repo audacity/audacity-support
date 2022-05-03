@@ -25,17 +25,17 @@ If you have installed FFMPEG from a different source, or installed it in a diffe
 1. Go to **Edit > Preferences > Libraries**
 2.  Click on the **Locate...** button.&#x20;
 
-    ![](<../../.gitbook/assets/ffmpeg settings.png>)
+    ![](<../../.gitbook/assets/image (4).png>)
 3.  **If the following message appears**, Audacity has automatically identified FFMPEG:
 
-    ![](<../../.gitbook/assets/ffmpeg success.png>)
+    ![](<../../.gitbook/assets/image (19).png>)
 
     You can click **No** as Audacity already knows where to find FFMPEG.&#x20;
 
     If this message **does not appear**, proceed with the next steps.
 4.  In this dialog window, click **Browse...** to locate the avformat-\*.dll from the FFMPEG folder you downloaded/installed elsewhere&#x20;
 
-    ![](<../../.gitbook/assets/ffmpeg locate.png>)
+    ![](<../../.gitbook/assets/image (11).png>)
 5. Once you've found it, click **Open**, then **OK**, then **OK** again to close the preferences.&#x20;
 
 {% hint style="info" %}

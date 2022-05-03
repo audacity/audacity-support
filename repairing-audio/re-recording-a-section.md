@@ -41,7 +41,7 @@ If your audio recording broke at one specific point in time (for example because
 
 To use it:&#x20;
 
-1. Select the bad part of the recording and silence it. You can do this by clicking the ![](<../.gitbook/assets/silence icon.png>) **Silence Audio Selection** button (found next to the _undo_ and _cut/copy/paste_ buttons), or by pressing `Ctrl+L` (`Cmd+L`)
+1. Select the bad part of the recording and silence it. You can do this by clicking the ![](<../.gitbook/assets/image (12).png>) **Silence Audio Selection** button (found next to the _undo_ and _cut/copy/paste_ buttons), or by pressing `Ctrl+L` (`Cmd+L`)
 2.  Select a couple of seconds of audio before and after the bad part. With overdubbing turned on, recording will playback the recording back to you and help you match the timing.
 
     ![](<../.gitbook/assets/image (7).png>)

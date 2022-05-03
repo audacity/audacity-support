@@ -19,6 +19,7 @@
   * [Synchronizing Tracks](todo/synchronizing-tracks.md)
   * [Using Macros to Automate Frequent Tasks](todo/using-macros-to-automate-frequent-tasks.md)
   * [Using looping Playback](todo/using-looping-playback.md)
+  * [Mastering for Audio Books](todo/mastering-for-audio-books.md)
   * [How to use Audacity](todo/how-to-use-audacity.md)
   * [Working with Tracks](todo/untitled.md)
   * [ASIO in Audacity](todo/asio-in-audacity.md)
