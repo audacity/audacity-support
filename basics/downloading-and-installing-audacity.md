@@ -7,10 +7,6 @@ description: >-
 
 # Downloading & Installing Audacity
 
-TODO:&#x20;
-
-* [ ] macOS
-
 {% tabs %}
 {% tab title="Windows" %}
 ## Downloading through the Microsoft Store
@@ -78,9 +74,25 @@ Audacity is now installed. You can start Audacity from the start menu.
 {% endtab %}
 
 {% tab title="macOS" %}
-****
+## Downloading from the Internet
 
+*   Head to the download page: [https://www.audacityteam.org/download/mac/](https://www.audacityteam.org/download/mac/)
 
+    It will automatically download the latest version of Audacity after 5 seconds.
+* If prompted, click **Save**.
+* Once the download has completed to your Downloads folder, double-click the DMG file to mount it.
+*   Drag the Audacity.app icon rightwards onto the "Applications" folder shortcut.
+
+    * You can also drag Audacity out of the DMG to any other location. You need the administrator password to copy Audacity to "Applications".
+
+    <img src="../.gitbook/assets/Screen Shot 2022-05-02 at 5.18.41 PM (1).png" alt="" data-size="original">
+* Launch Audacity.app from /Applications or from your chosen location.\
+  **Note:** Do not double-click the "Audacity" icon in the DMG to launch Audacity from there.
+*   Once the program has opened press "OK" to start editing!
+
+    * Additionally, you may check the "Don't show this again at start up" prompt.
+
+    ![](<../.gitbook/assets/Screen Shot 2022-05-02 at 5.21.20 PM.png>)
 {% endtab %}
 
 {% tab title="Linux" %}
@@ -101,11 +113,11 @@ Additionally, your Linux distribution (for example Ubuntu, Fedora or Debian) may
 
 Congrats!  Now you can use Audacity to record and edit your audio. Consider these next steps:
 
-{% content-ref url="../basics/recording-your-voice-and-microphone/" %}
-[recording-your-voice-and-microphone](../basics/recording-your-voice-and-microphone/)
+{% content-ref url="recording-your-voice-and-microphone/" %}
+[recording-your-voice-and-microphone](recording-your-voice-and-microphone/)
 {% endcontent-ref %}
 
-{% content-ref url="../basics/audacity-editing.md" %}
-[audacity-editing.md](../basics/audacity-editing.md)
+{% content-ref url="audacity-editing.md" %}
+[audacity-editing.md](audacity-editing.md)
 {% endcontent-ref %}
 

@@ -11,7 +11,7 @@ This article addresses the following error codes in Audacity:&#x20;
 * Error code 101
 * "Audacity failed to read a file in C:" (or D:, E:, ...)
 
-Make sure you use the latest version of Audacity. See[downloading-and-installing-audacity.md](../todo/downloading-and-installing-audacity.md "mention") for more information.
+Make sure you use the latest version of Audacity. See[downloading-and-installing-audacity.md](../basics/downloading-and-installing-audacity.md "mention") for more information.
 
 Sometimes, just opening the file in the latest version automatically recovers the project. If not, proceed with the following steps:&#x20;
 

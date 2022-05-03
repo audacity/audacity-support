@@ -12,7 +12,6 @@
   * [Credits & License](contributing/credits-and-license.md)
 * [TODO](todo/README.md)
   * [Testing Latency](todo/testing-latency.md)
-  * [Downloading & Installing Audacity](todo/downloading-and-installing-audacity.md)
   * [Isolating or Removing Vocals from a Song](todo/isolating-or-removing-vocals-from-a-song.md)
   * [Solving Recording Problems](todo/solving-recording-problems.md)
   * [Solving other problems](todo/solving-other-problems.md)
@@ -27,6 +26,7 @@
 
 ## Audacity Basics <a href="#basics" id="basics"></a>
 
+* [Downloading & Installing Audacity](basics/downloading-and-installing-audacity.md)
 * [Recording your Voice & Microphone](basics/recording-your-voice-and-microphone/README.md)
   * [Setting Recording Levels and Playback Levels](basics/recording-your-voice-and-microphone/setting-recording-levels-and-playback-levels.md)
 * [Recording Desktop Audio](basics/recording-desktop-audio.md)
