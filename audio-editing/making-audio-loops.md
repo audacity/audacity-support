@@ -50,6 +50,6 @@ If you had dragging selection enabled (see Step 1.3), you now can simply **right
 
 ## See Also:
 
-{% content-ref url="../basics/saving-and-exporting-projects/" %}
-[saving-and-exporting-projects](../basics/saving-and-exporting-projects/)
+{% content-ref url="../basics/saving-and-exporting-projects.md" %}
+[saving-and-exporting-projects.md](../basics/saving-and-exporting-projects.md)
 {% endcontent-ref %}

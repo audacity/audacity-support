@@ -27,13 +27,13 @@
 
 ## Audacity Basics <a href="#basics" id="basics"></a>
 
-* [Downloading & Installing Audacity](todo/downloading-and-installing-audacity.md)
+* [Downloading & Installing Audacity](basics/downloading-and-installing-audacity/README.md)
+  * [Installing FFMPEG](basics/downloading-and-installing-audacity/installing-ffmpeg.md)
 * [Recording your Voice & Microphone](basics/recording-your-voice-and-microphone/README.md)
   * [Setting Recording Levels and Playback Levels](basics/recording-your-voice-and-microphone/setting-recording-levels-and-playback-levels.md)
 * [Recording Desktop Audio](basics/recording-desktop-audio.md)
 * [Editing Audio](basics/audacity-editing.md)
-* [Saving and Exporting Projects](basics/saving-and-exporting-projects/README.md)
-  * [Installing FFMPEG](basics/saving-and-exporting-projects/installing-ffmpeg.md)
+* [Saving and Exporting Projects](basics/saving-and-exporting-projects.md)
 * [Installing Plugins](basics/installing-plugins.md)
 * [Keyboard Shortcuts](basics/keyboard-shortcuts.md)
 

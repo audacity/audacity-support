@@ -1,6 +1,10 @@
-# Recording Desktop Audio
+---
+description: >-
+  Audacity can record computer audio (including sound from YouTube, Spotify and
+  more).
+---
 
-Audacity can record computer audio (including sound from YouTube, Spotify and more).&#x20;
+# Recording Desktop Audio
 
 ## 1. Select the loopback device
 

@@ -58,6 +58,6 @@ If you run into trouble with any of these steps, you may find the solution here:
 
 ## Next Steps
 
-* Once you've made your recording, make sure to save your work. This applies regardless of whether you intend on editing it later or not. [saving-and-exporting-projects](../saving-and-exporting-projects/ "mention")
+* Once you've made your recording, make sure to save your work. This applies regardless of whether you intend on editing it later or not. [saving-and-exporting-projects.md](../saving-and-exporting-projects.md "mention")
 * If you want to edit your recording afterwards: [audacity-editing.md](../audacity-editing.md "mention")
 

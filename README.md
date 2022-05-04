@@ -1,5 +1,5 @@
 ---
-description: This is a work in progress of a new idea of a manual for Audacity.
+description: How-Tos and Tutorials for Audacity
 ---
 
 # Audacity Support
@@ -7,8 +7,24 @@ description: This is a work in progress of a new idea of a manual for Audacity.
 {% hint style="warning" %}
 Audacity Support still is in a very early stage and under heavy development.&#x20;
 
-Do check out [tutorials](contributing/tutorials/ "mention") and the [todo](todo/ "mention") category for what needs to be done (at least)
+Do check out [tutorials](contributing/tutorials/ "mention") if you want to contribute.
 {% endhint %}
 
-Want to get started using Audacity? Check out the tutorial series [Audacity Basics](broken-reference).
+Quick links to get started:&#x20;
+
+{% content-ref url="basics/downloading-and-installing-audacity/" %}
+[downloading-and-installing-audacity](basics/downloading-and-installing-audacity/)
+{% endcontent-ref %}
+
+{% content-ref url="basics/downloading-and-installing-audacity/installing-ffmpeg.md" %}
+[installing-ffmpeg.md](basics/downloading-and-installing-audacity/installing-ffmpeg.md)
+{% endcontent-ref %}
+
+{% content-ref url="basics/audacity-editing.md" %}
+[audacity-editing.md](basics/audacity-editing.md)
+{% endcontent-ref %}
+
+{% content-ref url="repairing-audio/noise-reduction-removal.md" %}
+[noise-reduction-removal.md](repairing-audio/noise-reduction-removal.md)
+{% endcontent-ref %}
 
