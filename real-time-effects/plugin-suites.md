@@ -14,7 +14,13 @@ A set of LADSPA effects.
 
 ## Available for Windows
 
+### Reaplugs
 
+A selection of some effects found in Reaper.&#x20;
+
+{% embed url="https://www.reaper.fm/reaplugs" %}
+Download page
+{% endembed %}
 
 ## Available for macOS
 
