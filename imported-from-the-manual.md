@@ -1,2 +1,0 @@
-# Imported from the Manual
-
