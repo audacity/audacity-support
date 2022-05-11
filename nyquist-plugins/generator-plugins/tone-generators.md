@@ -8,9 +8,9 @@ Generates a nasal-sounding tone composed of the base frequency plus n-1 harmonic
 Download link
 {% endfile %}
 
-{% file src="../../.gitbook/assets/buzz1.mp3" %}
-Buzz Tone audio file
-{% endfile %}
+{% embed url="https://soundcloud.com/audacityteam/nyquist-plugin-buzz-tone-generator?si=141c672a8a9243c9a0de01c6155b55f1" %}
+Plugin Preview
+{% endembed %}
 
 <details>
 
