@@ -58,26 +58,3 @@ A software tuning fork, with a table giving C notes and their equivalent MIDI no
 
 </details>
 
-## Variable Duration Silence Generator
-
-This plug-in will generate any length of silence from 0.000 to 60.999 seconds.
-
-{% file src="../../.gitbook/assets/varsilence.ny" %}
-Download link
-{% endfile %}
-
-<details>
-
-<summary>Details</summary>
-
-Author: [David R.Sky](https://audionyq.com/david\_r\_sky)
-
-This plug-in will generate any length of silence from 0.000 to 60.999 seconds. This plug-in may be useful if you need to run a legacy version of Audacity where the silence generator by default only lets you choose a value in whole seconds.
-
-Parameters:
-
-1. **Silence duration 1:** \[0 - 60 seconds]
-2. **Silence duration 2:** \[0.000 to 0.999 seconds] - change this if you want a value other than in whole seconds. Both values will be added to determine the silence to be generated.
-
-</details>
-

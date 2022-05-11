@@ -34,6 +34,8 @@ Parameters:
 
 ## Surf-LFO
 
+An LFO surf generator.
+
 {% file src="../../.gitbook/assets/surf-lfo.ny" %}
 Download link
 {% endfile %}
@@ -77,6 +79,8 @@ Both the above determine how low and how high the low-pass filter sweeps the sur
 </details>
 
 ## Surf-Oxy
+
+A surf generator inspired by Jean-Michel Jarre's album _Oxygene_.
 
 {% file src="../../.gitbook/assets/surf-oxy.ny" %}
 Download link
