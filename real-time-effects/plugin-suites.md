@@ -6,6 +6,14 @@ description: Families of plugins by the same authors
 
 ## Available for all platforms
 
+### GVST
+
+A set of simple VST effects, most known for the GSnap (auto-tune) effect.
+
+{% embed url="https://www.gvst.co.uk/packages.htm" %}
+Download page
+{% endembed %}
+
 ### swh Plugins
 
 A set of LADSPA effects.
