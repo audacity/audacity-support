@@ -26,7 +26,7 @@ Audacity has built-in support for Nyquist effects on all operating systems. You 
 
 ### &#x20;**LV2 plugins**
 
-Audacity has built-in support for [LV2](http://lv2plug.in) plug-ins, which are an extensible successor of LADSPA effects. LV2 plug-ins are mostly built for Linux, but Audacity supports LV2 on all operating systems. To install LV2 plug-ins, place them in the [system LV2 location](http://manual.audacityteam.org/man/effect\_menu.html#LV2\_effects) then use the Plug-ins Manager to enable the new plug-ins as in the plug-in installation instructions.
+Audacity has built-in support for [LV2](http://lv2plug.in/) plug-ins, which are an extensible successor of LADSPA effects. LV2 plug-ins are mostly built for Linux, but Audacity supports LV2 on all operating systems. To install LV2 plug-ins, place them in the [system LV2 location](http://manual.audacityteam.org/man/effect\_menu.html#LV2\_effects) then use the Plug-ins Manager to enable the new plug-ins as in the plug-in installation instructions.
 
 ### &#x20;**VST plugins**
 
@@ -34,8 +34,8 @@ Audacity can load VST effects (but not VST instruments) on all operating systems
 
 VST effects can be found on many plug-in sites such as:
 
-* [Hitsquad](http://www.hitsquad.com): [Windows](http://www.hitsquad.com/smm/win95/PLUGINS\_VST/), [Mac](http://www.hitsquad.com/smm/mac/PLUGINS\_VST/)
-* [KVR Audio](http://www.kvraudio.com): [Windows](http://www.kvraudio.com/q.php?search=1\&os\[]=win32\&ty\[]=e\&f1\[]=vst\&pr\[]=f\&sh\[]=s), [Mac](http://www.kvraudio.com/q.php?search=1\&os\[]=mac32\&ty\[]=e\&f1\[]=vst\&pr\[]=f\&sh\[]=s)
+* [Hitsquad](http://www.hitsquad.com/): [Windows](http://www.hitsquad.com/smm/win95/PLUGINS\_VST/), [Mac](http://www.hitsquad.com/smm/mac/PLUGINS\_VST/)
+* [KVR Audio](http://www.kvraudio.com/): [Windows](http://www.kvraudio.com/q.php?search=1\&os\[]=win32\&ty\[]=e\&f1\[]=vst\&pr\[]=f\&sh\[]=s), [Mac](http://www.kvraudio.com/q.php?search=1\&os\[]=mac32\&ty\[]=e\&f1\[]=vst\&pr\[]=f\&sh\[]=s)
 * [Open Directory](http://dmoz.org/Computers/Multimedia/Music\_and\_Audio/Software/Plug-ins/) (Windows, Mac).
 
 ### Audio Unit plugins
