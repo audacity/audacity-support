@@ -10,7 +10,7 @@ You can download and install FFMPEG as follows:
 
 1.  Download FFMPEG (**FFmpeg v2.2.2 INSTALLER (.EXE)**) from a third party site, for example [https://lame.buanzo.org/ffmpeg64audacity.php](https://lame.buanzo.org/ffmpeg64audacity.php)&#x20;
 
-    Note: This is the 64-bit Windows download page, if your Audacity version is 32-bit, choose a different download from [https://lame.buanzo.org/](https://lame.buanzo.org)
+    Note: This is the 64-bit Windows download page, if your Audacity version is 32-bit, choose a different download from [https://lame.buanzo.org/](https://lame.buanzo.org/)
 2. Run the downloaded installer (in this case, _FFmpeg\_v2.2.2\_for\_Audacity\_on\_Windows\_64bit.exe_). You can ignore the "unknown publisher" warning.&#x20;
 3. Read and accept the license
 4. Finish the installation. The installer will install FFMPEG into  **C:\Program Files\FFmpeg for Audacity**

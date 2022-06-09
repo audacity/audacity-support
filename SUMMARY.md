@@ -17,7 +17,10 @@
   * [Solving other problems](todo/solving-other-problems.md)
   * [Splitting a Recording into Separate Tracks](todo/splitting-a-recording-into-separate-tracks.md)
   * [Synchronizing Tracks](todo/synchronizing-tracks.md)
-  * [Using Macros to Automate Frequent Tasks](todo/using-macros-to-automate-frequent-tasks.md)
+  * [Using Macros to Automate Frequent Tasks](todo/using-macros-to-automate-frequent-tasks/README.md)
+    * [Manage Macros](todo/using-macros-to-automate-frequent-tasks/manage-macros.md)
+    * [Macros Palette](todo/using-macros-to-automate-frequent-tasks/macros-palette.md)
+    * [Macros Examples](todo/using-macros-to-automate-frequent-tasks/macros-examples.md)
   * [Using looping Playback](todo/using-looping-playback.md)
   * [Mastering for Audio Books](todo/mastering-for-audio-books.md)
   * [How to use Audacity](todo/how-to-use-audacity.md)
@@ -61,5 +64,5 @@
 ## Community
 
 * [💬 Discord](https://discord.gg/audacity)
-* [💬 Forum](https://forum.audacityteam.org)
+* [💬 Forum](https://forum.audacityteam.org/)
 * [Info for Visually Impaired Users](https://vip.chowo.co.uk/wp-content/uploads/jaws/Audacity-3.1.0-Guide.html)
