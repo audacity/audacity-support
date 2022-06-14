@@ -52,8 +52,8 @@ When you have made the recording, listen back to it. If everything went well, yo
 
 If you run into trouble with any of these steps, you may find the solution here:
 
-{% content-ref url="../../todo/solving-recording-problems.md" %}
-[solving-recording-problems.md](../../todo/solving-recording-problems.md)
+{% content-ref url="../../todo/solving-recording-problems/" %}
+[solving-recording-problems](../../todo/solving-recording-problems/)
 {% endcontent-ref %}
 
 ## Next Steps

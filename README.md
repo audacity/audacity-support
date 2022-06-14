@@ -12,8 +12,8 @@ Do check out [tutorials](contributing/tutorials/ "mention") if you want to contr
 
 Quick links to get started:&#x20;
 
-{% content-ref url="basics/downloading-and-installing-audacity/" %}
-[downloading-and-installing-audacity](basics/downloading-and-installing-audacity/)
+{% content-ref url="todo/downloading-and-installing-audacity.md" %}
+[downloading-and-installing-audacity.md](todo/downloading-and-installing-audacity.md)
 {% endcontent-ref %}
 
 {% content-ref url="basics/downloading-and-installing-audacity/installing-ffmpeg.md" %}

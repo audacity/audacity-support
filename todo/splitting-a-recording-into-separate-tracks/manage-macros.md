@@ -9,7 +9,7 @@ description: >-
 
 Any [built-in](https://manual.audacityteam.org/man/effect\_menu.html#built-in), [LADSPA](https://manual.audacityteam.org/man/effect\_menu\_ladspa.html), [LV2](https://manual.audacityteam.org/man/effect\_menu\_lv2.html), [Nyquist](https://manual.audacityteam.org/man/effect\_menu\_nyquist.html), [VST](https://manual.audacityteam.org/man/effect\_menu\_vst.html) or [Audio Unit](https://manual.audacityteam.org/man/effect\_menu\_audiounit.html) (Mac) effect shown in the [Effect Menu](https://manual.audacityteam.org/man/effect\_menu.html) can be added to a Macro. You can also add plug-ins in any format that are shown in the [Generate](https://manual.audacityteam.org/man/generate\_menu.html) or [Analyze](https://manual.audacityteam.org/man/analyze\_menu.html) Menus (including [Vamp](https://manual.audacityteam.org/man/analyze\_menu.html#vamp) analysis effects), the built-in [Find Clipping](https://manual.audacityteam.org/man/find\_clipping.html) analyzer and a number of export commands.
 
-Macros may be applied to either the entirety of the current project or to a selection of files using the Tools > [Macros...](./) command.
+Macros may be applied to either the entirety of the current project or to a selection of files using the Tools > [Macros...](../using-macros-to-automate-frequent-tasks.md) command.
 
 It is possible to use [Noise Reduction](https://manual.audacityteam.org/man/noise\_reduction.html) in Macros but see [Noise Reduction Tips](https://manual.audacityteam.org/man/noise\_reduction.html#macros) for how the Noise Profile is captured.
 

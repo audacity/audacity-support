@@ -29,7 +29,7 @@ Later in this tutorial we mention that you can use the **Analyze > Label Sounds.
 
 **Mark the start of the first song**
 
-1. Click the **Skip to Start** button ![](<../.gitbook/assets/image (6).png>)
+1. Click the **Skip to Start** button ![](<../../.gitbook/assets/image (6).png>)
 2.  Click on **Edit > Labels >** [**Add Label at Selection**](https://manual.audacityteam.org/man/edit\_menu\_labels.html#addlabelatselection), or use shortcut **Ctrl + B**.
 
     A new label is created in a new [label track](https://manual.audacityteam.org/man/label\_tracks.html) underneath the audio track. The contents of the label are selected and ready for editing. If you need to play the track to decide where to place the split points, you can use **Add Label at Playback Position** instead (directly underneath [Add Label at Selection](https://manual.audacityteam.org/man/edit\_menu\_labels.html#addlabelatselection), or use shortcut **Ctrl + M** _(on Mac it is **⌘ + .**)_.
@@ -45,7 +45,7 @@ Later in this tutorial we mention that you can use the **Analyze > Label Sounds.
 6. Repeatedly click the **Zoom Out** button ![The Zoom Out tool](https://manual.audacityteam.org/m/images/d/d3/tool\_edit\_zoomout.png) until you can see the start of the third song
 7. Continue in this manner adding a label to mark the start of each song
 
-![Label at the start of the second song in the audio track](<../.gitbook/assets/image (7).png>)
+![Label at the start of the second song in the audio track](<../../.gitbook/assets/image (7) (1).png>)
 
 {% hint style="info" %}
 You can save time by using **Analyze >** [**Label Sounds...**](https://manual.audacityteam.org/man/label\_sounds.html) to automatically label the regions to be exported for the songs. This method thus lets you exclude some or all of the areas between songs.
