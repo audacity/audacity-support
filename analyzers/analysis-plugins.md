@@ -64,6 +64,35 @@ Also beware that some noise sources are worse than others, and noise such as the
 
 </details>
 
+### MAAT GON
+
+A Goniometer, also known as XY-Oscilloscope or Phase Scope.&#x20;
+
+**Note:** Requires registration. This Analyzer can be found in the Effects category.
+
+{% embed url="https://www.maat.digital/gon/" %}
+Download&#x20;
+{% endembed %}
+
+<details>
+
+<summary>Details</summary>
+
+©2020 MAAT Incorporated, All rights reserved.
+
+Information from the vendor:
+
+_This “phase scope” plug–in quickly conveys global trends and troubles, with a visual out–of–phase warning built in. Plus, an optional autogain feature insures that you’ll see an understandable display with a very wide range of input amplitudes._
+
+_Usable metering is essential for any engineer, and GŌN’s options are equally practical, with a notable absence of controls. Unlike an oscilloscope which takes up room on your producer’s desk or meter bridge, GŌN’s lack of any knobs or switches means its straightforward user interface contains only a single button, the preference’s gear icon at upper right. Control over gain, focus, “phosphor” color, drawing style and persistence are all there in the preferences, and everything can be saved as a personal preset._
+
+_All of GŌN’s functionality is wrapped in an information-rich yet visually unobtrusive user interface that occupies only a small slice of screen real estate. Likewise, the plug-in is very "light weight" demanding an absolute minimum of CPU resources so it won´t slow down your host. As a bonus to everyone in the audio community, we’re giving you this free and rather useful plug-in. Thanks for visiting, and we hope to see more of you in the future!_
+
+\
+
+
+</details>
+
 ### Peak Finder rft
 
 Either places a single label at the first instance of a peak volume, or multiple labels at all the instances of that peak.
