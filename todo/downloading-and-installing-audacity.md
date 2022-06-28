@@ -19,7 +19,7 @@ Audacity is available from the [Microsoft Store](https://apps.microsoft.com/stor
 * The Microsoft Store app will open. Click **Install** to install Audacity.\
   ![](<../.gitbook/assets/image (15).png>)
 * When Windows asks you if the installer may make changes to the system, click **Yes**.\
-  ![](<../.gitbook/assets/image (17) (1).png>)
+  ![](<../.gitbook/assets/image (18).png>)
 
 Audacity is now installed. You can start Audacity from the start menu.
 
@@ -34,7 +34,7 @@ Audacity is now installed. You can start Audacity from the start menu.
 ![Windows 11 warning when running Audacity installer](<../.gitbook/assets/Windows 11 - Microsoft-verified app warning.png>)
 
 * When Windows asks you if the installer may make changes to the system, click **Yes**.\
-  ![](<../.gitbook/assets/image (17) (1).png>)
+  ![](<../.gitbook/assets/image (18).png>)
 * Select the language to use during the installation and click **OK**.
 
 ![Select the language to use during the installation](<../.gitbook/assets/Select Setup Language.png>)

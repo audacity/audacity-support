@@ -8,7 +8,16 @@ You can download various plugins listed on the Audacity Plugins site:
 [Audacity Plugins](https://app.gitbook.com/o/-MhmG2mhIIHTtQPuHV\_k/s/klCVENFte0GRy5IqVz0W/)
 {% endcontent-ref %}
 
-Most plugins get automatically activated once you install them on your system. If they aren't, copy the plugin files into the following folders:
+Most plugins get automatically activated once you install them on your system.
+
+{% hint style="warning" %}
+**Caution:**&#x20;
+
+* 64-bit Audacity cannot run 32-bit plugins, and 32-bit Audacity cannot run 64-bit plugins. Make sure they match.
+* "Instrument" versions of plugins (VSTi, LV2i) are not supported.
+{% endhint %}
+
+## Manually installing Plugins
 
 {% tabs %}
 {% tab title="Windows" %}
@@ -41,13 +50,6 @@ All Plugins can be installed per-user (`~/Library/Audio/Plug-Ins/...`) or system
 * Nyquist: See below
 {% endtab %}
 {% endtabs %}
-
-{% hint style="warning" %}
-**Caution:**&#x20;
-
-* 64-bit Audacity cannot run 32-bit plugins, and 32-bit Audacity cannot run 64-bit plugins. Make sure they match.
-* "Instrument" versions of plugins (VSTi, LV2i) are not supported.
-{% endhint %}
 
 ## Installing Nyquist Plugins
 

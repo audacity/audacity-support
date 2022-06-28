@@ -11,22 +11,17 @@
   * [Plugins](contributing/plugins.md)
   * [Credits & License](contributing/credits-and-license.md)
 * [TODO](todo/README.md)
+  * [Adding realtime effects](todo/adding-realtime-effects.md)
   * [Latency Compensation](todo/latency-compensation.md)
   * [ASIO in Audacity](todo/asio-in-audacity.md)
   * [Synchronizing Tracks](todo/synchronizing-tracks/README.md)
-  * [Solving Recording Problems](todo/solving-recording-problems/README.md)
-    * [Keeping Tracks Synchronized](todo/solving-recording-problems/keeping-tracks-synchronized.md)
+    * [Keeping Tracks Synchronized](todo/synchronizing-tracks/keeping-tracks-synchronized.md)
   * [Using Macros to Automate Frequent Tasks](todo/using-macros-to-automate-frequent-tasks/README.md)
-  * [Splitting a Recording into Separate Tracks](todo/splitting-a-recording-into-separate-tracks/README.md)
-    * [Manage Macros](todo/using-macros-to-automate-frequent-tasks/manage-macros.md)
-    * [Macros Palette](todo/using-macros-to-automate-frequent-tasks/macros-palette.md)
-    * [Macros Examples](todo/using-macros-to-automate-frequent-tasks/macros-examples.md)
   * [Using looping Playback](todo/using-looping-playback.md)
   * [Mastering for Audio Books](todo/mastering-for-audio-books.md)
   * [Solving other problems](todo/solving-other-problems.md)
   * [How to use Audacity](todo/how-to-use-audacity.md)
   * [Working with Tracks](todo/untitled.md)
-  * [Isolating or Removing Vocals from a Song](todo/isolating-or-removing-vocals-from-a-song.md)
 
 ## Audacity Basics <a href="#basics" id="basics"></a>
 
@@ -52,6 +47,11 @@
 * [Making Crossfades](audio-editing/making-crossfades.md)
 * [Speeding up and Slowing down Audio](audio-editing/speeding-up-and-slowing-down-audio.md)
 * [Mixing and Panning Tracks](audio-editing/mixing-and-panning-tracks.md)
+* [Splitting a Recording into Separate Tracks](audio-editing/splitting-a-recording-into-separate-tracks/README.md)
+  * [Manage Macros](audio-editing/splitting-a-recording-into-separate-tracks/manage-macros.md)
+  * [Macros Palette](audio-editing/splitting-a-recording-into-separate-tracks/macros-palette.md)
+  * [Macros Examples](audio-editing/splitting-a-recording-into-separate-tracks/macros-examples.md)
+* [Isolating or Removing Vocals from a Song](audio-editing/isolating-or-removing-vocals-from-a-song.md)
 
 ## Audio Analysis
 
@@ -60,6 +60,7 @@
 ## Troubleshooting
 
 * [Recovering Corrupted Projects](troubleshooting/recovering-corrupted-projects.md)
+* [Solving Recording Problems](troubleshooting/solving-recording-problems.md)
 
 ## Community
 
