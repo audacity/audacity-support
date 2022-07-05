@@ -14,9 +14,9 @@ This site features various Plugins for Audacity, categorized in the sidebar. If 
 
 ## Installing Plugins
 
-When you install plugins,  they're automatically enabled the next time you restart Audacity. Further instructions can be found here:
+When you install plugins, they're automatically enabled the next time you restart Audacity. Further instructions can be found here:
 
-{% embed url="https://app.gitbook.com/o/-MhmG2mhIIHTtQPuHV_k/s/-MhmBVzGzh8SctWQ6jPR/basics/installing-plugins" %}
+{% embed url="https://support.audacityteam.org/basics/installing-plugins" %}
 
 ## Plugin formats
 
@@ -30,13 +30,7 @@ Audacity has built-in support for [LV2](http://lv2plug.in/) plug-ins, which are 
 
 ### &#x20;**VST plugins**
 
-Audacity can load VST effects (but not VST instruments) on all operating systems.
-
-VST effects can be found on many plug-in sites such as:
-
-* [Hitsquad](http://www.hitsquad.com/): [Windows](http://www.hitsquad.com/smm/win95/PLUGINS\_VST/), [Mac](http://www.hitsquad.com/smm/mac/PLUGINS\_VST/)
-* [KVR Audio](http://www.kvraudio.com/): [Windows](http://www.kvraudio.com/q.php?search=1\&os\[]=win32\&ty\[]=e\&f1\[]=vst\&pr\[]=f\&sh\[]=s), [Mac](http://www.kvraudio.com/q.php?search=1\&os\[]=mac32\&ty\[]=e\&f1\[]=vst\&pr\[]=f\&sh\[]=s)
-* [Open Directory](http://dmoz.org/Computers/Multimedia/Music\_and\_Audio/Software/Plug-ins/) (Windows, Mac).
+Audacity can load VST effects (but not VST instruments) on all operating systems. Starting with Audacity 3.2, VST3 effects also are supported.
 
 ### Audio Unit plugins
 
@@ -49,3 +43,11 @@ LADSPA is superseded by LV2. These plug-ins are mostly built for Linux, but some
 ## Contributing to this site
 
 If you want to add your own plugin, or one that you found on the web, read the [contributing instructions](https://app.gitbook.com/s/-MhmBVzGzh8SctWQ6jPR/contributing/plugins).&#x20;
+
+## Other sources
+
+VST effects can be found on many plugin sites such as:
+
+* [Hitsquad](http://www.hitsquad.com/): [Windows](http://www.hitsquad.com/smm/win95/PLUGINS\_VST/), [Mac](http://www.hitsquad.com/smm/mac/PLUGINS\_VST/)
+* [KVR Audio](http://www.kvraudio.com/): [Windows](http://www.kvraudio.com/q.php?search=1\&os\[]=win32\&ty\[]=e\&f1\[]=vst\&pr\[]=f\&sh\[]=s), [Mac](http://www.kvraudio.com/q.php?search=1\&os\[]=mac32\&ty\[]=e\&f1\[]=vst\&pr\[]=f\&sh\[]=s)
+* [Open Directory](http://dmoz.org/Computers/Multimedia/Music\_and\_Audio/Software/Plug-ins/) (Windows, Mac).
