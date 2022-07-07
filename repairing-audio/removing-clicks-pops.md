@@ -1,6 +1,6 @@
-# Removing Clicks & Pops
+# Removing clicks & pops
 
-## Using the Click Removal Effect
+## Using the Click Removal effect
 
 The click removal effect can automatically remove clicks across an entire track.&#x20;
 

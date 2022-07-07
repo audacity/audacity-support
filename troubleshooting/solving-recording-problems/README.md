@@ -1,4 +1,4 @@
-# Solving Recording Problems
+# Solving recording problems
 
 * [ ] [https://alphamanual.audacityteam.org/man/FAQ:Recording\_-\_Troubleshooting](https://alphamanual.audacityteam.org/man/FAQ:Recording\_-\_Troubleshooting)
 
@@ -39,7 +39,7 @@ Your operating system may disable the microphone in general. You need to enable 
 2. Make sure that **Show Disabled Devices** is selected
 3. Look for your microphone and **Enable** it
 
-![Enabling Microphone using Windows Sound control panel](<../.gitbook/assets/Recording #3.gif>)
+![Enabling Microphone using Windows Sound control panel](<../../.gitbook/assets/Recording #3.gif>)
 
 After enabling your microphone use the Audacity **Transport - Rescan Audio Devices** option to update the list of available devices.
 {% endtab %}
@@ -68,7 +68,7 @@ Windows users can try to manually update drivers using **Device Manager**, befor
 
 Then expand **Sound, video and game controllers** by clicking on the + sign, right-click over the sound device and click **Update driver**.
 
-![Using Device Manager to manually update drivers for an audio device](<../.gitbook/assets/Device Manager - Manually update driver.png>)
+![Using Device Manager to manually update drivers for an audio device](<../../.gitbook/assets/Device Manager - Manually update driver.png>)
 
 After the update (even if more recent drivers were not found), you should right-click over the device again, click Properties and then on the Driver tab to check the "Driver Provider". You don't want drivers from Microsoft - in most cases these are only generic drivers, not specifically matched to your hardware. This often leads to problems such as not being able to select the correct input, or recordings not being made correctly. These must be replaced with drivers made by the manufacturer of your hardware, so they are correctly matched to that hardware.
 
@@ -78,13 +78,13 @@ If you have now got updated non-Microsoft drivers, try them and see if your reco
 
 Use the **Recording Meter** **Toolbar** to check the audio level that Audacity is receiving from the selected **Recording Device**.  Click on the toolbar to Start/Stop monitoring the audio level.
 
-![Recording Meter Toolbar displaying the audio level for a microphone](<../.gitbook/assets/Recording Meter Toolbar.png>)
+![Recording Meter Toolbar displaying the audio level for a microphone](<../../.gitbook/assets/Recording Meter Toolbar.png>)
 
 If there is no level present on the meter you could check if your device provides some physical  control to mute or set the audio level.
 
-![USB Sound Card with Microphone Mute and Level controls](<../.gitbook/assets/USB Sound Card Microphone mute control (1).jpg>)
+![USB Sound Card with Microphone Mute and Level controls](<../../.gitbook/assets/USB Sound Card Microphone mute control (1).jpg>)
 
-![USB Interface with Microphone and Instrument gain controls](<../.gitbook/assets/USB Interface Gain Control.jpg>)
+![USB Interface with Microphone and Instrument gain controls](<../../.gitbook/assets/USB Interface Gain Control.jpg>)
 
 If the controls on your device are properly set you should check the connections between the computer and the recording device.
 
@@ -104,14 +104,14 @@ If you connect an external audio device (such as a USB microphone or USB headset
 
 To solve this, make sure the device is [detected by the operating system](https://alphamanual.audacityteam.org/man/FAQ:Recording\_-\_Troubleshooting#detect), then select **Transport >** [**Rescan Audio Devices**](https://alphamanual.audacityteam.org/man/Transport\_Menu#rescan\_audio\_devices) from the Audacity [Menu Bar](https://alphamanual.audacityteam.org/man/Menu\_Reference).  The new device should appear as an option on the Recording or Playback device selection dropdown in the Device toolbar.
 
-## I can't hear what I’m recording?
+## Audacity is not playing back what is being recorded
 
 Enable the **Software Playthrough** option to listen what is being recorded.  You will hear the audio through the selected playback device.
 
 You can turn **Software Playthrough** on and off in the **Transport >** [**Transport Options**](https://alphamanual.audacityteam.org/man/Transport\_Menu:\_Transport\_Options) menu.
 
 {% hint style="info" %}
-Please be aware that you will hear what you are recording a noticeable time afterwards.  This delay is called latency.
+**Note:** you will hear what you are recording a noticeable time afterwards.  This delay is called latency. You can somewhat reduce this latency as described in [latency-compensation.md](latency-compensation.md "mention") but it cannot be fully removed if you're using Software Playthrough - you will need an audio interface with realtime monitoring capabilities to completely remove latency when monitoring a recording.
 {% endhint %}
 
 If you want to listen to the input when not recording it first enable **Software Playthrough** and then click in the [Recording Meter Toolbar](https://alphamanual.audacityteam.org/man/Meter\_Toolbar#recording) to turn on [monitoring](https://alphamanual.audacityteam.org/man/Meter\_Toolbar#monitoring).
@@ -121,7 +121,7 @@ Software Playthrough can also be enabled In the [Recording](https://alphamanual.
 {% endhint %}
 
 {% hint style="warning" %}
-Using **Software Playthrough** when [recording desktop audio](../basics/recording-desktop-audio.md#2.-check-if-everything-is-set-up-correctly) is not recommended.
+Using **Software Playthrough** when [recording desktop audio](../../basics/recording-desktop-audio.md#2.-check-if-everything-is-set-up-correctly) is not recommended.
 {% endhint %}
 
 ## Why is there a delay or echo when listening to what I am recording?
@@ -152,7 +152,7 @@ This is a visual indication that your recording has [clipping](https://alphamanu
 
 The vertical red lines show where the clipping has occurred; these clipping indicators can be turned on and off _(Audacity default setting is "off")_ by selecting **View >** [**Show Clipping (on/off)**](https://alphamanual.audacityteam.org/man/View\_Menu#showclippingonoff).
 
-![A waveform with clipping](../.gitbook/assets/TrackExampleClipping.png)
+![A waveform with clipping](../../.gitbook/assets/TrackExampleClipping.png)
 
 ## Why is the Audacity recording slider grayed out on maximum?
 

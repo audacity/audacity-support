@@ -1,4 +1,4 @@
-# Recording your Voice & Microphone
+# Recording your voice & microphone
 
 Audacity can record various types of microphones,&#x20;
 
@@ -52,8 +52,8 @@ When you have made the recording, listen back to it. If everything went well, yo
 
 If you run into trouble with any of these steps, you may find the solution here:
 
-{% content-ref url="../../troubleshooting/solving-recording-problems.md" %}
-[solving-recording-problems.md](../../troubleshooting/solving-recording-problems.md)
+{% content-ref url="../../troubleshooting/solving-recording-problems/" %}
+[solving-recording-problems](../../troubleshooting/solving-recording-problems/)
 {% endcontent-ref %}
 
 ## Next Steps

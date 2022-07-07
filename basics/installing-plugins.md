@@ -1,4 +1,4 @@
-# Installing Plugins
+# Installing plugins
 
 * [ ] Update Nyquist instructions to 3.2
 
@@ -17,7 +17,7 @@ Most plugins get automatically activated once you install them on your system.
 * "Instrument" versions of plugins (VSTi, LV2i) are not supported.
 {% endhint %}
 
-## Manually installing Plugins
+## Manually installing plugins
 
 {% tabs %}
 {% tab title="Windows" %}
@@ -51,7 +51,7 @@ All Plugins can be installed per-user (`~/Library/Audio/Plug-Ins/...`) or system
 {% endtab %}
 {% endtabs %}
 
-## Installing Nyquist Plugins
+## Installing Nyquist plugins
 
 {% embed url="https://youtu.be/BMZ5gwkn2uo" %}
 Watch a step-by-step tutorial of this guide
@@ -68,9 +68,9 @@ To install a Nyquist Plugin, follow these steps:&#x20;
 7. Enable the plugin by selecting it and clicking **Enable**
 8. Click **OK**
 
-## Deactivating and Re-activating Plugins
+## Deactivating and re-activating plugins
 
-1. Go to **Tools -> Add/Remove Plug-ins...**
+1. Go to **Tools -> Plugin-Manager**
 2. Select the plugins or effects you want to deactivate
 3. Click **Disable**.
 4. To re-enable a plugin, select them and click **Enable**.
