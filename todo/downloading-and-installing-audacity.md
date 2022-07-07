@@ -9,9 +9,9 @@ description: >-
 
 {% tabs %}
 {% tab title="Windows" %}
-## Downloading through the Microsoft Store
+### Downloading through the Microsoft Store
 
-Audacity is available from the [Microsoft Store](https://apps.microsoft.com/store/detail/audacity/XP8K0J757HHRDW).&#x20;
+Audacity is available from the [Microsoft Store](https://apps.microsoft.com/store/detail/audacity/XP8K0J757HHRDW).
 
 * Go to the [**Microsoft Store website**](https://apps.microsoft.com/store/detail/audacity/XP8K0J757HHRDW).
 * Click **Get in Store App**.\
@@ -23,13 +23,13 @@ Audacity is available from the [Microsoft Store](https://apps.microsoft.com/stor
 
 Audacity is now installed. You can start Audacity from the start menu.
 
-## Downloading from the Internet
+### Downloading from the Internet
 
-* Head to the download page: [https://www.audacityteam.org/download/windows/](https://www.audacityteam.org/download/windows/) \
-  It will automatically download the latest version of Audacity after 5 seconds.&#x20;
-* If prompted, click **Run** or **Save**.&#x20;
+* Head to the download page: [https://www.audacityteam.org/download/windows/](https://www.audacityteam.org/download/windows/)\
+  It will automatically download the latest version of Audacity after 5 seconds.
+* If prompted, click **Run** or **Save**.
 * If you clicked Save, head to your downloads, locate the Audacity installer and double-click it.
-  * In Windows 11 it is possible that you get a warning about Audacity being a  non Microsoft-verified app. Click **Install anyway.**
+  * In Windows 11 it is possible that you get a warning about Audacity being a non Microsoft-verified app. Click **Install anyway.**
 
 ![Windows 11 warning when running Audacity installer](<../.gitbook/assets/Windows 11 - Microsoft-verified app warning.png>)
 
@@ -62,7 +62,7 @@ Audacity is now installed. You can start Audacity from the start menu.
 
 * Wait a few seconds until the setup process completes.
 
-![Wait until the setup process completes ](<../.gitbook/assets/Setup - Extracting.png>)
+![Wait until the setup process completes](<../.gitbook/assets/Setup - Extracting.png>)
 
 * Please take some time to know how to get community support through the Audacity Forum and how to make suggestions or report bugs.
 
@@ -83,31 +83,28 @@ Audacity is now installed. You can start Audacity from the start menu.
 
     * You can also drag Audacity out of the DMG to any other location. You need the administrator password to copy Audacity to "Applications".
 
-    <img src="../.gitbook/assets/Audacity Mac Install.png" alt="" data-size="original">
+    <img src="../.gitbook/assets/Screen Shot 2022-05-02 at 5.18.41 PM (1).png" alt="" data-size="original">
 * Launch Audacity.app from /Applications or from your chosen location.\
   **Note:** Do not double-click the "Audacity" icon in the DMG to launch Audacity from there.
 *   Once the program has opened press "OK" to start editing!
 
     * Additionally, you may check the "Don't show this again at start up" prompt.
 
-    ![](<../.gitbook/assets/Mac Welcome Screen.png>)
-
-
+    <img src="../.gitbook/assets/Mac Welcome Screen.png" alt="" data-size="original">
 {% endtab %}
 
 {% tab title="Linux" %}
 1. Head to the download page: [https://www.audacityteam.org/download/linux/](https://www.audacityteam.org/download/linux/)\
-   It will automatically download the AppImage after 5 seconds.&#x20;
-2.  Make the downloaded AppImage runnable. \
+   It will automatically download the AppImage after 5 seconds.
+2.  Make the downloaded AppImage runnable.\
     To do this, you can **right-click** the file **-> Properties -> Permissions**\
-    or run the following command in the terminal:&#x20;
+    or run the following command in the terminal:
 
     ```
     chmod +x <path to your Audacity.AppImage>
     ```
-3. Double-click the AppImage to run Audacity.&#x20;
+3. Double-click the AppImage to run Audacity.
 
-Additionally, your Linux distribution (for example Ubuntu, Fedora or Debian) may have a version of Audacity as part of the repository. This version is typically _older_ than the latest AppImage, but may be better integrated into your distribution.&#x20;
+Additionally, your Linux distribution (for example Ubuntu, Fedora or Debian) may have a version of Audacity as part of the repository. This version is typically _older_ than the latest AppImage, but may be better integrated into your distribution.
 {% endtab %}
 {% endtabs %}
-

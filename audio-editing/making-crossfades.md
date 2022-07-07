@@ -23,6 +23,6 @@ To crossfade between tracks, use the following steps:&#x20;
 
 1.  Position the clips on the tracks so that they overlap in the range you want to crossfade:
 
-    ![](<../.gitbook/assets/image (6) (1).png>)
+    ![](<../.gitbook/assets/image (6) (1) (1).png>)
 2. Select the audio in the first clip in the overlapping region and choose **Effects > Fade Out**
 3. Select the audio in the second clip in the overlapping region and choose **Effects > Fade In**

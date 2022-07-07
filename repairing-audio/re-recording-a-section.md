@@ -51,4 +51,4 @@ To use it:&#x20;
 
 * To hide the cut a bit better, a crossfade may help: [making-crossfades.md](../audio-editing/making-crossfades.md "mention")
 * If your new take is slightly longer or shorter than the gap left in the original recording, you can split the clip: [#splitting-up-clips](../basics/audacity-editing.md#splitting-up-clips "mention")
-* You can use a similar technique to continuously fix mistakes as they occur during a recording session using [latency-compensation.md](../todo/latency-compensation.md "mention")
+* You can use a similar technique to continuously fix mistakes as they occur during a recording session using [latency-compensation.md](../contributing/tutorials/todo/latency-compensation.md "mention")

@@ -29,7 +29,7 @@ Later in this tutorial we mention that you can use the **Analyze > Label Sounds.
 
 **Mark the start of the first song**
 
-1. Click the **Skip to Start** button ![](<../../.gitbook/assets/image (6).png>)
+1. Click the **Skip to Start** button ![](<../../.gitbook/assets/image (6) (1).png>)
 2.  Click on **Edit > Labels >** [**Add Label at Selection**](https://manual.audacityteam.org/man/edit\_menu\_labels.html#addlabelatselection), or use shortcut **Ctrl + B**.
 
     A new label is created in a new [label track](https://manual.audacityteam.org/man/label\_tracks.html) underneath the audio track. The contents of the label are selected and ready for editing. If you need to play the track to decide where to place the split points, you can use **Add Label at Playback Position** instead (directly underneath [Add Label at Selection](https://manual.audacityteam.org/man/edit\_menu\_labels.html#addlabelatselection), or use shortcut **Ctrl + M** _(on Mac it is **⌘ + .**)_.

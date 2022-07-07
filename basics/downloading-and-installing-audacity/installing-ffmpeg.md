@@ -35,7 +35,7 @@ If you have installed FFMPEG from a different source, or installed it in a diffe
     If this message **does not appear**, proceed with the next steps.
 4.  In this dialog window, click **Browse...** to locate the avformat-\*.dll from the FFMPEG folder you downloaded/installed elsewhere&#x20;
 
-    ![](<../../.gitbook/assets/image (11).png>)
+    ![](<../../.gitbook/assets/image (11) (1).png>)
 5. Once you've found it, click **Open**, then **OK**, then **OK** again to close the preferences.&#x20;
 
 {% hint style="info" %}

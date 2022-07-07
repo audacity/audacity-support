@@ -16,7 +16,7 @@ To start editing, you need some sort of sound to edit. You can either [record so
 
 Once you have that, you will see a waveform of your sound:&#x20;
 
-![The waveform of a song](<../.gitbook/assets/image (21).png>)
+![The waveform of a song](<../.gitbook/assets/image (21) (1).png>)
 
 This waveform is a visual representation of the song. The larger the blue "blob" is, the louder the section. Lines standing alone ("spikes") indicate sudden and short loud sections such as clicks, snaps, claps and drum hits. With a bit of practice, you can use the waveform to quickly find your way around an audio file.&#x20;
 

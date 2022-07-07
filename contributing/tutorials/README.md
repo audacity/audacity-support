@@ -11,7 +11,9 @@ description: >-
 
 You can become an editor on Gitbook (ie this website) by making an account and then going to [audacityteam.org/gitbook-access](https://audacityteam.org/gitbook-access)
 
-Editors can edit existing pages (including the stubs found at [todo](../../todo/ "mention")), but cannot create new ones. If you'd like to make a page about a new topic, write to LWinterberg in the [discord server](https://discord.gg/audacity). You also can hand in Markdown files or Word documents to him directly to add.
+Editors can edit existing pages (including the stubs found at [todo](todo/ "mention")), but cannot create new ones. If you'd like to make a page about a new topic, write to LWinterberg in the [discord server](https://discord.gg/audacity). You also can hand in Markdown files or Word documents to him directly to add.
+
+Alternatively, you can edit these pages via GitHub, either through GitHub.com or locally. See [editing-through-github.md](editing-through-github.md "mention") for more info.
 
 Gitbook works a bit like a wiki in that you can edit all pages freely, but unlike a wiki, it uses git's "everyone has their own branch" principle. This is to say that the changes you make are independent of everyone else's changes, and won't show up on the main (live) website until the branches are merged.&#x20;
 

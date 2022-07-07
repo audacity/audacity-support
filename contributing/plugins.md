@@ -19,21 +19,21 @@ Alternatively, you can also make a pull request to the [plugins branch on audaci
 
 Generally, a plugin entry should look like this:&#x20;
 
-\###################################################
+_###################################################_
 
-## Name of Plugin
+## _Name of Plugin_
 
-A short description of what the plugin is good for.
+_A short description of what the plugin is good for._
 
 {% embed url="https://example.org" %}
-Download page
+_Download page_
 {% endembed %}
 
 <details>
 
-<summary>Details</summary>
+<summary><em>Details</em></summary>
 
-Additional info, such as developer name, license and copyright info, a short "how to use" section or link to the documentation page, or a screenshot of the plugin - preferably of it working withing Audacity.
+_Additional info, such as developer name, license and copyright info, a short "how to use" section or link to the documentation page, or a screenshot of the plugin - preferably of it working withing Audacity._
 
 <img src="../.gitbook/assets/image (17).png" alt="" data-size="original">
 
@@ -41,7 +41,7 @@ Additional info, such as developer name, license and copyright info, a short "ho
 
 </details>
 
-\#####################################################
+_#####################################################_
 
 {% hint style="info" %}
 **Note:** When editing through pull requests on Github, note that Gitbook uses additional formatting tags than available in standard-markdown, so your preview might not match what'll be shown to users eventually.&#x20;
