@@ -13,7 +13,7 @@ description: >-
 
 Audacity is available from the [Microsoft Store](https://apps.microsoft.com/store/detail/audacity/XP8K0J757HHRDW).&#x20;
 
-* Go to the **** [**Microsoft Store website**](https://apps.microsoft.com/store/detail/audacity/XP8K0J757HHRDW).
+* Go to the [**Microsoft Store website**](https://apps.microsoft.com/store/detail/audacity/XP8K0J757HHRDW).
 * Click **Get in Store App**.\
   ![](<../.gitbook/assets/Microsoft Store Website.png>)
 * The Microsoft Store app will open. Click **Install** to install Audacity.\
@@ -74,7 +74,23 @@ Audacity is now installed. You can start Audacity from the start menu.
 {% endtab %}
 
 {% tab title="macOS" %}
-****
+*   Head to the download page: [https://www.audacityteam.org/download/mac/](https://www.audacityteam.org/download/mac/)
+
+    It will automatically download the latest version of Audacity after 5 seconds.
+* If prompted, click **Save**.
+* Once the download has completed to your Downloads folder, double-click the DMG file to mount it.
+*   Drag the Audacity.app icon rightwards onto the "Applications" folder shortcut.
+
+    * You can also drag Audacity out of the DMG to any other location. You need the administrator password to copy Audacity to "Applications".
+
+    <img src="../.gitbook/assets/Audacity Mac Install.png" alt="" data-size="original">
+* Launch Audacity.app from /Applications or from your chosen location.\
+  **Note:** Do not double-click the "Audacity" icon in the DMG to launch Audacity from there.
+*   Once the program has opened press "OK" to start editing!
+
+    * Additionally, you may check the "Don't show this again at start up" prompt.
+
+    ![](<../.gitbook/assets/Mac Welcome Screen.png>)
 
 
 {% endtab %}
