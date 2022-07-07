@@ -5,6 +5,5 @@
 * [ ] Making new tracks
 * [ ] Use case: spoken word with music in the background
 * [ ] Mute & Solo
-* [x] Volume & Panning
 * [ ] Moving clips & Sync lock
 * [ ] Splitting a recording into several tracks
