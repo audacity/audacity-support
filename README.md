@@ -14,9 +14,17 @@ This site features various Plugins for Audacity, categorized in the sidebar. If 
 
 ## Installing Plugins
 
-When you install plugins, they're automatically enabled the next time you restart Audacity. Further instructions can be found here:
+When you install plugins, they're automatically enabled the next time you restart Audacity 3.2. Further instructions can be found here:
 
 {% embed url="https://support.audacityteam.org/basics/installing-plugins" %}
+
+## Contributing to this site
+
+{% hint style="success" %}
+This site is still in development.
+
+If you want to add your own plugin, or one that you found on the web, read the [contributing instructions](https://app.gitbook.com/s/-MhmBVzGzh8SctWQ6jPR/community/contributing/plugins).&#x20;
+{% endhint %}
 
 ## Plugin formats
 
@@ -39,10 +47,6 @@ On Mac OS X only, you can add [Audio Unit](http://wiki.audacityteam.org/wiki/Aud
 ### LADSPA plugins
 
 LADSPA is superseded by LV2. These plug-ins are mostly built for Linux, but some old LADSPA plugins are available via the [Legacy Windows](http://www.audacityteam.org/download/legacy-windows/) and [Legacy Mac](http://www.audacityteam.org/download/legacy-mac/) sections.
-
-## Contributing to this site
-
-If you want to add your own plugin, or one that you found on the web, read the [contributing instructions](https://app.gitbook.com/s/-MhmBVzGzh8SctWQ6jPR/contributing/plugins).&#x20;
 
 ## Other sources
 
