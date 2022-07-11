@@ -31,4 +31,4 @@ The Repair effect can be used to repair short clicks. To use it:
 
 ## Silencing the section
 
-In most cases, having brief amounts of silence is preferable to loud clicks, so completely muting clicks is a valid strategy if other methods fail. For this, simply select the click and press the ![](<../.gitbook/assets/silence icon.png>) **Silence button** (Shortcut: `Ctrl+L` / `Cmd+L`).
+In most cases, having brief amounts of silence is preferable to loud clicks, so completely muting clicks is a valid strategy if other methods fail. For this, simply select the click and press the ![](<../.gitbook/assets/image (12).png>) **Silence button** (Shortcut: `Ctrl+L` / `Cmd+L`).

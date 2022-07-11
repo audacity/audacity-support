@@ -1,8 +1,6 @@
 # Installing plugins
 
-* [ ] Update Nyquist instructions to 3.2
-
-You can download various plugins listed on the Audacity Plugins site:
+You can download various plugins here:
 
 {% content-ref url="https://app.gitbook.com/o/-MhmG2mhIIHTtQPuHV_k/s/klCVENFte0GRy5IqVz0W/" %}
 [Audacity Plugins](https://app.gitbook.com/o/-MhmG2mhIIHTtQPuHV\_k/s/klCVENFte0GRy5IqVz0W/)
@@ -59,7 +57,7 @@ Watch a step-by-step tutorial of this guide
 
 To install a Nyquist Plugin, follow these steps:&#x20;
 
-1. Download the plugin in question. You can find many on the wiki: [https://wiki.audacityteam.org/wiki/Download\_Nyquist\_Plug-ins](https://wiki.audacityteam.org/wiki/Download\_Nyquist\_Plug-ins)&#x20;
+1. Download the plugin in question.&#x20;
 2. Open Audacity, and go to **Tools > Nyquist Plugin Installer**
 3. Click **Browse** and locate your downloaded plugin
 4. Click **Open** and then **OK** and **OK** again.&#x20;

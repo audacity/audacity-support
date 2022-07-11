@@ -35,7 +35,7 @@ _Download page_
 
 _Additional info, such as developer name, license and copyright info, a short "how to use" section or link to the documentation page, or a screenshot of the plugin - preferably of it working withing Audacity._
 
-<img src="../.gitbook/assets/image (17).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/plot spectrum.png" alt="" data-size="original">
 
 
 

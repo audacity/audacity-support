@@ -1,7 +1,5 @@
 # Solving recording problems
 
-* [ ] [https://alphamanual.audacityteam.org/man/FAQ:Recording\_-\_Troubleshooting](https://alphamanual.audacityteam.org/man/FAQ:Recording\_-\_Troubleshooting)
-
 ## Error opening sound device / Error opening recording device
 
 This error indicates a problem with the hardware, whether it is permissions, drivers, connections, or if you ask the device to do something it cannot do&#x20;

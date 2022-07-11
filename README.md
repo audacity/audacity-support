@@ -7,7 +7,7 @@ description: How-Tos and Tutorials for Audacity
 {% hint style="warning" %}
 Audacity Support still is in a very early stage and under heavy development.&#x20;
 
-Do check out [tutorials](contributing/tutorials/ "mention") if you want to contribute.
+Do check out [tutorials](community/contributing/tutorials/ "mention") if you want to contribute.
 {% endhint %}
 
 Quick links to get started:&#x20;

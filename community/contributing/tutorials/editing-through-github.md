@@ -10,23 +10,23 @@ Any page of both support.audacityteam.org and plugins.audacityteam.org can be ed
 
 A link for GitHub is shown either on the right-hand side or in an overflow menu of any page:
 
-![](<../../.gitbook/assets/image (22).png>)
+![](<../../../.gitbook/assets/github edit wide.png>)
 
-![](<../../.gitbook/assets/image (7).png>)
+![](<../../../.gitbook/assets/github edit narrow.png>)
 
 Once you are on GitHub, you will see a pencil in the top right of the file.&#x20;
 
-![On a technical level, this will create a "fork" of the page, found on your Github profile, with a new branch called "patch-#" in which you are editing. As long as you are within this branch, you can do whatever you want with out stepping on anyone's toes. ](<../../.gitbook/assets/image (11).png>)
+![On a technical level, this will create a "fork" of the page, found on your Github profile, with a new branch called "patch-#" in which you are editing. As long as you are within this branch, you can do whatever you want with out stepping on anyone's toes. ](<../../../.gitbook/assets/github fork pencil.png>)
 
 You now can make your changes to the page. Once you are done, press **Propose Changes**
 
-![On a technical level, this creates a commit in your "patch-#" branch. A branch can hold as many commits as you like, so if you want to do multiple changes, you can exit the flow after clicking "propose changes" and edit another file instead.](<../../.gitbook/assets/image (20).png>)
+![On a technical level, this creates a commit in your "patch-#" branch. A branch can hold as many commits as you like, so if you want to do multiple changes, you can exit the flow after clicking "propose changes" and edit another file instead.](<../../../.gitbook/assets/github propose changes.png>)
 
 This brings you to a page where you can review your changes. If you are satisfied, click **Create Pull Request**.
 
-![Clicking this button creates a form...](<../../.gitbook/assets/image (6).png>)
+![Clicking this button creates a form...](<../../../.gitbook/assets/github pr 1.png>)
 
-![... in which you can give an overview of your changes to the team.](<../../.gitbook/assets/image (21).png>)
+![... in which you can give an overview of your changes to the team.](<../../../.gitbook/assets/github pr 2.png>)
 
 After you click "create pull request", it will show up on [https://github.com/audacity/audacity-support/pulls](https://github.com/audacity/audacity-support/pulls) and await review by an Audacity team member.&#x20;
 
@@ -40,7 +40,7 @@ Caution: Avoid using office suites like Microsoft Word, LibreOffice or Google Do
 
 To get started, first clone the repository, either using `git clone` [`https://github.com/audacity/audacity-support.git`](https://github.com/audacity/audacity-support.git) by clicking the code button on [https://github.com/audacity/audacity-support](https://github.com/audacity/audacity-support) and opening it in GitHub Desktop
 
-![](<../../.gitbook/assets/image (5).png>)
+![](<../../../.gitbook/assets/github clone.png>)
 
 {% hint style="info" %}
 **Note:** You will need to use some form of Git to make a pull request, so just downloading the ZIP will not work.&#x20;
@@ -48,5 +48,5 @@ To get started, first clone the repository, either using `git clone` [`https://g
 
 Once it's cloned, you'll find the files of support.audacityteam.org in the `main` branch, and the files of plugins.audacityteam.org in the `plugins` branch. Any additional branches have been split off from the main branch to preserve documentation for previous versions of Audacity.
 
-![Example of switching branches in the GitHub Desktop client](<../../.gitbook/assets/image (13).png>)
+![Example of switching branches in the GitHub Desktop client](<../../../.gitbook/assets/github branch switch.png>)
 

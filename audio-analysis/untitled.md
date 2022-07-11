@@ -4,19 +4,19 @@ description: >-
   track, Plot Spectrum, as well as support for Plugins.
 ---
 
-# Spectral Analysis
+# Spectral analysis
 
 ## Spectrogram View
 
 Each track in Audacity can be viewed in a Spectrogram view:
 
-![Spectrogram view of a track](<../.gitbook/assets/image (24).png>)
+![Spectrogram view of a track](../.gitbook/assets/spectrogram.png)
 
 To access it, click on the **track menu dropdown** and select **Spectrogram.**
 
 The track menu also features Spectrogram settings, where you can tweak the scale, the colors, the used algorithms and the window size.
 
-![The Track Menu dropdown](<../.gitbook/assets/image (8).png>)
+![The Track Menu dropdown](<../.gitbook/assets/track menu spectrogram.png>)
 
 {% hint style="info" %}
 **Tip:** To view the waveform and the spectrogram at the same time, choose **Multi-view** instead.
@@ -52,7 +52,7 @@ To use Plot Spectrum,&#x20;
 1. **select** the audio you're interested in analyzing
 2. go to **Analyze -> Plot Spectrum**.
 
-![The Plot Spectrum Window](<../.gitbook/assets/image (17).png>)
+![The Plot Spectrum Window](<../.gitbook/assets/plot spectrum.png>)
 
 ### Options
 

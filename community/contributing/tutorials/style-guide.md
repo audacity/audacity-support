@@ -14,9 +14,9 @@ The goal of the user guide is to provide explanations on how to perform various 
 
 Documenting features seems like the obvious thing to do: Audacity has various menus, so better have a list of what every option in that menu does. However, this leads to the situation where some pages are completely unfindable as a reader already needs to know where certain options are in the menu in order to find out what the page would be called. For example, the feature containing the slider for the recording and playback volumes is called _Mixer Toolbar_. But nobody except the people most intimately familiar with Audacity know it's called that!
 
-To combat this, try to write your guides as a way towards a goal, or a **task**. The above example, instead of naming the page after the feature, name it after the task it does, so:  [setting-recording-levels-and-playback-levels.md](../../basics/recording-your-voice-and-microphone/setting-recording-levels-and-playback-levels.md "mention")
+To combat this, try to write your guides as a way towards a goal, or a **task**. The above example, instead of naming the page after the feature, name it after the task it does, so:  [setting-recording-levels-and-playback-levels.md](../../../basics/recording-your-voice-and-microphone/setting-recording-levels-and-playback-levels.md "mention")
 
-Tasks aren't necessarily tied to individual features. For example, [noise-reduction-removal.md](../../repairing-audio/noise-reduction-removal.md "mention") can talk about several tools as once as they all are means towards a common goal.&#x20;
+Tasks aren't necessarily tied to individual features. For example, [noise-reduction-removal.md](../../../repairing-audio/noise-reduction-removal.md "mention") can talk about several tools as once as they all are means towards a common goal.&#x20;
 
 If a feature has many different modes or options that are unrelated to the task you're describing, avoid making long lists of what all the feature can do. Focus on the task-related ones instead.
 
@@ -34,7 +34,7 @@ Audacity's user base consists largely of **casual users**. As such, you can't ex
 
 For example, if you write a guide about compressing and expanding audio, you don't need to hold yourself up on explaining what a compressor is, since the only people who'll ever end up reading that guide are people who already know about that. However, if you were to mention a compressor on a page about general audio editing, you would need to explain what a compressor is good for.
 
-That said: If it's possible to describe a feature without needing to resort to lingo, use it even if it's slightly less accurate. For example, "punch-in repair" would be the accurate term for [re-recording-a-section.md](../../repairing-audio/re-recording-a-section.md "mention"), but also is way harder to understand and thus to find.
+That said: If it's possible to describe a feature without needing to resort to lingo, use it even if it's slightly less accurate. For example, "punch-in repair" would be the accurate term for [re-recording-a-section.md](../../../repairing-audio/re-recording-a-section.md "mention"), but also is way harder to understand and thus to find.
 
 ### Scope
 

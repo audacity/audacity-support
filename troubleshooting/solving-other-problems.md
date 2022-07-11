@@ -1,11 +1,5 @@
 # Solving other problems
 
-
-
-* [ ] no sound
-* [ ] invalid samplerate
-* [ ] error codes / error opening device
-
 ## Can't open an MP3 file
 
 If you see an error when importing an MP3 file, it can have the following causes:&#x20;
