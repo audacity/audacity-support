@@ -1,10 +1,15 @@
 ---
-description: A page showing the Markdown for all the basic and fancy options there are.
+description: >-
+  A page showing the Markdown for all the basic and fancy options there are.
+  Also compares it to Github's Markdown. This block is the page description.
 ---
 
 # Gitbook Markdown syntax
 
-Contrast this to the raw file found in the "Edit on Github" link.
+Contrast this page to:
+
+* raw markdown: [https://raw.githubusercontent.com/audacity/audacity-support/main/community/contributing/tutorials/gitbook-markdown-syntax.md](https://raw.githubusercontent.com/audacity/audacity-support/main/community/contributing/tutorials/gitbook-markdown-syntax.md)&#x20;
+* Github's markdown renderer: [https://github.com/audacity/audacity-support/blob/main/community/contributing/tutorials/gitbook-markdown-syntax.md](gitbook-markdown-syntax.md)
 
 ## Heading 1&#x20;
 
@@ -22,7 +27,19 @@ Headings can be used anywhere, including inside other blocks.
 
 ## Inline text formatting options
 
-**Bold**, _Italics_, `Code`, ~~Strikethrough~~, [Link](https://example.org), [internal link](style-guide.md), [anchor link](gitbook-markdown-syntax.md#undefined), page link: [style-guide.md](style-guide.md "mention"), page anchor link: [#undefined](gitbook-markdown-syntax.md#undefined "mention"), <mark style="color:red;">colored text</mark>, <mark style="background-color:green;">colored background</mark>, <mark style="color:yellow;background-color:blue;">both colored</mark>, LaTeX: $$f(x) = x * e^{2 pi i \xi x}$$
+**Bold**,\
+&#x20;_Italics_,\
+`Code`, \
+~~Strikethrough~~, \
+[Link](https://example.org), \
+[internal link](style-guide.md), \
+[anchor link](gitbook-markdown-syntax.md#undefined), \
+page link: [style-guide.md](style-guide.md "mention"), \
+page anchor link: [#inline-text-formatting-options](gitbook-markdown-syntax.md#inline-text-formatting-options "mention"), \
+<mark style="color:red;">colored text</mark>, \
+<mark style="background-color:green;">colored background</mark>, \
+<mark style="color:yellow;background-color:blue;">both colored</mark>, \
+LaTeX: $$f(x) = x * e^{2 pi i \xi x}$$
 
 These can be used anywhere.
 
@@ -67,17 +84,17 @@ Danger
 Success
 {% endhint %}
 
-> A quote
+> A quote block
 
 ```
-// Some code
+// a code block
 ```
 
 ```html
-<b style="some_css: 23px;" class="and other things"> also supports syntax highlighting</b>
+code blocks <b style="some_css: 23px;" class="and other things"> also supports syntax highlighting</b>
 ```
 
-These blocks can be used inside of some other blocks. The code block cannot have other blocks inside it. The quote block and infobox can have headings, inline content and lists inside it.
+These blocks can be used inside of Tabs. The code block can also be used in Expandables, but cannot have other blocks inside it. The quote block and infobox can have headings, inline content and lists inside it.
 
 ## Images and files
 
@@ -119,6 +136,10 @@ Embeds cannot be used inside of other blocks except the Tabs block, nor can othe
 
 <table><thead><tr><th data-type="select" data-multiple>select-option column</th><th data-type="files">files column</th><th data-type="rating" data-max="3">Ratings column</th></tr></thead><tbody><tr><td></td><td></td><td>3</td></tr><tr><td></td><td></td><td>2</td></tr><tr><td></td><td></td><td>1</td></tr></tbody></table>
 
+{% hint style="danger" %}
+Select-option and files columns appear empty in Markdown. Avoid using them.
+{% endhint %}
+
 Tables cannot be used inside other blocks except the Tabs block, nor can other blocks be placed inside them. Inline content works inside of text columns only.
 
 ## Tabs
@@ -155,7 +176,7 @@ Expandables cannot be inside other blocks. Expandables can have headings, lists,
 
 <img src="../../../.gitbook/assets/file.drawing.svg" alt="also supports captions" class="gitbook-drawing">
 
-A Gitbook-specific drawing thing. Likely impossible to use in Markdown.
+A Gitbook-specific drawing thing, generating SVGs. Likely useless when using Markdown.
 
 ## LaTeX
 
