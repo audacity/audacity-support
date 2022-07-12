@@ -11,3 +11,12 @@ If you see an error when importing an MP3 file, it can have the following causes
   * If you just recently downloaded it from the internet, you may want to try downloading it again - in case there was a transmission error.&#x20;
   * If you just created it yourself, it might be that there was a write error. If possible try saving the file again, re-installing the app that was used to create it, or using a different app to create it.
   * If you had the file on your computer for a long time and it worked in the past, it might be that your hard drive is starting to fail.&#x20;
+
+## No audio is coming through headphones
+
+There can be several reasons for this. Some things to try:&#x20;
+
+* If using a wired headphone, make sure that the wire is plugged in and that the plug is clean.&#x20;
+* Make sure that the headphones are selected in the Audio Settings output. \
+  **Note:** On some devices, the internal card - usually called something among the lines of "HD Audio" are handling both internal speakers and headphones, depending on which is plugged in. You may need to select this option anyway even if it says "Speaker" instead of "Headphones"
+* If you connected the headphones after starting Audacity, you may need to go to **Transport -> Rescan Audio Devices** to make them show up in the Audio Setup list.

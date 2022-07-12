@@ -90,17 +90,33 @@ If the controls on your device are properly set you should check the connections
 
 Due to a Windows limitation, you cannot use WASAPI on a USB device while listening back on an onboard audio card. Use MME or DirectSound instead, or use the USB device for both the input and output (if possible).
 
+## Error -9997 Invalid Sample Rate
+
+This error can indicate an unsupported sample rate. Double-check that both your **OS settings** and the **Audacity project rate** are set to a supported sample rate (usually 44100 Hz or 48000 Hz).&#x20;
+
+This error can also occur when you are trying to record a number of channels that is not supported in the current configuration To fix this, you can do the following:
+
+* **Use a different audio host**. Sometimes WASAPI works when MME doesn't, sometimes it's the other way round.&#x20;
+* **Use a different number of channels**. For example, some Realtek only work when recording in Mono, while some others only work in Stereo when recording a (loopback) stream.
+
+## Error -9996 Invalid Device Error
+
+This error indicates that the device that's being attempted to use is not an audio device.&#x20;
+
+This error can also occur when you are trying to record a number of channels that is not supported in the current configuration To fix this, you can do the following:
+
+* **Use a different audio host**. Sometimes WASAPI works when MME doesn't, sometimes it's the other way round.&#x20;
+* **Use a different number of channels**. For example, some Realtek only work when recording in Mono, while some others only work in Stereo when recording a (loopback) stream.
+
 ## Only the left channel is recording
 
 Most microphones are mono microphones, so they by default record on the left channel only. To hear your audio on both channels, make sure you record in mono.
 
 ## Audacity is not detecting the audio device I just connected
 
-### **External audio devices**
-
 If you connect an external audio device (such as a USB microphone or USB headset) to your computer while Audacity is already running, it won't be detected automatically by Audacity.
 
-To solve this, make sure the device is [detected by the operating system](https://alphamanual.audacityteam.org/man/FAQ:Recording\_-\_Troubleshooting#detect), then select **Transport >** [**Rescan Audio Devices**](https://alphamanual.audacityteam.org/man/Transport\_Menu#rescan\_audio\_devices) from the Audacity [Menu Bar](https://alphamanual.audacityteam.org/man/Menu\_Reference).  The new device should appear as an option on the Recording or Playback device selection dropdown in the Device toolbar.
+To solve this, make sure the device is detected by the operating system, then select **Transport > Rescan Audio Devices** from the Audacity Menu Bar.  The new device should appear as an option on the Recording or Playback device selection dropdown in the Device toolbar.
 
 ## Audacity is not playing back what is being recorded
 

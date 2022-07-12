@@ -38,6 +38,7 @@
 
 ## Troubleshooting
 
+* [Missing features](troubleshooting/missing-features.md)
 * [Recovering corrupted projects](troubleshooting/recovering-corrupted-projects.md)
 * [Solving recording problems](troubleshooting/solving-recording-problems/README.md)
   * [Latency Compensation](troubleshooting/solving-recording-problems/latency-compensation.md)
