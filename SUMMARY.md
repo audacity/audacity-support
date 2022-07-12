@@ -49,6 +49,7 @@
   * [Making Tutorials and User Guides](community/contributing/tutorials/README.md)
     * [Style Guide](community/contributing/tutorials/style-guide.md)
     * [Editing through GitHub](community/contributing/tutorials/editing-through-github.md)
+    * [Gitbook Markdown syntax](community/contributing/tutorials/gitbook-markdown-syntax.md)
     * [TODO](community/contributing/tutorials/todo/README.md)
       * [Adding realtime effects](community/contributing/tutorials/todo/adding-realtime-effects.md)
       * [ASIO in Audacity](community/contributing/tutorials/todo/asio-in-audacity.md)
