@@ -4,7 +4,7 @@ description: >-
   more).
 ---
 
-# Recording Desktop Audio
+# Recording desktop audio
 
 ## 1. Select the loopback device
 
@@ -12,7 +12,7 @@ description: >-
 {% tab title="Windows" %}
 1.  In the device toolbar, select WASAPI.&#x20;
 
-    ![](<../.gitbook/assets/image (18) (1).png>)
+    ![](<../.gitbook/assets/device toolbar - hosts dropdown.png>)
 2. Select the output you want to use (the device you're using to listen) as the input. It will be marked with a (loopback) after it's name. \
    ![](../.gitbook/assets/loopback.png)
 
@@ -38,7 +38,7 @@ When using PulseAudio (default for Ubuntu, Linux Mint, and others):&#x20;
 2.  Set the audio host to ALSA, the recording device to pulse.
 
     If your system uses Pulse by default, the pulse device may be called default.&#x20;
-3. Enable the recording meter by selecting "Click to start monitoring". ![](<../.gitbook/assets/image (15) (1).png>)
+3. Enable the recording meter by selecting "Click to start monitoring". ![](<../.gitbook/assets/click to start monitoring.png>)
 4. Open PulseAudio Volume Control and choose the "Recording" tab.
 5. In the "Capture from" dropdown, select the "Monitor" option of the playback device used by the application you want to record from
 6. Launch the application that you wish to record and begin playback.
