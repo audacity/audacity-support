@@ -37,6 +37,6 @@ Eleven algorithms allow you to get through-zero flanging, barberpole flanging, d
 
 
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (5).png>)
 
 </details>
