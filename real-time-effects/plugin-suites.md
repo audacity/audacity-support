@@ -14,11 +14,11 @@ A set of simple VST effects, most known for the GSnap (auto-tune) effect.
 Download page
 {% endembed %}
 
-### swh Plugins
+## IEM Plugin Suite
 
-A set of LADSPA effects.
+A set of open source plugins by the Institute of Electronic Music and Acoustics of the University of Music and Performing Arts Graz. Strong focus on ambisonic functions; see their [plugin descriptions](https://plugins.iem.at/docs/plugindescriptions/).&#x20;
 
-{% embed url="http://plugin.org.uk" %}
+{% embed url="https://plugins.iem.at/" %}
 
 ## Available for Windows
 
@@ -35,6 +35,12 @@ Download page
 
 
 ## Available for Linux
+
+### swh Plugins
+
+A set of LADSPA effects. They can be found in most Linux repositories.
+
+{% embed url="http://plugin.org.uk" %}
 
 ### Calf Studio Gear
 
