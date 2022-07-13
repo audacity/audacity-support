@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Audacity Support](README.md)
+* [Audacity Support](HOME.md)
 
 ## Audacity Basics <a href="#basics" id="basics"></a>
 
