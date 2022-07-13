@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Audacity Support](HOME.md)
+* [Audacity Support](README.md)
 
 ## Audacity Basics <a href="#basics" id="basics"></a>
 
@@ -61,7 +61,8 @@
       * [Mastering for Audio Books](community/contributing/tutorials/todo/mastering-for-audio-books.md)
       * [How to use Audacity](community/contributing/tutorials/todo/how-to-use-audacity.md)
       * [Working with Tracks](community/contributing/tutorials/todo/untitled.md)
-      * [github readme](README.md)
+      * [github readme](<README (1).md>)
+      * [README](community/contributing/tutorials/todo/readme-1.md)
   * [Answering user questions](community/contributing/answering.md)
   * [Translating Audacity](community/contributing/translating.md)
   * [Developing Audacity](community/contributing/developing.md)
