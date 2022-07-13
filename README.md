@@ -55,3 +55,4 @@ VST effects can be found on many plugin sites such as:
 * [Hitsquad](http://www.hitsquad.com/): [Windows](http://www.hitsquad.com/smm/win95/PLUGINS\_VST/), [Mac](http://www.hitsquad.com/smm/mac/PLUGINS\_VST/)
 * [KVR Audio](http://www.kvraudio.com/): [Windows](http://www.kvraudio.com/q.php?search=1\&os\[]=win32\&ty\[]=e\&f1\[]=vst\&pr\[]=f\&sh\[]=s), [Mac](http://www.kvraudio.com/q.php?search=1\&os\[]=mac32\&ty\[]=e\&f1\[]=vst\&pr\[]=f\&sh\[]=s)
 * [Open Directory](http://dmoz.org/Computers/Multimedia/Music\_and\_Audio/Software/Plug-ins/) (Windows, Mac).
+* [plugins4free](https://plugins4free.com/)
