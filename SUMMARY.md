@@ -38,11 +38,13 @@
 
 ## Troubleshooting
 
-* [Missing features](troubleshooting/missing-features.md)
+* [Error codes](troubleshooting/error-codes.md)
 * [Recovering corrupted projects](troubleshooting/recovering-corrupted-projects.md)
+* [Common troubleshooting steps](troubleshooting/common-troubleshooting-steps.md)
 * [Solving recording problems](troubleshooting/solving-recording-problems/README.md)
   * [Latency Compensation](troubleshooting/solving-recording-problems/latency-compensation.md)
 * [Solving other problems](troubleshooting/solving-other-problems.md)
+* [Missing features](troubleshooting/missing-features.md)
 
 ## Community
 
