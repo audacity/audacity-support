@@ -1,6 +1,8 @@
-# Recording your Voice & Microphone
+---
+description: Audacity can record various types of microphones and other audio devices.
+---
 
-Audacity can record various types of microphones,&#x20;
+# Recording your voice & microphone
 
 ## 1. Connect your Microphone
 
@@ -44,7 +46,7 @@ Then try to speak in a normal volume. In general, the volume should remain in th
 
 Next, make a test recording. To start recording your voice in Audacity, simply press the red record button.&#x20;
 
-![Transport toolbar: the record button is the second from the right](../../.gitbook/assets/transport\_toolbar.png)
+![Transport toolbar: the record button is the second from the right](<../../.gitbook/assets/transport toolbar.png>)
 
 When you have made the recording, listen back to it. If everything went well, you should now hear your voice clearly and you should now be able to continue with the next steps.
 
@@ -52,8 +54,8 @@ When you have made the recording, listen back to it. If everything went well, yo
 
 If you run into trouble with any of these steps, you may find the solution here:
 
-{% content-ref url="../../troubleshooting/solving-recording-problems.md" %}
-[solving-recording-problems.md](../../troubleshooting/solving-recording-problems.md)
+{% content-ref url="../../troubleshooting/solving-recording-problems/" %}
+[solving-recording-problems](../../troubleshooting/solving-recording-problems/)
 {% endcontent-ref %}
 
 ## Next Steps

@@ -4,7 +4,7 @@ description: >-
   a recording by re-recording it.
 ---
 
-# Re-Recording a Section
+# Re-recording a section
 
 ## Fixing bad sections as they occur (Punch-and-roll recording)
 
@@ -41,7 +41,7 @@ If your audio recording broke at one specific point in time (for example because
 
 To use it:&#x20;
 
-1. Select the bad part of the recording and silence it. You can do this by clicking the ![](<../.gitbook/assets/image (12).png>) **Silence Audio Selection** button (found next to the _undo_ and _cut/copy/paste_ buttons), or by pressing `Ctrl+L` (`Cmd+L`)
+1. Select the bad part of the recording and silence it. You can do this by clicking the ![](../.gitbook/assets/Trim.png) **Silence Audio Selection** button (found next to the _undo_ and _cut/copy/paste_ buttons), or by pressing `Ctrl+L` (`Cmd+L`)
 2.  Select a couple of seconds of audio before and after the bad part. With overdubbing turned on, recording will playback the recording back to you and help you match the timing.
 
     ![](<../.gitbook/assets/bad section.png>)
@@ -51,4 +51,4 @@ To use it:&#x20;
 
 * To hide the cut a bit better, a crossfade may help: [making-crossfades.md](../audio-editing/making-crossfades.md "mention")
 * If your new take is slightly longer or shorter than the gap left in the original recording, you can split the clip: [#splitting-up-clips](../basics/audacity-editing.md#splitting-up-clips "mention")
-* You can use a similar technique to continuously fix mistakes as they occur during a recording session using [latency-compensation.md](../contributing/tutorials/todo/latency-compensation.md "mention")
+* You can use a similar technique to continuously fix mistakes as they occur during a recording session using [latency-compensation.md](../troubleshooting/solving-recording-problems/latency-compensation.md "mention")

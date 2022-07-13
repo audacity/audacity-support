@@ -1,8 +1,6 @@
-# Installing Plugins
+# Installing plugins
 
-* [ ] Update Nyquist instructions to 3.2
-
-You can download various plugins listed on the Audacity Plugins site:
+You can download various plugins here:
 
 {% content-ref url="https://app.gitbook.com/o/-MhmG2mhIIHTtQPuHV_k/s/klCVENFte0GRy5IqVz0W/" %}
 [Audacity Plugins](https://app.gitbook.com/o/-MhmG2mhIIHTtQPuHV\_k/s/klCVENFte0GRy5IqVz0W/)
@@ -17,7 +15,7 @@ Most plugins get automatically activated once you install them on your system.
 * "Instrument" versions of plugins (VSTi, LV2i) are not supported.
 {% endhint %}
 
-## Manually installing Plugins
+## Manually installing plugins
 
 {% tabs %}
 {% tab title="Windows" %}
@@ -51,7 +49,7 @@ All Plugins can be installed per-user (`~/Library/Audio/Plug-Ins/...`) or system
 {% endtab %}
 {% endtabs %}
 
-## Installing Nyquist Plugins
+## Installing Nyquist plugins
 
 {% embed url="https://youtu.be/BMZ5gwkn2uo" %}
 Watch a step-by-step tutorial of this guide
@@ -59,7 +57,7 @@ Watch a step-by-step tutorial of this guide
 
 To install a Nyquist Plugin, follow these steps:&#x20;
 
-1. Download the plugin in question. You can find many on the wiki: [https://wiki.audacityteam.org/wiki/Download\_Nyquist\_Plug-ins](https://wiki.audacityteam.org/wiki/Download\_Nyquist\_Plug-ins)&#x20;
+1. Download the plugin in question.&#x20;
 2. Open Audacity, and go to **Tools > Nyquist Plugin Installer**
 3. Click **Browse** and locate your downloaded plugin
 4. Click **Open** and then **OK** and **OK** again.&#x20;
@@ -68,9 +66,9 @@ To install a Nyquist Plugin, follow these steps:&#x20;
 7. Enable the plugin by selecting it and clicking **Enable**
 8. Click **OK**
 
-## Deactivating and Re-activating Plugins
+## Deactivating and re-activating plugins
 
-1. Go to **Tools -> Add/Remove Plug-ins...**
+1. Go to **Tools -> Plugin-Manager**
 2. Select the plugins or effects you want to deactivate
 3. Click **Disable**.
 4. To re-enable a plugin, select them and click **Enable**.

@@ -4,7 +4,7 @@ description: >-
   a pre-existing audio file.
 ---
 
-# Making Audio Loops
+# Making audio loops
 
 Audio loops are a type of music that plays a few bars on repeat over and over. They can be created by taking a sample out of pre-existing content and looping it seamlessly.&#x20;
 
@@ -32,12 +32,12 @@ When making a loop out of music, you often will be able to see repetitions in th
 
 ### Fine-tuning the loop and removing clicks
 
-To make the loop seamless, you may need to zoom in some more, using `Ctrl+Scroll` (`Cmd+Scroll`) or the ![](<../.gitbook/assets/image (14).png>) magnifying glass.&#x20;
+To make the loop seamless, you may need to zoom in some more, using `Ctrl+Scroll` (`Cmd+Scroll`) or the ![](../.gitbook/assets/ZoomIn.png) magnifying glass.&#x20;
 
 {% hint style="success" %}
 Best practice: Set your looping points at a zero crossing, where the waveform (blue line) crosses 0 (black line):&#x20;
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/zero crossing.png>)
 {% endhint %}
 
 ## 3. Turn your loop into a clip

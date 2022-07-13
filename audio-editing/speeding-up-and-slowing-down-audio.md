@@ -2,7 +2,7 @@
 description: Audacity has several methods available to change speed and tempo of audio.
 ---
 
-# Speeding up and Slowing down Audio
+# Speeding up and slowing down audio
 
 ## Changing the speed while preserving pitch
 
@@ -12,13 +12,13 @@ description: Audacity has several methods available to change speed and tempo of
 
 To change the speed while preserving the pitch, select the audio you want to apply the effect on and go to **Effect > Change Tempo**
 
-![The "Change Tempo" Effect dialog](<../.gitbook/assets/image (9).png>)
+![The "Change Tempo" Effect dialog](<../.gitbook/assets/change tempo.png>)
 
 Drag the slider or enter some numbers to change how much you want to speed up or slow down your audio. The controls are linked, so you just need to change the value you care about, the rest will update accordingly.&#x20;
 
 For extreme slowdowns (10x slower to thousands of times slower), you may want to use **Effect > Paulstretch** instead.&#x20;
 
-![The "Paulstretch" Effect dialog](<../.gitbook/assets/image (16).png>)
+![The "Paulstretch" Effect dialog](../.gitbook/assets/paulstretch.png)
 
 {% hint style="info" %}
 **Note:** Paulstretch is only capable of slowing down, so the stretch factor relates to how many times you want to slow down your audio.&#x20;
@@ -30,7 +30,7 @@ The time resolution decides on whether the algorithm will focus on frequencies a
 
 To change speed and pitch at the same time, use **Effect > Change Speed**.
 
-![The "Change speed" effect dialog](<../.gitbook/assets/image (10).png>)
+![The "Change speed" effect dialog](<../.gitbook/assets/change speed.png>)
 
 Unlike [Change Tempo](speeding-up-and-slowing-down-audio.md#changing-the-speed-while-preserving-pitch), the Change Speed effect keeps the waveform mostly intact, so you can use this method repeatedly without any major loss in quality.&#x20;
 

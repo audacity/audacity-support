@@ -1,4 +1,4 @@
-# Mixing and Panning Tracks
+# Mixing and panning tracks
 
 ## Using the Track Controls
 
@@ -53,7 +53,7 @@ By default, the icon for each track is the Audacity logo, but it can be changed 
 {% endtab %}
 {% endtabs %}
 
-## Rendering the Mix
+## Rendering the mix
 
 Once you have your changes to mixing, panning and other real-time effects final and want to apply them onto the waveform itself, you can render the mix using **Tracks > Mix > Mix and Render**. This replaces all selected tracks with the mix. If you have used many tracks and real time effects, this may considerably improve performance.&#x20;
 

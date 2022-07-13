@@ -14,9 +14,9 @@ The goal of the user guide is to provide explanations on how to perform various 
 
 Documenting features seems like the obvious thing to do: Audacity has various menus, so better have a list of what every option in that menu does. However, this leads to the situation where some pages are completely unfindable as a reader already needs to know where certain options are in the menu in order to find out what the page would be called. For example, the feature containing the slider for the recording and playback volumes is called _Mixer Toolbar_. But nobody except the people most intimately familiar with Audacity know it's called that!
 
-To combat this, try to write your guides as a way towards a goal, or a **task**. The above example, instead of naming the page after the feature, name it after the task it does, so:  [setting-recording-levels-and-playback-levels.md](../../basics/recording-your-voice-and-microphone/setting-recording-levels-and-playback-levels.md "mention")
+To combat this, try to write your guides as a way towards a goal, or a **task**. The above example, instead of naming the page after the feature, name it after the task it does, so:  [setting-recording-levels-and-playback-levels.md](../../../basics/recording-your-voice-and-microphone/setting-recording-levels-and-playback-levels.md "mention")
 
-Tasks aren't necessarily tied to individual features. For example, [noise-reduction-removal.md](../../repairing-audio/noise-reduction-removal.md "mention") can talk about several tools as once as they all are means towards a common goal.&#x20;
+Tasks aren't necessarily tied to individual features. For example, [noise-reduction-removal.md](../../../repairing-audio/noise-reduction-removal.md "mention") can talk about several tools as once as they all are means towards a common goal.&#x20;
 
 If a feature has many different modes or options that are unrelated to the task you're describing, avoid making long lists of what all the feature can do. Focus on the task-related ones instead.
 
@@ -28,13 +28,13 @@ There are some exceptions to this, especially when documenting more "advanced" f
 **Rule of thumb:** If a feature is easy to use, but hard to find, document it like a task, ie answering the question "how do I do x". If a feature is hard to use, document how to use the feature as a series of sub-tasks if possible.
 {% endhint %}
 
-### Target Audience
+### Target audience
 
 Audacity's user base consists largely of **casual users**. As such, you can't expect the readers of your guide to understand even fairly common audio terms (for example: compressor or loudness vs volume), unless it's directly connected to the topic you're writing about.&#x20;
 
 For example, if you write a guide about compressing and expanding audio, you don't need to hold yourself up on explaining what a compressor is, since the only people who'll ever end up reading that guide are people who already know about that. However, if you were to mention a compressor on a page about general audio editing, you would need to explain what a compressor is good for.
 
-That said: If it's possible to describe a feature without needing to resort to lingo, use it even if it's slightly less accurate. For example, "punch-in repair" would be the accurate term for [re-recording-a-section.md](../../repairing-audio/re-recording-a-section.md "mention"), but also is way harder to understand and thus to find.
+That said: If it's possible to describe a feature without needing to resort to lingo, use it even if it's slightly less accurate. For example, "punch-in repair" would be the accurate term for [re-recording-a-section.md](../../../repairing-audio/re-recording-a-section.md "mention"), but also is way harder to understand and thus to find.
 
 ### Scope
 
@@ -56,11 +56,15 @@ The overall tone should be friendly but not patronizing, and the language should
 
 ### Page titles
 
-Titles should reflect the task you're trying to teach. For example, if you're teaching how to add reverb, the title should be "Adding Reverb"
+Titles should reflect the task you're trying to teach. For example, if you're teaching how to add reverb, the title should be "Adding reverb"
 
 The title should be concise (try keeping it below 60 characters).
 
-Page titles should be written in title case. So generally, the first and last word, as well as major or otherwise important words are capitalized. Conjunctions (and, but, ...), articles (the, a, an), prepositions (in, at, to, over, ...) and other less important words may be lower case.&#x20;
+Page titles should be written in sentence case. So generally, the first is capitalized while everything else is not, except proper nouns and acronyms ("Audacity", "FFMPEG").
+
+{% hint style="info" %}
+Note: When the title explicitly refers to an option within Audacity itself, use the spelling found inside Audacity. So for example, "Using the Noise Reduction effect" would have "noise reduction" capitalized, but "Reducing noise in Audacity" would not.&#x20;
+{% endhint %}
 
 ### Introductions
 
@@ -83,6 +87,8 @@ If you need to interrupt the steps for explanations, you can either do
    Note: This is an explanation on a new line
 3. then a third thing
 
+#### Instructions for different Operating Systems
+
 If instructions are different depending on the operating system or other factors, you can use tabs, like this:
 
 {% tabs %}
@@ -104,6 +110,20 @@ Tabs aren't part of standard Markdown, so they probably won't show up properly i
 {% hint style="info" %}
 **Note:** Tabs are quite big blocks, visually speaking. When using them, make sure that what you're showcasing is worth this space. For example, if you're just saying that undo is Ctrl+z on Windows and Linux, you can just put brackets behind it for the mac instructions - "press Ctrl+z (Cmd+z)"
 {% endhint %}
+
+#### Technical explanations, asides, and manual backups
+
+If a task has a main way of working, but may benefit from additional context, you can use the Expandable block:
+
+<details>
+
+<summary>Further information</summary>
+
+You can use various other things in here.&#x20;
+
+Note that you cannot embed other blocks inside Expandables. You are limited to Paragraphs, Headings (h1, h2, h3), lists (bullet points, numbers, checkboxes) and code blocks. Images are possible, but only as inline (ie inside a paragraph).&#x20;
+
+</details>
 
 ### Images
 
