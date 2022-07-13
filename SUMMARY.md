@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Audacity Support](README.md)
+* [Audacity Support](HOME.md)
 * [Contributing](contributing/README.md)
   * [Making Tutorials and User Guides](contributing/tutorials/README.md)
     * [Style Guide](contributing/tutorials/style-guide.md)
