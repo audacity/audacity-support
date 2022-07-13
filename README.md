@@ -4,9 +4,15 @@ description: This site features various third-party plugins for Audacity
 
 # Audacity Plugins
 
-You can download and install plugins or libraries to add extra functionality to Audacity. Plugins can give you extra effects, or more audio generation and analysis capability.
+This site features download links to various plugins for Audacity, which can be used to extend Audacity's functionality to better match your workflow.
 
-This site features various Plugins for Audacity, categorized in the sidebar. If you want to try out many plugins, the easiest way to get them is to install entire plugin suites.
+The most popular plugins are:&#x20;
+
+* [#acx-check](analyzers/analysis-plugins.md#acx-check "mention"), a plugin to check if an audio book complies with the ACX guidelines
+* The [#gvst](real-time-effects/plugin-suites.md#gvst "mention") plugin suite, known for GVerb (a reverb plugin) and GSnap (an auto-tune plugin)
+* [**FFMPEG**](https://support.audacityteam.org/basics/downloading-and-installing-audacity/installing-ffmpeg), a library to import and export various media formats such as M4A, WMA and MP4. &#x20;
+
+Many other plugins can be found in the sidebar by category. If you'd like to download many plugins at once, you also can try entire plugin suites.
 
 {% content-ref url="real-time-effects/plugin-suites.md" %}
 [plugin-suites.md](real-time-effects/plugin-suites.md)
@@ -18,6 +24,12 @@ When you install plugins, they're automatically enabled the next time you restar
 
 {% embed url="https://support.audacityteam.org/basics/installing-plugins" %}
 
+{% hint style="info" %}
+For Audacity 3.1.3 and prior, see consult [the manual](https://manual.audacityteam.org/man/installing\_plug\_ins.html) on further installation instructions.
+
+Note: Audacity 3.1.3 does not yet support VST3 plugins.
+{% endhint %}
+
 ## Contributing to this site
 
 {% hint style="success" %}
@@ -26,7 +38,7 @@ This site is still in development.
 If you want to add your own plugin, or one that you found on the web, read the [contributing instructions](https://app.gitbook.com/s/-MhmBVzGzh8SctWQ6jPR/community/contributing/plugins).&#x20;
 {% endhint %}
 
-## Plugin formats
+## Plugin formats supported by Audacity
 
 ### Nyquist plugins
 
@@ -38,7 +50,11 @@ Audacity has built-in support for [LV2](http://lv2plug.in/) plug-ins, which are 
 
 ### &#x20;**VST plugins**
 
-Audacity can load VST effects (but not VST instruments) on all operating systems. Starting with Audacity 3.2, VST3 effects also are supported.
+Audacity can load VST effects (but not VST instruments) on all operating systems.&#x20;
+
+### VST3 plugins
+
+Starting with Audacity 3.2, VST3 effects are also supported on all operating systems.&#x20;
 
 ### Audio Unit plugins
 
@@ -50,9 +66,9 @@ LADSPA is superseded by LV2. These plug-ins are mostly built for Linux, but some
 
 ## Other sources
 
-VST effects can be found on many plugin sites such as:
+This site is only meant as a starting point for effects. There are many more plugins, particularly VST3 ones, available on various vendor sites, directories and online stores. Some of them are listed below:
 
 * [Hitsquad](http://www.hitsquad.com/): [Windows](http://www.hitsquad.com/smm/win95/PLUGINS\_VST/), [Mac](http://www.hitsquad.com/smm/mac/PLUGINS\_VST/)
 * [KVR Audio](http://www.kvraudio.com/): [Windows](http://www.kvraudio.com/q.php?search=1\&os\[]=win32\&ty\[]=e\&f1\[]=vst\&pr\[]=f\&sh\[]=s), [Mac](http://www.kvraudio.com/q.php?search=1\&os\[]=mac32\&ty\[]=e\&f1\[]=vst\&pr\[]=f\&sh\[]=s)
-* [Open Directory](http://dmoz.org/Computers/Multimedia/Music\_and\_Audio/Software/Plug-ins/) (Windows, Mac).
+* [Open Directory](http://dmoz.org/Computers/Multimedia/Music\_and\_Audio/Software/Plug-ins/)
 * [plugins4free](https://plugins4free.com/)
