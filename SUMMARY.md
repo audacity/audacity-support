@@ -61,6 +61,7 @@
       * [Mastering for Audio Books](community/contributing/tutorials/todo/mastering-for-audio-books.md)
       * [How to use Audacity](community/contributing/tutorials/todo/how-to-use-audacity.md)
       * [Working with Tracks](community/contributing/tutorials/todo/untitled.md)
+      * [github readme](README.md)
   * [Answering user questions](community/contributing/answering.md)
   * [Translating Audacity](community/contributing/translating.md)
   * [Developing Audacity](community/contributing/developing.md)
