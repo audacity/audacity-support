@@ -1,7 +1,8 @@
 # Table of contents
 
 * [Audacity Plugins](README.md)
-* [Installing Plugins](https://app.gitbook.com/s/-MhmBVzGzh8SctWQ6jPR/basics/installing-plugins)
+* [Installing plugins](https://support.audacityteam.org/basics/installing-plugins)
+* [FFMPEG & LAME](https://support.audacityteam.org/basics/downloading-and-installing-audacity/installing-ffmpeg)
 
 ## real-time effects
 
