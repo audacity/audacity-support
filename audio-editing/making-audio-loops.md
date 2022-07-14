@@ -8,13 +8,15 @@ description: >-
 
 Audio loops are a type of music that plays a few bars on repeat over and over. They can be created by taking a sample out of pre-existing content and looping it seamlessly.&#x20;
 
-## 1. Enable Playback Looping
+## 1. Enable playback looping
 
-![](../.gitbook/assets/Audacity\_HdAaBLvs5q.png)
+![](<../.gitbook/assets/looping enable.png>)
 
-To enable playback looping, simply click onto the **loop button** (1). When you do this, you'll note the looping region appear in the timeline (2). You can move the region and it's in and out point individually by dragging it.&#x20;
+To enable playback looping, simply click onto the **loop button** (1). When you do this, you'll note the blue looping region appear in the timeline (2). You can move the region and it's in and out point individually by dragging it.&#x20;
 
-Additionally, you can **right click** the timeline and **Enable dragging selection (3).** This will come in handy later.
+{% hint style="info" %}
+**Tip:** You can always create a new region by dragging anywhere outside the existing region within the timeline.
+{% endhint %}
 
 ## 2. Finding the looping region
 
@@ -42,13 +44,15 @@ Best practice: Set your looping points at a zero crossing, where the waveform (b
 
 ## 3. Turn your loop into a clip
 
-If you had dragging selection enabled (see Step 1.3), you now can simply **right-click > Split Clip** (`Ctrl+I, Cmd+I`). This clip you can copy-paste in your project.
+Once your loop sounds right, you can select it's length in the waveform. A yellow line will appear when your cursor is lined up with the loop region properly. Once you have made the selection, you now can simply **right-click > Split Clip** (`Ctrl+I, Cmd+I`).&#x20;
 
-{% hint style="success" %}
-**Best practice:** If you want to use the clip on repeat, use **Effect > Repeat.**&#x20;
+Once you have the clip, you can copy-paste it anywhere in your project.
+
+{% hint style="info" %}
+**Tip:** If you want to use the clip on repeat, use **Effect > Repeat.**&#x20;
 {% endhint %}
 
-## See Also:
+## See also:
 
 {% content-ref url="../basics/saving-and-exporting-projects.md" %}
 [saving-and-exporting-projects.md](../basics/saving-and-exporting-projects.md)
