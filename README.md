@@ -12,8 +12,8 @@ Do check out [contributing](community/contributing/ "mention") if you want to ad
 
 Quick links to get started:
 
-{% content-ref url="todo/downloading-and-installing-audacity.md" %}
-[downloading-and-installing-audacity.md](todo/downloading-and-installing-audacity.md)
+{% content-ref url="basics/downloading-and-installing-audacity.md" %}
+[downloading-and-installing-audacity.md](basics/downloading-and-installing-audacity.md)
 {% endcontent-ref %}
 
 {% content-ref url="basics/downloading-and-installing-audacity/installing-ffmpeg.md" %}

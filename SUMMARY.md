@@ -4,7 +4,7 @@
 
 ## Audacity Basics <a href="#basics" id="basics"></a>
 
-* [Downloading & installing Audacity](todo/downloading-and-installing-audacity.md)
+* [Downloading & installing Audacity](basics/downloading-and-installing-audacity.md)
   * [Installing FFMPEG](basics/downloading-and-installing-audacity/installing-ffmpeg.md)
 * [Recording your voice & microphone](basics/recording-your-voice-and-microphone/README.md)
   * [Setting recording levels and playback levels](basics/recording-your-voice-and-microphone/setting-recording-levels-and-playback-levels.md)
