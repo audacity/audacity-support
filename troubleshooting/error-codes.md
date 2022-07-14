@@ -70,3 +70,13 @@ This error means "something is wrong", most commonly&#x20;
 * Missing microphone permissions from the operating system.
 
 You can try the [common-troubleshooting-steps.md](common-troubleshooting-steps.md "mention"), or attempt any of the other workarounds of this page.&#x20;
+
+## Audacity did not recognize the type of this file
+
+This error occurs when the file you're trying to open has no decoder available. You can attempt the following things to fix it:&#x20;
+
+* **Install FFMPEG**. FFMPEG allows you to open most kinds of media files. Read more: [installing-ffmpeg.md](../basics/downloading-and-installing-audacity/installing-ffmpeg.md "mention")
+* **Check if the file you're trying to open actually is what it says on the tin**. For example, some lower-quality programs name any audio file `*.mp3`, regardless of whether it actually is an MP3 file. Read more: [#cant-open-an-mp3-file](solving-other-problems.md#cant-open-an-mp3-file "mention")
+* **Check if your file is an actual audio file**. Some files which are used to output audio in certain programs don't actually contain sound themselves, but are instructions for for the program to make some sounds. Try to see if the program used to create the file has an export button. If not, you can also try recording desktop audio while playing back the file in another program. Read more: [recording-desktop-audio.md](../basics/recording-desktop-audio.md "mention")
+* **Check if you have accidentally created custom import rules**. In **Edit -> Preferences -> Extended Import** (on macOS: Audacity -> Preferences -> Extended Import), make sure that you have not created any custom rules. If there are any rules, you can safely **delete the rules**.
+* **Import the audio as RAW**. This only works on uncompressed audio. You can do so via **File -> Import -> Import raw data...**
