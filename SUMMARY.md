@@ -58,3 +58,7 @@
 ## Analyzers
 
 * [Analysis plugins](analyzers/analysis-plugins.md)
+
+***
+
+* [Audacity Support](https://app.gitbook.com/o/-MhmG2mhIIHTtQPuHV\_k/s/-MhmBVzGzh8SctWQ6jPR/)
