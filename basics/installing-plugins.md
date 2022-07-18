@@ -19,7 +19,7 @@ Most plugins get automatically activated once you install them on your system.
 
 {% tabs %}
 {% tab title="Windows" %}
-* VST2 and VST3: `C:\Users\<username>\Appdata\Roaming\audacity\Plug-ins\` or `C:\Program Files\Steinberg\VSTPlugins`
+* VST2 and VST3: `C:\Users\<username>\Appdata\Roaming\audacity\Plug-ins\`, `C:\Program Files\Common Files\VST2`, `C:\Program Files\Common Files\VST3` or `C:\Program Files\Steinberg\VSTPlugins`
 * LV2: `C:\Users\<username>\Appdata\Roaming\audacity\Plug-ins\` or `C:\Program Files\Common Files\LV2` \
   ``**Note:** Always copy the complete .lv2 _folder_
 * LADSPA: `C:\Users\<username>\Appdata\Roaming\audacity\Plug-ins\`&#x20;
