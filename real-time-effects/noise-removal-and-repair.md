@@ -57,4 +57,6 @@ Requires NVIDIA GeForce RTX 2060, Quadro RTX 3000, TITAN RTX or higher
 
 Full setup guide: [https://www.nvidia.com/en-gb/geforce/guides/broadcast-app-setup-guide/](https://www.nvidia.com/en-gb/geforce/guides/broadcast-app-setup-guide/)
 
+Technically, NVIDIA Broadcast isn't a plugin but a virtual device. You will find it in Audacity's audio settings as an input. It does not show up in the Plugin Manager.
+
 </details>
