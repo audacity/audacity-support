@@ -35,7 +35,7 @@ Newer versions can be found for instance on:
 {% hint style="info" %}
 **Note:**&#x20;
 
-* Audacity 3.1 and later supports avformat-55.dll, avformat-57.dll and avformat-58.dll. Audacity 3.2 and later supports also avformat-59.dll.&#x20;
+* Audacity 3.1 and later supports avformat-55.dll, avformat-57.dll and avformat-58.dll. Audacity 3.2 and later supports also avformat-59.dll. You can check which dll is in which FFMPEG release [here](https://ffmpeg.org/download.html).&#x20;
 * Make sure you download full FFMPEG copies, not just the avformat-\*.dll's individually. Further, make sure to download or build the **shared** versions as only those contain .dll's.&#x20;
 {% endhint %}
 
