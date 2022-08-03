@@ -250,4 +250,6 @@ ValhallaSupermassive is based around feedback delay networks. The individual del
 
 </details>
 
-##
+## See also
+
+* Nyquist [delay-and-reverb.md](../nyquist-plugins/effect-plugins/delay-and-reverb.md "mention") effects

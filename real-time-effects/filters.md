@@ -157,3 +157,7 @@ Description from the vendor:
 * Full MIDI learn mode, for MIDI CC control of every control (VST only; handled by host in AU version).
 
 </details>
+
+## See also
+
+* Nyquist [filters-and-eq.md](../nyquist-plugins/effect-plugins/filters-and-eq.md "mention") effects

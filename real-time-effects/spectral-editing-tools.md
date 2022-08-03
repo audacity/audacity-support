@@ -1,2 +1,0 @@
-# Spectral Editing tools
-

@@ -193,4 +193,6 @@ Information from the vendor
 
 </details>
 
-##
+## See also
+
+* Nyquist [filters-and-eq.md](../nyquist-plugins/effect-plugins/filters-and-eq.md "mention") effects

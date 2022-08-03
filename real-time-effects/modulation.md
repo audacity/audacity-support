@@ -40,3 +40,7 @@ Eleven algorithms allow you to get through-zero flanging, barberpole flanging, d
 ![](<../.gitbook/assets/image (5).png>)
 
 </details>
+
+## See also
+
+* Nyquist [modulation-effects.md](../nyquist-plugins/effect-plugins/modulation-effects.md "mention")

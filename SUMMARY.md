@@ -15,7 +15,6 @@
 * [Equalizers](real-time-effects/equalizers.md)
 * [Modulation](real-time-effects/modulation.md)
 * [Noise Removal and Repair](real-time-effects/noise-removal-and-repair.md)
-* [Spectral Editing tools](real-time-effects/spectral-editing-tools.md)
 
 ## Nyquist Plugins
 

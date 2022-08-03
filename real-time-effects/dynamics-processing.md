@@ -120,3 +120,7 @@ Information From the vendor:
 
 </details>
 
+## See also
+
+* Nyquist [dynamics-processing.md](../nyquist-plugins/effect-plugins/dynamics-processing.md "mention") effects
+* Nyquist [amplify-mix-and-pan-effects.md](../nyquist-plugins/effect-plugins/amplify-mix-and-pan-effects.md "mention")
