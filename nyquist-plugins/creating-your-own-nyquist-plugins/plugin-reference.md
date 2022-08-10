@@ -73,7 +73,9 @@ The GUI is created by Audacity when a plug-in contains one or more widget header
 
 As with other plug-in headers, they begin with a semicolon (**;**) and are ignored by Nyquist, except that the variable name of the widget is initialized with a value and made available to Nyquist. This means that Nyquist can access the value that has been set in the widget as the value of the variable specified in the widget header.
 
-<mark style="color:blue;background-color:green;">Note: The "Text widget" is an exception to the above at it is for display purposes only and does not set a value.</mark>
+{% hint style="info" %}
+Note: The "Text widget" is an exception to the above at it is for display purposes only and does not set a value.
+{% endhint %}
 
 Each widget begins with "**;control**", and is followed by a number of parameters, one of which defines the _type_ of widget. There are currently nine widget types, though not all of them are available for old versions of Audacity.
 
@@ -95,7 +97,9 @@ When a plug-in is launched, Audacity searches the plug-in **.NY** file for valid
 
 
 
-<mark style="background-color:green;">Note: "</mark><mark style="background-color:green;">**real**</mark><mark style="background-color:green;">" (deprecated) is an alternative name for "</mark><mark style="background-color:green;">**float**</mark><mark style="background-color:green;">" and is provided as legacy support for old plug-ins. It should not be used in new code.</mark>
+{% hint style="info" %}
+Note: "real" (deprecated) is an alternative name for "float" and is provided as legacy support for old plug-ins. It should not be used in new code.
+{% endhint %}
 
 _Italic_ words in the table denote data types. Because tokens are separated by whitepace, strings containing whitespace must be written within quotation marks.
 
@@ -103,7 +107,9 @@ This image displays all nine widget types in Audacity 2.3.1 on Windows 10
 
 ![](../../.gitbook/assets/Nyquist-plug-in-widgets.png)
 
-<mark style="background-color:green;">Note: Older versions of Audacity may not support all of these controls, which may lead to an "unbound symbol" error. Plug-in users are encouraged to use the current version of Audacity, to ensure that they can benefit from all of the latest features.</mark>
+{% hint style="info" %}
+Note: Older versions of Audacity may not support all of these controls, which may lead to an "unbound symbol" error. Plug-in users are encouraged to use the current version of Audacity, to ensure that they can benefit from all of the latest features.
+{% endhint %}
 
 The following code may be run in the [Nyquist Prompt](https://manual.audacityteam.org/man/nyquist\_prompt.html) of Audacity 2.3.1 or later, and produces the GUI shown above:
 
@@ -159,19 +165,19 @@ The way that time and durations are handled depends on the type of plug-in.
 
 For [process](broken-reference) and [analyze](broken-reference) type plug-ins, the start time of the selection is seen as "time = 0", and the length of the selection is seen as one unit of time. The absolute length of the sound in seconds can be computed one of the following ways:
 
-* Lisp syntax
+```lisp
+;Lisp
+ (/ len *sound-srate*)
+(get-duration 1)
 
-&#x20;`(/ len *sound-srate*)`\
-`(get-duration 1)`
+;SAL
+ len / *sound-srate*
+get-duration(1)
+```
 
-* SAL syntax
-
-&#x20;`len / *sound-srate*`\
-`get-duration(1)`
-
-
-
-<mark style="background-color:green;">NOTE:</mark> <mark style="background-color:green;"></mark><mark style="background-color:green;">**get-duration**</mark> <mark style="background-color:green;"></mark><mark style="background-color:green;">answers the question: "If a behavior has a nominal duration of 1, how long will it be after warping it according to the Nyquist environment?" Since many built-in behaviors like OSC and LFO have nominal durations of 1, In</mark> [<mark style="background-color:green;">process</mark>](broken-reference) <mark style="background-color:green;">effects, Audacity sets up the environment (including</mark> <mark style="background-color:green;"></mark><mark style="background-color:green;">**\*warp\***</mark><mark style="background-color:green;">) to stretch them by the selection's duration. Otherwise, if you wrote (OSC C4), the result would have a duration of one second instead of the duration of the selection.</mark>
+{% hint style="info" %}
+NOTE: get-duration answers the question: "If a behavior has a nominal duration of 1, how long will it be after warping it according to the Nyquist environment?" Since many built-in behaviors like OSC and LFO have nominal durations of 1, In process effects, Audacity sets up the environment (including _warp_) to stretch them by the selection's duration. Otherwise, if you wrote (OSC C4), the result would have a duration of one second instead of the duration of the selection.
+{% endhint %}
 
 In 'generate' effects, this does not happen, so the length specified by the effect is the length that is produced. For example, if you write (OSC C4 3.5), a [generate](broken-reference) type effect will produce a tone of duration 3.5 seconds.
 
@@ -179,21 +185,21 @@ For [generate](broken-reference) type plug-ins, the length of the selection (if 
 
 When generating sounds with a 'generate' type plug-in, durations in Nyquist represent seconds. For example, to generate a 2.5 second sine tone, you could write:
 
-```
+```lisp
 ;type generate
 (osc 60 2.5)
 ```
 
 but if the same code is used in a 'process' type plug-in, the generated tone will be 2.5 x the duration of the track selection:
 
-```
+```lisp
 ;type process
 (osc 60 2.5)
 ```
 
 If a duration in seconds is required in a 'process' type plug-in, this may be done using the [ABS-ENV](http://www.cs.cmu.edu/\~rbd/doc/nyquist/part8.html#index583) command:
 
-```
+```lisp
 ;type process
 (abs-env (osc 60 2.5))
 ```
@@ -391,7 +397,7 @@ Audacity will always place returned audio or labels relative to the start of the
 
 An empty string may be used as a "null return", which means that the plug-in returns nothing, and no error. An example use would be if you wish to process only the first selected track.
 
-```
+```lisp
 ;; Example: Apply a function "process" to
 ;; the first selected track only.
 
@@ -415,11 +421,13 @@ To select a specific output device, set \*snd-device\* to the index number of th
 `(setf *snd-list-devices* t)`\
 `(play *track*)`
 
-<mark style="color:red;">**It is not possible to interrupt Nyquist playback. The sound will continue playing until it reaches the end, and other Audacity functions are disabled until Nyquist playback has finished.**</mark>
+{% hint style="danger" %}
+It is not possible to interrupt Nyquist playback. The sound will continue playing until it reaches the end, and other Audacity functions are disabled until Nyquist playback has finished.
+{% endhint %}
 
 To limit the amount of audio that will play, the length of the sound must be defined before starting playback. For example, to play the first 1 second of a selection, you could write (LISP syntax):
 
-```
+```lisp
 (play (extract-abs 0 1 *track*))
 ```
 
@@ -427,13 +435,11 @@ Note also that if a plug-in uses Nyquist PLAY command, using `{{button|Preview}}
 
 ### Plug-in Translations <a href="#plug_in_translations" id="plug_in_translations"></a>
 
-```
-{{intro|Nyquist plug-ins provide two mechanisms for translation into the language specified in [https://manual.audacityteam.org/man/interface_preferences.html Audacity preferences].
+Nyquist plug-ins provide two mechanisms for translation into the language specified in Audacity's preferences.
 
-One method is exclusively for plug-ins that are shipped by default with Audacity and requires compiling Audacity from source, plus several other steps involving [https://www.gnu.org/software/gettext/ gettext]. Unfortunately this method is not documented, so only a brief description is provided here.
+One method is exclusively for plug-ins that are shipped by default with Audacity and requires compiling Audacity from source, plus several other steps involving [gettext](https://www.gnu.org/software/gettext/). Unfortunately this method is not documented, so only a brief description is provided here.
 
-The other method may be used by plug-in developers for their "third party" plug-ins, but can be used only for returned strings and not for the main plug-in interface.}}
-```
+The other method may be used by plug-in developers for their "third party" plug-ins, but can be used only for returned strings and not for the main plug-in interface.
 
 #### Translation for shipped effects <a href="#translation_for_shipped_effects" id="translation_for_shipped_effects"></a>
 
@@ -483,17 +489,17 @@ Note that translations may contain Unicode characters that are not supported by 
 
 #### Translation for third party effects <a href="#translation_for_third_party_effects" id="translation_for_third_party_effects"></a>
 
-```
-{{advice|It is not currently possible to provide translations for a third party plug-in's main interface, unless the name is the same as a translated Nyquist plug-in that is already shipped with Audacity. It is highly recommended to NOT reuse the same name as a shipped plug-in for a third party plug-in.}}
-```
+{% hint style="warning" %}
+It is not currently possible to provide translations for a third party plug-in's main interface, unless the name is the same as a translated Nyquist plug-in that is already shipped with Audacity. It is highly recommended to NOT reuse the same name as a shipped plug-in for a third party plug-in.
+{% endhint %}
 
 Translations may be provided for return value messages and debug messages. To do this, the string must be marked for translation by wrapping it in the "underscore" function. The translation must also be provided in a specially formatted list variable **\*locale\***.
 
-The format for the \*locale\* list is: `{{InlineCode|1=(LIST (language-list) [(language-list) ...]) }}`{=mediawiki}
+The format for the \*locale\* list is: `(LIST (language-list) [(language-list) ...])`
 
-where "language-list" is a list in the form: `{{inlineCode|1=(LIST country-code (translations)) }}`{=mediawiki}
+where "language-list" is a list in the form: `(LIST country-code (translations))`
 
-and the "translations" are list in the form: `{{inlineCode|1=(LIST (List "string" "translation") [(List "string" "translation")...]) }}`{=mediawiki}
+and the "translations" are list in the form: `(LIST (List "string" "translation") [(List "string" "translation")...])`
 
 * The \*locale\* list may contain any number of "language-list" elements, where each language-list is a list of two strings.
 * The first element of each "language-list" is the country code (for example "en" or "fr"),
