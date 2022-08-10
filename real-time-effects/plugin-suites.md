@@ -32,7 +32,9 @@ Download page
 
 ## Available for macOS
 
-
+{% hint style="info" %}
+MacOS already ships with a range of Audio Unit effects which you can try out
+{% endhint %}
 
 ## Available for Linux
 

@@ -1,21 +1,8 @@
 # Headers Reference
 
-```
-{{Intro|1='''Plug-in Headers''' are specially formatted  [https://en.wikipedia.org/wiki/Comment_(computer_programming) code comments] placed at the top of a Nyquist plug-in script.|2= 
-Any line beginning with a semi-colon ("''';'''") is entirely ignored by Nyquist, but properly formatted "header" comments provide instructions that tell Audacity how to create the plug-in.}}
-```
+Plug-in Headers are specially formatted code comments placed at the top of a Nyquist plug-in script
 
-\_\_NOTOC\_\_
-
-### Contents
-
-1. [Plug-in Header Format](broken-reference)
-2. [Header Syntax](broken-reference)
-3. [Required plug-in headers:](broken-reference)
-4. [Display Headers](broken-reference)
-5. [Functional Headers](broken-reference)
-6. [Obsolete Headers](broken-reference)
-7. [Control Headers](broken-reference)
+Any line beginning with a semi-colon `;` is entirely ignored by Nyquist, but properly formatted "header" comments provide instructions that tell Audacity how to create the plug-in.
 
 ### Plug-in Header Format <a href="#plug_in_header_format" id="plug_in_header_format"></a>
 
@@ -48,7 +35,7 @@ $name (_ "Name of Effect")
 
 #### Header Syntax <a href="#header_syntax" id="header_syntax"></a>
 
-All plug-in headers have the syntax: `{{inlineCode|;keyword ''args''}}`{=mediawiki}, where _args_ are the parameters ("arguments") for the header command.
+All plug-in headers have the syntax: `;keyword`` `_`args`_, where _args_ are the parameters ("arguments") for the header command.
 
 | [**Required plug-in headers:**](broken-reference)                                 |
 | --------------------------------------------------------------------------------- |
@@ -81,14 +68,6 @@ All plug-in headers have the syntax: `{{inlineCode|;keyword ''args''}}`{=mediawi
 | [Control Headers:](broken-reference)                                              |
 | These headers define the plug-in GUI.                                             |
 | [;control](broken-reference) _`<args>`{=html}_                                    |
-
-```
-<div id="required headers">
-```
-
-```
-</div>
-```
 
 ### Required plug-in headers <a href="#required_plug_in_headers" id="required_plug_in_headers"></a>
 
