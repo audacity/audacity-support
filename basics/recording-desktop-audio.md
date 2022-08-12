@@ -10,20 +10,18 @@ description: >-
 
 {% tabs %}
 {% tab title="Windows" %}
-1.  In the device toolbar, select WASAPI.&#x20;
+1. Use the **Audio Setup** toolbar to select **Windows WASAPI** as the Host and then select the output you want to use (the device you're using to listen) as the input. It will be marked with a (loopback) after it's name.
 
-    ![](<../.gitbook/assets/device toolbar - hosts dropdown.png>)
-2. Select the output you want to use (the device you're using to listen) as the input. It will be marked with a (loopback) after it's name. \
-   ![](../.gitbook/assets/loopback.png)
+![Select the loopback device to record desktop audio](<../.gitbook/assets/WASAPI Select Loopback Device.gif>)
 
 {% hint style="info" %}
-When using the (default) MME device, you may find a virtual microphone called _Stereo Mix_, _What you hear_ or similar in it. This also will record your desktop audio.&#x20;
+When using the (default) MME device, you may find a virtual microphone called _Stereo Mix_, _What you hear_ or similar in it. This also will record your desktop audio.
 {% endhint %}
+
+![Selecting Stereo Mix as an alternative to record desktop audio](<../.gitbook/assets/MME Stereo Mix Audio Setup.gif>)
 {% endtab %}
 
 {% tab title="macOS" %}
-On macOS, you can use Soundflower to record desktop audio.
-
 [https://github.com/mattingalls/Soundflower/releases/](https://github.com/mattingalls/Soundflower/releases/)&#x20;
 
 {% hint style="warning" %}
@@ -61,3 +59,5 @@ Hit the record button to record your desktop audio.&#x20;
 {% hint style="info" %}
 **Note:** Using WASAPI, Audacity will only record when sound is playing and automatically pause the recording when the desktop audio sound stops. You can circumvent this by having adding a second, empty track to your project via Tracks > Add New... > Stereo Track
 {% endhint %}
+
+![When using the loopback device Audacity will record only when audio is being played](<../.gitbook/assets/WASAPI Loopback Recording Pause 3.2.gif>)
