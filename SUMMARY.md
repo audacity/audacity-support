@@ -11,6 +11,7 @@
 * [Recording desktop audio](basics/recording-desktop-audio.md)
 * [Editing audio](basics/audacity-editing.md)
 * [Saving and exporting projects](basics/saving-and-exporting-projects.md)
+* [🆕 Sharing audio online](basics/sharing-audio-online.md)
 * [Installing plugins](basics/installing-plugins.md)
 * [Keyboard shortcuts](basics/keyboard-shortcuts.md)
 
