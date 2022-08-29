@@ -22,6 +22,7 @@
 
 ## Audio Editing
 
+* [🆕 Using realtime effects](audio-editing/using-realtime-effects.md)
 * [Making audio loops](audio-editing/making-audio-loops.md)
 * [Making crossfades](audio-editing/making-crossfades.md)
 * [Speeding up and slowing down audio](audio-editing/speeding-up-and-slowing-down-audio.md)
