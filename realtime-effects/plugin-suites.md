@@ -4,23 +4,25 @@ description: Families of plugins by the same authors
 
 # Plugin Suites
 
-## Available for all platforms
-
-### GVST
-
-A set of simple VST effects, most known for the GSnap (auto-tune) effect.
-
-{% embed url="https://www.gvst.co.uk/packages.htm" %}
-Download page
-{% endembed %}
-
-## IEM Plugin Suite
-
-A set of open source plugins by the Institute of Electronic Music and Acoustics of the University of Music and Performing Arts Graz. Strong focus on ambisonic functions; see their [plugin descriptions](https://plugins.iem.at/docs/plugindescriptions/).&#x20;
-
-{% embed url="https://plugins.iem.at/" %}
-
 ## Available for Windows
+
+### Muse FX
+
+A collection of essential effects.
+
+{% file src="../.gitbook/assets/MuseFX (Windows).zip" %}
+Direct Download
+{% endfile %}
+
+<details>
+
+<summary>Details &#x26; installation instructions</summary>
+
+Contains a Chorus, Compressor, De-esser, Delay, Master, Noise Gate, Pitch Fix, Reverb, Rotary, and two EQ effects.&#x20;
+
+Unzip the .vst3 files into `C:\Program Files\Common Files\VST3\Muse\`  - you may need to create the folder first if it doesn't exist yet.
+
+</details>
 
 ### Reaplugs
 
@@ -35,6 +37,24 @@ Download page
 {% hint style="info" %}
 MacOS already ships with a range of Audio Unit effects which you can try out
 {% endhint %}
+
+### Muse FX
+
+A collection of essential effects
+
+{% file src="../.gitbook/assets/MuseFX (macOS).zip" %}
+Direct Download
+{% endfile %}
+
+<details>
+
+<summary>Details &#x26; installation instructions</summary>
+
+Contains a Chorus, Compressor, De-esser, Delay, Master, Noise Gate, Pitch Fix, Reverb, Rotary, and two EQ effects.&#x20;
+
+Unzip the .vst3 files into `/Library/Audio/Plug-Ins/VST/Muse` -  you may need to create the folder first if it doesn't exist yet.
+
+</details>
 
 ## Available for Linux
 
@@ -53,3 +73,20 @@ Note: The virtual instruments included are not supported in Audacity.
 The Calf plugins can be found in the repositories of most Linux distributions, additionally, compilation instructions can be found here:&#x20;
 
 {% embed url="https://calf-studio-gear.org/#install" %}
+
+## Available for all platforms
+
+### GVST
+
+A set of simple VST effects, most known for the GSnap (auto-tune) effect.
+
+{% embed url="https://www.gvst.co.uk/packages.htm" %}
+Download page
+{% endembed %}
+
+### IEM Plugin Suite
+
+A set of open source plugins by the Institute of Electronic Music and Acoustics of the University of Music and Performing Arts Graz. Strong focus on ambisonic functions; see their [plugin descriptions](https://plugins.iem.at/docs/plugindescriptions/).&#x20;
+
+{% embed url="https://plugins.iem.at/" %}
+

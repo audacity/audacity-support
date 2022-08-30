@@ -122,15 +122,15 @@ Information from the developer website:
 
 Dragonfly Room Reverb is a free stereo-to-stereo reverb effect. It has several different room presets, as well as a small number of hall presets and effect presets. It is based on ProG Reverb from Freeverb3VST, which uses Moorer's early reflection model and an implementation of Jon Dattorro's Progenitor Reverb algorithm.
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/Dragonfly example.png>)
 
 Dragonfly Hall Reverb is a free stereo-to-stereo reverb effect. It is primarily intended for use as a concert hall reverb. It also has numerous smaller presets representing rooms, studios, and chambers. It is based on Hibiki Reverb from Freeverb3VST, which uses Moorer's early reflection model and a modified FDN allpass Zita reverb.
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/dragonfly hall example.png>)
 
 Dragonfly Plate is a free mono-to-stereo reverb plugin based on [NVerb](http://freeverb3vst.osdn.jp/tutorial/tutorial\_vst\_nrev.shtml) and [STRev](http://freeverb3vst.osdn.jp/tutorial/tutorial\_vst\_strev.shtml) from Freeverb3 VST
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/dragonfly plate example.png>)
 
 </details>
 
@@ -175,7 +175,7 @@ Information from the developer website:
 * Easy to use.
 * Only stereo channels supported.
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/TAL Reverb example.png>)
 
 </details>
 
@@ -197,7 +197,7 @@ Notes held for a longer time tend to build up resonance, as if the air takes a w
 
 To achieve this, Protoverb works with many parallel, serial and networked delays. With such a structure, no mathematical formula can make it sound right, it is down to trial and error (and luck) using random values. Protoverb generates random delay line lengths, networks and feedback strategies.
 
-![](<../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/protoverb example.png>)
 
 </details>
 
