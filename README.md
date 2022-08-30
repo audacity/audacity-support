@@ -1,24 +1,24 @@
 ---
-description: This site features various third-party plugins for Audacity
+description: >-
+  This site features download links to various plugins for Audacity, which can
+  be used to extend Audacity's functionality to better match your workflow.
 ---
 
 # Audacity Plugins
 
-This site features download links to various plugins for Audacity, which can be used to extend Audacity's functionality to better match your workflow.
+On this site you can find download links for [equalizer plugins](realtime-effects/equalizers.md), [filter plugins](realtime-effects/filters.md), [delay and reverb plugins](realtime-effects/delay-and-reverb.md), and more - check the sidebar. If you'd like to download many plugins at once, you also can try entire [plugin suites](realtime-effects/plugin-suites.md).
 
-The most popular plugins are:&#x20;
+{% hint style="success" %}
+All plugins in the [realtime effects](broken-reference) section can be previewed in realtime in Audacity 3.2.&#x20;
 
-* [#acx-check](analyzers/analysis-plugins.md#acx-check "mention"), a plugin to check if an audio book complies with the ACX guidelines
-* The [#gvst](real-time-effects/plugin-suites.md#gvst "mention") plugin suite, known for GVerb (a reverb plugin) and GSnap (an auto-tune plugin)
-* [**FFMPEG**](https://support.audacityteam.org/basics/downloading-and-installing-audacity/installing-ffmpeg), a library to import and export various media formats such as M4A, WMA and MP4. &#x20;
+This means that you can change the effect settings while playing, and come back to your settings after doing many other things - without the need to undo anything.
+{% endhint %}
 
-Many other plugins can be found in the sidebar by category. If you'd like to download many plugins at once, you also can try entire plugin suites.
+Further information about using realtime effects can be found here:
 
-{% content-ref url="real-time-effects/plugin-suites.md" %}
-[plugin-suites.md](real-time-effects/plugin-suites.md)
-{% endcontent-ref %}
+{% embed url="https://support.audacityteam.org/audio-editing/using-realtime-effects" %}
 
-## Installing Plugins
+## Installing plugins
 
 When you install plugins, they're automatically enabled the next time you restart Audacity 3.2. Further instructions can be found here:
 
@@ -29,6 +29,12 @@ For Audacity 3.1.3 and prior, see consult [the manual](https://manual.audacityte
 
 Note: Audacity 3.1.3 does not yet support VST3 plugins.
 {% endhint %}
+
+## Popular plugins
+
+* [#acx-check](analyzers/analysis-plugins.md#acx-check "mention"), a plugin to check if an audio book complies with the ACX guidelines
+* The [#gvst](realtime-effects/plugin-suites.md#gvst "mention") plugin suite, known for GVerb (a reverb plugin) and GSnap (an auto-tune plugin)
+* [**FFMPEG**](https://support.audacityteam.org/basics/downloading-and-installing-audacity/installing-ffmpeg), a library to import and export various media formats such as M4A, WMA and MP4. &#x20;
 
 ## Contributing to this site
 
