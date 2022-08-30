@@ -84,7 +84,7 @@ Click the **Export...** button to export the current view as a tab-separated val
 
 ## Analyzer Plugins
 
-Audacity supports the **Vamp** plugin format among others. Many of them can be found in the [Vamp Plugin Pack](https://app.gitbook.com/s/klCVENFte0GRy5IqVz0W/real-time-effects/plugin-suites#vamp-plugin-pack).&#x20;
+Audacity supports the **Vamp** plugin format among others. Many of them can be found in the [Vamp Plugin Pack](https://app.gitbook.com/s/klCVENFte0GRy5IqVz0W/realtime-effects/plugin-suites#vamp-plugin-pack).&#x20;
 
 {% content-ref url="https://app.gitbook.com/o/-MhmG2mhIIHTtQPuHV_k/s/klCVENFte0GRy5IqVz0W/" %}
 [Audacity Plugins](https://app.gitbook.com/o/-MhmG2mhIIHTtQPuHV\_k/s/klCVENFte0GRy5IqVz0W/)
