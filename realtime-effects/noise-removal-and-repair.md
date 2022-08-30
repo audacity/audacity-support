@@ -28,7 +28,7 @@ See the pack for installation instructions.
 
 Has presets for female and male voices, harshness, sibilance, steel guitar and strings rosin.
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (2) (1).png>)
 
 </details>
 
@@ -92,3 +92,7 @@ Full setup guide: [https://www.nvidia.com/en-gb/geforce/guides/broadcast-app-set
 Technically, NVIDIA Broadcast isn't a plugin but a virtual device. You will find it in Audacity's audio settings as an input. It does not show up in the Plugin Manager.
 
 </details>
+
+## See also
+
+* &#x20;[dynamics-processing.md](dynamics-processing.md "mention") - Dynamics processors can often be used for noise reduction purposes

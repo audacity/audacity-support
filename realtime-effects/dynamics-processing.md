@@ -1,5 +1,51 @@
 # Dynamics Processing
 
+## Muse FX Compress
+
+An easy to use compressor effect. Part of the [#muse-fx](plugin-suites.md#muse-fx "mention") pack.
+
+<details>
+
+<summary>Details</summary>
+
+See the pack for installation instructions.
+
+![](<../.gitbook/assets/image (2).png>)
+
+</details>
+
+## MuseFX Noise Gate
+
+A noise gate. Part of the [#muse-fx](plugin-suites.md#muse-fx "mention") pack.
+
+<details>
+
+<summary>Details</summary>
+
+See the pack for installation instructions.
+
+A noise gate keeps noise in quiet parts out while not affecting the audio you want at all.
+
+![](<../.gitbook/assets/image (5).png>)
+
+</details>
+
+## MuseFX De-Ess
+
+An easy to use de-esser. Part of the [#muse-fx](plugin-suites.md#muse-fx "mention") pack.
+
+<details>
+
+<summary>Details</summary>
+
+See the pack for installation instructions.
+
+Has presets for female and male voices, harshness, sibilance, steel guitar and strings rosin.
+
+![](<../.gitbook/assets/image (2) (1).png>)
+
+</details>
+
 ## ReaComp
 
 A compressor effect, part of ReaPlugs.
