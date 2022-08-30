@@ -8,7 +8,7 @@ description: Families of plugins by the same authors
 
 ### Muse FX
 
-A collection of essential effects.
+A collection of essential effects. Contains a **Chorus**, **Compressor**, **De-esser**, **Delay**, **Master**, **Noise Gate**, **Pitch Fix**, **Reverb**, **Rotary**, and two **EQ effects**.&#x20;
 
 {% file src="../.gitbook/assets/MuseFX (Windows).zip" %}
 Direct Download
@@ -16,9 +16,7 @@ Direct Download
 
 <details>
 
-<summary>Details &#x26; installation instructions</summary>
-
-Contains a Chorus, Compressor, De-esser, Delay, Master, Noise Gate, Pitch Fix, Reverb, Rotary, and two EQ effects.&#x20;
+<summary>Installation instructions</summary>
 
 Unzip the .vst3 files into `C:\Program Files\Common Files\VST3\Muse\`  - you may need to create the folder first if it doesn't exist yet.
 
@@ -40,7 +38,7 @@ MacOS already ships with a range of Audio Unit effects which you can try out
 
 ### Muse FX
 
-A collection of essential effects
+A collection of essential effects. Contains a **Chorus**, **Compressor**, **De-esser**, **Delay**, **Master**, **Noise Gate**, **Pitch Fix**, **Reverb**, **Rotary**, and two **EQ effects**.&#x20;
 
 {% file src="../.gitbook/assets/MuseFX (macOS).zip" %}
 Direct Download
@@ -48,11 +46,9 @@ Direct Download
 
 <details>
 
-<summary>Details &#x26; installation instructions</summary>
+<summary>Installation instructions</summary>
 
-Contains a Chorus, Compressor, De-esser, Delay, Master, Noise Gate, Pitch Fix, Reverb, Rotary, and two EQ effects.&#x20;
-
-Unzip the .vst3 files into `/Library/Audio/Plug-Ins/VST/Muse` -  you may need to create the folder first if it doesn't exist yet.
+Unzip the .vst3 folders into `/Library/Audio/Plug-Ins/VST/Muse` -  you may need to create the folder first if it doesn't exist yet.
 
 </details>
 

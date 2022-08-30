@@ -1,5 +1,33 @@
 # Equalizers
 
+## MuseFX Simple EQ
+
+An easy to use yet powerful EQ. Part of the [#muse-fx](plugin-suites.md#muse-fx "mention") pack.
+
+<details>
+
+<summary>Details</summary>
+
+See the pack for installation instructions.
+
+![](../.gitbook/assets/image.png)
+
+</details>
+
+## MuseFX ProEQ
+
+An easy to use 4-band EQ. Part of the [#muse-fx](plugin-suites.md#muse-fx "mention") pack.
+
+<details>
+
+<summary>Details</summary>
+
+See the pack for installation instructions.
+
+![](<../.gitbook/assets/image (4).png>)
+
+</details>
+
 ## ReaEQ
 
 An unlimited band IIR based equalizer effect, part of ReaPlugs.
