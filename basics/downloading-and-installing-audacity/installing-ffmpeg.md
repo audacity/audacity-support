@@ -43,6 +43,10 @@ Newer versions can be found for instance on:
 
 ### Manual installation
 
+{% embed url="https://youtu.be/ROk5Hw_MWDE" %}
+Video guide
+{% endembed %}
+
 If you have installed FFMPEG from a different source, or installed it in a different location, you'll need to tell Audacity where to find it. To do this:&#x20;
 
 1. Go to **Edit > Preferences > Libraries**
