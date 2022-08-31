@@ -65,6 +65,35 @@ Information from the vendor:
 
 </details>
 
+## ReaGate
+
+A noise gate effect, part of ReaPlugs.
+
+{% embed url="https://www.reaper.fm/reaplugs" %}
+Download page
+{% endembed %}
+
+<details>
+
+<summary>Details</summary>
+
+Copyright (C) 2006-2016, Cockos Incorporated VST PlugIn Technology by Steinberg Media Technologies GmbH
+
+Information From the vendor:
+
+* Ultra-configurable gate
+* Sidechain filters, sidechain input
+* Lookahead for pre-open
+* Hold control
+* Hysteresis control
+* Variable RMS size
+* Can send MIDI events on gate open/close
+* Wet/dry mix, noise mix (can add noise when gate is open)
+
+![](../.gitbook/assets/reagate.png)
+
+</details>
+
 ## NVIDIA Broadcast
 
 A virtual device that sits between your microphone and Audacity and other programs which allows you to use an AI denoiser.

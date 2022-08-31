@@ -24,7 +24,7 @@ An easy to use, versatile reverb effect, part of the [#muse-fx](plugin-suites.md
 
 See the pack for installation instructions.&#x20;
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (3) (1).png>)
 
 </details>
 

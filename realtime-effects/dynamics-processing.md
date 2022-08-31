@@ -14,25 +14,9 @@ See the pack for installation instructions.
 
 </details>
 
-## MuseFX Noise Gate
+## MuseFX Master
 
-A noise gate. Part of the [#muse-fx](plugin-suites.md#muse-fx "mention") pack.
-
-<details>
-
-<summary>Details</summary>
-
-See the pack for installation instructions.
-
-A noise gate keeps noise in quiet parts out while not affecting the audio you want at all.
-
-![](<../.gitbook/assets/image (5).png>)
-
-</details>
-
-## MuseFX De-Ess
-
-An easy to use de-esser. Part of the [#muse-fx](plugin-suites.md#muse-fx "mention") pack.
+An easy to use mastering plugin. Part of the [#muse-fx](plugin-suites.md#muse-fx "mention") pack.
 
 <details>
 
@@ -40,9 +24,7 @@ An easy to use de-esser. Part of the [#muse-fx](plugin-suites.md#muse-fx "mentio
 
 See the pack for installation instructions.
 
-Has presets for female and male voices, harshness, sibilance, steel guitar and strings rosin.
-
-![](<../.gitbook/assets/image (2) (1).png>)
+![](<../.gitbook/assets/image (3).png>)
 
 </details>
 
@@ -105,35 +87,6 @@ Information from the vendor:
 * Subtract - can build noise profiles and subtract noise from the signal
 
 ![](../.gitbook/assets/reafir.png)
-
-</details>
-
-## ReaGate
-
-A noise gate effect, part of ReaPlugs.
-
-{% embed url="https://www.reaper.fm/reaplugs" %}
-Download page
-{% endembed %}
-
-<details>
-
-<summary>Details</summary>
-
-Copyright (C) 2006-2016, Cockos Incorporated VST PlugIn Technology by Steinberg Media Technologies GmbH
-
-Information From the vendor:
-
-* Ultra-configurable gate
-* Sidechain filters, sidechain input
-* Lookahead for pre-open
-* Hold control
-* Hysteresis control
-* Variable RMS size
-* Can send MIDI events on gate open/close
-* Wet/dry mix, noise mix (can add noise when gate is open)
-
-![](../.gitbook/assets/reagate.png)
 
 </details>
 
