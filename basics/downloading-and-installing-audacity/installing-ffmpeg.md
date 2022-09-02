@@ -67,7 +67,21 @@ If you have installed FFMPEG from a different source, or installed it in a diffe
 {% endtab %}
 
 {% tab title="macOS" %}
-### Recommended installer
+### Homebrew
+
+The easiest way to do this is using [**homebrew**](https://brew.sh/). Once you have it installed, running the following in the terminal installs FFMPEG for you:
+
+```bash
+brew install ffmpeg
+```
+
+### Installer for Intel systems
+
+{% hint style="warning" %}
+**Caution:** If you're using an Apple Silicon ("M1", "M2") system, this installer will not work.&#x20;
+
+Further, the installer will install a fairly old version of FFMPEG, which works for most file formats and most Audacity versions. If you need a newer version, for compatibility with newer files or bugfixes, choose an alternative method instead.
+{% endhint %}
 
 1. Download FFMPEG (**ffmpeg\_64bit\_osx.pkg**) from a third party site, for example [https://lame.buanzo.org/#lameosx64bitdl](https://lame.buanzo.org/#lameosx64bitdl)&#x20;
 2. When you have finished downloading, double-click the **"ffmpeg\_64bit\_osx.pkg"** in your **Downloads** folder.
@@ -78,16 +92,14 @@ If you have installed FFMPEG from a different source, or installed it in a diffe
 
 If you have problems with Audacity detecting FFmpeg, follow the steps below to **manually locate FFmpeg**.
 
-### Other FFMPEG versions
-
-The installer above installs a quite old version of FFMPEG. While it works for most file formats and Audacity versions, you may want to install more recent versions of FFMPEG to take advantage of newer codecs or bug fixes.&#x20;
+### Compiling other versions
 
 You can download or compile FFMPEG yourself as described here: [https://trac.ffmpeg.org/wiki/CompilationGuide/macOS](https://trac.ffmpeg.org/wiki/CompilationGuide/macOS)&#x20;
 
 {% hint style="info" %}
 **Note:**&#x20;
 
-* Audacity 3.1 and later supports **ffmpeg.55.64bit.dylib**, **ffmpeg.57.64bit.dylib** and **ffmpeg.58.64bit.dylib**. Audacity 3.2 and later supports also **ffmpeg.59.64bit.dylib**.&#x20;
+* Audacity 3.1 and later supports **avformat 55, 57** and **58**. Audacity 3.2 and later supports also **avformat 59**. On mac, the avformat files usually are called **ffmpeg.5\*.64bit.dylib**
 * Make sure to download or build the **shared** versions as only those can be used by Audacity.&#x20;
 {% endhint %}
 
