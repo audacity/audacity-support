@@ -55,34 +55,6 @@ Information From the vendor:
 
 </details>
 
-## E-Phonic TapeDelay
-
-{% hint style="warning" %}
-Only works in 32-bit Audacity
-{% endhint %}
-
-Tape delay emulation&#x20;
-
-{% embed url="https://www.e-phonic.com/archived-plugins.html" %}
-Download link
-{% endembed %}
-
-<details>
-
-<summary>Details</summary>
-
-© 2019 E-Phonic
-
-Features
-
-* Up to 1 second delay
-* High and low cut
-* Add noise for self resonance
-
-This plug-in is only available in 32-bit version
-
-</details>
-
 ## VariSpeed
 
 Simulation of the WEM Copicat IC-400 Belt Drive VariSpeed model
