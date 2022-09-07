@@ -28,39 +28,6 @@ See the pack for installation instructions.
 
 </details>
 
-## ReaComp
-
-A compressor effect, part of ReaPlugs.
-
-{% embed url="https://www.reaper.fm/reaplugs" %}
-Download page
-{% endembed %}
-
-<details>
-
-<summary>Details</summary>
-
-Copyright (C) 2006-2016, Cockos Incorporated VST PlugIn Technology by Steinberg Media Technologies GmbH
-
-Information From the vendor:
-
-* Ultra-configurable compressor
-* Soft knee support
-* Sidechain filters, sidechain inputs
-* Feedback compression mode
-* Program dependent auto-release mode
-* Variable RMS size
-* Oversampling antialias modes (with optional limiting)
-* Optional make-up gain
-* Optional lookahead
-* Wet/dry mix
-* Low CPU use
-* Useful metering
-
-![](../.gitbook/assets/reacomp.png)
-
-</details>
-
 ## ReaFIR
 
 A multi-purpose dynamics processor, can be used for EQ, compressor, gate and noise reduction purposes. Part of ReaPlugs.
