@@ -22,7 +22,7 @@ You can add realtime effects using the following steps:
 2. Click **Add effect** and choose an available effect from the list.
 
 {% hint style="info" %}
-**Note:** Realtime effects always apply to an entire track.&#x20;
+**Note:** Realtime effects always apply to an entire track. Since they're calculated realtime, they won't change the source waveform.&#x20;
 {% endhint %}
 
 ## Changing effect settings
