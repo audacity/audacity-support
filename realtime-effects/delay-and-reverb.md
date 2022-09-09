@@ -55,6 +55,51 @@ Information From the vendor:
 
 </details>
 
+## MConvolutionEZ
+
+An easy-to-use highly optimized convolution reverb, part of the [#mfreefxbundle](plugin-suites.md#mfreefxbundle "mention") pack
+
+<details>
+
+<summary>Details</summary>
+
+**MConvolutionEZ** is an easy-to-use highly optimized convolution reverb. Comes with lots of impulse responses for rooms, halls, plates, guitar cabinets, effects.
+
+* Advanced GUI
+* Compare multiple settings: A to H Switching and A to D Morphing.
+* Unique visualisation engine with classic meters and time graphs
+* MIDI controllers with MIDI learn
+* M/S, single channel, up to 8 channels surround and up to 64 channels ambisonics processing
+* Extremely fast, optimized for newest AVX2 and AVX512 capable processors
+* Supports VST, VST3, AU and AAX interfaces on Windows and macOS
+
+See the [pack ](plugin-suites.md#mfreefxbundle)for installation instructions.&#x20;
+
+</details>
+
+## MCharmVerb
+
+A Lush algorithmic reverb effect, , part of the [#mfreefxbundle](plugin-suites.md#mfreefxbundle "mention") pack
+
+<details>
+
+<summary>Details</summary>
+
+MCharmVerb is a great sounding lush algorithmic reverb based on the MTurboReverb engine.
+
+* Advanced GUI
+* Compare multiple settings: A to H Switching and A to D Morphing.
+* Unique visualisation engine with classic meters and time graphs
+* MIDI controllers with MIDI learn
+* Automatic gain compensation (AGC)
+* M/S, single channel, up to 8 channels surround and up to 64 channels ambisonics processing
+* Extremely fast, optimized for newest AVX2 and AVX512 capable processors
+* Supports VST, VST3, AU and AAX interfaces on Windows and macOS
+
+See the [pack ](plugin-suites.md#mfreefxbundle)for installation instructions.&#x20;
+
+</details>
+
 ## VariSpeed
 
 Simulation of the WEM Copicat IC-400 Belt Drive VariSpeed model

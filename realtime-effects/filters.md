@@ -158,6 +158,55 @@ Description from the vendor:
 
 </details>
 
+## MBandPass
+
+A filter with slopes up to 120dB/oct, part of the [#mfreefxbundle](plugin-suites.md#mfreefxbundle "mention") pack
+
+<details>
+
+<summary>Details</summary>
+
+* Advanced GUI
+* Synchronization to host tempo
+* Adjustable oscillator shape technology
+* Automatic gain compensation (AGC)
+* Safety limiter
+* Modulators
+* Multiparameters
+* Unique visualisation engine with classic meters and time graphs
+* MIDI controllers with MIDI learn
+* M/S, single channel, up to 8 channels surround and up to 64 channels ambisonics processing
+* Extremely fast, optimized for newest AVX2 and AVX512 capable processors Supports VST, VST3, AU and AAX interfaces on Windows and macOS
+
+See the [pack ](plugin-suites.md#mfreefxbundle)for download page.
+
+</details>
+
+## MComb
+
+A multi-comb filter, part of the [#mfreefxbundle](plugin-suites.md#mfreefxbundle "mention") pack
+
+<details>
+
+<summary>Details</summary>
+
+* Advanced GUI
+* Sinc interpolation
+* Adjustable up-sampling 1x - 1024x
+* Adjustable oscillator shape technology
+* Automatic gain compensation (AGC)
+* Safety limiter
+* Modulators
+* Multiparameters
+* Unique visualisation engine with classic meters and time graphs
+* MIDI controllers with MIDI learn
+* M/S, single channel, up to 8 channels surround and up to 64 channels ambisonics processing
+* Extremely fast, optimized for newest AVX2 and AVX512 capable processors Supports VST, VST3, AU and AAX interfaces on Windows and macOS
+
+See the [pack ](plugin-suites.md#mfreefxbundle)for download page.
+
+</details>
+
 ## See also
 
 * Nyquist [filters-and-eq.md](../nyquist-plugins/effect-plugins/filters-and-eq.md "mention") effects

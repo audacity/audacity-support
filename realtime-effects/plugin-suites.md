@@ -30,6 +30,14 @@ A selection of some effects found in Reaper.&#x20;
 Download page
 {% endembed %}
 
+## MFreeFXBundle
+
+A collection of 37 effects in categories like Analysis, Saturation & distortion, Dynamics, Equalization, Mastering, Mixing, Pitch and others.
+
+{% embed url="https://www.meldaproduction.com/MFreeFXBundle" %}
+Download page
+{% endembed %}
+
 ## Available for macOS
 
 {% hint style="info" %}
@@ -51,6 +59,14 @@ Direct Download
 Unzip the .vst3 folders into `/Library/Audio/Plug-Ins/VST/Muse` -  you may need to create the folder first if it doesn't exist yet.
 
 </details>
+
+## MFreeFXBundle
+
+A collection of 37 effects in categories like Analysis, Saturation & distortion, Dynamics, Equalization, Mastering, Mixing, Pitch and others.
+
+{% embed url="https://www.meldaproduction.com/MFreeFXBundle" %}
+Download page
+{% endembed %}
 
 ## Available for Linux
 

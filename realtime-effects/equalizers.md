@@ -221,6 +221,30 @@ Information from the vendor
 
 </details>
 
+## MEqualizer
+
+6-band equalizer with analyzer, part of the [#mfreefxbundle](plugin-suites.md#mfreefxbundle "mention") pack
+
+<details>
+
+<summary>Details</summary>
+
+**MConvolutionEZ** is an extremely easy-to-use and powerful 6-band equalizer. It also provides an advanced visualization including a spectrum analyzer and sonogram.
+
+* Advanced GUI
+* Compare multiple settings: A to H Switching and A to D Morphing
+* 9 filter types for each band with quick adjustment
+* Powerful spectrum analyzer and sonogram
+* Unique visualisation engine with classic meters and time graphs
+* MIDI controllers with MIDI learn
+* M/S, single channel, up to 8 channelds surround and up to 64 channels ambisonics processing
+* Extremely fast, optimized for newest AVX2 and AVX512 capable processors
+* Supports VST, VST3, AU and AAX interfaces on Windows and macOS
+
+See the [pack ](plugin-suites.md#mfreefxbundle)for installation instructions.&#x20;
+
+</details>
+
 ## See also
 
 * Nyquist [filters-and-eq.md](../nyquist-plugins/effect-plugins/filters-and-eq.md "mention") effects

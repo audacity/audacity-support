@@ -69,6 +69,29 @@ Eleven algorithms allow you to get through-zero flanging, barberpole flanging, d
 
 </details>
 
+## MRingModulator
+
+Classic two oscillators ring-modulation effect, part of the [#mfreefxbundle](plugin-suites.md#mfreefxbundle "mention") pack
+
+<details>
+
+<summary>Details</summary>
+
+MRingModulator performs classic ring-modulation effects using one or two oscillators. With a clean interface that gives easy access to more advanced controls like our adjustable phase difference and shape features, including editable custom waveforms and harmonics.
+
+* Advanced GUI
+* Compare multiple settings: A to H Switching and A to D Morphing.
+* Unique visualisation engine with classic meters and time graphs
+* MIDI controllers with MIDI learn
+* Automatic gain compensation (AGC)
+* M/S, single channel, up to 8 channels surround and up to 64 channels ambisonics processing
+* Extremely fast, optimized for newest AVX2 and AVX512 capable processors
+* Supports VST, VST3, AU and AAX interfaces on Windows and macOS
+
+See the [pack ](plugin-suites.md#mfreefxbundle)for installation instructions.&#x20;
+
+</details>
+
 ## See also
 
 * Nyquist [modulation-effects.md](../nyquist-plugins/effect-plugins/modulation-effects.md "mention")
