@@ -10,7 +10,7 @@ You can connect your mic by plugging it into the appropriate port. In general, t
 
 * If you have a USB mic, plug it into a USB port.
 * If you have a mic with a 3.5mm jack, plug it into a mic-in port.
-* If you have an XLR mic, plug it into an XLR-USB audio interface and the interface into the USB port.&#x20;
+* If you have an XLR mic, plug it into an XLR-USB audio interface and the interface into the USB port.
 
 The exact details depend on both your exact computer model and your microphone model. Please see their respective manuals or support pages for further information. You may need adapters if your computer is missing appropriate ports.&#x20;
 
@@ -20,13 +20,15 @@ The exact details depend on both your exact computer model and your microphone m
 
 ## 2. Select your Microphone
 
-When you open Audacity, you will see a toolbar with four dropdowns:
+Select the microphone to record from the list of available recording devices in the **Audio Setup** toolbar
 
-![The Device Toolbar. The second dropdown controls the microphone.](../../.gitbook/assets/device\_toolbar.png)
+<figure><img src="../../.gitbook/assets/Audio Setup - Recording Device Selection.gif" alt=""><figcaption><p>Use the <strong>Audio Setup</strong> toolbar to select the microphone you want to record</p></figcaption></figure>
 
-The dropdown next to the microphone symbol lets you choose the microphone. You may see some unexpected devices here (for example, webcams), as well as virtual devices (software pretending to be a microphone). Choose the entry that matches the microphone you actually want to use.&#x20;
+You may see some unexpected devices here (for example, webcams), as well as virtual devices (software pretending to be a microphone). Choose the entry that matches the microphone you actually want to use.
 
-In the dropdown right next to it, you also can select whether you'll be recording in Mono or Stereo.&#x20;
+You can also use the **Audio Setup** toolbar to select whether you'll be recording in Mono or Stereo.
+
+<figure><img src="../../.gitbook/assets/Audio Setup - Recording Channels Selection.gif" alt=""><figcaption><p>The <strong>Audio Setup</strong> toolbar also displays the number of recording channels available from your microphone</p></figcaption></figure>
 
 {% hint style="info" %}
 **Note:** Most microphones are in Mono, and Mono is generally the best choice for recordings. Only use Stereo if you do need directionality.&#x20;
@@ -34,9 +36,9 @@ In the dropdown right next to it, you also can select whether you'll be recordin
 
 ## 3. Test your Settings
 
-Turn on the monitoring (shown below) and tap onto your mic. If you see the green bar move when tapping the mic, you have selected the correct device in the previous step.&#x20;
+Turn on the monitoring (shown below) and tap onto your mic. If you see the green bar move when tapping the mic, you have selected the correct device in the previous step.
 
-![The input level monitor](<../../.gitbook/assets/click to start monitoring>)
+<figure><img src="../../.gitbook/assets/Recording Device Monitoring.gif" alt=""><figcaption><p>Audacity will display the microphone level in the recording meter</p></figcaption></figure>
 
 Then try to speak in a normal volume. In general, the volume should remain in the green zone throughout (in general, between -18 and -12 dB is best).
 
