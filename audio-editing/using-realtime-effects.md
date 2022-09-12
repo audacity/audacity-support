@@ -27,13 +27,13 @@ You can add realtime effects using the following steps:
 
 ## Changing effect settings
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/effects panel effect focus.png" alt=""><figcaption></figcaption></figure>
 
 You can change the effect settings by clicking on the effect's name. This will open a settings window, often with a graphical interface which looks nothing like Audacity itself. You still can interact with the main Audacity window while the effect settings are open.
 
 ## Bypassing an effect
 
-<figure><img src="../.gitbook/assets/image.png" alt="the stack bypass is the first thing in focus when opening the effects panel. pressing down nagivates to any present effects. Pressing then tab first selects the power button"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/effects bypasses.png" alt="the stack bypass is the first thing in focus when opening the effects panel. pressing down nagivates to any present effects. Pressing then tab first selects the power button"><figcaption></figcaption></figure>
 
 You can press the blue power button next to an effect (or the entire effects stack) to bypass it, causing it to be not applied to your audio.&#x20;
 
