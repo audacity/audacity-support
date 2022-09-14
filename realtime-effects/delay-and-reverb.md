@@ -1,33 +1,5 @@
 # Delay and Reverb
 
-## MuseFX Delay
-
-An easy to use, versatile delay effect, part of the [#muse-fx](plugin-suites.md#muse-fx "mention") pack.
-
-<details>
-
-<summary>Details</summary>
-
-See the pack for installation instructions.&#x20;
-
-![](<../.gitbook/assets/image (1).png>)
-
-</details>
-
-## MuseFX Reverb
-
-An easy to use, versatile reverb effect, part of the [#muse-fx](plugin-suites.md#muse-fx "mention") pack.
-
-<details>
-
-<summary>Details</summary>
-
-See the pack for installation instructions.&#x20;
-
-![](<../.gitbook/assets/image (3) (1).png>)
-
-</details>
-
 ## ReaDelay
 
 A multi-tap delay effect, part of ReaPlugs.

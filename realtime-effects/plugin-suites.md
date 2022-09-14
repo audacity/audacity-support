@@ -6,14 +6,6 @@ description: Families of plugins by the same authors
 
 ## Available for Windows
 
-### Muse FX
-
-{% hint style="info" %}
-MuseFX will be available with the release of [Musescore ](https://musescore.org/)4.0, Audacity's sister project. Please check back later.&#x20;
-{% endhint %}
-
-A collection of essential effects. Contains a **Chorus**, **Compressor**, **De-esser**, **Delay**, **Master**, **Noise Gate**, **Pitch Fix**, **Reverb**, **Rotary**, and two **EQ effects**.&#x20;
-
 ### Reaplugs
 
 A selection of some effects found in Reaper.&#x20;
@@ -35,14 +27,6 @@ Download page
 {% hint style="info" %}
 MacOS already ships with a range of Audio Unit effects which you can try out
 {% endhint %}
-
-### Muse FX
-
-{% hint style="info" %}
-MuseFX will be available with the release of [Musescore ](https://musescore.org/)4.0, Audacity's sister project. Please check back later.&#x20;
-{% endhint %}
-
-A collection of essential effects. Contains a **Chorus**, **Compressor**, **De-esser**, **Delay**, **Master**, **Noise Gate**, **Pitch Fix**, **Reverb**, **Rotary**, and two **EQ effects**.&#x20;
 
 ## MFreeFXBundle
 

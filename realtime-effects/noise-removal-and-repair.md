@@ -1,37 +1,5 @@
 # Noise Removal and Repair
 
-## MuseFX Noise Gate
-
-A noise gate. Part of the [#muse-fx](plugin-suites.md#muse-fx "mention") pack.
-
-<details>
-
-<summary>Details</summary>
-
-See the pack for installation instructions.
-
-A noise gate keeps noise in quiet parts out while not affecting the audio you want at all.
-
-![](<../.gitbook/assets/image (5).png>)
-
-</details>
-
-## MuseFX De-Ess
-
-An easy to use de-esser. Part of the [#muse-fx](plugin-suites.md#muse-fx "mention") pack.
-
-<details>
-
-<summary>Details</summary>
-
-See the pack for installation instructions.
-
-Has presets for female and male voices, harshness, sibilance, steel guitar and strings rosin.
-
-![](<../.gitbook/assets/image (2) (1).png>)
-
-</details>
-
 ## ReaFIR
 
 A multi-purpose dynamics processor, can be used for EQ, compressor, gate and noise reduction purposes. Part of ReaPlugs.
