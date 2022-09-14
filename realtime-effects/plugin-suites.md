@@ -8,19 +8,11 @@ description: Families of plugins by the same authors
 
 ### Muse FX
 
+{% hint style="info" %}
+MuseFX will be available with the release of [Musescore ](https://musescore.org/)4.0, Audacity's sister project. Please check back later.&#x20;
+{% endhint %}
+
 A collection of essential effects. Contains a **Chorus**, **Compressor**, **De-esser**, **Delay**, **Master**, **Noise Gate**, **Pitch Fix**, **Reverb**, **Rotary**, and two **EQ effects**.&#x20;
-
-{% file src="../.gitbook/assets/MuseFX (Windows).zip" %}
-Direct Download
-{% endfile %}
-
-<details>
-
-<summary>Installation instructions</summary>
-
-Unzip the .vst3 files into `C:\Program Files\Common Files\VST3\Muse\`  - you may need to create the folder first if it doesn't exist yet.
-
-</details>
 
 ### Reaplugs
 
@@ -46,19 +38,11 @@ MacOS already ships with a range of Audio Unit effects which you can try out
 
 ### Muse FX
 
+{% hint style="info" %}
+MuseFX will be available with the release of [Musescore ](https://musescore.org/)4.0, Audacity's sister project. Please check back later.&#x20;
+{% endhint %}
+
 A collection of essential effects. Contains a **Chorus**, **Compressor**, **De-esser**, **Delay**, **Master**, **Noise Gate**, **Pitch Fix**, **Reverb**, **Rotary**, and two **EQ effects**.&#x20;
-
-{% file src="../.gitbook/assets/MuseFX (macOS).zip" %}
-Direct Download
-{% endfile %}
-
-<details>
-
-<summary>Installation instructions</summary>
-
-Unzip the .vst3 folders into `/Library/Audio/Plug-Ins/VST/Muse` -  you may need to create the folder first if it doesn't exist yet.
-
-</details>
 
 ## MFreeFXBundle
 
