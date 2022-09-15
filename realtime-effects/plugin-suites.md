@@ -6,15 +6,7 @@ description: Families of plugins by the same authors
 
 ## Available for Windows
 
-### Reaplugs
-
-A selection of some effects found in Reaper.&#x20;
-
-{% embed url="https://www.reaper.fm/reaplugs" %}
-Download page
-{% endembed %}
-
-## MFreeFXBundle
+### MFreeFXBundle
 
 A collection of 37 effects in categories like Analysis, Saturation & distortion, Dynamics, Equalization, Mastering, Mixing, Pitch and others.
 
@@ -28,7 +20,7 @@ Download page
 MacOS already ships with a range of Audio Unit effects which you can try out
 {% endhint %}
 
-## MFreeFXBundle
+### MFreeFXBundle
 
 A collection of 37 effects in categories like Analysis, Saturation & distortion, Dynamics, Equalization, Mastering, Mixing, Pitch and others.
 
