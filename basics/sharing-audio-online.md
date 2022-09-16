@@ -4,6 +4,10 @@
 This feature is only available in the Audacity 3.2 Beta.
 {% endhint %}
 
+{% embed url="https://www.youtube.com/watch?v=YaCr4jk8pM4" %}
+Video walkthrough of the feature
+{% endembed %}
+
 <figure><img src="../.gitbook/assets/share audio location.png" alt=""><figcaption><p>Location of the Share Audio button</p></figcaption></figure>
 
 With Audacity 3.2 you can quickly share audio online using the new service [audio.com](https://audio.com). To do this, simply click the **Share Audio** button.
