@@ -106,5 +106,11 @@ Audacity is now installed. You can start Audacity from the start menu.
 3. Double-click the AppImage to run Audacity.
 
 Additionally, your Linux distribution (for example Ubuntu, Fedora or Debian) may have a version of Audacity as part of the repository. This version is typically _older_ than the latest AppImage, but may be better integrated into your distribution.
+
+{% hint style="warning" %}
+Note: If you have trouble opening the AppImage, try installing **libfuse2**. Exact steps for various distributions can be found at
+
+[https://github.com/AppImage/AppImageKit/wiki/FUSE](https://github.com/AppImage/AppImageKit/wiki/FUSE)
+{% endhint %}
 {% endtab %}
 {% endtabs %}
