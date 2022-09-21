@@ -11,7 +11,8 @@ Most plugins get automatically activated once you install them on your system.
 {% hint style="warning" %}
 **Caution:**
 
-* 64-bit Audacity cannot run 32-bit plugins, and 32-bit Audacity cannot run 64-bit plugins. Make sure they match.
+* 64-bit Audacity cannot run 32-bit plugins, and 32-bit Audacity cannot run 64-bit plugins.&#x20;
+* Additionally, Apple Silicon (arm64) Audacity cannot run Intel (x86-64) plugins and vice versa.
 * "Instrument" versions of plugins (VSTi, LV2i) are not supported.
 {% endhint %}
 
@@ -62,10 +63,8 @@ To install a Nyquist Plugin, follow these steps:
 2. Open Audacity, and go to **Tools > Nyquist Plugin Installer**
 3. Click **Browse** and locate your downloaded plugin
 4. Click **Open** and then **OK** and **OK** again.
-5. Go to **Effect > Add/Remove Plugins**
-6. Scroll to the plugin you just installed
-7. Enable the plugin by selecting it and clicking **Enable**
-8. Click **OK**
+5. Restart Audacity
+6. The plugin should now be available in the plugins list.
 
 ## Deactivating and re-activating plugins
 

@@ -67,18 +67,36 @@ If you have installed FFMPEG from a different source, or installed it in a diffe
 {% endtab %}
 
 {% tab title="macOS" %}
+{% hint style="warning" %}
+**Caution:** If you're using an Apple Silicon ("M1", "M2") system, make sure that your FFMPEG and Audacity architectures match: arm64 (Apple Silicon) Audacity needs arm64 FFMPEG, x86\_64 (intel, also known as x64 and amd64) Audacity needs x86\_64 FFMPEG.&#x20;
+{% endhint %}
+
 ### Homebrew
 
-The easiest way to do this is using [**homebrew**](https://brew.sh/). Once you have it installed, running the following in the terminal installs FFMPEG for you:
+One way to install an FFMPEG version that matches your system architecture is using [**homebrew**](https://brew.sh/). To install homebrew, you first need xcode. You can install it through the Terminal.app by typing in:&#x20;
+
+```bash
+xcode-select --install
+```
+
+When XCode is installed, the following command downloads and runs the homebrew installer:
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+And once you have Homebrew, the following command installs FFMPEG:
 
 ```bash
 brew install ffmpeg
 ```
 
+
+
 ### Installer for Intel systems
 
 {% hint style="warning" %}
-**Caution:** If you're using an Apple Silicon ("M1", "M2") system, this installer will not work.&#x20;
+If you are on an Apple Silicon system, this installer will only work if use the x86\_64 Intel version of Audacity.
 
 Further, the installer will install a fairly old version of FFMPEG, which works for most file formats and most Audacity versions. If you need a newer version, for compatibility with newer files or bugfixes, choose an alternative method instead.
 {% endhint %}
