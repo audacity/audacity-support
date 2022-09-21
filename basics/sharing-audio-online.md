@@ -1,8 +1,8 @@
-# 🆕 Sharing audio online
+---
+description: With Audacity 3.2 and onwards, you can easily share audio online.
+---
 
-{% hint style="warning" %}
-This feature is only available in the Audacity 3.2 Beta.
-{% endhint %}
+# 🆕 Sharing audio online
 
 {% embed url="https://www.youtube.com/watch?v=YaCr4jk8pM4" %}
 Video walkthrough of the feature

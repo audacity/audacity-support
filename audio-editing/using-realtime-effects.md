@@ -4,13 +4,9 @@ description: Audacity 3.2 and onwards supports realtime effects
 
 # 🆕 Using realtime effects
 
-{% hint style="warning" %}
-This feature is only available in the [Audacity 3.2 Alpha](https://github.com/audacity/audacity/releases/tag/Audacity-3.2.0-alpha-1).&#x20;
-{% endhint %}
-
 ## Downloading & installing realtime effects
 
-While Audacity doesn't yet ship with realtime effects, you can download plugins for it. Currently supported plugin formats are Audio Units (macOS only), VST2, VST3, LV2, and LADSPA. We have collected some plugins which we know to work on [plugins.audacityteam.org](https://app.gitbook.com/o/-MhmG2mhIIHTtQPuHV\_k/s/klCVENFte0GRy5IqVz0W/) but you can find many more across the web. Once you install the plugins, they should be detected by Audacity once you restart it, if not, see the [installation instructions](../basics/installing-plugins.md).&#x20;
+While Audacity doesn't yet ship with realtime effects, you can download plugins for it. Currently supported plugin formats are **Audio Units** (macOS only), **VST3**, **LV2**, and **LADSPA**. We have collected some plugins which we know to work on [plugins.audacityteam.org](https://app.gitbook.com/o/-MhmG2mhIIHTtQPuHV\_k/s/klCVENFte0GRy5IqVz0W/) but you can find many more across the web. Once you install the plugins, they should be detected by Audacity once you restart it, if not, see the [installation instructions](../basics/installing-plugins.md).&#x20;
 
 ## Adding effects to a track
 
