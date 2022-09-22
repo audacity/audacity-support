@@ -11,7 +11,7 @@ Most plugins get automatically activated once you install them on your system.
 {% hint style="warning" %}
 **Caution:**
 
-* 64-bit Audacity cannot run 32-bit plugins, and 32-bit Audacity cannot run 64-bit plugins.&#x20;
+* 64-bit Audacity can only run 64-bit plugins, and 32-bit Audacity can only run 32-bit plugins.&#x20;
 * Additionally, Apple Silicon (arm64) Audacity cannot run Intel (x86-64) plugins and vice versa.
 * "Instrument" versions of plugins (VSTi, LV2i) are not supported.
 {% endhint %}
@@ -21,7 +21,7 @@ Most plugins get automatically activated once you install them on your system.
 {% tabs %}
 {% tab title="Windows" %}
 * VST2:  `C:\Program Files\Common Files\VST2` or `C:\Program Files\Steinberg\VSTPlugins`
-* VST3: `C:\Program Files\Common Files\VST3` or `C:\Program Files\Steinberg\VSTPlugins`
+* VST3: `C:\Program Files\Common Files\VST3`&#x20;
 * LV2:  `C:\Program Files\Common Files\LV2`\
   **Note:** Always copy the complete .lv2 _folder_
 * LADSPA: `C:\Users\<username>\Appdata\Roaming\audacity\Plug-ins\`
@@ -43,8 +43,9 @@ All Plugins can be installed per-user (`~/Library/Audio/Plug-Ins/...`) or system
 {% tab title="Linux" %}
 * LV2: `~/.lv2`, `/usr/local/lib/lv2` (for 32-bit) or `/usr/local/lib64/lv2` (for 64-bit)\
   **Note**: Always copy the entire .lv2 _folder_
-* VST2 and VST3: `~/.vst` or `/usr/local/lib/vst`\
-  \`\`**Note**: Many VST effects are Windows-only
+* VST2: `~/.vst` or `/usr/local/lib/vst`\
+  **Note**: Many VST effects are Windows-only
+* VST3: `~/.vst3` or `/usr/local/lib/vst3`
 * LADSPA: `~/.ladspa` or `/usr/local/lib/ladspa`
 * Vamp: `~/.vamp` or `/usr/local/lib/vamp`
 * Nyquist: See below
