@@ -6,6 +6,17 @@ description: >-
 
 # Missing features
 
+## Cut, Copy and Paste buttons
+
+The Cut/Copy/Paste buttons have been removed in version 3.2.0. You can access the functionality in the following ways instead:&#x20;
+
+* **Right-click** the selected audio and choose Cut/Copy/Paste
+* In the **Edit menu**, choose Cut/Copy/Paste
+* Use **shortcuts**:&#x20;
+  * `Ctrl+X` is cut (`Cmd+X` on macOS)
+  * `Ctrl+C` is copy (`Cmd+C` on macOS)
+  * `Ctrl+V` is paste (`Cmd+V` on macOS)
+
 ## Device toolbar
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Look of the device toolbar</p></figcaption></figure>
