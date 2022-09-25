@@ -81,3 +81,16 @@ This error occurs when the file you're trying to open has no decoder available. 
 * **Check if your file is an actual audio file**. Some files which are used to output audio in certain programs don't actually contain sound themselves, but are instructions for for the program to make some sounds. Try to see if the program used to create the file has an export button. If not, you can also try recording desktop audio while playing back the file in another program. Read more: [recording-desktop-audio.md](../basics/recording-desktop-audio.md "mention")
 * **Check if you have accidentally created custom import rules**. In **Edit -> Preferences -> Extended Import** (on macOS: Audacity -> Preferences -> Extended Import), make sure that you have not created any custom rules. If there are any rules, you can safely **delete the rules**.
 * **Import the audio as RAW**. This only works on uncompressed audio. You can do so via **File -> Import -> Import raw data...**
+
+## unable to open, exception code 0xc0000005
+
+This caused by a corrupted audacity.cfg file, such as when upgrading from Audacity 3.1.3 to Audacity 3.2. You can solve this issue by **deleting the audacity.cfg**. The file can be found in the following locations:
+
+* **Windows:** `C:\Users\<username>\AppData\Roaming\audacity\`. To get there:\
+  Type in **%appdata%\audacity** into the Windows search bar or the Windows Explorer's location bar (accessible through Ctrl+L inside Explorer). This will take you to\
+  C:\Users\\\<username>\AppData\Roaming\audacity\ where you can delete the cfg file.\
+
+* **Mac:** `~/Library/Application Support/audacity/`. To get there:\
+  In Finder, click on the **Go menu** and hold **Option**. This shows a **Library** option. In the Library, browse to the **Application Support -> audacity** folder and delete the cfg file.&#x20;
+* **Linux:** `~/.audacity-data/`. To get there:\
+  Go to your home folder and show hidden files. This reveals the folder, where you can delete the cfg file.
