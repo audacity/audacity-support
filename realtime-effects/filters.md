@@ -66,50 +66,6 @@ Description from the vendor
 
 </details>
 
-## HY-Filter3
-
-A multimode filter
-
-{% embed url="https://plugins4free.com/plugin/2884/" %}
-Download page
-{% endembed %}
-
-<details>
-
-<summary>Details</summary>
-
-Homepage: [https://hy-plugins.com/](https://hy-plugins.com/)
-
-Description from the vendor:
-
-* 5 filter engine (SVF, Reso, Xover, Dual, Formant)
-* 2 Modulator units and 5 modulation engine(LFO, Step LFO, Step SEQ, EnvF, Multi-Point Env)
-* 2 FX units and 18 FX type
-
-</details>
-
-## Frohmage
-
-A multi-band resonant filter
-
-{% embed url="https://www.ohmforce.com/frohmage" %}
-Download page
-{% endembed %}
-
-<details>
-
-<summary>Details</summary>
-
-Description from the vendor:
-
-* A highly resonant low-pass filter effect.
-* Tone control making it possible to tune the the filter to resonate with specific notes
-* A multi-band effect giving the signal more analog warmth
-* An overdrive unit
-* A delay filter effect giving the sound a phaser- / flanger-like character.
-
-</details>
-
 ## Filterstep
 
 A modern motion filter plugin
@@ -134,27 +90,6 @@ Description from the vendor
 * Quantization settings
 * Motion selector
 * Customizable Sequence Range
-
-</details>
-
-## 914 Fixed Frequency Filter
-
-{% embed url="https://www.audiodamage.com/pages/free-and-legacy" %}
-Download page
-{% endembed %}
-
-<details>
-
-<summary>Details</summary>
-
-Description from the vendor:
-
-* 24dB Low-pass and high-pass filters.
-* Twelve fixed-frequency band-pass filters.
-* True stereo operation.
-* Separate wet and dry level controls.
-* 15dB of makeup gain on the wet level.
-* Full MIDI learn mode, for MIDI CC control of every control (VST only; handled by host in AU version).
 
 </details>
 
