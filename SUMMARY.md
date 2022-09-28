@@ -41,7 +41,7 @@
 ## Troubleshooting
 
 * [Error codes](troubleshooting/error-codes.md)
-  * [Installation status codes](troubleshooting/error-codes/installation-status-codes.md)
+  * [Installation exit codes](troubleshooting/error-codes/installation-exit-codes.md)
 * [Recovering corrupted projects](troubleshooting/recovering-corrupted-projects.md)
 * [Common troubleshooting steps](troubleshooting/common-troubleshooting-steps.md)
 * [Solving recording problems](troubleshooting/solving-recording-problems/README.md)
