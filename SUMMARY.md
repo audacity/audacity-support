@@ -40,7 +40,8 @@
 
 ## Troubleshooting
 
-* [Error codes](troubleshooting/error-codes.md)
+* [Error codes](troubleshooting/error-codes/README.md)
+  * [Installation status codes](troubleshooting/error-codes/installation-status-codes.md)
 * [Recovering corrupted projects](troubleshooting/recovering-corrupted-projects.md)
 * [Common troubleshooting steps](troubleshooting/common-troubleshooting-steps.md)
 * [Solving recording problems](troubleshooting/solving-recording-problems/README.md)
