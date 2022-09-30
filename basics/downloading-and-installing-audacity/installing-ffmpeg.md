@@ -91,6 +91,12 @@ And once you have Homebrew, the following command installs FFMPEG:
 brew install ffmpeg
 ```
 
+You now need to manually locate FFMPEG (see [below](installing-ffmpeg.md#manual-installation)). The path you're looking for should be `/opt/homebrew/Cellar/ffmpeg/5.1.2/lib/`
+
+{% hint style="info" %}
+**Note:** The exact path may differ depending on what the latest FFMPEG version in homebrew is.&#x20;
+{% endhint %}
+
 
 
 ### Installer for Intel systems
