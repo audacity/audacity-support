@@ -84,13 +84,4 @@ This error occurs when the file you're trying to open has no decoder available. 
 
 ## unable to open, exception code 0xc0000005
 
-This caused by a corrupted audacity.cfg file, such as when upgrading from Audacity 3.1.3 to Audacity 3.2. You can solve this issue by **deleting the audacity.cfg**. The file can be found in the following locations:
-
-* **Windows:** `C:\Users\<username>\AppData\Roaming\audacity\`. To get there:\
-  Type in **%appdata%\audacity** into the Windows search bar or the Windows Explorer's location bar (accessible through Ctrl+L inside Explorer). This will take you to\
-  C:\Users\\\<username>\AppData\Roaming\audacity\ where you can delete the cfg file.\
-
-* **Mac:** `~/Library/Application Support/audacity/`. To get there:\
-  In Finder, click on the **Go menu** and hold **Option**. This shows a **Library** option. In the Library, browse to the **Application Support -> audacity** folder and delete the cfg file.&#x20;
-* **Linux:** `~/.audacity-data/`. To get there:\
-  Go to your home folder and show hidden files. This reveals the folder, where you can delete the cfg file.
+This caused by a corrupted audacity.cfg file, such as when upgrading from Audacity 3.1.3 to Audacity 3.2. You can solve this issue by upgrading to Audacity 3.2.1.
