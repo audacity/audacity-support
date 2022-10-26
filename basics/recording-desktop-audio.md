@@ -30,15 +30,19 @@ Caution: Soundflower is not compatible with Apple Silicon-based machines
 {% endtab %}
 
 {% tab title="Linux" %}
-When using PulseAudio (default for Ubuntu, Linux Mint, and others):&#x20;
+When using PulseAudio (default for Ubuntu, Linux Mint, and others):
 
 1. Install PulseAudio Volume Control (pavucontrol). This should be in your repository already.
-2.  Set the audio host to ALSA, the recording device to pulse.
+2.  Use the **Audio Setup** toolbar to select **ALSA** as the audio host and select **pulse** as the recording device.
 
-    If your system uses Pulse by default, the pulse device may be called default.&#x20;
-3. Enable the recording meter by selecting "Click to start monitoring". ![](<../.gitbook/assets/click to start monitoring.png>)
-4. Open PulseAudio Volume Control and choose the "Recording" tab.
-5. In the "Capture from" dropdown, select the "Monitor" option of the playback device used by the application you want to record from
+    If your system uses Pulse by default, the pulse device may be called **default**.
+3.  Enable the recording meter by selecting **Start Monitoring**.
+
+    <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Click the Microphone icon to start monitoring the recording level</p></figcaption></figure>
+4. Open **PulseAudio Volume Control** and choose the **Recording** tab.
+5.  In the **Capture from** dropdown, select the "Monitor" option of the playback device used by the application you want to record from
+
+    <figure><img src="../.gitbook/assets/image (2) (2).png" alt=""><figcaption><p>PulseAudio Volume Control - Select <strong>Capture from:</strong> Monitor of device</p></figcaption></figure>
 6. Launch the application that you wish to record and begin playback.
 7. In the "Recording" tab of PulseAudio Volume Control, drag the volume sliders so that the recording level in Audacity's Recording Meter is to left of 0 dB (-6 dB is a good level to aim for).
 {% endtab %}
@@ -52,12 +56,6 @@ Recording the desktop audio will record all desktop audio, including notificatio
 **DON'T use software playthrough** when recording desktop audio. Make sure it's off in the menu: Transport > Transport Options > Software playthrough (on/off) - The :heavy\_check\_mark:checkmark next to it must be turned off. You can turn off overdub here as well.&#x20;
 {% endhint %}
 
-## 3. Record&#x20;
+## 3. Record
 
 Hit the record button to record your desktop audio.&#x20;
-
-{% hint style="info" %}
-**Note:** Using WASAPI, Audacity will only record when sound is playing and automatically pause the recording when the desktop audio sound stops. You can circumvent this by having adding a second, empty track to your project via Tracks > Add New... > Stereo Track
-{% endhint %}
-
-![When using the loopback device Audacity will record only when audio is being played](<../.gitbook/assets/WASAPI Loopback Recording Pause 3.2.gif>)
