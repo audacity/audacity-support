@@ -18,6 +18,8 @@ Most plugins get automatically activated once you install them on your system.
 
 ## Manually installing plugins
 
+If a plugin doesn't get found by Audacity, or doesn't come with an installer, move the plugin files to one of the following locations:
+
 {% tabs %}
 {% tab title="Windows" %}
 * VST2:  `C:\Program Files\Common Files\VST2` or `C:\Program Files\Steinberg\VSTPlugins`
