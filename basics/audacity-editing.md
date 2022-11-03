@@ -69,12 +69,15 @@ Then **click and drag** the edge to trim the clip to it's desired length.&#x20;
 
 Audacity supports a wide range of effects and effect plugins. These effects can be used for [noise-reduction-removal.md](../repairing-audio/noise-reduction-removal.md "mention") and more, and while each effect does different things, they all generally can be applied in the following way:&#x20;
 
-1.  Select the audio you want to apply the effect to.&#x20;
-
-    **Tip:** If you want to apply an effect onto your entire project, select it with `Ctrl + A` (`Cmd + A`).
+1. Select the audio you want to apply the effect to.&#x20;
 2. Go to the **Effect menu.**
 3.  Select the effect you want to use. Typically, a window like this will open:&#x20;
 
     ![](../.gitbook/assets/Normalize\_effect.png)
 4. Tweak the effect to your liking. You can click the **Preview** button to hear a short sample before applying it to the whole selection.&#x20;
 5. Press OK to apply the effect.
+
+{% hint style="success" %}
+**Best practice:** If you want to apply an effect to an entire track, use [realtime effects ](../audio-editing/using-realtime-effects.md)instead. By doing so, you can change the effect at any point later on.
+{% endhint %}
+
