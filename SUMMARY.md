@@ -40,6 +40,7 @@
 
 ## Troubleshooting
 
+* [Troubleshooting overview](troubleshooting/troubleshooting-overview.md)
 * [Error codes](troubleshooting/error-codes.md)
   * [Installation exit codes](troubleshooting/error-codes/installation-exit-codes.md)
 * [Recovering corrupted projects](troubleshooting/recovering-corrupted-projects.md)

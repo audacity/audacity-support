@@ -30,7 +30,7 @@ Software Playthrough can also be enabled In the [Recording](https://alphamanual.
 Using **Software Playthrough** when [recording desktop audio](../../basics/recording-desktop-audio.md#2.-check-if-everything-is-set-up-correctly) is not recommended.
 {% endhint %}
 
-## Why is there a delay or echo when listening to what I am recording?
+## Delay and echos when recording
 
 [Software playthrough](https://alphamanual.audacityteam.org/man/Recording\_Preferences#playthrough) usually causes a delay (latency) of the live recording input due to the time it takes to reach your headphones. To prevent this, turn software playthrough off. This can be done by choosing Transport > Transport Options > [Software Playthrough (on/off)](https://alphamanual.audacityteam.org/man/Transport\_Menu:\_Transport\_Options#software\_playthrough\_onoff) and clicking it to remove the check (tick) mark.
 
@@ -40,7 +40,7 @@ Enabling hardware monitoring is not possible with all audio devices. In particul
 
 For some typical examples of how to set up equipment to record without playthrough latency, see this Tutorial about [Recording overdubs](https://alphamanual.audacityteam.org/man/Tutorial\_-\_Recording\_Multi-track\_Overdubs).
 
-## Why do I get crackles, pops, or distortion when the recording is loud?
+## Crackles, pops and distortion in the recording
 
 If you hear crackles, pops, or distortion when the recording is loud, or if the waveform is clearly touching the top and bottom edges of the track, you probably have [clipping](https://alphamanual.audacityteam.org/man/Audacity\_Waveform#clip), which means that the signal has exceeded the maximum allowed level.
 
@@ -60,7 +60,7 @@ The vertical red lines show where the clipping has occurred; these clipping indi
 
 ![A waveform with clipping](../../.gitbook/assets/TrackExampleClipping.png)
 
-## Why is the Audacity recording slider grayed out on maximum?
+## Recording slider is greyed out
 
 The recording slider in [Mixer Toolbar](https://alphamanual.audacityteam.org/man/Mixer\_Toolbar) is purposely disabled if it cannot directly manipulate the operating system's slider for the sound device, or if that device has no system slider. Turning down the Audacity slider to prevent distortion would be inadequate unless it also turned down the system slider. It would only make existing distortion quieter instead of removing it.
 
