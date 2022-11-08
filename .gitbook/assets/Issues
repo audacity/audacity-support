@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Release Notes 2.3.0/Issues - Audacity Wiki</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Release_Notes_2.3.0/Issues","wgTitle":"Release Notes 2.3.0/Issues","wgCurRevisionId":36826,"wgRevisionId":36826,"wgArticleId":5242,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Issues"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Release_Notes_2.3.0/Issues","wgRelevantArticleId":5242,"wgRequestId":"a5fe1d4f52ef772d6172e596","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","mediawiki.skinning.content.externallinks":"ready","skins.monobook.styles":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@1ikjxew",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup"]);});</script>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.content.externallinks%7Cmediawiki.skinning.interface%7Cskins.monobook.styles&amp;only=styles&amp;skin=monobook"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=monobook"></script>
+<!--[if IE 6]><link rel="stylesheet" href="/w/skins/MonoBook/IE60Fixes.css?303" media="screen"/><![endif]--><!--[if IE 7]><link rel="stylesheet" href="/w/skins/MonoBook/IE70Fixes.css?303" media="screen"/><![endif]-->
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=monobook"/>
+<meta name="generator" content="MediaWiki 1.28.2"/>
+<link rel="shortcut icon" href="/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Audacity Wiki (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="https://wiki.audacityteam.org/w/api.php?action=rsd"/>
+<link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="Audacity Wiki Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Release_Notes_2_3_0_Issues rootpage-Release_Notes_2_3_0_Issues skin-monobook action-view"><div id="globalWrapper">
+		<div id="column-content">
+			<div id="content" class="mw-body" role="main">
+				<a id="top"></a>
+				
+				<div class="mw-indicators">
+</div>
+				<h1 id="firstHeading" class="firstHeading" lang="en">Release Notes 2.3.0/Issues</h1>
+				
+				<div id="bodyContent" class="mw-body-content">
+					<div id="siteSub">From Audacity Wiki</div>
+					<div id="contentSub"></div>
+										<div id="jump-to-nav" class="mw-jump">Jump to: <a href="#column-one">navigation</a>, <a href="#searchInput">search</a></div>
+
+					<!-- start content -->
+					<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div style="margin:24px">
+<table style="background:#DFEAF9;border:1px solid black; padding-left:12px; padding-right:12px" width="100%" align="center">
+
+<tr>
+<td align="left" valign="top">This page provides a detailed list of issues for Audacity 2.3.0
+<table style="margin-left:2em;margin-right:1.2em;background:#DFEAF9;font-style:italic" cellpadding="5px">
+<tr>
+<td>
+</td></tr></table>
+</td></tr></table>
+<table cellpadding="10px" width="100%">
+
+<tr style="line-height:10%">
+<td>&#160;
+</td></tr>
+<tr>
+<td><b>Related article(s):</b>
+<ul><li><a href="/wiki/Release_Notes_2.3.0" title="Release Notes 2.3.0">Release Notes 2.3.0</a></li></ul>
+</td></tr></table>
+</div>
+<div id="known">
+<h2><span class="mw-headline" id="Known_Major_Issues_at_Release">Known Major Issues at Release</span></h2>
+<p>None
+</p>
+<div class="editornote">Here are all the messages that can appear when options are selected...
+<div id="WindowsDiv">
+<div class="note" style="background:white"><b>Windows</b>
+<ul><li> Audacity 2.3.0 requires the CPU to support the <a rel="nofollow" class="external text" href="http://en.wikipedia.org/wiki/SSE2">SSE2 </a> instruction set which should be available on any Intel hardware produced after 2001 and any AMD hardware produced after 2003. 
+<ul><li> To check what SSE levels your CPU supports, you can install <a rel="nofollow" class="external text" href="http://www.cpuid.com/softwares/cpu-z.html">CPU-Z</a>.</li>
+<li> If your hardware only supports SSE, you may download Audacity 2.0.6 see the <a rel="nofollow" class="external text" href="https://www.audacityteam.org/download/legacy-windows/">Legacy Windows</a> page on the Audacity Website.</li></ul></li>
+<li> 2.3.0 does not support Windows XP.  
+<ul><li> You may try 2.2.2 on XP, but it is unsupported.</div></li></ul></li></ul>
+</div>
+<div id="MacDiv">
+<div class="note" style="background:white"><b>macOS / Mac OS X</b>
+<ul><li> Audacity 2.3.0 is for Intel Macs running OS X 10.7 and later and macOS. 
+<ul><li> There are legacy versions for older OS X at <a rel="nofollow" class="external free" href="http://audacityteam.org/download/legacy-mac/">http://audacityteam.org/download/legacy-mac/</a>.</div></li></ul></li></ul>
+</div>
+<div id="LinuxDiv">
+<div class="note" style="background:white"><b>Linux</b>
+<ul><li> Linux support is tested on Ubuntu Linux.  
+<ul><li> Audacity may compile on Gentoo, Debian, Mint.</li>
+<li> Audacity does not currently compile on SuSE Linux.</div></li></ul></li></ul>
+</div>
+<div id="OpenDiv">
+<div class="note" style="background:white"><b>Open</b>
+<ul><li> Bugs that were Open at time 2.3.0 was released.</div></li></ul>
+</div>
+<div id="FixedDiv">
+<div class="note" style="background:white"><b>Fixed</b>
+<ul><li> Bugs that were in Audacity 2.2.2 and that we fixed for 2.3.0</div></li></ul>
+</div>
+<div id="ClosedDiv">
+<div class="note" style="background:white"><b>Closed</b>
+<ul><li> Bugs that we fixed during 2.3.0 work, also bugs which we closed, sometimes because the bug was no longer valid, or was being better tracked in some other bug.</div></li></ul>
+</div>
+<div id="QuickFixedDiv">
+<div class="note" style="background:white"><b>Quick Fixed</b>
+<ul><li> These are bugs that arose during 2.3.0 development and were fixed during 2.3.0 development - so were never seen in a released version of Audacity.</div></li></ul>
+</div>
+<div id="AnyDiv">
+<div class="note" style="background:white"><b>Any</b>
+<ul><li> This is a complete list of all bugs, irrespective of when they were logged or closed.</div></li></ul>
+</div>
+<div id="MainDiv">
+<div class="note"><b>Main Issues</b>
+<ul><li> Bugs that we regard as the main bugs, relevant to most users.</div></li></ul>
+</div>
+<div id="WorkaroundsDiv">
+<div class="note"><b>Workarounds</b>
+<ul><li> Bugs for which we have descriptions of how to work around the bug.</div></li></ul>
+</div>
+<div id="AccessibilityDiv">
+<p><b>Accessibility</b>
+</p>
+<ul><li> Far less of Audacity is properly accessible to visually impaired users than we would like.  Currently the best supported platform for accessibility is Windows.  We lost a lot of custom accessibility programming when we had to move to a more recent version of the wxWidgets library.</li></ul>
+</div>
+<div id="TranslationDiv">
+<p><b>Internationalization</b>
+</p>
+<ul><li> Audacity is only partially translated in many languages.  We also have some issues, for example, with Right-To-Left Languages.  </li></ul>
+</div>
+<div id="NewDiv">
+<p><b>New</b>
+</p>
+<ul><li> New bugs that we became aware of during work on 2.3.0.  </li></ul>
+</div>
+<div id="EnhancementsDiv">
+<p><b>Enhancements</b>
+</p>
+<ul><li> These aren't really bugs with Audacity, just things Audacity does not do yet, that we would like to add.  <a href="/wiki/Feature_Requests" title="Feature Requests">Feature Requests</a> are the way we handle most issues of this kind, rather than adding them as bugs into our database.</li></ul>
+</div>
+<div id="XXXAnyDiv">
+<p><b>Any Bugs were of Interest</b>
+</p>
+<ul><li> for the first table</li></ul>
+</div>
+<div id="XXXP3Div">
+<div class="note">&#160;
+<ul><li> You've chosen to see just the high priority bugs.</div></li></ul>
+</div>
+<div id="XXXP5Div">
+<div class="note">&#160;
+<ul><li> You've chosen to see lower priority bugs too.</div></li></ul>
+</div>
+<div id="P3mDiv">
+<div class="note">&#160;
+<ul><li> You've chosen to see just the high priority bugs.</li>
+<li> You're also getting an additional table, with other bugs that were not shown in the first table.</div></li></ul>
+</div>
+<div id="P5mDiv">
+<div class="note">&#160;
+<ul><li> You've chosen to see lower priority bugs too.</li>
+<li> You're also getting an additional table, with other bugs that were not shown in the first table.</div></li></ul>
+</div></div>
+<h2><span class="mw-headline" id="Dynamic_Buglist">Dynamic Buglist</span></h2>
+<div class="note">The controls below give a custom bug list, allowing you to dig deeper into our list of bugs.  You can choose:
+<ul><li> Window, Mac or Linux bugs
+<ul><li> OR all Open bugs, OR all bugs fixed in this release OR all bugs closed during this release (including e.g. duplicates and bogus bugs)</li>
+<li> OR QuickFix (created and fixed in this release) OR Any for a list of all bugs ever recorded.</li></ul></li>
+<li> Express interest in Main Issues (the ones we think relevant to most users), Accessibility, Translation, Enhancements, Workarounds, New Issues (issues we found during this release) or 'Any'.  These bugs will be shown first.</li>
+<li> Express interest in low priority bugs.  If you choose one of the 'Maybe' choices, you will get a second list of bugs that you can look through by hand, or using Ctrl+F in the browser.</div></li></ul>
+<p><br />
+</p>
+
+
+    <style type="text/css">
+
+        table.tabby tr:hover {
+            background-color: #e6e6e6;
+        }
+
+        table.tabby th {
+            background-color: #31a8f4;
+            color: #1e1a56;
+        }
+
+    </style>
+    <script>
+        console.log( "Protocol is "+window.location.protocol);
+        if (window.location.protocol == "http:"){
+            console.log("Http: detected");
+            if( window.location.href.indexOf("localhost") < 0 )
+                window.location.href = "https:" + window.location.href.slice(5);
+        }
+    </script>
+    <script data-cfasync="false" src="https://wit.audacityteam.org/js/issues.js"></script>
+
+<script data-cfasync="false">
+function showClosed(){
+    for( i=0;i<Issues.length;i++){
+        if( (Issues[i]['Resolution'] != "---" ) && (Issues[i]['Closed'] == "" )){
+            console.log( "Closed[ "+Issues[i]['Bug ID']+" ]=\""+Issues[i]['Changed']+"\";");
+        }
+    }
+}
+
+function fixupClosed(){
+    console.log( "Issue count: " + Issues.length );
+    for( i=0;i<Issues.length;i++){
+        var when = Issues[i]['Closed'];
+        if( (when == "2018-08-20 00:00:00" ) || (when =="")){
+            //console.log( Issues[i] );
+            var id = Issues[i]['Bug ID'];
+
+            if( Closed[id] != undefined ){
+                Issues[i]['Closed'] = Closed[id];
+                //console.log( Issues[i] );
+            }
+        }
+    }
+}
+
+fixupClosed();
+showClosed();
+
+        function inDateRange( value ){
+            var when = value['Closed'];
+            if( when == "" )
+                return true;
+            return when > "2018-10-00";
+        }
+
+        function closedThisRelease ( value ){
+            if( value["Resolution"] == "---" )
+                return false;
+            if( value["Resolution"] == "QUICKFIXED" )
+                return false;
+            return inDateRange( value );
+        }
+
+        function fixedThisRelease ( value ){
+            if( value["Resolution"] != "FIXED" )
+                return false;
+            return inDateRange( value );
+        }
+        function quickFixedThisRelease ( value ){
+            if( value["Resolution"] != "QUICKFIXED" )
+                return false;
+            return inDateRange( value );
+        }
+        function isAny( value ){
+            return true;
+        }
+
+        function isAll( value ){
+            if( value["Severity"] == "RepeatableAll" )
+                return true;
+            if( value["OS"] == "All" )
+                return true;
+            if( value["OS"] == "All except Vista/7" )
+                return true;
+            if( value["OS"] == "Other" )
+                return true;
+            return false;
+        }
+
+        function isMac(value ){
+            if( isClosed( value ) )
+                return false;
+            if( isAll( value ) )
+                return true;
+            return value["OS"].indexOf( "OS X")!==-1;
+        }
+        function isLinux(value ){
+            if( isClosed( value ) )
+                return false;
+            if( isAll( value ) )
+                return true;
+            return value["OS"].indexOf( "Linux")!==-1;
+        }
+        function isWindows(value ){
+            if( isClosed( value ) )
+                return false;
+            if( isAll( value ) )
+                return true;
+            return value["OS"].indexOf( "Windows")!==-1;
+        }
+
+        function isClosed( value ){
+            return value["Resolution"] != "---";
+        }
+        function isOpen( value ){
+            return value["Resolution"] == "---";
+        }
+        function isAccessibility( value ){
+            return value["Group"] == "Accessibility";
+        }
+        function isEnhancement( value ){
+            return value["Severity"] == "Enhancement";
+        }
+        function isLocale( value ){
+            return value["Severity"] == "Locale";
+        }
+        function isWorkaround( value ){
+            return (value["Workaround"] != "") && (value["Workaround"] != "None");
+        }
+        function isAtLeastP3( value ){
+            return value["Priority"] <= "P3";
+        }
+        function isAtLeastP5( value ){
+            return value["Priority"] <= "P5";
+        }
+
+        function mainIssues( value ){
+            if( isClosed( value ) )
+                return false;
+            var id = value["Bug ID"];
+            return [276,1585,1657].indexOf( id ) !== -1;
+        }
+
+        function newIssues( value ){
+            if( isClosed( value ) )
+                return false;
+            return value["Bug ID"] > 1983;
+        }
+
+        function filterIssues( filterFunction ){
+            var results = [];
+            for(i=0;i<Issues.length;i++){
+                if( filterFunction( Issues[i] ))
+                    results.push( Issues[i] );
+            }
+            return results;
+        }
+
+        function tableFromArray( values, fields ){
+            if( values.length == 0 )
+                return "";
+            var cols = fields.length;
+            var result = '<table class="tabby" style="border:1px solid #090cb9">\n';
+            var row;
+            var col;
+            result += "  <tr>\n";
+            for( col=0;col<cols;col++){
+                result += "    <th>" + fields[col]+ "</th>\n";
+            }
+            result += "  </tr>\n";
+
+
+
+            for( row=0;row<(values.length/ cols);row++){
+                result += "  <tr>\n";
+                for( col=0;col<cols;col++){
+                    result += "    <td>" + values[row*cols+col]+ "</td>\n";
+                }
+                result += "  </tr>\n";
+            }
+            result += "</table>\n";
+            return result;
+        }
+
+        function arrayFromIssues( issues, fields ){
+            var results = [];
+            for( i=0;i<issues.length;i++){
+                // Fixup Other -> All
+                if( issues[i]["OS"] == "Other" )
+                    issues[i]["OS"] = "All";
+                for(j=0;j<fields.length;j++){
+                    var temp = issues[i][fields[j]];
+                    if( fields[j] == "Summary" ){
+                        var id = issues[i]["Bug ID"];
+                        // Include hyperlink to issue.
+                        temp = '<a href="https://bugzilla.audacityteam.org/show_bug.cgi?id=' +
+                                id + '">' + temp + '</a>';
+                    }
+                    results.push(temp);
+                }
+            }
+            return results;
+        }
+
+        function updateTable( filter, fields, tableName, short ){
+            tableName = tableName || "tableDiv";
+            var issues = filterIssues( filter );
+            issues.sort(function(a, b) {
+                v = (b["Group"]).localeCompare( a["Group"]);
+                if( v!= 0 )
+                    return v;
+                v = (a["Summary"]).localeCompare( b["Summary"]);
+                return v;
+                //if( v!= 0 )
+                //    return v;
+                //return b["Bug ID"]-a["Bug ID"];
+            });
+            var array  = arrayFromIssues( issues, fields );
+            var table  = tableFromArray( array, fields );
+            var tableDiv = document.getElementById(tableName);
+            var result = " <em> "+issues.length + " issues</em><br><br>";
+            if( !short )
+                result = result + table;
+            tableDiv.innerHTML = result;
+            return issues.length;
+        }
+
+        function updateCount( filter, countName ){
+            var issues = filterIssues( filter );
+            var count = issues.length;
+            var countDiv = document.getElementById(countName);
+            countDiv.innerHTML = " " + count + " issues";
+        }
+
+        function InnerFor( option ){
+            var div = document.getElementById(option + "Div");
+            if( div )
+                return div.innerHTML;
+            return "";
+        }
+
+        function OnFilter(){
+
+            var bugs     = document.getElementById("bugs").value;
+            var show     = document.getElementById("show").value;
+            var priority = document.getElementById("priority").value;
+
+            var filter1 = {
+                "Open" : isOpen,
+                "Mac" : isMac,
+                "Windows": isWindows,
+                "Linux" : isLinux,
+                "Fixed" : fixedThisRelease,
+                "Closed" : closedThisRelease,
+                "QuickFixed" : quickFixedThisRelease,
+                "Any" : isAny }[ bugs ];
+            var filter2 = {
+                "Main" : mainIssues,
+                "Accessibility" : isAccessibility,
+                "Translation" : isLocale,
+                "Enhancements" : isEnhancement,
+                "Workarounds" : isWorkaround,
+                "New" : newIssues,
+                "Any" : isAny }[show];
+
+            var filter3 = {
+                "P3m" : isAtLeastP3,
+                "P5m" : isAny,
+                "P3" : isAtLeastP3,
+                "P5" : isAny }[priority];
+
+
+            var interestingFields = [];
+            if( show != "Accessibility" && show != "Translation" )
+                interestingFields.push( "Group" );
+            interestingFields.push( "Summary" );
+            if( bugs == "Open" || bugs == "Fixed" || bugs == "Closed")
+                interestingFields.push( "OS" );
+            if( priority != "P3" )
+                interestingFields.push( "Priority" );
+            if( (bugs == "Closed" ) || (bugs == "Any"))
+                interestingFields.push( "Resolution" );
+            if( show != "Any" )
+                interestingFields.push( "Workaround" );
+
+            var otherFields = [];
+            otherFields.push( "Group");
+            otherFields.push( "Summary");
+            otherFields.push( "OS");
+            otherFields.push( "Priority");
+            if( bugs == "Closed" )
+                otherFields.push( "Resolution" );
+            otherFields.push( "Workaround");
+
+            updateCount( filter1, "bugsCount" );
+            updateCount( andFunc( [filter1,filter2]), "showCount" );
+            updateCount( andFunc( [filter1,filter2,filter3]), "priorityCount" );
+
+            var n = updateTable( andFunc( [ filter1, filter2, filter3] ),
+                    interestingFields);
+            var short = ( priority.indexOf( "m" ) == -1 ) && (n>0);
+            updateTable( andFunc( [ filter1, notFunc( andFunc([filter2, filter3]))] ),
+                    otherFields, "tableDiv2", short);
+
+            var message = InnerFor( bugs ) + InnerFor( show ) + InnerFor( priority );
+            document.getElementById("messageDiv").innerHTML = message;
+
+        }
+
+        function notFunc( func ){
+            return function( issue ){
+                return !func( issue );
+            };
+        }
+
+        function orFunc( funcs ){
+            return function( issue ){
+                var i;
+                for(i=0;i<funcs.length;i++){
+                    if( funcs[i]( issue ) )
+                        return true;
+                }
+                return false;
+            };
+        }
+        function andFunc( funcs ){
+            return function( issue ){
+                var i;
+                for(i=0;i<funcs.length;i++){
+                    if( !funcs[i]( issue ) )
+                        return false;
+                }
+                return true;
+            };
+        }
+    </script>
+
+    <table style="border:1px solid black;border-spacing:15px;">
+        <tr>
+            <td><label for="bugs">Select bugs that are:</label></td>
+            <td><select id="bugs" onchange="OnFilter();">
+                <option value="Windows">Windows</option>
+                <option value="Mac">Mac</option>
+                <option value="Linux">Linux</option>
+                <option value="Open">Open</option>
+                <option value="Fixed">Fixed</option>
+                <option value="Closed">Closed</option>
+                <option value="QuickFixed">QuickFixed</option>
+                <option value="Any">Any</option>
+            </select>
+            </td>
+            <td><div id="bugsCount">0</div>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="show">I'm interested in:</label></td>
+            <td><select id="show" onchange="OnFilter();">
+                <option value="Main">Main Issues</option>
+                <option value="Workarounds">Workarounds</option>
+                <option value="Accessibility">Accessibility</option>
+                <option value="Translation">Translation</option>
+                <option value="New">New Issues</option>
+                <option value="Enhancements">Enhancements</option>
+                <option value="Any">Any</option>
+            </select>
+            </td>
+            <td><div id="showCount">0</div>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="priority">I'm interested in low priority bugs:</label></td>
+            <td><select id="priority" onchange="OnFilter();">
+                <option value="P3">No</option>
+                <option value="P5">Yes</option>
+                <option value="P5m">Maybe Yes</option>
+                <option value="P3m">Maybe No</option>
+            </select>
+            </td>
+            <td><div id="priorityCount">0</div>
+            </td>
+        </tr>
+    </table>
+    &nbsp;
+    &nbsp;
+
+<script data-cfasync="false">
+        document.addEventListener('DOMContentLoaded', OnFilter, false);
+    </script>
+
+    <h2>Issues you may be interested in:</h2>
+    <div id="tableDiv"></div>
+
+    &nbsp;
+    <div id="messageDiv"></div>
+
+    <h2>The rest of the selected bugs:</h2>
+    <div id="tableDiv2"></div>
+</div>
+
+<!-- 
+NewPP limit report
+Cached time: 20221103205528
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.008 seconds
+Real time usage: 0.011 seconds
+Preprocessor visited node count: 138/1000000
+Preprocessor generated node count: 498/1000000
+Post‐expand include size: 8163/2097152 bytes
+Template argument size: 7118/2097152 bytes
+Highest expansion depth: 3/40
+Expensive parser function count: 0/100
+-->
+
+<!-- 
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    3.008      1 - -total
+ 72.51%    2.181      1 - Template:Ednote
+ 23.17%    0.697      8 - Template:Example
+ 21.84%    0.657      1 - Template:Introrel
+ 20.91%    0.629      7 - Template:Note
+-->
+
+<!-- Saved in parser cache with key aumediawiki:pcache:idhash:5242-0!*!0!!*!*!* and timestamp 20221103205528 and revision id 36826
+ -->
+</div><div class="printfooter">
+Retrieved from "<a dir="ltr" href="https://wiki.audacityteam.org/w/index.php?title=Release_Notes_2.3.0/Issues&amp;oldid=36826">https://wiki.audacityteam.org/w/index.php?title=Release_Notes_2.3.0/Issues&amp;oldid=36826</a>"</div>
+					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/Category:Issues" title="Category:Issues">Issues</a></li></ul></div></div>					<!-- end content -->
+										<div class="visualClear"></div>
+				</div>
+			</div>
+		</div>
+		<div id="column-one">
+			<h2>Navigation menu</h2>
+					<div id="p-cactions" class="portlet" role="navigation">
+			<h3>Views</h3>
+
+			<div class="pBody">
+				<ul>
+				<li id="ca-nstab-main" class="selected"><a href="/wiki/Release_Notes_2.3.0/Issues" title="View the content page [c]" accesskey="c">Page</a></li>
+				<li id="ca-talk" class="new"><a href="/w/index.php?title=Talk:Release_Notes_2.3.0/Issues&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion about the content page [t]" accesskey="t">Discussion</a></li>
+				<li id="ca-viewsource"><a href="/w/index.php?title=Release_Notes_2.3.0/Issues&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></li>
+				<li id="ca-history"><a href="/w/index.php?title=Release_Notes_2.3.0/Issues&amp;action=history" title="Past revisions of this page [h]" accesskey="h">History</a></li>
+				</ul>
+							</div>
+		</div>
+				<div class="portlet" id="p-personal" role="navigation">
+				<h3>Personal tools</h3>
+
+				<div class="pBody">
+					<ul>
+													<li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Release+Notes+2.3.0%2FIssues" title="Click here to log in or request an account [o]" accesskey="o">Log in</a></li>
+											</ul>
+				</div>
+			</div>
+			<div class="portlet" id="p-logo" role="banner">
+				<a href="/wiki/Audacity_Wiki_Home_Page" class="mw-wiki-logo" title="Visit the main page"></a>
+			</div>
+					<div id="p-search" class="portlet" role="search">
+			<h3><label for="searchInput">Search</label></h3>
+
+			<div id="searchBody" class="pBody">
+				<form action="/w/index.php" id="searchform">
+					<input type='hidden' name="title" value="Special:Search"/>
+					<input type="search" name="search" placeholder="Search Audacity Wiki" title="Search Audacity Wiki [f]" accesskey="f" id="searchInput"/>
+					<input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchGoButton" class="searchButton"/>&#160;
+						<input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/>
+				</form>
+
+							</div>
+		</div>
+		<div class="generated-sidebar portlet" id="p-Navigation" role="navigation">
+		<h3>Navigation</h3>
+		<div class='pBody'>
+			<ul><li> <a href="/wiki/Audacity_Wiki_Home_Page" title="Audacity Wiki Home Page">Wiki Home Page</a></li>
+<li> <a href="/wiki/Audacity_Versions" title="Audacity Versions">Audacity Versions</a></li>
+<li> <a href="/wiki/Category:Tutorial" title="Category:Tutorial">Tutorials</a></li>
+<li> <a href="/wiki/Category:Tips" title="Category:Tips">Tips</a></li>
+<li> <a href="/wiki/Feature_Requests" title="Feature Requests">Feature Requests</a></li>
+<li> <span class="plainlinks"><a rel="nofollow" class="external text" href="http://wiki.audacityteam.org/w/index.php?title=special%3aprefixindex&amp;prefix=&amp;namespace=0">Index of All Pages</a></span></li>
+<li> <a href="/wiki/Help:Contents" title="Help:Contents">Help</a></li></ul>
+		</div>
+		</div>
+		<div class="generated-sidebar portlet" id="p-Useful_Links" role="navigation">
+		<h3>Useful Links</h3>
+		<div class='pBody'>
+			<ul><li> <a href="/wiki/Contribute" title="Contribute">Help Us With...</a></li>
+<li> <a href="/wiki/Bug_Counts" title="Bug Counts">Bug Counts</a></li>
+<li> <a rel="nofollow" class="external text" href="http://manual.audacityteam.org/help/manual/index.html">Audacity Manual</a></li>
+<li> <a rel="nofollow" class="external text" href="http://forum.audacityteam.org">Audacity Forum</a></li></ul>
+		</div>
+		</div>
+		<div class="generated-sidebar portlet" id="p-For_Developers" role="navigation">
+		<h3>For Developers</h3>
+		<div class='pBody'>
+			<ul><li> <a href="/wiki/For_Developers" title="For Developers">Developers' Wiki</a></li>
+<li> <a href="/wiki/ArchitecturalDesign" title="ArchitecturalDesign">Audacity Architecture</a></li>
+<li> <a href="/wiki/Next_Release" title="Next Release">Next Release</a></li>
+<li> <a href="/wiki/Proposals" title="Proposals">Proposals</a></li>
+<li> <a href="/wiki/Feature_Requests" title="Feature Requests">Feature Requests</a></li></ul>
+		</div>
+		</div>
+		<div class="generated-sidebar portlet" id="p-For_Editors" role="navigation">
+		<h3>For Editors</h3>
+		<div class='pBody'>
+			<ul><li> <a href="/wiki/Special:RecentChanges" title="Special:RecentChanges">Recent Changes</a></li>
+<li> <a href="/wiki/ToDo-1" title="ToDo-1">P1</a>,  <a href="/wiki/ToDo-2" title="ToDo-2">P2</a>,  <a href="/wiki/ToDo" title="ToDo">PX</a>,  <a href="/wiki/ToDo-D" title="ToDo-D">PD</a></li>
+<li> <a href="/wiki/Create_New_Page" title="Create New Page">Create New Page</a></li>
+<li> <a href="/wiki/Special:ListFiles" title="Special:ListFiles">List of Images</a></li>
+<li> <span class="plainlinks"><a rel="nofollow" class="external text" href="http://wiki.audacityteam.org/w/index.php?title=special%3aprefixindex&amp;prefix=&amp;namespace=10">List of Templates</a></span></li>
+<li> <a href="/wiki/Magicke_Spells" title="Magicke Spells">Magicke Spelles</a></li>
+<li> <a href="/wiki/Special:LonelyPages" title="Special:LonelyPages">Orphaned Pages</a></li>
+<li> <a href="/wiki/Special:WantedPages" title="Special:WantedPages">Red Links</a></li>
+<li> <a href="/wiki/Audacity_Wiki_editing" title="Audacity Wiki editing">Help - Editing</a></li>
+<li> <a rel="nofollow" class="external text" href="http://alphamanual.audacityteam.org/man/consistency">Consistency</a>
+<ul><li> <a rel="nofollow" class="external text" href="http://alphamanual.audacityteam.org/man/Consistency_in_wording_and_punctuation_in_Audacity">Wording &amp; Such</a></li></ul></li>
+<li> <a href="/wiki/Navigation" title="Navigation">Navigation</a></li>
+<li> <a href="/wiki/Pending_website_changes" title="Pending website changes">Pending Website Changes</a></li></ul>
+		</div>
+		</div>
+			<div class="portlet" id="p-tb" role="navigation">
+			<h3>Tools</h3>
+
+			<div class="pBody">
+				<ul>
+											<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Release_Notes_2.3.0/Issues" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+											<li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Release_Notes_2.3.0/Issues" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+											<li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+											<li id="t-print"><a href="/w/index.php?title=Release_Notes_2.3.0/Issues&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+											<li id="t-permalink"><a href="/w/index.php?title=Release_Notes_2.3.0/Issues&amp;oldid=36826" title="Permanent link to this revision of the page">Permanent link</a></li>
+											<li id="t-info"><a href="/w/index.php?title=Release_Notes_2.3.0/Issues&amp;action=info" title="More information about this page">Page information</a></li>
+									</ul>
+							</div>
+		</div>
+			</div><!-- end of the left (by default at least) column -->
+		<div class="visualClear"></div>
+					<div id="footer" role="contentinfo">
+						<div id="f-copyrightico">
+									<a href="http://creativecommons.org/licenses/by/3.0/"><img src="http://wiki.audacityteam.org/images/cc3_88x31.png" alt="Attribution 3.0" width="88" height="31"/></a>
+							</div>
+					<div id="f-poweredbyico">
+									<a href="//www.mediawiki.org/"><img src="/w/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/w/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /w/resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>
+							</div>
+					<ul id="f-list">
+									<li id="lastmod"> This page was last modified on 30 September 2018, at 11:59.</li>
+									<li id="copyright">Content is available under <a class="external" rel="nofollow" href="http://creativecommons.org/licenses/by/3.0/">Attribution 3.0</a> unless otherwise noted.</li>
+							</ul>
+		</div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"]);});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":30});});</script><script>(function(){var js = "window['__CF$cv$params']={r:'764fe6821f7b2d34',m:'32fEGAN3FlZpVdpvwmOTMAzifIWy8OzQfq_guC85hqc-1667591654-0-Aebz9zTSAzB1KfPhdNkEiGH9YKjjjzfFAzct93h+CP8eG2IlIHHQ3KcSudRWT/bEZrSobtRxMuzqQkyfba0ZvoKKhmdOEPT+8ItBgTXaxFzo0Ifh4B9cnWsKyPiyQt+fuBVWeEwXhN2dT85jKz7VpnCouHLbmUceDdf69hSG2vwx',s:[0x308788fba9,0x4d88124621],u:'/cdn-cgi/challenge-platform/h/g'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/g/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body></html>
