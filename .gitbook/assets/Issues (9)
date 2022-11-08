@@ -2,9 +2,9 @@
 <html class="client-nojs" lang="en" dir="ltr">
 <head>
 <meta charset="UTF-8"/>
-<title>Release Notes 2.2.0/Issues - Audacity Wiki</title>
+<title>Release Notes 2.3.2/Issues - Audacity Wiki</title>
 <script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
-<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Release_Notes_2.2.0/Issues","wgTitle":"Release Notes 2.2.0/Issues","wgCurRevisionId":34421,"wgRevisionId":34421,"wgArticleId":4908,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Release_Notes_2.2.0/Issues","wgRelevantArticleId":4908,"wgRequestId":"21f2718b92767f83783c1f63","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","mediawiki.skinning.content.externallinks":"ready","skins.monobook.styles":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@1ikjxew",function ( $, jQuery, require, module ) {
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Release_Notes_2.3.2/Issues","wgTitle":"Release Notes 2.3.2/Issues","wgCurRevisionId":39199,"wgRevisionId":39199,"wgArticleId":5340,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Issues"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Release_Notes_2.3.2/Issues","wgRelevantArticleId":5340,"wgRequestId":"9c732215e33363a5ab214531","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","mediawiki.skinning.content.externallinks":"ready","skins.monobook.styles":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@1ikjxew",function ( $, jQuery, require, module ) {
 mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
 
 });mw.loader.load(["mediawiki.page.startup"]);});</script>
@@ -20,14 +20,14 @@ mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","cs
 <link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
 <link rel="alternate" type="application/atom+xml" title="Audacity Wiki Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom"/>
 </head>
-<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Release_Notes_2_2_0_Issues rootpage-Release_Notes_2_2_0_Issues skin-monobook action-view"><div id="globalWrapper">
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Release_Notes_2_3_2_Issues rootpage-Release_Notes_2_3_2_Issues skin-monobook action-view"><div id="globalWrapper">
 		<div id="column-content">
 			<div id="content" class="mw-body" role="main">
 				<a id="top"></a>
 				
 				<div class="mw-indicators">
 </div>
-				<h1 id="firstHeading" class="firstHeading" lang="en">Release Notes 2.2.0/Issues</h1>
+				<h1 id="firstHeading" class="firstHeading" lang="en">Release Notes 2.3.2/Issues</h1>
 				
 				<div id="bodyContent" class="mw-body-content">
 					<div id="siteSub">From Audacity Wiki</div>
@@ -36,10 +36,21 @@ mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","cs
 
 					<!-- start content -->
 					<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div style="margin:24px">
+<table style="background:#FEFFD0; color:black; border:1px solid #999999; padding-left:12px; padding-right:12px" width="100%" align="center">
+
+<tr>
+<td width="30px" valign="top" align="center"><a href="/wiki/File:Warningicon.png" class="image" title="Warning icon"><img alt="Warning icon" src="/w/images/b/ba/Warningicon.png" width="24" height="24" /></a>
+</td>
+<td align="left" valign="top">For info on <b>Catalina</b> and Audacity, see <a href="/wiki/Release_Notes_2.3.3/Issues" title="Release Notes 2.3.3/Issues">Release_Notes_2.3.3/Issues</a>
+</td></tr></table>
+</div>
+<p><br />
+</p>
+<div style="margin:24px">
 <table style="background:#DFEAF9;border:1px solid black; padding-left:12px; padding-right:12px" width="100%" align="center">
 
 <tr>
-<td align="left" valign="top">This page provides a detailed list of issues for Audacity 2.2.0
+<td align="left" valign="top">This page provides a detailed list of issues for Audacity 2.3.2
 <table style="margin-left:2em;margin-right:1.2em;background:#DFEAF9;font-style:italic" cellpadding="5px">
 <tr>
 <td>
@@ -52,493 +63,546 @@ mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","cs
 </td></tr>
 <tr>
 <td><b>Related article(s):</b>
-<ul><li><a href="/wiki/Release_Notes_2.2.0" title="Release Notes 2.2.0">Release Notes 2.2.0</a></li></ul>
+<ul><li><a href="/wiki/Release_Notes_2.3.2" title="Release Notes 2.3.2">Release Notes 2.3.2</a></li></ul>
 </td></tr></table>
 </div>
 <div id="known">
-<div id="toc" class="toc"><div id="toctitle"><h2>Contents</h2></div>
-<ul>
-<li class="toclevel-1 tocsection-1"><a href="#Known_Major_Issues_at_Release"><span class="tocnumber">1</span> <span class="toctext">Known Major Issues at Release</span></a>
-<ul>
-<li class="toclevel-2 tocsection-2"><a href="#Accessibility"><span class="tocnumber">1.1</span> <span class="toctext">Accessibility</span></a></li>
-<li class="toclevel-2 tocsection-3"><a href="#Analysis_effects"><span class="tocnumber">1.2</span> <span class="toctext">Analysis effects</span></a></li>
-<li class="toclevel-2 tocsection-4"><a href="#Application_Launch"><span class="tocnumber">1.3</span> <span class="toctext">Application Launch</span></a></li>
-<li class="toclevel-2 tocsection-5"><a href="#Bugs_requiring_more_investigation"><span class="tocnumber">1.4</span> <span class="toctext">Bugs requiring more investigation</span></a></li>
-<li class="toclevel-2 tocsection-6"><a href="#Chains"><span class="tocnumber">1.5</span> <span class="toctext">Chains</span></a></li>
-<li class="toclevel-2 tocsection-7"><a href="#Compiling"><span class="tocnumber">1.6</span> <span class="toctext">Compiling</span></a></li>
-<li class="toclevel-2 tocsection-8"><a href="#Effects"><span class="tocnumber">1.7</span> <span class="toctext">Effects</span></a></li>
-<li class="toclevel-2 tocsection-9"><a href="#Effects_.28Audio_Units.29_.28OS_X.29"><span class="tocnumber">1.8</span> <span class="toctext">Effects (Audio Units) (OS X)</span></a></li>
-<li class="toclevel-2 tocsection-10"><a href="#Effects_.28LV2.29"><span class="tocnumber">1.9</span> <span class="toctext">Effects (LV2)</span></a></li>
-<li class="toclevel-2 tocsection-11"><a href="#Effects_.28Nyquist.29"><span class="tocnumber">1.10</span> <span class="toctext">Effects (Nyquist)</span></a></li>
-<li class="toclevel-2 tocsection-12"><a href="#Effects_.28Real-time_preview.29"><span class="tocnumber">1.11</span> <span class="toctext">Effects (Real-time preview)</span></a></li>
-<li class="toclevel-2 tocsection-13"><a href="#Effects_.28Vamp.29"><span class="tocnumber">1.12</span> <span class="toctext">Effects (Vamp)</span></a></li>
-<li class="toclevel-2 tocsection-14"><a href="#Effects_.28VST_and_Audio_Units.29"><span class="tocnumber">1.13</span> <span class="toctext">Effects (VST and Audio Units)</span></a></li>
-<li class="toclevel-2 tocsection-15"><a href="#Effects_and_Analysis"><span class="tocnumber">1.14</span> <span class="toctext">Effects and Analysis</span></a></li>
-<li class="toclevel-2 tocsection-16"><a href="#Envelopes_and_Clips"><span class="tocnumber">1.15</span> <span class="toctext">Envelopes and Clips</span></a></li>
-<li class="toclevel-2 tocsection-17"><a href="#Exports"><span class="tocnumber">1.16</span> <span class="toctext">Exports</span></a></li>
-<li class="toclevel-2 tocsection-18"><a href="#Imports_and_Exports"><span class="tocnumber">1.17</span> <span class="toctext">Imports and Exports</span></a></li>
-<li class="toclevel-2 tocsection-19"><a href="#Imports_and_Exports_.28FFmpeg.29"><span class="tocnumber">1.18</span> <span class="toctext">Imports and Exports (FFmpeg)</span></a></li>
-<li class="toclevel-2 tocsection-20"><a href="#Installation"><span class="tocnumber">1.19</span> <span class="toctext">Installation</span></a></li>
-<li class="toclevel-2 tocsection-21"><a href="#Interface"><span class="tocnumber">1.20</span> <span class="toctext">Interface</span></a></li>
-<li class="toclevel-2 tocsection-22"><a href="#Karaoke"><span class="tocnumber">1.21</span> <span class="toctext">Karaoke</span></a></li>
-<li class="toclevel-2 tocsection-23"><a href="#LAME"><span class="tocnumber">1.22</span> <span class="toctext">LAME</span></a></li>
-<li class="toclevel-2 tocsection-24"><a href="#Label_Tracks"><span class="tocnumber">1.23</span> <span class="toctext">Label Tracks</span></a></li>
-<li class="toclevel-2 tocsection-25"><a href="#Launching_Audacity"><span class="tocnumber">1.24</span> <span class="toctext">Launching Audacity</span></a></li>
-<li class="toclevel-2 tocsection-26"><a href="#Localization"><span class="tocnumber">1.25</span> <span class="toctext">Localization</span></a></li>
-<li class="toclevel-2 tocsection-27"><a href="#MIDI"><span class="tocnumber">1.26</span> <span class="toctext">MIDI</span></a></li>
-<li class="toclevel-2 tocsection-28"><a href="#Miscellaneous_platform-specific_issues"><span class="tocnumber">1.27</span> <span class="toctext">Miscellaneous platform-specific issues</span></a></li>
-<li class="toclevel-2 tocsection-29"><a href="#Mixer_Board"><span class="tocnumber">1.28</span> <span class="toctext">Mixer Board</span></a></li>
-<li class="toclevel-2 tocsection-30"><a href="#Moonphase"><span class="tocnumber">1.29</span> <span class="toctext">Moonphase</span></a></li>
-<li class="toclevel-2 tocsection-31"><a href="#Playback_and_Recording"><span class="tocnumber">1.30</span> <span class="toctext">Playback and Recording</span></a></li>
-<li class="toclevel-2 tocsection-32"><a href="#Preferences"><span class="tocnumber">1.31</span> <span class="toctext">Preferences</span></a></li>
-<li class="toclevel-2 tocsection-33"><a href="#Projects"><span class="tocnumber">1.32</span> <span class="toctext">Projects</span></a></li>
-<li class="toclevel-2 tocsection-34"><a href="#Scrubbing_and_Seeking"><span class="tocnumber">1.33</span> <span class="toctext">Scrubbing and Seeking</span></a></li>
-<li class="toclevel-2 tocsection-35"><a href="#Spectrograms"><span class="tocnumber">1.34</span> <span class="toctext">Spectrograms</span></a></li>
-<li class="toclevel-2 tocsection-36"><a href="#Sync-Locked_Track_Groups"><span class="tocnumber">1.35</span> <span class="toctext">Sync-Locked Track Groups</span></a></li>
-<li class="toclevel-2 tocsection-37"><a href="#Time_Tracks"><span class="tocnumber">1.36</span> <span class="toctext">Time Tracks</span></a></li>
-<li class="toclevel-2 tocsection-38"><a href="#Timer_Record"><span class="tocnumber">1.37</span> <span class="toctext">Timer Record</span></a></li>
-<li class="toclevel-2 tocsection-39"><a href="#Toolbars"><span class="tocnumber">1.38</span> <span class="toctext">Toolbars</span></a></li>
-</ul>
-</li>
-</ul>
-</div>
-
 <h2><span class="mw-headline" id="Known_Major_Issues_at_Release">Known Major Issues at Release</span></h2>
-<h3><span class="mw-headline" id="Accessibility">Accessibility</span></h3>
-<ul><li> Many, but not all parts of the Audacity interface are accessible on Windows and Mac (<i>read the alert above about Mac</i>) to those who can't use a mouse, and/or use a screen reader. It may be possible to make more of Audacity accessible in the longer term. For details, see <a rel="nofollow" class="external free" href="https://manual.audacityteam.org/o/man/accessibility.html">https://manual.audacityteam.org/o/man/accessibility.html</a> </li>
-<li> <b>There are some accessibility bugs in the parts of Audacity that are accessible (or behavior may vary according to the specific screen reader).</b> 
-<ul><li> Toolbars that show disabled at View &gt; Toolbars and are then re-enabled will launch undocked if Audacity has already been restarted. <b>Workaround:</b> perform View &gt; Toolbars &gt; Reset Toolbars before enabling any disabled toolbars.</li>
-<li> After mouse down to drag a docked toolbar to a new docked or undocked position, the track focus is removed and the selected control loses its focus border even though that toolbar still has focus. When dragging or resizing an already undocked toolbar, the selected control similarly loses its focus border.     </li>
-<li> shortcuts for Up, Down, Left, Right, Return and NUMPAD ENTER  </li>
-<li> Selection Toolbar: The End/Length buttons do not have a dotted rectangle to indicate when they have focus, and keyboard arrow keys no longer move between the buttons. The names of the buttons are either not read by screen readers or the position of both options is incorrectly read as 1 of 1. </li>
-<li> Keyboard Preferences: Window-Eyes doesn't read the key bindings when View by Tree is selected, and may not always read the bindings in other views. VoiceOver and Orca do not read the key bindings at all. You could export the bindings, modify them in a text editor then import the modified list. </li>
-<li> Spectral Selection Toolbar:  
-<ul><li> You can't enter a new low frequency first if it is above the current high frequency - in that case, you must enter the new high frequency first. </li>
-<li> If you change low and high frequencies to kHz, then typing or incrementing values in the High Frequencies box has unpredictable results.</li></ul></li>
-<li> It is not possible to use the keyboard to move the cursor or selection region to an arbitrary position when playing or recording. However you can use the [ or ] shortcuts respectively to set the left or right boundary of the selection at the playback or recording position ( <a rel="nofollow" class="external free" href="https://manual.audacityteam.org/man/edit_menu_select.html#left">https://manual.audacityteam.org/man/edit_menu_select.html#left</a> ). Different <a rel="nofollow" class="external text" href="https://manual.audacityteam.org/man/scrubbing_and_seeking.html">Scrubbing</a> modes may also be started using shortcuts or the Transport Menu, but there is no keyboard interface yet to control scrubbing. Scrubbing may be started by shortcut even if the pointer is in the waveform, although the Status Bar messages don't refer to moving the pointer to Scrub.  </li>
-<li> <b>(Windows):</b> 
-<ul><li> Edit toolbar buttons that depend on selection are (at least in NVDA) announced as Disabled when there is no selection, rather than being skipped over. Hitting ENTER on such a disabled button will auto-select the audio, applying the edit to all of that automatic selection.  </li>
-<li> In certain parts of the main window, NVDA does not speak typed characters (JAWS and Window-Eyes are not affected):</li>
-<li> In the main window, not speaking a character if it is a command for example, j,k,[ or ]</li>
-<li> In a label track, not speaking characters typed into a label.</li></ul></li>
-<li> <b>(OS X/macOS):</b>
-<ul><li> Audacity is not yet fully Retina-ready. It is known that the Track Control Panel appears fuzzy. Please <a rel="nofollow" class="external text" href="https://www.audacityteam.org/contact/#feedback">let us know</a> of any other issues. <a rel="nofollow" class="external text" href="http://retinizer.mikelpr.com/">Retinizer</a> can no longer be applied to Audacity. If Retinizer is applied to previous Audacity this will prevent the export format being changed. </li>
-<li> <b>Selection is not in the first control of Generators, Effects or Analyzers.</b> In most effects the selection is invisible and one TAB puts selection in the Manage Button. In Change Speed the selection is "Current Length" and in Change Pitch the selection is the first octave.  </li>
-<li> If you apply a real-time preview effect while focus has remained in Audacity, the effect loses focus. If you apply a real-time preview effect after task switching away from and back to Audacity, the effect will go behind the project window. The effect may be brought back to focus in both cases with ALT + F6. </li>
-<li> It is not possible to move between the main Audacity window and some VST and Audio Unit effects using the ALT + F6 or ALT + SHIFT + F6 shortcuts when the effect is in Graphical Mode. You can use the "Manage" menu then Options... to change the effect to textual mode.    </li></ul></li>
-<li> <b>(OS X/macOS) Issues with VoiceOver:</b></li></ul></li></ul>
-<ul>
-<div style="margin:24px">
-<table style="background:#FEFFD0; color:black; border:1px solid #999999; padding-left:12px; padding-right:12px" width="100%" align="center">
-
-<tr>
-<td width="30px" valign="top" align="center"><a href="/wiki/File:Warningicon.png" class="image" title="Warning icon"><img alt="Warning icon" src="/w/images/b/ba/Warningicon.png" width="24" height="24" /></a>
-</td>
-<td align="left" valign="top">Unfortunately, current Audacity is not accessible for users of VoiceOver for the reasons given below. This was also the case for releases starting from Audacity 2.1.1. However, an accessible version of Audacity 2.1.1 is available on our <a rel="nofollow" class="external text" href="http://audacityteam.org/download/mac">Mac OS X downloads page</a>. The name of this accessible version is "2.1.1-screen-reader" (DMG and ZIP downloads are available). It is hoped that future versions of Audacity will be accessible for users of VoiceOver.
-</td></tr></table>
+<p>None
+</p>
+<div class="editornote">Here are all the messages that can appear when options are selected...
+<div id="WindowsDiv">
+<div class="note" style="background:white"><b>Windows</b>
+<ul><li> Audacity 2.3.2 requires the CPU to support the <a rel="nofollow" class="external text" href="http://en.wikipedia.org/wiki/SSE2">SSE2 </a> instruction set which should be available on any Intel hardware produced after 2001 and any AMD hardware produced after 2003. 
+<ul><li> To check what SSE levels your CPU supports, you can install <a rel="nofollow" class="external text" href="http://www.cpuid.com/softwares/cpu-z.html">CPU-Z</a>.</li>
+<li> If your hardware only supports SSE, you may download Audacity 2.0.6 see the <a rel="nofollow" class="external text" href="https://www.audacityteam.org/download/legacy-windows/">Legacy Windows</a> page on the Audacity Website.</li></ul></li>
+<li> 2.3.2 does not support Windows XP.  
+<ul><li> You may try 2.2.2 on XP, but it is unsupported.</div></li></ul></li></ul>
 </div>
-<ul><ul><li> (reported on OS X 10.9.x) After exporting, the black accessibility area is trapped in the Tooldock area, so there is no way to read the tracks. <b>Workaround:</b> Save as a project, close the project then reopen it. You can then navigate the tracks with VoiceOver.
-<li> If you use arrow keys to navigate the Timetext controls in Selection Toolbar, VoiceOver stops reading. <b>Workaround:</b> Use Control-Option-W 
-<li> When you TAB forwards from "Audio Position" in Selection Toolbar, the "Selection End" or "Selection Length" radio button is read as "Selection Start". When you use COMMAND + F6 or COMMAND + SHIFT + F6 to move directly into "Selection End" from another toolbar, the button is read as "Selection Start". 
-<li> Mixer Toolbar input/output sliders are not read, but just described as "multiple indicators". The "Graphic EQ"  and vertical sliders in Equalization *are* read.
-<li> Metadata Editor table not read.
-<li> Edit Labels dialog not read.
-<li> In the "Edit Chains" window, only the first command in the "Chain" list is read, and it is only read when first accessed. In the "Select Command" window for inserting a new command in a Chain, commands in the table are not read.
-<li> "Manage Curves" table in Equalization not read.</ul>
-<li>
-<b>GNU/Linux:</b>
-<ul><li>(Linux Ubuntu) Under Unity, keyboard shortcuts are not visible in the Audacity menus. Keyboard shortcuts are visible if you install the classic <a rel="nofollow" class="external text" href="http://ubuntuhandbook.org/index.php/2014/04/install-gnome-classic-desktop-in-ubuntu-14-04/">GNOME Flashback</a> interface or under Unity if you open Audacity from the termimal with 
-<table style="margin-left:10px;line-height:1.1em;letter-spacing:-0.04em;background-color:#F4F4FE;font-family:monospace;font-size:1.1em;border:1px dashed black" cellpadding="5px">
-<tr>
-<td>env UBUNTU_MENUPROXY=0 audacity
-</td></tr></table>
-<p>Audacity will now ship with src/audacity.desktop.in set to UBUNTU_MENUPROXY=0 so Audacity compiled from source will show shortcuts in the menus and will have its own menu bar in the application. It will remain up to Ubuntu whether they use this desktop file in packaged versions of Audacity.    
-</p>
-<li> Access keys mostly do not work except for radio buttons and checkboxes.  
-<li> (Linux with Xfce desktop) It is not possible to move forward through modeless windows, undocked Toolbars and the main project window using ALT + F6. You may move backward using ALT + SHIFT + F6, but focus may get trapped in windows or undocked toolbars.
-<li> (Linux) <b>It is not possible to TAB through the search box in Keyboard Preferences.</b> However, as long as the "Tree" or "Name" button is selected, you can use DOWN arrow to move out of the Search box into the list, then TAB into the lower controls. 
-<li>(Linux) <b>Playing or recording then stopping causes the currently focused track or tooldock area to lose focus.</b> Some shortcuts for example those for Tools Toolbar will then not work until focus is restored. <b>Workaround:</b> To restore focus, deliver a mouse click in the interface or create a shortcut for Reset Toolbars and use that shortcut. 
-<li>(Linux) TAB unexpectedly navigates out of the current tooldock area instead of staying inside it, and CTRL + F6 from Selection Toolbar and SHIFT + CTRL + F6 from the Tracks table do not navigate to the upper tooldock area but leave focus in the previous toolbar. However you can use the TAB navigation behavior described above to access the upper tooldock area. 
-<li> (Linux) The shortcut to "Move backward from toolbars to tracks" does not cycle from the audio track to upper tooldock, only to Selection Toolbar. The shortcut to "Move forward from toolbars to tracks" does not cycle from Selection Toolbar to upper tooldock, only to the audio track.</ul>
-<li> <b>(Linux) Issues with Orca:</b> 
-<ul><li> Audacity tracks are not read. 
-<li> Not all toolbar controls are read, examples being Timetext controls, Project Rate and controls in Device Toolbar.
-<li> Not all controls in Preferences are read.
-<li> Control labels for Vamp and VST plugins are not read.
-<li> Control labels for Nyquist plugins are read inconsistently in older version 3 or earlier plugins (Version 4 seems to read more consistently).</ul></ul></ul>
-<h3><span class="mw-headline" id="Analysis_effects">Analysis effects</span></h3>
-<ul><li> (Linux Ubuntu) <b>On high resolution monitors, Plot Spectrum may initialize with the lower part of the display and the effect controls off the bottom of the monitor.</b> As a <b>Workaround:</b> you could try holding ALT and pressing E on your keyboard to export a text file of the plot.</li></ul>
-<h3><span class="mw-headline" id="Application_Launch">Application Launch</span></h3>
-<ul><li> <b>If Audacity 2.1.1 or earlier had the interface language set to "Simplified" (an optional English language that can remove menu items) then current Audacity will show an error on each launch</b> "Language "en-simple" is unknown". No menu items will be hidden. <b>Workaround:</b> To prevent the error occurring at each launch, open Preferences then OK which changes the language to English. 
-<ul><li> Simplified menus are also not currently supported in any other languages, but no errors are shown. Menu items that should be hidden will be shown starting with an "!" exclamation mark.</li></ul></li>
-<li> (Linux) If a Bluetooth audio device is in use on a PulseAudio system, Audacity may hang on launch on initial attempts, then after eventual launch Bluetooth will no longer work on the system. <b>Workarounds:</b> 
-<ul><li> Remove and reconnect the external Bluetooth adaptor, then launch bluetooth-applet from the command line. </li>
-<li> To prevent Audacity affecting Bluetooth support, move /usr/share/alsa/bluetooth.conf to another location then reboot, or create a symbolic link from /var/lib/alsa/asound.state to /dev/null and reboot.</li></ul></li>
-<li> (Mac and Linux) <b>Audacity will not launch if the temporary directory is set to a USB or hard drive formatted with FAT16, FAT32 or exFAT.</b> To make Audacity launch again, open the <a rel="nofollow" class="external text" href="https://manual.audacityteam.org/man/preferences.html#stored">audacity.cfg settings file</a>. Underneath the [Directories] line, change TempDir to any drive or partition formatted with the operating system's native file system (MacOS Extended (HFS+) on Mac, or ext3/ext4 on Linux).</li>
-<li> If you launch Audacity by COMMAND + Space (Spotlight Search) then ENTER (or double-click the search result), a false error prompt appears<b> "The application "Audacity.app" can't be opened" when in fact it will open anyway.</b></li></ul>
-<h3><span class="mw-headline" id="Bugs_requiring_more_investigation">Bugs requiring more investigation</span></h3>
-<ul><li> <b>Bass and Treble is a real-time preview effect but may sometimes not be openable when audio is already playing, or adjusting the effect controls may not be audible.</b> You can still apply the effect to the audio as expected.</li>
-<li> (Windows Vista or later) On upgrading to current Audacity from earlier versions, "error opening sound device" occurs when recording from the inbuilt sound device where there was no error in the previous Audacity with the same device configuration and operating system. <b>Workaround:</b> Use Transport &gt; Rescan Audio Devices, or go to "Sound" in the Windows Control Panel and click OK. Note that if devices listed in Device Toolbar are disabled in "Sound" then the error is legitimate - you will need to enable those devices. 
-<ul><li> Please report make and model number of sound devices that exhibit the issue, along with driver version number. Please first ensure your sound device drivers are up-to-date and not generic Microsoft drivers - help available <a href="/wiki/Updating_Sound_Device_Drivers" title="Updating Sound Device Drivers">here</a>.</li></ul></li>
-<li> (Windows Vista) If you change the input volume in Audacity and then record, the volume is reset to its original level. This appears to occur mostly with a few specific USB devices, and sometimes only on Vista SP1, so it is currently hard for us to fix. <b>Workaround:</b> Check if the manufacturer supplies their own drivers for the device and try those. See if upgrading to Vista SP2 or Windows 7 helps.
-<ul><li> Please report make and model number of devices that exhibit the issue, also the drivers and exact version of  Vista and Service Pack in use (for example, Vista 32-bit, SP1)</li></ul></li>
-<li> (Windows) Some devices that used to offer multiple recording channels in Audacity without ASIO may now only offer mono or stereo recording instead of the expected number of channels. Usually the multi or similar device only has 2 channels instead of the expected number. Occasionally the multi device is missing, leaving only two-channel devices to choose from. These devices have been reported:
-<ul><li> Alesis Multimix-8 USB</li>
-<li> DSP2000-CPort</li>
-<li> M-Audio Delta 66</li>
-<li> Motu 896 AD/DA FW</li>
-<li> Tascam US 1641 and US 1800</li></ul></li></ul>
-<ul style="list-style-image: none; list-style-type: none">
-If you experience this issue please report make and model number of the device, your operating system (for example, Windows 7 Service Pack 1) and the device driver version number you are using. It is possible that more than stereo recording may be possible if you can find earlier drivers that are still compatible with your version of Windows, or if you try the Windows WASAPI host in <a rel="nofollow" class="external text" href="https://manual.audacityteam.org/o/man/device_toolbar.html">Device Toolbar</a>. See <a rel="nofollow" class="external text" href="https://wiki.audacityteam.org/wiki/Multichannel_Recording">Multichannel Recording</a> for a list of devices reported to record multi-channels into Audacity without ASIO.</ul>
-<ul><li> (Windows) There may be substantial delays drawing the waveform in longer projects of an hour or more. The main problems are with opening saved projects that were fitted to the window, and fitting already zoomed in projects to the window, such as a new recording. Additionally:
-<ul><li> Opening and closing large projects one after the other may eventually cause project opening to slow significantly</li>
-<li> Import or effect progress dialogs may stall "whited out" for a few seconds after the progress bars complete before the waveform is drawn.</li></ul></li></ul>
-<h3><span class="mw-headline" id="Chains">Chains</span></h3>
-<ul><li> <b>Audacity's built-in generators don't yet work intuitively with Chains.</b> In particular, using the generator from the Generate Menu resets the Chain to use the settings last used from the Generate Menu. Plugin generators should work better with Chains.</li>
-<li> <b>Chains do not currently support export as AIFF, Other uncompressed files or any formats supported by FFmpeg.</b></li>
-<li> <b>For some effects (Equalization is a known example) parameters stored in Chains may not persist are not independent of the settings saved when running the effect from the Effect Menu.</b> Changing the effect parameters from the Effect menu will thus change the effect parameters stored in the Chain and vice-versa. <b>Workaround:</b> For Equalization, you can use Save / Manage Curves... to save the required curve as a named curve, then choose that curve from the "Select Curve:" dropdown when setting the parameters for the Chain command.</li>
-<li> <b>You cannot set export format options or export sample rate in the Chain.</b> If you need to specify export options other than the current default, import or generate some audio, File &gt; Export, select the audio type, click "Options..." then choose and save the option and cancel the export.</li>
-<li> (Windows) <b>LV2 effects can only be used in a Chain at their default settings.</b></li>
-<li><b>Noise Reduction does not yet support storing its parameters in a Chain.</b> Noise Reduction will run at its last used settings if used in a Chain.</li></ul>
-<h3><span class="mw-headline" id="Compiling">Compiling</span></h3>
-<ul><li> <b>Audacity cannot build against wxWidgets compiled with STL.</b> . There will be many errors of the form "cannot convert ‘const wxString’ to ‘const wxChar*". The best approach to a solution has not been decided, but if you would like to help with this please start a discussion on our <a rel="nofollow" class="external text" href="http://lists.sourceforge.net/lists/listinfo/audacity-devel">audacity-devel</a> mailing list.</li>
-<li> (Windows) LADSPA effects cannot be categorized even when Audacity is compiled with USE_LIBLRDF defined.</li>
-<li>(Linux) Audacity may not always compile against supported versions of libav or FFmpeg. Audacity 2.0.6 and later supports FFmpeg 1.2 to 2.3.x (or libav 0.8 to 0.10.x). 
-<ul><li> Dynamic loading (as in default Audacity ./configure) requires building against the FFmpeg project - it will not build against the libav* headers from the libav project. <b>Workarounds:</b> Configure Audacity with --disable-dynamic-loading. If dynamic loading is required, build against FFmpeg instead of libav, or you can build against libav if you remove the "#define IS_FFMPEG_PROJECT 1" line in src/FFmpeg.h.</li>
-<li> Audacity may still build against no-longer-supported FFmpeg versions (such as FFmpeg 0.8 which is system-installed on Debian Wheezy), but configuring with --disable-dynamic-loading will be necessary. FFmpeg 0.8 has at least one known issue in Audacity 2.0.6 or later: mono WMA files export with no audio data. This issue will not be fixed given FFmpeg 0.8 is no longer supported by Audacity 2.0.6.   </li>
-<li> Building against self-compiled FFmpeg 2.2.2 with --disable-dynamic-loading the only argument fails on Ubuntu 13.10 with "undefined reference to 'av_codec_is_encoder'". <b>Workaround:</b> Configuring with --disable-dynamic-loading and --with-lib-preference="local" (or at least  --with-ffmpeg="local") may build successfully, but may not disable Libraries Preferences. The best solution may be not to disable dynamic loading.</li></ul></li></ul>
-<h3><span class="mw-headline" id="Effects">Effects</span></h3>
-<ul><li> <b>(macOs) Equalizaton:</b> Switching to the "Telephone" or "RIAA" curve may display a flat line curve at about 90dB, and produce no sound when clicking the "Preview" or "OK" buttons. <b>Workaround</b>- switch to Graphic mode.</li>
-<li> <b>Effects, Generators or Analyzers plug-ins (except Nyquist) that are no longer available remain listed in the menus until you open the <a rel="nofollow" class="external text" href="https://manual.audacityteam.org/man/manage_effects_generators_and_analyzers.html">Plug-in Manager</a>.</b> The plugins will then be removed from the menus after restarting Audacity. This also applies to previously shipped plug-ins that are no longer available in current Audacity, such as Hard Limiter.</li>
-<li> <b>Equalization</b>: do not use the "Manage &gt; Save Preset" function to save a custom curve; use "Save / Manage Curves" instead. Using the "Manage" button to save and recall presets can cause unexpected results, and in rare cases can cause Audacity to hang.</li>
-<li> <b>Identically-named effects cannot be differentiated in the "Select Command" dialog in chain editing.</b> When clicking "Edit Parameters", Audacity will show the dialog for one version of the effect, regardless of which one is selected in the "Select Command" list.</li>
-<li> <b>Plug-in Manager dialog:</b> The dialogue may include some VST instruments or VST 3 effects but these are not supported so will <b>not</b> load even if enabled.</li>
-<li> (Windows) <b>The Plug-in Manager does not properly disable the SC4 effect.</b>  If you disable SC4 in the Plug-in Manager, it will remain disabled during your current Audacity session but the next time you re-open Audacity the SC4 effect will be shown as enabled and will be available for use.</li></ul>
-<h3><span class="mw-headline" id="Effects_.28Audio_Units.29_.28OS_X.29">Effects (Audio Units) (OS X)</span></h3>
-<ul><li> <b>AU effects cannot show graphical interface if Audacity is set in its Preferences to a language that uses comma as decimal separator.</b> French however is a known exception to this.</li>
-<li> <b>AUPeakLimiter</b> when opened may show only its title bar or show a visually corrupted title bar containing black pieces from the interface. To correct the interface it may be possible to click on the plug-in controls or to click the Apply button then undo the effect. Alternatively, click the "Manage" button, then in "Options" select the "Basic" or "Generic" interface.</li></ul>
-<h3><span class="mw-headline" id="Effects_.28LV2.29">Effects (LV2)</span></h3>
-<ul><li> <b>In LV2 effects that operate in textual mode, any saved User Presets are not recalled but reset the effect to default settings. In graphical LV2 effects, resetting to defaults or recalling a saved User Preset may not affect the controls.</b></li>
-<li> <b>MDA LV2 plug-ins on macOS crash Audacity if applied in a Chain, even at default parameters.</b></li>
-<li> (Mac OS X and Linux) <b>LV2 instruments that Audacity should ignore because they are incompatible are listed in  Plug-in Manager</b> (64-bit Linux may not be affected). These plug-ins will not work in Audacity even if you re-enable them.</li></ul>
-<h3><span class="mw-headline" id="Effects_.28Nyquist.29">Effects (Nyquist)</span></h3>
-<ul><li> <b>Nyquist effects may crash Audacity if used on extremely long selections</b> containing more than 2^31 samples (just over 13.5 hours at 44100 Hz). <b>Workaround</b> Apply the effect to multiple shorter regions (you can drag the selection back on itself to create a region contiguous with the previous one).</li>
-<li> Many Nyquist plug-ins will fail or may be sluggish if the track selection is too long, or could cause Audacity to crash. This is because the maximum selection length is limited by the amount of available ram, up to a maximum of 2 GB. <b>Workaround:</b> Unless you know that a particular Nyquist plug-in is safe to use with long selections, do not select more than about 1 hour of audio (44100 Hz sample rate) at a time. For higher sample rates the limit is proportionally less. If necessary, apply the effect to sections of 1 hour or less.</li>
-<li> Nyquist effects render the space between clips as silence. <b>Workaround:</b> Edit &gt; Clip Boundaries &gt; Detach at Silences (this may also remove parts of the original audio if any of it was totally silent).</li></ul>
-<h3><span class="mw-headline" id="Effects_.28Real-time_preview.29">Effects (Real-time preview)</span></h3>
-<ul><li> (MacOS) <b>Audacity CPU use will be 100% if a non-Real time preview effect (such as most built-in effects) or other modal dialogue is open at the same time as any Audio Unit effect or a graphical VST or LV2 effect.</b> This is currently necessary to prevent a modal dialogue freezing Audacity when certain graphical VST or Audio Unit effects are running. <b>Workaround:</b> Excessive CPU use will not occur if you open the Manage button in the VST or LV2 effect then disable the option for graphical interface. Excessive CPU use will occur even with AU effects running in textual interface.</li></ul>
-<h3><span class="mw-headline" id="Effects_.28Vamp.29">Effects (Vamp)</span></h3>
-<ul><li> (Windows) <b>Installing the latest 1.7.1 "Queen Mary" Vamp plugins to any of the <a rel="nofollow" class="external text" href="https://manual.audacityteam.org/o/man/analyze_menu.html#vamp">supported locations</a> causes Audacity to crash when clicking any of the three "Add/Remove Plug-ins" menu items.</b> You can use the 1.7 plug-ins from <a rel="nofollow" class="external free" href="https://code.soundsoftware.ac.uk/projects/qm-vamp-plugins/files">https://code.soundsoftware.ac.uk/projects/qm-vamp-plugins/files</a> instead.</li></ul>
-<h3><span class="mw-headline" id="Effects_.28VST_and_Audio_Units.29">Effects (VST and Audio Units)</span></h3>
-<ul><li> (GNU/Linux): <b>When exporting VST effect presets, the FXP or XML file extension is not automatically offered in the file name, and not added by Audacity if you omit it.</b>  Make sure the extension you add is the same as that shown in the "File Format" drop-down menu, otherwise the preset will not be loadable.</li>
-<li> (Windows and Mac OS X) <b>When running VST effects in <a rel="nofollow" class="external text" href="https://manual.audacityteam.org/o/man/effects_preferences.html#vst">graphical mode</a> the controls of many plug-ins do not visibly respond when loading a preset file from the "Load" button</b>. The new settings are however loaded internally, will apply when running the effect and will be visible if you reopen the effect after running it. Controls do respond to loading a preset file if you turn off graphical mode.</li>
-<li> (Windows) 
-<ul><li> Betabugs PhaseBug and PhaseBug Mono hang the Add/Remove Plug-ins dialogue on high CPU usage after Enable and OK. Try <a rel="nofollow" class="external text" href="https://www.audiocation.de/en/plugin">Audiocation Phase</a> instead, or use Audacity 2.0.6 from <a rel="nofollow" class="external text" href="https://www.audacityteam.org/download/legacy-windows/">Legacy Windows</a> on the Audacity Website if you need to use these Betabugs plugins.</li>
-<li> DFX Geometer from <a rel="nofollow" class="external free" href="http://destroyfx.smartelectronix.com/">http://destroyfx.smartelectronix.com/</a> may crash Audacity when loading the effect from the Effect Menu. This usually happens only once or twice when the effect is first loaded in the operating system session. Once the effect is open in Audacity it should work properly.  </li>
-<li> DISTRHO Mini Series VST's from <a rel="nofollow" class="external free" href="http://distrho.sourceforge.net/plugins.php">http://distrho.sourceforge.net/plugins.php</a> crash Audacity in graphic mode but will run in text mode (open the Effects Preferences and uncheck "Display VST effects in graphical mode"). </li>
-<li> MDA Tracker may crash if the effect is applied while playing audio or if stopping and starting playback.  </li>
-<li> ReaPlugs plugins do not see user presets which were saved in Audacity 2.1.0 or 2.1.1. 
-<ul><li> You must restart playback to hear the result of enabling or disabling ReaEQ tabs. "Enable" or "Active" checkboxes work correctly while playing in other ReaPlug effects. </li></ul></li>
-<li> SimulAnalog Guitar suite plugins may crash Audacity at the default Buffer Size of 8192. For the most stable results, use the Manage button in the effect, then Options... and change Buffer Size to 8000. If crashes persist, use the effect by just applying it, without playing audio while the effect is open. </li>
-<li> Waves v5 may cause Audacity to hang if you select it in the "Register Effects" dialog then click OK.</li></ul></li>
-<li> (OS X)  
-<ul><li> The following plug-ins may cause Audacity to crash.  
-<ul><li> <b>AURoundTripAAC</b> from "Apple audio mastering tools"  (this requires OS X 10.6 or later so may crash on 10.4 or 10.5).</li>
-<li> <b><a rel="nofollow" class="external text" href="http://www.olilarkin.co.uk/index.php?p=eseries">Endless Series</a> AU</b></li>
-<li> <b>Digitech RP250</b> (effects pedal)</li>
-<li> <b>Native Instruments B4</b> and <b>Native Instruments Guitar Rig v3 and v4</b> (v5 does not have this issue)</li>
-<li> <b>PredatorFX</b>  </li>
-<li> <b>Waves Version 7 and 8 AU:</b> These effects may crash  Audacity on quit, after project data has been saved.  Waves Version 9 AU should now work correctly. </li></ul></li></ul></li></ul>
-<ul style="list-style-image: none; list-style-type: none">
-<ul style="list-style-image: none; list-style-type: none"> 
-<b>Workaround:</b> Disable these effects in <a rel="nofollow" class="external text" href="https://manual.audacityteam.org/man/manage_effects_generators_and_analyzers.html">Effect &gt; Add / Remove Plug-ins...</a><br />If Audacity won't launch, delete the file "pluginregistry.cfg" located at <a rel="nofollow" class="external text" href="https://manual.audacityteam.org/man/preferences.html#stored">~/Library/Application Support/audacity</a>. This will disable all effects except those shipped with Audacity.</ul></ul>
-<h3><span class="mw-headline" id="Effects_and_Analysis">Effects and Analysis</span></h3>
-<ul><li> (Windows 64-bit) There is no  HKEY_LOCAL_MACHINE\SOFTWARE\ registry key where Audacity detects VST plug-ins. The HKEY_CURRENT_USER key searched is HKEY_CURRENT_USER\Software\VST\VSTPluginsPath instead of the expected HKEY_CURRENT_USER\SOFTWARE\Wow6432Node\VST .</li>
-<li> <b>"Classic Filters" which can be enabled at Add / Remove Plug-ins has no vertical scale for the graph.</b></li>
-<li> <b>Noise Reduction values are not validated, so unwanted results may occur.</b> Entering a negative value for Noise Reduction can lead to severe overamplification of the audio, and entering values well above the slider values for the Sensitivity and Frequency smoothing parameters can lead to excessive deamplification.</li>
-<li> <b>Noise reduction:</b> Preview is not possible if the sample rate of the project is different from the rate of the track to be processed - an error message appears "Sample rate of the noise profile must match that of the sound to be processed" (even if that condition is met). Providing the noise profile rate does match the track rate, you can still apply the effect. Alternatively, change the project rate temporarily to the rate of the track.</li>
-<li> <b>Plot Spectrum and Contrast cannot currently be removed from the Analyze Menu.</b></li>
-<li> (Linux) <b>On Ubuntu with the Unity interface enabled in audacity.desktop, previewing a built-in or Nyquist effect or generator in one project then opening the same effect or generator in another project will cause a crash.</b> There may sometimes be a crash if opening any built-in or Nyquist effect or generator in another project when such an effect is already previewing.</li>
-<li> (Linux) <b>Opening the "Help on the Internet" dialog from the Help menu or from Contrast... creates an additional empty and unclosable dialog, and the real help dialog asserts when  closed.</b> Be sure to press "Continue" in the assertion error dialog. If you press "Stop", Audacity will force quit.</li>
-<li> (Linux) <b>Sliding Time Scale / Pitch Shift may crash randomly in Audacity built with pre-2.0.2 versions of libsbsms.</b> This may occur for example in the Ubuntu package of Audacity 2.0.5 on Ubuntu 14.04. <b>Workaround:</b> Build Audacity configured --with-sbsms="local", or use the Audacity package in Ubuntu 14.10 which uses libsbsms 2.0.2-1.</li>
-<li> (Mac) <b>Typing or pasting values in the parameter boxes of the </b>Reverb<b> effect will either not change the parameter applied or set it to zero</b>, as shown by the slider positions. <b>Workaround:</b> User the sliders to set effect parameters. To do so using the keyboard, CTRL + F7 if necessary to enable Full Keyboard Access, then TAB into the slider and use arrow keys or Page Up/Down.</li>
-<li> (Windows and Linux) Some LADSPA "Blop" plug-ins ( <a rel="nofollow" class="external free" href="http://blop.sourceforge.net/index.html">http://blop.sourceforge.net/index.html</a> ) are reported to crash in Audacity on Linux Debian. On Windows, the Blop plug-ins included in <a rel="nofollow" class="external free" href="http://opensourcepack.blogspot.co.uk/p/ladspa-for-win32.html">http://opensourcepack.blogspot.co.uk/p/ladspa-for-win32.html</a> can also crash, but this can be avoided if you ensure the "blop_files" folder contains the necessary "_data.dll" files for the plug-ins and that this folder is present in the Audacity "Plug-Ins" folder.</li>
-<li> (Windows and Mac OS X) The SC4 compressor shipped with Audacity crashes if used in a Chain.</li>
-<li> (Windows) <b>Very rarely, Audacity may show no built-in effects, generators or analyzers after upgrading from an earlier Audacity 2.1.x version.</b> If this happens, open Effect &gt; Add / Remove Plug-ins..., enable the built-in effects if not already showing as enabled, then click OK.</li>
-<li> (Windows) LADSPA Multiband EQ may not be visible in Effect menu (occurs on Windows XP), and crashes soon after opening</li>
-<li> (macOS) <b>Many items in the Generate, Effect and Analyze menus (except for example Plot Spectrum) cannot by default be applied/closed by ENTER on the keyboard unless you first press TAB once.</b> Effects which have no text boxes for input values, such as Audacity's Compressor or most VST or Audio Unit Effects will not respond to the TAB workaround.
-<ul><li>  An alternative which avoids having to use TAB is to CTRL + F7 once to enable <a rel="nofollow" class="external text" href="https://support.apple.com/en-gb/HT204434#fullkeyboard">Full Keyboard Access</a> for all applications. In any case, without this setting enabled, it will be impossible to navigate dialog buttons or Audacity Preferences using only the keyboard.</li></ul></li>
-<li> Cut Preview only plays the upper track of multiple selected or Sync-Locked tracks.</li>
-<li> The following effects <b>remove envelope control points</b>:
-<ul><li> Change Speed/Pitch/Tempo; Equalization; Noise Removal; Sliding Time Scale/Pitch Shift; any Nyquist effect in the Effect menu. Workaround: Use Tracks &gt; Mix and Render to apply the envelope to the waveform before applying the effect. </li>
-<li> The Reverse effect retains the control points, but does not move them.</li></ul></li></ul>
-<h3><span class="mw-headline" id="Envelopes_and_Clips">Envelopes and Clips</span></h3>
-<ul><li> <b>If audio is created at other than time zero, a selection made in that clip could act on the sample before the first visually selected sample</b> but not act on the last visually selected sample. If fully selecting such a clip or dragging to or from its left border, the first sample will appear unselected despite being selected.</li>
-<li> <b>In a few cases, pasting into a track containing clips could remove the envelope points in the clip being pasted into.</b> Tracks &gt; Mix and Render on that track could crash Audacity. It is recommended to select the track and File &gt; Export Selected Audio... as WAV. This should render the envelope points then you can import the WAV back into Audacity.</li>
-<li> <b><a rel="nofollow" class="external text" href="https://manual.audacityteam.org/o/man/boundary_snap_guides.html">Boundary Snap Guides</a> often do not appear when snapping to Split Lines created with <a rel="nofollow" class="external text" href="https://manual.audacityteam.org/o/man/selection_toolbar.html#snap">Snap To</a> enabled at hh:mm:ss + milliseconds or higher resolution.</b> You could label the split lines or turn Snap To off to see the guides.</li></ul>
-<h3><span class="mw-headline" id="Exports">Exports</span></h3>
-<ul><li> <b>WAVEX (Microsoft) headers:</b> GSM 6.10 files cannot be exported with WAVEX headers. Use WAV headers instead (note that GSM 6.10 only supports mono). A-Law and U-Law files with WAVEX headers may not be playable - use WAV headers instead. Choose "Other uncompressed files" then "Options..." to export to GSM 6.10 or A-/U-Law with WAV headers.</li>
-<li> <b>When exporting, tracks with Mute button down are excluded from the export mix as intended</b> but currently no warning is provided about this.</li>
-<li> (Linux) Exports using "M4A (AAC) Files" are very slow irrespective of the AAC encoder FFmpeg is configured to use.  Workaround: choose (external program) when exporting, entering an appropriate path and command (for example, /usr/bin/ffmpeg -i - "%f") to run FFmpeg using Audacity's command-line encoder.</li>
-<li> (Linux) Files exported using the <b>FFmpeg native AAC encoder</b> included with many system versions of FFmpeg may be of poor quality. This is an issue with the library itself. <b>Workaround:</b> When compiling FFmpeg, configure with the libfaac encoder thus: --disable-encoder=aac --enable-libfaac --enable-nonfree. Note that libfaac has an issue not present in the native FFmpeg encoder that saved files are short at the end by about 3000 samples. Alternatively build the VisualOn AAC encoder library and configure FFmpeg with --disable-encoder=aac --disable-encoder=libfaac --enable-libvo-aacenc. </li>
-<li> (Linux) Mono AAC files import as stereo if FFmpeg uses the libfaad decoder. This is again an issue with the library itself.</li>
-<li> (Mac OS X) <b>When exporting using (external program) using any encoder, or using "Custom FFmpeg Export", you must agree to create and replace an unwanted "NoOverwritePrompt" file before you can export.</b> The exported audio file is correct.</li>
-<li> (OS X) <b>If you include / in the file name when using File &gt; Export Audio... or Export Selected Audio..., the text before the / will be missing from the exported file name.</b> As a <b>Workaround:</b> add the required file name to a label then Export Multiple.</li>
-<li> (macOS) <b>The Export Multiple progress dialogues may be hidden behind the Export Multiple window for each file after the first one.</b> Files are still exported normally, and you can move the Export Multiple window to one side to view the subsequent progress dialogues.  The confirmation dialogue listing the exported files appears normally on top of Export Multiple after export completes.</li>
-<li> Audacity may freeze if using the Nero AAC encoder to export via (external program). It is reported this only occurs when using multiple CPU cores. <b>Workaround:</b> Export to AAC directly by adding <a rel="nofollow" class="external text" href="https://manual.audacityteam.org/o/man/faq_installation_and_plug_ins.html#ffdown">FFmpeg</a> to your computer, or set Audacity to use only one CPU core.</li>
-<li> Custom FFmpeg Export: many combinations of formats and codecs are incompatible, as are some combinations of general options and codecs. Some files may be exported as zero kb files.</li></ul>
-<h3><span class="mw-headline" id="Imports_and_Exports">Imports and Exports</span></h3>
-<ul><li> <b>A-Law, U-Law and ADPCM export formats (also RF64 for PCM exports larger than 4 GB in size) must be chosen by selecting "Other uncompressed files", ensure the "Header" is "WAV (Microsoft)", then from the "Encoding" dropdown menu select your desired encoding.  We may redesign the export list in due course to make these formats easier to find.</b></li>
-<li> <b>AAC exports using "M4A (AAC) Files (FFmpeg)" with project rate below 22050 Hz produce a zero bytes file if the linked to FFmpeg is configured with the default AAC encoder or libfaac. This will not affect the recommended builds of FFmpeg for Windows and Mac OS X which are built with libvo-aacenc. </b>Workaround:<b> You can export AAC below 22050 Hz using default-configured FFmpeg by choosing (external program) export instead.</b></li>
-<li> <b>Files containing PCM audio but misnamed as MP3 cause a freeze or crash</b> if an Extended Import rule is set in Preferences to force import of MP3 files using the MP3 importer.</li>
-<li> <b>ID3 metadata tags in imported MP3 or MP2 files may display incorrectly if the metadata is UTF-16 encoded.</b> The tags will seem to have Chinese characters and these incorrect tags will also be present if the files are re-exported. <b>Workaround:</b> Before importing the file into Audacity, open it in a tag editor or an audio application that can edit tags. If the tags are seen correctly, save the file in that application. On Windows you can use <a rel="nofollow" class="external text" href="http://www.foobar2000.org/download">Foobar2000</a> for this purpose.</li>
-<li> <b>On a fresh installation of Audacity or <a rel="nofollow" class="external text" href="https://manual.audacityteam.org/man/preferences.html#stored">initialized Preferences</a>, the "FFmpeg-compatible files" filter cannot be used to make FFmpeg import native Audacity formats such as WAV, AIFF or MP3.</b> Similarly on macOS, the "QuickTime files" filter cannot be used to make QuickTime import MPEG-4 files instead of installed FFmpeg.<b>Workaround:</b> Open Preferences and click "OK" then the FFmpeg and QuickTime filters will work as expected.</li>
-<li> <b>The Import / Export Preference "When importing audio files, Normalize all tracks in project" will cause import of WAV/AIFF files using "Read the files directly from the original" to lock up at the Normalize step.</b> If you require normalize on import for WAV/AIFF, please change the Import / Export Preference to "Make a copy... before editing".</li>
-<li> <b>When exporting using the "Other uncompressed files" option, the extension of the exported file is forced to the default for the format.</b> For example it is not possible to export AIFF files with .aif or .aifc extension except by using the "AIFF (Apple) signed 16-bit PCM" option instead.</li>
-<li> (Linux) <b>When using Export Multiple, asterisks (*) or question marks (?) in track names or labels are wrongly rejected as illegal characters.</b> As a <b>Workaround</b> you can force use of * or&#160;? by exporting each region with File &gt; Export Selected Audio... instead.</li>
-<li> (Linux) After opening a sufficiently long audio file, opening a second file of any size might lead to locked GUI/console messages until the first file completes play.</li>
-<li> (Mac OS X) Dragging audio files to Audacity's icon in the Dock will only import the file for WAV, AIFF, AU, MP2, MP3, OGG, FLAC and M4A. <b>Workaround:</b> Rename MP4 files (audio or video) to M4A extension. Alternatively the files may be dragged to the Audacity icon in the folder where you have Audacity installed, dragged into the open Audacity window or imported using the Audacity menus.</li>
-<li> (OS X Pre El Capitan) <b>iTunes files cannot be opened from Media &gt; Music in the Sidebar in Audacity's file open dialogs.</b> You could drag your iTunes "Music" folder to the Finder sidebar to give quicker access in Audacity open dialogs.</li>
-<li> (OS X) <b>When exporting using the "Other uncompressed files" option, the "Save As:" dropdown always offers .aiff extension even when other headers are chosen.</b> However the file will be exported in the correct format with the correct default extension for that format, even if you don't change the Save As extension from AIFF.</li>
-<li> (OS X) Files imported from iTunes could create invalid characters in the .aup project file in previous Beta versions of Audacity. If you re-open such a project in the current release, an error "reference to invalid character number" may occur. <b>Workaround:</b> Save and open a back-up copy of the .aup file in a text editor, turn off word wrap, then in the line indicated in the error message, remove the string of characters that starts with &amp;# and ends with a semi-colon (;). There is more help with fixing this <a rel="nofollow" class="external text" href="http://manual.audacityteam.org/o/man/faq_errors.html#nwf">here</a>.</li>
-<li> (Windows Vista, 7) Audacity will crash if attempting to open WAV files while they are still being rendered by the open source Psycle tracker program.</li>
-<li> If WAV/AIFF files are imported into a project using "Read Directly" import but then become unavailable, warnings are given when playing, recording, applying effects and exporting, but not all editing and project save actions are warned.</li>
-<li> If you import an audio file from a folder other than the one you last exported to, you cannot export over that file without changing the export directory manually.</li>
-<li>"Background on-demand loading" for FFmpeg (in the Libraries Preferences) does not currently allow changing the focus of waveform computation by clicking in the track. You can apply an effect to a selection wherever the normal waveform has appeared, but if you do so before the normal waveform has appeared, the audio will be silenced.</li>
-<li><b>(Linux):</b> When exporting to MIDI over an existing file, no overwrite warning is given.</li>
-<li><b>By default, the importer used depends on the import method.</b> For example, to be able to use <a rel="nofollow" class="external text" href="https://manual.audacityteam.org/o/man/faq_installation_and_plug_ins.html#ffdown">FFmpeg</a> to import native Audacity formats like WAV and MP3, you must choose the "FFmpeg-compatible files" filter in File &gt; Open or File &gt; Import &gt; Audio and <b>always use one of those import methods</b>. To force FFmpeg to import native Audacity formats when using File &gt; Recent Files or dragging in, add rules for those formats in <a rel="nofollow" class="external text" href="https://manual.audacityteam.org/o/man/extended_import_preferences.html">Extended Import Preferences</a>. To force FFmpeg import irrespective of the filter when using File &gt; Open or File &gt; Import &gt; Audio, uncheck "Attempt to use filter in OpenFile dialog first" in Extended Import Preferences as well as adding the rule for the format.</li>
-<li><b>Export Multiple does not pass metadata common to all tracks to the Metadata Editor windows for each track.</b> <b>Workaround:</b> Export by unchecking "Show Metadata Editor before export step" in Import / Export Preferences, then enter any tags common to all tracks at Edit &gt; Metadata... before exporting. Audacity will then silently add the common and automatically generated Track Title and Track Number tags for each exported file.</li>
-<li><b>WAV and AIFF exports will fail without warning</b> if you import a WAV or AIFF by <a rel="nofollow" class="external text" href="https://manual.audacityteam.org/o/man/import_export_preferences.html">reading it directly</a>, delete the file and its track then export new audio to the same file name and location as the deleted file. <b>Workaround:</b> Set the Preference in the above link to "Make a copy" of uncompressed files when importing.</li>
-<li>(OS X) Audio files containing a backslash (\) in the name will fail "Could not open file" if you import them using File &gt; Open... , File &gt; Import &gt; Audio... or File &gt; Open Recent. This is a bug in wxWidgets. <b>Workaround:</b> Drag the file into the Audacity window instead.</li>
-<li><div id="dither"></div></li>
-<li> <b><a href="/wiki/Dither" title="Dither">Dither</a> (corrective soft noise) is applied by default when it should not be applied</b> when exporting to most formats having the same or higher bit depth than the project. For example, this occurs if exporting to 16-bit WAV, 16-bit FLAC or MP3 from a 16-bit project. OGG is unaffected. <b>Workarounds:</b> Set "High Quality" dither to "None" in the <a rel="nofollow" class="external text" href="https://manual.audacityteam.org/o/man/quality_preferences.html">Quality Preferences</a>. To fix any files that have already been affected, see <a rel="nofollow" class="external text" href="https://forum.audacityteam.org/viewtopic.php?f=28&amp;t=38756">this Forum topic</a>.</li>
-<li><div id="metadata"></div></li>
-<li> Metadata: 
-<ul><li> Album art and lyrics in imported metadata are lost when exporting. <b>Workaround:</b> Copy the lyrics (or search for them online) then add them back to the exported file in your favorite media player. Extract the album art using a tag editor such as <a rel="nofollow" class="external text" href="http://sourceforge.net/projects/idteid3tagedito/">IDTE</a> (or use <a rel="nofollow" class="external text" href="http://windows.microsoft.com/en-us/windows/add-change-media-player-album-art#1TC=windows-7">Windows Media Player</a> or iTunes to search online for the art) then add the art back to the exported file using your media player.    </li>
-<li> Tags other than the seven default <a rel="nofollow" class="external text" href="https://manual.audacityteam.org/o/man/metadata_editor.html">Metadata Editor</a> tags will be rewritten as custom ID3 TXXX tags, which will cause them not to be seen in applications like Windows Media Player and iTunes. Common tag examples include "Album Artist", "BPM" and "Composer".</li>
-<li> ID3 v2.4 tags in imported MP3 files are not seen and will be removed on export.</li>
-<li> Audacity writes both ID3 v2.3 (TYER) and v2.4 (TDRC) tags for "Year", but any applications that require the older TYER on its own (without TDRC) will not see "Year" in Audacity-exported files. The id3 command-line application on Linux is one example.  </li>
-<li> WMA and APE (Monkeys Audio): "Artist Name" is not seen on importing the file (Audacity bug) </li>
-<li> Other metadata import/export may not always be consistent. This may depend on the program that created the imported tags and the program used to read the exported tags.</li></ul></li>
-<li>When importing a MIDI track, the channel selection buttons to left of the track are not currently available.</li></ul>
-<h3><span class="mw-headline" id="Imports_and_Exports_.28FFmpeg.29">Imports and Exports (FFmpeg)</span></h3>
-<ul><li> <b>Custom FFmpeg Export dialog: It is necessary to save a preset before exporting it</b> but there is no error message when exporting from an empty presets list and no advice in the interface that presets must be saved before export.</li>
-<li> M4A (AAC) exports: The Quality Slider in "Specify AAC Options" has no effect if the FFmpeg library is built with the libvo-aac encoder, as are recommended builds of FFmpeg for Windows and Mac OS X. <b>Workaround:</b> You can specify a constant bit rate if you select "Custom FFmpeg Export". Click the Options... button, choose "mp4" in the formats list and "libvo_aacenc" in the codecs list, then set bit rate in bits per second. Up to 320000 bps (320 kbps) is supported. Given the alternative AAC encoders for FFmpeg also have problems as described in these notes, you can instead export as WAV and convert to AAC in iTunes on Windows and Mac.</li>
-<li> M4A/MP4 (AAC):  Artist and Year metadata is not exported or imported due to a bug in FFmpeg 2.2.2.</li></ul>
-<h3><span class="mw-headline" id="Installation">Installation</span></h3>
-<ul><li> <b>Although first installation of Audacity will default audio export and project save to the user's Documents folder,  TXT and XML exports such as for labels files, Plot Spectrum or keyboard bindings may offer to export elsewhere.</b> 
-<ul><li> On Windows the offered location will be the Audacity installation folder - if you are not running Audacity as Administrator, you must change the export folder in order to save the file. </li>
-<li> On Mac, keyboard bindings will open first time in Applications if you have not already exported or saved any files. You must change the export directory to save if you are not running as administrator. If you cancel keyboard bindings export after it offers the Applications directory, all other TXT and XML exports will then default to saving in Applications.       </li>
-<li> On Linux, TXT and XML exports default to the root of your Home directory.</li></ul></li>
-<li> (Windows) <b>In the Audacity installer, selecting the language to use during installation now selects the language Audacity will run in</b>, even if Windows is running in a different language.</li></ul>
-<h3><span class="mw-headline" id="Interface">Interface</span></h3>
-<ul><li> <b>Audacity does not alert you if it cannot write to its configuration or settings files</b> or cannot remove its temporary settings files. The problem could occur due to interaction with a virus checker (this is most likely on Windows) or due to permissions problems. 
-<ul><li> If the problem occurs, you might find a change you made in Preferences does not take hold, or that changing the settings in an effect then trying to apply the effect won't run the effect. On Windows, you will also find a build up of aud*.tmp or plu*.tmp files in Audacity's <a rel="nofollow" class="external text" href="https://manual.audacityteam.org/o/man/preferences.html#stored">Preferences folder for application data</a> though these are noted at Help &gt; Show Log... .</li></ul></li>
-<li> <b>Performing an action which can be undone, making some types of display change then undoing the action will unexpectedly undo the display change as well.</b> Examples of display changes that will be undone are changes to track height, track view mode or per-track Spectrogram Settings.</li>
-<li> <b>When importing key bindings</b> (keyboard shortcuts) in <a rel="nofollow" class="external text" href="https://manual.audacityteam.org/man/keyboard_preferences.html">Keyboard Preferences</a>, some may fail to import. <b>Workaround</b>: in Keyboard Preferences, set <i>Defaults</i> to <i>Full</i> before importing the xml file.</li>
-<li> (Linux) <b>Audacity currently does not support being extended across multiple displays, so that Audacity is visibly straddled between monitors.</b> If Audacity is quit when the greater part is on the primary monitor, Audacity reopens centred on the primary monitor. If Audacity is quit when the greater part is on the secondary monitor, Audacity reopens on and at left of the secondary monitor.</li>
-<li> (Linux) Numeric value of track Pan / Gain sliders is malformed and appears only as a horizontal line.</li></ul>
-<p><b>Workaround</b>: Double-click the slider to bring up a window where you can see the gain value.
-</p>
-<ul><li> (Mac) <b>Copying or cutting from text boxes in file save dialogs using COMMAND + C and COMMAND + X respectively does not work.</b> You can however right-click or CTRL-click and choose the option to Copy or Cut.</li>
-<li> (Mac) <b>Pasting into file save dialogs using COMMAND + V has been restored with some limitations.</b> 
-<ul><li> COMMAND + V can only paste into the "Save As:" box even if another box has focus. You can use right-click or CTRL-click to paste into other boxes.</li>
-<li> The entire contents of the box are replaced with the pasted content, ignoring the selection cursor or partial text selections.</li></ul></li>
-<li> (OS X and Linux) In some locales, Preferences text may be truncated or overlapped, or dropdown boxes truncated.</li>
-<li> (Windows) The "Files Missing" warning always restores maximised windows to smaller size.</li>
-<li> (macOS) <b>If upgrading from Audacity 2.1.1 directly to 2.1.3 release or later, the Audacity Title Bar and window buttons may be hidden</b> under the Menu Bar. <b>Workaround:</b> Use Window &gt; Zoom or restart 2.2.0.</li>
-<li> (macOS) <b>The "Window" menu does not currently provide a list of open windows for moving between projects.</b> Use the Mac shortcut COMMAND + Accent (`) instead to navigate open project windows. You can customize this key binding at System Preferences &gt; Keyboard &gt; Shortcuts, then choose Keyboard in the list on the left.<br />More usefully, if you right click on the Audacity icon in the Task bar at the bottom of the Mac screen, you can then select "Show All Windows".  This will display all open Audacity project windows enabling to choose any one by clicking it.</li>
-<li> After changing language in Preferences, a few parts of the interface don't change until Audacity is restarted.</li>
-<li> Crashes on incorrect behaviour on quit:
-<ul><li> (Windows) <b>Audacity crashes after quit if quit from the Windows 7 Task Manager and "About Audacity" is open.</b> If you save changes to a project, these changes are saved correctly. </li>
-<li> (Windows) <b>Audacity cannot be quit from the Task Bar icon if "About Audacity" is open.</b></li>
-<li> (Linux) Any quit by any method produces "OS_IS_BAR (bar)" and "GTK_IS_WIDGET" (widget) assertion errors in the terminal if Audacity is launched from there.</li></ul></li>
-<li> If Sync-Lock Tracks is enabled, there is no indication of the cursor in the Sync-Locked tracks.</li>
-<li> If you attempt to open an Audacity Project using the Import command you will be shown an error message (telling you to use File&gt;Open instead).
-<ul><li> Clicking the (?) help button in the "xxx.aup is an Audacity Project File ..." message will take you to an Audacity dialog offering more help - but that help is inappropriate to opening a project.</li>
-<li> Further, if the local manual is installed (standard on Windows and Mac, optional according to your download choice on Mac and Windows), clicking the (?) help button in the "xxx.aup is an Audacity Project File ..." and then clicking on the links in the further message will take you to the online Manual and not your local installed Manual - and this will fail if you have no Internet connection.</li></ul></li>
-<li> Mouse Bindings are not currently configurable by the user.</li>
-<li> The Device Toolbar width can shrink as you move the undocked toolbar around.  WORKAROUND: Use the resize handle to resize and restore the width of the contents.</li>
-<li> We're aware that some error messages in Audacity are not as helpful as we would like them to be.  If you see a cryptic error message from Audacity, try a search (or ask) on <a rel="nofollow" class="external free" href="http://forum.audacityteam.org/">http://forum.audacityteam.org/</a></li>
-<li> When using TAB to move into a TimeText control (for example, in a Generator, Change Speed or Selection Toolbar)  the first character is highlighted instead of the first non-zero character.</li>
-<li><b>The default track name for new audio tracks is not translated into the language chosen in Interface Preferences.</b>  As a <b>Workaround:</b> you can type in your preferred default track name in Tracks Preferences.</li>
-<li>(Linux) If Audacity is left open but without focus, its CPU use will rise slowly until all available system CPU is consumed. This is a bug in wxGTK 2.8.10 (not previous versions) -  see <a rel="nofollow" class="external free" href="http://trac.wxwidgets.org/ticket/11315">http://trac.wxwidgets.org/ticket/11315</a> . This issue can be fixed by updating to wxGTK 2.8.11 or 2.8.12.</li></ul>
-<dl><dd>For Package Maintainers / Distributors / anyone building against 2.8.10: The upstream change in wxGTK is simple and can easily be patched into wxGTK 2.8.10 if desired: Grab <a rel="nofollow" class="external free" href="http://trac.wxwidgets.org/changeset/62397?format=diff&amp;new=62397">http://trac.wxwidgets.org/changeset/62397?format=diff&amp;new=62397</a>, run it through dos2unix (as it seems to come with dos line-endings), and apply it to the wxGTK 2.8.10 sources (with -p3 to get the paths right if you patch from the top level of the tarball distribution).</dd></dl>
-<ul><li>(Windows) It is not yet possible to drag .lnk shortcuts to audio files or projects into Audacity, or to drag them to the Audacity executable's icon. <b>Workaround:</b> Use File &gt; Open or File &gt; Import &gt; Audio, or double-click the shortcut to the .aup from Windows Explorer.</li>
-<li>(Windows) The Audacity executable cannot be added to the Explorer "Open with" context menu if you have another version of Audacity on the system which is also called "audacity.exe". <b>Workaround:</b> either use the "Open with" dialogue to browse to the executable each time, or rename the executable to or some other unique name.</li>
-<li>Dragging a clip or track up or down with Time Shift Tool does not scroll the project window when tracks exist out of view above or below the scroll. <b>Workaround:</b> Choose View &gt; Fit Vertically before drag, or click and hold the piece to be dragged, use up or down arrow on the keyboard to scroll to the target track, then drag and release the clip or track.</li>
-<li>Sync-Locked Tracks are not affected by all actions that change the length of a track in the Sync-Locked Track Group.  Applying Paulstretch or using the Audio Track dropdown menu to change sample rate will leave the other Sync-Locked tracks desynchronised.</li></ul>
-<h3><span class="mw-headline" id="Karaoke">Karaoke</span></h3>
-<ul><li>(Linux) '<b>On some systems it is not possible to use keyboard shortcuts while focus is in the Karaoke window.</b> If necessary, click to place focus in the main project window before using transport shortcuts. On some systems you may be able to pin the Karaoke window on top even if it lacks focus.</li></ul>
-<h3><span class="mw-headline" id="LAME">LAME</span></h3>
-<ul><li> <b>If you attempt to export an MP3 file with no LAME library installed</b> you will get an error message dialog.  In that dialog if you click the "Download" button you will get a "page not found" error. 
-<ul><li> <b>Workaround</b>:  Go to Edit &gt; Preferences and select Libraries.  Then click the "Download" button in the <i>MP3 Export Library</i> section.</li></ul></li>
-<li> <b>In the Libraries Preferences in the MP3 Export Library section</b>, if you use the "Locate" button and in the ensuing "Locate LAME" dialog you click the "Download" button, you will get a "page not found" error.
-<ul><li> <b>Workaround:</b> Cancel the "Locate LAME" dialog. Click the "Download" button in the <i>MP3 Export Library</i> section of Libraries Preferences.</li></ul></li>
-<li> (Mac) <b>If you use Libraries Preferences to locate LAME manually, it is necessary to change the "File type:" filter</b> to the choice for Dynamic Libraries or All Files in order to make libmp3lame.dylib selectable.</li></ul>
-<h3><span class="mw-headline" id="Label_Tracks">Label Tracks</span></h3>
-<ul><li> <b>The Tracks preference "Type to create a label" for typing in the focused label track doesn't work if you play audio then arrow-key</b> into the label track to give it focus. <b>Workaround:</b> During playback, either use <span class="kbrd" style="background-color: #d0d0f8">CTRL + B</span> to add a label at the selection then type, or make a different selection in the label track then type.</li>
-<li> <b>The frequency range stored in a Region label created in a Spectrogram track with Spectral Selection enabled can only be modified by "Edit..." from the label's right-click context menu.</b> 
-<ul><li> Currently there is no validation on OK'ing the entered frequency value, so invalid values can be entered with unexpected results.</li>
-<li> You can instead change the frequency range and save a new label in the same time selection then click in each label to display its frequency range, but if you TAB between labels in the same time selection all labels will show the frequency range of the last added label.</li></ul></li>
-<li> Unless Tracks &gt; Sync-Lock Tracks is on, pasting or inserting audio does not affect labels even if the label track is included in the selection.</li>
-<li><b>Yellow "snap" guidelines do not appear in re-opened projects or imported label tracks</b> when dragging a selection to a label edge if "Snap To" is checked and a high resolution Selection Format chosen. Formats affected include "hh:mm:ss + CDDA frames (75 fps)", "hh:mm:ss + milliseconds" and "hh:mm:ss + samples".</li></ul>
-<h3><span class="mw-headline" id="Launching_Audacity">Launching Audacity</span></h3>
-<ul><li> (Mac El Capitan) <b>Audacity may not launch and a "Can't be opened" message will be displayed.</b> Console log messages may refer to "Could not store lsd-identifiers file at /private/var/db/lsd/com.apple.lsdschemes.plist". 
-<ul><li> <b>Workarounds:</b> Right-click or CTRL-click over Audacity.app, choose "Show Package Contents", then in the "MacOS" folder, double-click the "Audacity" executable. This will launch a Terminal window and Audacity will also launch. Alternatively you can try resetting the LaunchServices database by running the following Terminal command then rebooting: </li></ul></li></ul>
-<table style="margin-left:40px;line-height:1.1em;letter-spacing:-0.04em;background-color:#F4F4FE;font-family:monospace;font-size:1.1em;border:1px dashed black" cellpadding="5px">
-<tr>
-<td>sudo /System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user&#160;; killall Dock
-</td></tr></table>
-<h3><span class="mw-headline" id="Localization">Localization</span></h3>
-<ul><li> <b>For languages that use comma decimal separator, comma can only be used in effects on OS X by choosing that language in Audacity Preferences.</b> This applies even if Mac system language is set to a comma-separated locale. On all systems, comma separator in effects after choosing a comma-separated language in Audacity Preferences requires that language to be installed on the system.</li>
-<li> (Linux Ubuntu/Debian): <b>If Ubuntu or Debian is installed in a right-to-left (RTL) language such as Hebrew or Arabic, most of the Audacity interface will be empty and thus unusable.</b>  The only guaranteed solution is to set system language to English in system settings then restart the computer and change Audacity language to Hebrew at Edit &gt; Preferences..., "Interface". There will still be some less serious RTL issues.</li>
-<li> (Linux) <b>If system locale is set to Valencian and Audacity language in Interface Preferences is set to "System", Audacity will be in Catalan.</b> You can change to Valencian language in Interface Preferences.</li>
-<li> (Windows) <b>Audacity must be explicitly set to use Galician or Valencian in Interface Preferences to display those languages.</b> Setting the Windows Region and Language format to Galician or Valencian and Audacity to "System"  language will only display Audacity in English.</li></ul>
-<h3><span class="mw-headline" id="MIDI">MIDI</span></h3>
-<ul><li> <b>Exporting Note tracks:</b> Selecting "Allegro (*.gro)" as the file type when exporting note tracks does not produce an Allegro file unless the file name includes the extension ".gro".</li>
-<li> (OS X and Linux) Note track playback requires additional setup on Mac and Linux. See these pages on the wiki for <b><a rel="nofollow" class="external text" href="https://wiki.audacityteam.org/wiki/Enabling_Note_Track_playback_on_Mac">Mac</a></b> and <b><a rel="nofollow" class="external text" href="https://wiki.audacityteam.org/wiki/Enabling_Note_Track_playback_on_Linux">Linux</a></b></li>
-<li>(Linux) The timing of notes during MIDI playback may sound erratic on some machines. Optimizing the system for low latency MIDI playback can help to reduce the inaccuracies.</li></ul>
-<h3><span class="mw-headline" id="Miscellaneous_platform-specific_issues">Miscellaneous platform-specific issues</span></h3>
-<ul><li> (Mac OS X) If using Audacity when the "Hear" audio plug-in is running (or has been since boot), there will be excessive memory usage which could cause a crash: this appears to be due to buggy memory allocation in "Hear"</li>
-<li> (Mac OS X) Very occasionally, users may find that after running Audacity, other media players don't produce any sound, or crash:  to resolve this, set up your sound device in Apple Audio MIDI Setup to work in stereo, 16-bit, with a sample rate of 44100 Hz or 48000 Hz, and set the sample format and rate identically in Audacity. More help at: <a rel="nofollow" class="external free" href="http://audacityteam.org/forum/viewtopic.php?f=17&amp;t=5064">http://audacityteam.org/forum/viewtopic.php?f=17&amp;t=5064</a></li>
-<li><div id="pulse"></div></li>
-<li>(Linux) <b>A playback or recording freeze, recording dropouts or fast playback may occur when using PulseAudio.</b> Freezes may be caused by repeatedly starting and stopping playback or recording in quick succession (or by holding down the Play or Record button).  <b>Workarounds:</b> Try launching Audacity from the terminal with the pulse latency set to 30 ms in an environment variable: <ul style="list-style-image: none; list-style-type: none"></li></ul>
-<table style="margin-left:10px;line-height:1.1em;letter-spacing:-0.04em;background-color:#F4F4FE;font-family:monospace;font-size:1.1em;border:1px dashed black" cellpadding="5px">
-<tr>
-<td>env PULSE_LATENCY_MSEC=30 audacity
-</td></tr></table>
-If you get underruns noted in the terminal, try a higher number in the PULSE_LATENCY_MSEC command. If the problem is unchanged, try a lower number. Alternatively, bypass pulseaudio by setting the playback and recording device to an ALSA (hw) choice in Device Toolbar. More help with this can be found <a href="/wiki/Linux_Issues#pulse" title="Linux Issues">here</a>.</ul>
-<h3><span class="mw-headline" id="Mixer_Board">Mixer Board</span></h3>
-<ul><li> (Windows and Linux) <b>The Select All (CTRL + A) and Deselect All (CTRL+ SHIFT+ A) shortcuts may not work</b> when focus is in Mixer Board. <b>Workaround:</b> CTRL+TAB to return focus to the main project window, then use the shortcuts there.</li></ul>
-<h3><span class="mw-headline" id="Moonphase">Moonphase</span></h3>
-<div style="margin:24px">
-<table style="background:#FEFFD0; color:black; border:1px solid #999999; padding-left:12px; padding-right:12px" width="100%" align="center">
-
-<tr>
-<td width="30px" valign="top" align="center"><a href="/wiki/File:Warningicon.png" class="image" title="Warning icon"><img alt="Warning icon" src="/w/images/b/ba/Warningicon.png" width="24" height="24" /></a>
-</td>
-<td align="left" valign="top">
-<ul><li>Very occasionally, Audacity projects may reopen with missing block files, orphan block files and/or silenced audio data. There may be unwanted renaming or moving of AU files within the project. We believe having multiple projects open at once or having projects open in file manager programs are among the possible causes. See <a href="/wiki/Bug:137" title="Bug:137">Bug:137</a> for more background to this.
-<li> The AUP file may be saved with references to only a few of the AU files, again leading to "orphan block file" warnings. Sometimes the AUP file may not be found after saving and closing the project.
-<li>Sometimes errors occur when saving the project or when Audacity autosaves, perhaps wrongly suggesting the disk is full or not writable (if this happens, try exporting the audio as WAV).</ul>
-<p>Please write to our <a rel="nofollow" class="external text" href="https://www.audacityteam.org/contact/#feedback">feedback address</a> if you encounter any of the above symptoms. As many as possible of the following will help us enormously if you can attach them to your report:
-</p>
-<ul><li> A copy of the saved AUP project file </li>
-<li> A copy of the AUTOSAVE (temporary project) file. This file is stored inside the "AutoSave" folder in Audacity's <a rel="nofollow" class="external text" href="https://manual.audacityteam.org/o/man/preferences.html#stored">application data folder</a>.</li>
-<li> For problems that occur when reopening or working in a project, the log file at <span class="path">Help &gt; Show Log...</span>.</li></ul>
-</td></tr></table>
+<div id="MacDiv">
+<div class="note" style="background:white"><b>macOS / Mac OS X</b>
+<ul><li> Audacity 2.3.2 is for Intel Macs running OS X 10.7 and later and macOS. 
+<ul><li> There are legacy versions for older OS X at <a rel="nofollow" class="external free" href="http://audacityteam.org/download/legacy-mac/">http://audacityteam.org/download/legacy-mac/</a>.</div></li></ul></li></ul>
 </div>
-<h3><span class="mw-headline" id="Playback_and_Recording">Playback and Recording</span></h3>
-<ul><li> <b>Sound Activated Recording mode is disabled if there is no displayed recording meter</b> (neither Recording Meter Toolbar or Combined Meter Toolbar). Recording will proceed regardless of the Sound Activation Level threshold and the actual recording level.</li>
-<li> <b>The level of an active recording can be changed by the Mixer Toolbar sliders in any other open project windows.</b></li>
-<li> <b>Timer Record warns of insufficient disk space to save the recording as a project, but does not warn about sufficient space to export.</b> If space is insufficient to export, the exported file will be shortened to fit the available space.</li>
-<li> (Mac OS X) <b>The default 100 ms "Audio to buffer" setting in Audacity's Recording Preferences (which also affects playback) is too high, especially for many USB or firewire  devices or if using <a rel="nofollow" class="external text" href="https://manual.audacityteam.org/man/tutorial_recording_computer_playback_on_mac.html">Soundflower</a></b>. There may be immediate clicky playback of good audio and more rarely, recordings may be corrupted with clicks after a period of time. Set Audio to buffer as low as you can consistent with still getting a good recording, or use the built-in output or input instead. Also see: <a rel="nofollow" class="external text" href="https://manual.audacityteam.org/man/faq_recording_troubleshooting.html#mac_crackle">How can I prevent clicky recordings on Mac OS X?</a>.</li>
-<li> (OS X and Linux) Audacity now works very well with <a rel="nofollow" class="external text" href="http://jackaudio.org/">JACK</a>, with the following bugs and limitations:
-<ul><li> Clicking in the input meter to start monitoring will crash Audacity if it has not yet used JACK for playback or recording in that session. <b>Workaround:</b> Before recording the first track in a session, click "Pause" then "Record" to enable the recording meter.</li>
-<li> The best way to connect to available JACK inputs and outputs is directly from Device Toolbar. Use Transport &gt; Rescan Audio Devices when necessary, for example to make new JACK applications ports available to Audacity. See <a href="/wiki/Linux_Issues#JACK" title="Linux Issues">here</a> for details.  </li>
-<li> On Mac, Audacity may freeze if JACK is launched by QjackCtl then Audacity is launched. <b>Workaround:</b> Use  JackPilot to launch JACK, or launch QJackCtrl after Audacity and JACK are running.</li></ul></li>
-<li> (OS X and Linux) PortAudio's default latency values which are used when recording with software playthrough are much lower than Audacity's default "Audio to buffer" setting. This may cause playthrough or recording glitches when recording  with software playthrough enabled, especially when using pulse on Linux. Workaround for Linux: record from an (hw) device instead if software playthrough is required.</li>
-<li> (OS X) Playback to Bluetooth headsets gives an error. Workaround: Use <a rel="nofollow" class="external text" href="https://github.com/mattingalls/Soundflower/releases/">Soundflower</a> to send the Audacity output to an audio application that works with the headset.</li>
-<li> (Windows and OS X) <b>Launching Audacity or using Devices Preferences or Device Toolbar to change host or device  resets the left/right balance</b> of connected audio devices to center. <b>Workaround:</b> on a few Windows machines  choosing Windows WASAPI host in Device Toolbar or Devices Preferences might prevent the balance reset.</li>
-<li> (Windows) <b>Sound Activated Recording may not work with Windows DirectSound host.</b> The recording may not pause and restart when the input level changes, and may pause after less than a minute regardless of input level and not be restartable.</li>
-<li> (Windows) <b>When a USB device is connected, the Mixer Toolbar input slider for that device (and sometimes for any device) may wrongly appear active</b> even though it has no control over the device's input level. Sometimes the Audacity slider will apply a software gain to the level (which is dangerous as it will only make the same clipped input quieter rather than stopping the clipping). Sometimes the Audacity slider will not affect the input volume at all. <b>Workaround:</b> use the slider in the Windows Control Panel where available, or any gain control on the device, or reduce the output being sent to the device.</li>
-<li> (Windows) <b>When you install Audacity for the first time or launch it after resetting Preferences Audacity will choose the named recording and playback devices that are the current Windows default devices</b>, rather then the MME "Sound Mapper" devices which are permanently mapped to whatever the current defaults are. <b>Workaround:</b> If you lose playback audio or only record silence after changing the Windows default devices, use <a rel="nofollow" class="external text" href="https://manual.audacityteam.org/o/man/device_toolbar.html">Device Toolbar</a> to change the devices as needed, then Audacity will remember them.</li>
-<li> (Windows) Audacity is incompatible (or not fully compatible) with some professional sound cards or audio devices, and may crash or have limited or faulty functionality. Occasionally, this may be true of some AC97 devices built into the motherboard. <b>Workaround:</b> make a different sound card your default when using Audacity, but please e-mail the following details to our <a rel="nofollow" class="external text" href="http://audacity.sourceforge.net/contact/#feedback">feedback address</a>:
-<ul><li> Your version of Windows and Service Pack</li>
-<li> Name, model number and driver version number of the sound card or device.<p><b>Note:</b> <a href="/wiki/Multichannel_Recording" title="Multichannel Recording">Multichannel Recording</a> in Audacity is often not possible with professional devices unless you compile Audacity with <a href="/wiki/ASIO_Audio_Interface" title="ASIO Audio Interface">ASIO</a> support.</p></li></ul></li>
-<li> Adding or removing an external audio device while Audacity is open will not be automatically reflected in the list in Device Toolbar or Devices Preferences. On Mac, unplugging then replugging an external device will give "error while opening sound device" (on Linux, pressing "Record" a second time will remove the error). <b>Workaround:</b> Use Transport &gt; Rescan Audio Devices.</li>
-<li> If you move tracks while playing for example using the Audio Track Dropdown Menu, playback does not change, and if you use that menu to Swap Stereo Channels during playback, the left channel is silenced.<b>  Playback responds to the other commands in that menu.</b></li>
-<li> Play-at-Speed slider: Change of playback speed is no longer automatic after you move the play-at-speed slider. To change speed, move the slider, then click the green button to left of the slider to play at the new speed.</li>
-<li>(Windows Vista, 7) If you change the explicit output and/or input device selected in Device Toolbar or Devices Preferences and then change "Host", the selected devices will change back to those originally selected.</li>
-<li>(Windows XP and earlier) Changing the default playback or recording devices in the Windows Control Panel while Audacity is open may cause all the playback or recording choices in Device Toolbar to produce silence (or to fail with "Error opening sound device"). This problem may also occur when connecting or disconnecting a USB device while Audacity is open. <b>Workaround:</b> Click Transport &gt; Rescan Audio Devices then you can play or record.</li>
-<li><div id="wasapi"></div></li>
-<li> (Windows Vista and later) <b>The "Windows WASAPI" host supplies playback, plus a "loopback" device for <a rel="nofollow" class="external text" href="https://manual.audacityteam.org/o/man/tutorial_recording_computer_playback_on_windows.html">recording computer playback</a> and experimental support for physical inputs.</b> <p>Not everyone will necessarily experience all or any of the issues noted below, but please report any WASAPI issues not covered below to <a rel="nofollow" class="external text" href="https://www.audacityteam.org/contact/#feedback">our feedback address</a>.</p>
-<ul><li> When Windows is installed in a language using Unicode characters (such as Russian or German), WASAPI host in Device Toolbar shows incorrect characters for the names of Playback and Recording subdevices.</li>
-<li> Although volume slider support for WASAPI is implemented, on some devices the Mixer Toolbar recording volume slider will be grayed out when selecting the Windows WASAPI host.  Even if the Audacity recording slider is available, the sound device may not support Audacity adjusting its   system playback or recording sliders. To control loopback recording on those systems, try adjusting the playback level of the audio player.</li>
-<li>  On many other devices, the Audacity recording and playback volume sliders will be "linked" together when loopback recording with playback and recording device set to the same device. Adjusting either slider will often adjust the sound you hear without affecting the achieved recording level, enabling you to record without listening. If "silent" recording does not work, mute the "Device" slider at far left of the Windows "Volume Mixer" or plug in speakers or headphones and turn off their volume.    </li>
-<li> If the achieved loopback recording level is too low, try turning up the volume in the application playing the audio.</li>
-<li> Adjusting linked sliders during loopback recording may cause audio breakup or recording glitches.   </li>
-<li> Loopback recording may fail "error opening" when Audacity is set to record in mono.</li>
-<li> You will normally need to start playing the loopback stream (or to have previously played some other audio in the application you are using for playback) before starting loopback recording in Audacity. </li>
-<li> Changing Default Format or Exclusive Mode settings in <a href="/wiki/Mixer_Toolbar_Issues#vistacp" title="Mixer Toolbar Issues">Windows Sound</a> while Audacity is open may cause "error opening" when starting to play or record. Try Transport &gt; Rescan Audio Devices or restarting Audacity.</li>
-<li> If you receive dropouts or poor quality when recording, try setting the Audacity <a rel="nofollow" class="external text" href="https://manual.audacityteam.org/o/man/selection_toolbar.html">Project Rate</a> to 44100 Hz and setting Default Format in Windows Sound to 44100 Hz, with both "Exclusive Mode" boxes <i>unchecked</i>. Other rates may work, providing the same rate is set in both places. The most likely place for a dropout is within the first second or two of recording. </li>
-<li> Physical inputs may fail "error opening", especially when overdub recording. Try setting Audacity project rate to 44100 Hz then for both the playback and the recording device in Windows Sound, ensure both "Exclusive Mode" are <i>checked</i> (enabled). You can also try setting Audacity Project Rate to the same as Windows "Default Format" with both Exclusive Mode boxes <i>unchecked.</i> </li>
-<li> Latency when overdubbing may substantially increase shortly after starting the recording.  </li>
-<li> "Audio to buffer" in Recording Preferences cannot be used to adjust recording latency.</li>
-<li> Non-looped playback plays the selection minus the "Audio to buffer" (for example, standard playback may fail to play the buffered length at the end of the selection). Setting the buffer setting to zero when using WASAPI host may make it more likely that audio will play fully.</li></ul></li></ul>
-<h3><span class="mw-headline" id="Preferences">Preferences</span></h3>
-<ul><li> (Linux) <b>If your project window is not maximised and you OK in Preferences with a label track present, the project window will be resized very narrow and there will be an assert in the terminal and possibly the project.</b> Audacity will not be usable if a whited out assertion dialogue appears in the project window.</li></ul>
-<h3><span class="mw-headline" id="Projects">Projects</span></h3>
-<ul><li> <b>If you try to save changes to an already saved project but the save fails, for example due to write error or write protection, only a cryptic error is displayed:</b> "Could not create safety file: &lt;path&gt;\&lt;project name&gt;.aup.bak" (or aup~ on Linux).</li>
-<li> <b>Importing an audio file or opening an AUP file may no longer permanently set the Save Project path to where the file came from.</b> After closing the project, Save Project reverts to its previous path. Also if you import an audio file or open an AUP file after importing a MIDI or Labels file, Save Project may not change its path even temporarily.</li>
-<li> (OS X and Linux) Entering a backslash "\" in a file name when saving a project gives a "Could not save project. Path not found." error.</li>
-<li> (macOS) <b>The button order in the "Save Changes?" dialog changed in 2.1.2 to a less Mac-like sequence of Cancel, No. Yes.</b></li>
-<li> Projects created by Audacity 1.1.x or earlier are no longer supported. Workaround: Export each project track as WAV using the appropriate legacy version of Audacity, then import the WAV files into current Audacity.</li>
-<li> Projects created by Audacity 1.2.x are partially supported - there is a possibility Audacity could corrupt them. Please make a backup copy of the project's .aup file and _data folder to a new folder before opening the project in this version of Audacity. Once you save the project in this version, it cannot be opened in 1.2.</li>
-<li> Projects created by previous versions of Audacity may contain audio "block files" longer than the project format allows. Reopening such projects in previous versions might or might not result in deletion of the overlong audio. Audacity has been provisionally fixed so that it can no longer create or delete overlong files, but it cannot read any such files it encounters. If overlong files are found, a "Problems Reading Sequence Tags" message will display .
-<ul><li>  If you continue with the offered repair then choose "Continue without deleting" in the Orphan Block File(s) dialogue, the overlong files will be retained as "orphans" in the project's _data folder but will appear as silence in the track(s). </li>
-<li> As long as you choose "Close project immediately" in the Orphan Block File(s) dialogue,  the project will quit and will not be changed in any way.</li></ul></li></ul>
-<ul style="list-style-image: none; list-style-type: none">
-If you encounter the "Problems Reading Sequence Tags" message, please write to our <a rel="nofollow" class="external text" href="http://audacity.sourceforge.net/contact/#feedback">feedback address</a> with a copy of the .aup file and the log as found at Help &gt; Show Log.</ul>
-<ul><li> Time Track warp points saved in a 2.0.3 or later project will be preserved if opened in previous Audacity versions, but playback and display will be incorrect.</li></ul>
-<h3><span class="mw-headline" id="Scrubbing_and_Seeking">Scrubbing and Seeking</span></h3>
-<ul><li> <b>Currently we allow Scrub or Seek to be paused, but there are two problems if Pause is used:</b>
-<ul><li> Unlike during other paused playback, menu items cannot be clicked on in order to stop playback and carry out the requested action. If you pause scrubbing, press ESC, SPACE or the Stop button when you want to edit.</li>
-<li> If you start Scrub or Seek by menu item, Scrub Toolbar button or shortcut then engage Pause, move the mouse then release Pause, moving or dragging will not start Scrub or Seek. If you click and release in Scrub Ruler then engage Pause, move the mouse then release Pause, moving the mouse will not start Scrub.</li></ul></li>
-<li> <b>Horizontal scrolling is permitted during Scrubbing and Seeking</b> although it is unhelpful for the waveform to shift while in Scrub mode. If you are using a Magic Mouse on MacOS (or other mouse with a control surface) be careful not to brush the mouse surface during Scrub, or try temporarily disbling horizontal scroll in the mouse's preferences.</li>
-<li> <b>Scrubbing or Seeking with Pinned head:</b>
-<ul><li> <b>To Scrub at normal 1x forwards speed without using the mouse wheel</b> it is always necessary to move the mouse to the end of the window, even if the project is shorter than the window width. To backwards play at 1x, move the pointer to the start of the project. You can Seek at 1x with the pointer in the center of the window.</li>
-<li> <b>If you try to forwards scroll-scrub in a less than half-width project</b> by moving the mousewheel downwards to <i>reduce</i> backwards speed, moving the pointer to the end of the window will then achieve less than 1x speed. In that case, move the mousehweel upwards. </li>
-<li> <b>You cannot easily forwards-scrub from the start of the audio</b> or backwards-scrub from the end of the audio because playback might cease before the pointer moves far enough to change playback direction. Enabling "scrolling left of zero" in <a rel="nofollow" class="external text" href="https://manual.audacityteam.org/man/tracks_preferences.html">Tracks Preferences</a> will make scrubbing easier for these use cases.</li></ul></li>
-<li> (MacOS) If Scrub Toolbar is enabled and you remain hovered over a button after clicking it, the button tooltip may incorrectly change to "Hide Scrub Ruler" (or to "Show Scrub Ruler" if Scrub Ruler is turned off).</li></ul>
-<h3><span class="mw-headline" id="Spectrograms">Spectrograms</span></h3>
-<ul><li> (Linux) <b>On some monitors with limited vertical resolution and also on some 4K monitors, the Preview, Help, Cancel and OK buttons in the per-track Spectrograms settings window cannot be accessed.</b> It may help to switch to a window system such as Ubuntu Unity that can put the operating system Taskbar buttons at the side.</li>
-<li> A <a rel="nofollow" class="external text" href="https://manual.audacityteam.org/o/man/spectral_selection.html">Spectral Selection</a> created in Spectrogram view currently only works with the three specific <a rel="nofollow" class="external text" href="https://manual.audacityteam.org/o/man/spectral_selection.html#edit">spectral edit effects</a>. These effects can also only be used while in Spectrogram view and require that Spectral Selection be checked "on" in either the Track Control Panel for the track or in Spectrogram Preferences. All other effects and for example cut or delete will act on the entire spectrum in the time range regardless of the spectral selection.</li></ul>
-<h3><span class="mw-headline" id="Sync-Locked_Track_Groups">Sync-Locked Track Groups</span></h3>
-<ul><li> <b>If Sync-Locked Track Groups are enabled but "Editing a clip can move other clips" in Tracks Preferences is disabled</b>, sometimes not all sync-lock-selected tracks will be affected by Timeline-changing edits, and sometimes audio clips may be removed. You can Edit &gt; Undo any unwanted changes.</li>
-<li> <b>If you have unselected Spectrogram or Note (MIDI) tracks in a Sync-Locked Track Group and there is a selected time range, the Note or Spectrogram tracks may show only an indistinct "clocks" indication </b> that they will be affected in that time range by an operation applied to other tracks in the Group.</li></ul>
-<h3><span class="mw-headline" id="Time_Tracks">Time Tracks</span></h3>
-<ul><li> The lower and upper speed limits are not stored in the project, so will be restored to their default values of 90 and 110 respectively when reopening or recovering a project, or if removing a Time Track then undoing removal. Please make a note of the correct values before closing the project or the Time Track.</li></ul>
-<h3><span class="mw-headline" id="Timer_Record">Timer Record</span></h3>
-<ul><li> (Mac) <b>The Timer Record setup, "Waiting" and "Progress" dialogs may show the date in UK dd/mm/yy format</b> even if the language in System Preferences is set to "US English". The exact behaviour may depend on the machine or version of OS X.</li>
-<li> (MacOS and Linux) <b>If Timer Record is set to "Exit Audacity" after recording completes, a crash will be reported on exit.</b> The project and/or audio file will be still be saved correctly.</li>
-<li> (Windows and MacOS) <b>On a few machines, Timer Record may not respond to a request to stop the recording or may carry on recording past the scheduled end time.</b> The Elapsed and Remaining Time counters may stop counting. In this case it will be necessary to force quit Audacity. On a few affected machines, the problem can be avoided if you leave focus on Audacity or ensure it has focus when recording is due to end.</li>
-<li> Timer Record cannot maintain scheduled duration if system clock changes</li></ul>
-<h3><span class="mw-headline" id="Toolbars">Toolbars</span></h3>
-<ul><li>(Windows XP) <b>Transport and Tools Toolbar buttons all display as Pause buttons.</b> The buttons may redraw correctly if you hover over them. <b>Workaround:</b> You can use <a rel="nofollow" class="external text" href="http://manual.audacityteam.org/o/man/keyboard_shortcut_reference.html">keyboard shortcut alternatives</a> for the buttons instead.</div></li></ul>
+<div id="LinuxDiv">
+<div class="note" style="background:white"><b>Linux</b>
+<ul><li> Linux support is tested on Ubuntu Linux.  
+<ul><li> Audacity may compile on Gentoo, Debian, Mint.</li>
+<li> Audacity does not currently compile on SuSE Linux.</div></li></ul></li></ul>
+</div>
+<div id="OpenDiv">
+<div class="note" style="background:white"><b>Open</b>
+<ul><li> Bugs that were Open at time 2.3.2 was released.</div></li></ul>
+</div>
+<div id="FixedDiv">
+<div class="note" style="background:white"><b>Fixed</b>
+<ul><li> Bugs that were in Audacity 2.3.1 and that we fixed for 2.3.2</div></li></ul>
+</div>
+<div id="ClosedDiv">
+<div class="note" style="background:white"><b>Closed</b>
+<ul><li> Bugs that we fixed during 2.3.2 work, also bugs which we closed, sometimes because the bug was no longer valid, or was being better tracked in some other bug.</div></li></ul>
+</div>
+<div id="QuickFixedDiv">
+<div class="note" style="background:white"><b>Quick Fixed</b>
+<ul><li> These are bugs that arose during 2.3.2 development and were fixed during 2.3.2 development - so were never seen in a released version of Audacity.</div></li></ul>
+</div>
+<div id="AnyDiv">
+<div class="note" style="background:white"><b>Any</b>
+<ul><li> This is a complete list of all bugs, irrespective of when they were logged or closed.</div></li></ul>
+</div>
+<div id="MainDiv">
+<div class="note"><b>Main Issues</b>
+<ul><li> Bugs that we regard as the main bugs, relevant to most users.</div></li></ul>
+</div>
+<div id="WorkaroundsDiv">
+<div class="note"><b>Workarounds</b>
+<ul><li> Bugs for which we have descriptions of how to work around the bug.</div></li></ul>
+</div>
+<div id="AccessibilityDiv">
+<p><b>Accessibility</b>
+</p>
+<ul><li> Far less of Audacity is properly accessible to visually impaired users than we would like.  Currently the best supported platform for accessibility is Windows.  We lost a lot of custom accessibility programming when we had to move to a more recent version of the wxWidgets library.</li></ul>
+</div>
+<div id="TranslationDiv">
+<p><b>Internationalization</b>
+</p>
+<ul><li> Audacity is only partially translated in many languages.  We also have some issues, for example, with Right-To-Left Languages.  </li></ul>
+</div>
+<div id="NewDiv">
+<p><b>New</b>
+</p>
+<ul><li> New bugs that we became aware of during work on 2.3.2.  </li></ul>
+</div>
+<div id="EnhancementsDiv">
+<p><b>Enhancements</b>
+</p>
+<ul><li> These aren't really bugs with Audacity, just things Audacity does not do yet, that we would like to add.  <a href="/wiki/Feature_Requests" title="Feature Requests">Feature Requests</a> are the way we handle most issues of this kind, rather than adding them as bugs into our database.</li></ul>
+</div>
+<div id="XXXAnyDiv">
+<p><b>Any Bugs were of Interest</b>
+</p>
+<ul><li> for the first table</li></ul>
+</div>
+<div id="XXXP3Div">
+<div class="note">&#160;
+<ul><li> You've chosen to see just the high priority bugs.</div></li></ul>
+</div>
+<div id="XXXP5Div">
+<div class="note">&#160;
+<ul><li> You've chosen to see lower priority bugs too.</div></li></ul>
+</div>
+<div id="P3mDiv">
+<div class="note">&#160;
+<ul><li> You've chosen to see just the high priority bugs.</li>
+<li> You're also getting an additional table, with other bugs that were not shown in the first table.</div></li></ul>
+</div>
+<div id="P5mDiv">
+<div class="note">&#160;
+<ul><li> You've chosen to see lower priority bugs too.</li>
+<li> You're also getting an additional table, with other bugs that were not shown in the first table.</div></li></ul>
+</div></div>
+<h2><span class="mw-headline" id="Dynamic_Buglist">Dynamic Buglist</span></h2>
+<div class="note">The controls below give a custom bug list, allowing you to dig deeper into our list of bugs.  You can choose:
+<ul><li> Window, Mac or Linux bugs
+<ul><li> OR all Open bugs, OR all bugs fixed in this release OR all bugs closed during this release (including e.g. duplicates and bogus bugs)</li>
+<li> OR QuickFix (created and fixed in this release) OR Any for a list of all bugs ever recorded.</li></ul></li>
+<li> Express interest in Main Issues (the ones we think relevant to most users), Accessibility, Translation, Enhancements, Workarounds, New Issues (issues we found during this release) or 'Any'.  These bugs will be shown first.</li>
+<li> Express interest in low priority bugs.  If you choose one of the 'Maybe' choices, you will get a second list of bugs that you can look through by hand, or using Ctrl+F in the browser.</div></li></ul>
+<p><br />
+</p>
+
+
+    <style type="text/css">
+
+        table.tabby tr:hover {
+            background-color: #e6e6e6;
+        }
+
+        table.tabby th {
+            background-color: #31a8f4;
+            color: #1e1a56;
+        }
+
+    </style>
+    <script>
+        console.log( "Protocol is "+window.location.protocol);
+        if (window.location.protocol == "http:"){
+            console.log("Http: detected");
+            if( window.location.href.indexOf("localhost") < 0 )
+                window.location.href = "https:" + window.location.href.slice(5);
+        }
+    </script>
+    <script data-cfasync="false" src="https://wit.audacityteam.org/js/issues.js"></script>
+
+<script data-cfasync="false">
+function showClosed(){
+    for( i=0;i<Issues.length;i++){
+        if( (Issues[i]['Resolution'] != "---" ) && (Issues[i]['Closed'] == "" )){
+            console.log( "Closed[ "+Issues[i]['Bug ID']+" ]=\""+Issues[i]['Changed']+"\";");
+        }
+    }
+}
+
+function fixupClosed(){
+    console.log( "Issue count: " + Issues.length );
+    for( i=0;i<Issues.length;i++){
+        var when = Issues[i]['Closed'];
+        if( (when == "2018-08-20 00:00:00" ) || (when =="")){
+            //console.log( Issues[i] );
+            var id = Issues[i]['Bug ID'];
+
+            if( Closed[id] != undefined ){
+                Issues[i]['Closed'] = Closed[id];
+                //console.log( Issues[i] );
+            }
+        }
+    }
+}
+
+fixupClosed();
+showClosed();
+
+        function inDateRange( value ){
+            var when = value['Closed'];
+            if( when == "" )
+                return true;
+            return when > "2018-10-00";
+        }
+
+        function closedThisRelease ( value ){
+            if( value["Resolution"] == "---" )
+                return false;
+            if( value["Resolution"] == "QUICKFIXED" )
+                return false;
+            return inDateRange( value );
+        }
+
+        function fixedThisRelease ( value ){
+            if( value["Resolution"] != "FIXED" )
+                return false;
+            return inDateRange( value );
+        }
+        function quickFixedThisRelease ( value ){
+            if( value["Resolution"] != "QUICKFIXED" )
+                return false;
+            return inDateRange( value );
+        }
+        function isAny( value ){
+            return true;
+        }
+
+        function isAll( value ){
+            if( value["Severity"] == "RepeatableAll" )
+                return true;
+            if( value["OS"] == "All" )
+                return true;
+            if( value["OS"] == "All except Vista/7" )
+                return true;
+            if( value["OS"] == "Other" )
+                return true;
+            return false;
+        }
+
+        function isMac(value ){
+            if( isClosed( value ) )
+                return false;
+            if( isAll( value ) )
+                return true;
+            return value["OS"].indexOf( "OS X")!==-1;
+        }
+        function isLinux(value ){
+            if( isClosed( value ) )
+                return false;
+            if( isAll( value ) )
+                return true;
+            return value["OS"].indexOf( "Linux")!==-1;
+        }
+        function isWindows(value ){
+            if( isClosed( value ) )
+                return false;
+            if( isAll( value ) )
+                return true;
+            return value["OS"].indexOf( "Windows")!==-1;
+        }
+
+        function isClosed( value ){
+            return value["Resolution"] != "---";
+        }
+        function isOpen( value ){
+            return value["Resolution"] == "---";
+        }
+        function isAccessibility( value ){
+            return value["Group"] == "Accessibility";
+        }
+        function isEnhancement( value ){
+            return value["Severity"] == "Enhancement";
+        }
+        function isLocale( value ){
+            return value["Severity"] == "Locale";
+        }
+        function isWorkaround( value ){
+            return (value["Workaround"] != "") && (value["Workaround"] != "None");
+        }
+        function isAtLeastP3( value ){
+            return value["Priority"] <= "P3";
+        }
+        function isAtLeastP5( value ){
+            return value["Priority"] <= "P5";
+        }
+
+        function mainIssues( value ){
+            if( isClosed( value ) )
+                return false;
+            var id = value["Bug ID"];
+            return [276,1585,1657].indexOf( id ) !== -1;
+        }
+
+        function newIssues( value ){
+            if( isClosed( value ) )
+                return false;
+            return value["Bug ID"] > 1983;
+        }
+
+        function filterIssues( filterFunction ){
+            var results = [];
+            for(i=0;i<Issues.length;i++){
+                if( filterFunction( Issues[i] ))
+                    results.push( Issues[i] );
+            }
+            return results;
+        }
+
+        function tableFromArray( values, fields ){
+            if( values.length == 0 )
+                return "";
+            var cols = fields.length;
+            var result = '<table class="tabby" style="border:1px solid #090cb9">\n';
+            var row;
+            var col;
+            result += "  <tr>\n";
+            for( col=0;col<cols;col++){
+                result += "    <th>" + fields[col]+ "</th>\n";
+            }
+            result += "  </tr>\n";
+
+
+
+            for( row=0;row<(values.length/ cols);row++){
+                result += "  <tr>\n";
+                for( col=0;col<cols;col++){
+                    result += "    <td>" + values[row*cols+col]+ "</td>\n";
+                }
+                result += "  </tr>\n";
+            }
+            result += "</table>\n";
+            return result;
+        }
+
+        function arrayFromIssues( issues, fields ){
+            var results = [];
+            for( i=0;i<issues.length;i++){
+                // Fixup Other -> All
+                if( issues[i]["OS"] == "Other" )
+                    issues[i]["OS"] = "All";
+                for(j=0;j<fields.length;j++){
+                    var temp = issues[i][fields[j]];
+                    if( fields[j] == "Summary" ){
+                        var id = issues[i]["Bug ID"];
+                        // Include hyperlink to issue.
+                        temp = '<a href="https://bugzilla.audacityteam.org/show_bug.cgi?id=' +
+                                id + '">' + temp + '</a>';
+                    }
+                    results.push(temp);
+                }
+            }
+            return results;
+        }
+
+        function updateTable( filter, fields, tableName, short ){
+            tableName = tableName || "tableDiv";
+            var issues = filterIssues( filter );
+            issues.sort(function(a, b) {
+                v = (b["Group"]).localeCompare( a["Group"]);
+                if( v!= 0 )
+                    return v;
+                v = (a["Summary"]).localeCompare( b["Summary"]);
+                return v;
+                //if( v!= 0 )
+                //    return v;
+                //return b["Bug ID"]-a["Bug ID"];
+            });
+            var array  = arrayFromIssues( issues, fields );
+            var table  = tableFromArray( array, fields );
+            var tableDiv = document.getElementById(tableName);
+            var result = " <em> "+issues.length + " issues</em><br><br>";
+            if( !short )
+                result = result + table;
+            tableDiv.innerHTML = result;
+            return issues.length;
+        }
+
+        function updateCount( filter, countName ){
+            var issues = filterIssues( filter );
+            var count = issues.length;
+            var countDiv = document.getElementById(countName);
+            countDiv.innerHTML = " " + count + " issues";
+        }
+
+        function InnerFor( option ){
+            var div = document.getElementById(option + "Div");
+            if( div )
+                return div.innerHTML;
+            return "";
+        }
+
+        function OnFilter(){
+
+            var bugs     = document.getElementById("bugs").value;
+            var show     = document.getElementById("show").value;
+            var priority = document.getElementById("priority").value;
+
+            var filter1 = {
+                "Open" : isOpen,
+                "Mac" : isMac,
+                "Windows": isWindows,
+                "Linux" : isLinux,
+                "Fixed" : fixedThisRelease,
+                "Closed" : closedThisRelease,
+                "QuickFixed" : quickFixedThisRelease,
+                "Any" : isAny }[ bugs ];
+            var filter2 = {
+                "Main" : mainIssues,
+                "Accessibility" : isAccessibility,
+                "Translation" : isLocale,
+                "Enhancements" : isEnhancement,
+                "Workarounds" : isWorkaround,
+                "New" : newIssues,
+                "Any" : isAny }[show];
+
+            var filter3 = {
+                "P3m" : isAtLeastP3,
+                "P5m" : isAny,
+                "P3" : isAtLeastP3,
+                "P5" : isAny }[priority];
+
+
+            var interestingFields = [];
+            if( show != "Accessibility" && show != "Translation" )
+                interestingFields.push( "Group" );
+            interestingFields.push( "Summary" );
+            if( bugs == "Open" || bugs == "Fixed" || bugs == "Closed")
+                interestingFields.push( "OS" );
+            if( priority != "P3" )
+                interestingFields.push( "Priority" );
+            if( (bugs == "Closed" ) || (bugs == "Any"))
+                interestingFields.push( "Resolution" );
+            if( show != "Any" )
+                interestingFields.push( "Workaround" );
+
+            var otherFields = [];
+            otherFields.push( "Group");
+            otherFields.push( "Summary");
+            otherFields.push( "OS");
+            otherFields.push( "Priority");
+            if( bugs == "Closed" )
+                otherFields.push( "Resolution" );
+            otherFields.push( "Workaround");
+
+            updateCount( filter1, "bugsCount" );
+            updateCount( andFunc( [filter1,filter2]), "showCount" );
+            updateCount( andFunc( [filter1,filter2,filter3]), "priorityCount" );
+
+            var n = updateTable( andFunc( [ filter1, filter2, filter3] ),
+                    interestingFields);
+            var short = ( priority.indexOf( "m" ) == -1 ) && (n>0);
+            updateTable( andFunc( [ filter1, notFunc( andFunc([filter2, filter3]))] ),
+                    otherFields, "tableDiv2", short);
+
+            var message = InnerFor( bugs ) + InnerFor( show ) + InnerFor( priority );
+            document.getElementById("messageDiv").innerHTML = message;
+
+        }
+
+        function notFunc( func ){
+            return function( issue ){
+                return !func( issue );
+            };
+        }
+
+        function orFunc( funcs ){
+            return function( issue ){
+                var i;
+                for(i=0;i<funcs.length;i++){
+                    if( funcs[i]( issue ) )
+                        return true;
+                }
+                return false;
+            };
+        }
+        function andFunc( funcs ){
+            return function( issue ){
+                var i;
+                for(i=0;i<funcs.length;i++){
+                    if( !funcs[i]( issue ) )
+                        return false;
+                }
+                return true;
+            };
+        }
+    </script>
+
+    <table style="border:1px solid black;border-spacing:15px;">
+        <tr>
+            <td><label for="bugs">Select bugs that are:</label></td>
+            <td><select id="bugs" onchange="OnFilter();">
+                <option value="Windows">Windows</option>
+                <option value="Mac">Mac</option>
+                <option value="Linux">Linux</option>
+                <option value="Open">Open</option>
+                <option value="Fixed">Fixed</option>
+                <option value="Closed">Closed</option>
+                <option value="QuickFixed">QuickFixed</option>
+                <option value="Any">Any</option>
+            </select>
+            </td>
+            <td><div id="bugsCount">0</div>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="show">I'm interested in:</label></td>
+            <td><select id="show" onchange="OnFilter();">
+                <option value="Main">Main Issues</option>
+                <option value="Workarounds">Workarounds</option>
+                <option value="Accessibility">Accessibility</option>
+                <option value="Translation">Translation</option>
+                <option value="New">New Issues</option>
+                <option value="Enhancements">Enhancements</option>
+                <option value="Any">Any</option>
+            </select>
+            </td>
+            <td><div id="showCount">0</div>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="priority">I'm interested in low priority bugs:</label></td>
+            <td><select id="priority" onchange="OnFilter();">
+                <option value="P3">No</option>
+                <option value="P5">Yes</option>
+                <option value="P5m">Maybe Yes</option>
+                <option value="P3m">Maybe No</option>
+            </select>
+            </td>
+            <td><div id="priorityCount">0</div>
+            </td>
+        </tr>
+    </table>
+    &nbsp;
+    &nbsp;
+
+<script data-cfasync="false">
+        document.addEventListener('DOMContentLoaded', OnFilter, false);
+    </script>
+
+    <h2>Issues you may be interested in:</h2>
+    <div id="tableDiv"></div>
+
+    &nbsp;
+    <div id="messageDiv"></div>
+
+    <h2>The rest of the selected bugs:</h2>
+    <div id="tableDiv2"></div>
+</div>
 
 <!-- 
 NewPP limit report
-Cached time: 20221104155926
+Cached time: 20221104195341
 Cache expiry: 86400
 Dynamic content: false
-CPU time usage: 0.028 seconds
-Real time usage: 0.039 seconds
-Preprocessor visited node count: 239/1000000
-Preprocessor generated node count: 487/1000000
-Post‐expand include size: 3873/2097152 bytes
-Template argument size: 2223/2097152 bytes
-Highest expansion depth: 4/40
+CPU time usage: 0.016 seconds
+Real time usage: 0.023 seconds
+Preprocessor visited node count: 146/1000000
+Preprocessor generated node count: 528/1000000
+Post‐expand include size: 8519/2097152 bytes
+Template argument size: 7193/2097152 bytes
+Highest expansion depth: 3/40
 Expensive parser function count: 0/100
 -->
 
 <!-- 
 Transclusion expansion time report (%,ms,calls,template)
-100.00%    4.376      1 - -total
- 22.99%    1.006      2 - Template:Advice
- 19.77%    0.865      1 - Template:Introrel
- 17.07%    0.747      1 - Template:Shortcut
- 15.15%    0.663      2 - Template:Code
- 10.85%    0.475      1 - Template:Path
-  8.80%    0.385      1 - Template:Codelist
+100.00%    4.656      1 - -total
+ 61.28%    2.853      1 - Template:Ednote
+ 19.52%    0.909      8 - Template:Example
+ 18.88%    0.879      7 - Template:Note
+ 16.80%    0.782      1 - Template:Introrel
+ 13.21%    0.615      1 - Template:Advice
 -->
 
-<!-- Saved in parser cache with key aumediawiki:pcache:idhash:4908-0!*!0!!en!5!* and timestamp 20221104155925 and revision id 34421
+<!-- Saved in parser cache with key aumediawiki:pcache:idhash:5340-0!*!0!!*!5!* and timestamp 20221104195341 and revision id 39199
  -->
 </div><div class="printfooter">
-Retrieved from "<a dir="ltr" href="https://wiki.audacityteam.org/w/index.php?title=Release_Notes_2.2.0/Issues&amp;oldid=34421">https://wiki.audacityteam.org/w/index.php?title=Release_Notes_2.2.0/Issues&amp;oldid=34421</a>"</div>
-					<div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div>					<!-- end content -->
+Retrieved from "<a dir="ltr" href="https://wiki.audacityteam.org/w/index.php?title=Release_Notes_2.3.2/Issues&amp;oldid=39199">https://wiki.audacityteam.org/w/index.php?title=Release_Notes_2.3.2/Issues&amp;oldid=39199</a>"</div>
+					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/Category:Issues" title="Category:Issues">Issues</a></li></ul></div></div>					<!-- end content -->
 										<div class="visualClear"></div>
 				</div>
 			</div>
@@ -550,10 +614,10 @@ Retrieved from "<a dir="ltr" href="https://wiki.audacityteam.org/w/index.php?tit
 
 			<div class="pBody">
 				<ul>
-				<li id="ca-nstab-main" class="selected"><a href="/wiki/Release_Notes_2.2.0/Issues" title="View the content page [c]" accesskey="c">Page</a></li>
-				<li id="ca-talk" class="new"><a href="/w/index.php?title=Talk:Release_Notes_2.2.0/Issues&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion about the content page [t]" accesskey="t">Discussion</a></li>
-				<li id="ca-viewsource"><a href="/w/index.php?title=Release_Notes_2.2.0/Issues&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></li>
-				<li id="ca-history"><a href="/w/index.php?title=Release_Notes_2.2.0/Issues&amp;action=history" title="Past revisions of this page [h]" accesskey="h">History</a></li>
+				<li id="ca-nstab-main" class="selected"><a href="/wiki/Release_Notes_2.3.2/Issues" title="View the content page [c]" accesskey="c">Page</a></li>
+				<li id="ca-talk" class="new"><a href="/w/index.php?title=Talk:Release_Notes_2.3.2/Issues&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion about the content page [t]" accesskey="t">Discussion</a></li>
+				<li id="ca-viewsource"><a href="/w/index.php?title=Release_Notes_2.3.2/Issues&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></li>
+				<li id="ca-history"><a href="/w/index.php?title=Release_Notes_2.3.2/Issues&amp;action=history" title="Past revisions of this page [h]" accesskey="h">History</a></li>
 				</ul>
 							</div>
 		</div>
@@ -562,7 +626,7 @@ Retrieved from "<a dir="ltr" href="https://wiki.audacityteam.org/w/index.php?tit
 
 				<div class="pBody">
 					<ul>
-													<li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Release+Notes+2.2.0%2FIssues" title="Click here to log in or request an account [o]" accesskey="o">Log in</a></li>
+													<li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Release+Notes+2.3.2%2FIssues" title="Click here to log in or request an account [o]" accesskey="o">Log in</a></li>
 											</ul>
 				</div>
 			</div>
@@ -636,12 +700,12 @@ Retrieved from "<a dir="ltr" href="https://wiki.audacityteam.org/w/index.php?tit
 
 			<div class="pBody">
 				<ul>
-											<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Release_Notes_2.2.0/Issues" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
-											<li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Release_Notes_2.2.0/Issues" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+											<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Release_Notes_2.3.2/Issues" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+											<li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Release_Notes_2.3.2/Issues" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
 											<li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
-											<li id="t-print"><a href="/w/index.php?title=Release_Notes_2.2.0/Issues&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
-											<li id="t-permalink"><a href="/w/index.php?title=Release_Notes_2.2.0/Issues&amp;oldid=34421" title="Permanent link to this revision of the page">Permanent link</a></li>
-											<li id="t-info"><a href="/w/index.php?title=Release_Notes_2.2.0/Issues&amp;action=info" title="More information about this page">Page information</a></li>
+											<li id="t-print"><a href="/w/index.php?title=Release_Notes_2.3.2/Issues&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+											<li id="t-permalink"><a href="/w/index.php?title=Release_Notes_2.3.2/Issues&amp;oldid=39199" title="Permanent link to this revision of the page">Permanent link</a></li>
+											<li id="t-info"><a href="/w/index.php?title=Release_Notes_2.3.2/Issues&amp;action=info" title="More information about this page">Page information</a></li>
 									</ul>
 							</div>
 		</div>
@@ -655,9 +719,9 @@ Retrieved from "<a dir="ltr" href="https://wiki.audacityteam.org/w/index.php?tit
 									<a href="//www.mediawiki.org/"><img src="/w/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/w/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /w/resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>
 							</div>
 					<ul id="f-list">
-									<li id="lastmod"> This page was last modified on 10 January 2018, at 12:32.</li>
+									<li id="lastmod"> This page was last modified on 26 October 2019, at 16:30.</li>
 									<li id="copyright">Content is available under <a class="external" rel="nofollow" href="http://creativecommons.org/licenses/by/3.0/">Attribution 3.0</a> unless otherwise noted.</li>
 							</ul>
 		</div>
 		</div>
-		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"]);});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":31});});</script><script>(function(){var js = "window['__CF$cv$params']={r:'76502110fff42d52',m:'0t42ROXlxVaDxa8.tvvdXuC22EFxL48gPg3dsx.j_eg-1667594053-0-AZQgEgjLVoXItgMkWXd1n5/3jyy689AsmZg0PwsqkwhOjXAo9xpTIQ+9CzNSt4ipNGEddHu07D4h+6gGXcXwV/eD3S1l8M2x33UpBy9DzwjcE79PbY7CXfUI+va4O11FiIG1cg3epvJ5fuBg58SzYXb3ErdUUTcSHmNPjdl5YEfQ',s:[0xab089adb31,0x8df440281d],u:'/cdn-cgi/challenge-platform/h/g'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/g/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body></html>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"]);});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":66});});</script><script>(function(){var js = "window['__CF$cv$params']={r:'764fe5b36ca71419',m:'lpKULiLuwgmRK2WfWy0f3ofMK_weTvC.yU_fgNt0xfY-1667591621-0-AT0T7BIa+if8HrVOaQKiGkMTej33iDdDnLHNFoPgplm4dbp9k5028SMvrWS947Hy/3nHQ3dJwT6/06PdJRIv4s9A8dxGXRvI73Qw3wOAvvpttklDZa3Mnz/MNuUjniPt7DNZsPFtaXCHUyBgFRpEyZexzt7+gPozqjl1BKWD4p54',s:[0xdff09cd49a,0x2b03f92dc2],u:'/cdn-cgi/challenge-platform/h/g'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/g/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body></html>

@@ -94,7 +94,7 @@ On the dynamic buglist page you can select to view:
 * Workarounds for some bugs.
 * Serious bugs and less serious bugs.
 
-You can choose various combinations of these. However, there are probably too many minor bugs and too much detail on that [dynamic buglist page](<../../.gitbook/assets/Issues (4)>) for most users.
+You can choose various combinations of these. However, there are probably too many minor bugs and too much detail on that [dynamic buglist page](<../../../.gitbook/assets/Issues (7)>) for most users.
 
 We **do** use this detail in our own QA work.
 

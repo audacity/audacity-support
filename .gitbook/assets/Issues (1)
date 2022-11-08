@@ -2,9 +2,9 @@
 <html class="client-nojs" lang="en" dir="ltr">
 <head>
 <meta charset="UTF-8"/>
-<title>Release Notes 3.0.0/Issues - Audacity Wiki</title>
+<title>Release Notes 2.3.0/Issues - Audacity Wiki</title>
 <script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
-<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Release_Notes_3.0.0/Issues","wgTitle":"Release Notes 3.0.0/Issues","wgCurRevisionId":43215,"wgRevisionId":43215,"wgArticleId":5608,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Issues"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Release_Notes_3.0.0/Issues","wgRelevantArticleId":5608,"wgRequestId":"ae799e2b3c4045037a5f93c4","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","mediawiki.skinning.content.externallinks":"ready","skins.monobook.styles":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@1ikjxew",function ( $, jQuery, require, module ) {
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Release_Notes_2.3.0/Issues","wgTitle":"Release Notes 2.3.0/Issues","wgCurRevisionId":36826,"wgRevisionId":36826,"wgArticleId":5242,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Issues"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Release_Notes_2.3.0/Issues","wgRelevantArticleId":5242,"wgRequestId":"a5fe1d4f52ef772d6172e596","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","mediawiki.skinning.content.externallinks":"ready","skins.monobook.styles":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@1ikjxew",function ( $, jQuery, require, module ) {
 mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
 
 });mw.loader.load(["mediawiki.page.startup"]);});</script>
@@ -20,14 +20,14 @@ mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","cs
 <link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/"/>
 <link rel="alternate" type="application/atom+xml" title="Audacity Wiki Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom"/>
 </head>
-<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Release_Notes_3_0_0_Issues rootpage-Release_Notes_3_0_0_Issues skin-monobook action-view"><div id="globalWrapper">
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Release_Notes_2_3_0_Issues rootpage-Release_Notes_2_3_0_Issues skin-monobook action-view"><div id="globalWrapper">
 		<div id="column-content">
 			<div id="content" class="mw-body" role="main">
 				<a id="top"></a>
 				
 				<div class="mw-indicators">
 </div>
-				<h1 id="firstHeading" class="firstHeading" lang="en">Release Notes 3.0.0/Issues</h1>
+				<h1 id="firstHeading" class="firstHeading" lang="en">Release Notes 2.3.0/Issues</h1>
 				
 				<div id="bodyContent" class="mw-body-content">
 					<div id="siteSub">From Audacity Wiki</div>
@@ -39,7 +39,7 @@ mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","cs
 <table style="background:#DFEAF9;border:1px solid black; padding-left:12px; padding-right:12px" width="100%" align="center">
 
 <tr>
-<td align="left" valign="top">This page will provides a detailed list of issues for Audacity 3.0.0.  It is a work in progress.  We have not updated all the tables yet!
+<td align="left" valign="top">This page provides a detailed list of issues for Audacity 2.3.0
 <table style="margin-left:2em;margin-right:1.2em;background:#DFEAF9;font-style:italic" cellpadding="5px">
 <tr>
 <td>
@@ -52,7 +52,7 @@ mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","cs
 </td></tr>
 <tr>
 <td><b>Related article(s):</b>
-<ul><li><a href="/wiki/Release_Notes_3.0.0" title="Release Notes 3.0.0">Release Notes 3.0.0</a></li></ul>
+<ul><li><a href="/wiki/Release_Notes_2.3.0" title="Release Notes 2.3.0">Release Notes 2.3.0</a></li></ul>
 </td></tr></table>
 </div>
 <div id="known">
@@ -62,15 +62,15 @@ mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","cs
 <div class="editornote">Here are all the messages that can appear when options are selected...
 <div id="WindowsDiv">
 <div class="note" style="background:white"><b>Windows</b>
-<ul><li> Audacity 3.0.0 requires the CPU to support the <a rel="nofollow" class="external text" href="http://en.wikipedia.org/wiki/SSE2">SSE2 </a> instruction set which should be available on any Intel hardware produced after 2001 and any AMD hardware produced after 2003. 
+<ul><li> Audacity 2.3.0 requires the CPU to support the <a rel="nofollow" class="external text" href="http://en.wikipedia.org/wiki/SSE2">SSE2 </a> instruction set which should be available on any Intel hardware produced after 2001 and any AMD hardware produced after 2003. 
 <ul><li> To check what SSE levels your CPU supports, you can install <a rel="nofollow" class="external text" href="http://www.cpuid.com/softwares/cpu-z.html">CPU-Z</a>.</li>
 <li> If your hardware only supports SSE, you may download Audacity 2.0.6 see the <a rel="nofollow" class="external text" href="https://www.audacityteam.org/download/legacy-windows/">Legacy Windows</a> page on the Audacity Website.</li></ul></li>
-<li> 3.0.0 does not support Windows XP.  
+<li> 2.3.0 does not support Windows XP.  
 <ul><li> You may try 2.2.2 on XP, but it is unsupported.</div></li></ul></li></ul>
 </div>
 <div id="MacDiv">
 <div class="note" style="background:white"><b>macOS / Mac OS X</b>
-<ul><li> Audacity 3.0.0 is for Intel Macs running OS X 10.7 and later and macOS.
+<ul><li> Audacity 2.3.0 is for Intel Macs running OS X 10.7 and later and macOS. 
 <ul><li> There are legacy versions for older OS X at <a rel="nofollow" class="external free" href="http://audacityteam.org/download/legacy-mac/">http://audacityteam.org/download/legacy-mac/</a>.</div></li></ul></li></ul>
 </div>
 <div id="LinuxDiv">
@@ -81,19 +81,19 @@ mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","cs
 </div>
 <div id="OpenDiv">
 <div class="note" style="background:white"><b>Open</b>
-<ul><li> Bugs that were Open at time 3.0.0 was released.</div></li></ul>
+<ul><li> Bugs that were Open at time 2.3.0 was released.</div></li></ul>
 </div>
 <div id="FixedDiv">
 <div class="note" style="background:white"><b>Fixed</b>
-<ul><li> Bugs that were in Audacity 2.4.2 and that we fixed for 3.0.0</div></li></ul>
+<ul><li> Bugs that were in Audacity 2.2.2 and that we fixed for 2.3.0</div></li></ul>
 </div>
 <div id="ClosedDiv">
 <div class="note" style="background:white"><b>Closed</b>
-<ul><li> Bugs that we fixed during 3.0.0 work, also bugs which we closed, sometimes because the bug was no longer valid, or was being better tracked in some other bug.</div></li></ul>
+<ul><li> Bugs that we fixed during 2.3.0 work, also bugs which we closed, sometimes because the bug was no longer valid, or was being better tracked in some other bug.</div></li></ul>
 </div>
 <div id="QuickFixedDiv">
 <div class="note" style="background:white"><b>Quick Fixed</b>
-<ul><li> These are bugs that arose during 3.0.0 development and were fixed during 2.4.2 development - so were never seen in a released version of Audacity.</div></li></ul>
+<ul><li> These are bugs that arose during 2.3.0 development and were fixed during 2.3.0 development - so were never seen in a released version of Audacity.</div></li></ul>
 </div>
 <div id="AnyDiv">
 <div class="note" style="background:white"><b>Any</b>
@@ -120,7 +120,7 @@ mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","cs
 <div id="NewDiv">
 <p><b>New</b>
 </p>
-<ul><li> New bugs that we became aware of during work on 3.0.0.  </li></ul>
+<ul><li> New bugs that we became aware of during work on 2.3.0.  </li></ul>
 </div>
 <div id="EnhancementsDiv">
 <p><b>Enhancements</b>
@@ -564,32 +564,32 @@ showClosed();
 
 <!-- 
 NewPP limit report
-Cached time: 20221104025542
+Cached time: 20221103205528
 Cache expiry: 86400
 Dynamic content: false
-CPU time usage: 0.012 seconds
-Real time usage: 0.017 seconds
+CPU time usage: 0.008 seconds
+Real time usage: 0.011 seconds
 Preprocessor visited node count: 138/1000000
 Preprocessor generated node count: 498/1000000
-Post‐expand include size: 8235/2097152 bytes
-Template argument size: 7190/2097152 bytes
+Post‐expand include size: 8163/2097152 bytes
+Template argument size: 7118/2097152 bytes
 Highest expansion depth: 3/40
 Expensive parser function count: 0/100
 -->
 
 <!-- 
 Transclusion expansion time report (%,ms,calls,template)
-100.00%    3.751      1 - -total
- 75.90%    2.847      1 - Template:Ednote
- 23.61%    0.886      7 - Template:Note
- 21.38%    0.802      8 - Template:Example
- 18.24%    0.684      1 - Template:Introrel
+100.00%    3.008      1 - -total
+ 72.51%    2.181      1 - Template:Ednote
+ 23.17%    0.697      8 - Template:Example
+ 21.84%    0.657      1 - Template:Introrel
+ 20.91%    0.629      7 - Template:Note
 -->
 
-<!-- Saved in parser cache with key aumediawiki:pcache:idhash:5608-0!*!0!!*!*!* and timestamp 20221104025542 and revision id 43215
+<!-- Saved in parser cache with key aumediawiki:pcache:idhash:5242-0!*!0!!*!*!* and timestamp 20221103205528 and revision id 36826
  -->
 </div><div class="printfooter">
-Retrieved from "<a dir="ltr" href="https://wiki.audacityteam.org/w/index.php?title=Release_Notes_3.0.0/Issues&amp;oldid=43215">https://wiki.audacityteam.org/w/index.php?title=Release_Notes_3.0.0/Issues&amp;oldid=43215</a>"</div>
+Retrieved from "<a dir="ltr" href="https://wiki.audacityteam.org/w/index.php?title=Release_Notes_2.3.0/Issues&amp;oldid=36826">https://wiki.audacityteam.org/w/index.php?title=Release_Notes_2.3.0/Issues&amp;oldid=36826</a>"</div>
 					<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/wiki/Category:Issues" title="Category:Issues">Issues</a></li></ul></div></div>					<!-- end content -->
 										<div class="visualClear"></div>
 				</div>
@@ -602,10 +602,10 @@ Retrieved from "<a dir="ltr" href="https://wiki.audacityteam.org/w/index.php?tit
 
 			<div class="pBody">
 				<ul>
-				<li id="ca-nstab-main" class="selected"><a href="/wiki/Release_Notes_3.0.0/Issues" title="View the content page [c]" accesskey="c">Page</a></li>
-				<li id="ca-talk" class="new"><a href="/w/index.php?title=Talk:Release_Notes_3.0.0/Issues&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion about the content page [t]" accesskey="t">Discussion</a></li>
-				<li id="ca-viewsource"><a href="/w/index.php?title=Release_Notes_3.0.0/Issues&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></li>
-				<li id="ca-history"><a href="/w/index.php?title=Release_Notes_3.0.0/Issues&amp;action=history" title="Past revisions of this page [h]" accesskey="h">History</a></li>
+				<li id="ca-nstab-main" class="selected"><a href="/wiki/Release_Notes_2.3.0/Issues" title="View the content page [c]" accesskey="c">Page</a></li>
+				<li id="ca-talk" class="new"><a href="/w/index.php?title=Talk:Release_Notes_2.3.0/Issues&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion about the content page [t]" accesskey="t">Discussion</a></li>
+				<li id="ca-viewsource"><a href="/w/index.php?title=Release_Notes_2.3.0/Issues&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></li>
+				<li id="ca-history"><a href="/w/index.php?title=Release_Notes_2.3.0/Issues&amp;action=history" title="Past revisions of this page [h]" accesskey="h">History</a></li>
 				</ul>
 							</div>
 		</div>
@@ -614,7 +614,7 @@ Retrieved from "<a dir="ltr" href="https://wiki.audacityteam.org/w/index.php?tit
 
 				<div class="pBody">
 					<ul>
-													<li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Release+Notes+3.0.0%2FIssues" title="Click here to log in or request an account [o]" accesskey="o">Log in</a></li>
+													<li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Release+Notes+2.3.0%2FIssues" title="Click here to log in or request an account [o]" accesskey="o">Log in</a></li>
 											</ul>
 				</div>
 			</div>
@@ -688,12 +688,12 @@ Retrieved from "<a dir="ltr" href="https://wiki.audacityteam.org/w/index.php?tit
 
 			<div class="pBody">
 				<ul>
-											<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Release_Notes_3.0.0/Issues" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
-											<li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Release_Notes_3.0.0/Issues" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+											<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Release_Notes_2.3.0/Issues" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+											<li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Release_Notes_2.3.0/Issues" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
 											<li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
-											<li id="t-print"><a href="/w/index.php?title=Release_Notes_3.0.0/Issues&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
-											<li id="t-permalink"><a href="/w/index.php?title=Release_Notes_3.0.0/Issues&amp;oldid=43215" title="Permanent link to this revision of the page">Permanent link</a></li>
-											<li id="t-info"><a href="/w/index.php?title=Release_Notes_3.0.0/Issues&amp;action=info" title="More information about this page">Page information</a></li>
+											<li id="t-print"><a href="/w/index.php?title=Release_Notes_2.3.0/Issues&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+											<li id="t-permalink"><a href="/w/index.php?title=Release_Notes_2.3.0/Issues&amp;oldid=36826" title="Permanent link to this revision of the page">Permanent link</a></li>
+											<li id="t-info"><a href="/w/index.php?title=Release_Notes_2.3.0/Issues&amp;action=info" title="More information about this page">Page information</a></li>
 									</ul>
 							</div>
 		</div>
@@ -707,9 +707,9 @@ Retrieved from "<a dir="ltr" href="https://wiki.audacityteam.org/w/index.php?tit
 									<a href="//www.mediawiki.org/"><img src="/w/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/w/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /w/resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>
 							</div>
 					<ul id="f-list">
-									<li id="lastmod"> This page was last modified on 20 February 2021, at 13:10.</li>
+									<li id="lastmod"> This page was last modified on 30 September 2018, at 11:59.</li>
 									<li id="copyright">Content is available under <a class="external" rel="nofollow" href="http://creativecommons.org/licenses/by/3.0/">Attribution 3.0</a> unless otherwise noted.</li>
 							</ul>
 		</div>
 		</div>
-		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"]);});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":47});});</script><script>(function(){var js = "window['__CF$cv$params']={r:'764efe05bfce2943',m:'mp.Ur1ZLryCy05M6m2uV8wFpMY4JYX3x3ywNwoEe2Dw-1667582132-0-ATTrckwp8FLt9DuXTRegePFjOK3LW0Rpm4pQjrjE5EhPTCBiIC7XbfLI508U10Oszzr6eI37TV4ZspE2S1QXsY0WrW7VAB1K9RvVgTjOY9x/DliqGGfpWH7AhAZfmtnPrxj8STiB/IKg/7FyZxLVxWf0hjY5NpNmWsYCCd2idsaG',s:[0xc82511a165,0x5c4f246ed6],u:'/cdn-cgi/challenge-platform/h/g'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/g/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body></html>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"]);});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":30});});</script><script>(function(){var js = "window['__CF$cv$params']={r:'764fe6821f7b2d34',m:'32fEGAN3FlZpVdpvwmOTMAzifIWy8OzQfq_guC85hqc-1667591654-0-Aebz9zTSAzB1KfPhdNkEiGH9YKjjjzfFAzct93h+CP8eG2IlIHHQ3KcSudRWT/bEZrSobtRxMuzqQkyfba0ZvoKKhmdOEPT+8ItBgTXaxFzo0Ifh4B9cnWsKyPiyQt+fuBVWeEwXhN2dT85jKz7VpnCouHLbmUceDdf69hSG2vwx',s:[0x308788fba9,0x4d88124621],u:'/cdn-cgi/challenge-platform/h/g'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/g/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body></html>

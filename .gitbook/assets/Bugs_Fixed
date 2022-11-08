@@ -2,9 +2,9 @@
 <html class="client-nojs" lang="en" dir="ltr">
 <head>
 <meta charset="UTF-8"/>
-<title>Release Notes 2.2.1/Bugs Fixed - Audacity Wiki</title>
+<title>Release Notes 2.2.0/Bugs Fixed - Audacity Wiki</title>
 <script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
-<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Release_Notes_2.2.1/Bugs_Fixed","wgTitle":"Release Notes 2.2.1/Bugs Fixed","wgCurRevisionId":34043,"wgRevisionId":34043,"wgArticleId":5027,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Release_Notes_2.2.1/Bugs_Fixed","wgRelevantArticleId":5027,"wgRequestId":"60285eb2e6c1627efdca069e","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","mediawiki.skinning.content.externallinks":"ready","skins.monobook.styles":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@1ikjxew",function ( $, jQuery, require, module ) {
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Release_Notes_2.2.0/Bugs_Fixed","wgTitle":"Release Notes 2.2.0/Bugs Fixed","wgCurRevisionId":33343,"wgRevisionId":33343,"wgArticleId":4909,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Release_Notes_2.2.0/Bugs_Fixed","wgRelevantArticleId":4909,"wgRequestId":"bb616ddfdff841de8d88863d","wgIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[]});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user.cssprefs":"ready","user":"ready","user.options":"loading","user.tokens":"loading","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","mediawiki.skinning.content.externallinks":"ready","skins.monobook.styles":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@1ikjxew",function ( $, jQuery, require, module ) {
 mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
 
 });mw.loader.load(["mediawiki.page.startup"]);});</script>
@@ -35,14 +35,14 @@ $(document).ready(function(){
 });
 </script>
 </head>
-<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Release_Notes_2_2_1_Bugs_Fixed rootpage-Release_Notes_2_2_1_Bugs_Fixed skin-monobook action-view"><div id="globalWrapper">
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Release_Notes_2_2_0_Bugs_Fixed rootpage-Release_Notes_2_2_0_Bugs_Fixed skin-monobook action-view"><div id="globalWrapper">
 		<div id="column-content">
 			<div id="content" class="mw-body" role="main">
 				<a id="top"></a>
 				
 				<div class="mw-indicators">
 </div>
-				<h1 id="firstHeading" class="firstHeading" lang="en">Release Notes 2.2.1/Bugs Fixed</h1>
+				<h1 id="firstHeading" class="firstHeading" lang="en">Release Notes 2.2.0/Bugs Fixed</h1>
 				
 				<div id="bodyContent" class="mw-body-content">
 					<div id="siteSub">From Audacity Wiki</div>
@@ -50,36 +50,33 @@ $(document).ready(function(){
 										<div id="jump-to-nav" class="mw-jump">Jump to: <a href="#column-one">navigation</a>, <a href="#searchInput">search</a></div>
 
 					<!-- start content -->
-					<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>&lt;- Back to <a href="/wiki/Release_Notes_2.2.1" title="Release Notes 2.2.1">Release Notes 2.2.1</a>
-</p><p><br />
+					<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>&lt;- Back to <a href="/wiki/Release_Notes_2.2.0" title="Release Notes 2.2.0">Release Notes 2.2.0</a>
 </p>
-<div class="note">Many of the bugs that show in this table were fixed already in 2.2.0.  However, we had not formally closed them yet.  Also this table shows bugs that are really feature requests and that are being tracked as feature requests now.</div>
-<h2><span class="mw-headline" id="Bugs_fixed_for_2.2.1">Bugs fixed for 2.2.1</span></h2>
-<div class="bz_noresults">no bugzilla tickets were found</div>
-<p>&lt;- Back to <a href="/wiki/Release_Notes_2.2.1" title="Release Notes 2.2.1">Release Notes 2.2.1</a>
+<h2><span class="mw-headline" id="Bugs_fixed_for_2.2.0">Bugs fixed for 2.2.0</span></h2>
+<table class="bugzilla sortable"><tr><th title="ID"><b>ID</b></th><th title="Priority"><b>P</b></th><th title="Status"><b>Status</b></th><th title="Resolution"><b>Resolution</b></th><th title="Summary"><b>Summary</b></th><th title="ID"><b>ID</b></th></tr><tr class="bz_bug P4 Repeatable RESOLVED bz_row_odd"><td title="1583"><a rel="nofollow" class="external text" href="http://bugzilla.audacityteam.org/show_bug.cgi?id=1583"><span title="1583">1583</span></a></td><td>P4</td><td>RESOLVED</td><td>FIXED</td><td>"Pinned" play head preference requires restart</td><td title="1583"><a rel="nofollow" class="external text" href="http://bugzilla.audacityteam.org/show_bug.cgi?id=1583"><span title="1583">1583</span></a></td></tr></table>
+<p>&lt;- Back to <a href="/wiki/Release_Notes_2.2.0" title="Release Notes 2.2.0">Release Notes 2.2.0</a>
 </p>
 <!-- 
 NewPP limit report
-Cached time: 20221104203354
+Cached time: 20221104203413
 Cache expiry: 0
 Dynamic content: true
-CPU time usage: 0.000 seconds
-Real time usage: 0.006 seconds
-Preprocessor visited node count: 16/1000000
-Preprocessor generated node count: 94/1000000
-Post‐expand include size: 316/2097152 bytes
-Template argument size: 229/2097152 bytes
+CPU time usage: 0.004 seconds
+Real time usage: 0.010 seconds
+Preprocessor visited node count: 20/1000000
+Preprocessor generated node count: 88/1000000
+Post‐expand include size: 634/2097152 bytes
+Template argument size: 0/2097152 bytes
 Highest expansion depth: 2/40
 Expensive parser function count: 0/100
 -->
 
 <!-- 
 Transclusion expansion time report (%,ms,calls,template)
-100.00%    0.691      1 - Template:Hint
-100.00%    0.691      1 - -total
+100.00%    0.000      1 - -total
 -->
 </div><div class="printfooter">
-Retrieved from "<a dir="ltr" href="https://wiki.audacityteam.org/w/index.php?title=Release_Notes_2.2.1/Bugs_Fixed&amp;oldid=34043">https://wiki.audacityteam.org/w/index.php?title=Release_Notes_2.2.1/Bugs_Fixed&amp;oldid=34043</a>"</div>
+Retrieved from "<a dir="ltr" href="https://wiki.audacityteam.org/w/index.php?title=Release_Notes_2.2.0/Bugs_Fixed&amp;oldid=33343">https://wiki.audacityteam.org/w/index.php?title=Release_Notes_2.2.0/Bugs_Fixed&amp;oldid=33343</a>"</div>
 					<div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div>					<!-- end content -->
 										<div class="visualClear"></div>
 				</div>
@@ -92,10 +89,10 @@ Retrieved from "<a dir="ltr" href="https://wiki.audacityteam.org/w/index.php?tit
 
 			<div class="pBody">
 				<ul>
-				<li id="ca-nstab-main" class="selected"><a href="/wiki/Release_Notes_2.2.1/Bugs_Fixed" title="View the content page [c]" accesskey="c">Page</a></li>
-				<li id="ca-talk" class="new"><a href="/w/index.php?title=Talk:Release_Notes_2.2.1/Bugs_Fixed&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion about the content page [t]" accesskey="t">Discussion</a></li>
-				<li id="ca-viewsource"><a href="/w/index.php?title=Release_Notes_2.2.1/Bugs_Fixed&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></li>
-				<li id="ca-history"><a href="/w/index.php?title=Release_Notes_2.2.1/Bugs_Fixed&amp;action=history" title="Past revisions of this page [h]" accesskey="h">History</a></li>
+				<li id="ca-nstab-main" class="selected"><a href="/wiki/Release_Notes_2.2.0/Bugs_Fixed" title="View the content page [c]" accesskey="c">Page</a></li>
+				<li id="ca-talk" class="new"><a href="/w/index.php?title=Talk:Release_Notes_2.2.0/Bugs_Fixed&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion about the content page [t]" accesskey="t">Discussion</a></li>
+				<li id="ca-viewsource"><a href="/w/index.php?title=Release_Notes_2.2.0/Bugs_Fixed&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></li>
+				<li id="ca-history"><a href="/w/index.php?title=Release_Notes_2.2.0/Bugs_Fixed&amp;action=history" title="Past revisions of this page [h]" accesskey="h">History</a></li>
 				</ul>
 							</div>
 		</div>
@@ -104,7 +101,7 @@ Retrieved from "<a dir="ltr" href="https://wiki.audacityteam.org/w/index.php?tit
 
 				<div class="pBody">
 					<ul>
-													<li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Release+Notes+2.2.1%2FBugs+Fixed" title="Click here to log in or request an account [o]" accesskey="o">Log in</a></li>
+													<li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Release+Notes+2.2.0%2FBugs+Fixed" title="Click here to log in or request an account [o]" accesskey="o">Log in</a></li>
 											</ul>
 				</div>
 			</div>
@@ -178,12 +175,12 @@ Retrieved from "<a dir="ltr" href="https://wiki.audacityteam.org/w/index.php?tit
 
 			<div class="pBody">
 				<ul>
-											<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Release_Notes_2.2.1/Bugs_Fixed" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
-											<li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Release_Notes_2.2.1/Bugs_Fixed" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+											<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Release_Notes_2.2.0/Bugs_Fixed" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+											<li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Release_Notes_2.2.0/Bugs_Fixed" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
 											<li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
-											<li id="t-print"><a href="/w/index.php?title=Release_Notes_2.2.1/Bugs_Fixed&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
-											<li id="t-permalink"><a href="/w/index.php?title=Release_Notes_2.2.1/Bugs_Fixed&amp;oldid=34043" title="Permanent link to this revision of the page">Permanent link</a></li>
-											<li id="t-info"><a href="/w/index.php?title=Release_Notes_2.2.1/Bugs_Fixed&amp;action=info" title="More information about this page">Page information</a></li>
+											<li id="t-print"><a href="/w/index.php?title=Release_Notes_2.2.0/Bugs_Fixed&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+											<li id="t-permalink"><a href="/w/index.php?title=Release_Notes_2.2.0/Bugs_Fixed&amp;oldid=33343" title="Permanent link to this revision of the page">Permanent link</a></li>
+											<li id="t-info"><a href="/w/index.php?title=Release_Notes_2.2.0/Bugs_Fixed&amp;action=info" title="More information about this page">Page information</a></li>
 									</ul>
 							</div>
 		</div>
@@ -197,9 +194,9 @@ Retrieved from "<a dir="ltr" href="https://wiki.audacityteam.org/w/index.php?tit
 									<a href="//www.mediawiki.org/"><img src="/w/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/w/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /w/resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>
 							</div>
 					<ul id="f-list">
-									<li id="lastmod"> This page was last modified on 4 December 2017, at 18:04.</li>
+									<li id="lastmod"> This page was last modified on 31 October 2017, at 09:46.</li>
 									<li id="copyright">Content is available under <a class="external" rel="nofollow" href="http://creativecommons.org/licenses/by/3.0/">Attribution 3.0</a> unless otherwise noted.</li>
 							</ul>
 		</div>
 		</div>
-		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"]);});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":37});});</script><script>(function(){var js = "window['__CF$cv$params']={r:'7650209dba982a00',m:'tbWUi.SeLuL6a0On0_PPBjM_1Dr0_WSNIP28p1YwAss-1667594035-0-AaLL6fsuJh+6w3Y5LIV8pQWfY7m/2ELyWUqSNByQqkwwfLIhVGWHRwXiTdoTdVDsIfnk8KILvqRASHi2vW1vaxinxgsP4mWb+kI2bIYz5Rm1Q2gDpDLUnjp9gW4PqWYhEtOBtYm9pHX81zGbWFAM7WpotgY485iOaGkHP0S+JzIp',s:[0x67be6ed3b0,0xb6210f11b2],u:'/cdn-cgi/challenge-platform/h/g'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/g/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body></html>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.load(["mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"]);});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":48});});</script><script>(function(){var js = "window['__CF$cv$params']={r:'76502110f8422c3c',m:'zqQ7letBIXQ7fJkdUwUolEHqLhpov8Lzv391WA.y_GI-1667594053-0-Ac9H1pnclRtWVNY5MA2pDuQ/hlC/DcklmbLcvfTmy8D2u0UW2lK3YEf4AzkVukD8S1M74BipUpQIvc/Ges8xotdahMK2w0lzCkBMNepKqw1rahX3Me5r8DEKVlHjR26MPZjcVgvwCrnfBTIarAeqhQvmoBd+np7YSCNaMl0/4XUb',s:[0x481326d1c0,0x3cd434f743],u:'/cdn-cgi/challenge-platform/h/g'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/g/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body></html>
