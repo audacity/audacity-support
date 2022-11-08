@@ -105,7 +105,7 @@ _Italic_ words in the table denote data types. Because tokens are separated by w
 
 This image displays all nine widget types in Audacity 2.3.1 on Windows 10
 
-![](../../.gitbook/assets/Nyquist-plug-in-widgets.png)
+![](../../../.gitbook/assets/Nyquist-plug-in-widgets.png)
 
 {% hint style="info" %}
 Note: Older versions of Audacity may not support all of these controls, which may lead to an "unbound symbol" error. Plug-in users are encouraged to use the current version of Audacity, to ensure that they can benefit from all of the latest features.

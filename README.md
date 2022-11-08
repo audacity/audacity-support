@@ -9,7 +9,7 @@ description: >-
 On this site you can find download links for [equalizer plugins](realtime-effects/equalizers.md), [filter plugins](realtime-effects/filters.md), [delay and reverb plugins](realtime-effects/delay-and-reverb.md), and more - check the sidebar. If you'd like to download many plugins at once, you also can try entire [plugin suites](realtime-effects/plugin-suites.md).
 
 {% hint style="success" %}
-All plugins in the [realtime effects](broken-reference) section can be previewed in realtime in Audacity 3.2.&#x20;
+All plugins in the [realtime effects](broken-reference/) section can be previewed in realtime in Audacity 3.2.
 
 This means that you can change the effect settings while playing, and come back to your settings after doing many other things - without the need to undo anything.
 {% endhint %}
@@ -33,14 +33,14 @@ Note: Audacity 3.1.3 does not yet support VST3 plugins.
 ## Popular plugins
 
 * [#acx-check](analyzers/analysis-plugins.md#acx-check "mention"), a plugin to check if an audio book complies with the ACX guidelines
-* [**FFMPEG**](https://support.audacityteam.org/basics/downloading-and-installing-audacity/installing-ffmpeg), a library to import and export various media formats such as M4A, WMA and MP4. &#x20;
+* [**FFMPEG**](https://support.audacityteam.org/basics/downloading-and-installing-audacity/installing-ffmpeg), a library to import and export various media formats such as M4A, WMA and MP4.
 
 ## Contributing to this site
 
 {% hint style="success" %}
 This site is still in development.
 
-If you want to add your own plugin, or one that you found on the web, read the [contributing instructions](https://app.gitbook.com/s/-MhmBVzGzh8SctWQ6jPR/community/contributing/plugins).&#x20;
+If you want to add your own plugin, or one that you found on the web, read the [contributing instructions](contributing/adding-plugins-to-this-site.md).
 {% endhint %}
 
 ## Plugin formats supported by Audacity
@@ -49,17 +49,17 @@ If you want to add your own plugin, or one that you found on the web, read the [
 
 Audacity has built-in support for Nyquist effects on all operating systems. You can download additional Nyquist plug-ins, or create your own using the [Nyquist programming language](http://wiki.audacityteam.org/wiki/Nyquist\_Plug-ins\_Reference). Nyquist code can be conveniently tested using "[Nyquist Prompt](http://manual.audacityteam.org/man/nyquist\_prompt.html)" under the Effect menu.
 
-### &#x20;**LV2 plugins**
+### **LV2 plugins**
 
 Audacity has built-in support for [LV2](http://lv2plug.in/) plug-ins, which are an extensible successor of LADSPA effects. LV2 plug-ins are mostly built for Linux, but Audacity supports LV2 on all operating systems. To install LV2 plug-ins, place them in the [system LV2 location](http://manual.audacityteam.org/man/effect\_menu.html#LV2\_effects) then use the Plug-ins Manager to enable the new plug-ins as in the plug-in installation instructions.
 
-### &#x20;**VST plugins**
+### **VST plugins**
 
-Audacity can load VST effects (but not VST instruments) on all operating systems.&#x20;
+Audacity can load VST effects (but not VST instruments) on all operating systems.
 
 ### VST3 plugins
 
-Starting with Audacity 3.2, VST3 effects are also supported on all operating systems.&#x20;
+Starting with Audacity 3.2, VST3 effects are also supported on all operating systems.
 
 ### Audio Unit plugins
 

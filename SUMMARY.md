@@ -34,35 +34,39 @@
   * [Modulation Effects](nyquist-plugins/effect-plugins/modulation-effects.md)
   * [Sequencer Effects](nyquist-plugins/effect-plugins/sequencer-effects.md)
   * [Time, Pitch and Tempo](nyquist-plugins/effect-plugins/time-pitch-and-tempo.md)
-* [Creating your own Nyquist Plugins](nyquist-plugins/creating-your-own-nyquist-plugins/README.md)
-  * [Nyquist Reference Manual](http://www.cs.cmu.edu/\~rbd/doc/nyquist/)
-  * [Plugin Reference](nyquist-plugins/creating-your-own-nyquist-plugins/plugin-reference.md)
-  * [Headers Reference](nyquist-plugins/creating-your-own-nyquist-plugins/headers-reference.md)
-  * [Widgets Reference](nyquist-plugins/creating-your-own-nyquist-plugins/widgets-reference.md)
-  * [Basics](nyquist-plugins/creating-your-own-nyquist-plugins/basics/README.md)
-    * [Volume Basics](nyquist-plugins/creating-your-own-nyquist-plugins/basics/volume-basics.md)
-    * [Volume Basics (SAL)](nyquist-plugins/creating-your-own-nyquist-plugins/basics/volume-basics-sal.md)
-    * [Independent Stereo Volume Basics](nyquist-plugins/creating-your-own-nyquist-plugins/basics/independent-stereo-volume-basics.md)
-    * [Delay Basics](nyquist-plugins/creating-your-own-nyquist-plugins/basics/delay-basics.md)
-    * [Prompt Basics](nyquist-plugins/creating-your-own-nyquist-plugins/basics/prompt-basics.md)
-    * [Prompt Basics (SAL)](nyquist-plugins/creating-your-own-nyquist-plugins/basics/prompt-basics-sal.md)
-  * [Tutorials](nyquist-plugins/creating-your-own-nyquist-plugins/tutorials/README.md)
-    * [The \*SCRATCH\* Symbol Tutorial](nyquist-plugins/creating-your-own-nyquist-plugins/tutorials/the-scratch-symbol-tutorial.md)
-    * [Property List Tutorial](nyquist-plugins/creating-your-own-nyquist-plugins/tutorials/property-list-tutorial.md)
-    * [Stereo Tracks Tutorial](nyquist-plugins/creating-your-own-nyquist-plugins/tutorials/stereo-tracks-tutorial.md)
-    * [Macro Tutorial](nyquist-plugins/creating-your-own-nyquist-plugins/tutorials/macro-tutorial.md)
-    * [File Button Tutorial](nyquist-plugins/creating-your-own-nyquist-plugins/tutorials/file-button-tutorial.md)
-  * [💬 Nyquist Forum](https://forum.audacityteam.org/viewforum.php?f=39)
 
 ## Analyzers
 
 * [Analysis plugins](analyzers/analysis-plugins.md)
 
-## External scripts
+## Scripts
 
-* [About external scripts](external-scripts/about-external-scripts.md)
-* [Tools](external-scripts/tools.md)
+* [External scripts](scripts/tools.md)
 
-***
+## Contributing
+
+* [Adding plugins to this site](contributing/adding-plugins-to-this-site.md)
+* [Developing your own plugins and scripts](contributing/developing-your-own-plugins-and-scripts/README.md)
+  * [Creating your own Nyquist Plugins](contributing/developing-your-own-plugins-and-scripts/creating-your-own-nyquist-plugins/README.md)
+    * [Nyquist Reference Manual](http://www.cs.cmu.edu/\~rbd/doc/nyquist/)
+    * [Plugin Reference](contributing/developing-your-own-plugins-and-scripts/creating-your-own-nyquist-plugins/plugin-reference.md)
+    * [Headers Reference](contributing/developing-your-own-plugins-and-scripts/creating-your-own-nyquist-plugins/headers-reference.md)
+    * [Widgets Reference](contributing/developing-your-own-plugins-and-scripts/creating-your-own-nyquist-plugins/widgets-reference.md)
+    * [Basics](contributing/developing-your-own-plugins-and-scripts/creating-your-own-nyquist-plugins/basics/README.md)
+      * [Volume Basics](contributing/developing-your-own-plugins-and-scripts/creating-your-own-nyquist-plugins/basics/volume-basics.md)
+      * [Volume Basics (SAL)](contributing/developing-your-own-plugins-and-scripts/creating-your-own-nyquist-plugins/basics/volume-basics-sal.md)
+      * [Independent Stereo Volume Basics](contributing/developing-your-own-plugins-and-scripts/creating-your-own-nyquist-plugins/basics/independent-stereo-volume-basics.md)
+      * [Delay Basics](contributing/developing-your-own-plugins-and-scripts/creating-your-own-nyquist-plugins/basics/delay-basics.md)
+      * [Prompt Basics](contributing/developing-your-own-plugins-and-scripts/creating-your-own-nyquist-plugins/basics/prompt-basics.md)
+      * [Prompt Basics (SAL)](contributing/developing-your-own-plugins-and-scripts/creating-your-own-nyquist-plugins/basics/prompt-basics-sal.md)
+    * [Tutorials](contributing/developing-your-own-plugins-and-scripts/creating-your-own-nyquist-plugins/tutorials/README.md)
+      * [The \*SCRATCH\* Symbol Tutorial](contributing/developing-your-own-plugins-and-scripts/creating-your-own-nyquist-plugins/tutorials/the-scratch-symbol-tutorial.md)
+      * [Property List Tutorial](contributing/developing-your-own-plugins-and-scripts/creating-your-own-nyquist-plugins/tutorials/property-list-tutorial.md)
+      * [Stereo Tracks Tutorial](contributing/developing-your-own-plugins-and-scripts/creating-your-own-nyquist-plugins/tutorials/stereo-tracks-tutorial.md)
+      * [Macro Tutorial](contributing/developing-your-own-plugins-and-scripts/creating-your-own-nyquist-plugins/tutorials/macro-tutorial.md)
+      * [File Button Tutorial](contributing/developing-your-own-plugins-and-scripts/creating-your-own-nyquist-plugins/tutorials/file-button-tutorial.md)
+    * [💬 Nyquist Forum](https://forum.audacityteam.org/viewforum.php?f=39)
+
+## Additional resources
 
 * [Audacity Support](https://app.gitbook.com/o/-MhmG2mhIIHTtQPuHV\_k/s/-MhmBVzGzh8SctWQ6jPR/)
