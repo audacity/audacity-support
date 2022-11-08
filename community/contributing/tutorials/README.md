@@ -40,8 +40,6 @@ When editing on Gitbook, you can edit existing pages, but you cannot create new 
 
 Video tutorials are highly appreciated as part of a guide. You can upload them to YouTube (or Vimeo/Dailymotion/...) and embed them in your guides, or in other people's guides, like this:&#x20;
 
-{% embed url="https://www.youtube.com/watch?v=tVztuJfhRlU" %}
-(example video)
-{% endembed %}
+{% embed url="https://youtu.be/DTRnDNR9LR8" %}
 
 We have some requirements for which video tutorials are accepted into Audacity Support pages (see the [Style Guide](style-guide.md#video-tutorials) [#video-tutorials](style-guide.md#video-tutorials "mention") for more info)

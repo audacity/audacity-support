@@ -3,6 +3,7 @@
 These help articles have been created by the following people:&#x20;
 
 * Leo Wattenberg
+* Gonzalo Guzmán
 * (add your name here if you're editing some pages!)
 
 ## License

@@ -6,10 +6,9 @@ description: >-
 
 # Answering user questions
 
-If you know Audacity well, but don't want to [write tutorials](tutorials/), you can try helping users out directly. The most active community in this regard probably is the [Audacity Forum](https://forum.audacityteam.org/), but you'll also find users in our [Discord community](https://discord.gg/T7g45chg3M) and on the [audacity subreddit](https://www.reddit.com/r/audacity/).&#x20;
+If you know Audacity well, but don't want to [write tutorials](tutorials/), you can help users out directly. The most active communities in this regard are:&#x20;
 
-## Tools
+* The [Audacity Forum](https://forum.audacityteam.org/),
+* the [Discord community](https://discord.gg/T7g45chg3M), and
+* the [Audacity subreddit](https://www.reddit.com/r/audacity/).&#x20;
 
-There is a tool available to recover broken projects:
-
-{% embed url="https://github.com/crsib/audacity-project-tools" %}

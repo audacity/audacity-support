@@ -2,9 +2,9 @@
 
 Testing Audacity is one of the best ways to find bugs.&#x20;
 
-You can download the latest nightly from [https://audacityteam.org/nightly](https://audacityteam.org/nightly).
+You can download the latest master build from [https://audacityteam.org/nightly](https://audacityteam.org/nightly). Even before that, you can get builds which are still in development from [https://github.com/audacity/audacity/actions](https://github.com/audacity/audacity/actions) (if you have a github account)
 
-When you do find something that breaks, make sure to [file a bug](https://github.com/audacity/audacity/issues/new?assignees=\&labels=\&template=bug\_report.md)!
+When you do find something that breaks, make sure to [file a bug](https://github.com/audacity/audacity/issues/new?assignees=\&labels=\&template=bug\_report.md) (or comment on the pull request that introduces the bug if it's unmerged)!
 
 Audacity comes with some tools to aid you with testing.
 
