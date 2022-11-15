@@ -82,6 +82,14 @@ This error occurs when the file you're trying to open has no decoder available. 
 * **Check if you have accidentally created custom import rules**. In **Edit -> Preferences -> Extended Import** (on macOS: Audacity -> Preferences -> Extended Import), make sure that you have not created any custom rules. If there are any rules, you can safely **delete the rules**.
 * **Import the audio as RAW**. This only works on uncompressed audio. You can do so via **File -> Import -> Import raw data...**
 
-## unable to open, exception code 0xc0000005
+## Unable to open, exception code 0xc0000005
 
-This caused by a corrupted audacity.cfg file, such as when upgrading from Audacity 3.1.3 to Audacity 3.2. You can solve this issue by upgrading to Audacity 3.2.1.
+This is caused by a corrupted audacity.cfg file, such as when upgrading from Audacity 3.1.3 to Audacity 3.2. You can solve this issue by upgrading to Audacity 3.2.1.
+
+## Missing Plugins
+
+This is caused by missing [realtime effects](../audio-editing/using-realtime-effects.md). You can replace any missing effects from the effects sidebar.&#x20;
+
+{% hint style="info" %}
+Audacity currently looks for plugins in absolute paths. This means that if you open a project that was created on a different computer, Audacity will continue to check for the plugins in the exact same locations as they were on the old computer.&#x20;
+{% endhint %}
