@@ -4,53 +4,39 @@
 
 **Tip:** You can use CTRL + F to search this page for different words to do with the issue you are looking for. Use Command - F on Mac.
 
-### Contents
+{% hint style="info" %}
+* **Users upgrading to this release from Audacity 2.0.5 or earlier who had FFmpeg installed** will see a notice that FFmpeg needs to be reconfigured. Please visit [https://manual.audacityteam.org/o/man/faq\_installation\_and\_plug\_ins.html#ffdown](https://manual.audacityteam.org/o/man/faq\_installation\_and\_plug\_ins.html#ffdown) for a link to the recommended 2.2.2 version of FFmpeg for Windows and Mac OS X, and for information for Linux.
+* **Shortcuts created in previous Audacity versions for the Generate, Effect and Analyze menus will not be recognized by 2.1.0** and cannot be imported from an XML file. However the shortcuts can be recreated and will then be respected. The previous bindings can still be viewed in the \[NewKeys] section of the [audacity.cfg settings file](https://manual.audacityteam.org/o/man/preferences.html#stored).
+{% endhint %}
 
-* [1 Changes since previous version](broken-reference)
-  * [1.1 Improvements](broken-reference)
-  * [1.2 Bug Fixes](broken-reference)
-* [2 Known Issues at Release](broken-reference)
-  * [2.1 Accessibility](broken-reference)
-  * [2.2 Chains](broken-reference)
-  * [2.3 Compiling](broken-reference)
-  * [2.4 Effects (Audio Units) (OS X)](broken-reference)
-  * [2.5 Effects (VST and Audio Units)](broken-reference)
-  * [2.6 Effects and Analysis](broken-reference)
-  * [2.7 Effects (real-time preview)](broken-reference)
-  * [2.8 Envelopes and Clips](broken-reference)
-  * [2.9 Exports](broken-reference)
-  * [2.10 Imports and Exports](broken-reference)
-  * [2.11 Imports and Exports (FFmpeg)](broken-reference)
-  * [2.12 Installation](broken-reference)
-  * [2.13 Interface](broken-reference)
-  * [2.14 Keyboard Shortcuts](broken-reference)
-  * [2.15 Label Tracks](broken-reference)
-  * [2.16 Miscellaneous platform-specific issues](broken-reference)
-  * [2.17 Mixer Board](broken-reference)
-  * [2.18 Playback and Recording](broken-reference)
-  * [2.19 Program Launch](broken-reference)
-  * [2.20 Projects](broken-reference)
-  * [2.21 Spectrograms](broken-reference)
-  * [2.22 Sync-Locked Track Groups](broken-reference)
-  * [2.23 Time Tracks](broken-reference)
-  * [2.24 Toolbars](broken-reference)
-* [3 Bugs requiring more investigation](broken-reference)
+{% hint style="info" %}
+**Extra notes for Mac OS X:**
 
-|   | <ul><li><strong>Users upgrading to this release from Audacity 2.0.5 or earlier who had FFmpeg installed</strong> will see a notice that FFmpeg needs to be reconfigured. Please visit <a href="https://manual.audacityteam.org/o/man/faq_installation_and_plug_ins.html#ffdown">https://manual.audacityteam.org/o/man/faq_installation_and_plug_ins.html#ffdown</a> for a link to the recommended 2.2.2 version of FFmpeg for Windows and Mac OS X, and for information for Linux.</li><li><strong>Shortcuts created in previous Audacity versions for the Generate, Effect and Analyze menus will not be recognized by 2.1.0</strong> and cannot be imported from an XML file. However the shortcuts can be recreated and will then be respected. The previous bindings can still be viewed in the [NewKeys] section of the <a href="https://manual.audacityteam.org/o/man/preferences.html#stored">audacity.cfg settings file</a>.</li></ul> |
-| - | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+*   **Audacity 2.1.0 cannot import MP4, M4A, MOV or ALAC files unless you install the** [**FFmpeg**](https://manual.audacityteam.org/o/man/faq\_installation\_and\_plug\_ins.html#macff) **library.** After installing FFmpeg, use File > Import > Audio... or File > Open... and choose the "FFmpeg-compatible files" file type before selecting the file(s) to import.
 
-|   | <p><strong>Extra notes for Mac OS X:</strong></p><ul><li><p><strong>Audacity 2.1.0 cannot import MP4, M4A, MOV or ALAC files unless you install the</strong> <a href="https://manual.audacityteam.org/o/man/faq_installation_and_plug_ins.html#macff"><strong>FFmpeg</strong></a> <strong>library.</strong> After installing FFmpeg, use File > Import > Audio... or File > Open... and choose the "FFmpeg-compatible files" file type before selecting the file(s) to import.</p><p>This problem is already fixed in our source code, so will be fixed in the next 2.1.1 release.</p></li></ul> |
-| - | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+    This problem is already fixed in our source code, so will be fixed in the next 2.1.1 release.
+{% endhint %}
 
-|   | <p><strong>Extra notes for GNU/Linux:</strong></p><ul><li><strong>Some Linux distributions are supplying Audacity builds that are unstable because built with wxWidgets 3.x which</strong> <a href="https://bugzilla.audacityteam.org/buglist.cgi?keywords=wx3&#x26;resolution=---"><strong>Audacity does not yet support</strong></a><strong>.</strong> This applies for example to Ubuntu "Daily Builds", <a href="https://wiki.ubuntu.com/VividVervet/">Ubuntu Vivid</a> and Debian Jessie (Testing). Please check then the "Build Information" tab to check the version of wxWidgets that Audacity is built with. To avoid issues you can build wxWidgets 2.8.12 then compile Audacity against wxWidgets 2.8.12.</li></ul> |
-| - | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+{% hint style="info" %}
+**Extra notes for GNU/Linux:**
 
-|   | <p><strong>Extra notes for Windows:</strong></p><ul><li><strong>The Windows installer for 2.0.x versions will replace legacy 1.2.x or any previous 2.0.x installation, but install alongside legacy 1.3.x Beta versions.</strong> It is strongly recommended to uninstall previous Beta versions before installing current Audacity.</li><li><strong>The language choice in the Windows EXE Audacity installer only selects the language for the installer.</strong> The language Audacity runs in is determined by the "Format" for date and time in the "Region and Language" section of the Windows Control Panel. To change the Audacity language, please see these <a href="https://manual.audacityteam.org/o/man/faq_about_audacity.html#language">instructions</a>.</li><li><strong>On first use of Audacity you need to confirm or cancel the</strong> <a href="https://manual.audacityteam.org/o/man/effects_preferences.html#register"><strong>Register Effects</strong></a> <strong>dialog</strong> for detected effects before you can launch Audacity.</li><li><strong>MP3 Encoding:</strong> Users upgrading to Audacity 2.0.x versions from 1.3.6 or earlier must download the <a href="https://manual.audacityteam.org/help/manual/man/faq_installation_and_plug_ins.html#lame">latest version of the LAME MP3 encoder</a>.</li><li><strong>Audacity 2.1.0 requires the CPU to support the</strong> <a href="http://en.wikipedia.org/wiki/SSE2"><strong>SSE2</strong> </a><strong>instruction set</strong> which should be available on any Intel hardware produced after 2001 and any AMD hardware produced after 2003. To check what SSE levels your CPU supports, you can install <a href="http://www.cpuid.com/softwares/cpu-z.html">CPU-Z</a> .</li><li><strong>Users on Windows XP:</strong> You may see "Entry Point Not Found" when first launching Audacity after installation. This error occurs if you are running less than the latest "Service Pack" of updates for your Windows XP system. Please see <a href="https://manual.audacityteam.org/o/man/faq_installation_and_plug_ins.html#entry_point">https://manual.audacityteam.org/o/man/faq_installation_and_plug_ins.html#entry_point</a> for how to install the latest Service Pack and for advice about the potential security risks of running XP now that Microsoft no longer supports it.</li></ul> |
-| - | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+* **Some Linux distributions are supplying Audacity builds that are unstable because built with wxWidgets 3.x which** [**Audacity does not yet support**](https://bugzilla.audacityteam.org/buglist.cgi?keywords=wx3\&resolution=---)**.** This applies for example to Ubuntu "Daily Builds", [Ubuntu Vivid](https://wiki.ubuntu.com/VividVervet/) and Debian Jessie (Testing). Please check then the "Build Information" tab to check the version of wxWidgets that Audacity is built with. To avoid issues you can build wxWidgets 2.8.12 then compile Audacity against wxWidgets 2.8.12.
+{% endhint %}
 
-### Changes since previous version
+{% hint style="info" %}
+**Extra notes for Windows:**
 
-#### Improvements
+* **The Windows installer for 2.0.x versions will replace legacy 1.2.x or any previous 2.0.x installation, but install alongside legacy 1.3.x Beta versions.** It is strongly recommended to uninstall previous Beta versions before installing current Audacity.
+* **The language choice in the Windows EXE Audacity installer only selects the language for the installer.** The language Audacity runs in is determined by the "Format" for date and time in the "Region and Language" section of the Windows Control Panel. To change the Audacity language, please see these [instructions](https://manual.audacityteam.org/o/man/faq\_about\_audacity.html#language).
+* **On first use of Audacity you need to confirm or cancel the** [**Register Effects**](https://manual.audacityteam.org/o/man/effects\_preferences.html#register) **dialog** for detected effects before you can launch Audacity.
+* **MP3 Encoding:** Users upgrading to Audacity 2.0.x versions from 1.3.6 or earlier must download the [latest version of the LAME MP3 encoder](https://manual.audacityteam.org/help/manual/man/faq\_installation\_and\_plug\_ins.html#lame).
+* **Audacity 2.1.0 requires the CPU to support the** [**SSE2** ](http://en.wikipedia.org/wiki/SSE2)**instruction set** which should be available on any Intel hardware produced after 2001 and any AMD hardware produced after 2003. To check what SSE levels your CPU supports, you can install [CPU-Z](http://www.cpuid.com/softwares/cpu-z.html) .
+* **Users on Windows XP:** You may see "Entry Point Not Found" when first launching Audacity after installation. This error occurs if you are running less than the latest "Service Pack" of updates for your Windows XP system. Please see [https://manual.audacityteam.org/o/man/faq\_installation\_and\_plug\_ins.html#entry\_point](https://manual.audacityteam.org/o/man/faq\_installation\_and\_plug\_ins.html#entry\_point) for how to install the latest Service Pack and for advice about the potential security risks of running XP now that Microsoft no longer supports it.
+{% endhint %}
+
+## Changes since previous version
+
+### Improvements
 
 * **Effects:**
   * LADSPA, VST and Audio Unit (OS X) effects now support real-time preview, save/load of user presets and saving effect settings across sessions. **Note:** Real-time preview does not yet support latency compensation.
@@ -76,7 +62,7 @@
     * Please report any issues with WASAPI recording/playback or Yosemite to [our feedback address](https://web.audacityteam.org/contact/#feedback).
   * (Linux Ubuntu) Under Unity, keyboard shortcuts are not visible in the Audacity menus. Keyboard shortcuts are visible if you install the classic GNOME Flashback interface or under Unity if you open Audacity with the UBUNTU\_MENUPROXY=0 environment variable. Audacity compiled from source will ship with src/audacity.desktop.in set to UBUNTU\_MENUPROXY=0 but it will remain up to distributions to use this desktop file.
 
-#### Bug Fixes
+### Bug Fixes
 
 * **Interface:**
   * Typing "j" or "k" in a label track activated the "move cursor" shortcut.
@@ -101,9 +87,9 @@
 
 * The previous Audacity 2.0.6 version fixed an issue that projects did not reopen correctly if they contained tracks having 2^31 samples or greater of audio (just over 13.5 hours at 44100 Hz).
 
-### Known Issues at Release
+## Known Issues at Release
 
-#### Accessibility
+### Accessibility
 
 * Many, but not all parts of the Audacity interface are accessible on Windows and Mac to those who can't use a mouse, and/or use a screen reader. It may be possible to make more of Audacity accessible in the longer term. For details, see [https://manual.audacityteam.org/o/man/accessibility.html](https://manual.audacityteam.org/o/man/accessibility.html)
 * **There are some accessibility bugs in the parts of Audacity that are accessible (or behavior may vary according to the specific screen reader).**
@@ -126,21 +112,20 @@
     * Edit Labels dialog not read.
     * In the "Edit Chains" window, only the first command in the "Chain" list is read, and it is only read when first accessed. In the "Select Command" window for inserting a new command in a Chain, commands in the table are not read.
     * "Manage Curves" table in Equalization not read.
-*
-  *   (Linux Ubuntu) Under Unity, keyboard shortcuts are not visible in the Audacity menus. Keyboard shortcuts are visible if you install the classic [GNOME Flashback](http://ubuntuhandbook.org/index.php/2014/04/install-gnome-classic-desktop-in-ubuntu-14-04/) interface or under Unity if you open Audacity from the termimal with
+*   (Linux Ubuntu) Under Unity, keyboard shortcuts are not visible in the Audacity menus. Keyboard shortcuts are visible if you install the classic [GNOME Flashback](http://ubuntuhandbook.org/index.php/2014/04/install-gnome-classic-desktop-in-ubuntu-14-04/) interface or under Unity if you open Audacity from the termimal with
 
-      env UBUNTU\_MENUPROXY=0 audacity
+    `env UBUNTU_MENUPROXY=0 audacity`
 
-      Audacity will now ship with src/audacity.desktop.in set to UBUNTU\_MENUPROXY=0 so Audacity compiled from source will show shortcuts in the menus and will have its own menu bar in the application. It will remain up to Ubuntu whether they use this desktop file in packaged versions of Audacity.
-  * (Linux) SPACE cannot be used to change context menu items (such as Selection Format in the context menu of TimeText digits, or Mono/Left/Right and Set Rate and Set Sample Format in the Audio Track DropDown Menu). **Workaround:** Use ENTER instead of SPACE.
-  * **(Linux) Issues with Orca:**
-    * Audacity tracks are not read.
-    * Not all toolbar controls are read, examples being Timetext controls, Project Rate and controls in Device Toolbar.
-    * Not all controls in Preferences are read.
-    * Control labels for VAMP and VST plug-ins are not read.
-    * Control labels for Nyquist plug-ins are read inconsistently in older version 3 or earlier plug-ins (Version 4 seems to read more consistently).
+    Audacity will now ship with src/audacity.desktop.in set to UBUNTU\_MENUPROXY=0 so Audacity compiled from source will show shortcuts in the menus and will have its own menu bar in the application. It will remain up to Ubuntu whether they use this desktop file in packaged versions of Audacity.
+* (Linux) SPACE cannot be used to change context menu items (such as Selection Format in the context menu of TimeText digits, or Mono/Left/Right and Set Rate and Set Sample Format in the Audio Track DropDown Menu). **Workaround:** Use ENTER instead of SPACE.
+* **(Linux) Issues with Orca:**
+  * Audacity tracks are not read.
+  * Not all toolbar controls are read, examples being Timetext controls, Project Rate and controls in Device Toolbar.
+  * Not all controls in Preferences are read.
+  * Control labels for VAMP and VST plug-ins are not read.
+  * Control labels for Nyquist plug-ins are read inconsistently in older version 3 or earlier plug-ins (Version 4 seems to read more consistently).
 
-#### Chains
+### Chains
 
 * **Audacity's built-in generators don't yet work with Chains.** Plug-in generators should work.
 * **Chains do not currently support export as AIFF, Other uncompressed files or any formats supported by FFmpeg.**
@@ -148,7 +133,7 @@
 * **LV2 effects cannot yet store their parameters in Chains** so if non-default parameters are required in a Chain these must be set for each Audacity session in File > Edit Chains before running the Chain.
 * **You cannot set export format options or export sample rate in the Chain.** If you need to specify export options other than the current default, import or generate some audio, File > Export, select the audio type, click "Options..." then choose and save the option and cancel the export.
 
-#### Compiling
+### Compiling
 
 * (Linux) **New libsoxr resampling library:** Default ./configure will enable a new library [libsoxr](https://sourceforge.net/p/soxr/wiki/Home/) for resampling and disable libresample and libsamplerate (the previous resampling libraries). [Cmake](http://www.cmake.org/) is required to build libsoxr. We strongly recommend libsoxr for its combination of high quality and high speed.
   * **Only one resampling library is permitted.** If you enable either libresample or libsamplerate in configure, libsoxr will not be enabled. Any configure of resampling libraries other than libsoxr only will enable one only of libresample, libsamplerate or libsoxr in that order of precedence; however the intermediate configure output may suggest that other libraries will be favored.
@@ -159,14 +144,14 @@
   * Audacity may still build against no-longer-supported FFmpeg versions (such as FFmpeg 0.8 which is system-installed on Debian Wheezy), but configuring with --disable-dynamic-loading will be necessary. FFmpeg 0.8 has at least one known issue in Audacity 2.0.6 or later: mono WMA files export with no audio data. This issue will not be fixed given FFmpeg 0.8 is no longer supported by Audacity 2.0.6.
   * Building against self-compiled FFmpeg 2.2.2 with --disable-dynamic-loading the only argument fails on Ubuntu 13.10 with "undefined reference to 'av\_codec\_is\_encoder'". **Workaround:** Configuring with --disable-dynamic-loading and --with-lib-preference="local" (or at least --with-ffmpeg="local") may build successfully, but may not disable Libraries Preferences. The best solution may be not to disable dynamic loading.
 
-#### Effects (Audio Units) (OS X)
+### Effects (Audio Units) (OS X)
 
 * **All User Presets you select in the export dialog are exported at the same current settings you see in the effect**, not at the preset's currently saved setting. This means that:
   * To export a preset as saved you must first load it from User Presets before selecting it in the export dialog
   * You cannot export more than one preset at a time at different settings.
 * **When you import a preset into an Apple Audio Unit, that preset's settings are applied by the effect without the effect controls updating to the new settings.** Other AU effects may ignore presets when you import them. To be sure the imported preset you want to use is loaded into the effect, select it from "User Presets".
 
-#### Effects (VST and Audio Units)
+### Effects (VST and Audio Units)
 
 * (OS X and GNU/Linux): **When saving VST effect presets, the FXP or XML file extension is not automatically offered in the file name, and not added by Audacity if you omit it.** Make sure the extension you add is the same as that shown in the "File Format" drop-down menu, otherwise the preset will not be loadable.
 * (OS X) The following plug-ins may cause Audacity to crash if they are used after starting Audacity.
@@ -188,7 +173,7 @@
 * (Windows and Mac OS X) **When running VST effects in** [**graphical mode**](https://manual.audacityteam.org/o/man/effects\_preferences.html#vst) **the controls of many plug-ins do not visibly respond when loading a preset file from the "Load" button**. The new settings are however loaded internally, will apply when running the effect and will be visible if you reopen the effect after running it. Controls do respond to loading a preset file if you turn off graphical mode.
 * (OS X) **Some VST plug-ins no longer allow text input in the presets drop-down, either by typing or pasting.** Examples are Sound Hack "Delay Trio / Freesound Bundle" and Blue Cat.
 
-#### Effects and Analysis
+### Effects and Analysis
 
 * **LADSPA generate plug-ins may fail to generate into an empty track** or into white space separating audio clips. **Workaround:** Before using the LADSPA generator, generate audio using any of the Audacity Generators above the divider in the Generate Menu, then generate into that audio selection.
 * **Nyquist plug-ins:** In locales where comma is the decimal separator, entering a comma in a text input box that has no associated slider will produce an error message, or only result in the whole number before the comma (for example, in Regular Interval Labels). **Workaround:** Use a dot (period) as the decimal separator.
@@ -207,12 +192,12 @@
 * **Nyquist effects may crash Audacity if used on extremely long selections** containing more than 2^31 samples (just over 13.5 hours at 44100 Hz). **Workaround** Apply the effect to multiple shorter regions (you can drag the selection back on itself to create a region contiguous with the previous one).
 * **Noise reduction:** Preview is not possible if the sample rate of the project is different from the rate of the track to be processed - an error message appears "Sample rate of the noise profile must match that of the sound to be processed" (even if that condition is met). Providing the noise profile rate does match the track rate, you can still apply the effect. Alternatively, change the project rate temporarily to the rate of the track.
 
-#### Effects (real-time preview)
+### Effects (real-time preview)
 
 * **Real-time preview doesn't yet compensate for the latency many plug-ins introduce in order to provide smooth processing of audio.** Real-time preview therefore may have small gaps in the audio, or timing artifacts may be audible when previewing multiple tracks. Compensation is applied when applying the effect, unless you disable compensation in the options for the effect).
 * Unlike with built-in effects, it is necessary to select a track to open a real-time preview effect (VST, LADSPA or Audio Units), and to select audio in a track to apply the effect.
 
-#### Envelopes and Clips
+### Envelopes and Clips
 
 * **A clip may now be vertically dragged from inside a selection region, but if that region extends over the edge of the clip into space or into an adjoining clip there may be unexpected behavior**:
   * one channel of a stereo clip may jump sideways
@@ -224,7 +209,7 @@
 * Left-clicking in a stereo track to merge a clip at a split line may cause other clips to move. It is believed this only happens after having used the Track Drop-Down Menu to make two mono tracks into stereo. **Workaround:** Select over the split line and Edit > Clip Boundaries > Join.
 * When pasting audio into tracks with envelope points, the envelope points may move in unexpected ways, so causing unwanted amplitude adjustments.
 
-#### Exports
+### Exports
 
 * (Linux) Exports using "M4A (AAC) Files" are very slow irrespective of the AAC encoder FFmpeg is configured to use. Workaround: choose (external program) when exporting, entering an appropriate path and command (for example, /usr/bin/ffmpeg -i - "%f") to run FFmpeg using Audacity's command-line encoder.
 * (Linux) Files exported using the **FFmpeg native AAC encoder** included with many system versions of FFmpeg may be of poor quality. This is an issue with the library itself. **Workaround:** When compiling FFmpeg, configure with the libfaac encoder thus: --disable-encoder=aac --enable-libfaac --enable-nonfree. Note that libfaac has an issue not present in the native FFmpeg encoder that saved files are short at the end by about 3000 samples. Alternatively build the VisualOn AAC encoder library and configure FFmpeg with --disable-encoder=aac --disable-encoder=libfaac --enable-libvo-aacenc.
@@ -233,7 +218,7 @@
 * Custom FFmpeg Export: many combinations of formats and codecs are incompatible, as are some combinations of general options and codecs. Some files may be exported as zero kb files.
 * WAVEX (Microsoft) headers: GSM 6.10 files cannot be exported, and U-Law/A-Law files may not be playable.
 
-#### Imports and Exports
+### Imports and Exports
 
 * **AAC exports using "M4A (AAC) Files (FFmpeg)" with project rate below 22050 Hz produce a zero bytes file if the linked to FFmpeg is configured with the default AAC encoder or libfaac.** This will not affect the recommended builds of FFmpeg for Windows and Mac OS X which are built with libvo-aacenc. **Workaround:** You can export AAC below 22050 Hz using default-configured FFmpeg by choosing (external program) export instead.
 * **Files containing PCM audio but misnamed as MP3 cause a freeze or crash** if an Extended Import rule is set in Preferences to force import of MP3 files using the MP3 importer.
@@ -262,21 +247,20 @@
 * **Import > Raw Data... imports files as noise** if the Quality Preferences are set to 24-bit Default Sample Format. Set this to 16-bit or 32-bit float instead.
 * **WAV and AIFF exports will fail without warning** if you import a WAV or AIFF by [reading it directly](https://manual.audacityteam.org/o/man/import\_export\_preferences.html), delete the file and its track then export new audio to the same file name and location as the deleted file. **Workaround:** Set the Preference in the above link to "Make a copy" of uncompressed files when importing.
 * (OS X) Audio files containing a backslash (\\) in the name will fail "Could not open file" if you import them using File > Open... , File > Import > Audio... or File > Open Recent. This is a bug in wxWidgets. **Workaround:** Drag the file into the Audacity window instead.
-*
 * **Dither (corrective soft noise) is applied by default when it should not be applied** when exporting to most formats having the same or higher bit depth than the project. For example, this occurs if exporting to 16-bit WAV, 16-bit FLAC or MP3 from a 16-bit project. OGG is unaffected. **Workarounds:** Set "High Quality" dither to "None" in the [Quality Preferences](https://manual.audacityteam.org/o/man/quality\_preferences.html). To fix any files that have already been affected, see [this Forum topic](https://forum.audacityteam.org/viewtopic.php?f=28\&t=38756).
 * On a fresh installation of Audacity or [initialized Preferences](https://manual.audacityteam.org/help/manual/man/preferences.html#stored), the optional FFmpeg library cannot be used for import of native Audacity formats such as WAV, AIFF or MP3. **Workaround:** Open Preferences and click "OK".
 * When importing a MIDI track, the channel selection buttons to left of the track are not currently available.
 
-#### Imports and Exports (FFmpeg)
+### Imports and Exports (FFmpeg)
 
 * **In the "Custom FFmpeg Export" dialog, saved or imported presets do not load. Attempting to import a preset crashes Audacity** unless the "ffmpeg\_presets.xml" file in Audacity's folder for application data is empty or does not exist.
 * M4A (AAC) exports: The Quality Slider in "Specify AAC Options" has no effect if the FFmpeg library is built with the libvo-aac encoder, as are recommended builds of FFmpeg for Windows and Mac OS X. **Workaround:** You can specify a constant bit rate if you select "Custom FFmpeg Export". Click the Options... button, choose "mp4" in the formats list and "libvo\_aacenc" in the codecs list, then set bit rate in bits per second. Up to 320000 bps (320 kbps) is supported. Given the alternative AAC encoders for FFmpeg also have problems as described in these notes, you can instead export as WAV and convert to AAC in iTunes on Windows and Mac.
 
-#### Installation
+### Installation
 
 * (OS X 10.6 or later) Administrative (and occasionally, root) permissions may be needed on some machines to read the optional LAME libraries at /usr/local/lib/audacity. In case of difficulty, please download the zip version "Lame Library v3.98.2 for Audacity on OSX.zip" from the [download site](https://lame.buanzo.org/) and extract the files to your own preferred location.
 
-#### Interface
+### Interface
 
 * (Linux) **Opening the Audio Track Dropdown Menu to change settings may result in that track changing sample rate or sample format to match that of other tracks.**
 * (Linux) If Audacity is configured with the option to use libsamplerate, an action involving resampling outside libsamplerate's limits of 1/256 to 256x will cause the progress dialogue to hang, or possibly a crash.
@@ -319,17 +303,17 @@ For Package Maintainers / Distributors / anyone building against 2.8.10: The ups
 * Dragging a clip or track up or down with Time Shift Tool does not scroll the project window when tracks exist out of view above or below the scroll. **Workaround:** Choose View > Fit Vertically before drag, or click and hold the piece to be dragged, use up or down arrow on the keyboard to scroll to the target track, then drag and release the clip or track.
 * Sync-Locked Tracks are not affected by all actions that change the length of a track in the Sync-Locked Track Group. Applying Paulstretch or using the Audio Track dropdown menu to change sample rate will leave the other Sync-Locked tracks desynchronised.
 
-#### Keyboard Shortcuts
+### Keyboard Shortcuts
 
 * (Windows) SHIFT + A (Play/Stop and Set Cursor) and custom unmodified shortcuts for playback or recording write a label at the cursor position if the label track has the yellow focus border. **Workaround:** use up or down arrow to move focus out of the label track before using the shortcut.
 
-#### Label Tracks
+### Label Tracks
 
 * (Linux) In projects containing several hundred labels or more, Audacity will freeze on 100% CPU when opening the "Audacity Karaoke" window, and will freeze again while that window is open when editing a label or performing other actions on the project. Workaround: Open or place an empty label track above the one you want to use.
 * Unless Tracks > Sync-Lock Tracks is on, pasting or inserting audio does not affect labels even if the label track is included in the selection.
 * **Yellow "snap" guidelines do not appear in re-opened projects or imported label tracks** when dragging a selection to a label edge if "Snap To" is checked and a high resolution Selection Format chosen. Formats affected include "hh:mm:ss + CDDA frames (75 fps)", "hh:mm:ss + milliseconds" and "hh:mm:ss + samples".
 
-#### Miscellaneous platform-specific issues
+### Miscellaneous platform-specific issues
 
 *   (Linux) **A playback or recording freeze, recording dropouts or fast playback may occur when using PulseAudio.** Freezes may be caused by repeatedly starting and stopping playback or recording in quick succession (or by holding down the Play or Record button). **Workarounds:** Try launching Audacity from the terminal with the pulse latency set to 30 ms in an environment variable:
 
@@ -339,14 +323,14 @@ For Package Maintainers / Distributors / anyone building against 2.8.10: The ups
 * (Mac OS X) If using Audacity when the "Hear" audio plug-in is running (or has been since boot), there will be excessive memory usage which could cause a crash: this appears to be due to buggy memory allocation in "Hear"
 * (Mac OS X) Very occasionally, users may find that after running Audacity, other media players don't produce any sound, or crash: to resolve this, set up your sound device in Apple Audio MIDI Setup to work in stereo, 16-bit, with a sample rate of 44100 Hz or 48000 Hz, and set the sample format and rate identically in Audacity. More help at: [http://audacityteam.org/forum/viewtopic.php?f=17\&t=5064](http://audacityteam.org/forum/viewtopic.php?f=17\&t=5064)
 
-#### Mixer Board
+### Mixer Board
 
 * **Soloing or unsoloing a track in Mixer Board when in "Standard" Solo button mode** may not immediately update the Solo button or waveform greyed/ungreyed state in the project window. **Workaround:** Click anywhere in (or task switch back to) the project window to refresh it (on Mac, you must click in the waveform or Track Control Panel or wait for the tracks to scroll when playing).
 * (Windows and Linux) If Mixer Board is open and more tracks are added so that the horizontal scrollbar must be used, newly added tracks may not be visible or newly deleted tracks may show as empty space. **Workaround:** To see all the tracks without redundant space, close and reopen the project then reopen Mixer Board.
 * If you change the meter range in Preferences this is not reflected in the Mixer Board meters until restart.
 * (Linux) Meters may not respond immediately to playback which could cause them to report incorrect peak level or not display clipping.
 
-#### Playback and Recording
+### Playback and Recording
 
 * **Append Record with Transport > Overdub (on/off) enabled may cause periodic playthrough** of previously recorded audio. If you use the Stop button or SPACE to stop the previous recording instead of SHIFT + A (Stop and Set Cursor), this may reduce occurrences of the issue.
 * (OS X and Linux) Audacity now works very well with [JACK](http://jackaudio.org/), with the following bugs and limitations:
@@ -386,7 +370,7 @@ For Package Maintainers / Distributors / anyone building against 2.8.10: The ups
 * (Windows Vista, 7) If you change the explicit output and/or input device selected in Device Toolbar or Devices Preferences and then change "Host", the selected devices will change back to those originally selected.
 * (Windows XP and earlier) Changing the default playback or recording devices in the Windows Control Panel while Audacity is open may cause all the playback or recording choices in Device Toolbar to produce silence (or to fail with "Error opening sound device"). This problem may also occur when connecting or disconnecting a USB device while Audacity is open. **Workaround:** Click Transport > Rescan Audio Devices then you can play or record.
 
-#### Program Launch
+### Program Launch
 
 * (Linux) If a Bluetooth audio device is in use on a PulseAudio system, Audacity may hang on launch on initial attempts, then after eventual launch Bluetooth will no longer work on the system. **Workarounds:**
   * Remove and reconnect the external Bluetooth adaptor, then launch bluetooth-applet from the command line.
@@ -396,7 +380,7 @@ For Package Maintainers / Distributors / anyone building against 2.8.10: The ups
   * **VST instruments will appear in the list but are not supported**, so will **not** load even if checkmarked.
   * The dialog is on top of other windows, so could hide any prompts that VST effects show when effects are loaded after pressing OK. This would be evident by the "loading progress" arrow in the check boxes coming to a halt and the VST dialog losing focus. To continue loading the effects in this case, press ENTER on your keyboard to OK the hidden prompt, or drag the VST dialog away to reveal the prompt then click OK on the prompt.
 
-#### Projects
+### Projects
 
 * **There are currently no message box warnings when projects run out of disk space.** If you run out of disk space when editing or recording, patches of silent or corrupted audio will appear, which will also be present if you save and reopen the project. Be aware that every edit on a track takes as much in disk space as if you were recording that track, due to the ability to undo and redo. You can go to View > History and discard Undo levels to free up space.
 * (OS X and Linux) Entering a backslash "\\" in a file name when saving a project gives a "Could not save project. Path not found." error.
@@ -410,19 +394,19 @@ For Package Maintainers / Distributors / anyone building against 2.8.10: The ups
 * If you encounter the "Problems Reading Sequence Tags" message, please write to our [feedback address](https://web.audacityteam.org/contact/#feedback) with a copy of the .aup file and the log as found at Help > Show Log.
 * Time Track warp points saved in a 2.0.3 or later project will be preserved if opened in previous Audacity versions, but playback and display will be incorrect.
 
-#### Spectrograms
+### Spectrograms
 
 * **The displayed level of the upper, lower and center frequency lines is slightly inaccurate in linear Spectrogram view**, and may drift up or down above the true level when zooming in or out on the vertical scale. You can use Spectrogram log(f) view or set the frequencies accurately in Spectral Selection Toolbar.
 
-#### Sync-Locked Track Groups
+### Sync-Locked Track Groups
 
 * **If Sync-Locked Track Groups are enabled but "Editing a clip can move other clips" in Tracks Preferences is disabled**, sometimes not all sync-lock-selected tracks will be affected by Timeline-changing edits, and sometimes audio clips may be removed. You can Edit > Undo any unwanted changes.
 
-#### Time Tracks
+### Time Tracks
 
 * The lower and upper speed limits are not stored in the project, so will be restored to their default values of 90 and 110 respectively when reopening or recovering a project, or if removing a Time Track then undoing removal. Please make a note of the correct values before closing the project or the Time Track.
 
-#### Toolbars
+### Toolbars
 
 * **Draw Tool: Holding CTRL to only move one sample then pressing Z (COMMAND + Z on Mac) to undo while still holding the mouse button will cause that track to be removed.** The removal of that track cannot be undone.
 * (OS X and Linux) **Draw Tool:** Using keyboard Undo while dragging sample points will crash Audacity (this affects Draw Tool and Multi-Tool).
@@ -430,10 +414,19 @@ For Package Maintainers / Distributors / anyone building against 2.8.10: The ups
 * **Meter Toolbar vertical orientation** is not remembered across sessions, and resizing the meters reverts from vertical to horizontal.
 * (Windows XP) **Transport and Tools Toolbar buttons all display as Pause buttons.** The buttons may redraw correctly if you hover over them. **Workaround:** You can use [keyboard shortcut alternatives](https://manual.audacityteam.org/o/man/keyboard\_shortcut\_reference.html) for the buttons instead.
 
-### Bugs requiring more investigation
+## Bugs requiring more investigation
 
-|   | <ul><li>Very occasionally, Audacity projects may reopen with missing block files, orphan block files and/or silenced audio data. There may be unwanted renaming or moving of AU files within the project. We believe having multiple projects open at once or having projects open in file manager programs are among the possible causes. See Bug:137 for more background to this.</li><li>The AUP file may be saved with references to only a few of the AU files, again leading to "orphan block file" warnings. Sometimes the AUP file may not be found after saving and closing the project.</li><li>Sometimes errors occur when saving the project or when Audacity autosaves, perhaps wrongly suggesting the disk is full or not writable (if this happens, try exporting the audio as WAV).</li></ul><p>Please write to our <a href="https://web.audacityteam.org/contact/#feedback">feedback address</a> if you encounter any of the above symptoms. As many as possible of the following will help us enormously if you can attach them to your report:</p><ul><li>A copy of the saved AUP project file</li><li>A copy of the AUTOSAVE (temporary project) file. This file is stored inside the "AutoSave" folder in Audacity's <a href="https://manual.audacityteam.org/o/man/preferences.html#stored">application data folder</a>.</li><li>For problems that occur when reopening or working in a project, the log file at Help > Show Log....</li></ul> |
-| - | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+{% hint style="info" %}
+* Very occasionally, Audacity projects may reopen with missing block files, orphan block files and/or silenced audio data. There may be unwanted renaming or moving of AU files within the project. We believe having multiple projects open at once or having projects open in file manager programs are among the possible causes. See Bug:137 for more background to this.
+* The AUP file may be saved with references to only a few of the AU files, again leading to "orphan block file" warnings. Sometimes the AUP file may not be found after saving and closing the project.
+* Sometimes errors occur when saving the project or when Audacity autosaves, perhaps wrongly suggesting the disk is full or not writable (if this happens, try exporting the audio as WAV).
+
+Please write to our [feedback address](https://web.audacityteam.org/contact/#feedback) if you encounter any of the above symptoms. As many as possible of the following will help us enormously if you can attach them to your report:
+
+* A copy of the saved AUP project file
+* A copy of the AUTOSAVE (temporary project) file. This file is stored inside the "AutoSave" folder in Audacity's [application data folder](https://manual.audacityteam.org/o/man/preferences.html#stored).
+* For problems that occur when reopening or working in a project, the log file at Help > Show Log....
+{% endhint %}
 
 * (Linux) If Audacity is compiled with the option to use libsamplerate and the default "Best Sinc Interpolator" for high-quality conversion is used, Tracks > Resample may lead to truncation of the waveform. Workaround: change the project rate to the desired rate, export the track and re-import it.
 * (Windows Vista) If you change the input volume in Audacity and then record, the volume is reset to its original level. This appears to occur mostly with a few specific USB devices, and sometimes only on Vista SP1, so it is currently hard for us to fix. **Workaround:** Check if the manufacturer supplies their own drivers for the device and try those. See if upgrading to Vista SP2 or Windows 7 helps.

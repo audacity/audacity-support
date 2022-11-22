@@ -6,81 +6,55 @@
 * **Summary of bug fixes and new features between 1.2.6 and 2.0.0**
 * **Issues** with 2.0.0 which were known at time of release.
 
-|   | **Tip:** You can use CTRL + F to search this page for different words to do with the issue you are looking for. Use Command - F on Mac. |
-| - | --------------------------------------------------------------------------------------------------------------------------------------- |
+{% hint style="info" %}
+**Tip:** You can use CTRL + F to search this page for different words to do with the issue you are looking for. Use Command - F on Mac.
+{% endhint %}
 
-### Contents
+{% hint style="info" %}
+**Notes for Windows:**
 
-* [1 Changes between 1.3.14 and 2.0.0](broken-reference)
-  * [1.1 Bug fixes](broken-reference)
-    * [1.1.1 Interface](broken-reference)
-    * [1.1.2 Imports and Exports](broken-reference)
-    * [1.1.3 Effects and Analysis](broken-reference)
-    * [1.1.4 Other miscellaneous bug fixes](broken-reference)
-  * [1.2 Changes and Improvements](broken-reference)
-* [2 Summary of bug fixes and new features between 1.2.6 and 2.0.0](broken-reference)
-  * [2.1 Bug Fixes](broken-reference)
-  * [2.2 New features](broken-reference)
-* [3 Known Issues at Release](broken-reference)
-  * [3.1 Headline issues](broken-reference)
-    * [3.1.1 Large Projects](broken-reference)
-    * [3.1.2 Problems reopening, saving or crashing in projects](broken-reference)
-  * [3.2 Changes and Improvements](broken-reference)
-  * [3.3 Program Launch](broken-reference)
-  * [3.4 Installation](broken-reference)
-  * [3.5 Imports and Exports](broken-reference)
-  * [3.6 Interface](broken-reference)
-  * [3.7 Playback and Recording](broken-reference)
-  * [3.8 Effects and Analysis](broken-reference)
-  * [3.9 Projects](broken-reference)
-  * [3.10 Accessibility](broken-reference)
-  * [3.11 Chains](broken-reference)
-  * [3.12 Clips](broken-reference)
-  * [3.13 Compiling](broken-reference)
-  * [3.14 Label Tracks](broken-reference)
-  * [3.15 Mixer Board](broken-reference)
-  * [3.16 Preferences](broken-reference)
-  * [3.17 Toolbars](broken-reference)
-  * [3.18 Miscellaneous platform-specific issues](broken-reference)
-  * [3.19 Bugs requiring more investigation](broken-reference)
+* Users upgrading to 2.0.0 from 1.3.6 or earlier must download the [latest version](https://manual.audacityteam.org/help/manual/man/faq\_installation\_and\_plug\_ins.html#lame) of the LAME MP3 encoder.
+* The Windows installer for 2.0.0 will replace 1.2.x installations, but install alongside 1.3.x Beta versions. As 2.0.0 also replaces the 1.3.x series, it is strongly recommended to uninstall previous Beta versions.
+* You may see the error **Application configuration incorrect** when launching Audacity after installation. This mainly affects some Windows XP or 2000 machines. This can be fixed by downloading and installing the appropriate Microsoft "Redistributable Package" as follows:
+  * [Microsoft Visual C++ 2008 SP1 Redistributable Package (x86)](https://www.microsoft.com/en-us/download/details.aspx?id=5582) for 32-bit Windows
+  * [Microsoft Visual C++ 2008 SP1 Redistributable Package (x64)](https://www.microsoft.com/en-us/download/details.aspx?id=2092) for 64-bit Windows.
+* Be sure to get the correct package according to whether you have 32-bit or 64-bit Windows. To check, right-click over and choose . If 64-bit is not mentioned, you have 32-bit.
+{% endhint %}
 
-|   | <p><strong>Notes for Windows:</strong></p><ul><li>Users upgrading to 2.0.0 from 1.3.6 or earlier must download the <a href="https://manual.audacityteam.org/help/manual/man/faq_installation_and_plug_ins.html#lame">latest version</a> of the LAME MP3 encoder.</li><li>The Windows installer for 2.0.0 will replace 1.2.x installations, but install alongside 1.3.x Beta versions. As 2.0.0 also replaces the 1.3.x series, it is strongly recommended to uninstall previous Beta versions.</li><li><p>You may see the error <strong>Application configuration incorrect</strong> when launching Audacity after installation. This mainly affects some Windows XP or 2000 machines. This can be fixed by downloading and installing the appropriate Microsoft "Redistributable Package" as follows:</p><ul><li><a href="https://www.microsoft.com/en-us/download/details.aspx?id=5582">Microsoft Visual C++ 2008 SP1 Redistributable Package (x86)</a> for 32-bit Windows</li><li><a href="https://www.microsoft.com/en-us/download/details.aspx?id=2092">Microsoft Visual C++ 2008 SP1 Redistributable Package (x64)</a> for 64-bit Windows.</li></ul></li></ul><ul><li>Be sure to get the correct package according to whether you have 32-bit or 64-bit Windows. To check, right-click over and choose . If 64-bit is not mentioned, you have 32-bit.</li></ul> |
-| - | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+## Changes between 1.3.14 and 2.0.0
 
-### Changes between 1.3.14 and 2.0.0
+### Bug fixes
 
-#### Bug fixes
-
-**Interface**
+#### **Interface**
 
 * Fixed playback speed and synchronization problems when dragging clips or tracks between tracks having different sample rates.
 * (Windows) Removed a crash risk where shortcuts could be used to record or import in one project while importing or exporting in another.
 
-**Imports and Exports**
+#### **Imports and Exports**
 
 * Fixed crashes when changing the sample format of read-directly WAV or AIFF files using the Track Dropdown Menu.
 * Fixed a crash importing MP3 files that had duplicate metadata tags (this is a bug in current libsndfile which has been patched in Audacity; MP3 files mislabeled as WAV which have duplicate tags will still crash Audacity on Linux if Audacity has been compiled against an affected version of system libsndfile).
 * Fixed an issue where excessively high or corrupted sample values in the audio could corrupt exports from the start of the problem for the rest of the file, and could corrupt the rest of the project.
 * (Linux) Fixed Audacity could not be compiled against FFmpeg 0.7.x and 0.8.x.
 
-**Effects and Analysis**
+#### **Effects and Analysis**
 
 * Fixed crash on launch when using "Ambisonic Decoders (PC)" VST plug-ins and other plug-ins that enable additional floating point exceptions.
 * Fixed Plot Spectrum background could be transparent on some machines.
 * Bug fixes for Click Track, High Pass, Low Pass and Vocal Remover.
 * Chirp, Tone and Silence generators now remember their settings.
 
-**Other miscellaneous bug fixes**
+#### **Other miscellaneous bug fixes**
 
-#### Changes and Improvements
+### Changes and Improvements
 
 * New Interface preference to show the track name in the display (this is off by default).
 * Longer default Playback preference for effects preview and preview before cut.
 * Restored use of Page Up and Page Down to scroll horizontally.
 
-### Summary of bug fixes and new features between 1.2.6 and 2.0.0
+## Summary of bug fixes and new features between 1.2.6 and 2.0.0
 
-#### Bug Fixes
+### Bug Fixes
 
 * Labels now accept lower case "z".
 * (Windows Vista/7) Pressing Stop after recording could cause a crash.
@@ -88,9 +62,9 @@
 * (Mac OS X) Audacity 2.0.0 fully supports Unicode, which fixes an issue where Audacity could not work with folders having non-English characters in their name.
 * (Linux) Playing existing tracks while recording in mono could cause recordings to be distorted or low-pitched.
 
-#### New features
+### New features
 
-These are some of the dozens of [new features in 2.0.0](https://web.audacityteam.org/about/features).
+These are some of the dozens of new features in 2.0.0.
 
 * Many effects significantly improved, especially Equalization, Noise Removal and Normalize. Vocal Remover now included plus GVerb on Windows and Mac. VAMP analysis plug-ins now supported.
 * Improved label tracks with Sync-Lock Tracks feature in the Tracks Menu.
@@ -100,15 +74,15 @@ These are some of the dozens of [new features in 2.0.0](https://web.audacityteam
 * Fast "On-Demand" import of WAV/AIFF files if read directly from source.
 * FLAC now fully supported. Added support for optional FFmpeg library for import/export of AC3/M4A/WMA and import of audio from video files.
 
-### Known Issues at Release
+## Known Issues at Release
 
-#### Headline issues
+### Headline issues
 
-**Large Projects**
+#### **Large Projects**
 
 Projects with more than 2^31 samples (just over 13.5 hours at 44100 Hz) will not re-open correctly. Higher sample rates mean proportionally shorter times - so just over 6 hours at 96,000 Hz. We know the cause, and do intend to address this bug. **Workaround:** Before saving or closing the project, export to audio files of appropriate size, or cut and paste sections of audio containing less than 2^31 samples to new Audacity projects and save those.
 
-**Problems reopening, saving or crashing in projects**
+#### **Problems reopening, saving or crashing in projects**
 
 The following problems are very rare, but have the potential for losing data. The developers have not yet been able to reproduce these problems so please write to our [feedback address](https://web.audacityteam.org/contact/#feedback) if you encounter any of these symptoms.
 
@@ -127,14 +101,19 @@ To avoid any problems, export a WAV or AIFF file from your project before closin
 
 **Please tell us all the actions you recall both the last time you had the project open and what happened this time, including error messages.** We believe having multiple projects open at once, having projects open in file manager programs or long projects with many tracks are among the possible causes.
 
-|   | <p>As many as possible of the following will help us enormously if you can attach them to your report:</p><ul><li>A copy of the saved .aup project file</li><li>A copy of the "autosave" (temporary project) file. The "autosave" file is stored inside the "AutoSave" folder in Audacity's <a href="https://manual.audacityteam.org/man/Preferences#stored">application data folder</a>.</li><li>For problems that occur when reopening or working in a project, the log file at Help > Show Log....</li></ul> |
-| - | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+{% hint style="warning" %}
+As many as possible of the following will help us enormously if you can attach them to your report:
 
-#### Changes and Improvements
+* A copy of the saved .aup project file
+* A copy of the "autosave" (temporary project) file. The "autosave" file is stored inside the "AutoSave" folder in Audacity's [application data folder](https://manual.audacityteam.org/man/Preferences#stored).
+* For problems that occur when reopening or working in a project, the log file at Help > Show Log....
+{% endhint %}
+
+### Changes and Improvements
 
 * CleanSpeech Mode (a customized interface with reduced menus and stored effects presets) is no longer officially supported. We may reintroduce a new system of alternative presets and simplified menus in a later Audacity. However any users who had CleanSpeech enabled in 1.3.13 or earlier 1.3 versions will still have it enabled without any way to turn it off in the program. **Workaround:** To turn off CleanSpeech, either turn it off in the Interface Preferences of a previous 1.3 version, or exit Audacity, open [audacity.cfg](https://manual.audacityteam.org/man/Preferences#stored) in a text editor and remove the line "CleanSpeechMode=1". Alternatively, change the value 1 to 0 to turn CleanSpeech off, and set it back to 1 to re-enable CleanSpeech.==
 
-#### Program Launch
+### Program Launch
 
 * (Linux) If a Bluetooth audio device is in use on a PulseAudio system, Audacity may hang on launch on initial attempts, then after eventual launch Bluetooth will no longer work on the system. **Workarounds:**
   * Remove and reconnect the external Bluetooth adaptor, then launch bluetooth-applet from the command line.
@@ -142,20 +121,22 @@ To avoid any problems, export a WAV or AIFF file from your project before closin
 * (Windows and OS X) **VST/Audio Units Plug-ins:** On first use and otherwise when requested, Audacity scans for and loads VST effects before the main interface appears. On OS X, Audio Unit effects are always loaded, which can lead to a very slow launch if there are multiple plug-ins. Occasionally, an incompatible or badly written plug-in may lead to a crash or freeze on launch. Known plug-ins affected:
   * **Waves Version 7 Audio Units on OS X**
   * **Native Instruments Guitar Rig v3 and v4 on OS X** (v5 does not have this issue).
-* In a future version of Audacity we aim to defer loading of plug-ins until they are requested in the Effect menu. **Workaround:** If VST/AudioUnit effects are not needed in Audacity, force quit Audacity, open "audacity.cfg" inside Audacity's [folder for application data](https://manual.audacityteam.org/man/Preferences#stored) then add or edit the following as required:
-*
-  * \[AudioUnits]\
-    Enable=0\
-    \[VST]\
-    Enable=0\
-    Rescan=0
-* If plug-ins were the problem, Audacity should now launch.
 
-#### Installation
+In a future version of Audacity we aim to defer loading of plug-ins until they are requested in the Effect menu. **Workaround:** If VST/AudioUnit effects are not needed in Audacity, force quit Audacity, open "audacity.cfg" inside Audacity's [folder for application data](https://manual.audacityteam.org/man/Preferences#stored) then add or edit the following as required:
+
+`[AudioUnits]`\
+`Enable=0`\
+`[VST]`\
+`Enable=0`\
+`Rescan=0`
+
+If plug-ins were the problem, Audacity should now launch.
+
+### Installation
 
 * (OS X 10.6 or later) Administrative (and occasionally, root) permissions may be needed on some machines to read the optional LAME and FFmpeg libraries at /usr/local/lib/audacity. In case of difficulty, please download the zip versions "Lame Library v3.98.2 for Audacity on OSX.zip" and "FFmpeg v0.6.2 for Audacity on OSX.zip" from the [download site](http://lame1.buanzo.com.ar/) and extract the files to your own preferred location.
 
-#### Imports and Exports
+### Imports and Exports
 
 * **By default, the importer used depends on the import method.** For example, to be able to use [FFmpeg](https://manual.audacityteam.org/man/FAQ:Installation\_and\_Plug-Ins#installffmpeg) to import native Audacity formats like WAV and MP3, you must choose the "FFmpeg-compatible files" filter in File > Open or File > Import > Audio and **always use one of those import methods**. To force FFmpeg to import native Audacity formats when using File > Recent Files or dragging in, add rules for those formats in [Extended Import Preferences](https://manual.audacityteam.org/man/Extended\_Import\_Preferences). To force FFmpeg import irrespective of the filter when using File > Open or File > Import > Audio, uncheck "Attempt to use filter in OpenFile dialog first" in Extended Import Preferences as well as adding the rule for the format.
 * (Linux) **AAC exports** produce a zero bytes file if the Audacity project rate is below 22050 Hz. Additionally, the "Quality" slider in AAC export Options has no effect on the exported bitrate. "**Workaround:** Export as WAV and convert to AAC using FFmpeg at the terminal.
@@ -185,7 +166,7 @@ To avoid any problems, export a WAV or AIFF file from your project before closin
 * If WAV/AIFF files are imported into a project using "Read Directly" import but then become unavailable, warnings are given when playing, recording, applying effects and exporting, but not all editing and project save actions are warned.
 * (Windows Vista, 7) Audacity will crash if attempting to open WAV files while they are still being rendered by the open source Psycle tracker program.
 
-#### Interface
+### Interface
 
 * Dragging a clip or track up or down with Time Shift Tool does not scroll the project window when tracks exist out of view above or below the scroll. **Workaround:** Choose View > Fit Vertically before drag, or click and hold the piece to be dragged, use up or down arrow on the keyboard to scroll to the target track, then drag and release the clip or track.
 * **Selections locked to/only possible to click at whole seconds:** We know that it is easy to check the "Snap To" box in [Selection Toolbar](https://manual.audacityteam.org/man/Selection\_Toolbar) by mistake, which means you can't then select less than a whole second or click other than at a whole second. We will look for a solution that keeps Snap To discoverable but makes it harder to enable by accident.==
@@ -227,7 +208,7 @@ For Package Maintainers / Distributors / anyone building against 2.8.10: The ups
   * Using Cut, Copy, Paste, Delete or Silence Audio.
 * The delay may be more evident on slower computers. In addition, label text may not be recovered if there is a crash.
 
-#### Playback and Recording
+### Playback and Recording
 
 * (Windows Vista, 7) If you change the explicit output and/or input device selected in Device Toolbar or Devices Preferences and then change "Host", the selected devices will change back to those originally selected.
 * (Windows XP and earlier) Changing the default playback or recording devices in the Windows Control Panel while Audacity is open may cause all the playback or recording choices in Device Toolbar to produce silence (or to fail with "Error opening sound device"). This problem may also occur when connecting or disconnecting a USB device while Audacity is open. **Workaround:** Click Transport > Rescan Audio Devices then you can play or record.
@@ -252,7 +233,7 @@ For Package Maintainers / Distributors / anyone building against 2.8.10: The ups
 
       **Note:** Multichannel Recording in Audacity is often not possible with professional devices unless you compile Audacity with ASIO support.
 
-#### Effects and Analysis
+### Effects and Analysis
 
 * Cut Preview only plays the upper track of multiple selected or Sync-Locked tracks.
 * LADSPA Multiband EQ may not be visible in Effect menu (occurs on Windows XP), and crashes soon after opening
@@ -267,7 +248,7 @@ For Package Maintainers / Distributors / anyone building against 2.8.10: The ups
 * (Windows 64-bit) There is no HKEY\_LOCAL\_MACHINE\SOFTWARE\ registry key where Audacity detects VST plug-ins. The HKEY\_CURRENT\_USER key searched is HKEY\_CURRENT\_USER\Software\VST\VSTPluginsPath instead of the expected HKEY\_CURRENT\_USER\SOFTWARE\Wow6432Node\VST .
 * **Nyquist effects may crash Audacity if used on extremely long selections** containing more than 2^31 samples (just over 13.5 hours at 44100 Hz). **Workaround** Apply the effect to multiple shorter regions (you can drag the selection back on itself to create a region contiguous with the previous one). Also note that projects containing more than 2^31 samples of total audio cannot be correctly saved.
 
-#### Projects
+### Projects
 
 * **Projects containing more than 2^31 samples (just over 13.5 hours of audio at 44100 Hz) will re-open empty** with the entire data being seen as "orphaned files" (although the data "appears" to be in the correct location expected by the .aup file). **Workaround:** Before saving or closing the project, export to audio files of appropriate size, or cut and paste sections of audio containing less than 2^31 samples to new Audacity projects and save those.
 * It is no longer possible to use Save Project or Save Project As to overwrite another pre-existing project, even if that project is not in use. Functionality to overwrite a project not in use will be restored in a future version of Audacity when we are sure it will always be safe.
@@ -280,7 +261,7 @@ For Package Maintainers / Distributors / anyone building against 2.8.10: The ups
   * If you encounter the "Problems Reading Sequence Tags" message, please write to our [feedback address](https://web.audacityteam.org/contact/#feedback) with a copy of the .aup file and the log as found at Help > Show Log.
 * **There are currently no message box warnings when projects run out of disk space.** If you run out of disk space when editing or recording, patches of silent or corrupted audio will appear, which will also be present if you save and reopen the project. Be aware that every edit on a track takes as much in disk space as if you were recording that track, due to the ability to undo and redo. You can go to View > History and discard Undo levels to free up space.==
 
-#### Accessibility
+### Accessibility
 
 * (Linux) If you TAB into "Snap To" in Selection Toolbar, the selection and focus will become trapped. A mouse click elsewhere will be required to free the focus. **Workaround:** Access the required part of Selection Toolbar with TAB or SHIFT + TAB so as to avoid Snap To. Snap To can be set on or off by exiting Audacity, show hidden files and folders then add or edit the line "SnapTo=1" or "SnapTo=0" (without quotes, for on or off respectively) in \~/.audacity-data/audacity.cfg.
 * Many, but not all parts of the Audacity interface are accessible on Windows to those who can't use a mouse, and/or use a screen reader. It may be possible to make more of Audacity accessible in the longer term. For details, see [https://manual.audacityteam.org/man/Accessibility](https://manual.audacityteam.org/man/Accessibility) .
@@ -293,45 +274,45 @@ There are some accessibility bugs in the parts of Audacity that are accessible.
 * Some interface text or markings remain in black when using High Contrast light-on-dark themes, so cannot be read properly
 * The yellow track focus border remains "on" even when toolbars or dialogs have focus.
 
-#### Chains
+### Chains
 
 * (Linux) When configuring effect parameters in "Edit Chains", the "Preview" button is not intended to be functional. Pressing it may cause a crash.
 
-#### Clips
+### Clips
 
 * Left-clicking in a stereo track to merge a clip at a split line may cause other clips to move. It is believed this only happens after having used the Track Dropdown Menu to make two mono tracks into stereo. **Workaround:** Select over the split line and Edit > Clip Boundaries > Join.
 
-#### Compiling
+### Compiling
 
 * (Windows) Compilation with Visual Studio 2010 is not supported or recommended. See the Wiki page [Developing on Windows](https://wiki.audacityteam.org/wiki/Developing\_On\_Windows#What\_about\_Visual\_Studio\_2010.3F\_\_Or\_64-bit.3F) for information.
 * (Windows) LADSPA effects cannot be categorized even when Audacity is compiled with USE\_LIBLRDF defined.
 
-#### Label Tracks
+### Label Tracks
 
 * (Linux) In projects containing several hundred labels or more, Audacity will freeze on 100% CPU when opening the "Audacity Karaoke" window, and will freeze again while that window is open when editing a label or performing other actions on the project. Workaround: Open or place an empty label track above the one you want to use.
 * Typing "j", "J", "k" or"K" in a label track may activate the "move cursor" or "select to/from cursor" shortcut instead. **Workaround:** click Edit > Preferences: Keyboard, choose the "Edit" category then change the shortcuts for "Move Cursor to Track Start", "Move Cursor to Track End", "Select Track Start to Cursor" and "Select Cursor to Track End" to something else (or clear them).
 * Unless Tracks > Sync-Lock Tracks is on, pasting or inserting audio does not affect labels even if the label track is included in the selection.
 
-#### Mixer Board
+### Mixer Board
 
 * (Linux) Meters may not respond immediately to playback which could cause them to report incorrect peak level or not display clipping.
 * Meter range does not reflect a change in the dB range meter preferences until restart
 
-#### Preferences
+### Preferences
 
 (Linux) **Extended Import:** Clicking "Move rule up" when there are no rules or filters causes a crash.==
 
-#### Toolbars
+### Toolbars
 
 * **When using Selection Toolbar in a selection format in less than whole seconds, an inaccurate value for length or cursor position may display when zoomed in.** The displayed value will be the nearest whole second below the true value (for example, 59.000 seconds where the true value is 59.999 seconds). This can occur when clicking on or moving the cursor across a boundary for whole seconds, in which case you can use right arrow to show the correct value. It can also occur when generating a few samples less than a whole second or when expanding or contracting a selection.==
 
-#### Miscellaneous platform-specific issues
+### Miscellaneous platform-specific issues
 
 * (Mac OS X) If using Audacity when the "Hear" audio plug-in is running (or has been since boot), there will be excessive memory usage which could cause a crash: this appears to be due to buggy memory allocation in "Hear"
 * (Mac OS X) Very occasionally, users may find that after running Audacity, other media players don't produce any sound, or crash: to resolve this, set up your sound device in Apple Audio MIDI Setup to work in stereo, 16-bit, with a sample rate of 44100 Hz or 48000 Hz, and set the sample format and rate identically in Audacity. More help at: [http://audacityteam.org/forum/viewtopic.php?f=17\&t=5064](http://audacityteam.org/forum/viewtopic.php?f=17\&t=5064)
 * (Linux) If pulseaudio is used as the audio device, repeatedly starting and stopping playback or recording in quick succession (or holding down the Play or Record button) may lead to a freeze. Workaround: bypass pulseaudio by setting the playback and recording device to an ALSA/hw choice in Device Toolbar.
 
-#### Bugs requiring more investigation
+### Bugs requiring more investigation
 
 * (Windows Vista, 7) When a USB device is connected, the listing of inputs for the built-in sound device in Device Toolbar or Devices Preferences may become corrupt, indicating single inputs as multiple inputs. It may only be possible to record from the built-in input which is currently set as default at "Sound" in the Windows Control Panel, irrespective of the input selected in Audacity. **Workaround:** Try Transport > Rescan Audio Devices, or a computer reboot.
   * Please report make and model number of devices that exhibit the issue, along with description of symptoms and any steps you have noticed that create the issue.

@@ -19,7 +19,7 @@ The Cut/Copy/Paste buttons have been removed in version 3.2.0. You can access th
 
 ## Device toolbar
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Look of the device toolbar</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Look of the device toolbar</p></figcaption></figure>
 
 The Device toolbar has been replaced by the Audio Setup button in version 3.2.0. However, you can re-enable it via **View -> Toolbars -> Device Toolbar.**
 

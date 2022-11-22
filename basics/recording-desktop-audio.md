@@ -38,7 +38,7 @@ When using PulseAudio (default for Ubuntu, Linux Mint, and others):
     If your system uses Pulse by default, the pulse device may be called **default**.
 3.  Enable the recording meter by selecting **Start Monitoring**.
 
-    <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Click the Microphone icon to start monitoring the recording level</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Click the Microphone icon to start monitoring the recording level</p></figcaption></figure>
 4. Open **PulseAudio Volume Control** and choose the **Recording** tab.
 5.  In the **Capture from** dropdown, select the "Monitor" option of the playback device used by the application you want to record from
 
