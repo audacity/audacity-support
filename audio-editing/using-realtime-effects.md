@@ -39,7 +39,9 @@ You can press the blue power button next to an effect (or the entire effects sta
 
 ## Applying an effect stack to the waveform
 
-Once you're happy with the sound, you can apply the effect stack to the waveform by first selecting the track and then going to **Tracks > Mix > Mix and Render**. Alternatively, the effect stack is always applied to the waveform when **** [**exporting the audio**](../basics/saving-and-exporting-projects.md#exporting-audio).&#x20;
+It generally is not necessary to apply the effect stack. The stack is automatically applied when **** [**exporting the audio**](../basics/saving-and-exporting-projects.md#exporting-audio).&#x20;
+
+That siad, you can apply the effect stack to the waveform by first selecting the track and then going to **Tracks > Mix > Mix and Render**.&#x20;
 
 {% hint style="warning" %}
 **Caution:** When selecting several tracks at once, the Mix and Render option will mix all tracks together.
