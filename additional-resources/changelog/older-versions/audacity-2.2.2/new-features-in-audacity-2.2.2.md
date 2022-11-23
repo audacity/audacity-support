@@ -27,7 +27,7 @@ Dropout detection is controlled from a setting in **Recording Preferences** call
   * Dropouts may be caused by a disk drive that cannot keep up with the recording. This can happen, for example, with a slow USB or network drive, or if antivirus software is slowing writing to disk, or if other activity on the computer is slowing the computer down.
 * When recording stops, a Warning message box alerts the user and a label track, called "Dropouts", is added showing the lost parts, labeled with consecutive numbers.
 
-<figure><img src="../../../../.gitbook/assets/image (53).png" alt=""><figcaption><p>Dropout detection warning message and Dropouts track added</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/audio dropouts.png" alt=""><figcaption><p>Dropout detection warning message and Dropouts track added</p></figcaption></figure>
 
 ### Improved Zooming
 
@@ -47,13 +47,13 @@ We have changed mouse wheel zooming so that the focus for the zoom is:
 
 We have introduced a new command, **Zoom Toggle**, accessed by a new button or by (shortcut Shift + Z).
 
-<figure><img src="../../../../.gitbook/assets/image (17) (1).png" alt=""><figcaption><p>Edit Toolbar with Zoom Toggle button at the far right of the Toolbar</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/edittoolbar labeled.png" alt=""><figcaption><p>Edit Toolbar with Zoom Toggle button at the far right of the Toolbar</p></figcaption></figure>
 
 {% hint style="info" %}
 The extra button for Zoom Toggle won't show up until you reset toolbars, if you've upgraded from a previous version of Audacity which had the old toolbars. You can find reset toolbars in the view menu, View > Toolbars > Reset-Toolbars.
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/image (61).png" alt=""><figcaption><p>Zoom Toggle menu entry in the View menu</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/zoomtogglemenu.png" alt=""><figcaption><p>Zoom Toggle menu entry in the View menu</p></figcaption></figure>
 
 {% hint style="info" %}
 For Zoom Toggle, the keyboard shortcut, Shift + Z is a lot more convenient than using the menu. If you want to change Shift+Z to something else, use Keyboard Preferences.
@@ -64,7 +64,7 @@ Zoom Toggle toggles between two pre-defined zoom levels. These presets are user 
 * Defaults are normal **Default Zoom** level and **4 Pixels per Sample** _(which shows a fraction of a second of audio as samples)_
 * Either of the two presets can be changed in **Tracks Preferences** using the dropdown menus.
 
-<figure><img src="../../../../.gitbook/assets/image (23).png" alt=""><figcaption><p>Tracks Preferences to change the two presets for Zoom - Toggle</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/zoomtoggle.png" alt=""><figcaption><p>Tracks Preferences to change the two presets for Zoom - Toggle</p></figcaption></figure>
 
 **Tracks Preferences showing Zoom Toggle selection dropdown for Preset 2**
 
@@ -76,7 +76,7 @@ There have been some changes to Vertical Zooming.
 
 * We have introduced a context menu for the **Vertical Scale**. This is activated by right-clicking in the Vertical Scale - see [Simple mode vertical zooming](https://alphamanual.audacityteam.org/man/Vertical\_Zooming#simple) for details.
 
-<figure><img src="../../../../.gitbook/assets/image (42).png" alt=""><figcaption><p>Vertical Scale context menu with zoom options</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/verticalzoom.png" alt=""><figcaption><p>Vertical Scale context menu with zoom options</p></figcaption></figure>
 
 #### Advanced Vertical Zooming
 
@@ -87,7 +87,7 @@ There have been some changes to Vertical Zooming.
 
 The **Extra** menu, created from consolidating **Ext-Bar** and **Ext-Command** menus that were introduced in the previous 2.2.1 release.
 
-<figure><img src="../../../../.gitbook/assets/image (56).png" alt=""><figcaption><p>The new <strong>Extra</strong> menu</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/extra.png" alt=""><figcaption><p>The new <strong>Extra</strong> menu</p></figcaption></figure>
 
 ### Theme Tweaks
 

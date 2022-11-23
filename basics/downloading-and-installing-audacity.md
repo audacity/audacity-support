@@ -83,7 +83,7 @@ Audacity is now installed. You can start Audacity from the start menu.
 
     * You can also drag Audacity out of the DMG to any other location. You need the administrator password to copy Audacity to "Applications".
 
-    <img src="../.gitbook/assets/Audacity Mac Install (1) (1) (1) (1) (1).png" alt="" data-size="original">
+    <img src="../.gitbook/assets/Audacity Install macOS.png" alt="" data-size="original">
 * Launch Audacity.app from /Applications or from your chosen location.\
   **Note:** Do not double-click the "Audacity" icon in the DMG to launch Audacity from there.
 *   Once the program has opened press "OK" to start editing!

@@ -24,7 +24,7 @@ You can find and join the Audacity project at [**https://explore.transifex.com/k
 
 Once you have been approved as a translator you will receive a notification by email.  After that you will see the project in your Dashboard and you can start to contribute.
 
-<figure><img src="../../.gitbook/assets/Audacity Project Dashboard Transifex" alt=""><figcaption><p>Audacity Project Dashboard in Transifex</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Audacity Project Dashboard Transifex.png" alt=""><figcaption><p>Audacity Project Dashboard in Transifex</p></figcaption></figure>
 
 * Click **Translate** at the top right side
 * Select **Audacity** from the **Resource Overview** panel to start editing

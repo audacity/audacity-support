@@ -75,7 +75,7 @@ In earlier versions of Audacity if you exported a WAV or AIFF file that would ex
 
 For 2.3.2 we have implemented an error trap to catch this and stop it happening. Now when attempting to export an oversized WAV or AIFF file Audacity will not do this and you will get the following error message:
 
-<figure><img src="../../../../.gitbook/assets/image (47).png" alt=""><figcaption><p>Error message when exporting WAV o AIFF file greater than 4GB</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/export error.png" alt=""><figcaption><p>Error message when exporting WAV o AIFF file greater than 4GB</p></figcaption></figure>
 
 Clicking on the ? Help button in the message will show the following table in the Manual
 
