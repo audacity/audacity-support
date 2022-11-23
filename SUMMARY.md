@@ -131,4 +131,5 @@
     * [Audacity 2.0.2](additional-resources/changelog/older-versions/audacity-2.0.2.md)
     * [Audacity 2.0.1](additional-resources/changelog/older-versions/audacity-2.0.1.md)
     * [Audacity 2.0.0](additional-resources/changelog/older-versions/audacity-2.0.0.md)
+    * [Audacity 1.x](additional-resources/changelog/older-versions/audacity-1.x.md)
 * [Audacity Plugins](https://app.gitbook.com/o/-MhmG2mhIIHTtQPuHV\_k/s/klCVENFte0GRy5IqVz0W/)
