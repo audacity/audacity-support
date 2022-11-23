@@ -45,7 +45,9 @@ This error indicates that the device that's being attempted to use is not valid,
 * The device has a faulty or loose connection
 * The device itself is faulty or not a real audio device.
 
-This error can also occur when you are trying to record a number of channels that is not supported in the current configuration&#x20;
+This error can also occur when you are trying to record a number of channels that is not supported in the current configuration
+
+This error can also occur when using Audacity on Windows with Windows WASAPI as the Host if the selected recording device is being used exclusively by another application.  Some applications that could make use of the recording device exclusively are ASIO4ALL, Voicemod (when configured to do so) or Voicemeeter (when configured to do so).
 
 You can attempt to fix this issue with the following methods:
 
@@ -56,6 +58,8 @@ You can attempt to fix this issue with the following methods:
 ## Error -9997 Invalid Sample Rate
 
 This error can indicate an unsupported sample rate. Double-check that both your **OS settings** and the **Audacity project rate** are set to a supported sample rate (usually 44100 Hz or 48000 Hz).&#x20;
+
+This error can also occur when using Audacity on Windows to record a track while listening another existing track (also known as overdubbing) with Windows WASAPI as the Host if the sample rate of the recording device is different than the sample rate of the playback device. If possible set the same sample rate for your devices or use MME as the Host.
 
 This error can also occur when you are trying to record a number of channels that is not supported in the current configuration To fix this, you can do the following:
 

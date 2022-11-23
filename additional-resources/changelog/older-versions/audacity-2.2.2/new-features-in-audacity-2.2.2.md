@@ -47,7 +47,7 @@ We have changed mouse wheel zooming so that the focus for the zoom is:
 
 We have introduced a new command, **Zoom Toggle**, accessed by a new button or by (shortcut Shift + Z).
 
-<figure><img src="../../../../.gitbook/assets/image (17).png" alt=""><figcaption><p>Edit Toolbar with Zoom Toggle button at the far right of the Toolbar</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (17) (1).png" alt=""><figcaption><p>Edit Toolbar with Zoom Toggle button at the far right of the Toolbar</p></figcaption></figure>
 
 {% hint style="info" %}
 The extra button for Zoom Toggle won't show up until you reset toolbars, if you've upgraded from a previous version of Audacity which had the old toolbars. You can find reset toolbars in the view menu, View > Toolbars > Reset-Toolbars.

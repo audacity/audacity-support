@@ -89,7 +89,7 @@
     * [Audacity 3.1.1](additional-resources/changelog/older-versions/audacity-3.1.1.md)
     * [Audacity 3.1](additional-resources/changelog/older-versions/audacity-3.1.md)
     * [Audacity 3.0.5](additional-resources/changelog/older-versions/audacity-3.0.5.md)
-    * [Audacity 3.0.4](additional-resources/changelog/older-versions/audacity-3.0.4/README.md)
+    * [Audacity 3.0.4](additional-resources/changelog/older-versions/audacity-3.0.4.md)
       * [New features in Audacity 3.0.4](additional-resources/changelog/older-versions/audacity-3.0.4/new-features-in-audacity-3.0.4.md)
     * [Audacity 3.0.3](additional-resources/changelog/older-versions/audacity-3.0.3/README.md)
       * [New features in Audacity 3.0.3](additional-resources/changelog/older-versions/audacity-3.0.3/new-features-in-audacity-3.0.3.md)

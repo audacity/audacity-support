@@ -46,7 +46,7 @@ When this is enabled the audio track name is displayed superimposed translucentl
 
 Note that the track name is always shown in the Track Control Panel but will be truncated if the name is too long to fit.
 
-<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Audacity can display the track name as an overlay in the timeline</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Audacity can display the track name as an overlay in the timeline</p></figcaption></figure>
 
 This has the same effect as the setting for **Show track name as overlay** in **Tracks Preferences**.
 
