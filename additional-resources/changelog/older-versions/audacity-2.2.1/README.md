@@ -25,7 +25,7 @@ Many users were confused by this change and found it hard to find where they cou
 We fixed a bug on Mac that caused Audacity to crash with certain Chain files. Plus we fixed another Mac bug whereby opening a second project from Mac's Finder produced a second inaccessible instance of Audacity.
 
 {% hint style="info" %}
-For those who **really have to know**, the list of bugs fixed in 2.2.1 is [here](<../../../../.gitbook/assets/Bugs\_Fixed (1)>).
+For those who **really have to know**, the list of bugs fixed in 2.2.1 is [here](broken-reference).
 {% endhint %}
 
 ## Supported Platforms
@@ -47,7 +47,7 @@ For those who **really have to know**, the list of bugs fixed in 2.2.1 is [here]
 
 ## Issues
 
-See our [list of issues](<../../../../.gitbook/assets/Issues (3)>) for much more detail of issues with Audacity 2.2.1.
+See our [list of issues](broken-reference) for much more detail of issues with Audacity 2.2.1.
 
 {% hint style="info" %}
 Below are listed what we believe are the most common and important issues with 2.2.1 for most users.
@@ -75,7 +75,7 @@ env PULSE\_LATENCY\_MSEC=30 audacity
 
 ### Accessibility
 
-* Far less of Audacity is properly accessible to visually impaired users than we would like. Currently the best supported platform for accessibility is Windows. We lost a lot of custom accessibility programming when we had to move to a more recent version of the wxWidgets library. A lot more detail about accessibility limitations can be found [here](<../../../../.gitbook/assets/Issues (3)>)
+* Far less of Audacity is properly accessible to visually impaired users than we would like. Currently the best supported platform for accessibility is Windows. We lost a lot of custom accessibility programming when we had to move to a more recent version of the wxWidgets library. A lot more detail about accessibility limitations can be found [here](broken-reference)
 
 ## Bugzilla
 

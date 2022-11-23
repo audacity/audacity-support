@@ -978,8 +978,8 @@ New features The new features in Audacity 1.3 have been grouped into the followi
 Changelogs no longer are available at this point. Some screenshots exist though.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (74).png" alt=""><figcaption><p>Screenshot of Audacity 1.0</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/audacity1.0.png" alt=""><figcaption><p>Screenshot of Audacity 1.0</p></figcaption></figure>
 
 ## Audacity 0.8 (test)
 
-<figure><img src="../../../.gitbook/assets/image (75).png" alt=""><figcaption><p>Screenshot of Audacity 0.8</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/audacity0.8.png" alt=""><figcaption><p>Screenshot of Audacity 0.8</p></figcaption></figure>

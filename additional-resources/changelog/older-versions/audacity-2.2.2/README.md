@@ -59,7 +59,7 @@ A new **Extra** menu has been created from consolidating the **Ext-Bar** and **E
 
 ## Bug Fixes
 
-For those who **really have to know**, the list of bugs fixed in 2.2.2 is [here](<../../../../.gitbook/assets/Bugs\_Fixed (2)>).
+For those who **really have to know**, the list of bugs fixed in 2.2.2 is [here](broken-reference).
 
 * Multiple use of "Save As" to the existing open project can result in data corruption/loss
 * Crash undoing during record, using Discard button of History window
@@ -98,13 +98,13 @@ For those who **really have to know**, the list of bugs fixed in 2.2.2 is [here]
 
 ## Issues
 
-See our [list of issues](<../../../../.gitbook/assets/Issues (4)>) for much more detail of issues with Audacity 2.2.2.
+See our [list of issues](broken-reference) for much more detail of issues with Audacity 2.2.2.
 
 * Below are listed what we believe are the most common and important issues with 2.2.2 for most users.
 
 ### Accessibility
 
-* Far less of Audacity is properly accessible to visually impaired users than we would like. Currently the best supported platform for accessibility is Windows. We lost a lot of custom accessibility programming when we had to move to a more recent version of the wxWidgets library. A lot more detail about accessibility limitations can be found [here](<../../../../.gitbook/assets/Issues (4)>)
+* Far less of Audacity is properly accessible to visually impaired users than we would like. Currently the best supported platform for accessibility is Windows. We lost a lot of custom accessibility programming when we had to move to a more recent version of the wxWidgets library. A lot more detail about accessibility limitations can be found [here](broken-reference)
 
 ## Bugzilla
 

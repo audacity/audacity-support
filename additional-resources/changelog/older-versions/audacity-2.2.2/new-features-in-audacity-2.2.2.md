@@ -109,7 +109,7 @@ For menu commands that are enabled _(not grayed-out)_ if you hold the Shift key 
 
 Interface Preferences has been upgraded so when selecting languages the proper spelling of these languages is shown with accented and special characters.
 
-<figure><img src="../../../../.gitbook/assets/image (62).png" alt=""><figcaption><p>Language selection in Interface Preferences</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/langs.png" alt=""><figcaption><p>Language selection in Interface Preferences</p></figcaption></figure>
 
 ### Upgraded Manual Index page
 

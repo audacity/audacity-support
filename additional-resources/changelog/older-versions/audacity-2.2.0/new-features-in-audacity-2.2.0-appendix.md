@@ -8,9 +8,9 @@
 
 [Sync-Lock](http://manual.audacityteam.org/man/sync\_locked\_track\_groups.html) used to be a button in the edit toolbar. Now instead you enable or disable it from **Tracks > Sync-Lock Tracks**.
 
-<figure><img src="../../../../.gitbook/assets/image (21).png" alt=""><figcaption><p>Old Edit Toolbar, with Sync-LockNew Edit Toolbar, without Sync-Lock</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/oldedittoolbar.png" alt=""><figcaption><p>Old Edit Toolbar, with Sync-LockNew Edit Toolbar, without Sync-Lock</p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (65).png" alt=""><figcaption><p>New Edit Toolbar, without Sync-Lock</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/edit toolbar.png" alt=""><figcaption><p>New Edit Toolbar, without Sync-Lock</p></figcaption></figure>
 
 This should make it easier for users to avoid setting Sync-Lock on by accident by inadvertently nudging the button.
 
@@ -28,9 +28,9 @@ The cursors on Mac used to be 16x16 pixels. Now they are higher resolution and u
 
 Buttons in the track control panel now highlight when hovered over. The thumb on sliders now highlights when the mouse is over it.
 
-<figure><img src="../../../../.gitbook/assets/image (52).png" alt=""><figcaption><p>Slider thumb not highlighted (Classic theme)</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/playatspeed2.png" alt=""><figcaption><p>Slider thumb not highlighted (Classic theme)</p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (33).png" alt=""><figcaption><p>Slider thumb highlighted (Classic theme)</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/playatspeed.png" alt=""><figcaption><p>Slider thumb highlighted (Classic theme)</p></figcaption></figure>
 
 ### Escape Key
 
@@ -40,21 +40,21 @@ The Esc key now cancels all click-and-drag actions. It also chooses among overla
 
 The default behavior now for [effects](http://manual.audacityteam.org/man/index\_of\_effects\_generators\_and\_analyzers.html) and for edits requiring a selection is that if you click on them without a selection, a dialog now shows explaining that you need to make a selection. Here an attempt to apply Fade effect was made without first selecting some audio.
 
-<figure><img src="../../../../.gitbook/assets/image (48).png" alt=""><figcaption><p>Explanation dialog when an audio selection is required</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/noaudioselected.png" alt=""><figcaption><p>Explanation dialog when an audio selection is required</p></figcaption></figure>
 
 ### Customisable spectrogram colours
 
 The colors of the [spectrograms](http://manual.audacityteam.org/man/spectrogram\_view.html) are now customisable using custom [theming](http://manual.audacityteam.org/man/themes.html). This can give greater clarity to the spectrograms. In the example below the high intensity greens stand out better than the reds in the standard spectrogram.
 
-<figure><img src="../../../../.gitbook/assets/image (60).png" alt=""><figcaption><p><strong>Standard spectrogram colours</strong></p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/pinkbluespectro.png" alt=""><figcaption><p><strong>Standard spectrogram colours</strong></p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (28).png" alt=""><figcaption><p><strong>Customised spectrogram colours</strong></p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/redgreenspectro.png" alt=""><figcaption><p><strong>Customised spectrogram colours</strong></p></figcaption></figure>
 
 ### Simplified stereo splitting and joining
 
 Previously [splitting a stereo track](http://manual.audacityteam.org/man/splitting\_and\_joining\_stereo\_tracks.html) created special 'Left' and 'Right' tracks. Now splitting creates mono tracks, panned left or panned right. Below is a screenshot of a stereo track split into two tracks, one panned left, one panned right.
 
-<figure><img src="../../../../.gitbook/assets/image (71).png" alt=""><figcaption><p>Stereo track split into two mono tracks one panned left, one panned right</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/tracks.png" alt=""><figcaption><p>Stereo track split into two mono tracks one panned left, one panned right</p></figcaption></figure>
 
 ### Documentation Overhaul
 

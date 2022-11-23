@@ -65,7 +65,7 @@ The former Equalization effect has now been split into two separate effects. We 
 
 #### **Graphic EQ** - equalization using sliders
 
-<figure><img src="../../../../.gitbook/assets/image (66).png" alt=""><figcaption><p><strong>Graphic EQ</strong> effect</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (55).png" alt=""><figcaption><p><strong>Graphic EQ</strong> effect</p></figcaption></figure>
 
 ### End-of-life retired functionality
 

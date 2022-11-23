@@ -38,7 +38,7 @@ See the [new-features-in-audacity-2.2.0.md](new-features-in-audacity-2.2.0.md "m
   * The problems of incomplete support for macOs Sierra have been resolved (including [bug 290](http://bugzilla.audacityteam.org/show\_bug.cgi?id=290), [bug 1567](http://bugzilla.audacityteam.org/show\_bug.cgi?id=1567), [bug 1702](http://bugzilla.audacityteam.org/show\_bug.cgi?id=1702), and [bug 1703](http://bugzilla.audacityteam.org/show\_bug.cgi?id=1703)).
   * Most of the bugs fixed were more minor, such as [bug 463](http://bugzilla.audacityteam.org/show\_bug.cgi?id=463) which was about a case in which the numbering on the timeline could display incorrect times.
 
-For those who **really have to know**, the list of bugs fixed in 2.2.0 is [here](../../../../.gitbook/assets/Bugs\_Fixed).
+For those who **really have to know**, the list of bugs fixed in 2.2.0 is [here](broken-reference).
 
 ## Supported Platforms
 
@@ -59,7 +59,7 @@ For those who **really have to know**, the list of bugs fixed in 2.2.0 is [here]
 
 ## Issues
 
-See our [list of issues](<../../../../.gitbook/assets/Issues (5)>) for much more detail of issues with Audacity 2.2.0.
+See our [list of issues](broken-reference) for much more detail of issues with Audacity 2.2.0.
 
 {% hint style="info" %}
 Below are listed what we believe are the most common and important issues with 2.2.0 for most users.
@@ -98,7 +98,7 @@ env PULSE\_LATENCY\_MSEC=30 audacity
 
 ### Accessibility
 
-* Far less of Audacity is properly accessible to visually impaired users than we would like. Currently the best supported platform for accessibility is Windows. We lost a lot of custom accessibility programming when we had to move to a more recent version of the wxWidgets library. A lot more detail about accessibility limitations can be found [here](<../../../../.gitbook/assets/Issues (5)>)
+* Far less of Audacity is properly accessible to visually impaired users than we would like. Currently the best supported platform for accessibility is Windows. We lost a lot of custom accessibility programming when we had to move to a more recent version of the wxWidgets library. A lot more detail about accessibility limitations can be found [here](broken-reference)
 
 ## Bugzilla
 

@@ -24,7 +24,7 @@ Audacity will now prepare the track for upload and upload your audio.
 
 After your audio has been uploaded, press **Continue**. You will be taken to the audio.com website.
 
-<figure><img src="../.gitbook/assets/upload complete.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 On audio.com you now can either create an account to use this with, or copy the anonymous link. To share the link,&#x20;
 

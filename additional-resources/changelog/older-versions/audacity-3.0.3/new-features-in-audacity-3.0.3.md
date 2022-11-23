@@ -56,7 +56,7 @@ Audacity will now check for updates to see if a new update of Audacity is availa
 
 The first time that you launch Audacity 3.0.3 you will see this dialog:
 
-<figure><img src="../../../../.gitbook/assets/image (64).png" alt=""><figcaption><p>Audacity will check if there are updates available</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (12).png" alt=""><figcaption><p>Audacity will check if there are updates available</p></figcaption></figure>
 
 The dialog has a direct link to **Application Preferences** enabling you to turn update checking "**off**" in order to [opt-out](new-features-in-audacity-3.0.3.md#opt-out) of update checking.
 
