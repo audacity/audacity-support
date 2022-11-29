@@ -69,4 +69,5 @@
 
 ## Additional resources
 
+* [Audacity themes](additional-resources/audacity-themes.md)
 * [Audacity Support](https://app.gitbook.com/o/-MhmG2mhIIHTtQPuHV\_k/s/-MhmBVzGzh8SctWQ6jPR/)
