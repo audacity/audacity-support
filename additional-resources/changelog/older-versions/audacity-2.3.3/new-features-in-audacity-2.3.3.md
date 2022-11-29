@@ -61,11 +61,11 @@ The former Equalization effect has now been split into two separate effects. We 
 
 #### **Filter Curve** - equalization using drawn curves
 
-<figure><img src="../../../../.gitbook/assets/image (46).png" alt=""><figcaption><p><strong>Filter Curve</strong> equalization effect</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/filter curve.png" alt=""><figcaption><p><strong>Filter Curve</strong> equalization effect</p></figcaption></figure>
 
 #### **Graphic EQ** - equalization using sliders
 
-<figure><img src="../../../../.gitbook/assets/image (55).png" alt=""><figcaption><p><strong>Graphic EQ</strong> effect</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/graphic eq (1).png" alt=""><figcaption><p><strong>Graphic EQ</strong> effect</p></figcaption></figure>
 
 ### End-of-life retired functionality
 

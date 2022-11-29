@@ -12,7 +12,9 @@
 * [Editing audio](basics/audacity-editing.md)
 * [Saving and exporting projects](basics/saving-and-exporting-projects.md)
 * [🆕 Sharing audio online](basics/sharing-audio-online.md)
-* [Installing plugins](basics/installing-plugins.md)
+* [Customizing Audacity](basics/customizing-audacity/README.md)
+  * [Using themes](basics/customizing-audacity/using-themes.md)
+  * [Installing plugins](basics/customizing-audacity/installing-plugins.md)
 * [Keyboard shortcuts](basics/keyboard-shortcuts.md)
 
 ## Repairing Audio Recordings <a href="#repairing-audio" id="repairing-audio"></a>
