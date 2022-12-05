@@ -33,6 +33,7 @@ Note: Audacity 3.1.3 does not yet support VST3 plugins.
 ## Popular plugins
 
 * [#acx-check](analyzers/analysis-plugins.md#acx-check "mention"), a plugin to check if an audio book complies with the ACX guidelines
+* The [#gvst](realtime-effects/plugin-suites.md#gvst "mention") plugin suite, known for GVerb (a reverb plugin) and GSnap (an auto-tune plugin)
 * [**FFMPEG**](https://support.audacityteam.org/basics/downloading-and-installing-audacity/installing-ffmpeg), a library to import and export various media formats such as M4A, WMA and MP4.
 
 ## Contributing to this site
