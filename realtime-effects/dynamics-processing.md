@@ -25,36 +25,7 @@ Information from the vendor:
 * Gate - can gate with per-band threshold
 * Subtract - can build noise profiles and subtract noise from the signal
 
-![](../.gitbook/assets/reafir.png)
-
-</details>
-
-## ReaXcomp
-
-
-
-A multi-band compressor effect, part of ReaPlugs.
-
-{% embed url="https://www.reaper.fm/reaplugs" %}
-Download page
-{% endembed %}
-
-<details>
-
-<summary>Details</summary>
-
-Copyright (C) 2006-2016, Cockos Incorporated VST PlugIn Technology by Steinberg Media Technologies GmbH
-
-Information From the vendor:
-
-* Unlimited band compressor
-* Great metering per band
-* Fantastic sounding filters
-* Solo current band mode
-* Tons of controls per band (ratio, threshold, knee, attack, release, makeup, program dependent release, feedback detector, RMS size)
-* Adjusting bands in graph is easy (modifiers to change ratio, gain, etc)
-
-![](../.gitbook/assets/reaxcomp.png)
+<img src="../.gitbook/assets/reafir.png" alt="" data-size="original">
 
 </details>
 
@@ -76,7 +47,7 @@ MCompressor provides refined compression. It features an adjustable compression 
 * Extremely fast, optimized for newest AVX2 and AVX512 capable processors
 * Supports VST, VST3, AU and AAX interfaces on Windows and macOS
 
-See the [pack ](plugin-suites.md#mfreefxbundle)for installation instructions.&#x20;
+See the [pack ](plugin-suites.md#mfreefxbundle)for installation instructions.
 
 </details>
 
