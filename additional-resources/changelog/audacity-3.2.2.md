@@ -1,10 +1,6 @@
 # Audacity 3.2.2
 
-{% hint style="danger" %}
-This version is currently in alpha. All information is subject to change.
-{% endhint %}
-
-**Audacity 3.2.2 was released on xx xxx 2022**
+**Audacity 3.2.2 was released on 06 Dec 2022**
 
 This is a patch release for Audacity 3.2. It enables use of VST2 as realtime effects and fixes some bugs.
 
