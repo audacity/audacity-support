@@ -33,8 +33,8 @@ This error indicates a problem with the hardware used for recording, whether it 
 
 These errors can occur when attempting to load a damaged .aup3 project file. Damaged project files can be recovered as described in the following article.
 
-{% content-ref url="recovering-corrupted-projects.md" %}
-[recovering-corrupted-projects.md](recovering-corrupted-projects.md)
+{% content-ref url="recovering-corrupted-projects/" %}
+[recovering-corrupted-projects](recovering-corrupted-projects/)
 {% endcontent-ref %}
 
 ## Error -9996 Invalid Device Error
