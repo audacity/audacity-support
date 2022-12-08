@@ -1,12 +1,18 @@
 # Widgets Reference
 
-A Widget is an element of a graphical user interface (GUI), such as a button or slider, which facilitates user interaction. Audacity supplies a number of widget types for Nyquist plugins. Fortunately, Nyquist plugin developers are largely spared from the complexities of WxWidgets, and can simply select which widgets they need by adding the appropriate [header ](headers-reference.md)to the top of the plug-in script. The layout of a Nyquist plug-in GUI is a simple list of widgets, one above the other.
+A [Widget](https://en.wikipedia.org/wiki/Widget\_\(GUI\)) is an element of a graphical user interface ([GUI](https://en.wikipedia.org/wiki/Graphical\_user\_interface)), such as a button or slider, which facilitates user interaction. Audacity supplies a number of widget types for Nyquist plug-ins, which are ultimately derived from the [WxWidgets](https://www.wxwidgets.org/) toolkit. Fortunately, Nyquist plug-in developers are largely spared from the complexities of WxWidgets, and can simply select which widgets they need by adding the appropriate "header" to the top of the plug-in script.
 
-### Slider Widget <a href="#slider_widget" id="slider_widget"></a>
+The layout of a Nyquist plug-in GUI is a simple list of widgets, one above the other.
+
+### Slider Widget
+
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption><p>example of a slider</p></figcaption></figure>
 
 Slider widgets are supported in all Audacity Nyquist plug-in versions.
 
-&#x20;`;control ``<i>`{=html}`variable-name``</i>`{=html} `"``<i>`{=html}`text-left``</i>`{=html}`" ``<i>`{=html}`variable-type``</i>`{=html} `"``<i>`{=html}`text-right``</i>`{=html}`" ``<i>`{=html}`initial-value``</i>`{=html} ` ``<i> `{=html}`minimum``</i>`{=html} ` ``<i> `{=html}`maximum``</i>`{=html}
+```lisp
+ ;control variable-name "text-left" variable-type "text-right" initial-value minimum maximum
+```
 
 * _variable-name_ : \[symbol] A Lisp symbol.
 * _text-left_ : \[string] Text that will appear to the left of the slider.
@@ -24,11 +30,15 @@ A text input box to the left of the slider allows the user to type in a value vi
 
 * The "real" keyword is deprecated. New plug-ins should use "float" as the variable type for floating point input.
 
-### Numeric Text Widget <a href="#numeric_text_widget" id="numeric_text_widget"></a>
+### Numeric Text Widget
+
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption><p>example of numeric text</p></figcaption></figure>
 
 The numeric text widget was introduced in Audacity 2.1.2.
 
-&#x20;`;control ``<i>`{=html}`variable-name``</i>`{=html} `"``<i>`{=html}`text-left``</i>`{=html}`" variable-type "``<i>`{=html}`text-right``</i>`{=html}`" initial-value minimum maximum`
+```
+ ;control variable-name "text-left" variable-type "text-right" initial-value minimum maximum
+```
 
 * _variable-name_ : \[symbol] A Lisp symbol.
 * _text-left_ : \[string] Text that will appear to the left of the text box.
@@ -42,17 +52,23 @@ The numeric text widget was introduced in Audacity 2.1.2.
 
 Minimum and maximum may be numeric values or "NIL". The minimum / maximum is _not defined_ when set as "NIL" and is limited only by the numeric limit for the number type. The valid range for numbers depends on the computer platform. Typically the limits for integers are -2147483648 to 2147483647. The limits for floating point numbers are _very_ large.
 
-**Examples of undefined minimum / maximum:**
+Examples of undefined minimum / maximum:
 
-&#x20;`;control ``<i>`{=html}`pos``</i>`{=html} `"``<i>`{=html}`Positive Integer``</i>`{=html}`" int-text "``<i>`{=html}`text-right``</i>`{=html}`" initial-value 0 nil`\
-`;control ``<i>`{=html}`neg``</i>`{=html} `"``<i>`{=html}`Negative Integer``</i>`{=html}`" int-text "``<i>`{=html}`text-right``</i>`{=html}`" initial-value nil 0`\
-`;control ``<i>`{=html}`num``</i>`{=html} `"``<i>`{=html}`Any number``</i>`{=html}`" float-text "``<i>`{=html}`text-right``</i>`{=html}`" initial-value nil nil`
+```
+ ;control pos "Positive Integer" int-text "text-right" initial-value 0 nil
+ ;control neg "Negative Integer" int-text "text-right" initial-value nil 0
+ ;control num "Any number" float-text "text-right" initial-value nil nil
+```
 
-### String Widget (text input) <a href="#string_widget_text_input" id="string_widget_text_input"></a>
+### String Widget (text input)
+
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption><p>example of a text input</p></figcaption></figure>
 
 The text input widget ("string widget") is supported in plug-ins version 2 or above.
 
-&#x20;`;control ``<i>`{=html}`variable-name``</i>`{=html} `"``<i>`{=html}`text-left``</i>`{=html}`" string "``<i>`{=html}`text-right``</i>`{=html}`" "``<i>`{=html}`default-string``</i>`{=html}`"`
+```
+ ;control variable-name "text-left" string "text-right" "default-string"
+```
 
 * _variable-name_ : \[symbol] A Lisp symbol.
 * _text-left_ : \[string] Text that will appear to the left of the text input field.
@@ -64,11 +80,15 @@ The text typed in by the user in the text field of the plug-in window can be ref
 
 Examples how to use the text input widget can be found in the source code of the Apropos Plug-in.
 
-### Multiple-Choice Widget <a href="#multiple_choice_widget" id="multiple_choice_widget"></a>
+### Multiple-Choice Widget
+
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>example of multiple choice input</p></figcaption></figure>
 
 The multiple choice input widget is supported in plug-ins version 3 or above.
 
-&#x20;`;control ``<i>`{=html}`variable-name``</i>`{=html} `"``<i>`{=html}`text-left``</i>`{=html}`" choice "``<i>`{=html}`string-1,string-2,...``</i>`{=html}`" ``<i>`{=html}`initial-value``</i>`{=html}
+```
+ ;control variable-name "text-left" choice "string-1,string-2,..." initial-value
+```
 
 * _variable-name_ : \[symbol] A Lisp symbol.
 * _text-left_ : \[string] Text that will appear to the left of the multiple-choice list.
@@ -80,11 +100,15 @@ The list entries _string-1, string-2_, etc. are comma separated and internally r
 
 An example of the 'choice' widget can be found [sample-data-export.ny](https://github.com/audacity/audacity/blob/master/plug-ins/sample-data-export.ny)
 
-### Time Widget <a href="#time_widget" id="time_widget"></a>
+### Time Widget
 
 Introduced in Audacity 2.3.0.
 
-&#x20;`;control variable-name`` `_`"text-left"`_` ``time`` `_`"text-right"`_` ```` `_`initial-value`_` ```` `_`minimum`_` ```` `_`maximum`_
+<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption><p>example of time input</p></figcaption></figure>
+
+```
+ ;control variable-name "text-left" time "text-right" initial-value minimum maximum
+```
 
 * _variable-name_ : \[symbol] A Lisp symbol.
 * _text-left_ : \[string] Text that will appear to the left of the time control.
@@ -100,7 +124,9 @@ This widget is to input durations. The value set is converted to seconds and ass
 
 Example taken from the Pluck effect:
 
-&#x20;`;control dur "Duration (60s max)" time "" 1 0.0 60`
+```
+ ;control dur "Duration (60s max)" time "" 1 0.0 60
+```
 
 In this example:
 
@@ -111,11 +137,15 @@ In this example:
 * _minimum_ is 0.0 seconds.
 * _maximum_ is 60 seconds.
 
-### File-Button Widget <a href="#file_button_widget" id="file_button_widget"></a>
+### File-Button Widget
+
+<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption><p>example of file buttons</p></figcaption></figure>
 
 The File Button Widget requires Audacity 2.3.0 or later.
 
-&#x20;`;control ``<i>`{=html}`variable-name``</i>`{=html} `"``<i>`{=html}`text-left``</i>`{=html}`" file "``<i>`{=html}`button-text``</i>`{=html}`" "``<i>`{=html}`default-file-path``</i>`{=html}`" "``<i>`{=html}`wildcard-filters``</i>`{=html}`" "``<i>`{=html}`flags``</i>`{=html}`"`
+```
+ ;control variable-name "text-left" file "button-text" "default-file-path" "wildcard-filters" "flags"
+```
 
 * _variable-name_ : \[symbol] A Lisp symbol.
 * _text-left_ : \[string] Text that will appear to the left of the file button widget.
@@ -125,14 +155,18 @@ The File Button Widget requires Audacity 2.3.0 or later.
 * _wildcard-filters_ : \[string] File types to show in file browser (based on file extensions).
 * _flags_ : \[string] Option flags, based on [wxWidgets File Dialog _Styles_](https://docs.wxwidgets.org/3.1/classwx\_file\_dialog.html)).
 
-```
-{{advice|For more information about the File-Button Widget, see the [[Nyquist_File-Button_Tutorial|Nyquist File-Button Tutorial]].}}
-```
+### Text Widget
 
-### Text Widget <a href="#text_widget" id="text_widget"></a>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>example of text</p></figcaption></figure>
 
 The text widget was introduced in Audacity 2.3.0. Although not actually a "control", it shares similar syntax to all other Nyquist plug-in widgets:
 
-&#x20;`;control text`` `_`"string"`_
+```
+ ;control text "string"
+```
 
-This widget adds a line of text (the [_"string"_](https://en.wikipedia.org/wiki/String\_\(computer\_science\))) to the plug-in [GUI](https://en.wikipedia.org/wiki/Graphical\_user\_interface). `{{advice|While it may seem convenient to add text to an interface to explain how the plug-in should be used, this widget should be used sparingly. Text descriptions should not be used as a substitute for good design. Plug-in developers should also be aware that it is not currently possible to provide localization (translations) of text in any widgets in third party plug-ins.}}`{=mediawiki}
+This widget adds a line of text (the [_"string"_](https://en.wikipedia.org/wiki/String\_\(computer\_science\))) to the plug-in [GUI](https://en.wikipedia.org/wiki/Graphical\_user\_interface).
+
+{% hint style="success" %}
+**Best practice:** While it may seem convenient to add text to an interface to explain how the plug-in should be used, this widget should be used sparingly. Text descriptions should not be used as a substitute for good design. Plug-in developers should also be aware that it is not currently possible to provide localization (translations) of text in any widgets in third party plug-ins.
+{% endhint %}
