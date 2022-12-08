@@ -51,6 +51,33 @@ See the [pack ](plugin-suites.md#mfreefxbundle)for installation instructions.
 
 </details>
 
+## ReaXcomp
+
+A multi-band compressor effect, part of ReaPlugs.
+
+{% embed url="https://www.reaper.fm/reaplugs" %}
+Download page
+{% endembed %}
+
+<details>
+
+<summary>Details</summary>
+
+Copyright (C) 2006-2016, Cockos Incorporated VST PlugIn Technology by Steinberg Media Technologies GmbH
+
+Information From the vendor:
+
+* Unlimited band compressor
+* Great metering per band
+* Fantastic sounding filters
+* Solo current band mode
+* Tons of controls per band (ratio, threshold, knee, attack, release, makeup, program dependent release, feedback detector, RMS size)
+* Adjusting bands in graph is easy (modifiers to change ratio, gain, etc)
+
+<img src="../.gitbook/assets/reaxcomp.png" alt="" data-size="original">
+
+</details>
+
 ## See also
 
 * Nyquist [dynamics-processing.md](../nyquist-plugins/effect-plugins/dynamics-processing.md "mention") effects
