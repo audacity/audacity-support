@@ -6,7 +6,7 @@ The layout of a Nyquist plug-in GUI is a simple list of widgets, one above the o
 
 ### Slider Widget
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption><p>example of a slider</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (2).png" alt=""><figcaption><p>example of a slider</p></figcaption></figure>
 
 Slider widgets are supported in all Audacity Nyquist plug-in versions.
 
@@ -82,7 +82,7 @@ Examples how to use the text input widget can be found in the source code of the
 
 ### Multiple-Choice Widget
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>example of multiple choice input</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>example of multiple choice input</p></figcaption></figure>
 
 The multiple choice input widget is supported in plug-ins version 3 or above.
 

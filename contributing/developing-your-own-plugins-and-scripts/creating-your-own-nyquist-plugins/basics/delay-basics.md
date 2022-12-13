@@ -1,10 +1,10 @@
+---
+description: >-
+  This page explains how to use Nyquist to add a feedback delay effect in
+  Audacity.
+---
+
 # Delay Basics
-
-```
-{{Nyquist Basics| This page explains how to use Nyquist to add a feedback delay effect in Audacity. }}
-```
-
-\_\_NOTOC\_\_
 
 ```
 {{Hint|'''Note:''' All [comments] and [explanations] are written in square brackets, so they cannot be confused with (Lisp code).}}
