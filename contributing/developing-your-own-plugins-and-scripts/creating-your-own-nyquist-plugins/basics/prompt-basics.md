@@ -26,7 +26,7 @@ Select the track(s) and click **Tools > Nyquist Prompt**.
 
 The Nyquist Prompt appears like this:
 
-<figure><img src="../../../../.gitbook/assets/image (6).png" alt=""><figcaption><p>Nyquist prompt example</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (6) (3).png" alt=""><figcaption><p>Nyquist prompt example</p></figcaption></figure>
 
 ### Hello, world! <a href="#the_nyquist_interpreter" id="the_nyquist_interpreter"></a>
 
@@ -80,14 +80,14 @@ Note: These examples are focused upon using Audacity to manipulate digital signa
 
 #### **Applying a DC offset to a signal**
 
-<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption><p>Original signal before command</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Original signal before command</p></figcaption></figure>
 
 
 
 Type the following into the Nyquist Prompt (using LISP syntax): `(sum *track* 1)`\
 ``Or type the following equivalent SAL command: `return *track* + 1`
 
-<figure><img src="../../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Resulting signal</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3) (2).png" alt=""><figcaption><p>Resulting signal</p></figcaption></figure>
 
 The whole signal has now moved up to above zero.
 

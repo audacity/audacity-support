@@ -1,30 +1,42 @@
+---
+description: >-
+  This tutorial provides a description and examples of how to create and use a
+  File-Button Widget in Nyquist Plugins.
+---
+
 # File Button Tutorial
 
-```
-{{intro|1=This tutorial provides a description and examples of how to create and  use a [[Nyquist_Plug-ins_Reference#File-Button_Widget|File-Button Widget]] in [[Nyquist_Plug-ins_Reference|Nyquist plug-ins]].|2=
-The File-Button Widget provides a means to select one or more files via a graphical file browser.}}
-```
+The File-Button Widget provides a means to select one or more files via a graphical file browser.
 
-### Overview
+## Overview
 
 For some plug-ins it is necessary to read from or write to files. In order to do this, it is necessary to define precisely which file is required, where the file is located, and whether it is required for read access or write access (for read access, the file must exist, whereas for write access this is not always a requirement).
 
-Prior to the availability of the File-Button Widget, file names could be hard coded into the Nyquist script, or a text box could be provided for the user to enter the name of the file. Hard coded file paths lack flexibility, are platform specific (a path starting with "C:\\" does not work on Mac or Linux), and may point to locations that do not exist on some machines. While a text box may provide a better solution than hard coding a file path, it remains inconvenient and prone to user error, especially for long file paths. The File-Button Widget was introduced in Audacity 2.3.0 to solve these problems, by providing access to a graphical "file browser window" similar to using `{{menu|File menu > Open}}`{=mediawiki} or `{{menu|File menu > Save}}`{=mediawiki} in other applications.
+Prior to the availability of the File-Button Widget, file names could be hard coded into the Nyquist script, or a text box could be provided for the user to enter the name of the file. Hard coded file paths lack flexibility, are platform specific (a path starting with "C:\\" does not work on Mac or Linux), and may point to locations that do not exist on some machines. While a text box may provide a better solution than hard coding a file path, it remains inconvenient and prone to user error, especially for long file paths. The File-Button Widget was introduced in Audacity 2.3.0 to solve these problems, by providing access to a graphical "file browser window" similar to using **File menu > Open** or **File menu > Save** in other applications.
 
-### Syntax and Appearance <a href="#syntax_and_appearance" id="syntax_and_appearance"></a>
+## Syntax and Appearance <a href="#syntax_and_appearance" id="syntax_and_appearance"></a>
+
+<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption><p>File button widget example</p></figcaption></figure>
 
 The File-Button Widget, as shown above, has an editable text input field that allows a file path to be typed (or pasted). After the text input field is a button that launches a file browser. Below is an example of the familiar file browser window on Windows 10.
 
+<figure><img src="../../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+Note that selecting a file in this file browser does NOT open the file.&#x20;
+
+When a file is selected in the file browser window, the full name and path of the selected file is passed to the Nyquist script as the value of the File-Button Widget variable.
+{% endhint %}
+
+## Widget Arguments (Parameters) <a href="#widget_arguments_parameters" id="widget_arguments_parameters"></a>
+
+The syntax for creating a File-Button Widget is similar to all other [Nyquist Plug-in widgets](../widgets-reference.md).
+
+{% code overflow="wrap" lineNumbers="true" %}
 ```
-{{advice|1=Note that selecting a file in this file browser does NOT open the file.
-: ''When a file is selected in the file browser window, the full name and path of the selected file is passed to the Nyquist script as the value of the File-Button Widget variable.''}}
+ ;control variable-name "text-left" file "button-text" "default-file-path" "wildcard-filters" "flags"
 ```
-
-### Widget Arguments (Parameters) <a href="#widget_arguments_parameters" id="widget_arguments_parameters"></a>
-
-The syntax for creating a File-Button Widget is similar to all other Nyquist Plug-in widgets.
-
-&#x20;`;control ``<i>`{=html}`variable-name``</i>`{=html} `"``<i>`{=html}`text-left``</i>`{=html}`" file "``<i>`{=html}`button-text``</i>`{=html}`" "``<i>`{=html}`default-file-path``</i>`{=html}`" "``<i>`{=html}`wildcard-filters``</i>`{=html}`" "``<i>`{=html}`flags``</i>`{=html}`"`
+{% endcode %}
 
 * **;control** : Start of header statement. The leading semicolon ";" (or dollar character "$") tells Nyquist to treat this line as a comment and ignore it. The keyword "control" tells Audacity to create a GUI widget to be used by the Nyquist script.
 * **variable-name** : \[symbol] The variable name that will be set.
@@ -32,79 +44,51 @@ The syntax for creating a File-Button Widget is similar to all other Nyquist Plu
 * **file** : \[keyword] Declares a "file" type widget.
 * **button-text** : \[string] Text on the button. Normally this would be two double quotes (an empty string), which gives the default text: "Select a file"
 * **default-file-path** : \[string] Default file path for the file browser. This supports keywords to aid cross-platform support.
-* **wildcard-filters** : \[string] This is a magic "wildcard" string that follows the same syntax as [wxFileDialog](https://docs.wxwidgets.org/3.1/classwx\_file\_dialog.html).
-
-: The string comprises pairs of "description", pipe symbol ("|"), "file extension(s)". Multiple file extensions may be listed, separated by semi-colons (";").
-
+* **wildcard-filters** : \[string] This is a magic "wildcard" string that follows the same syntax as [wxFileDialog](https://docs.wxwidgets.org/3.1/classwx\_file\_dialog.html).\
+  The string comprises pairs of "description", pipe symbol ("|"), "file extension(s)". Multiple file extensions may be listed, separated by semi-colons (";").
 * **flags** : \[string] This is a "magic" string that sets options for the file browser, following the same syntax as [wxFileDialog](https://docs.wxwidgets.org/3.1/classwx\_file\_dialog.html).
 
-#### Magic Strings <a href="#magic_strings" id="magic_strings"></a>
+### Magic Strings <a href="#magic_strings" id="magic_strings"></a>
 
-```
-{{Note|1=The final three arguments, '''''default-file-path''''', ''''wildcard-filters''''', and '''''flags''''', use special keywords that define the behavior of the File-Button Widget and the associated File Browser.
-* ''Note that unlike Nyquist symbols, these keywords are case sensitive.''
-* ''The "Windows", "macOS" and "Linux" examples below refer to standard file paths for modern operating systems, though may be different on some machines.''
-* ''"<username>" is the name of the computer user's account (log-in name).}}
-```
+The final three arguments, _default-file-path_, _wildcard-filters_, and _flags_, use special keywords that define the behavior of the File-Button Widget and the associated File Browser.
 
-**Default File Path**
+* Note that unlike Nyquist symbols, these keywords are case sensitive.
+* The "Windows", "macOS" and "Linux" examples below refer to standard file paths for modern operating systems, though may be different on some machines.
+* "\<username>" is the name of the computer user's account (log-in name).
+
+#### **Default File Path**
 
 "default file path" supports the keywords:
 
 * **\*home\*"** : The current user's ["home" directory](https://en.wikipedia.org/wiki/Home\_directory).
-  * **Windows:** C:\Users\\`<username>`{=html}\\
-  * **macOS:** /Users/`<username>`{=html}/
-  * **Linux:** /home/`<username>`{=html}/
-
-```
-<!-- -->
-```
-
+  * **Windows:** C:\Users\\`<username>`\\
+  * **macOS:** /Users/`<username>`/
+  * **Linux:** /home/`<username>`/
 * **\~** : An alias for **\*home\***.
-
-```
-<!-- -->
-```
-
 * **\*default\*** : The default "Documents" path.
-  * **Windows:** C:\Users\\`<username>`{=html}\Documents\Audacity
-  * **macOS:** /Users/`<username>`{=html}/Documents/
-  * **Linux:** /home/`<username>`{=html}/Documents/
-
-```
-<!-- -->
-```
-
+  * **Windows:** C:\Users\\`<username>`\Documents\Audacity
+  * **macOS:** /Users/`<username>/`Documents/
+  * **Linux:** /home/`<username>`/Documents/
 * **\*export\*** The default "Export" path.
-  * **Windows:** C:\Users\\`<username>`{=html}\Desktop\\
-  * **macOS:** /Users/`<username>`{=html}/Documents/
-  * **Linux:** /home/`<username>`{=html}/Documents/
-
-```
-<!-- -->
-```
-
+  * **Windows:** C:\Users\\`<username>`\Desktop\\
+  * **macOS:** /Users/`<username>`/Documents/
+  * **Linux:** /home/`<username>`/Documents/
 * **\*save\*** The default "Save" path.
-  * **Windows:** C:\Users\\`<username>`{=html}\Desktop\\
-  * **macOS:** /Users/`<username>`{=html}/Documents/
-  * **Linux:** /home/`<username>`{=html}/Documents/
-
-```
-<!-- -->
-```
-
+  * **Windows:** C:\Users\\`<username>`\Desktop\\
+  * **macOS:** /Users/`<username>`/Documents/
+  * **Linux:** /home/`<username>`/Documents/
 * **\*config\*** The default configuration file directory.
-  * **Windows:** C:\Users\\`<username>`{=html}\AppData\Roaming\audacity\\
-  * **macOS:** /Users/`<username>`{=html}/Library/Application Support/audacity/
-  * **Linux:** /home/`<username>`{=html}/.audacity-data/
+  * **Windows:** C:\Users\\`<username>`\AppData\Roaming\audacity\\
+  * **macOS:** /Users/`<username>`/Library/Application Support/audacity/
+  * **Linux:** /home/`<username>`/.audacity-data/
 
-These keywords may be combined with a file name to specify which file to open. For example, if you want the default file to be called "sample-data.txt", and you want the default location to be the default "Documents" path, you could write the default file path parameter as: `{{inlineCode|"*default*/sample-data.txt"}}`{=mediawiki}. \`\{{advice|File paths should be quoted with double quotes, otherwise spaces in file name will fail.
+These keywords may be combined with a file name to specify which file to open. For example, if you want the default file to be called "sample-data.txt", and you want the default location to be the default "Documents" path, you could write the default file path parameter as: `"*default*/sample-data.txt"`.&#x20;
 
-* If no file path is provided, the default is "_default_".
-* If no file name is provided, the default file name is "untitled".
-* The default file extension is taken from the \[\[#Wildcard\_Filters|wildcard-filters]].\}}\`{=mediawiki}
+{% hint style="warning" %}
+File paths should be quoted with double quotes, otherwise spaces in file name will fail. If no file path is provided, the default is "default". If no file name is provided, the default file name is "untitled". The default file extension is taken from the wildcard-filters.
+{% endhint %}
 
-**Wildcard Filters**
+#### **Wildcard Filters**
 
 The "wildcard-filters" determine which file types are visible in the file browser. An empty string will default to all files types.
 
@@ -116,27 +100,16 @@ This "magic string" follows the same syntax as [wxFileDialog](https://docs.wxwid
 
 In this example we have two pairs:
 
-1. **Text file|\*.txt;\*.TXT**
+1. **Text file|\*.txt;\*.TXT**: \
+   Description: "Text file" \
+   File extension "\*.txt" matches: "anything.txt" \
+   File extension "\*.TXT" matches: "anything.TXT"
+2. **All files|\*.\*;\***: \
+   Description: "All files" \
+   File extension "\*.\*" matches: "anything.anything" \
+   File extension "\*" matches: "anything"
 
-:
-
-```
-:   Description: \"Text file\"
-:   File extension \"\*.txt\" matches: \"anything.txt\"
-:   File extension \"\*.TXT\" matches: \"anything.TXT\"
-```
-
-1. **All files|\*.\*;\***
-
-:
-
-```
-:   Description: \"All files\"
-:   File extension \"\*.\*\" matches: \"anything.anything\"
-:   File extension \"\*\" matches: \"anything\"
-```
-
-**Flags**
+#### **Flags**
 
 The magic "flags" string is similar to the "Styles" options in [wxFileDialog](https://docs.wxwidgets.org/3.1/classwx\_file\_dialog.html). Flags may be an empty string, a single keyword, or a comma separated list of keywords.
 
@@ -156,33 +129,26 @@ Available keywords are:
 
 &#x20;`"save,overwrite"`
 
-#### Return Values <a href="#return_values" id="return_values"></a>
+### Return Values <a href="#return_values" id="return_values"></a>
 
 The File-Button widget attempts to create a valid file path as a string, and assign it to the "variable-name" symbol.
 
 * If a single file is selected using the file browser, then the widget text box is updated to show the full path to the selected file.
-* If multiple files are selected using the file browser (requires "multiple" flag to be set), each file path is enclosed in double quotes.
-
-: Note: The list of file paths is NOT a LISP list. It is still a string. See example below for how to deal with multiple file paths.
-
+* If multiple files are selected using the file browser (requires "multiple" flag to be set), each file path is enclosed in double quotes.\
+  Note: The list of file paths is NOT a LISP list. It is still a string. See example below for how to deal with multiple file paths.
 * If the file path text box is empty, then the widget variable symbol is set to the default path.
 * If the file path text box contains only a file name (or any string that is not a path), then it is prepended with the default path and assigned as the value of the widget variable.
 
-#### Error Messages <a href="#error_messages" id="error_messages"></a>
+### Error Messages <a href="#error_messages" id="error_messages"></a>
 
 In the event of programming or user errors, the File-Button Widget may return an error message. Understanding these messages can be a great help when debugging a new plug-in.
 
-* **`<Path>`{=html} is not a valid file path.**
-
-: This error occurs if the returned file path is invalid, for example, if the directory does not exist. : This error is most likely to be due to the user manually editing the file path text box with an invalid file path.
-
-* **Mismatched quotes in `<string>`{=html}**
-
-: When the "multiple" flag is set, the file browser returns a list of quoted strings for each path. This error is thrown if the opening quotes do not have matching closing quotes. : This error is most likely to be due to the user manually editing the file path text box and missing one or more quote characters.
-
-* **Invalid wildcard string in 'path' control. Using empty string instead.**
-
-: This error occurs if the 'wildcard' magic string is malformed. : This is a programming error. Check the syntax of your [wildcard](broken-reference) string.
+* **`<Path>`is not a valid file path.**\
+  ****This error occurs if the returned file path is invalid, for example, if the directory does not exist. : This error is most likely to be due to the user manually editing the file path text box with an invalid file path.
+* **Mismatched quotes in `<string>`**\
+  ****When the "multiple" flag is set, the file browser returns a list of quoted strings for each path. This error is thrown if the opening quotes do not have matching closing quotes. : This error is most likely to be due to the user manually editing the file path text box and missing one or more quote characters.
+* **Invalid wildcard string in 'path' control. Using empty string instead.**\
+  ****This error occurs if the 'wildcard' magic string is malformed. : This is a programming error. Check the syntax of your [wildcard](broken-reference) string.
 
 #### Examples
 
@@ -210,13 +176,15 @@ Note that the file browser is created by the underlying operating system, so the
 
 Note also that the "exists" flag only affects the file browser - it does not prevent the user typing a non-existent file name in the file path text field. If the plug-in _requires_ the file to exist, then the plug-in code should run a test to ensure that it does. A simple test for the existence of a file, is to try and open it, for example:
 
-&#x20;`(defun test ()`\
-`(if (setf f (open filename))`\
-`(close f)`\
-`(throw 'error "File does not exist"))`\
-`(print "All good"))`\
-\
-`(catch 'error (test))`
+```lisp
+(defun test ()
+(if (setf f (open filename))
+(close f)
+(throw 'error "File does not exist"))
+(print "All good"))
+
+(catch 'error (test))
+```
 
 **Advanced "Save File" Example**
 
@@ -224,50 +192,56 @@ Note also that the "exists" flag only affects the file browser - it does not pre
 
 In this example, all parameters are explicitly defined:
 
-* '''variable-name : filename
-* **text-left** : "Export data to"
-* **button-text** : "Select a file"
-* **default-file-path** : "\*default\*/sample-data.txt"
-* **wildcard-filters** :
-
-:
-
-```
-:   Text file\|\*.txt;\*.TXT\|
-:   CSV files\|\*.csv;\*.CSV\|
-:   HTML files\|\*.html;\*.HTML;\*.htm;\*.HTM\|
-:   All files\|\*.\*;\*\"
-```
-
+* **variable-name**: filename
+* **text-left**: "Export data to"
+* **button-text**: "Select a file"
+* **default-file-path**: "\*default\*/sample-data.txt"
+* **wildcard-filters:** \
+  ****Text file|\*.txt;\*.TXT| \
+  CSV files|\*.csv;\*.CSV| \
+  HTML files|\*.html;\*.HTML;\*.htm;\*.HTM| \
+  All files|\*.\*;\*"
 * **flags** : "save,overwrite"
 
-The [wildcard filters](broken-reference) provide options in the file browser to show either text files (.txt or .TXT), which is the default, or CSV files (.csv pr .CSV), or HTML files (.html, or .HTML, or .htm, or .HTM), or "All files" (any file name). `{{advice|Note that on Windows, file extensions are not case sensitive, but Linux, and some Mac computers are case sensitive, so for cross-platform portability it is recommended to use both upper and lower case file name extensions.}}`{=mediawiki}
+The [wildcard filters](broken-reference) provide options in the file browser to show either text files (.txt or .TXT), which is the default, or CSV files (.csv pr .CSV), or HTML files (.html, or .HTML, or .htm, or .HTM), or "All files" (any file name).&#x20;
+
+{% hint style="warning" %}
+Note that on Windows, file extensions are not case sensitive, but Linux, and some Mac computers are case sensitive, so for cross-platform portability it is recommended to use both upper and lower case file name extensions.
+{% endhint %}
 
 **Open Multiple Files**
 
-&#x20;`;control var "Select one or more files" file "Select" "*default*" "Text file|*.txt;*.TXT|All files|*.*;*" "open,multiple"`
+`;control var "Select one or more files" file "Select" "*default*" "Text file|*.txt;*.TXT|All files|*.*;*" "open,multiple"`
 
-In this example, the variable that will be set is `{{inlineCode|var}}`{=mediawiki}, the default directory is `{{inlineCode|*default*}}`{=mediawiki}, and the default file type filter is for text files (with an option to show all files). Unlike the previous versions, the file browser may be used to select multiple files (requires Audacity 2.3.1 or later). `{{note|If the users selects one or more files using the file browser, then each file path will be enclosed in double quotes. However, the user could type in the path to a single file without quotes, or, as in this case, the default could be an unquoted single file path, so we should check for and support both versions.}}`{=mediawiki} To extract all of the the paths from the returned string, we first need to convert it to a more useful form, such as a LISP list:
+In this example, the variable that will be set is `var`, the default directory is `*default*`, and the default file type filter is for text files (with an option to show all files). Unlike the previous versions, the file browser may be used to select multiple files (requires Audacity 2.3.1 or later).&#x20;
 
-&#x20;`(setf path-string`\
+{% hint style="info" %}
+If the users selects one or more files using the file browser, then each file path will be enclosed in double quotes. However, the user could type in the path to a single file without quotes, or, as in this case, the default could be an unquoted single file path, so we should check for and support both versions.
+{% endhint %}
+
+To extract all of the the paths from the returned string, we first need to convert it to a more useful form, such as a LISP list:
+
+`(setf path-string`\
 `(format nil "(list ~s )" (string-trim "\"" var)))`
 
-Here we have stripped the outer double quotes (if present), and then formatted it into a string that describes a LISP list. So, for example, if the selected files were: "C:\first.txt" and "C:\second.txt", then the value of `{{inlineCode|var}}`{=mediawiki} would be `{{inlineCode|""C:\first.txt""C:\second.txt""}}`{=mediawiki}, and the value of `{{inlineCode|path-string}}`{=mediawiki} would be `{{inlineCode|"(list "C:\first.txt" "C:\second.text")"}}`{=mediawiki}. `{{advice|'''Important:''' Note that this is still only a string value, not a LISP list.}}`{=mediawiki} To convert this string into a LISP list, we need to evaluate the string as if it were code. Fortunately in Audacity 2.3.1 and later, there is an easy way to do this with the `{{inlineCode|EVAL-STRING}}`{=mediawiki} function:
+Here we have stripped the outer double quotes (if present), and then formatted it into a string that describes a LISP list. So, for example, if the selected files were: "C:\first.txt" and "C:\second.txt", then the value of `var`would be `""C:\first.txt""C:\second.txt""`, and the value of `path-string` would be `"(list "C:\first.txt" "C:\second.text")"`.&#x20;
+
+{% hint style="warning" %}
+Important: Note that this is still only a string value, not a LISP list.
+{% endhint %}
+
+To convert this string into a LISP list, we need to evaluate the string as if it were code. Fortunately in Audacity 2.3.1 and later, there is an easy way to do this with the `EVAL-STRING` function:
 
 &#x20;`(setf paths (eval-string path-string))`
 
-```
-{{inlineCode|paths}}
-```
+`paths` is now a valid LISP list of strings, which we can iterate through like this:
 
-is now a valid LISP list of strings, which we can iterate through like this:
-
-&#x20;`(dolist (p paths)`\
+`(dolist (p paths)`\
 `(print p))`
 
 The complete example that can run in the [Nyquist Prompt](https://manual.audacityteam.org/man/nyquist\_prompt.html):
 
-```
+```lisp
 ;version 4
 ;type tool
 ;debugflags trace
@@ -283,61 +257,71 @@ The complete example that can run in the [Nyquist Prompt](https://manual.audacit
   (print p))
 ```
 
-### Example Applications <a href="#example_applications" id="example_applications"></a>
+## Example Applications <a href="#example_applications" id="example_applications"></a>
 
-These example applications may be run in the [Nyquist Prompt](https://manual.audacityteam.org/man/nyquist\_prompt.html), or could be converted to plug-ins by adding full plug-in headers. `{{note|These code examples are excessively commented so as to explain what they are doing. For production code, comments should be concise and provide clarification where the intent is not obvious. As far as possible, the code should be self explanatory, but as this is intended for learning purposes, additional explanatory comments are included.}}`{=mediawiki}
+These example applications may be run in the [Nyquist Prompt](https://manual.audacityteam.org/man/nyquist\_prompt.html), or could be converted to plug-ins by adding full plug-in headers.&#x20;
 
-#### Writing to a File <a href="#writing_to_a_file" id="writing_to_a_file"></a>
+{% hint style="info" %}
+These code examples are excessively commented so as to explain what they are doing. For production code, comments should be concise and provide clarification where the intent is not obvious. As far as possible, the code should be self explanatory, but as this is intended for learning purposes, additional explanatory comments are included.
+{% endhint %}
 
-```
-{{advice|Requires Audacity 2.3.0  or later.}}
-```
+### Writing to a File <a href="#writing_to_a_file" id="writing_to_a_file"></a>
 
 In this example, we use a File-Button widget to specify a file that will be written to. It is important to note that selecting the file does NOT write to the file, it only captures the file path and file name, which we then write to later in the script. The plug-in will get some information about the selected audio, and write (append) it to a file.
 
 First we start with a couple of headers to set the syntax version and plug-in type.
 
-&#x20;`;version 4`\
+`;version 4`\
 `;type analyze`
 
 Next is our File-Button widget. Note that it has the "save" flag because we are selecting a file to write to.
 
-&#x20;`;control filename "Export to" file "" "data.txt" "Text file|*.txt;*.TXT|All files|*.*;*" "save"`
+`;control filename "Export to" file "" "data.txt" "Text file|*.txt;*.TXT|All files|*.*;*" "save"`
 
 The next three code lines gather the raw information that we will be writing to the file.
 
-&#x20;`;; Get data:`\
-`(setf tname (get '*track* 'name))`\
-`(setf peak (get '*selection* 'peak))`\
-`(setf rms (get '*selection* 'rms))`
+```lisp
+;; Get data:
+(setf tname (get '*track* 'name))
+(setf peak (get '*selection* 'peak))
+(setf rms (get '*selection* 'rms))
+```
 
 When we write to a file with Nyquist, the file is overwritten by the data that we are writing. As we want to append the new data to the file rather than overwriting it, we must first read the existing text from the file and store it in a variable. We can then write the old data, plus the new data back to the file. Here is a function that will read the contents of the file if it exists, and returns the data to the function caller.
 
-&#x20;`(defun read-file(fname)`\
-`;;; If file exists, copy its contents.`\
-`;;; Return the data, or empty string.`\
-`(setf data "")`\
-`(setf fp (open fname))`\
-`(when fp`\
-`(do ((line (read-line fp) (read-line fp)))`\
-`((not line))`\
-`(setf data (format nil "~a~a~%" data  line)))`\
-`(close fp))`\
-`data)`
+```lisp
+(defun read-file(fname)
+;;; If file exists, copy its contents.
+;;; Return the data, or empty string.
+(setf data "")
+(setf fp (open fname))
+(when fp
+(do ((line (read-line fp) (read-line fp)))
+((not line))
+(setf data (format nil "~a~a~%" data  line)))
+(close fp))
+data)
+```
 
-As this code is designed to work with text files, we can check that the file name ends with ".txt". `{{advice|The file name extension is NOT a reliable way to test the file type. In any situation where security is a concern, the file extension must not be relied as an indicator of the file type.}}`{=mediawiki}
+As this code is designed to work with text files, we can check that the file name ends with ".txt".&#x20;
 
-* First we assign an empty string as the value of the variable `{{inlineCode|ext}}`{=mediawiki}.
-* If the file name is at least 4 characters long, we extract the last 4 characters and assign it as the value of `{{inlineCode|ext}}`{=mediawiki}.
-* We can then apply a [case insensitive string comparison](http://www.audacity-forum.de/download/edgar/nyquist/nyquist-doc/xlisp/xlisp-ref/xlisp-ref-257.htm). If `{{inlineCode|ext}}`{=mediawiki} is equal to **.txt**, then we assume it is a plain text file.
+{% hint style="warning" %}
+The file name extension is NOT a reliable way to test the file type. In any situation where security is a concern, the file extension must not be relied as an indicator of the file type.
+{% endhint %}
 
-&#x20;`;; Check file extension.`\
-`(setf ext "")`\
-`(when (>= (length filename) 4)`\
-`(setf ext (subseq filename (- (length filename) 4))))`\
-\
-`(if (string-equal ext ".txt")`\
-`...`
+* First we assign an empty string as the value of the variable `ext`.
+* If the file name is at least 4 characters long, we extract the last 4 characters and assign it as the value of `ext`.
+* We can then apply a [case insensitive string comparison](http://www.audacity-forum.de/download/edgar/nyquist/nyquist-doc/xlisp/xlisp-ref/xlisp-ref-257.htm). If `ext` is equal to **.txt**, then we assume it is a plain text file.
+
+```lisp
+;; Check file extension.
+(setf ext "")
+(when (>= (length filename) 4)
+(setf ext (subseq filename (- (length filename) 4))))
+
+(if (string-equal ext ".txt")
+...
+```
 
 So now we can run our main program, which is within a program [**prog**](http://www.audacity-forum.de/download/edgar/nyquist/nyquist-doc/xlisp/xlisp-ref/xlisp-ref-202.htm) block.
 
@@ -347,25 +331,29 @@ So now we can run our main program, which is within a program [**prog**](http://
 * After reading or writing to a file, the file should be closed again.
 * Finally we return an acknowledgment message.
 
-&#x20;  `;; It looks like a text file, so let's do it...`\
-`(prog ((data (read-file filename)))`\
-`;; Open the file for writing.`\
-`(setf fp (open filename :direction :output))`\
-`;; Use the 'format' command to write to the file pointer 'fp'.`\
-`(format fp "~aTrack ~s: Peak level: ~a  RMS level: ~a~%"`\
-`data tname peak rms)`\
-`;; Close the file.`\
-`(close fp)`\
-`(format nil "Data exported to:~%~s" filename))`
+```lisp
+;; It looks like a text file, so let's do it...
+(prog ((data (read-file filename)))
+;; Open the file for writing.
+(setf fp (open filename :direction :output))
+;; Use the 'format' command to write to the file pointer 'fp'.
+(format fp "~aTrack ~s: Peak level: ~a  RMS level: ~a~%"
+data tname peak rms)
+;; Close the file.
+(close fp)
+(format nil "Data exported to:~%~s" filename))
+```
 
 If the file did not end with **.txt**, we return an error message.
 
-&#x20;  `;; It doesn't look like a text file, so throw an error.`\
-`"Error.\nUnsupported file type.")`
+```lisp
+;; It doesn't look like a text file, so throw an error.
+"Error.\nUnsupported file type.")
+```
 
 **The Complete Code:**
 
-```
+```lisp
 ;version 4
 ;type analyze
 
@@ -410,15 +398,19 @@ If the file did not end with **.txt**, we return an error message.
     "Error.\nUnsupported file type.")
 ```
 
-#### Reading Multiple Files <a href="#reading_multiple_files" id="reading_multiple_files"></a>
-
-```
-{{advice|Requires Audacity 2.3.1  or later.}}
-```
+### Reading Multiple Files <a href="#reading_multiple_files" id="reading_multiple_files"></a>
 
 This is an _advanced_ example that uses the File-Button widget to read data from one or more text files. Text handling is not one of Nyquist's strengths (Nyquist is primarily designed for handling audio), hence parsing the text file data is quite complex.
 
-In this example, we will import (read) labels from one or more text files. `{{note|1=For simplicity, we will deal only with the basic label format and not support "spectral" labels. ; The data format we will use is compatible with [https://manual.audacityteam.org/man/importing_and_exporting_labels.html exported labels], provided that [https://manual.audacityteam.org/man/spectral_selection.html Spectral Selections] are NOT used.}}`{=mediawiki} For this plug-in, we will specify that the label data file has one label definition per line, and each label definition has a start time (in seconds), and end time (in seconds) and optional label text. The numbers and optional label text may be separated by spaces or tabs. The data should be saved as plain text, with a ".txt" file extension.
+In this example, we will import (read) labels from one or more text files.&#x20;
+
+{% hint style="info" %}
+For simplicity, we will deal only with the basic label format and not support "spectral" labels.&#x20;
+
+The data format we will use is compatible with [exported labels](https://manual.audacityteam.org/man/importing\_and\_exporting\_labels.html), provided that [Spectral Selections](https://manual.audacityteam.org/man/spectral\_selection.html) are NOT used.
+{% endhint %}
+
+For this plug-in, we will specify that the label data file has one label definition per line, and each label definition has a start time (in seconds), and end time (in seconds) and optional label text. The numbers and optional label text may be separated by spaces or tabs. The data should be saved as plain text, with a ".txt" file extension.
 
 **Example Data:**
 
@@ -431,7 +423,7 @@ In this example, we will import (read) labels from one or more text files. `{{no
 
 **The Complete Code:**
 
-```
+```lisp
 ;version 4
 ;type analyze
 
@@ -530,5 +522,3 @@ In this example, we will import (read) labels from one or more text files. `{{no
 ; Call the 'main' function, and catch any errors.
 (catch 'err (process))
 ```
-
-[Category:Nyquist](Category:Nyquist) [Category:Nyquist:Reference](Category:Nyquist:Reference) [Category:Nyquist:Tutorials](Category:Nyquist:Tutorials)

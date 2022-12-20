@@ -62,7 +62,7 @@ In this example (derived from the [High-Pass Filter](https://manual.audacityteam
 The other headers enable various options and properties, including the plug-in's controls.
 
 {% hint style="info" %}
-Full descriptions of all plug-in headers are provide on the Nyquist Plug-in Headers page.
+Full descriptions of all plug-in headers are provide on the [Nyquist Plug-in Headers](headers-reference.md) page.
 {% endhint %}
 
 ## Nyquist Plug-in Widgets <a href="#nyquist_plug_in_widgets" id="nyquist_plug_in_widgets"></a>
@@ -103,9 +103,7 @@ Note: "real" (deprecated) is an alternative name for "float" and is provided as 
 
 _Italic_ words in the table denote data types. Because tokens are separated by whitepace, strings containing whitespace must be written within quotation marks.
 
-This image displays all nine widget types in Audacity 2.3.1 on Windows 10
-
-![](../../../.gitbook/assets/Nyquist-plug-in-widgets.png)
+![This image displays all nine widget types in Audacity 2.3.1 on Windows 10](../../../.gitbook/assets/Nyquist-plug-in-widgets.png)
 
 {% hint style="info" %}
 Note: Older versions of Audacity may not support all of these controls, which may lead to an "unbound symbol" error. Plug-in users are encouraged to use the current version of Audacity, to ensure that they can benefit from all of the latest features.
@@ -146,7 +144,7 @@ The following code may be run in the [Nyquist Prompt](https://manual.audacitytea
 
 The detailed syntax for each widget type is described on the Nyquist Plug-ins Widgets page.
 
-### Tracks and Selections <a href="#tracks_and_selections" id="tracks_and_selections"></a>
+## Tracks and Selections <a href="#tracks_and_selections" id="tracks_and_selections"></a>
 
 Audacity passes information about the current Audacity session to the Nyquist interpreter, along with the Nyquist code. Typically, when the code runs, it acts on data that has been passed from Audacity, which often includes the selected audio data, and returns data back to Audacity. Here we shall look at the ways that audio data is passed from Audacity to Nyquist, and from Nyquist back to Audacity.
 
@@ -515,7 +513,6 @@ A working example may be found in the [RMS effect](https://github.com/audacity/a
 ## See Also <a href="#see_also" id="see_also"></a>
 
 * [Nyquist](https://manual.audacityteam.org/man/nyquist.html) in the Audacity manual
-* Digital Audio Technology
-* Nyquist Audio Programming - "How to" and other explanatory articles
+* Nyquist [Basics ](basics/)and [Tutorials](tutorials/)
 * [Nyquist 3.02 Reference Manual](http://www.cs.cmu.edu/\~rbd/doc/nyquist/)
 * [XLISP 2.0 Manual](http://www.audacity-forum.de/download/edgar/nyquist/nyquist-doc/xlisp/xlisp-index.htm)
