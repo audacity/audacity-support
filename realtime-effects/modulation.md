@@ -1,5 +1,33 @@
 # Modulation
 
+## MuseFX Chorus
+
+An easy to use chorus effect. Part of the [#muse-fx](plugin-suites.md#muse-fx "mention") pack.
+
+<details>
+
+<summary>Details</summary>
+
+See the pack for installation instructions.
+
+![](<../.gitbook/assets/image (6).png>)
+
+</details>
+
+## MuseFX Rotary
+
+An easy to use Rotary/Leslie effect. Part of the [#muse-fx](plugin-suites.md#muse-fx "mention") pack.
+
+<details>
+
+<summary>Details</summary>
+
+See the pack for installation instructions.
+
+![](<../.gitbook/assets/image (7).png>)
+
+</details>
+
 ## Valhalla Space Modulator
 
 A modulator with 11 different algorithms.

@@ -3,6 +3,31 @@ description: Families of plugins by the same authors
 ---
 
 # Plugin Suites
+## Muse FX
+
+A collection of essential effects. Contains a **Chorus**, **Compressor**, **De-esser**, **Delay**, **Master**, **Noise Gate**, **Pitch Fix**, **Reverb**, **Rotary**, and two **EQ effects**.
+
+MuseFX is a free and expanding collection of high quality plug-ins for Audacity, MuseScore 4 and any VST3 compatible host. MuseFX brings the tools you need to elevate your mix to a higher level.
+
+{% embed url="https://www.musehub.com/" %}
+Download Muse hub
+{% endembed %}
+
+## Available for all platforms
+### GVST
+
+A set of simple VST effects, most known for the GSnap (auto-tune) effect.
+
+{% embed url="https://www.gvst.co.uk/packages.htm" %}
+Download page
+{% endembed %}
+
+### IEM Plugin Suite
+
+A set of open source plugins by the Institute of Electronic Music and Acoustics of the University of Music and Performing Arts Graz. Strong focus on ambisonic functions; see their [plugin descriptions](https://plugins.iem.at/docs/plugindescriptions/).&#x20;
+
+{% embed url="https://plugins.iem.at/" %}
+
 
 ## Available for Windows
 
@@ -28,7 +53,7 @@ Download page
 MacOS already ships with a range of Audio Unit effects which you can try out
 {% endhint %}
 
-### MFreeFXBundle
+## MFreeFXBundle
 
 A collection of 37 effects in categories like Analysis, Saturation & distortion, Dynamics, Equalization, Mastering, Mixing, Pitch and others.
 
@@ -53,20 +78,4 @@ Note: The virtual instruments included are not supported in Audacity.
 The Calf plugins can be found in the repositories of most Linux distributions, additionally, compilation instructions can be found here:&#x20;
 
 {% embed url="https://calf-studio-gear.org/#install" %}
-
-## Available for all platforms
-
-### GVST
-
-A set of simple VST effects, most known for the GSnap (auto-tune) effect.
-
-{% embed url="https://www.gvst.co.uk/packages.htm" %}
-Download page
-{% endembed %}
-
-### IEM Plugin Suite
-
-A set of open source plugins by the Institute of Electronic Music and Acoustics of the University of Music and Performing Arts Graz. Strong focus on ambisonic functions; see their [plugin descriptions](https://plugins.iem.at/docs/plugindescriptions/).&#x20;
-
-{% embed url="https://plugins.iem.at/" %}
 

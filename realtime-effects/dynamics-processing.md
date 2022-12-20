@@ -1,5 +1,33 @@
 # Dynamics Processing
 
+## Muse FX Compress
+
+An easy to use compressor effect. Part of the [#muse-fx](plugin-suites.md#muse-fx "mention") pack.
+
+<details>
+
+<summary>Details</summary>
+
+See the pack for installation instructions.
+
+![](<../.gitbook/assets/image (2).png>)
+
+</details>
+
+## MuseFX Master
+
+An easy to use mastering plugin. Part of the [#muse-fx](plugin-suites.md#muse-fx "mention") pack.
+
+<details>
+
+<summary>Details</summary>
+
+See the pack for installation instructions.
+
+![](<../.gitbook/assets/image (3).png>)
+
+</details>
+
 ## ReaFIR
 
 A multi-purpose dynamics processor, can be used for EQ, compressor, gate and noise reduction purposes. Part of ReaPlugs.
