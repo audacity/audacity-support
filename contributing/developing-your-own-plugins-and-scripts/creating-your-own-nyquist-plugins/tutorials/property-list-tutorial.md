@@ -56,14 +56,12 @@ The GET command returns the value of the property (the name of the track), which
 (format nil "The name of the current track is ~s." track-name)
 ```
 
-```
-{{note|1=Although we can change the value of the NAME property (using [http://www.audacity-forum.de/download/edgar/nyquist/nyquist-doc/xlisp/xlisp-ref/xlisp-ref-209.htm PUTPROP]), doing so will NOT change the name of the Audacity track. The value of the NAME property is only a copy of the track name, created by Audacity when the plug-in runs. If required, the name of the track could be changed using the scripting command [https://manual.audacityteam.org/man/scripting_reference.html#Extra:_Scriptables_I SetTrackStatus].<br>
-More generally, modifying a *TRACK* property does not modify the track.}}
-```
+{% hint style="info" %}
+Although we can change the value of the NAME property (using [PUTPROP](http://www.audacity-forum.de/download/edgar/nyquist/nyquist-doc/xlisp/xlisp-ref/xlisp-ref-209.htm)), doing so will NOT change the name of the Audacity track. The value of the NAME property is only a copy of the track name, created by Audacity when the plug-in runs. If required, the name of the track could be changed using the scripting command [SetTrackStatus](https://manual.audacityteam.org/man/scripting\_reference.html#Extra:\_Scriptables\_I).\
+More generally, modifying a \*_TRACK\*_ property does not modify the track.
 
-```
-{{advice|See also [http://www.audacity-forum.de/download/edgar/nyquist/nyquist-doc/xlisp/xlisp-man/xlisp-man-014.htm Property List Functions] in the XLisp manual.}}
-```
+See also [Property List Functions](http://www.audacity-forum.de/download/edgar/nyquist/nyquist-doc/xlisp/xlisp-man/xlisp-man-014.htm) in the XLisp manual.
+{% endhint %}
 
 ### \*TRACK\* CLIPS Property <a href="#track_clips_property" id="track_clips_property"></a>
 
@@ -112,7 +110,7 @@ Just as stereo sounds are represented as an array of sounds, so the track "clip"
 
 This code snippet will print the start and end times of the first audio clip in the left channel of a stereo track:
 
-```
+```lisp
 (setf track-clips (get '*track* 'clips))
 (setf left-channel (aref track-clips 0)) ; the list of clips in the left channel
 (print (first left-channel))
@@ -137,5 +135,3 @@ In a similar manner to the mono example, we can create a label for each clip in 
 (multichan-expand #'add-labels track-clips #("Left" "Right"))
 labels ;Reurn labels
 ```
-
-[Category:Nyquist](Category:Nyquist) [Category:Nyquist:Tutorials](Category:Nyquist:Tutorials)

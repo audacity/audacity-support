@@ -316,7 +316,7 @@ This is the time that the Nyquist code is parsed, NOT the time it is executed. I
 * **TIME** : \[string] The time formatted according to the current locale. Example: "hh:mm:ss".
 * **YEAR** : \[integer] The year (as an integer).
 
-#### \*TRACK\*
+### \*TRACK\*
 
 **Value:** The _sound_ from a selected mono audio track, or an array of two sounds from a selected stereo track (see the Nyquist Stereo Track Tutorial).
 

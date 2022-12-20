@@ -1,10 +1,14 @@
+---
+description: >-
+  Nyquist-Macros are a special kind of Nyquist plug-in that instruct Audacity to
+  perform tasks using Audacity's scripting interface.
+---
+
 # Macro Tutorial
 
-```
-{{Intro|1=Nyquist-Macros are a special kind of Nyquist plug-in that instruct Audacity to perform tasks using Audacity's [https://manual.audacityteam.org/man/scripting.html scripting] interface.|
-2=To use this feature effectively, it is necessary to use the correct commands and syntax, and also understand that when Nyquist is used in this way, Nyquist is not allowed, or able, to modify the project. Nyquist-Macros may instruct Audacity to modify the project, but unlike ''ordinary'' Nyquist plug-ins, Nyquist cannot itself modify the project.
-<p>Nyquist-Macros are potentially far more powerful than normal [https://manual.audacityteam.org/man/macros.html Macros] in that they may make use of logic, loops and conditionally executing code, rather than only running through a simple list. They can also accept user input via the usual [[Nyquist_Plug-ins_Reference#Nyquist_Plug-in_Widgets|Nyquist plug-in GUI]], and most other features of Nyquist plug-ins.</p>}}
-```
+To use this feature effectively, it is necessary to use the correct commands and syntax, and also understand that when Nyquist is used in this way, Nyquist is not allowed, or able, to modify the project. Nyquist-Macros may instruct Audacity to modify the project, but unlike ''ordinary'' Nyquist plug-ins, Nyquist cannot itself modify the project.
+
+Nyquist-Macros are potentially far more powerful than normal [Macros](https://manual.audacityteam.org/man/macros.html) in that they may make use of logic, loops and conditionally executing code, rather than only running through a simple list. They can also accept user input via the usual [Nyquist plug-in GUI](../plugin-reference.md), and most other features of Nyquist plug-ins.
 
 ### About This Tutorial <a href="#about_this_tutorial" id="about_this_tutorial"></a>
 
