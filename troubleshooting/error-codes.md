@@ -97,3 +97,9 @@ This is caused by missing [realtime effects](../audio-editing/using-realtime-eff
 {% hint style="info" %}
 Audacity currently looks for plugins in absolute paths. This means that if you open a project that was created on a different computer, Audacity will continue to check for the plugins in the exact same locations as they were on the old computer.&#x20;
 {% endhint %}
+
+## The Audacity IPC server failed to initialize
+
+If you are on a low-end machine, this may be caused by insufficient resources, specifically memory.&#x20;
+
+This also can happen if you assign yourself a static IP in the `hosts` file. If that's the case, simply commenting out the assignment may solve this.
