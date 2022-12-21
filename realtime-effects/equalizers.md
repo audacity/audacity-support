@@ -10,7 +10,7 @@ An easy to use yet powerful EQ. Part of the [#muse-fx](plugin-suites.md#muse-fx 
 
 See the pack for installation instructions.
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/musefx simpleeq.png>)
 
 </details>
 
@@ -24,7 +24,7 @@ An easy to use 4-band EQ. Part of the [#muse-fx](plugin-suites.md#muse-fx "menti
 
 See the pack for installation instructions.
 
-![](<../.gitbook/assets/image (4).png>)
+<img src="../.gitbook/assets/musefx proeq.png" alt="" data-size="original">
 
 </details>
 
@@ -52,7 +52,7 @@ Information From the vendor:
 * Full-view of graph optional for precise editing
 * Mouse modifiers/mousewheel usable for editing bandwidth of points in graph
 
-![](../.gitbook/assets/reaEQ.png)
+<img src="../.gitbook/assets/reaEQ.png" alt="" data-size="original">
 
 </details>
 
@@ -150,7 +150,7 @@ Information from the vendor
 * Extremely fast, optimized for newest AVX2 and AVX512 capable processors
 * Supports VST, VST3, AU and AAX interfaces on Windows and macOS
 
-See the [pack ](plugin-suites.md#mfreefxbundle)for installation instructions.&#x20;
+See the [pack ](plugin-suites.md#mfreefxbundle)for installation instructions.
 
 </details>
 

@@ -10,7 +10,7 @@ An easy to use chorus effect. Part of the [#muse-fx](plugin-suites.md#muse-fx "m
 
 See the pack for installation instructions.
 
-![](<../.gitbook/assets/image (6).png>)
+![](<../.gitbook/assets/musefx chorus.png>)
 
 </details>
 
@@ -24,7 +24,7 @@ An easy to use Rotary/Leslie effect. Part of the [#muse-fx](plugin-suites.md#mus
 
 See the pack for installation instructions.
 
-![](<../.gitbook/assets/image (7).png>)
+![](<../.gitbook/assets/musefx rotary.png>)
 
 </details>
 
@@ -47,13 +47,12 @@ COMPATIBILITY:
 * WINDOWS: WINDOWS 7/8/10
 * PLUGIN FORMATS: 64-BIT VST2.4/VST3/AAX
 
-&#x20;
+<!---->
 
 * MAC: OSX 10.8/10.9/10.10/10.11, MACOS 10.12/10.13/10.14/10.15, MACOS 11 BIG SUR
 * PLUGIN FORMATS: 64-BIT VST2.4/VST3/AAX/AU
 
-\
-
+\\
 
 Information from the vendor: [https://valhalladsp.com/shop/modulation/valhalla-space-modulator/](https://valhalladsp.com/shop/modulation/valhalla-space-modulator/)
 
@@ -63,9 +62,7 @@ ValhallaSpaceModulator is our take on flanging.
 
 Eleven algorithms allow you to get through-zero flanging, barberpole flanging, detuning, doubling, strange echoes, reverbs, and all sorts of effects that defy description.
 
-
-
-![](<../.gitbook/assets/Valhalla example.png>)
+<img src="../.gitbook/assets/Valhalla example.png" alt="" data-size="original">
 
 </details>
 
@@ -88,7 +85,7 @@ MRingModulator performs classic ring-modulation effects using one or two oscilla
 * Extremely fast, optimized for newest AVX2 and AVX512 capable processors
 * Supports VST, VST3, AU and AAX interfaces on Windows and macOS
 
-See the [pack ](plugin-suites.md#mfreefxbundle)for installation instructions.&#x20;
+See the [pack ](plugin-suites.md#mfreefxbundle)for installation instructions.
 
 </details>
 

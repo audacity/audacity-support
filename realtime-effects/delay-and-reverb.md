@@ -8,9 +8,9 @@ An easy to use, versatile delay effect, part of the [#muse-fx](plugin-suites.md#
 
 <summary>Details</summary>
 
-See the pack for installation instructions.&#x20;
+See the pack for installation instructions.
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/musefx delay.png>)
 
 </details>
 
@@ -22,9 +22,9 @@ An easy to use, versatile reverb effect, part of the [#muse-fx](plugin-suites.md
 
 <summary>Details</summary>
 
-See the pack for installation instructions.&#x20;
+See the pack for installation instructions.
 
-![](<../.gitbook/assets/image (3) (1).png>)
+![](<../.gitbook/assets/musefx reverb.png>)
 
 </details>
 
@@ -73,7 +73,7 @@ An easy-to-use highly optimized convolution reverb, part of the [#mfreefxbundle]
 * Extremely fast, optimized for newest AVX2 and AVX512 capable processors
 * Supports VST, VST3, AU and AAX interfaces on Windows and macOS
 
-See the [pack ](plugin-suites.md#mfreefxbundle)for installation instructions.&#x20;
+See the [pack ](plugin-suites.md#mfreefxbundle)for installation instructions.
 
 </details>
 
@@ -96,7 +96,7 @@ MCharmVerb is a great sounding lush algorithmic reverb based on the MTurboReverb
 * Extremely fast, optimized for newest AVX2 and AVX512 capable processors
 * Supports VST, VST3, AU and AAX interfaces on Windows and macOS
 
-See the [pack ](plugin-suites.md#mfreefxbundle)for installation instructions.&#x20;
+See the [pack ](plugin-suites.md#mfreefxbundle)for installation instructions.
 
 </details>
 
@@ -141,7 +141,7 @@ Information from the developer website:
 * Easy to use.
 * Only stereo channels supported.
 
-![](<../.gitbook/assets/TAL Reverb example.png>)
+<img src="../.gitbook/assets/TAL Reverb example.png" alt="" data-size="original">
 
 </details>
 
@@ -163,7 +163,7 @@ Notes held for a longer time tend to build up resonance, as if the air takes a w
 
 To achieve this, Protoverb works with many parallel, serial and networked delays. With such a structure, no mathematical formula can make it sound right, it is down to trial and error (and luck) using random values. Protoverb generates random delay line lengths, networks and feedback strategies.
 
-![](<../.gitbook/assets/protoverb example.png>)
+<img src="../.gitbook/assets/protoverb example.png" alt="" data-size="original">
 
 </details>
 

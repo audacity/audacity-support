@@ -12,7 +12,7 @@ See the pack for installation instructions.
 
 A noise gate keeps noise in quiet parts out while not affecting the audio you want at all.
 
-![](<../.gitbook/assets/image (5).png>)
+![](<../.gitbook/assets/musefx noisegate.png>)
 
 </details>
 
@@ -28,7 +28,7 @@ See the pack for installation instructions.
 
 Has presets for female and male voices, harshness, sibilance, steel guitar and strings rosin.
 
-![](<../.gitbook/assets/image (2) (1).png>)
+<img src="../.gitbook/assets/musefx deess.png" alt="" data-size="original">
 
 </details>
 
@@ -61,7 +61,7 @@ Information from the vendor:
 * Gate - can gate with per-band threshold
 * Subtract - can build noise profiles and subtract noise from the signal
 
-![](../.gitbook/assets/reafir.png)
+<img src="../.gitbook/assets/reafir.png" alt="" data-size="original">
 
 </details>
 
@@ -90,7 +90,7 @@ Information From the vendor:
 * Can send MIDI events on gate open/close
 * Wet/dry mix, noise mix (can add noise when gate is open)
 
-![](../.gitbook/assets/reagate.png)
+<img src="../.gitbook/assets/reagate.png" alt="" data-size="original">
 
 </details>
 
@@ -101,7 +101,7 @@ A virtual device that sits between your microphone and Audacity and other progra
 {% hint style="warning" %}
 **Caution:** NVIDIA Broadcast only works on Windows machines with a NVIDIA RTX GPU.
 
-Further, it only works on spoken word content; musical content is treated as noise and filtered out.&#x20;
+Further, it only works on spoken word content; musical content is treated as noise and filtered out.
 {% endhint %}
 
 {% embed url="https://www.nvidia.com/en-gb/geforce/broadcasting/broadcast-app/" %}
@@ -124,4 +124,4 @@ Technically, NVIDIA Broadcast isn't a plugin but a virtual device. You will find
 
 ## See also
 
-* &#x20;[dynamics-processing.md](dynamics-processing.md "mention") - Dynamics processors can often be used for noise reduction purposes
+* [dynamics-processing.md](dynamics-processing.md "mention") - Dynamics processors can often be used for noise reduction purposes

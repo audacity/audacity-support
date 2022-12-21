@@ -10,7 +10,7 @@ An easy to use compressor effect. Part of the [#muse-fx](plugin-suites.md#muse-f
 
 See the pack for installation instructions.
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/musefx compress.png>)
 
 </details>
 
@@ -24,7 +24,7 @@ An easy to use mastering plugin. Part of the [#muse-fx](plugin-suites.md#muse-fx
 
 See the pack for installation instructions.
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/musefx master.png>)
 
 </details>
 
