@@ -3,6 +3,7 @@ description: Families of plugins by the same authors
 ---
 
 # Plugin Suites
+
 ## Muse FX
 
 A collection of essential effects. Contains a **Chorus**, **Compressor**, **De-esser**, **Delay**, **Master**, **Noise Gate**, **Pitch Fix**, **Reverb**, **Rotary**, and two **EQ effects**.
@@ -13,7 +14,10 @@ MuseFX is a free and expanding collection of high quality plug-ins for Audacity,
 Download Muse hub
 {% endembed %}
 
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>MuseFX can be downloaded from the "Effects" tab in the Muse Hub</p></figcaption></figure>
+
 ## Available for all platforms
+
 ### GVST
 
 A set of simple VST effects, most known for the GSnap (auto-tune) effect.
@@ -24,16 +28,15 @@ Download page
 
 ### IEM Plugin Suite
 
-A set of open source plugins by the Institute of Electronic Music and Acoustics of the University of Music and Performing Arts Graz. Strong focus on ambisonic functions; see their [plugin descriptions](https://plugins.iem.at/docs/plugindescriptions/).&#x20;
+A set of open source plugins by the Institute of Electronic Music and Acoustics of the University of Music and Performing Arts Graz. Strong focus on ambisonic functions; see their [plugin descriptions](https://plugins.iem.at/docs/plugindescriptions/).
 
 {% embed url="https://plugins.iem.at/" %}
-
 
 ## Available for Windows
 
 ### Reaplugs
 
-A selection of some effects found in Reaper.&#x20;
+A selection of some effects found in Reaper.
 
 {% embed url="https://www.reaper.fm/reaplugs" %}
 Download page
@@ -75,7 +78,6 @@ An LV2 plugin suite featuring a wide array of plugins for audio mixing and maste
 
 Note: The virtual instruments included are not supported in Audacity.
 
-The Calf plugins can be found in the repositories of most Linux distributions, additionally, compilation instructions can be found here:&#x20;
+The Calf plugins can be found in the repositories of most Linux distributions, additionally, compilation instructions can be found here:
 
 {% embed url="https://calf-studio-gear.org/#install" %}
-

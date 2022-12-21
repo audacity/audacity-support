@@ -104,7 +104,7 @@ An example of the 'choice' widget can be found [sample-data-export.ny](https://g
 
 Introduced in Audacity 2.3.0.
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption><p>example of time input</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption><p>example of time input</p></figcaption></figure>
 
 ```
  ;control variable-name "text-left" time "text-right" initial-value minimum maximum
@@ -139,7 +139,7 @@ In this example:
 
 ### File-Button Widget
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption><p>example of file buttons</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>example of file buttons</p></figcaption></figure>
 
 The File Button Widget requires Audacity 2.3.0 or later.
 
