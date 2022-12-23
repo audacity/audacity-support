@@ -51,6 +51,7 @@
 * [Solving recording problems](troubleshooting/solving-recording-problems/README.md)
   * [Latency Compensation](troubleshooting/solving-recording-problems/latency-compensation.md)
 * [Solving other problems](troubleshooting/solving-other-problems.md)
+* [Resetting Audacity](troubleshooting/resetting-audacity.md)
 * [Missing features](troubleshooting/missing-features.md)
 
 ## Community
