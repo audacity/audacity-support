@@ -38,7 +38,7 @@
 
 ## Audio Analysis
 
-* [Spectral analysis](audio-analysis/untitled.md)
+* [Spectral analysis](audio-analysis/spectral-analysis.md)
 
 ## Troubleshooting
 
