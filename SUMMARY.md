@@ -39,10 +39,6 @@
 
 * [Analysis plugins](analyzers/analysis-plugins.md)
 
-## Scripts
-
-* [External scripts](scripts/tools.md)
-
 ## Contributing
 
 * [Adding plugins to this site](contributing/adding-plugins-to-this-site.md)
@@ -68,4 +64,8 @@
 ## Additional resources
 
 * [Audacity themes](additional-resources/audacity-themes.md)
+* [EQ curves](additional-resources/eq-curves/README.md)
+  * [Weighted curves](additional-resources/eq-curves/weighted-curves.md)
+  * [Playback equalization for 78 rpm shellacs and early 33⅓ LPs](additional-resources/eq-curves/playback-equalization-for-78-rpm-shellacs-and-early-33-lps.md)
+* [External scripts](additional-resources/tools.md)
 * [Audacity Support](https://app.gitbook.com/o/-MhmG2mhIIHTtQPuHV\_k/s/-MhmBVzGzh8SctWQ6jPR/)

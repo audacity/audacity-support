@@ -109,7 +109,7 @@ return *track* * osc-pulse(19000, 0) ; Sal
 
 The `(osc-pulse 19000 0)` produces 19kHz square wave carrier (note the 0 is the bias or 50/50 duty cycle, -1 to 1 = 0%-100% pulse-width ). Applying the 19kHz square wave carrier obtains this result.
 
-<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>resulting waveform</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>resulting waveform</p></figcaption></figure>
 
 The top and bottoms of the signal can then be clipped using the Hard Limiter option from the effects menu (0dB limit and Wet level 1) if required.
 

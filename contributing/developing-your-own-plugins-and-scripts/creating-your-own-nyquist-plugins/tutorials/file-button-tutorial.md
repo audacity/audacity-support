@@ -20,7 +20,7 @@ Prior to the availability of the File-Button Widget, file names could be hard co
 
 The File-Button Widget, as shown above, has an editable text input field that allows a file path to be typed (or pasted). After the text input field is a button that launches a file browser. Below is an example of the familiar file browser window on Windows 10.
 
-<figure><img src="../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3) (3).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Note that selecting a file in this file browser does NOT open the file.&#x20;

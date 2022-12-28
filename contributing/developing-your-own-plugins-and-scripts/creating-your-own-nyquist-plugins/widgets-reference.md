@@ -32,7 +32,7 @@ A text input box to the left of the slider allows the user to type in a value vi
 
 ### Numeric Text Widget
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption><p>example of numeric text</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>example of numeric text</p></figcaption></figure>
 
 The numeric text widget was introduced in Audacity 2.1.2.
 
@@ -139,7 +139,7 @@ In this example:
 
 ### File-Button Widget
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>example of file buttons</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>example of file buttons</p></figcaption></figure>
 
 The File Button Widget requires Audacity 2.3.0 or later.
 
