@@ -18,11 +18,9 @@ You can download and install FFmpeg as follows:
 {% tab title="Windows" %}
 ### Recommended installer
 
-1. Download the FFmpeg installer from a third party site, for example [https://lame.buanzo.org/#lamewindl](https://lame.buanzo.org/#lamewindl)
-   * For Audacity 3.2.0 download the **FFmpeg\_for\_Audacity\_3.2\_on\_Windows.zip** file.\
-     The ZIP file contains both 32-bit and 64-bit versions of the FFmpeg installer.  Use the _x86\_64.exe_ installer for 64-bit versions of Audacity or if you are using the 32-bit version of Audacity, choose the _x86.exe_ installer.
-   * For previous versions like Audacity 3.1.x download the installer FFmpeg v2.2.2 INSTALLER (.EXE) from [https://lame.buanzo.org/ffmpeg64audacity.php](https://lame.buanzo.org/ffmpeg64audacity.php). If you are using a 32-bit version of Audacity 3.1.x download the installer ffmpeg-win-2.2.2.exe from [https://lame.buanzo.org/#lamewindl](https://lame.buanzo.org/#lamewindl)
-2. Extract and run the installer (for example, _FFmpeg\_5.0.0\_for\_Audacity\_on\_Windows\_x86\_64.exe_). You can ignore the "unknown publisher" warning.
+1. Download the FFmpeg installer from [https://lame.buanzo.org/ffmpeg.php](https://lame.buanzo.org/ffmpeg.php)\
+   For most computers, the 64-bit Windows version is correct.
+2. Run the installer. You can ignore the "unknown publisher" warning.
 3. Read and accept the license
 4. Select the location to install FFmpeg. By default FFmpeg will be installed into **C:\Program Files\FFmpeg for Audacity**
 5. Finish the installation
@@ -84,10 +82,10 @@ If you have installed FFmpeg from a different source, or installed it in a diffe
 
 This is a universal binary installer. It automatically matches your system architecture.
 
-1. Download FFmpeg (**FFmpeg\_for\_Audacity\_3.2\_on\_macOS.pkg**) from  [https://lame.buanzo.org/#lameosx64bitdl](https://lame.buanzo.org/#lameosx64bitdl)&#x20;
+1. Download FFmpeg for macOS from  [https://lame.buanzo.org/ffmpeg.php](https://lame.buanzo.org/ffmpeg.php)
 2. When you have finished downloading, double-click the **"FFmpeg\_for\_Audacity\_3.2\_on\_macOS.pkg"** in your **Downloads** folder.
 3. You will be guided through the installation
-4. Click through the steps in the installer. This will install the **ffmpeg.59.64bit.dylib** file in the system library at **/Library/Application Support/audacity/libs/**.
+4. Click through the steps in the installer.&#x20;
    * _On some Macs the process may look as though it has stalled on "Validating packages" - just be patient and wait for it to complete._
 5. Restart Audacity if it was running when you installed FFmpeg then Audacity should detect FFmpeg automatically.
 
@@ -126,7 +124,7 @@ You can download or compile FFmpeg yourself as described here: [https://trac.ffm
 {% hint style="info" %}
 **Note:**&#x20;
 
-* Audacity 3.1 and later supports **avformat 55, 57** and **58**. Audacity 3.2 and later supports also **avformat 59**. On mac, the avformat files usually are called **ffmpeg.5\*.64bit.dylib**
+* Audacity 3.1 and later supports **avformat 55, 57** and **58**. Audacity 3.2 and later supports also **avformat 59**.
 * Make sure to download or build the **shared** versions (with .dylib's) as only those can be used by Audacity.&#x20;
 {% endhint %}
 
