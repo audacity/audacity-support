@@ -4,7 +4,7 @@ description: >-
   exporting audio.
 ---
 
-# Saving and Exporting Projects
+# Saving and exporting projects
 
 ## Saving projects
 
@@ -25,7 +25,7 @@ You can export your project into an audio file using the **File > Export** menu.
 In the **File > Export** menu, you'll see a few different options:
 
 {% hint style="info" %}
-**Note:** You may need to [install FFMPEG](downloading-and-installing-audacity/installing-ffmpeg.md) to access some of these options.
+**Note:** You may need to [install FFMPEG](installing-ffmpeg.md) to access some of these options.
 {% endhint %}
 
 * **Export as MP3**, **Export as WAV** and **Export as OGG** will export your project into the selected format.&#x20;

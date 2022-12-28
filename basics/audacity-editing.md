@@ -11,7 +11,7 @@ description: >-
 To start editing, you need some sort of sound to edit. You can either [record some sound](recording-your-voice-and-microphone/), or import an existing sound file (for example, an MP3 or WAV) by dragging & dropping it into the project window. You can also import files via the **File > Import** menus.&#x20;
 
 {% hint style="info" %}
-**Note:** To import proprietary file formats such as M4A or WMA, you need to [install FFMPEG](downloading-and-installing-audacity/installing-ffmpeg.md) first.&#x20;
+**Note:** To import proprietary file formats such as M4A or WMA, you need to [install FFMPEG](installing-ffmpeg.md) first.&#x20;
 {% endhint %}
 
 Once you have that, you will see a waveform of your sound:&#x20;
