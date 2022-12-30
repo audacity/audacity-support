@@ -103,3 +103,7 @@ Audacity currently looks for plugins in absolute paths. This means that if you o
 If you are on a low-end machine, this may be caused by insufficient resources, specifically memory.&#x20;
 
 This also can happen if you assign yourself a static IP in the `hosts` file. If that's the case, simply commenting out the assignment may solve this.
+
+## Error code=12 : "cannot allocate memory"
+
+This is caused by an unexpected system state. Rebooting the computer resolves it.
