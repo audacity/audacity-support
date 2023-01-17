@@ -154,6 +154,38 @@ See the [pack ](plugin-suites.md#mfreefxbundle)for installation instructions.
 
 </details>
 
+## RS-W2395C Free Neo Classic Baxandall EQ
+
+The W2395c is a classic Baxandall EQ combined with a powerful and beautiful sounding mid band
+
+{% embed url="https://fuseaudiolabs.de/#/pages/product?id=300965965" %}
+Download page
+{% endembed %}
+
+<details>
+
+<summary>Details</summary>
+
+### Vendor description
+
+#### 1950 Meets 2019
+
+The W2395c is a classic Baxandall EQ combined with a powerful and beautiful sounding mid band. As a solitary or complementary equalizer with that special something, its particular tone and slightly interactive bands let your tracks stand out big time. In close cooperation with its creator, analog mastermind [Roger Schult](https://www.rogerschult.com/), we are delighted to offer this amazing plugin completely for free.
+
+#### Control and Shape
+
+The W2395c excels in controlling the midrange within the context of broad tonal shaping of bass and treble. The high shelf is great for carving out percussive sounds as well as opening or darkening instruments and voices. The partnering low band provides a precise and solid grip on the sub frequencies, while the mids manage the balancing act between natural and beefy with stunning ease.
+
+#### Straight yet Flexible
+
+Operating the W2395c is as straight forward as it gets, and still the few controls provide great flexibility. The low band can be switched from 80 to 110 Hz, the highs from 2 to 5 kHz, and the semi-parametric mids offer 3 different Q factors to choose from. The drive control is a plugin-exclusive extra for adding some nice grit to its supernaturally natural tone character.
+
+#### Freely yours
+
+With its super intuitive controls and musically interacting curves, the W2395c is a special and unique gem in the world of equalizers. It enhances anything from very dynamic sources like vocals or drums to harsh cymbals or dull sounding guitars and synths – and it does an excellent job on the mix buss as well. A truly exciting EQ experience is waiting for you… right now, all free.
+
+</details>
+
 ## See also
 
 * Nyquist [filters-and-eq.md](../nyquist-plugins/effect-plugins/filters-and-eq.md "mention") effects
