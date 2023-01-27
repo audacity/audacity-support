@@ -84,6 +84,7 @@
 ## Additional resources
 
 * [📄 Changelog](additional-resources/changelog/README.md)
+  * [Audacity 3.2.4](additional-resources/changelog/audacity-3.2.4.md)
   * [Audacity 3.2.3](additional-resources/changelog/audacity-3.2.3.md)
   * [Audacity 3.2.2](additional-resources/changelog/audacity-3.2.2.md)
   * [Audacity 3.2.1](additional-resources/changelog/audacity-3.2.1.md)
