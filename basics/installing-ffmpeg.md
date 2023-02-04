@@ -56,17 +56,17 @@ If you have installed FFmpeg from a different source, or installed it in a diffe
 1. Go to **Edit > Preferences > Libraries**
 2.  Click on the **Locate...** button.&#x20;
 
-    ![](<../../.gitbook/assets/ffmpeg prefs.png>)
+    ![](<../.gitbook/assets/ffmpeg prefs.png>)
 3.  **If the following message appears**, Audacity has automatically identified FFmpeg:
 
-    ![](<../../.gitbook/assets/ffmpeg success.png>)
+    ![](<../.gitbook/assets/ffmpeg success.png>)
 
     You can click **No** as Audacity already knows where to find FFmpeg.&#x20;
 
     If this message **does not appear**, proceed with the next steps.
 4.  In this dialog window, click **Browse...** to locate the avformat-\*.dll from the FFmpeg folder you downloaded/installed elsewhere&#x20;
 
-    ![](<../../.gitbook/assets/ffmpeg locate.png>)
+    ![](<../.gitbook/assets/ffmpeg locate.png>)
 5. Once you've found it, click **Open**, then **OK**, then **OK** again to close the preferences.&#x20;
 {% endtab %}
 
@@ -95,13 +95,7 @@ If you have problems with Audacity detecting FFmpeg, follow the steps below to *
 
 ### Homebrew
 
-One way to install an FFmpeg version that matches your system architecture is using [**homebrew**](https://brew.sh/). To install homebrew, you first need xcode. You can install it through the Terminal.app by typing in:&#x20;
-
-```bash
-xcode-select --install
-```
-
-When XCode is installed, the following command downloads and runs the homebrew installer:
+One way to install an FFmpeg version that matches your system architecture is using [**homebrew**](https://brew.sh/). You can install it through the Terminal.app by typing in:&#x20;
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
