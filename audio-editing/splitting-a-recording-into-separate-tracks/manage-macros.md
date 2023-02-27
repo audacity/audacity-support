@@ -7,7 +7,7 @@ description: >-
 
 # Manage Macros
 
-Any [built-in](https://manual.audacityteam.org/man/effect\_menu.html#built-in), [LADSPA](https://manual.audacityteam.org/man/effect\_menu\_ladspa.html), [LV2](https://manual.audacityteam.org/man/effect\_menu\_lv2.html), [Nyquist](https://manual.audacityteam.org/man/effect\_menu\_nyquist.html), [VST](https://manual.audacityteam.org/man/effect\_menu\_vst.html) or [Audio Unit](https://manual.audacityteam.org/man/effect\_menu\_audiounit.html) (Mac) effect shown in the [Effect Menu](https://manual.audacityteam.org/man/effect\_menu.html) can be added to a Macro. You can also add plug-ins in any format that are shown in the [Generate](https://manual.audacityteam.org/man/generate\_menu.html) or [Analyze](https://manual.audacityteam.org/man/analyze\_menu.html) Menus (including [Vamp](https://manual.audacityteam.org/man/analyze\_menu.html#vamp) analysis effects), the built-in [Find Clipping](https://manual.audacityteam.org/man/find\_clipping.html) analyzer and a number of export commands.
+Any [built-in](https://manual.audacityteam.org/man/effect\_menu.html#built-in), [LADSPA](https://manual.audacityteam.org/man/effect\_menu\_ladspa.html), [LV2](https://manual.audacityteam.org/man/effect\_menu\_lv2.html), [Nyquist](https://manual.audacityteam.org/man/effect\_menu\_nyquist.html), [VST](https://manual.audacityteam.org/man/effect\_menu\_vst.html) or [Audio Unit](https://manual.audacityteam.org/man/effect\_menu\_audiounit.html) (Mac) effect shown in the [Effect Menu](https://manual.audacityteam.org/man/effect\_menu.html) can be added to a Macro. You can also add plugins in any format that are shown in the [Generate](https://manual.audacityteam.org/man/generate\_menu.html) or [Analyze](https://manual.audacityteam.org/man/analyze\_menu.html) Menus (including [Vamp](https://manual.audacityteam.org/man/analyze\_menu.html#vamp) analysis effects), the built-in [Find Clipping](https://manual.audacityteam.org/man/find\_clipping.html) analyzer and a number of export commands.
 
 Macros may be applied to either the entirety of the current project or to a selection of files using the Tools > [Macros...](../../community/contributing/tutorials/todo/using-macros-to-automate-frequent-tasks.md) command.
 
@@ -213,9 +213,9 @@ See the [Macros Examples](macros-examples.md) page for examples of using Macros.
 
 ### Error: Batch command not recognized
 
-This error may sometimes occur for one or more commands in a Macro when updating from a previous Audacity version. The error may also occur if users sharing Macro have different Audacity versions or different versions of the plug-ins used in the Macro. The error will occur if:
+This error may sometimes occur for one or more commands in a Macro when updating from a previous Audacity version. The error may also occur if users sharing Macro have different Audacity versions or different versions of the plugins used in the Macro. The error will occur if:
 
 * any command in the Macro uses a different text format than that recognized by the version of Audacity in use
-* any plug-ins listed in the Macro are missing, in an incorrect location or are incompatible with the version of Audacity in use.
+* any plugins listed in the Macro are missing, in an incorrect location or are incompatible with the version of Audacity in use.
 
-To resolve these errors, ensure you have compatible versions of all required plug-ins and that the plug-ins are [installed correctly](https://manual.audacityteam.org/man/faq\_installation\_and\_plug\_ins.html#plug-ins). If necessary, use the **Manage Macros** dialog to delete the command that fails then insert a replacement command for the same effect from the **Select Command** dialog.
+To resolve these errors, ensure you have compatible versions of all required plugins and that the plugins are [installed correctly](https://manual.audacityteam.org/man/faq\_installation\_and\_plug\_ins.html#plug-ins). If necessary, use the **Manage Macros** dialog to delete the command that fails then insert a replacement command for the same effect from the **Select Command** dialog.
