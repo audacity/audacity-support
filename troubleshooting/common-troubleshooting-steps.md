@@ -1,5 +1,9 @@
 # Common troubleshooting steps
 
+## Rescan audio device
+
+Audacity does not automatically update the devices list when you plug in or unplug a device. Go to **Transport > Rescan audio devices** to update the list of outputs.
+
 ## Privacy permissions
 
 Some operating systems may block access to the microphone for untrusted apps. You need to allow microphone access for Audacity in order to record.&#x20;
