@@ -1,12 +1,10 @@
-# Audacity 3.2.4
+# Audacity 3.2.5
 
-**Audacity 3.2.4 was released on 27 Jan 2023**
+**Audacity 3.2.5 was released on 1 Mar 2023**
 
 This is a hotfix release. It fixes the following bug:
 
-* \#[4057](https://github.com/audacity/audacity/issues/4057) Fixed the meters not retaining size
-
-A full list of changes can be found [on Github](https://github.com/audacity/audacity/milestone/17?closed=1).
+* \#[4374 ](https://github.com/audacity/audacity/pull/4374)Fixed a bug where Audacity could accidentally spam [audio.com](https://audio.com)&#x20;
 
 ## Supported platforms
 
