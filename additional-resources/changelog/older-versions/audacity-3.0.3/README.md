@@ -7,7 +7,7 @@
 Key improvements:
 
 * Windows version is now 64-bit
-  * (Note: 32-bit plug-ins will _**not work**_ on 64-bit Audacity)
+  * (Note: 32-bit plugins will _**not work**_ on 64-bit Audacity)
   * _A 32-bit build of 3.0.3 remains available for download_
 * Improved default spectrogram colors
 * We now provide an official binary for Linux in the form of an AppImage

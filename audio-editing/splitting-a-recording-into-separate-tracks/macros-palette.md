@@ -68,7 +68,7 @@ You cannot process [multi-channel audio files](https://manual.audacityteam.org/m
 When a Macro is applied to files, the only option is to import and process the entire file. Thus the entire file will be exported unless an action or effect in the Macro (such as [Cut](https://manual.audacityteam.org/man/edit\_toolbar.html#cut) or [Truncate Silence](https://manual.audacityteam.org/man/truncate\_silence.html)) removes some audio.
 
 * If modifying the audio before exporting, the [Select Time](https://manual.audacityteam.org/man/extra\_menu\_scriptables\_i.html#select\_time) function may be useful to select audio to remove or modify.
-* Some optional [Nyquist plug-ins](https://wiki.audacityteam.org/wiki/Nyquist\_Plug-ins) have parameters to [trim or extend audio by a specific length](https://wiki.audacityteam.org/wiki/Download\_Nyquist\_Plug-ins#time) and Nyquist can do calculations too, so it may be helpful to use Nyquist plug-ins from within a macro.
+* Some optional [Nyquist plugins](https://wiki.audacityteam.org/wiki/Nyquist\_Plug-ins) have parameters to [trim or extend audio by a specific length](https://wiki.audacityteam.org/wiki/Download\_Nyquist\_Plug-ins#time) and Nyquist can do calculations too, so it may be helpful to use Nyquist plugins from within a macro.
 {% endhint %}
 
 {% hint style="info" %}

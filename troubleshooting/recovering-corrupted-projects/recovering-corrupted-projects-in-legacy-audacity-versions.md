@@ -108,7 +108,7 @@ b004.au 15:56:10
 1. Open a terminal then "cd" into the directory that contains the .AU files.
 2. Type the following command in a terminal to sort and rename the files into numerical timestamp order:\
    `mkdir "renamed" | find -type f -name "*.au" -printf "cp %h/%f renamed/%h/%TY%Tm%Td-%TH%TM%TS_%f\n"|sh`
-3. The file names produced in the "renamed" folder are not in a consecutive sequence suitable for the Audacity recovery utilities. Instead, use the [Nyquist](https://wiki.audacityteam.org/wiki/Nyquist\_Plugins) plug-in [Append Import](https://forum.audacityteam.org/viewtopic.php?f=42\&t=59528) to import the files end-to-end into Audacity automatically in file name order.
+3. The file names produced in the "renamed" folder are not in a consecutive sequence suitable for the Audacity recovery utilities. Instead, use the [Nyquist](https://wiki.audacityteam.org/wiki/Nyquist\_Plugins) plugin [Append Import](https://forum.audacityteam.org/viewtopic.php?f=42\&t=59528) to import the files end-to-end into Audacity automatically in file name order.
 
 ### Limitations of automatic recovery utilities
 
