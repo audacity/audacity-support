@@ -96,7 +96,7 @@ Surf (Oxygene) audio file
 
 Author: [David R.Sky](https://audionyq.com/david\_r\_sky)
 
-Jean-Michel Jarre put out a hauntingly beautiful electronic album in 1976, Oxygene. One section of this album had a repeating surf sound: a sweep from the right to the left audio channel, a pause, and then a deep crash in the right channel. After another pause, this cycle repeated many times. Very relaxing to listen to. This sound generator plug-in emulates that surf cycle, in either mono or stereo.
+Jean-Michel Jarre put out a hauntingly beautiful electronic album in 1976, Oxygene. One section of this album had a repeating surf sound: a sweep from the right to the left audio channel, a pause, and then a deep crash in the right channel. After another pause, this cycle repeated many times. Very relaxing to listen to. This sound generator plugin emulates that surf cycle, in either mono or stereo.
 
 Start a new session of Audacity. To generate stereo surf, first open a blank stereo track&#x20;
 

@@ -5,7 +5,7 @@
 Adds high frequency harmonics to brighten very dull recordings that don't respond to [Equalization](https://manual.audacityteam.org/o/man/equalization.html).
 
 {% file src="../../.gitbook/assets/Enhancer.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -32,7 +32,7 @@ Parameters:
 A tape saturation simulation effect.
 
 {% file src="../../.gitbook/assets/Tapesat.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -41,7 +41,7 @@ Download Plug-in
 
 Author: Jvo Studer
 
-A tape saturation simulation effect. When used as intended this plug-in enhances the apparent loudness of an audio track, adding just a little controlled distortion, similar to the effect of recording on a tape-based recorder with a "hot" signal. It is based on a soft clipping limiter but also "shapes" the high frequency response. The effect is not calibrated for precise modelling of a real tape recorder, but nevertheless should be capable of producing a similar tonal character.
+A tape saturation simulation effect. When used as intended this plugin enhances the apparent loudness of an audio track, adding just a little controlled distortion, similar to the effect of recording on a tape-based recorder with a "hot" signal. It is based on a soft clipping limiter but also "shapes" the high frequency response. The effect is not calibrated for precise modelling of a real tape recorder, but nevertheless should be capable of producing a similar tonal character.
 
 1. **Saturation threshold:** \[-6 to -1 dB. Default = -3 dB]. The level at which the soft clipping begins.
 2. **Limiting ratio:** \[1 (soft) to 4 (hard). Default 2]. The "hardness" of the clipping. High values will tend to create a more harsh sound.

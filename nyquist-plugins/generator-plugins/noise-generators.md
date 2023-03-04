@@ -59,6 +59,6 @@ Parameters:
 5. **Duration (seconds):** \[0 to 60 seconds, default 30]
 6. **Stereo Output:** \[No / Yes, default No]
 
-To generate true stereo noise (left and right channels different), a stereo track must be selected and the Stereo Output control must be set to "Yes". As with all Nyquist generator plug-ins, if a track is not selected, Audacity will create a mono track and attempt to place the generated sound into that track. If Stereo Output is set to yes and a stereo track is not selected the plug-in will return the error message: _**"Nyquist returned too many audio channels."**_
+To generate true stereo noise (left and right channels different), a stereo track must be selected and the Stereo Output control must be set to "Yes". As with all Nyquist generator plugins, if a track is not selected, Audacity will create a mono track and attempt to place the generated sound into that track. If Stereo Output is set to yes and a stereo track is not selected the plugin will return the error message: _**"Nyquist returned too many audio channels."**_
 
 </details>

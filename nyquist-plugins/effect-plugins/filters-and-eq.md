@@ -5,7 +5,7 @@
 A band-rejection filter that passes most frequencies unaltered, but stops those in a specific range.
 
 {% file src="../../.gitbook/assets/Bandstop.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -33,7 +33,7 @@ For even narrower notches a _notch filter_ should be used.
 Type I Chebyshev filters can provide a steeper [roll-off](http://en.wikipedia.org/wiki/Roll-off) than [Butterworth filters](http://en.wikipedia.org/wiki/Butterworth\_filter) but at the expense of more [ripple](http://en.wikipedia.org/wiki/Ripple\_\(filters\)#Frequency-domain\_ripple) in the [passband](http://en.wikipedia.org/wiki/Passband).
 
 {% file src="../../.gitbook/assets/ChebyI.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -44,7 +44,7 @@ Author: Kai Fisher
 
 A [Chebyshev filter](http://en.wikipedia.org/wiki/Chebyshev\_filter) with options for high-pass or low-pass operation.
 
-Type I Chebyshev filters can provide a steeper [roll-off](http://en.wikipedia.org/wiki/Roll-off) than [Butterworth filters](http://en.wikipedia.org/wiki/Butterworth\_filter) but at the expense of more [ripple](http://en.wikipedia.org/wiki/Ripple\_\(filters\)#Frequency-domain\_ripple) in the [passband](http://en.wikipedia.org/wiki/Passband). The plug-in provides unity gain (except for ripple) in the passband. This plug-in is capable of providing an exceptionally steep cut-off transition by selecting a "high order".
+Type I Chebyshev filters can provide a steeper [roll-off](http://en.wikipedia.org/wiki/Roll-off) than [Butterworth filters](http://en.wikipedia.org/wiki/Butterworth\_filter) but at the expense of more [ripple](http://en.wikipedia.org/wiki/Ripple\_\(filters\)#Frequency-domain\_ripple) in the [passband](http://en.wikipedia.org/wiki/Passband). The plugin provides unity gain (except for ripple) in the passband. This plugin is capable of providing an exceptionally steep cut-off transition by selecting a "high order".
 
 Parameters:
 
@@ -64,7 +64,7 @@ The high-pass and low-pass filters may be used one after the other to produce a 
 An Equalizer (EQ) that can modify more than one band at a time.
 
 {% file src="../../.gitbook/assets/15bandEQ.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -82,7 +82,7 @@ An Equalizer (EQ) that can modify more than one band at a time. You have 15 band
 The name 'comb' filter comes from how it acts on the audio spectrum it's applied to: it looks like a comb with the teeth pointing up.
 
 {% file src="../../.gitbook/assets/comb.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -108,7 +108,7 @@ Parameters:
 Customizable single-band equalizer.
 
 {% file src="../../.gitbook/assets/eqcustom.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -132,7 +132,7 @@ Parameters:
 This equalizer is modelled on the EQ section of the Allen & Heath GL series mixing desk.
 
 {% file src="../../.gitbook/assets/Desk-eq.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -162,7 +162,7 @@ Parameters:
 A high pass filter with Q, or resonance.
 
 {% file src="../../.gitbook/assets/highpass2.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -185,7 +185,7 @@ Parameters:
 A high pass filter with a low frequency oscillator (LFO).
 
 {% file src="../../.gitbook/assets/hplfo.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -194,7 +194,7 @@ Download Plug-in
 
 Author: [David R.Sky](https://audionyq.com/david\_r\_sky)
 
-A high pass filter with a low frequency oscillator (LFO). A high pass filter attenuates frequencies below a given cut-off point. The LFO in this plug-in modulates the cut-off frequency up and down, like on an electronic synthesizer.
+A high pass filter with a low frequency oscillator (LFO). A high pass filter attenuates frequencies below a given cut-off point. The LFO in this plugin modulates the cut-off frequency up and down, like on an electronic synthesizer.
 
 Parameters:
 
@@ -208,7 +208,7 @@ Parameters:
 ### High Pass Filter (LFO) - Alternative version
 
 {% file src="../../.gitbook/assets/lfohp.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -231,7 +231,7 @@ Parameters:
 A filter for removing the sound of [mains hum](https://en.wikipedia.org/wiki/Mains\_hum) from recordings.
 
 {% file src="../../.gitbook/assets/De-hum.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -268,7 +268,7 @@ First, select 50 or 60 Hz with the first control as appropriate, then set the ot
 A low pass filter with a low frequency oscillator (LFO).
 
 {% file src="../../.gitbook/assets/lplfo.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -277,7 +277,7 @@ Download Plug-in
 
 Author: [David R.Sky](https://audionyq.com/david\_r\_sky)
 
-A low pass filter with a low frequency oscillator (LFO). A low pass filter attenuates frequencies above a given cut-off point. The LFO in this plug-in modulates the cut-off frequency up and down, like on an electronic synthesizer.
+A low pass filter with a low frequency oscillator (LFO). A low pass filter attenuates frequencies above a given cut-off point. The LFO in this plugin modulates the cut-off frequency up and down, like on an electronic synthesizer.
 
 Parameters:
 
@@ -291,7 +291,7 @@ Parameters:
 ### Low Pass Filter (LFO) - Alternative version
 
 {% file src="../../.gitbook/assets/lfolp.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -314,7 +314,7 @@ Parameters:
 A low pass filter with Q, or resonance.
 
 {% file src="../../.gitbook/assets/lowpass2.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -335,7 +335,7 @@ A low pass filter with Q, or resonance. A low pass filter attenuates frequencies
 A multiband equalizer.
 
 {% file src="../../.gitbook/assets/multibandeq.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -353,7 +353,7 @@ Select total number of bands (T, from 2 to 30), band number (1 to 30, depending 
 Loosely based on the Mutron stomp box from the late 70's. Basically it is a filter controlled by an envelope follower.
 
 {% file src="../../.gitbook/assets/Mutron.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -378,7 +378,7 @@ Parameters:
 A notch filter cuts out a "notch" in the spectrum of your audio.
 
 {% file src="../../.gitbook/assets/notch.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -403,7 +403,7 @@ Parameters:
 A parametric equalizer is a variable equalizer effect which provides control of three parameters: amplitude, center frequency and bandwidth.
 
 {% file src="../../.gitbook/assets/Parametric.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -412,7 +412,7 @@ Download Plug-in
 
 Author: Steve Daulton and Bill Wharrie
 
-A parametric equalizer is a variable equalizer effect which provides control of three parameters: amplitude, center frequency and bandwidth. This plug-in provides control of one frequency band that can be "tuned" to a user defined center frequency. The width of the affected frequency band may be adjusted with the "Width" control and the defined frequency band may be boosted or attenuated according to the "Gain" control.
+A parametric equalizer is a variable equalizer effect which provides control of three parameters: amplitude, center frequency and bandwidth. This plugin provides control of one frequency band that can be "tuned" to a user defined center frequency. The width of the affected frequency band may be adjusted with the "Width" control and the defined frequency band may be boosted or attenuated according to the "Gain" control.
 
 Parameters:
 
@@ -427,7 +427,7 @@ Parameters:
 Like someone is playing around with the cut-off frequency knob of your low pass filter.
 
 {% file src="../../.gitbook/assets/randomlp.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -451,7 +451,7 @@ Parameters:
 A filter with low pass, high pass and band pass options with a "resonance" control.
 
 {% file src="../../.gitbook/assets/Resonant.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -478,7 +478,7 @@ Parameters:
 A shelf filter with options for high shelf, low shelf or mid-band.
 
 {% file src="../../.gitbook/assets/Shelf.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -505,7 +505,7 @@ Parameters:
 An Equalizer (EQ) that can modify one band at a time.
 
 {% file src="../../.gitbook/assets/10bandeq.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>

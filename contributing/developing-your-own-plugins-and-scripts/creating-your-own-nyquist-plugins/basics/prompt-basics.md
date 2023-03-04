@@ -69,7 +69,7 @@ A useful index of Nyquist commands is here: [Nyquist Language reference](https:/
 Audacity uses the **\*TRACK\*** variable to reference the current audio file/selection. Thus, you can use basic commands such as **mult** or **sum** with **\*track\*** and the Nyquist prompt will replace the file/selection with the result (or as Audacity calls it, "returned audio").&#x20;
 
 {% hint style="info" %}
-Note: Prior to version 4 syntax, the vaiable `S` was used instead of `*TRACK*`. You may encounter this in some old plug-ins or old documentation. The old syntax is obsolete and should not be used in new code
+Note: Prior to version 4 syntax, the vaiable `S` was used instead of `*TRACK*`. You may encounter this in some old plugins or old documentation. The old syntax is obsolete and should not be used in new code
 {% endhint %}
 
 ### Simple Examples <a href="#simple_examples" id="simple_examples"></a>

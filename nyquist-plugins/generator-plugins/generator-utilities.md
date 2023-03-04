@@ -2,7 +2,7 @@
 
 ## Nyquist Generate Prompt
 
-Nyquist Generate Prompt makes it easy for Nyquist developers to test their code for "Generate" plug-ins in one step.
+Nyquist Generate Prompt makes it easy for Nyquist developers to test their code for "Generate" plugins in one step.
 
 {% file src="../../.gitbook/assets/generate.ny" %}
 Download link
@@ -14,7 +14,7 @@ Download link
 
 Authors: Steve Daulton, Edgar Franke, Steven Jones and [David R.Sky](https://audionyq.com/david\_r\_sky)
 
-Nyquist Generate Prompt makes it easy for Nyquist developers to test their code for "Generate" plug-ins in one step, unlike the Nyquist Prompt built into Audacity under the Effect menu, which requires several steps including pre-loading audio to test. Simply type your Nyquist generate code into the edit fields, then Left Click, TAB or SHIFT + TAB from one edit line to the next or previous line.
+Nyquist Generate Prompt makes it easy for Nyquist developers to test their code for "Generate" plugins in one step, unlike the Nyquist Prompt built into Audacity under the Effect menu, which requires several steps including pre-loading audio to test. Simply type your Nyquist generate code into the edit fields, then Left Click, TAB or SHIFT + TAB from one edit line to the next or previous line.
 
 For example:
 

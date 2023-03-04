@@ -5,7 +5,7 @@
 Similar to the [Change Speed](https://manual.audacityteam.org/man/change\_speed.html) effect, this effect changes the speed of the selected audio, thus changing both the tempo and pitch.
 
 {% file src="../../.gitbook/assets/Changespeedsemitones.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -27,7 +27,7 @@ Parameters:
 Extracts audio from a selected area without using a mouse or cursor keys.
 
 {% file src="../../.gitbook/assets/extract.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -36,7 +36,7 @@ Download Plug-in
 
 Author: [David R.Sky](https://audionyq.com/david\_r\_sky)
 
-Extracts audio from a selected area without using a mouse or cursor keys. Audacity has a Selection Toolbar providing a screen-reader friendly display of selection start time and duration which you could use for similar purpose, this plug-in provides a solution. It also has an easy option to extract a percentage of the selected audio. For example, selecting 50% "start percent" and 100% "end percent" will leave you with only the last half of your selection.
+Extracts audio from a selected area without using a mouse or cursor keys. Audacity has a Selection Toolbar providing a screen-reader friendly display of selection start time and duration which you could use for similar purpose, this plugin provides a solution. It also has an easy option to extract a percentage of the selected audio. For example, selecting 50% "start percent" and 100% "end percent" will leave you with only the last half of your selection.
 
 Parameters:
 
@@ -53,7 +53,7 @@ Parameters:
 This effect inserts silence at the start of the audio selection.
 
 {% file src="../../.gitbook/assets/Insertsilence.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -73,7 +73,7 @@ This effect has no controls.
 Splits audio into desired number of segments by inserting silences of specified duration (up to 10.0 seconds).
 
 {% file src="../../.gitbook/assets/Equasplit.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -97,7 +97,7 @@ Parameters:
 A speed change effect in which the initial and final speed may be set independently.
 
 {% file src="../../.gitbook/assets/Slide-speed.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -121,10 +121,10 @@ The speed controls set the initial and final speed as a multiple of the original
 
 ### Tempo Change
 
-This plug-in allows you to change tempo making it faster or slower
+This plugin allows you to change tempo making it faster or slower
 
 {% file src="../../.gitbook/assets/tempo.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 {% file src="../../.gitbook/assets/tempo1.mp3" %}
@@ -137,7 +137,7 @@ Download example audio file
 
 Author: [David R.Sky](https://audionyq.com/david\_r\_sky)
 
-For those who are confused by Audacity's "Change Speed" effect where to make the tempo twice as slow you apply a -50% change and to make it twice as fast apply a 100% change, try this plug-in. Its default settings multiply the tempo by 0.5, making the tempo twice as slow (dividing by 2.0 has the same effect). To make the tempo twice as fast, simply multiply by 2.0 (or divide by 0.5). The default setting (the opposite of Audacity's "Change Speed" default) might be handy for example to return tapes dubbed at 2x speed to normal speed.
+For those who are confused by Audacity's "Change Speed" effect where to make the tempo twice as slow you apply a -50% change and to make it twice as fast apply a 100% change, try this plugin. Its default settings multiply the tempo by 0.5, making the tempo twice as slow (dividing by 2.0 has the same effect). To make the tempo twice as fast, simply multiply by 2.0 (or divide by 0.5). The default setting (the opposite of Audacity's "Change Speed" default) might be handy for example to return tapes dubbed at 2x speed to normal speed.
 
 Parameters:
 
@@ -148,10 +148,10 @@ Parameters:
 
 ### Time Shifter
 
-A plug-in for performing the same task as the Time Shift Tool in Audacity, without using a mouse.
+A plugin for performing the same task as the Time Shift Tool in Audacity, without using a mouse.
 
 {% file src="../../.gitbook/assets/timeshif.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -160,7 +160,7 @@ Download Plug-in
 
 Author: [David R.Sky](https://audionyq.com/david\_r\_sky)
 
-A plug-in for performing the same task as the Time Shift Tool in Audacity, without using a mouse. The effect works thus: if the shift value is positive, silence is inserted before the selection. If the shift value is negative, audio is removed from the start of the selection. If your selected track is mono, set the value in the left/mono edit field, if your track is stereo, set the values in both the left/mono and right channel shift value fields. Setting slightly different values in both fields when you have a stereo track can be used for special effect.
+A plugin for performing the same task as the Time Shift Tool in Audacity, without using a mouse. The effect works thus: if the shift value is positive, silence is inserted before the selection. If the shift value is negative, audio is removed from the start of the selection. If your selected track is mono, set the value in the left/mono edit field, if your track is stereo, set the values in both the left/mono and right channel shift value fields. Setting slightly different values in both fields when you have a stereo track can be used for special effect.
 
 Note that positive shifts can lead to the audio being truncated at the right edge when shifting a stereo track. To avoid this, split the stereo track using the Track Drop-down Menu, select each track in turn and apply the shift you want using the Mono/left channel shift field. If the audio starts after time zero and is preceded by empty space, convert the empty space to silence with Project > Quick Mix in legacy Audacity up to and including version 1.3.13. In current Audacity, select the track, press J, then press SHIFT + HOME, then Generate > Silence. This prevents truncation of the audio providing there is sufficient silence at the start of the track.
 
@@ -174,10 +174,10 @@ Parameters:
 
 ### Trim / Extend
 
-This plug-in can trim audio from the start and/or end of a track (or track selection), or pad the start and/or end with silence, or any combination of the two.
+This plugin can trim audio from the start and/or end of a track (or track selection), or pad the start and/or end with silence, or any combination of the two.
 
 {% file src="../../.gitbook/assets/TrimExtend.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -186,23 +186,23 @@ Download Plug-in
 
 Author: Steve Daulton
 
-This plug-in can trim audio from the start and/or end of a track (or track selection), or pad the start and/or end with silence, or any combination of the two. The effect can be used in a [Macro](https://manual.audacityteam.org/man/macros.html) for batch processing.
+This plugin can trim audio from the start and/or end of a track (or track selection), or pad the start and/or end with silence, or any combination of the two. The effect can be used in a [Macro](https://manual.audacityteam.org/man/macros.html) for batch processing.
 
 Parameters:
 
 1. **Time units:** \[samples, milliseconds, seconds (default), minutes] This selection sets the time units for the following two controls.
 2. **Trim / Extend start by:** \[-100 to +100, default 0] How much audio to trim (delete) from the start of the track selection, or how much silence to add to the start of the selection. Move the slider to the left or type a negative value to remove audio. Move the slider to the right or type a positive value to add silence.
 3. **Trim / Extend end by:** \[-100 to +100, default 0] How much audio to trim (delete) from the end of the track selection, or how much silence to add to the end of the selection. Move the slider to the left or type a negative value to remove audio. Move the slider to the right or type a positive value to add silence.
-4. **Error message control:** \[Show errors (default) / Hide errors] In the event of an error, a message will normally be shown to indicate what the error is. For example, if you attempt to delete a longer duration than the selection, an error message will indicate that the operation cannot be done. However, when using this effect in a Macro for batch processing, the error message will cause the Macro to stop until the error message is acknowledged. That behavior may not be wanted, so "Hide errors" may be selected to suppress error messages. When "Hide errors" is enabled, if an error is encountered, the plug-in will silently skip the current track and continue with any remaining tracks.
+4. **Error message control:** \[Show errors (default) / Hide errors] In the event of an error, a message will normally be shown to indicate what the error is. For example, if you attempt to delete a longer duration than the selection, an error message will indicate that the operation cannot be done. However, when using this effect in a Macro for batch processing, the error message will cause the Macro to stop until the error message is acknowledged. That behavior may not be wanted, so "Hide errors" may be selected to suppress error messages. When "Hide errors" is enabled, if an error is encountered, the plugin will silently skip the current track and continue with any remaining tracks.
 
 </details>
 
 ### Trim Silence
 
-This plug-in is for trimming excess silence from the start and/or end of tracks or audio clips.
+This plugin is for trimming excess silence from the start and/or end of tracks or audio clips.
 
 {% file src="../../.gitbook/assets/TrimSilence.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -211,7 +211,7 @@ Download Plug-in
 
 Author: Steve Daulton
 
-This plug-in is for trimming excess silence from the start and/or end of tracks or audio clips. The effect can be used in a [Macro](https://manual.audacityteam.org/man/macros.html) for batch processing.
+This plugin is for trimming excess silence from the start and/or end of tracks or audio clips. The effect can be used in a [Macro](https://manual.audacityteam.org/man/macros.html) for batch processing.
 
 Parameters:
 
@@ -222,14 +222,14 @@ Parameters:
 <!---->
 
 1. **Preview** is not available for this effect.
-2. This plug-in requires the audio to be loaded into RAM. To avoid running out of RAM (which would cause Audacity to freeze or crash), the plug-in limits the maximum size of the selected audio to 1 GB (about 47 minutes for a stereo track at 44.1 kHz). Additional information is provided in the plug-in code comments.
+2. This plugin requires the audio to be loaded into RAM. To avoid running out of RAM (which would cause Audacity to freeze or crash), the plugin limits the maximum size of the selected audio to 1 GB (about 47 minutes for a stereo track at 44.1 kHz). Additional information is provided in the plugin code comments.
 
 </details>
 
 {% hint style="info" %}
 **Preview** is not available for this effect.
 
-This plug-in requires the audio to be loaded into RAM. To avoid running out of RAM (which would cause Audacity to freeze or crash), the plug-in limits the maximum size of the selected audio to 1 GB (about 47 minutes for a stereo track at 44.1 kHz). Additional information is provided in the plug-in code comments.
+This plugin requires the audio to be loaded into RAM. To avoid running out of RAM (which would cause Audacity to freeze or crash), the plugin limits the maximum size of the selected audio to 1 GB (about 47 minutes for a stereo track at 44.1 kHz). Additional information is provided in the plugin code comments.
 
 Note that this effect only acts on the start and/or end of the track or audio clip within the current selection. If the selection includes multiple audio clips, trimming starts from the beginning of the first audio clip that is within the selection, and from the end of the last audio clip that is within the selection.
 {% endhint %}
@@ -239,7 +239,7 @@ Note that this effect only acts on the start and/or end of the track or audio cl
 Simulates unplugging and plugging in a turntable while it's powered, and related effects such as speeding it up before unplugging it
 
 {% file src="../../.gitbook/assets/turntablewarp-ms.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>

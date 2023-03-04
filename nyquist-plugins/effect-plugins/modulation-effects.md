@@ -5,7 +5,7 @@
 Simulates two tape decks playing identical tapes, but out of synchronization with each other.
 
 {% file src="../../.gitbook/assets/dualtapedecks.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -14,9 +14,9 @@ Download Plug-in
 
 Author: [David R.Sky](https://audionyq.com/david\_r\_sky)
 
-Simulates two tape decks playing identical tapes, but out of synchronization with each other. Written to produce an effect I heard in the late 1970s: I recorded then played identical audio on two mono tape decks. There was an amazing "whooshing" effect as one tape deck "caught up" with and passed what the other tape deck was playing. This plug-in allows the "whooshing" to go back and forth. Different effects are made using mono-sounding vs. "true" stereo audio.
+Simulates two tape decks playing identical tapes, but out of synchronization with each other. Written to produce an effect I heard in the late 1970s: I recorded then played identical audio on two mono tape decks. There was an amazing "whooshing" effect as one tape deck "caught up" with and passed what the other tape deck was playing. This plugin allows the "whooshing" to go back and forth. Different effects are made using mono-sounding vs. "true" stereo audio.
 
-The plug-in can produce some interesting stereo effects, though note that due to the greater "cross-talk" of speakers, listening in speakers and headphones will sound different. Stereo flanger-like effects can be made by (for example) applying dualtapedecks.ny to audio, applying Stereo Butterfly (static) with a spread value of zero (sounds mono after applying), then applying dualtapedecks.ny a second time with the same settings as the first time. This plug-in will work on mono audio as well, but the only effect will be rising and falling changes in pitch and tempo.
+The plugin can produce some interesting stereo effects, though note that due to the greater "cross-talk" of speakers, listening in speakers and headphones will sound different. Stereo flanger-like effects can be made by (for example) applying dualtapedecks.ny to audio, applying Stereo Butterfly (static) with a spread value of zero (sounds mono after applying), then applying dualtapedecks.ny a second time with the same settings as the first time. This plugin will work on mono audio as well, but the only effect will be rising and falling changes in pitch and tempo.
 
 Parameters:
 
@@ -29,10 +29,10 @@ Parameters:
 
 ### Flanger (linear)
 
-Unlike a regular flanger (which cycles up and down repeatedly), this plug-in creates a single high-frequency flange, and you can set the position of that high-frequency point, anywhere between the start and end of the selection and beyond.
+Unlike a regular flanger (which cycles up and down repeatedly), this plugin creates a single high-frequency flange, and you can set the position of that high-frequency point, anywhere between the start and end of the selection and beyond.
 
 {% file src="../../.gitbook/assets/Flangerl.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -41,7 +41,7 @@ Download Plug-in
 
 Author: [David R.Sky](https://audionyq.com/david\_r\_sky)
 
-Unlike a regular flanger (which cycles up and down repeatedly), this plug-in creates a single high-frequency flange, and you can set the position of that high-frequency point, anywhere between the start and end of the selection and beyond. The plug-in works by mixing the original selected audio with a slightly shrunk (shorter) version of itself.
+Unlike a regular flanger (which cycles up and down repeatedly), this plugin creates a single high-frequency flange, and you can set the position of that high-frequency point, anywhere between the start and end of the selection and beyond. The plugin works by mixing the original selected audio with a slightly shrunk (shorter) version of itself.
 
 Works on mono and stereo audio.
 
@@ -56,10 +56,10 @@ Parameters:
 
 ### Isochronic modulator
 
-A variable tremolo plug-in customized with controls for length and fade in/out speed of each pulse.
+A variable tremolo plugin customized with controls for length and fade in/out speed of each pulse.
 
 {% file src="../../.gitbook/assets/Isomod.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -68,9 +68,9 @@ Download Plug-in
 
 Author: Steve Daulton
 
-A variable tremolo plug-in customized with controls for length and fade in/out speed of each pulse. The modulation frequency (speed) and depth transform gradually from the initial settings to the final settings. A modified square wave is used as the modulation waveform.
+A variable tremolo plugin customized with controls for length and fade in/out speed of each pulse. The modulation frequency (speed) and depth transform gradually from the initial settings to the final settings. A modified square wave is used as the modulation waveform.
 
-The effect is typically applied to a single tone to create [isochronic tones](http://en.wikipedia.org/wiki/Isochronic\_tones). The author supplies the plug-in only as a demonstration of audio processing without endorsing or claiming any relevance to the theory or practice of [brainwave entrainment](http://en.wikipedia.org/wiki/Brainwave\_entrainment).
+The effect is typically applied to a single tone to create [isochronic tones](http://en.wikipedia.org/wiki/Isochronic\_tones). The author supplies the plugin only as a demonstration of audio processing without endorsing or claiming any relevance to the theory or practice of [brainwave entrainment](http://en.wikipedia.org/wiki/Brainwave\_entrainment).
 
 Parameters:
 
@@ -88,7 +88,7 @@ Parameters:
 Similar to [Random Panning](amplify-mix-and-pan-effects.md#panning-random), this time playing around with the volume knob.
 
 {% file src="../../.gitbook/assets/Randomamp.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -111,7 +111,7 @@ Parameters:
 Randomly modulates the pitch of your audio.
 
 {% file src="../../.gitbook/assets/randompitch.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -136,7 +136,7 @@ Parameters:
 A ring modulator is a tremolo effect, but instead of using an LFO to amplitude modulate audio, an audio signal is used.
 
 {% file src="../../.gitbook/assets/Ringmod.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -147,7 +147,7 @@ Author: [David R.Sky](https://audionyq.com/david\_r\_sky)
 
 A ring modulator is a tremolo effect, but instead of using an LFO to amplitude modulate audio, an audio signal is used. The result is a combination of the sum of and the difference between the two input signal frequencies e.g., two sine waves of 440 Hz and 660 Hz produce a result of 220 Hz (difference) and 1100 Hz (sum).
 
-This plug-in also allows use of triangle, sawtooth and pulse waveforms, so the results are the sums and differences between the harmonics of the modulating signal and harmonics of the signal being modulated.
+This plugin also allows use of triangle, sawtooth and pulse waveforms, so the results are the sums and differences between the harmonics of the modulating signal and harmonics of the signal being modulated.
 
 Parameters:
 
@@ -160,10 +160,10 @@ Parameters:
 
 ### Variable Tremolo
 
-This plug-in produces a "Tremolo" effect in which the frequency and depth of the tremolo varies from an initial setting to a final setting.
+This plugin produces a "Tremolo" effect in which the frequency and depth of the tremolo varies from an initial setting to a final setting.
 
 {% file src="../../.gitbook/assets/Vari-tremolo.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -172,7 +172,7 @@ Download Plug-in
 
 Author: Steve Daulton
 
-This plug-in produces a "Tremolo" effect in which the frequency and depth of the tremolo varies from an initial setting to a final setting. The effect makes the loudness "wobble" and you can set the speed of the wobble and the amount that it wobbles for both the start of the selection and the end of the selection.
+This plugin produces a "Tremolo" effect in which the frequency and depth of the tremolo varies from an initial setting to a final setting. The effect makes the loudness "wobble" and you can set the speed of the wobble and the amount that it wobbles for both the start of the selection and the end of the selection.
 
 Parameters:
 
@@ -195,7 +195,7 @@ Parameters:
 This effect applies vibrato (a regular pulsating change of pitch) to the selected audio.
 
 {% file src="../../.gitbook/assets/Vibrato.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -222,5 +222,5 @@ Parameters:
 </details>
 
 {% hint style="info" %}
-This plug-in is intended for use on short selections. Due to cumulative rounding errors, the sound quality will gradually deteriorate on long selections, so it is recommended to apply the effect to selections that are less than 1 minute.
+This plugin is intended for use on short selections. Due to cumulative rounding errors, the sound quality will gradually deteriorate on long selections, so it is recommended to apply the effect to selections that are less than 1 minute.
 {% endhint %}

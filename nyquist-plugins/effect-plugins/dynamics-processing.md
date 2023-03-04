@@ -5,7 +5,7 @@
 Gives you the possibility to overdrive an audio track without introducing ugly digital distortion noise.
 
 {% file src="../../.gitbook/assets/RFT-Limiter-II.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -20,7 +20,7 @@ Parameters:
 
 1. **Threshold:** sets the 'cutting edge' in a linear volume number from 0.0 to 1.0
 
-The minimum threshold is -90dB, so you can set the threshold slider to 0.0 and listen to 1-bit of a 16-bit recording if you want. The plug-in has no memory limits, it can process audio tracks of several hours in length without problems.
+The minimum threshold is -90dB, so you can set the threshold slider to 0.0 and listen to 1-bit of a 16-bit recording if you want. The plugin has no memory limits, it can process audio tracks of several hours in length without problems.
 
 </details>
 
@@ -29,7 +29,7 @@ The minimum threshold is -90dB, so you can set the threshold slider to 0.0 and l
 Similar to Broadcast Limiter II with an added Exciter
 
 {% file src="../../.gitbook/assets/RFT-Limiter-III.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -45,7 +45,7 @@ Parameters:
 1. **Exciter:** controls the high-range distortion in linear numbers from 1 to 10
 2. **Threshold:** sets the 'cutting edge' in a linear volume number from 0.0 to 1.0
 
-The plug-in has no memory limits, it can process audio tracks of several hours in length without problems.\
+The plugin has no memory limits, it can process audio tracks of several hours in length without problems.\
 
 
 </details>
@@ -55,7 +55,7 @@ The plug-in has no memory limits, it can process audio tracks of several hours i
 The Hyperexp effect is a type of compression.
 
 {% file src="../../.gitbook/assets/hyperexp.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -73,7 +73,7 @@ The Hyperexp effect is a type of compression. High amplitude sections of approxi
 This effect is designed to mitigate problems in speech recordings where there are very large variations in the loudness / amplitude of the recorded voice or voices.
 
 {% file src="../../.gitbook/assets/LevelSpeech.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -97,7 +97,7 @@ Parameters:
 A "lookahead" dynamic range limiter to compress peaks that extend beyond the set threshold value.
 
 {% file src="../../.gitbook/assets/Limiter.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -134,7 +134,7 @@ Shorter _Hold_ times allow the peaks to be tracked more accurately and the limit
 The same as [Limiter](dynamics-processing.md#limiter) except that the make up gain control is a multi-choice selection rather than a slider.
 
 {% file src="../../.gitbook/assets/Limiter2.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -158,7 +158,7 @@ Parameters:
 Noise Gates may be used to cut the level of noise between sections of a recording.
 
 {% file src="../../.gitbook/assets/Noisegate.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -179,12 +179,12 @@ Parameters:
 6. **Gate threshold:** \[-96 dB to -6 dB] _When the audio level drops below this threshold the gate will 'close' and the output level will be reduced. When the audio level rises above this threshold the gate will 'open' and the output will return to the same level as the input._
 7. **Attack/Decay:** \[10 to 1000 milliseconds] _How quickly the gate opens and closes. At the minimum (10 ms) the gate will fully open and close almost instantly as the audio level crosses the threshold. At the maximum (1000 ms), the gate will begin to slowly open (fade-in) 1 second before the sound level exceeds the Threshold, and will gradually close (fade-out) after the sound level drops below the Threshold over a period of 1 second._
 
-For more detailed information and usage tips, read the help file included in this [ZIP package](https://wiki.audacityteam.org/w/images/a/a6/NoiseGate.zip), or the help screens included in the plug-in.
+For more detailed information and usage tips, read the help file included in this [ZIP package](https://wiki.audacityteam.org/w/images/a/a6/NoiseGate.zip), or the help screens included in the plugin.
 
 </details>
 
 {% hint style="info" %}
-This effect requires the entire audio selection to be loaded into RAM. If there is insufficient available memory, the plug-in and Audacity will crash. The maximum length that can be processed is dependent on the sample rate, length of audio selection, operating system, and available RAM. Please test carefully before using this effect on long (> 45 minutes) tracks to verify the limits on your computer.
+This effect requires the entire audio selection to be loaded into RAM. If there is insufficient available memory, the plugin and Audacity will crash. The maximum length that can be processed is dependent on the sample rate, length of audio selection, operating system, and available RAM. Please test carefully before using this effect on long (> 45 minutes) tracks to verify the limits on your computer.
 {% endhint %}
 
 ### Pop Mute
@@ -192,7 +192,7 @@ This effect requires the entire audio selection to be loaded into RAM. If there 
 The effect is like an "upside-down" [Noise Gate](dynamics-processing.md#noise-gate). Whereas a [Noise Gate](dynamics-processing.md#noise-gate) attenuates sounds that are below a specified threshold level, Pop Mute attenuates sounds that are above a specified threshold level.
 
 {% file src="../../.gitbook/assets/Popmute.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>
@@ -224,7 +224,7 @@ Parameters:
 Provides an alternative to the "Envelope Tool" that is accessible for visually impaired and other users that do not use pointing devices
 
 {% file src="../../.gitbook/assets/TextEnvelope.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>

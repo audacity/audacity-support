@@ -14,7 +14,7 @@ Download link
 
 Author: [David R.Sky](https://audionyq.com/david\_r\_sky)
 
-If you have a stereo track and want to amplify or attenuate one channel only without using the mouse, this plug-in will do it.
+If you have a stereo track and want to amplify or attenuate one channel only without using the mouse, this plugin will do it.
 
 Parameters:
 
@@ -98,7 +98,7 @@ Typical uses include:
 * Vocal Removal
 * [Mid-Side](http://en.wikipedia.org/wiki/Microphone\_practice#M.2FS\_technique:\_Mid.2FSide\_stereophony) decoding.
 
-The plug-in has 15 presets for the above and similar tasks. If the presets are not used, custom values for the mix of original left and right channel in the left and right outputs can be entered in the parameters as listed below. All values are percentages with a possible range of -100% to +100% and all default to zero value.
+The plugin has 15 presets for the above and similar tasks. If the presets are not used, custom values for the mix of original left and right channel in the left and right outputs can be entered in the parameters as listed below. All values are percentages with a possible range of -100% to +100% and all default to zero value.
 
 <-- LEFT CHANNEL OUTPUT -->
 
@@ -189,7 +189,7 @@ Parameters:
 
 ### Panning
 
-This plug-in will statically pan your stereo audio anywhere between left and right channels.
+This plugin will statically pan your stereo audio anywhere between left and right channels.
 
 {% file src="../../.gitbook/assets/pan.ny" %}
 Download link
@@ -201,7 +201,7 @@ Download link
 
 Authors: [David R.Sky](https://audionyq.com/david\_r\_sky), Dominic Mazzoni
 
-Audacity lets you pan with the keyboard instead of the mouse, but if you prefer the pan to modify the waveform immediately, this plug-in will statically pan your stereo audio anywhere between left and right channels. There is only one parameter:
+Audacity lets you pan with the keyboard instead of the mouse, but if you prefer the pan to modify the waveform immediately, this plugin will statically pan your stereo audio anywhere between left and right channels. There is only one parameter:
 
 1. **Pan position:** \[0=left, 1=right, default is 0.5 (center-panned)]
 
@@ -320,7 +320,7 @@ Author: Steve Daulton
 
 For repairing damage to one channel of a stereo track by overwriting the damaged region with audio from the other channel. Select the damaged audio and allow additional space for cross-fading, then apply the effect.
 
-The plug-in includes an option for _Stereo Simulation_ which will often make repairs to stereo recordings less noticeable. For tracks that have little or no stereo channel separation and for synthesized tones, best results will probably be achieved with Stereo Simulation disabled.
+The plugin includes an option for _Stereo Simulation_ which will often make repairs to stereo recordings less noticeable. For tracks that have little or no stereo channel separation and for synthesized tones, best results will probably be achieved with Stereo Simulation disabled.
 
 Parameters:
 
@@ -332,7 +332,7 @@ Parameters:
 
 ### Stereo Butterfly (static)
 
-The original Stereo Butterfly plug-in which can be spread wide (1, full stereo), closed (0, sounding mono), or somewhere in-between
+The original Stereo Butterfly plugin which can be spread wide (1, full stereo), closed (0, sounding mono), or somewhere in-between
 
 {% file src="../../.gitbook/assets/buttrfly.ny" %}
 Download link
@@ -344,7 +344,7 @@ Download link
 
 Author: [David R.Sky](https://audionyq.com/david\_r\_sky)
 
-The original Stereo Butterfly plug-in, the name coming from a butterfly's wings, which can be spread wide (1, full stereo), closed (0, sounding mono), or somewhere in-between. Stereo Butterfly can even mirror the left and right channels (-1... the butterfly's flipped!). And also anywhere between the extremes from -1 to 1.
+The original Stereo Butterfly plugin, the name coming from a butterfly's wings, which can be spread wide (1, full stereo), closed (0, sounding mono), or somewhere in-between. Stereo Butterfly can even mirror the left and right channels (-1... the butterfly's flipped!). And also anywhere between the extremes from -1 to 1.
 
 Parameters:
 
@@ -378,7 +378,7 @@ Parameters:
 
 ### Stereo Butterfly (ramp)
 
-Third in the series of Stereo Butterfly plug-ins. As with the previous two, 0 setting sounds like mono, +1 is regular stereo, -1 is left and right channels flipped with each other.
+Third in the series of Stereo Butterfly plugins. As with the previous two, 0 setting sounds like mono, +1 is regular stereo, -1 is left and right channels flipped with each other.
 
 {% file src="../../.gitbook/assets/buttrramp.ny" %}
 Download link
@@ -390,7 +390,7 @@ Download link
 
 Author: [David R.Sky](https://audionyq.com/david\_r\_sky)
 
-Third in the series of Stereo Butterfly plug-ins. As with the previous two, 0 setting sounds like mono, +1 is regular stereo, -1 is left and right channels flipped with each other.
+Third in the series of Stereo Butterfly plugins. As with the previous two, 0 setting sounds like mono, +1 is regular stereo, -1 is left and right channels flipped with each other.
 
 Select which value to start at and which value to finish at. The default is from 0 to 1, which creates the effect of your stereo audio starting out sounding mono, then gradually widening to full stereo as the selection progresses. Start and finish values may lie anywhere between -1 and +1.
 

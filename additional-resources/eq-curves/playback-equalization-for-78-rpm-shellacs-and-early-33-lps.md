@@ -139,11 +139,11 @@ Table 1 is mostly based on Tab. 2a of: Heinz O. Graumann, Schallplatten-Schneidk
 
 ### 78 rpm EQ Curve Generator
 
-EQ Curves for Audacity can be generated from these Frequency and Roll-off values using the experimental Nyquist plug-in "78 RPM EQ Curve Generator". This plug-in is obtainable from the top of this [Forum topic](https://forum.audacityteam.org/viewtopic.php?f=28\&t=33824) and requires Audacity 1.3.13 or later. _Please give feedback on this plug-in, or ask for help if you need it, by replying to that Forum topic._
+EQ Curves for Audacity can be generated from these Frequency and Roll-off values using the experimental Nyquist plugin "78 RPM EQ Curve Generator". This plugin is obtainable from the top of this [Forum topic](https://forum.audacityteam.org/viewtopic.php?f=28\&t=33824) and requires Audacity 1.3.13 or later. _Please give feedback on this plug-in, or ask for help if you need it, by replying to that Forum topic._
 
 1. Extract 78EQCurveGen.ny from the zip file downloaded from the above Forum topic.
 2. Place 78EQCurveGen.ny in the "Plug-Ins" folder inside the Audacity installation folder, then launch or restart Audacity. For more help installing the .ny file to the correct location, click here.
-3. Click . You can find help inside the plug-in by choosing one of the Help options in "Select Function or Help".
+3. Click . You can find help inside the plugin by choosing one of the Help options in "Select Function or Help".
 4. Choose the curve you want from one of the lists.
 5.  Enter the values for your chosen curve for
 
@@ -151,8 +151,8 @@ EQ Curves for Audacity can be generated from these Frequency and Roll-off values
     * "10 kHz Gain Roll-off (dB)"
     * "LF Shelving Frequency (Hz)" (if a value is given)
 
-    in the equivalent boxes in the plug-in dialog.
-6. Click "OK" in the plug-in to save the .xml file to your chosen location.
+    in the equivalent boxes in the plugin dialog.
+6. Click "OK" in the plugin to save the .xml file to your chosen location.
 7. Use the EQ XML to TXT Converter Tool to convert your XML file to a TXT text file _(suitable for Audacity 2.4.0 and later)_
 8. Select some audio and choose .
 9. Choose "Manage".
