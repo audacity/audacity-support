@@ -8,7 +8,7 @@ description: Families of plugins by the same authors
 
 A collection of essential effects. Contains a **Chorus**, **Compressor**, **De-esser**, **Delay**, **Master**, **Noise Gate**, **Pitch Fix**, **Reverb**, **Rotary**, and two **EQ effects**.
 
-MuseFX is a free and expanding collection of high quality plug-ins for Audacity, MuseScore 4 and any VST3 compatible host. MuseFX brings the tools you need to elevate your mix to a higher level.
+MuseFX is a free and expanding collection of high quality plugins for Audacity, MuseScore 4 and any VST3 compatible host. MuseFX brings the tools you need to elevate your mix to a higher level.
 
 {% embed url="https://www.musehub.com/" %}
 Download Muse hub

@@ -36,7 +36,7 @@ For a full list of global properties, see the [Plugin reference](../plugin-refer
 
 ### \*TRACK\* NAME Property <a href="#track_name_property" id="track_name_property"></a>
 
-When the type of a plug-in is _process_ or _analyze_, Audacity sets the value of **\*TRACK\*** to the currently selected audio, and sets a lists of properties related to that track. The plug-in processes one track at a time in sequence, and the \*TRACK\* variable is set each time for the track that is being processed.
+When the type of a plugin is _process_ or _analyze_, Audacity sets the value of **\*TRACK\*** to the currently selected audio, and sets a lists of properties related to that track. The plugin processes one track at a time in sequence, and the \*TRACK\* variable is set each time for the track that is being processed.
 
 The _value_ of \*TRACK\* provides direct access to the selected audio, and its _property list_ provides access to other properties of the track. The **NAME** property provides the name of the Audacity track that is currently being processed. To access the value of the NAME property, we use the [GET](http://www.audacity-forum.de/download/edgar/nyquist/nyquist-doc/xlisp/xlisp-ref/xlisp-ref-130.htm) command.
 
@@ -57,7 +57,7 @@ The GET command returns the value of the property (the name of the track), which
 ```
 
 {% hint style="info" %}
-Although we can change the value of the NAME property (using [PUTPROP](http://www.audacity-forum.de/download/edgar/nyquist/nyquist-doc/xlisp/xlisp-ref/xlisp-ref-209.htm)), doing so will NOT change the name of the Audacity track. The value of the NAME property is only a copy of the track name, created by Audacity when the plug-in runs. If required, the name of the track could be changed using the scripting command [SetTrackStatus](https://manual.audacityteam.org/man/scripting\_reference.html#Extra:\_Scriptables\_I).\
+Although we can change the value of the NAME property (using [PUTPROP](http://www.audacity-forum.de/download/edgar/nyquist/nyquist-doc/xlisp/xlisp-ref/xlisp-ref-209.htm)), doing so will NOT change the name of the Audacity track. The value of the NAME property is only a copy of the track name, created by Audacity when the plugin runs. If required, the name of the track could be changed using the scripting command [SetTrackStatus](https://manual.audacityteam.org/man/scripting\_reference.html#Extra:\_Scriptables\_I).\
 More generally, modifying a \*_TRACK\*_ property does not modify the track.
 
 See also [Property List Functions](http://www.audacity-forum.de/download/edgar/nyquist/nyquist-doc/xlisp/xlisp-man/xlisp-man-014.htm) in the XLisp manual.
@@ -65,7 +65,7 @@ See also [Property List Functions](http://www.audacity-forum.de/download/edgar/n
 
 ### \*TRACK\* CLIPS Property <a href="#track_clips_property" id="track_clips_property"></a>
 
-This property contains a list of start and end times of each audio clip in the track. This property is more likely to find uses in [Nyquist Macros ](macro-tutorial.md)than in standard Nyquist plug-ins. Note that this property refers to the entire selected track, and not only the selected portion of the track.
+This property contains a list of start and end times of each audio clip in the track. This property is more likely to find uses in [Nyquist Macros ](macro-tutorial.md)than in standard Nyquist plugins. Note that this property refers to the entire selected track, and not only the selected portion of the track.
 
 #### **\*TRACK\* CLIPS data for mono tracks**
 

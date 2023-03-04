@@ -121,7 +121,7 @@ Risset bell audio file
 
 Author: Steven Jones.
 
-Simulates a realistic bell tone based on the pioneering work of Jean Claude Risset. This plug-in is an adaptation of a demonstration lisp file by Pedro Jose Morales contained in the standard Nyquist distribution.
+Simulates a realistic bell tone based on the pioneering work of Jean Claude Risset. This plugin is an adaptation of a demonstration lisp file by Pedro Jose Morales contained in the standard Nyquist distribution.
 
 Parameters:
 

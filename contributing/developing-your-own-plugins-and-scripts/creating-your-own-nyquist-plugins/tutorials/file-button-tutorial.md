@@ -10,7 +10,7 @@ The File-Button Widget provides a means to select one or more files via a graphi
 
 ## Overview
 
-For some plug-ins it is necessary to read from or write to files. In order to do this, it is necessary to define precisely which file is required, where the file is located, and whether it is required for read access or write access (for read access, the file must exist, whereas for write access this is not always a requirement).
+For some plugins it is necessary to read from or write to files. In order to do this, it is necessary to define precisely which file is required, where the file is located, and whether it is required for read access or write access (for read access, the file must exist, whereas for write access this is not always a requirement).
 
 Prior to the availability of the File-Button Widget, file names could be hard coded into the Nyquist script, or a text box could be provided for the user to enter the name of the file. Hard coded file paths lack flexibility, are platform specific (a path starting with "C:\\" does not work on Mac or Linux), and may point to locations that do not exist on some machines. While a text box may provide a better solution than hard coding a file path, it remains inconvenient and prone to user error, especially for long file paths. The File-Button Widget was introduced in Audacity 2.3.0 to solve these problems, by providing access to a graphical "file browser window" similar to using **File menu > Open** or **File menu > Save** in other applications.
 
@@ -30,7 +30,7 @@ When a file is selected in the file browser window, the full name and path of th
 
 ## Widget Arguments (Parameters) <a href="#widget_arguments_parameters" id="widget_arguments_parameters"></a>
 
-The syntax for creating a File-Button Widget is similar to all other [Nyquist Plug-in widgets](../widgets-reference.md).
+The syntax for creating a File-Button Widget is similar to all other [Nyquist Plugin widgets](../widgets-reference.md).
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```
@@ -174,7 +174,7 @@ Unlike the previous examples, all parameters are explicitly defined. The default
 
 Note that the file browser is created by the underlying operating system, so there are subtle differences across platforms. The "exists" flag is only relevant for file browsers that allow you to type the file name. For a purely graphical browser it is not possible to select a file that does not exist.
 
-Note also that the "exists" flag only affects the file browser - it does not prevent the user typing a non-existent file name in the file path text field. If the plug-in _requires_ the file to exist, then the plug-in code should run a test to ensure that it does. A simple test for the existence of a file, is to try and open it, for example:
+Note also that the "exists" flag only affects the file browser - it does not prevent the user typing a non-existent file name in the file path text field. If the plugin _requires_ the file to exist, then the plugin code should run a test to ensure that it does. A simple test for the existence of a file, is to try and open it, for example:
 
 ```lisp
 (defun test ()
@@ -259,7 +259,7 @@ The complete example that can run in the [Nyquist Prompt](https://manual.audacit
 
 ## Example Applications <a href="#example_applications" id="example_applications"></a>
 
-These example applications may be run in the [Nyquist Prompt](https://manual.audacityteam.org/man/nyquist\_prompt.html), or could be converted to plug-ins by adding full plug-in headers.&#x20;
+These example applications may be run in the [Nyquist Prompt](https://manual.audacityteam.org/man/nyquist\_prompt.html), or could be converted to plugins by adding full plugin headers.&#x20;
 
 {% hint style="info" %}
 These code examples are excessively commented so as to explain what they are doing. For production code, comments should be concise and provide clarification where the intent is not obvious. As far as possible, the code should be self explanatory, but as this is intended for learning purposes, additional explanatory comments are included.
@@ -267,9 +267,9 @@ These code examples are excessively commented so as to explain what they are doi
 
 ### Writing to a File <a href="#writing_to_a_file" id="writing_to_a_file"></a>
 
-In this example, we use a File-Button widget to specify a file that will be written to. It is important to note that selecting the file does NOT write to the file, it only captures the file path and file name, which we then write to later in the script. The plug-in will get some information about the selected audio, and write (append) it to a file.
+In this example, we use a File-Button widget to specify a file that will be written to. It is important to note that selecting the file does NOT write to the file, it only captures the file path and file name, which we then write to later in the script. The plugin will get some information about the selected audio, and write (append) it to a file.
 
-First we start with a couple of headers to set the syntax version and plug-in type.
+First we start with a couple of headers to set the syntax version and plugin type.
 
 `;version 4`\
 `;type analyze`

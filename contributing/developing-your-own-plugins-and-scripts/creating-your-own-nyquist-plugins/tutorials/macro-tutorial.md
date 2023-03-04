@@ -1,14 +1,14 @@
 ---
 description: >-
-  Nyquist-Macros are a special kind of Nyquist plug-in that instruct Audacity to
+  Nyquist-Macros are a special kind of Nyquist plugin that instruct Audacity to
   perform tasks using Audacity's scripting interface.
 ---
 
 # Macro Tutorial
 
-To use this feature effectively, it is necessary to use the correct commands and syntax, and also understand that when Nyquist is used in this way, Nyquist is not allowed, or able, to modify the project. Nyquist-Macros may instruct Audacity to modify the project, but unlike ''ordinary'' Nyquist plug-ins, Nyquist cannot itself modify the project.
+To use this feature effectively, it is necessary to use the correct commands and syntax, and also understand that when Nyquist is used in this way, Nyquist is not allowed, or able, to modify the project. Nyquist-Macros may instruct Audacity to modify the project, but unlike ''ordinary'' Nyquist plugins, Nyquist cannot itself modify the project.
 
-Nyquist-Macros are potentially far more powerful than normal [Macros](https://manual.audacityteam.org/man/macros.html) in that they may make use of logic, loops and conditionally executing code, rather than only running through a simple list. They can also accept user input via the usual [Nyquist plug-in GUI](../plugin-reference.md), and most other features of Nyquist plug-ins.
+Nyquist-Macros are potentially far more powerful than normal [Macros](https://manual.audacityteam.org/man/macros.html) in that they may make use of logic, loops and conditionally executing code, rather than only running through a simple list. They can also accept user input via the usual [Nyquist plugin GUI](../plugin-reference.md), and most other features of Nyquist plugins.
 
 ### About This Tutorial <a href="#about_this_tutorial" id="about_this_tutorial"></a>
 
@@ -33,7 +33,7 @@ Some things to note:
 * The Nyquist function is AUD-DO, which like any other Nyquist function is case insensitive, and usually written in lower case in code.
 * The function AUD-DO takes exactly one parameter, which is the command string.
 
-As Nyquist cannot modify the project when used to send Macro scripting commands, most Nyquist-Macros will be written as "tool" type plug-ins.
+As Nyquist cannot modify the project when used to send Macro scripting commands, most Nyquist-Macros will be written as "tool" type plugins.
 
 ## Passing Commands to Audacity <a href="#passing_commands_to_audacity" id="passing_commands_to_audacity"></a>
 
@@ -104,7 +104,7 @@ Here is a simplified implementation of Audacity's Tone Generator:
 
 Some important things to note in this example Nyquist Macro:
 
-* The plug-in type is "tool". If it were set as a "generate" type, running the plug-in without a track would crash because of the duplicate attempt to create a new track (once from the plug-in being a generate type, and again from the Audacity scripting command).
+* The plugin type is "tool". If it were set as a "generate" type, running the plugin without a track would crash because of the duplicate attempt to create a new track (once from the plug-in being a generate type, and again from the Audacity scripting command).
 * This simplified version does not provide a "Duration" control, so the generated tone will be the length of the selection (if there is a selection), or 30 seconds (default).
 * In the Scripting command, the **Waveform** parameter must be quoted because its value may include a space. We therefore use **\~S** rather than **\~A** in the FORMAT function.
 
@@ -173,7 +173,7 @@ In this next code sample, we reproduce the simple "Tone" generator from above, u
 
 Unlike Nyquist's generator functions, Audacity's built-in [generator functions](https://manual.audacityteam.org/man/scripting\_reference.html#Generate\_Menu) do not have a parameter for the duration of the sound that is generated. Instead, the duration is set by the length of the track selection. If there is no track selection, then the length defaults to 30 seconds.
 
-One limitation of Nyquist plug-ins that we cannot yet work around, is that the plug-in UI is not dynamic and cannot be changed programmatically. Where as Audacity's built-in Tone generator will automatically show the length of the selected audio, this is not yet possible for Nyquist plug-ins. As a compromise solution, we can:
+One limitation of Nyquist plugins that we cannot yet work around, is that the plugin UI is not dynamic and cannot be changed programmatically. Where as Audacity's built-in Tone generator will automatically show the length of the selected audio, this is not yet possible for Nyquist plugins. As a compromise solution, we can:
 
 * Add a "Duration" control.
 * If there is no selection, create a selection of the length specified by the Duration control.

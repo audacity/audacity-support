@@ -5,7 +5,7 @@
 You can turn any short piece of imported, recorded or generated audio into a (repeated) sequence of notes based on chosen tempo, beats per sequence and semitone values. Any sound can be used.
 
 {% file src="../../.gitbook/assets/seq2.ny" %}
-Download Plug-in
+Download Plugin
 {% endfile %}
 
 <details>

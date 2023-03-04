@@ -37,7 +37,7 @@ Download&#x20;
 
 Author: Steve Daulton
 
-Based on a plug-in by Will McCown.
+Based on a plugin by Will McCown.
 
 #### Displayed Results
 
@@ -86,7 +86,7 @@ _This “phase scope” plug–in quickly conveys global trends and troubles, wi
 
 _Usable metering is essential for any engineer, and GŌN’s options are equally practical, with a notable absence of controls. Unlike an oscilloscope which takes up room on your producer’s desk or meter bridge, GŌN’s lack of any knobs or switches means its straightforward user interface contains only a single button, the preference’s gear icon at upper right. Control over gain, focus, “phosphor” color, drawing style and persistence are all there in the preferences, and everything can be saved as a personal preset._
 
-_All of GŌN’s functionality is wrapped in an information-rich yet visually unobtrusive user interface that occupies only a small slice of screen real estate. Likewise, the plug-in is very "light weight" demanding an absolute minimum of CPU resources so it won´t slow down your host. As a bonus to everyone in the audio community, we’re giving you this free and rather useful plug-in. Thanks for visiting, and we hope to see more of you in the future!_
+_All of GŌN’s functionality is wrapped in an information-rich yet visually unobtrusive user interface that occupies only a small slice of screen real estate. Likewise, the plugin is very "light weight" demanding an absolute minimum of CPU resources so it won´t slow down your host. As a bonus to everyone in the audio community, we’re giving you this free and rather useful plug-in. Thanks for visiting, and we hope to see more of you in the future!_
 
 \
 
@@ -124,7 +124,7 @@ Author: Edgar-rft.
 
 ### Pitch Detect
 
-This plug-in attempts to detect and display the musical pitch and frequency of the selected note. In most cases the default settings will work best. The other options are provided to handle special cases such as analyzing synthetic signals that are outside of the usual musical range.
+This plugin attempts to detect and display the musical pitch and frequency of the selected note. In most cases the default settings will work best. The other options are provided to handle special cases such as analyzing synthetic signals that are outside of the usual musical range.
 
 {% file src="../.gitbook/assets/Pitch-detect.ny" %}
 Download
@@ -136,7 +136,7 @@ Download
 
 Author: Steve Daulton
 
-By default, the plug-in detects the pitch by analyzing the first 0.2 seconds of the selection. In most cases this should work well. If required the analyzed section can be set to the first part of the selection ranging from the first 10th of a second (0.1 seconds) up to one second.
+By default, the plugin detects the pitch by analyzing the first 0.2 seconds of the selection. In most cases this should work well. If required the analyzed section can be set to the first part of the selection ranging from the first 10th of a second (0.1 seconds) up to one second.
 
 #### Parameters
 
@@ -145,16 +145,16 @@ By default, the plug-in detects the pitch by analyzing the first 0.2 seconds of 
 
 #### **Limitations**
 
-This plug-in is intended to detect single notes - you may get strange results if you try to analyze chords.
+This plugin is intended to detect single notes - you may get strange results if you try to analyze chords.
 
-Extremely high frequencies may not be detected very accurately, especially if the sample rate is not very high. The plug-in will often detect very high frequencies better if the sample rate is 96000 Hz rather than 44100 Hz.
+Extremely high frequencies may not be detected very accurately, especially if the sample rate is not very high. The plugin will often detect very high frequencies better if the sample rate is 96000 Hz rather than 44100 Hz.
 
-The plug-in should usually be able to detect pitches of single notes to within a few percent of the actual frequency. Don't expect the frequency in Hz to be exact..
+The plugin should usually be able to detect pitches of single notes to within a few percent of the actual frequency. Don't expect the frequency in Hz to be exact..
 
 #### **Advanced usage tips**
 
-* For detecting very low frequencies (less than a few hundred Hz) the plug-in should be set to the low frequency range (20 to 1000 Hz).
-* For detecting very high frequencies (several kHz) the plug-in should be set to the high frequency range (1 kHz to 10 kHz).
+* For detecting very low frequencies (less than a few hundred Hz) the plugin should be set to the low frequency range (20 to 1000 Hz).
+* For detecting very high frequencies (several kHz) the plugin should be set to the high frequency range (1 kHz to 10 kHz).
 * For measuring synthesized tones and other electronic signals, the most accurate measure of frequency in Audacity is to use "Plot Spectrum" and set the "Size" setting to a high value.
 
 </details>

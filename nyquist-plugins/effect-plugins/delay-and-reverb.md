@@ -8,7 +8,7 @@ description: >-
 
 ### Bouncing Ball Delay
 
-A delay plug-in where, like a bouncing ball, the bounces get faster and faster.
+A delay plugin where, like a bouncing ball, the bounces get faster and faster.
 
 {% file src="../../.gitbook/assets/bouncingball.ny" %}
 Download link
@@ -20,7 +20,7 @@ Download link
 
 Author: [David R.Sky](https://audionyq.com/david\_r\_sky)
 
-A delay plug-in where, like a bouncing ball, the bounces get faster and faster. You can set time that the bounces increase in speed with each delay, the number of bounces, and how much in dB the sound decreases with each bounce.
+A delay plugin where, like a bouncing ball, the bounces get faster and faster. You can set time that the bounces increase in speed with each delay, the number of bounces, and how much in dB the sound decreases with each bounce.
 
 Parameters:
 
@@ -28,7 +28,7 @@ Parameters:
 2. **Delay time** \[seconds]:
 3. **Number of bounces** \[times]:
 
-**Note:** The latest available delay plug-in in Audacity includes bouncing ball delay and pitch shifting. but not panning.
+**Note:** The latest available delay plugin in Audacity includes bouncing ball delay and pitch shifting. but not panning.
 
 </details>
 
@@ -48,7 +48,7 @@ Author: [David R.Sky](https://audionyq.com/david\_r\_sky)
 
 Combines the Bouncing Ball Delay with a panning effect. A delay effect in which the echo get faster, like a bouncing ball. Each echo is panned further from center by the designated amount.
 
-This plug-in has bugs and may produce unpredictable results with some settings, but is basically functional.
+This plugin has bugs and may produce unpredictable results with some settings, but is basically functional.
 
 Parameters:
 
@@ -57,13 +57,13 @@ Parameters:
 3. **Number of bounces** \[times]:
 4. **Pan spread movement** \[move]: - defines the extent to which each bounce will be increasingly far from center
 
-**Note:** The latest available delay plug-in in Audacity includes bouncing ball delay and pitch shifting, but not panning.
+**Note:** The latest available delay plugin in Audacity includes bouncing ball delay and pitch shifting, but not panning.
 
 </details>
 
 ### Bouncing Ball Delay with Tone Shift
 
-Combines the [Bouncing Ball Delay](delay-and-reverb.md#bouncing-ball-delay) with Tone Shift plug-ins.
+Combines the [Bouncing Ball Delay](delay-and-reverb.md#bouncing-ball-delay) with Tone Shift plugins.
 
 {% file src="../../.gitbook/assets/bbdtone.ny" %}
 Download link
@@ -75,7 +75,7 @@ Download link
 
 Author: [David R.Sky](https://audionyq.com/david\_r\_sky)
 
-Combines the Bouncing Ball Delay and Delay with Tone Shift plug-ins. A delay effect in which the echoes get faster, like a bouncing ball. Each echo is shifted in pitch by the designated amount in semitones plus cents (hundredths of a semitone).
+Combines the Bouncing Ball Delay and Delay with Tone Shift plugins. A delay effect in which the echoes get faster, like a bouncing ball. Each echo is shifted in pitch by the designated amount in semitones plus cents (hundredths of a semitone).
 
 Parameters:
 
@@ -88,7 +88,7 @@ Parameters:
 **Notes:**
 
 1. The value for the decay amount (in dB) for an increasing pitch can be left at the default 0. However, with decreasing pitch, the lengths of the delays increase over time, overlapping with each other. In this case, clipping can occur if the decay value is left at 0.
-2. **Note:** The latest available delay plug-in in Audacity includes bouncing ball delay and pitch shifting.
+2. **Note:** The latest available delay plugin in Audacity includes bouncing ball delay and pitch shifting.
 
 </details>
 
@@ -106,7 +106,7 @@ Download link
 
 Author: [David R.Sky](https://audionyq.com/david\_r\_sky)
 
-The fastest bounces come first, gradually slowing down - reverse of the bouncing ball delay effect. Includes normalisation. **Note:** The latest available delay plug-in 3 in [Audacity](https://web.audacityteam.org/download/) includes reverse bouncing ball delay without normalisation, and also includes pitch shifting.
+The fastest bounces come first, gradually slowing down - reverse of the bouncing ball delay effect. Includes normalisation. **Note:** The latest available delay plugin 3 in [Audacity](https://web.audacityteam.org/download/) includes reverse bouncing ball delay without normalisation, and also includes pitch shifting.
 
 Parameters:
 
@@ -131,7 +131,7 @@ Download link
 Author: [David R.Sky](https://audionyq.com/david\_r\_sky)
 
 The fastest bounces come first - reverse of the bouncing ball delay, and each bounce is tone shifted.\
-**Note:** The latest available delay plug-in in Audacity includes reverse bouncing ball delay and pitch shifting.
+**Note:** The latest available delay plugin in Audacity includes reverse bouncing ball delay and pitch shifting.
 
 Parameters:
 
@@ -190,7 +190,7 @@ Parameters:
 5. **Minimum volume:** \[percentage] - the minimum random volume that each random delay can have. If you want no random amplitude changes, set this field to 100 percent.
 6. **Number of chime delays:** \[from 1 to 100] - how many delays within the maximum delay time.
 
-Acknowledgement due to Steven Jones whose "Harmonic Noise" generator plug-in is the source for Nyquist code to handle a string-input note list (David Sky's original version only).
+Acknowledgement due to Steven Jones whose "Harmonic Noise" generator plugin is the source for Nyquist code to handle a string-input note list (David Sky's original version only).
 
 </details>
 
@@ -241,7 +241,7 @@ Download link
 
 Author: [David R.Sky](https://audionyq.com/david\_r\_sky)
 
-Applies a high-pass filter to a delay so that with each subsequent delay, the filter's cut-off frequency is increased. A high-pass filter attenuates sound below a given cut off frequency, therefore when this plug-in is applied, each delay sounds increasingly thin and lacking bass. Applied to a voice, it makes each delay sounds like it's increasingly coming from a telephone.
+Applies a high-pass filter to a delay so that with each subsequent delay, the filter's cut-off frequency is increased. A high-pass filter attenuates sound below a given cut off frequency, therefore when this plugin is applied, each delay sounds increasingly thin and lacking bass. Applied to a voice, it makes each delay sounds like it's increasingly coming from a telephone.
 
 Parameters:
 
@@ -267,7 +267,7 @@ Download link
 
 Author: [David R.Sky](https://audionyq.com/david\_r\_sky)
 
-Applies a low-pass filter to a delay so that with each subsequent delay, the filter's cut-off frequency is reduced. A low-pass filter attenuates sound above a given cut off frequency, therefore when this plug-in is applied, each delay sounds to have increasing bass. To the author, this has the psychoacoustic effect of each delay sounding further and further away.
+Applies a low-pass filter to a delay so that with each subsequent delay, the filter's cut-off frequency is reduced. A low-pass filter attenuates sound above a given cut off frequency, therefore when this plugin is applied, each delay sounds to have increasing bass. To the author, this has the psychoacoustic effect of each delay sounding further and further away.
 
 Based on an effect heard in a popular Cher tune in the late 1990s or later.
 
@@ -284,7 +284,7 @@ Parameters:
 
 ### Delay with Pitch Change
 
-A delay plug-in except, each delay is pitch shifted.
+A delay plugin except, each delay is pitch shifted.
 
 {% file src="../../.gitbook/assets/delaypit.ny" %}
 Download link
@@ -296,7 +296,7 @@ Download link
 
 Author: [David R.Sky](https://audionyq.com/david\_r\_sky)
 
-A delay plug-in except, each delay is pitch shifted. Note that pitch changes are accompanied by a corresponding change in duration of each delay.
+A delay plugin except, each delay is pitch shifted. Note that pitch changes are accompanied by a corresponding change in duration of each delay.
 
 Parameters:
 
@@ -350,7 +350,7 @@ Author: [David R.Sky](https://audionyq.com/david\_r\_sky)
 
 Similar to pitchshift.ny except you can define in semitones how much each delay is to be pitch shifted. A shift of 1 semitone means each delay is increased in pitch by 1 semitone, a shift of -1 means a decrease of 1 semitone. Includes whole semitones plus semitone cents (hundredths of a semitone).
 
-Both plug-ins are best applied to relatively short duration audio, or few number of delays for longer audio. Otherwise Audacity will be working a long time. Same thing seems to happen if there is already pitch shifting within the audio.
+Both plugins are best applied to relatively short duration audio, or few number of delays for longer audio. Otherwise Audacity will be working a long time. Same thing seems to happen if there is already pitch shifting within the audio.
 
 </details>
 
