@@ -14,7 +14,7 @@ Nyquist-Macros are potentially far more powerful than normal [Macros](https://ma
 
 Nyquist Macros are a fairly advanced topic, so this tutorial is aimed at users with an intermediate to advanced level of experience with Nyquist programming.
 
-In this tutorial, we will be reimplementing Audacity's [**Tone**](https://manual.audacityteam.org/man/tone.html) generator as a Nyquist Macro. During the course of the tutorial, many of the abilities and core concepts of Nyquist Macros will be discussed, along with tips and potential pitfalls to watch out for in your own programming.&#x20;
+In this tutorial, we will be reimplementing Audacity's [**Tone**](https://manual.audacityteam.org/man/tone.html) generator as a Nyquist Macro. During the course of the tutorial, many of the abilities and core concepts of Nyquist Macros will be discussed, along with tips and potential pitfalls to watch out for in your own programming.
 
 {% hint style="warning" %}
 Nyquist Macros are a powerful extension of Audacity's features. With great power comes great responsibility. Nyquist Macros bypass much of Audacity's built-in validation, so it is relatively easy to pass invalid commands that can cause Audacity to crash. Test your Nyquist Macros thoroughly before using them for important production work.
@@ -24,7 +24,7 @@ Nyquist Macros are a powerful extension of Audacity's features. With great power
 
 Audacity provides a rich set of scripting commands, which are documented in the [Scripting Reference](https://manual.audacityteam.org/man/scripting\_reference.html) section of the Audacity manual. These commands may be sent from Nyquist, to tell Audacity what to do, using the function call "**AUD-DO**". As a very simple example, Nyquist can tell Audacity to start playing by sending the command "Play:"
 
-&#x20;`(aud-do "Play")`
+`(aud-do "Play")`
 
 Some things to note:
 
@@ -43,11 +43,11 @@ The examples in this section may be run in the [Nyquist Prompt](https://manual.a
 
 As described above, the "AUD-DO" function takes exactly one argument (parameter), which is the command that will be sent to Audacity. However, we may sometimes want to send a command that has multiple parameters. For example, to generate a 10 second, 200 Hz, 0.5 amplitude sine tone, the Macro Scripting command is:
 
-&#x20;`Tone: Frequency=200 Amplitude=0.5 Waveform="Sine"`
+`Tone: Frequency=200 Amplitude=0.5 Waveform="Sine"`
 
 With AUD-DO we can send the command, including it's parameters, as one string:
 
-&#x20;`(aud-do "Tone: Frequency=200 Amplitude=0.5 Waveform=Sine")`
+`(aud-do "Tone: Frequency=200 Amplitude=0.5 Waveform=Sine")`
 
 Using the above example, the macro command string could be passed as the value of a variable:
 
@@ -126,16 +126,16 @@ In Audacity 2.3.2 and later, the following scripting commands have equivalent LI
 * [Scriptables II](https://manual.audacityteam.org/man/extra\_menu\_scriptables\_ii.html).
 
 {% hint style="info" %}
-Tip: Remember that Nyquist Macros cannot call Nyquist effects.&#x20;
+Tip: Remember that Nyquist Macros cannot call Nyquist effects.
 {% endhint %}
 
 **Example:** The scripting command for Audacity's built-in "Amplify" effect is:
 
-&#x20;`Amplify: Ratio=<number>`
+`Amplify: Ratio=<number>`
 
 The equivalent imported LISP function for Audacity's built-in Amplify effect is:
 
-&#x20;`(aud-amplify :ratio <number>)`
+`(aud-amplify :ratio <number>)`
 
 In both versions, the ratio is a floating point number representing the gain on a linear scale. If we want to Amplify by -3 dB, we can apply the Amplify effect:
 
@@ -199,7 +199,7 @@ While is is possible to find what is selected using the scripting command [GetIn
 
 In Audacity 2.3.0 and later, there is a "\[Nyquist\_Plug-ins\_Widgets#Time\_Widget time widget]", which greatly simplifies handling durations, and is in keeping with Audacity's built-in effects.
 
-&#x20;`;control duration "Duration" time "" 30 0 nil`
+`;control duration "Duration" time "" 30 0 nil`
 
 Then we want to check if an audio track is selected, and if not, add a new track. Note that there isn't a LISP function for adding a new track, so we fall back on AUD-DO instead:
 
@@ -261,6 +261,6 @@ Be flexible in your thinking. Scripting commands are available for many, but not
 
 If you get stuck, ask for help. As with other aspects of Nyquist programming, support requests may be made on the Nyquist board of the [Audacity forum](https://forum.audacityteam.org/viewforum.php?f=69).
 
-See also:&#x20;
+See also:
 
 {% embed url="https://manual.audacityteam.org/man/nyquist_macros.html" %}

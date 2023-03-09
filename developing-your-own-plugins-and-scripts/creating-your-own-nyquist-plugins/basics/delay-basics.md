@@ -12,11 +12,11 @@ Note: All \[comments] and \[explanations] are written in square brackets, so the
 
 To add a feedback delay effect to an Audacity track with Nyquist, the easiest way is to use the Nyquist "feedback-delay" function:
 
-&#x20; (**feedback-delay** _sound delay feedback_)
+(**feedback-delay** _sound delay feedback_)
 
-The "feedback-delay" function applies feedback delay to _sound_. The _delay_ must be a number (in seconds). The sample rate is the maximum from _sound_ and _feedback_ (if feedback is also a sound). The amount of _feedback_ should be less than 1 to avoid an exponential increase in amplitude. Also since output is truncated at the stop time of _sound_, you may want to append some silence to _sound_ to give the filter time to decay.&#x20;
+The "feedback-delay" function applies feedback delay to _sound_. The _delay_ must be a number (in seconds). The sample rate is the maximum from _sound_ and _feedback_ (if feedback is also a sound). The amount of _feedback_ should be less than 1 to avoid an exponential increase in amplitude. Also since output is truncated at the stop time of _sound_, you may want to append some silence to _sound_ to give the filter time to decay.
 
-&#x20;**Example:**
+**Example:**
 
 **1.** First either load a sound file into Audacity or record some.
 

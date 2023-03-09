@@ -40,9 +40,9 @@ To send two different sounds to a stereo track in Audacity we must create an arr
 
 `<left channel>`and `<right channel>` will be the sounds that we are sending from Nyquist.
 
-To try this out we will amplify the left channel only of a stereo track.&#x20;
+To try this out we will amplify the left channel only of a stereo track.
 
-1. Open a short stereo track.&#x20;
+1. Open a short stereo track.
 2. From the Effect menu select "Nyquist Prompt" and enter the following code:
 
 ```lisp

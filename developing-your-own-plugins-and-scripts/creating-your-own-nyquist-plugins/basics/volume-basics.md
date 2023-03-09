@@ -12,7 +12,7 @@ description: >-
 
 ## LISP vs SAL
 
-SAL is a new alternative syntax to LISP. Although Nyquist is based on the LISP programming language, you can write almost any Nyquist program in SAL. Most people prefer SAL syntax to LISP syntax because SAL is a bit more like popular programming languages that include Java, C, and Python.&#x20;
+SAL is a new alternative syntax to LISP. Although Nyquist is based on the LISP programming language, you can write almost any Nyquist program in SAL. Most people prefer SAL syntax to LISP syntax because SAL is a bit more like popular programming languages that include Java, C, and Python.
 
 You can specify which one you're using with the respective [codetype header](../headers-reference.md#codetype):
 
@@ -43,14 +43,14 @@ To change the volume of an Audacity track with Nyquist, the easiest way is to us
 
 The "scale" function multiplies the amplitude \[volume] of the "sound" by the given "number". A number of 0.5 will make the sound become only half as loud as before, while a number of 2 will make the sound become double as loud as before.
 
-**Example:**&#x20;
+**Example:**
 
 {% hint style="info" %}
 See [Prompt Basics](prompt-basics.md) for an explanation how the Nyquist prompt works.
 {% endhint %}
 
 * To run this example in the Nyquist Prompt, ensure that "Use legacy (version 3) syntax" is **not** selected.
-* For more information about the \*_**track\***_** ** keyword, refer to the [Plugin Reference](../plugin-reference.md#track)
+* For more information about the \*_**track\***_\*\* \*\* keyword, refer to the [Plugin Reference](../plugin-reference.md#track)
 
 **1.** Create an audio track with some audio \[eg a short recording]
 
@@ -63,7 +63,7 @@ See [Prompt Basics](prompt-basics.md) for an explanation how the Nyquist prompt 
 ```
 
 {% hint style="warning" %}
-Important: Do not forget to type the parentheses. The parentheses are part of the Lisp language Nyquist is based on. Without the parentheses the Nyquist Lisp interpreter will not be able to understand your code.&#x20;
+Important: Do not forget to type the parentheses. The parentheses are part of the Lisp language Nyquist is based on. Without the parentheses the Nyquist Lisp interpreter will not be able to understand your code.
 {% endhint %}
 {% endtab %}
 

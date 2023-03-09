@@ -40,7 +40,7 @@ Or in LISP, one could write:
 
 In the "nyquist.lsp" file in the Audacity "nyquist" sub-directory, there is a function "multichan-expand" defined, which simplifies the handling of multi-channel sounds \[e.g. stereo tracks]:
 
-&#x20;`(multichan-expand function &rest arguments)`
+`(multichan-expand function &rest arguments)`
 
 So the "arrayp" constuct from above can also be written:
 

@@ -148,7 +148,7 @@ In the event of programming or user errors, the File-Button Widget may return an
 * **Mismatched quotes in `<string>`**\
   \*\*\*\*When the "multiple" flag is set, the file browser returns a list of quoted strings for each path. This error is thrown if the opening quotes do not have matching closing quotes. : This error is most likely to be due to the user manually editing the file path text box and missing one or more quote characters.
 * **Invalid wildcard string in 'path' control. Using empty string instead.**\
-  \*\*\*\*This error occurs if the 'wildcard' magic string is malformed. : This is a programming error. Check the syntax of your [wildcard](../../../developing-your-own-plugins-and-scripts/creating-your-own-nyquist-plugins/tutorials/broken-reference/) string.
+  \*\*\*\*This error occurs if the 'wildcard' magic string is malformed. : This is a programming error. Check the syntax of your [wildcard](broken-reference/) string.
 
 #### Examples
 
@@ -203,7 +203,7 @@ In this example, all parameters are explicitly defined:
   All files|\*.\*;\*"
 * **flags** : "save,overwrite"
 
-The [wildcard filters](../../../developing-your-own-plugins-and-scripts/creating-your-own-nyquist-plugins/tutorials/broken-reference/) provide options in the file browser to show either text files (.txt or .TXT), which is the default, or CSV files (.csv pr .CSV), or HTML files (.html, or .HTML, or .htm, or .HTM), or "All files" (any file name).
+The [wildcard filters](broken-reference/) provide options in the file browser to show either text files (.txt or .TXT), which is the default, or CSV files (.csv pr .CSV), or HTML files (.html, or .HTML, or .htm, or .HTM), or "All files" (any file name).
 
 {% hint style="warning" %}
 Note that on Windows, file extensions are not case sensitive, but Linux, and some Mac computers are case sensitive, so for cross-platform portability it is recommended to use both upper and lower case file name extensions.

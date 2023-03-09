@@ -210,7 +210,7 @@ In addition to the standard global variables defined in the [Nyquist Reference M
 * **\*DECIMAL-SEPARATOR\*** : \[char] A comma character (#\\') or dot character (#\\.) depending on the language selected in [Audacity's Preferences](https://manual.audacityteam.org/man/interface\_preferences.html).
 * **\*FILE-SEPARATOR\*** : \[char] The character that separates directories in a path, e.g. "/" (#\\/) for Unix, ":" (#\\:) for Mac, and "\\" (#\\\\) for Win32.
 * **LEN** : \[int] The number of samples contained in the selected Audacity sound.
-* **\*LOCALE\*** : \[list] This is variable name is reserved for [translation strings](../../developing-your-own-plugins-and-scripts/creating-your-own-nyquist-plugins/broken-reference/).
+* **\*LOCALE\*** : \[list] This is variable name is reserved for [translation strings](broken-reference/).
 * **\*PREVIEWP\*** : \[bool] True when previewing an effect, otherwise false.
 * **\*RUNTIME-PATH\*** : \[string] Path to Nyquist .lsp files.
 * **\*PROJECT\*** : A variable with a list of properties relating to the current Audacity project.
@@ -445,7 +445,7 @@ The other method may be used by plug-in developers for their "third party" plug-
 
 Header comments in translated plug-ins begin with a dollar "$" character rather than the usual semicolon ";" character. The strings to be translated are then wrapped in a function that has a one character name "\_" (underscore).
 
-**Example:** In the [Adjustable Fade](https://manual.audacityteam.org/man/adjustable\_fade.html) effect, the [Name](../../developing-your-own-plugins-and-scripts/creating-your-own-nyquist-plugins/broken-reference/) header is changed from:
+**Example:** In the [Adjustable Fade](https://manual.audacityteam.org/man/adjustable\_fade.html) effect, the [Name](broken-reference/) header is changed from:
 
 `;name "Adjustable Fade"`
 
@@ -453,7 +453,7 @@ to:
 
 `$name (_ "Adjustable Fade")`
 
-**;control** lines become **$control**. As with other translated headers, the **$** symbol replaces the normal semicolon. The line is ignored by Nyquist as a _comment_, but is visible to Audacity for translation and for creating a [widget](../../developing-your-own-plugins-and-scripts/creating-your-own-nyquist-plugins/broken-reference/).
+**;control** lines become **$control**. As with other translated headers, the **$** symbol replaces the normal semicolon. The line is ignored by Nyquist as a _comment_, but is visible to Audacity for translation and for creating a [widget](broken-reference/).
 
 The options in Multiple-choice widgets may be translated. For example:
 

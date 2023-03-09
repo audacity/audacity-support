@@ -6,7 +6,7 @@ The layout of a Nyquist plug-in GUI is a simple list of widgets, one above the o
 
 ### Slider Widget
 
-<figure><img src="../../../.gitbook/assets/image (6) (2).png" alt=""><figcaption><p>example of a slider</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(6)%20(2).png" alt=""><figcaption><p>example of a slider</p></figcaption></figure>
 
 Slider widgets are supported in all Audacity Nyquist plug-in versions.
 
@@ -32,7 +32,7 @@ A text input box to the left of the slider allows the user to type in a value vi
 
 ### Numeric Text Widget
 
-<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>example of numeric text</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(5)%20(1).png" alt=""><figcaption><p>example of numeric text</p></figcaption></figure>
 
 The numeric text widget was introduced in Audacity 2.1.2.
 
@@ -62,7 +62,7 @@ Examples of undefined minimum / maximum:
 
 ### String Widget (text input)
 
-<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption><p>example of a text input</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(8).png" alt=""><figcaption><p>example of a text input</p></figcaption></figure>
 
 The text input widget ("string widget") is supported in plug-ins version 2 or above.
 
@@ -82,7 +82,7 @@ Examples how to use the text input widget can be found in the source code of the
 
 ### Multiple-Choice Widget
 
-<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>example of multiple choice input</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(3)%20(1).png" alt=""><figcaption><p>example of multiple choice input</p></figcaption></figure>
 
 The multiple choice input widget is supported in plug-ins version 3 or above.
 
@@ -104,7 +104,7 @@ An example of the 'choice' widget can be found [sample-data-export.ny](https://g
 
 Introduced in Audacity 2.3.0.
 
-<figure><img src="../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption><p>example of time input</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(10)%20(1).png" alt=""><figcaption><p>example of time input</p></figcaption></figure>
 
 ```
  ;control variable-name "text-left" time "text-right" initial-value minimum maximum
@@ -139,7 +139,7 @@ In this example:
 
 ### File-Button Widget
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>example of file buttons</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(3).png" alt=""><figcaption><p>example of file buttons</p></figcaption></figure>
 
 The File Button Widget requires Audacity 2.3.0 or later.
 
@@ -157,7 +157,7 @@ The File Button Widget requires Audacity 2.3.0 or later.
 
 ### Text Widget
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption><p>example of text</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image%20(2).png" alt=""><figcaption><p>example of text</p></figcaption></figure>
 
 The text widget was introduced in Audacity 2.3.0. Although not actually a "control", it shares similar syntax to all other Nyquist plug-in widgets:
 

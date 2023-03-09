@@ -6,7 +6,7 @@ Audacity supports the following formats:
 
 * **Nyquist** (Lisp or SAL)\
   Audacity's built-in scripting format. Allows for easy generation of UI elements and already is tuned to Audacity's needs. Note that this plugin format is not supported as realtime effects.\
-  Documentation: [creating-your-own-nyquist-plugins](scripting/creating-your-own-nyquist-plugins/ "mention")
+  Documentation: [creating-your-own-nyquist-plugins](../developing-your-own-plugins-and-scripts/creating-your-own-nyquist-plugins/ "mention")
 * **VST3** (C++)\
   The industry standard for plugins. Widely supported across Audacity, Musescore and most DAWs.\
   Documentation: [https://steinbergmedia.github.io/vst3\_doc/vstsdk/index.html](https://steinbergmedia.github.io/vst3\_doc/vstsdk/index.html)
