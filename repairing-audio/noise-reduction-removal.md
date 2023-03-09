@@ -4,7 +4,7 @@ description: >-
   has several tools to aid in this.
 ---
 
-# Noise Reduction & Removal
+# Noise reduction & removal
 
 {% hint style="success" %}
 **Best Practice**: While it's possible to rescue an otherwise unusable file with noise reduction techniques, your recording will sound best if you take steps to ensure a noise-free environment _before_ recording.
@@ -33,7 +33,7 @@ The Noise Reduction effect works best to remove a constant source of noise, like
 
 ## Noise Gate
 
-The Noise Gate effect completely removes any sound quieter than a certain threshold while leaving sounds louder completely unaffected. To use it
+The Noise Gate effect attenuates any sound quieter than a certain threshold while leaving sounds louder completely unaffected. To use it
 
 1. Select a part of the audio that's just background noise.
 2. Go to **Effects > Noise Gate...** to open the effect.

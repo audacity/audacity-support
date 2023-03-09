@@ -7,7 +7,7 @@
 * [Downloading & installing Audacity](basics/downloading-and-installing-audacity.md)
 * [Installing FFmpeg](basics/installing-ffmpeg.md)
 * [Recording your voice & microphone](basics/recording-your-voice-and-microphone/README.md)
-  * [Setting recording levels and playback levels](basics/recording-your-voice-and-microphone/setting-recording-levels-and-playback-levels.md)
+  * [Setting recording and playback levels](basics/recording-your-voice-and-microphone/setting-recording-levels-and-playback-levels.md)
 * [Recording desktop audio](basics/recording-desktop-audio.md)
 * [Editing audio](basics/audacity-editing.md)
 * [Saving and exporting projects](basics/saving-and-exporting-projects.md)
@@ -15,6 +15,7 @@
 * [Customizing Audacity](basics/customizing-audacity/README.md)
   * [Using themes](basics/customizing-audacity/using-themes.md)
   * [Installing plugins](basics/customizing-audacity/installing-plugins.md)
+  * [Effect Presets](basics/customizing-audacity/effect-presets.md)
 * [Keyboard shortcuts](basics/keyboard-shortcuts.md)
 
 ## Repairing Audio Recordings <a href="#repairing-audio" id="repairing-audio"></a>
@@ -35,6 +36,7 @@
   * [Macros Palette](audio-editing/splitting-a-recording-into-separate-tracks/macros-palette.md)
   * [Macros Examples](audio-editing/splitting-a-recording-into-separate-tracks/macros-examples.md)
 * [Isolating or removing vocals from a song](audio-editing/isolating-or-removing-vocals-from-a-song.md)
+* [Loudness Normalization](audio-editing/loudness-normalization.md)
 
 ## Audio Analysis
 

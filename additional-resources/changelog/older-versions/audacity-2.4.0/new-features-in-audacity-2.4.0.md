@@ -57,7 +57,7 @@ Spectrograms and Waveforms have different strengths and weaknesses:
 
 Choose whichever one gives you the best information for the task in hand.
 
-<figure><img src="../../../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Example of a stereo audio track with a Multi-view split 50:50 Waveform/Spectrogram</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>Example of a stereo audio track with a Multi-view split 50:50 Waveform/Spectrogram</p></figcaption></figure>
 
 To get a split Multi-view for a track select **Multi-view** from the track's **Track Control Panel** dropdown menu.
 

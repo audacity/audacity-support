@@ -22,13 +22,13 @@ The exact details depend on both your exact computer model and your microphone m
 
 Select the microphone to record from the list of available recording devices in the **Audio Setup** toolbar
 
-<figure><img src="../../.gitbook/assets/Audio Setup - Recording Device Selection.gif" alt=""><figcaption><p>Use the <strong>Audio Setup</strong> toolbar to select the microphone you want to record</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Microphone Selection - Audio Setup.png" alt=""><figcaption><p>Use the <strong>Audio Setup</strong> toolbar to select the microphone you want to record</p></figcaption></figure>
 
 You may see some unexpected devices here (for example, webcams), as well as virtual devices (software pretending to be a microphone). Choose the entry that matches the microphone you actually want to use.
 
 You can also use the **Audio Setup** toolbar to select whether you'll be recording in Mono or Stereo.
 
-<figure><img src="../../.gitbook/assets/Audio Setup - Recording Channels Selection.gif" alt=""><figcaption><p>The <strong>Audio Setup</strong> toolbar also displays the number of recording channels available from your microphone</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Recording Channels selection - Audio Setup.png" alt=""><figcaption><p>The <strong>Audio Setup</strong> toolbar also displays the number of recording channels available from your microphone</p></figcaption></figure>
 
 {% hint style="info" %}
 **Note:** Most microphones are in Mono, and Mono is generally the best choice for recordings. Only use Stereo if you do need directionality.&#x20;
@@ -38,7 +38,15 @@ You can also use the **Audio Setup** toolbar to select whether you'll be recordi
 
 Turn on the monitoring (shown below) and tap onto your mic. If you see the green bar move when tapping the mic, you have selected the correct device in the previous step.
 
-<figure><img src="../../.gitbook/assets/Recording Device Monitoring.gif" alt=""><figcaption><p>Audacity will display the microphone level in the recording meter</p></figcaption></figure>
+<div>
+
+<figure><img src="../../.gitbook/assets/Start Monitoring (1).png" alt=""><figcaption><p>Click on the microphone to start monitoring</p></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/Monitoring Recording Level.png" alt=""><figcaption><p>Audacity will display the microphone level in the recording meter</p></figcaption></figure>
+
+</div>
 
 Then try to speak in a normal volume. In general, the volume should remain in the green zone throughout (in general, between -18 and -12 dB is best).
 

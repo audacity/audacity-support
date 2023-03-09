@@ -10,15 +10,19 @@ description: >-
 
 {% tabs %}
 {% tab title="Windows" %}
-1. Use the **Audio Setup** toolbar to select **Windows WASAPI** as the Host and then select the output you want to use (the device you're using to listen) as the input. It will be marked with a (loopback) after it's name.
+* Click on **Audio Setup** and select **Windows WASAPI** as the Host
 
-![Select the loopback device to record desktop audio](<../.gitbook/assets/WASAPI Select Loopback Device.gif>)
+<figure><img src="../.gitbook/assets/Audio Setup Host Selection.png" alt=""><figcaption><p>Select <strong>Windows WASAPI in Audio Setup > Host</strong></p></figcaption></figure>
+
+* Select the output you want to use (the device you're using to listen) as the input. It will be marked with a (loopback) after it's name.
+
+<figure><img src="../.gitbook/assets/Loopback device selection.png" alt=""><figcaption><p>Select the <strong>loopback</strong> option for the device you want to record audio from.</p></figcaption></figure>
 
 {% hint style="info" %}
 When using the (default) MME device, you may find a virtual microphone called _Stereo Mix_, _What you hear_ or similar in it. This also will record your desktop audio.
 {% endhint %}
 
-![Selecting Stereo Mix as an alternative to record desktop audio](<../.gitbook/assets/MME Stereo Mix Audio Setup.gif>)
+![Selecting Stereo Mix as an alternative to record desktop audio](<../.gitbook/assets/Stereo Mix Recording option.png>)
 {% endtab %}
 
 {% tab title="macOS" %}
@@ -53,7 +57,7 @@ When using PulseAudio (default for Ubuntu, Linux Mint, and others):
 Recording the desktop audio will record all desktop audio, including notification-pings, games, and Audacity itself (for example, other tracks in the timeline if you're using overdub) . So unless you specifically want these noises, make sure to turn them off.
 
 {% hint style="danger" %}
-**DON'T use software playthrough** when recording desktop audio. Make sure it's off in the menu: Transport > Transport Options > Software playthrough (on/off) - The :heavy\_check\_mark:checkmark next to it must be turned off. You can turn off overdub here as well.&#x20;
+**DON'T use software playthrough** when recording desktop audio. Make sure it's off in the menu: **Transport > Transport Options > Software playthrough (on/off)** - The :heavy\_check\_mark:checkmark next to it must be turned off. You can turn off overdub here as well.&#x20;
 {% endhint %}
 
 ## 3. Record

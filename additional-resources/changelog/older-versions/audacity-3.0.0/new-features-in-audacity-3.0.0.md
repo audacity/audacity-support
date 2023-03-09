@@ -145,7 +145,7 @@ See Directories Preferences for more details.
 
 Import and Export of Macros has been added to the **Manage Macros** dialog.
 
-<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption><p><strong>Import...</strong> and <strong>Export...</strong> options added to <strong>Manage Macros</strong></p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4) (2).png" alt=""><figcaption><p><strong>Import...</strong> and <strong>Export...</strong> options added to <strong>Manage Macros</strong></p></figcaption></figure>
 
 Only one Macro can be imported or exported at a time.
 
@@ -176,7 +176,7 @@ We realized that we had a couple of settings in **Tracks Behaviors Preferences**
 * **Editing a clip can move other clips**
 * **Enable Cut lines**
 
-<figure><img src="../../../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Track Behaviors Preferences that affect Cut, Paste and Delete commands</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Track Behaviors Preferences that affect Cut, Paste and Delete commands</p></figcaption></figure>
 
 So a new page was added to the Manual to explain the subtleties of these behaviors. See [**this page**](https://manual.audacityteam.org/man/preferences\_settings\_that\_affect\_edit\_behavior.html).
 
