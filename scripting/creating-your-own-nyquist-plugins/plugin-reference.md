@@ -95,15 +95,13 @@ When a plug-in is launched, Audacity searches the plug-in **.NY** file for valid
 | ;control | _symbol_ |  _string_ |     **file**     |  _string_  |    _string_   |     _string_    |     _string_    |
 | ;control |     -    |     -     |     **text**     |  _string_  |       -       |        -        |        -        |
 
-
-
 {% hint style="info" %}
 Note: "real" (deprecated) is an alternative name for "float" and is provided as legacy support for old plug-ins. It should not be used in new code.
 {% endhint %}
 
 _Italic_ words in the table denote data types. Because tokens are separated by whitepace, strings containing whitespace must be written within quotation marks.
 
-![This image displays all nine widget types in Audacity 2.3.1 on Windows 10](../../../.gitbook/assets/Nyquist-plug-in-widgets.png)
+![This image displays all nine widget types in Audacity 2.3.1 on Windows 10](../../.gitbook/assets/Nyquist-plug-in-widgets.png)
 
 {% hint style="info" %}
 Note: Older versions of Audacity may not support all of these controls, which may lead to an "unbound symbol" error. Plug-in users are encouraged to use the current version of Audacity, to ensure that they can benefit from all of the latest features.
@@ -212,7 +210,7 @@ In addition to the standard global variables defined in the [Nyquist Reference M
 * **\*DECIMAL-SEPARATOR\*** : \[char] A comma character (#\\') or dot character (#\\.) depending on the language selected in [Audacity's Preferences](https://manual.audacityteam.org/man/interface\_preferences.html).
 * **\*FILE-SEPARATOR\*** : \[char] The character that separates directories in a path, e.g. "/" (#\\/) for Unix, ":" (#\\:) for Mac, and "\\" (#\\\\) for Win32.
 * **LEN** : \[int] The number of samples contained in the selected Audacity sound.
-* **\*LOCALE\*** : \[list] This is variable name is reserved for [translation strings](broken-reference).
+* **\*LOCALE\*** : \[list] This is variable name is reserved for [translation strings](../../developing-your-own-plugins-and-scripts/creating-your-own-nyquist-plugins/broken-reference/).
 * **\*PREVIEWP\*** : \[bool] True when previewing an effect, otherwise false.
 * **\*RUNTIME-PATH\*** : \[string] Path to Nyquist .lsp files.
 * **\*PROJECT\*** : A variable with a list of properties relating to the current Audacity project.
@@ -230,7 +228,7 @@ Other global variables provided by Nyquist can be found in the [Nyquist manual i
 
 ## Global Property Lists <a href="#global_property_lists" id="global_property_lists"></a>
 
-Property lists are defined for the global variables \*AUDACITY\*, \*PROJECT\*, \*SELECTION\*, \*SYSTEM-DIR\*, \*SYSTEM-TIME\*, and \*TRACK\*.&#x20;
+Property lists are defined for the global variables \*AUDACITY\*, \*PROJECT\*, \*SELECTION\*, \*SYSTEM-DIR\*, \*SYSTEM-TIME\*, and \*TRACK\*.
 
 For examples using property lists, see the [Nyquist Property List Tutorial](tutorials/property-list-tutorial.md).
 
@@ -325,8 +323,8 @@ Properties of \*TRACK\* all relate to the track that is being processed. Current
 * **CHANNELS** : \[integer] The number of channels in the track (mono = 1, stereo = 2).
 * **CLIPS** : \[list or array] For mono tracks, a list of start and end time of each audio clip. For stereo tracks, an array containing a list of clips for each channel.\
   Due to a limitation in Nyquist, the "clips" property can hold a maximum of 1000 start / end times.\
-  &#x20;  If an audio channel contains more than 1000 clips, the first 1000 will be listed, and the 1001th item will be NIL.\
-  &#x20;  See [AUD-GET-INFO](https://manual.audacityteam.org/man/nyquist\_macros.html#AUD-GET-INFO) for an alternative way to get clip times that will work with 1000's of clips.
+  If an audio channel contains more than 1000 clips, the first 1000 will be listed, and the 1001th item will be NIL.\
+  See [AUD-GET-INFO](https://manual.audacityteam.org/man/nyquist\_macros.html#AUD-GET-INFO) for an alternative way to get clip times that will work with 1000's of clips.
 * **END-TIME** : \[float] The track end time.
 * **FORMAT** : \[integer or float] The track sample format. One of (Integer) 16, (Integer) 24, or (float) 32.
 * **GAIN** : \[float] The value of the track Gain slider.
@@ -376,7 +374,7 @@ If an appropriately formatted list is returned to Audacity, a label track will b
 
 For point labels the format is:
 
-&#x20;`((`_`number`_` ``"`_`string`_`") (`_`number`_` ``"`_`string`_`") ... )`
+`((`_`number`_` `` ``" `_`string`_`") (`_`number`_` `` ``" `_`string`_`") ... )`
 
 The list to create a label track must contain one or more lists, each of which must have:
 
@@ -385,7 +383,7 @@ The list to create a label track must contain one or more lists, each of which m
 
 For region labels, each label list must contain two _int-or-float_ elements, one for the start and one for the end of the label region.
 
-&#x20;`((`_`number`_` ```` `_`number`_` ``"`_`string`_`") (`_`number`_` ```` `_`number`_` ``"`_`string`_`") ... )`
+`((`_`number`_` ```` `_`number`_` `` ``" `_`string`_`") (`_`number`_` ```` `_`number`_` `` ``" `_`string`_`") ... )`
 
 Audacity will always place returned audio or labels relative to the start of the [selection](https://manual.audacityteam.org/man/Audacity\_Selection) and not the start of the [Timeline](https://manual.audacityteam.org/man/Timeline).
 
@@ -404,7 +402,7 @@ An empty string may be used as a "null return", which means that the plug-in ret
 
 ## Playing sounds with Nyquist <a href="#playing_sounds_with_nyquist" id="playing_sounds_with_nyquist"></a>
 
-When using the [Nyquist Prompt](https://manual.audacityteam.org/man/nyquist\_prompt.html) or (most) Nyquist plug-ins that have a [GUI](https://en.wikipedia.org/wiki/Graphical\_user\_interface), if the plug-in returns a sound, it may be previewed using the `Preview` button. In addition to this, it is also possible to play sounds directly from Nyquist, using the [PLAY](http://www.cs.cmu.edu/\~rbd/doc/nyquist/part8.html#index626) function. The PLAY function will be executed when the plug-in code runs.&#x20;
+When using the [Nyquist Prompt](https://manual.audacityteam.org/man/nyquist\_prompt.html) or (most) Nyquist plug-ins that have a [GUI](https://en.wikipedia.org/wiki/Graphical\_user\_interface), if the plug-in returns a sound, it may be previewed using the `Preview` button. In addition to this, it is also possible to play sounds directly from Nyquist, using the [PLAY](http://www.cs.cmu.edu/\~rbd/doc/nyquist/part8.html#index626) function. The PLAY function will be executed when the plug-in code runs.
 
 {% hint style="info" %}
 The PLAY function is described in the [Nyquist manual](http://www.cs.cmu.edu/\~rbd/doc/nyquist/part8.html#index626). The information here describes aspects that are specific to Nyquist in Audacity.
@@ -447,19 +445,19 @@ The other method may be used by plug-in developers for their "third party" plug-
 
 Header comments in translated plug-ins begin with a dollar "$" character rather than the usual semicolon ";" character. The strings to be translated are then wrapped in a function that has a one character name "\_" (underscore).
 
-**Example:** In the [Adjustable Fade](https://manual.audacityteam.org/man/adjustable\_fade.html) effect, the [Name](broken-reference) header is changed from:
+**Example:** In the [Adjustable Fade](https://manual.audacityteam.org/man/adjustable\_fade.html) effect, the [Name](../../developing-your-own-plugins-and-scripts/creating-your-own-nyquist-plugins/broken-reference/) header is changed from:
 
-&#x20;`;name "Adjustable Fade"`
+`;name "Adjustable Fade"`
 
 to:
 
-&#x20;`$name (_ "Adjustable Fade")`
+`$name (_ "Adjustable Fade")`
 
-**;control** lines become **$control**. As with other translated headers, the **$** symbol replaces the normal semicolon. The line is ignored by Nyquist as a _comment_, but is visible to Audacity for translation and for creating a [widget](broken-reference).
+**;control** lines become **$control**. As with other translated headers, the **$** symbol replaces the normal semicolon. The line is ignored by Nyquist as a _comment_, but is visible to Audacity for translation and for creating a [widget](../../developing-your-own-plugins-and-scripts/creating-your-own-nyquist-plugins/broken-reference/).
 
 The options in Multiple-choice widgets may be translated. For example:
 
-&#x20;`;control var (_ "Translated left text") choice ((_ "Yes") (_ "No")) 0`
+`;control var (_ "Translated left text") choice ((_ "Yes") (_ "No")) 0`
 
 {% hint style="danger" %}
 The above example is not safe to use. See the "Limitations" section below.
@@ -467,27 +465,27 @@ The above example is not safe to use. See the "Limitations" section below.
 
 **Macros and portability:** To allow portability of settings and macros, choices may include a non-translated form of each choice. The non-translated form is used by Macros but is not normally visible to users.
 
-&#x20;`;control var (_ "Translated left text") choice (("Label1" (_ "Translated Label 1")) ("Label2" (_ "Translated Label 2"))) 0`
+`;control var (_ "Translated left text") choice (("Label1" (_ "Translated Label 1")) ("Label2" (_ "Translated Label 2"))) 0`
 
 **Other user visible strings:** Other strings that are visible to users are marked for translation using the "underscore" function. An example from the Adjustable Fade plug-in:
 
-&#x20;`(format nil (_ "~aPercentage values cannot be negative.") err)`
+`(format nil (_ "~aPercentage values cannot be negative.") err)`
 
 ### **Limitations**
 
-Control characters like  (new line),  (tab) are not supported. The workaround is to use Lisp format directives instead:
+Control characters like (new line), (tab) are not supported. The workaround is to use Lisp format directives instead:
 
 * **Bad** (does not work correctly):
 
-&#x20;`(print (_ "Line one.\nLine two."))`
+`(print (_ "Line one.\nLine two."))`
 
 * **Good**:
 
-&#x20;`(print (format nil (_ "Line one.~%Line two.")))`
+`(print (format nil (_ "Line one.~%Line two.")))`
 
 Note that translations may contain Unicode characters that are not supported by Nyquist. It is therefore important that any translated strings that need to be _machine readable_ (such as Multiple-Choice widget options) _**should**_ also have a non-translated form.
 
-&#x20;`;control var (_ "Translated left text") choice (("Label1" (_ "Translated Label 1")) ("Label2" (_ "Translated Label 2"))) 0`
+`;control var (_ "Translated left text") choice (("Label1" (_ "Translated Label 1")) ("Label2" (_ "Translated Label 2"))) 0`
 
 ### Translation for third party effects <a href="#translation_for_third_party_effects" id="translation_for_third_party_effects"></a>
 

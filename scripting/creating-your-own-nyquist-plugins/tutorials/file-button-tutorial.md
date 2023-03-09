@@ -16,14 +16,14 @@ Prior to the availability of the File-Button Widget, file names could be hard co
 
 ## Syntax and Appearance <a href="#syntax_and_appearance" id="syntax_and_appearance"></a>
 
-<figure><img src="../../../../.gitbook/assets/image (9).png" alt=""><figcaption><p>File button widget example</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20(9).png" alt=""><figcaption><p>File button widget example</p></figcaption></figure>
 
 The File-Button Widget, as shown above, has an editable text input field that allows a file path to be typed (or pasted). After the text input field is a button that launches a file browser. Below is an example of the familiar file browser window on Windows 10.
 
-<figure><img src="../../../../.gitbook/assets/image (3) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image%20(3)%20(3).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Note that selecting a file in this file browser does NOT open the file.&#x20;
+Note that selecting a file in this file browser does NOT open the file.
 
 When a file is selected in the file browser window, the full name and path of the selected file is passed to the Nyquist script as the value of the File-Button Widget variable.
 {% endhint %}
@@ -82,7 +82,7 @@ The final three arguments, _default-file-path_, _wildcard-filters_, and _flags_,
   * **macOS:** /Users/`<username>`/Library/Application Support/audacity/
   * **Linux:** /home/`<username>`/.audacity-data/
 
-These keywords may be combined with a file name to specify which file to open. For example, if you want the default file to be called "sample-data.txt", and you want the default location to be the default "Documents" path, you could write the default file path parameter as: `"*default*/sample-data.txt"`.&#x20;
+These keywords may be combined with a file name to specify which file to open. For example, if you want the default file to be called "sample-data.txt", and you want the default location to be the default "Documents" path, you could write the default file path parameter as: `"*default*/sample-data.txt"`.
 
 {% hint style="warning" %}
 File paths should be quoted with double quotes, otherwise spaces in file name will fail. If no file path is provided, the default is "default". If no file name is provided, the default file name is "untitled". The default file extension is taken from the wildcard-filters.
@@ -96,17 +96,17 @@ This "magic string" follows the same syntax as [wxFileDialog](https://docs.wxwid
 
 **Example:**
 
-&#x20;`"Text file|*.txt;*.TXT|All files|*.*;*"`
+`"Text file|*.txt;*.TXT|All files|*.*;*"`
 
 In this example we have two pairs:
 
-1. **Text file|\*.txt;\*.TXT**: \
-   Description: "Text file" \
-   File extension "\*.txt" matches: "anything.txt" \
+1. **Text file|\*.txt;\*.TXT**:\
+   Description: "Text file"\
+   File extension "\*.txt" matches: "anything.txt"\
    File extension "\*.TXT" matches: "anything.TXT"
-2. **All files|\*.\*;\***: \
-   Description: "All files" \
-   File extension "\*.\*" matches: "anything.anything" \
+2. **All files|\*.\*;\***:\
+   Description: "All files"\
+   File extension "\*.\*" matches: "anything.anything"\
    File extension "\*" matches: "anything"
 
 #### **Flags**
@@ -123,11 +123,11 @@ Available keywords are:
 
 **Example:** Open file dialog for one or more files that must exist.
 
-&#x20;`"open,exists,multiple"`
+`"open,exists,multiple"`
 
 **Example:** Save file dialog with overwrite prompt if file exists.
 
-&#x20;`"save,overwrite"`
+`"save,overwrite"`
 
 ### Return Values <a href="#return_values" id="return_values"></a>
 
@@ -144,17 +144,17 @@ The File-Button widget attempts to create a valid file path as a string, and ass
 In the event of programming or user errors, the File-Button Widget may return an error message. Understanding these messages can be a great help when debugging a new plug-in.
 
 * **`<Path>`is not a valid file path.**\
-  ****This error occurs if the returned file path is invalid, for example, if the directory does not exist. : This error is most likely to be due to the user manually editing the file path text box with an invalid file path.
+  \*\*\*\*This error occurs if the returned file path is invalid, for example, if the directory does not exist. : This error is most likely to be due to the user manually editing the file path text box with an invalid file path.
 * **Mismatched quotes in `<string>`**\
-  ****When the "multiple" flag is set, the file browser returns a list of quoted strings for each path. This error is thrown if the opening quotes do not have matching closing quotes. : This error is most likely to be due to the user manually editing the file path text box and missing one or more quote characters.
+  \*\*\*\*When the "multiple" flag is set, the file browser returns a list of quoted strings for each path. This error is thrown if the opening quotes do not have matching closing quotes. : This error is most likely to be due to the user manually editing the file path text box and missing one or more quote characters.
 * **Invalid wildcard string in 'path' control. Using empty string instead.**\
-  ****This error occurs if the 'wildcard' magic string is malformed. : This is a programming error. Check the syntax of your [wildcard](broken-reference) string.
+  \*\*\*\*This error occurs if the 'wildcard' magic string is malformed. : This is a programming error. Check the syntax of your [wildcard](../../../developing-your-own-plugins-and-scripts/creating-your-own-nyquist-plugins/tutorials/broken-reference/) string.
 
 #### Examples
 
 **Simple "Open File" Example**
 
-&#x20;`;control var "Select file to open" file "" "" "" ""`
+`;control var "Select file to open" file "" "" "" ""`
 
 In this example. only the variable ("var") and the "text-left" ("Select file to open") are explicitly set. Empty strings are passed to the other parameters, so they will all take default values.
 
@@ -162,13 +162,13 @@ In reverse order: the default "flag" is "open", the default wildcard filter is "
 
 **Simple "Save File" Example**
 
-&#x20;`;control var "Select file to save" file "" "" "" "save"`
+`;control var "Select file to save" file "" "" "" "save"`
 
 Very much like the simple "open file" example above, except this one is selecting a file for writing.
 
 **Advanced "Open File" Example**
 
-&#x20;`;control filename "Select file" file "" "*default*/sample-data.txt" "Text file|*.txt;*.TXT|All files|*.*;*" "open,exists"`
+`;control filename "Select file" file "" "*default*/sample-data.txt" "Text file|*.txt;*.TXT|All files|*.*;*" "open,exists"`
 
 Unlike the previous examples, all parameters are explicitly defined. The default file name is "sample-data.txt", and by default the file browser filters the file list to show Text files only (ending in ".txt" or ".TXT"). The file browser also has an option to show all files.
 
@@ -188,7 +188,7 @@ Note also that the "exists" flag only affects the file browser - it does not pre
 
 **Advanced "Save File" Example**
 
-&#x20;`;control filename "Export data to" file "Select a file" "*default*/sample-data.txt" "Text file|*.txt;*.TXT|CSV files|*.csv;*.CSV|HTML files|*.html;*.HTML;*.htm;*.HTM|All files|*.*;*" "save,overwrite"`
+`;control filename "Export data to" file "Select a file" "*default*/sample-data.txt" "Text file|*.txt;*.TXT|CSV files|*.csv;*.CSV|HTML files|*.html;*.HTML;*.htm;*.HTM|All files|*.*;*" "save,overwrite"`
 
 In this example, all parameters are explicitly defined:
 
@@ -196,14 +196,14 @@ In this example, all parameters are explicitly defined:
 * **text-left**: "Export data to"
 * **button-text**: "Select a file"
 * **default-file-path**: "\*default\*/sample-data.txt"
-* **wildcard-filters:** \
-  ****Text file|\*.txt;\*.TXT| \
-  CSV files|\*.csv;\*.CSV| \
-  HTML files|\*.html;\*.HTML;\*.htm;\*.HTM| \
+* **wildcard-filters:**\
+  \*\*\*\*Text file|\*.txt;\*.TXT|\
+  CSV files|\*.csv;\*.CSV|\
+  HTML files|\*.html;\*.HTML;\*.htm;\*.HTM|\
   All files|\*.\*;\*"
 * **flags** : "save,overwrite"
 
-The [wildcard filters](broken-reference) provide options in the file browser to show either text files (.txt or .TXT), which is the default, or CSV files (.csv pr .CSV), or HTML files (.html, or .HTML, or .htm, or .HTM), or "All files" (any file name).&#x20;
+The [wildcard filters](../../../developing-your-own-plugins-and-scripts/creating-your-own-nyquist-plugins/tutorials/broken-reference/) provide options in the file browser to show either text files (.txt or .TXT), which is the default, or CSV files (.csv pr .CSV), or HTML files (.html, or .HTML, or .htm, or .HTM), or "All files" (any file name).
 
 {% hint style="warning" %}
 Note that on Windows, file extensions are not case sensitive, but Linux, and some Mac computers are case sensitive, so for cross-platform portability it is recommended to use both upper and lower case file name extensions.
@@ -213,7 +213,7 @@ Note that on Windows, file extensions are not case sensitive, but Linux, and som
 
 `;control var "Select one or more files" file "Select" "*default*" "Text file|*.txt;*.TXT|All files|*.*;*" "open,multiple"`
 
-In this example, the variable that will be set is `var`, the default directory is `*default*`, and the default file type filter is for text files (with an option to show all files). Unlike the previous versions, the file browser may be used to select multiple files (requires Audacity 2.3.1 or later).&#x20;
+In this example, the variable that will be set is `var`, the default directory is `*default*`, and the default file type filter is for text files (with an option to show all files). Unlike the previous versions, the file browser may be used to select multiple files (requires Audacity 2.3.1 or later).
 
 {% hint style="info" %}
 If the users selects one or more files using the file browser, then each file path will be enclosed in double quotes. However, the user could type in the path to a single file without quotes, or, as in this case, the default could be an unquoted single file path, so we should check for and support both versions.
@@ -224,7 +224,7 @@ To extract all of the the paths from the returned string, we first need to conve
 `(setf path-string`\
 `(format nil "(list ~s )" (string-trim "\"" var)))`
 
-Here we have stripped the outer double quotes (if present), and then formatted it into a string that describes a LISP list. So, for example, if the selected files were: "C:\first.txt" and "C:\second.txt", then the value of `var`would be `""C:\first.txt""C:\second.txt""`, and the value of `path-string` would be `"(list "C:\first.txt" "C:\second.text")"`.&#x20;
+Here we have stripped the outer double quotes (if present), and then formatted it into a string that describes a LISP list. So, for example, if the selected files were: "C:\first.txt" and "C:\second.txt", then the value of `var`would be `""C:\first.txt""C:\second.txt""`, and the value of `path-string` would be `"(list "C:\first.txt" "C:\second.text")"`.
 
 {% hint style="warning" %}
 Important: Note that this is still only a string value, not a LISP list.
@@ -232,7 +232,7 @@ Important: Note that this is still only a string value, not a LISP list.
 
 To convert this string into a LISP list, we need to evaluate the string as if it were code. Fortunately in Audacity 2.3.1 and later, there is an easy way to do this with the `EVAL-STRING` function:
 
-&#x20;`(setf paths (eval-string path-string))`
+`(setf paths (eval-string path-string))`
 
 `paths` is now a valid LISP list of strings, which we can iterate through like this:
 
@@ -259,7 +259,7 @@ The complete example that can run in the [Nyquist Prompt](https://manual.audacit
 
 ## Example Applications <a href="#example_applications" id="example_applications"></a>
 
-These example applications may be run in the [Nyquist Prompt](https://manual.audacityteam.org/man/nyquist\_prompt.html), or could be converted to plug-ins by adding full plug-in headers.&#x20;
+These example applications may be run in the [Nyquist Prompt](https://manual.audacityteam.org/man/nyquist\_prompt.html), or could be converted to plug-ins by adding full plug-in headers.
 
 {% hint style="info" %}
 These code examples are excessively commented so as to explain what they are doing. For production code, comments should be concise and provide clarification where the intent is not obvious. As far as possible, the code should be self explanatory, but as this is intended for learning purposes, additional explanatory comments are included.
@@ -303,7 +303,7 @@ When we write to a file with Nyquist, the file is overwritten by the data that w
 data)
 ```
 
-As this code is designed to work with text files, we can check that the file name ends with ".txt".&#x20;
+As this code is designed to work with text files, we can check that the file name ends with ".txt".
 
 {% hint style="warning" %}
 The file name extension is NOT a reliable way to test the file type. In any situation where security is a concern, the file extension must not be relied as an indicator of the file type.
@@ -402,10 +402,10 @@ If the file did not end with **.txt**, we return an error message.
 
 This is an _advanced_ example that uses the File-Button widget to read data from one or more text files. Text handling is not one of Nyquist's strengths (Nyquist is primarily designed for handling audio), hence parsing the text file data is quite complex.
 
-In this example, we will import (read) labels from one or more text files.&#x20;
+In this example, we will import (read) labels from one or more text files.
 
 {% hint style="info" %}
-For simplicity, we will deal only with the basic label format and not support "spectral" labels.&#x20;
+For simplicity, we will deal only with the basic label format and not support "spectral" labels.
 
 The data format we will use is compatible with [exported labels](https://manual.audacityteam.org/man/importing\_and\_exporting\_labels.html), provided that [Spectral Selections](https://manual.audacityteam.org/man/spectral\_selection.html) are NOT used.
 {% endhint %}
