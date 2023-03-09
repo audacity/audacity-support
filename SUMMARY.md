@@ -60,6 +60,7 @@
       * [Macro Tutorial](contributing/developing-your-own-plugins-and-scripts/creating-your-own-nyquist-plugins/tutorials/macro-tutorial.md)
       * [File Button Tutorial](contributing/developing-your-own-plugins-and-scripts/creating-your-own-nyquist-plugins/tutorials/file-button-tutorial.md)
     * [💬 Nyquist Forum](https://forum.audacityteam.org/viewforum.php?f=39)
+  * [Scripting reference](contributing/developing-your-own-plugins-and-scripts/scripting-reference.md)
 
 ## Additional resources
 
