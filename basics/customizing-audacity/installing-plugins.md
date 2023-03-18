@@ -22,11 +22,13 @@ If a plugin doesn't get found by Audacity, or doesn't come with an installer, mo
 
 {% tabs %}
 {% tab title="Windows" %}
+You can access the Common Files folder quickly by hitting `🪟 WINDOWS key + R` to launch Run and typing `%ProgramFiles%\Common Files`
 * VST2:  `C:\Program Files\Common Files\VST2` or `C:\Program Files\Steinberg\VSTPlugins`
 * VST3: `C:\Program Files\Common Files\VST3`&#x20;
 * LV2:  `C:\Program Files\Common Files\LV2`\
   **Note:** Always copy the complete .lv2 _folder_
 * LADSPA: `C:\Users\<username>\Appdata\Roaming\audacity\Plug-ins\`
+  **Note:** You can quickly access this folder by hitting `🪟 WINDOWS key + R` to launch Run and typing `%AppData%\audacity\Plug-ins`
 * Vamp: `C:\Program Files\Vamp Plugins\`
 * Nyquist: See below
 {% endtab %}
