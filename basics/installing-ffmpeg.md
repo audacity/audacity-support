@@ -71,23 +71,15 @@ If you have installed FFmpeg from a different source, or installed it in a diffe
 {% endtab %}
 
 {% tab title="macOS" %}
-{% hint style="warning" %}
-**Caution:** If you're using an Apple Silicon ("M1", "M2") system, make sure that your FFMPEG and Audacity architectures match:&#x20;
-
-* arm64 (Apple Silicon) Audacity needs arm64 FFmpeg,&#x20;
-* x86\_64 (intel, also known as x64 and amd64) Audacity needs x86\_64 FFMPEG.&#x20;
-{% endhint %}
-
 ### Recommended installer
 
 This is a universal binary installer. It automatically matches your system architecture.
 
 1. Download FFmpeg for macOS from  [https://lame.buanzo.org/ffmpeg.php](https://lame.buanzo.org/ffmpeg.php)
-2. When you have finished downloading, double-click the **"FFmpeg\_for\_Audacity\_3.2\_on\_macOS.pkg"** in your **Downloads** folder.
-3. You will be guided through the installation
-4. Click through the steps in the installer.&#x20;
+2. When you have finished downloading, open the .pkg. You will be guided through the installation
+3. Click through the steps in the installer.&#x20;
    * _On some Macs the process may look as though it has stalled on "Validating packages" - just be patient and wait for it to complete._
-5. Restart Audacity if it was running when you installed FFmpeg then Audacity should detect FFmpeg automatically.
+4. Restart Audacity if it was running when you installed FFmpeg then Audacity should detect FFmpeg automatically.
 
 If you have problems with Audacity detecting FFmpeg, follow the steps below to **manually locate FFmpeg**.
 
@@ -134,6 +126,17 @@ If you have installed FFmpeg from a different source, or installed it in a diffe
     If this message **does not appear**, proceed with the next steps.
 4. In the "**Locate FFMPEG**" dialog, click **Browse...** to locate the **avformat-\*.dylib** from the FFmpeg folder you downloaded/installed elsewhere.
 5. Once you've found it, click **Open**, then **OK** and **OK** again to close the preferences.&#x20;
+
+
+
+### Troubleshooting
+
+If you're using an Apple Silicon ("M1", "M2") system, make sure that your FFmpeg and Audacity architectures match:&#x20;
+
+* arm64 (Apple Silicon) Audacity needs arm64 FFmpeg,&#x20;
+* x86\_64 (intel, also known as x64 and amd64) Audacity needs x86\_64 FFmpeg.&#x20;
+
+Additionally, make sure you're using the latest version of Audacity.&#x20;
 {% endtab %}
 
 {% tab title="Linux" %}
