@@ -1,8 +1,40 @@
 # Common troubleshooting steps
 
-## Rescan audio device
+## Rescan audio devices
 
-Audacity does not automatically update the devices list when you plug in or unplug a device. Go to **Transport > Rescan audio devices** to update the list of outputs.
+If Audacity shows you an error message when trying to record or playback audio start using **Transport > Rescan Audio Devices** to update the list of devices.
+
+<div>
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Error message when trying to playback audio</p></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/Rescan Audio Devices.png" alt=""><figcaption><p>Refresh the list of devices</p></figcaption></figure>
+
+</div>
+
+After rescanning audio devices try selecting a different host using the **Audio Setup** button and make sure the desired device is selected as your Recording or Playback Device
+
+<div>
+
+<figure><img src="../.gitbook/assets/Audio Setup Host MME (1).png" alt=""><figcaption><p>Try changing the <strong>Host</strong></p></figcaption></figure>
+
+ 
+
+<figure><img src="../.gitbook/assets/Audio Setup Playback Device.png" alt=""><figcaption><p>Recheck that the correct device is selected</p></figcaption></figure>
+
+</div>
+
+If the error is still present try changing the Project Rate to a different value:
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Set <strong>Project Rate</strong> to a different value</p></figcaption></figure>
+
+## Recording and Playback Levels
+
+Verify that the **Recording Meter Toolbar** and the **Playback Meter Toolbar** sliders are set to an appropiate level.  Place the mouse cursor over the meter and Audacity will display the corresponding level
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## Privacy permissions
 

@@ -12,7 +12,7 @@ The **Cut**, **Copy** and **Paste** buttons have been removed from the **Edit To
 
 Audacity version 3.2.3 introduced the **Cut/Copy/Paste Toolbar** which is disabled by default.  Check **View > Toolbars > Cut/Copy/Paste Toolbar** to enable it.
 
-<figure><img src="../.gitbook/assets/image (2) (3).png" alt=""><figcaption><p>Cut/Copy/Paste Toolbar</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (3) (1).png" alt=""><figcaption><p>Cut/Copy/Paste Toolbar</p></figcaption></figure>
 
 You can also access the Cut/Copy/Paste **** functionality in the following ways instead:
 
