@@ -41,6 +41,7 @@ If you prefer a manual installation of FFmpeg you can download a ZIP file from a
 
 * Audacity 3.1 and later supports avformat-55.dll, avformat-57.dll and avformat-58.dll. Audacity 3.2 and later supports also avformat-59.dll. You can check which dll is in which FFmpeg release [here](https://ffmpeg.org/download.html).&#x20;
 * Make sure you download full FFmpeg copies, not just the avformat-\*.dll's individually. Further, make sure to download or build the **shared** versions as only those contain .dll's.&#x20;
+* Different versions of FFmpeg may have different codecs enabled in them. In particular, AMR (narrowband) is not featured in the recommended installer.&#x20;
 {% endhint %}
 
 
@@ -112,6 +113,7 @@ You can download or compile FFmpeg yourself as described here: [https://trac.ffm
 
 * Audacity 3.1 and later supports **avformat 55, 57** and **58**. Audacity 3.2 and later supports also **avformat 59**.
 * Make sure to download or build the **shared** versions (with .dylib's) as only those can be used by Audacity.&#x20;
+* Different versions of FFmpeg may have different codecs enabled in them. In particular, AMR (narrowband) is not featured in the recommended installer.&#x20;
 {% endhint %}
 
 ### Manual installation
