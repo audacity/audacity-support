@@ -6,6 +6,21 @@ description: >-
 
 # Missing features
 
+## Audacity Wiki
+
+The Audacity Wiki will shut down soon.
+
+Its replacements are as follows:
+
+* Plugin downloads can be found on [https://plugins.audacityteam.org/](https://plugins.audacityteam.org/), with all plugins hosted in the Wiki being listed in the Nyquist Plugins section.&#x20;
+* Developer info can be found on [https://audacity.gitbook.io/dev/](https://audacity.gitbook.io/dev/)&#x20;
+* Other contributor instructions can be found on this page: [contributing](../community/contributing/ "mention")
+* Changelogs are on this page: [changelog](../additional-resources/changelog/ "mention")
+* Help content can be found either on this site, or in [the manual](https://manual.audacityteam.org/).&#x20;
+* Information on codecs and audio technology is no longer hosted by us. You may find relevant information on the [hydrogenaudio Wiki](https://wiki.hydrogenaud.io/).
+
+A wikidump of the Audacity Wiki as of March 31, 2023 can be found [in the Internet Archive](https://archive.org/details/audacity-wiki). It can be accessed and worked with in the same way as [Wikipedia's dumps](https://meta.wikimedia.org/wiki/Data\_dumps).&#x20;
+
 ## Cut, Copy and Paste buttons
 
 The **Cut**, **Copy** and **Paste** buttons have been removed from the **Edit Toolbar** in version 3.2.0.
