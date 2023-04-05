@@ -28,13 +28,13 @@ After rescanning audio devices try selecting a different host using the **Audio 
 
 If the error is still present try changing the Project Rate to a different value:
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Set <strong>Project Rate</strong> to a different value</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (3).png" alt=""><figcaption><p>Set <strong>Project Rate</strong> to a different value</p></figcaption></figure>
 
 ## Recording and Playback Levels
 
 Verify that the **Recording Meter Toolbar** and the **Playback Meter Toolbar** sliders are set to an appropiate level.  Place the mouse cursor over the meter and Audacity will display the corresponding level
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Privacy permissions
 
@@ -61,7 +61,7 @@ If you have installed Audacity as a Snap or Flatpak, you may need to go to the S
 
 ## Enable the microphone
 
-Your operating system may disable the microphone in general. You need to enable it in order to record.&#x20;
+If your microphone is not listed under the **Audio Setup > Recording Device** dropdown, select **Transport > Rescan Audio Devices** to refresh the list of recording devices.  If it still doesn't appear after rescanning it could be disabled in your operating system audio settings. You need to enable it in order to record.
 
 {% tabs %}
 {% tab title="Windows" %}
@@ -106,11 +106,15 @@ If you have now got updated non-Microsoft drivers, try them and see if your reco
 
 ## Check physical connections
 
-Use the **Recording Meter** **Toolbar** to check the audio level that Audacity is receiving from the selected **Recording Device**.  Click on the toolbar to Start/Stop monitoring the audio level.
+Use the **Recording Meter** **Toolbar** to check the audio level that Audacity is receiving from the selected **Recording Device**.  Click on the microphone icon to Start/Stop monitoring the audio level.
 
-![Recording Meter Toolbar displaying the audio level for a microphone](<../.gitbook/assets/Recording Meter Toolbar.png>)
+![Recording Meter Toolbar displaying the audio level for a microphone](<../.gitbook/assets/Recording Meter Toolbar Monitoring.png>)
 
-If there is no level present on the meter you could check if your device provides some physical  control to mute or set the audio level.
+If there is no level present on the meter check if the microphone is muted in your operating system audio settings:
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Check your operating system audio settings to check if the microphone is muted</p></figcaption></figure>
+
+You can also check if your device provides some physical control to mute or set the audio level.
 
 ![USB Sound Card with Microphone Mute and Level controls](<../.gitbook/assets/USB Sound Card Microphone mute control (1).jpg>)
 

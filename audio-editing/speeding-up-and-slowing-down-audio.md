@@ -50,6 +50,6 @@ Then click on the blue line and drag it upwards or downwards to change the speed
 
 ## Changing playback speed
 
-If you want to preview your audio at a faster or slower rate than normal, but without affecting the final product, you can use the **Play-at-Speed toolbar** ![](<../.gitbook/assets/playatspeed (1).png>)****
+If you want to preview your audio at a faster or slower rate than normal, but without affecting the final product, you can use the **Play-at-Speed toolbar** ![](<../.gitbook/assets/playatspeed (1).png>)
 
 To use it, drag the slider to the desired speed (between 0.01x and 3x) and then click the small play button next to it to playback your audio at that speed. You can use the normal stop and pause controls to stop/pause playback.&#x20;

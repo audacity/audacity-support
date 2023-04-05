@@ -2,8 +2,8 @@
 
 You can download various plugins here:
 
-{% content-ref url="https://app.gitbook.com/o/-MhmG2mhIIHTtQPuHV_k/s/klCVENFte0GRy5IqVz0W/" %}
-[Audacity Plugins](https://app.gitbook.com/o/-MhmG2mhIIHTtQPuHV\_k/s/klCVENFte0GRy5IqVz0W/)
+{% content-ref url="http://localhost:5000/o/-MhmG2mhIIHTtQPuHV_k/s/klCVENFte0GRy5IqVz0W/" %}
+[Audacity Plugins](http://localhost:5000/o/-MhmG2mhIIHTtQPuHV\_k/s/klCVENFte0GRy5IqVz0W/)
 {% endcontent-ref %}
 
 Most plugins get automatically activated once you install them on your system.
@@ -11,7 +11,7 @@ Most plugins get automatically activated once you install them on your system.
 {% hint style="warning" %}
 **Caution:**
 
-* 64-bit Audacity can only run 64-bit plugins, and 32-bit Audacity can only run 32-bit plugins.&#x20;
+* 64-bit Audacity can only run 64-bit plugins, and 32-bit Audacity can only run 32-bit plugins.
 * Additionally, Apple Silicon (arm64) Audacity cannot run Intel (x86-64) plugins and vice versa.
 * "Instrument" versions of plugins (VSTi, LV2i) are not supported.
 {% endhint %}
@@ -23,12 +23,12 @@ If a plugin doesn't get found by Audacity, or doesn't come with an installer, mo
 {% tabs %}
 {% tab title="Windows" %}
 You can access the Common Files folder quickly by hitting `🪟 WINDOWS key + R` to launch Run and typing `%ProgramFiles%\Common Files`
-* VST2:  `C:\Program Files\Common Files\VST2` or `C:\Program Files\Steinberg\VSTPlugins`
-* VST3: `C:\Program Files\Common Files\VST3`&#x20;
-* LV2:  `C:\Program Files\Common Files\LV2`\
+
+* VST2: `C:\Program Files\Common Files\VST2` or `C:\Program Files\Steinberg\VSTPlugins`
+* VST3: `C:\Program Files\Common Files\VST3`
+* LV2: `C:\Program Files\Common Files\LV2`\
   **Note:** Always copy the complete .lv2 _folder_
-* LADSPA: `C:\Users\<username>\Appdata\Roaming\audacity\Plug-ins\`
-  **Note:** You can quickly access this folder by hitting `🪟 WINDOWS key + R` to launch Run and typing `%AppData%\audacity\Plug-ins`
+* LADSPA: `C:\Users\<username>\Appdata\Roaming\audacity\Plug-ins\` **Note:** You can quickly access this folder by hitting `🪟 WINDOWS key + R` to launch Run and typing `%AppData%\audacity\Plug-ins`
 * Vamp: `C:\Program Files\Vamp Plugins\`
 * Nyquist: See below
 {% endtab %}
@@ -68,7 +68,7 @@ To install a Nyquist Plugin, follow these steps:
 2. Open Audacity, and go to **Tools > Nyquist Plugin Installer**
 3. Click **Browse** and locate your downloaded plugin(s)
 4. Click **Open,** then **Apply** and finally **OK**.
-5. Click **Tools > Plugin Manager** and then **** click the **Rescan** button to enable the plugin
+5. Click **Tools > Plugin Manager** and then \*\*\*\* click the **Rescan** button to enable the plugin
 6. Click **OK** to close the **Manage Plugins** window.
 7. The plugin should now be available in the corresponding Generate, Effect or Analyze menu.
 

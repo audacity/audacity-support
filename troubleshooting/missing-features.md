@@ -29,7 +29,7 @@ Audacity version 3.2.3 introduced the **Cut/Copy/Paste Toolbar** which is disabl
 
 <figure><img src="../.gitbook/assets/image (2) (3) (1).png" alt=""><figcaption><p>Cut/Copy/Paste Toolbar</p></figcaption></figure>
 
-You can also access the Cut/Copy/Paste **** functionality in the following ways instead:
+You can also access the Cut/Copy/Paste functionality in the following ways instead:
 
 * **Right-click** the selected audio and choose Cut/Copy/Paste
 * In the **Edit menu**, choose Cut/Copy/Paste

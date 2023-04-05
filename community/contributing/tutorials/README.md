@@ -15,7 +15,7 @@ description: >-
 
 ## Writing Tutorials and User Guides
 
-Audacity welcomes contributions to both [Audacity Support](https://app.gitbook.com/o/-MhmG2mhIIHTtQPuHV\_k/s/-MhmBVzGzh8SctWQ6jPR/ "mention") and [Audacity Plugins](https://app.gitbook.com/o/-MhmG2mhIIHTtQPuHV\_k/s/klCVENFte0GRy5IqVz0W/ "mention"), whether it's a small spelling correction or an entirely new guide. If you're not sure what to start with, check out some good first issues:
+Audacity welcomes contributions to both [Audacity Support](http://localhost:5000/o/-MhmG2mhIIHTtQPuHV\_k/s/-MhmBVzGzh8SctWQ6jPR/ "mention") and [Audacity Plugins](http://localhost:5000/o/-MhmG2mhIIHTtQPuHV\_k/s/klCVENFte0GRy5IqVz0W/ "mention"), whether it's a small spelling correction or an entirely new guide. If you're not sure what to start with, check out some good first issues:
 
 {% embed url="https://github.com/audacity/audacity-support/contribute" %}
 

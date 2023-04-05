@@ -15,7 +15,7 @@ Use the **Selection** tool to remove unnecessary audio (mostly silence) from the
 2. Click the **Skip to Start** button ![image of skip to start button](https://manual.audacityteam.org/m/images/0/01/rewind.png)
 3. Zoom in until you can see from the start of the track to the start of the music
 4. Click and drag from the start of the music to the start of the track
-5. Click on **Edit** > [**Delete**](https://manual.audacityteam.org/man/edit\_menu.html#delete)****
+5. Click on **Edit** > [**Delete**](https://manual.audacityteam.org/man/edit\_menu.html#delete)
 
 Similarly, remove unwanted audio from the end of the recording and from the middle (between sides 1 and 2 of the LP or cassette).
 
@@ -58,7 +58,7 @@ This tool depends on correctly detecting the "silences" between tracks and this 
 If you did the original recording properly and avoided clipping, the recording is probably not at the maximum possible volume. In order for the LP or CD to be burned at maximum volume and thus match other LPs or CDs in your collection we need to fix this.
 
 1. Click on **Select >** [**All**](https://manual.audacityteam.org/man/select\_menu.html#all), or use shortcut **Ctrl + A**
-2. Click on **Effect >** [**Normalize...**](https://manual.audacityteam.org/man/normalize.html)****
+2. Click on **Effect >** [**Normalize...**](https://manual.audacityteam.org/man/normalize.html)
 
 The default choice in this dialog is to amplify to a maximum of -1.0 dB. The maximum setting is 0 dB, but the default setting of -1.0 dB provides a little headroom as some players can have playback problems with audio at 0 dB.
 
@@ -73,7 +73,7 @@ The final step involves creating multiple audio files from the Audacity project.
 1. Click on **File > Export >** [**Export Multiple...**](https://manual.audacityteam.org/man/export\_multiple.html).
 2. Click the **Choose...** button and pick the place where your exported tracks will be saved.
 3. Choose the export **Format** from the drop-down menu:
-   * for CD burning choose 16-bit [_**WAV**_](https://manual.audacityteam.org/man/glossary.html#wav) if using Windows or Linux _****_ or [_**AIFF**_](https://manual.audacityteam.org/man/glossary.html#aiff) if you are using a Mac
+   * for CD burning choose 16-bit [_**WAV**_](https://manual.audacityteam.org/man/glossary.html#wav) if using Windows or Linux or [_**AIFF**_](https://manual.audacityteam.org/man/glossary.html#aiff) if you are using a Mac
    * for loading into an MP3 player, choose [_**MP3**_](https://manual.audacityteam.org/man/glossary.html#mp3)
    * for loading into Apple Music/iTunes/iPod you can export as WAV and use Apple Music/iTunes to convert the WAVs to [_**AAC**_](https://manual.audacityteam.org/man/glossary.html#aac) or MP3.
 4. Under _Split Files Based On_:

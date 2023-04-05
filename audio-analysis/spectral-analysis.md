@@ -61,10 +61,10 @@ To use Plot Spectrum,&#x20;
 * **Spectrum** (default) \
   Plots the fast Fourier Transform (**FFT**) of the data, with the FFT window size being determined by the **Size** dropdown. The amplitudes are normalized such that a 0 dB sine (pure tone) will be (approximately) 0 dB on the graph.
 * **Autocorrelation**\
-  ****These options measure to what extent the sound repeats itself. \
+  These options measure to what extent the sound repeats itself. \
   This is done by taking two copies of the audio, and moving one forward by one sample. The two copies are then multiplied together, and all the values added up. This is repeated for two samples difference and so on, up to the number of samples in the **size** option. This gives a small result if the waveform is random (for example, noise) and a large result if it is repetitive (like a musical note). By looking at the peaks in the plot, the key frequencies present can be determined even if there is a lot of noise.
 * **Cepstrum**\
-  ****The cepstrum of an audio signal is related to the spectrum, but presents the rate of change in the different spectrum bands. It's particularly useful for properties of vocal tracks and is used, for example, in software to identify speakers by their voice characteristics.
+  The cepstrum of an audio signal is related to the spectrum, but presents the rate of change in the different spectrum bands. It's particularly useful for properties of vocal tracks and is used, for example, in software to identify speakers by their voice characteristics.
 
 #### Function
 
@@ -84,8 +84,8 @@ Click the **Export...** button to export the current view as a tab-separated val
 
 ## Analyzer Plugins
 
-Audacity supports the **Vamp** plugin format among others. Many of them can be found in the [Vamp Plugin Pack](https://app.gitbook.com/s/klCVENFte0GRy5IqVz0W/realtime-effects/plugin-suites#vamp-plugin-pack).&#x20;
+Audacity supports the **Vamp** plugin format among others. Many of them can be found in the [Vamp Plugin Pack](http://localhost:5000/s/klCVENFte0GRy5IqVz0W/realtime-effects/plugin-suites#vamp-plugin-pack).&#x20;
 
-{% content-ref url="https://app.gitbook.com/o/-MhmG2mhIIHTtQPuHV_k/s/klCVENFte0GRy5IqVz0W/" %}
-[Audacity Plugins](https://app.gitbook.com/o/-MhmG2mhIIHTtQPuHV\_k/s/klCVENFte0GRy5IqVz0W/)
+{% content-ref url="http://localhost:5000/o/-MhmG2mhIIHTtQPuHV_k/s/klCVENFte0GRy5IqVz0W/" %}
+[Audacity Plugins](http://localhost:5000/o/-MhmG2mhIIHTtQPuHV\_k/s/klCVENFte0GRy5IqVz0W/)
 {% endcontent-ref %}

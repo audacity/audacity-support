@@ -14,7 +14,7 @@ If you cannot open Audacity or want a more thorough cleanup, you can also delete
 * Windows: `C:\Users\<yourname>\AppData\Roaming\audacity\`
 * macOS: `~/Library/Application Support/audacity/`
 * Linux: `~/.config/audacity/`\
-  ``Additionally, the XDG folders `~/.cache/audacity`, `~/.local/share/audacity` and `~/.local/state/audacity` are used on Linux.
+  Additionally, the XDG folders `~/.cache/audacity`, `~/.local/share/audacity` and `~/.local/state/audacity` are used on Linux.
 
 {% hint style="info" %}
 **Hint:** These folders usually are hidden by default. You may need to show hidden files, or access their path directly, to access them.

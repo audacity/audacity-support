@@ -12,7 +12,7 @@ Custom themes commonly are distributed as files called ImageCache.png. You can f
 
 {% embed url="https://plugins.audacityteam.org/additional-resources/audacity-themes" %}
 
-To install a custom theme, place the ImageCache.png **** in the following folders. You may create the folders if they aren't present.&#x20;
+To install a custom theme, place the ImageCache.png in the following folders. You may create the folders if they aren't present.&#x20;
 
 * **Windows:** C:\Users\\\<username>\AppData\Roaming\Audacity\Theme\custom\\
 * **MacOS:** \~/Library/Application Support/audacity/Theme/custom/

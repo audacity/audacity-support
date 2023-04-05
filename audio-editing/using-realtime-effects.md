@@ -6,7 +6,7 @@ description: Audacity 3.2 and onwards supports realtime effects
 
 ## Downloading & installing realtime effects
 
-While Audacity doesn't yet ship with realtime effects, you can download plugins for it. Currently supported plugin formats are **Audio Units** (macOS only), **VST3**, **VST**, **LV2**, and **LADSPA**. We have collected some plugins which we know to work on [plugins.audacityteam.org](https://app.gitbook.com/o/-MhmG2mhIIHTtQPuHV\_k/s/klCVENFte0GRy5IqVz0W/) but you can find many more across the web. Once you install the plugins, they should be detected by Audacity once you restart it, if not, see the [installation instructions](../basics/customizing-audacity/installing-plugins.md).&#x20;
+While Audacity doesn't yet ship with realtime effects, you can download plugins for it. Currently supported plugin formats are **Audio Units** (macOS only), **VST3**, **VST**, **LV2**, and **LADSPA**. We have collected some plugins which we know to work on [plugins.audacityteam.org](http://localhost:5000/o/-MhmG2mhIIHTtQPuHV\_k/s/klCVENFte0GRy5IqVz0W/) but you can find many more across the web. Once you install the plugins, they should be detected by Audacity once you restart it, if not, see the [installation instructions](../basics/customizing-audacity/installing-plugins.md).&#x20;
 
 ## Adding effects to a track
 
@@ -54,7 +54,7 @@ You can press the blue power button next to an effect (or the entire effects sta
 
 ## Applying an effect stack to the waveform
 
-It generally is not necessary to apply the effect stack. The stack is automatically applied when **** [**exporting the audio**](../basics/saving-and-exporting-projects.md#exporting-audio).&#x20;
+It generally is not necessary to apply the effect stack. The stack is automatically applied when [**exporting the audio**](../basics/saving-and-exporting-projects.md#exporting-audio).&#x20;
 
 That said, you can apply the effect stack to the waveform by first selecting the track and then going to **Tracks > Mix > Mix and Render**.&#x20;
 

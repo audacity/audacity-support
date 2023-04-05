@@ -40,7 +40,7 @@ By default, the icon for each track is the Audacity logo, but it can be changed 
 * **electric guitar, guitar, gtr** = (standard) electric guitar
 * **string, violin, cello** = generic stringed instrument
 
-****
+
 {% endtab %}
 
 {% tab title="Percussion" %}

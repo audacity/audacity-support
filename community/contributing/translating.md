@@ -14,7 +14,7 @@ Audacity is translated into multiple languages by volunteers across the world.  
 Before joining the Audacity project in Transifex please subscribe to the [audacity-translation](https://sourceforge.net/projects/audacity/lists/audacity-translation) mailing list and check the status of the translation you would like to contribute to with others members of the list.
 {% endhint %}
 
-You can find and join the Audacity project at [**https://explore.transifex.com/klyok/audacity/**](https://explore.transifex.com/klyok/audacity/)****
+You can find and join the Audacity project at [**https://explore.transifex.com/klyok/audacity/**](https://explore.transifex.com/klyok/audacity/)
 
 * Click the **JOIN THIS PROJECT** button on the right side.
 * Select the language you would like to contribute to from the dropdown.
