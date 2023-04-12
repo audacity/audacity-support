@@ -2,7 +2,7 @@
 description: Audacity 3.2 and onwards supports realtime effects
 ---
 
-# 🆕 Using realtime effects
+# Using realtime effects
 
 ## Downloading & installing realtime effects
 

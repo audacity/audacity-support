@@ -66,7 +66,7 @@ The Save button is grayed-out until you edit a Macro.
 
 We have extended the options in **Directories Preferences** to include a new entry for **Macro output**.
 
-<figure><img src="../../../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Macro output option in <strong>Directories Preferences</strong></p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption><p>Macro output option in <strong>Directories Preferences</strong></p></figcaption></figure>
 
 If you leave the entry for **Macro output** blank then Audacity will default to creating a folder called "**macro-output**" in:
 

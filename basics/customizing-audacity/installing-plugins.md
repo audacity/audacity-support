@@ -58,19 +58,14 @@ All Plugins can be installed per-user (`~/Library/Audio/Plug-Ins/...`) or system
 
 ## Installing Nyquist plugins
 
-{% embed url="https://youtu.be/BMZ5gwkn2uo" %}
-Watch a step-by-step tutorial of this guide
-{% endembed %}
-
 To install a Nyquist Plugin, follow these steps:
 
 1. Download the plugin(s) in question.
 2. Open Audacity, and go to **Tools > Nyquist Plugin Installer**
 3. Click **Browse** and locate your downloaded plugin(s)
 4. Click **Open,** then **Apply** and finally **OK**.
-5. Click **Tools > Plugin Manager** and then \*\*\*\* click the **Rescan** button to enable the plugin
-6. Click **OK** to close the **Manage Plugins** window.
-7. The plugin should now be available in the corresponding Generate, Effect or Analyze menu.
+5. Restart Audacity.
+6. The plugin should now be available in the corresponding Generate, Effect or Analyze menu.
 
 ## Deactivating and re-activating plugins
 

@@ -21,13 +21,21 @@ Its replacements are as follows:
 
 A wikidump of the Audacity Wiki as of March 31, 2023 can be found [in the Internet Archive](https://archive.org/details/audacity-wiki). It can be accessed and worked with in the same way as [Wikipedia's dumps](https://meta.wikimedia.org/wiki/Data\_dumps).&#x20;
 
+## Device preferences
+
+The Device preference page has been renamed to **Audio Settings**.
+
+## Project Rate
+
+Project Rate has been renamed to **Project Sample Rate** and moved into the **Audio Setup button** -> **Audio Settings**
+
 ## Cut, Copy and Paste buttons
 
 The **Cut**, **Copy** and **Paste** buttons have been removed from the **Edit Toolbar** in version 3.2.0.
 
 Audacity version 3.2.3 introduced the **Cut/Copy/Paste Toolbar** which is disabled by default.  Check **View > Toolbars > Cut/Copy/Paste Toolbar** to enable it.
 
-<figure><img src="../.gitbook/assets/image (2) (3) (1).png" alt=""><figcaption><p>Cut/Copy/Paste Toolbar</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/cutcopypaste.png" alt=""><figcaption><p>Cut/Copy/Paste Toolbar</p></figcaption></figure>
 
 You can also access the Cut/Copy/Paste functionality in the following ways instead:
 
@@ -40,14 +48,14 @@ You can also access the Cut/Copy/Paste functionality in the following ways inste
 
 ## Device Toolbar
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Look of the Device Toolbar</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Look of the Device Toolbar</p></figcaption></figure>
 
 The Device toolbar has been replaced by the Audio Setup button in version 3.2.0. However, you can re-enable it via **View -> Toolbars -> Device Toolbar.**
-
-## Time Shift Tool
-
-Audacity's Time Shift Tool has been removed in version 3.1.0. It got replaced by drag handles at the top of every clip. You now can time-shift audio without having to switch into a special mode.&#x20;
 
 ## Zoom Tool
 
 The Zoom Tool has been removed in version 3.2.0. All of it's functionality can be accessed via the Zoom buttons, or via **`Ctrl+Scroll`** (`Cmd+Scroll`)
+
+## Time Shift Tool
+
+Audacity's Time Shift Tool has been removed in version 3.1.0. It got replaced by drag handles at the top of every clip. You now can time-shift audio without having to switch into a special mode.&#x20;

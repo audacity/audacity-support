@@ -46,7 +46,7 @@ When this is enabled the audio track name is displayed superimposed translucentl
 
 Note that the track name is always shown in the Track Control Panel but will be truncated if the name is too long to fit.
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption><p>Audacity can display the track name as an overlay in the timeline</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Audacity can display the track name as an overlay in the timeline</p></figcaption></figure>
 
 This has the same effect as the setting for **Show track name as overlay** in **Tracks Preferences**.
 
@@ -68,7 +68,7 @@ This has long been one of the most-requested feature requests submitted by users
 
 You can opt-out of update checking by using a new preference in **Application Preferences** where you can turn this "**off**" or "**on**" at any time, the default setting is "**on**".
 
-<figure><img src="../../../../.gitbook/assets/image (3) (2).png" alt=""><figcaption><p>Opt-out update checking</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Opt-out update checking</p></figcaption></figure>
 
 {% hint style="info" %}
 The setting you make in **Application Preferences** for update checking is _**not**_ changed by Reset Configuration.

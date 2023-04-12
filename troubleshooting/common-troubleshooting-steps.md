@@ -6,7 +6,7 @@ If Audacity shows you an error message when trying to record or playback audio s
 
 <div>
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Error message when trying to playback audio</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/error sound device.png" alt=""><figcaption><p>Error message when trying to playback audio</p></figcaption></figure>
 
  
 
@@ -28,13 +28,13 @@ After rescanning audio devices try selecting a different host using the **Audio 
 
 If the error is still present try changing the Project Rate to a different value:
 
-<figure><img src="../.gitbook/assets/image (1) (3).png" alt=""><figcaption><p>Set <strong>Project Rate</strong> to a different value</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/snap to, project rate.png" alt=""><figcaption><p>Set <strong>Project Rate</strong> to a different value</p></figcaption></figure>
 
 ## Recording and Playback Levels
 
 Verify that the **Recording Meter Toolbar** and the **Playback Meter Toolbar** sliders are set to an appropiate level.  Place the mouse cursor over the meter and Audacity will display the corresponding level
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/recording level.png" alt=""><figcaption></figcaption></figure>
 
 ## Privacy permissions
 
@@ -112,7 +112,7 @@ Use the **Recording Meter** **Toolbar** to check the audio level that Audacity i
 
 If there is no level present on the meter check if the microphone is muted in your operating system audio settings:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Check your operating system audio settings to check if the microphone is muted</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/windows mic properties.png" alt=""><figcaption><p>Check your operating system audio settings to check if the microphone is muted</p></figcaption></figure>
 
 You can also check if your device provides some physical control to mute or set the audio level.
 
