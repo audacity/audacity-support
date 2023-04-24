@@ -23,11 +23,11 @@ A wikidump of the Audacity Wiki as of March 31, 2023 can be found [in the Intern
 
 ## Device preferences
 
-The Device preference page has been renamed to **Audio Settings**.
+In Audacity version 3.3.0, the Device preference page has been renamed to **Audio Settings**.
 
 ## Project Rate
 
-Project Rate has been renamed to **Project Sample Rate** and moved into the **Audio Setup button** -> **Audio Settings**
+In Audacity version 3.3.0, the Project Rate has been renamed to **Project Sample Rate** and moved into the **Audio Setup button** -> **Audio Settings**
 
 ## Cut, Copy and Paste buttons
 

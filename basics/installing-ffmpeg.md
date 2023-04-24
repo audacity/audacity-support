@@ -39,7 +39,7 @@ If you prefer a manual installation of FFmpeg you can download a ZIP file from a
 {% hint style="info" %}
 **Note:**&#x20;
 
-* Audacity 3.1 and later supports avformat-55.dll, avformat-57.dll and avformat-58.dll. Audacity 3.2 and later supports also avformat-59.dll. You can check which dll is in which FFmpeg release [here](https://ffmpeg.org/download.html#releases).&#x20;
+* Audacity 3.1 and later supports avformat-55.dll, avformat-57.dll and avformat-58.dll. Audacity 3.2 and later also supports avformat-59.dll. Audacity 3.3 and later also supports avformat-60.dll. You can check which dll is in which FFmpeg release [here](https://ffmpeg.org/download.html#releases).&#x20;
 * Make sure you download full FFmpeg copies, not just the avformat-\*.dll's individually. Further, make sure to download or build the **shared** versions as only those contain .dll's.&#x20;
 * Different versions of FFmpeg may have different codecs enabled in them. In particular, AMR (narrowband) is not featured in the recommended installer.&#x20;
 {% endhint %}
@@ -84,8 +84,6 @@ This is a universal binary installer. It automatically matches your system archi
 
 If you have problems with Audacity detecting FFmpeg, follow the steps below to **manually locate FFmpeg**.
 
-
-
 ### Homebrew
 
 One way to install an FFmpeg version that matches your system architecture is using [**homebrew**](https://brew.sh/). You can install it through the Terminal.app by typing in:&#x20;
@@ -102,8 +100,6 @@ brew install ffmpeg
 
 Audacity should now automatically detect the installation after a restart. If not, follow the steps of a manual installation.
 
-
-
 ### Compiling other versions
 
 You can download or compile FFmpeg yourself as described here: [https://trac.ffmpeg.org/wiki/CompilationGuide/macOS](https://trac.ffmpeg.org/wiki/CompilationGuide/macOS)&#x20;
@@ -111,7 +107,7 @@ You can download or compile FFmpeg yourself as described here: [https://trac.ffm
 {% hint style="info" %}
 **Note:**&#x20;
 
-* Audacity 3.1 and later supports **avformat 55, 57** and **58**. Audacity 3.2 and later supports also **avformat 59**.
+* Audacity 3.1 and later supports **avformat 55, 57** and **58**. Audacity 3.2 and later also supports **avformat 59**. Audacity 3.3 and later also supports avformat 60.
 * Make sure to download or build the **shared** versions (with .dylib's) as only those can be used by Audacity.&#x20;
 * Different versions of FFmpeg may have different codecs enabled in them. In particular, AMR (narrowband) is not featured in the recommended installer.&#x20;
 {% endhint %}
@@ -153,7 +149,7 @@ On Linux, you generally can install FFmpeg as well as LAME through the package m
 Once you have installed FFMPEG and LAME, restart Audacity. It will automatically try to detect them.&#x20;
 
 {% hint style="warning" %}
-**Caution:** Audacity supports FFmpeg's libavformat in version 55 (all Audacity versions), 57 and 58 (Audacity 3.1+) and 59 (Audacity 3.2+). If your distribution ships with a different version, it may not get detected, or may not work correctly. In that case, you may need to uninstall FFmpeg again and make a **shared build** of a supported version [from source](https://ffmpeg.org/download.html#releases).&#x20;
+**Caution:** Audacity supports FFmpeg's libavformat in version 55 (all Audacity versions), 57 and 58 (Audacity 3.1+), 59 (Audacity 3.2+) and 60 (Audacity 3.3+). If your distribution ships with a different version, it may not get detected, or may not work correctly. In that case, you may need to uninstall FFmpeg again and make a **shared build** of a supported version [from source](https://ffmpeg.org/download.html#releases).&#x20;
 {% endhint %}
 
 ### Manual installation
@@ -173,3 +169,4 @@ If your FFmpeg or LAME installation didn't get detected, you'll need to tell Aud
 5. Once you've found it, click **Open**, then **OK** and **OK** again to close the preferences.&#x20;
 {% endtab %}
 {% endtabs %}
+
