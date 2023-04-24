@@ -1,10 +1,6 @@
 # Audacity 3.3
 
-{% hint style="warning" %}
-Audacity 3.3 is still in beta
-{% endhint %}
-
-Audacity 3.3 was released on xx. xxx 2023
+Audacity 3.3 was released on 24. Apr 2023
 
 This release is mostly focused on under-the-hood changes
 

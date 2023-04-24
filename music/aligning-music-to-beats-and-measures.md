@@ -1,9 +1,5 @@
 # 🆕 Aligning music to beats and measures
 
-{% hint style="warning" %}
-This feature is only available in beta builds right now
-{% endhint %}
-
 {% hint style="info" %}
 **Notes:**&#x20;
 
