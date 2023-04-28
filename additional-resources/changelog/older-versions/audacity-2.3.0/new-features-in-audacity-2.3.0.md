@@ -41,7 +41,7 @@ The un-pinned head is probably the easier way to work with scrubbing and seeking
 
 The **Play-at-Speed Toolbar** _(formerly called the "Transcription Toolbar")_ now enables you to make dynamic changes to the playback speed as you play audio using the Transcription toolbar to set the required speed. Formerly you had to stop playback and restart it to get the changed speed.
 
-<figure><img src="../../../../../.gitbook/assets/PAS floating widget.png" alt=""><figcaption><p>The Play-at-Speed toolbar allows dynamic changes to the playback speed</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/PAS floating widget.png" alt=""><figcaption><p>The Play-at-Speed toolbar allows dynamic changes to the playback speed</p></figcaption></figure>
 
 The Play-at-Speed toolbar has also been made resizable, so you can stretch it by dragging the right end rightwards, and so get a longer slider with more precision to it. At the same time as we made this change we also made the Mixer toolbar resizable, to give more precision over the main volume and playback settings if you want it.
 
@@ -59,7 +59,7 @@ The old Chains command (for batch processing and effect automation) has been rep
 
 We have changed the user interface integrating the functionality so that you now can view, edit and apply your macros from the same single dialog window, simplifying the usage of macros.
 
-<figure><img src="../../../../../.gitbook/assets/macro manager.png" alt=""><figcaption><p>Macros command user interface</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/macro manager.png" alt=""><figcaption><p>Macros command user interface</p></figcaption></figure>
 
 * Re-setting the parameters for commands in macros has been simplified. Now double clicking on a command in a displayed chain will pop up the parameter settings dialog for that command.
 * The dialog window can be reduced in size and scope by using the Shrink button. This reduced 'Macro Palette' dialog can apply macros to your project, but does not edit them.
@@ -80,7 +80,7 @@ A new menu item **Tools** has been created, with customizable tools.
 
 We have created a new submenu from the **File** Menu called **Save Project**
 
-<figure><img src="../../../../../.gitbook/assets/savemenu.png" alt=""><figcaption><p><strong>Save Project</strong> menu</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/savemenu.png" alt=""><figcaption><p><strong>Save Project</strong> menu</p></figcaption></figure>
 
 This replaces the former **Save Project** and **Save Project As** commands and these move into the new submenu. The **Save Compressed Copy of Project...** is also moved to the new submenu (it was in **File > Export** formerly).
 
@@ -107,13 +107,13 @@ We added help buttons ? to the Macros full and reduced dialogs, to the Export di
 
 Increased legibility of trackname display. the Track Name overlay now has a background.
 
-<figure><img src="../../../../../.gitbook/assets/stereotrack.png" alt=""><figcaption><p>Track name overlay now has a background</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/stereotrack.png" alt=""><figcaption><p>Track name overlay now has a background</p></figcaption></figure>
 
 ### Half-wave option for collapsed tracks
 
 For collapsed tracks there is now an option settable in Tracks Preferences to show the upper half of the wave display only in order to show a little more detail.
 
-<figure><img src="../../../../../.gitbook/assets/halfwave.png" alt=""><figcaption><p>Half-wave option for collapsed tracks</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/halfwave.png" alt=""><figcaption><p>Half-wave option for collapsed tracks</p></figcaption></figure>
 
 ### **Sliding Stretch** replace Sliding Time Scale / Pitch Shift
 
@@ -127,7 +127,7 @@ In response to many user requests for this we have changed Audacity so that is n
 
 In doing so you will get the following warning message and please note that for safety reasons this warning cannot be turned off.
 
-<figure><img src="../../../../../.gitbook/assets/overwrite.png" alt=""><figcaption><p>Overwrite existing projects warning dialog</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/overwrite.png" alt=""><figcaption><p>Overwrite existing projects warning dialog</p></figcaption></figure>
 
 ### Use dialog for the name of new labels
 

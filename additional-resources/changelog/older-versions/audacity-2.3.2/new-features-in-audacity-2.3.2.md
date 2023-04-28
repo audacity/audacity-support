@@ -12,7 +12,7 @@ _With previous releases it was necessary to download and locate the LAME library
 
 If you go to **Libraries Preferences** you will see that the option to locate the library is no longer there and the dialog tells you what version of LAME is built-in.
 
-<figure><img src="../../../../../.gitbook/assets/prefs library.png" alt=""><figcaption><p>LAME library is now built-in in Audacity</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/prefs library.png" alt=""><figcaption><p>LAME library is now built-in in Audacity</p></figcaption></figure>
 
 {% hint style="warning" %}
 LAME is not built into Audacity on Linux - you will still need to acquire an locate the optional LAME library.
@@ -39,7 +39,7 @@ The new **Nyquist Plug-in Installer** is itself a Nyquist plug-in. It simplifies
 
 This plug-in installer provides a file browser for selecting the plug-in '.NY' file _(Nyquist plug-ins are plain text files that have the_ [_filename extension_](https://en.wikipedia.org/wiki/Filename\_extension) _'.NY')_, and then copies the file to the correct location.
 
-<figure><img src="../../../../../.gitbook/assets/nyquist plugin installer.png" alt=""><figcaption><p>Nyquist plug-in installer</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/nyquist plugin installer.png" alt=""><figcaption><p>Nyquist plug-in installer</p></figcaption></figure>
 
 Once the plug-in has been installed, in order to use it it must be enabled using the [Plug-in Manager](https://manual.audacityteam.org/man/manage\_effects\_generators\_and\_analyzers.html).
 
@@ -75,7 +75,7 @@ In earlier versions of Audacity if you exported a WAV or AIFF file that would ex
 
 For 2.3.2 we have implemented an error trap to catch this and stop it happening. Now when attempting to export an oversized WAV or AIFF file Audacity will not do this and you will get the following error message:
 
-<figure><img src="../../../../../.gitbook/assets/export error.png" alt=""><figcaption><p>Error message when exporting WAV o AIFF file greater than 4GB</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/export error.png" alt=""><figcaption><p>Error message when exporting WAV o AIFF file greater than 4GB</p></figcaption></figure>
 
 Clicking on the ? Help button in the message will show the following table in the Manual
 

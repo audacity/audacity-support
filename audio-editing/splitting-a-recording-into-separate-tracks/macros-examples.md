@@ -31,11 +31,11 @@ An **effects automation** Macro for the current project that applies noise reduc
 2. Insert [Noise Reduction](https://manual.audacityteam.org/man/noise\_reduction.html)
 3. Insert [Filter Curve EQ](https://manual.audacityteam.org/man/filter\_curve\_eq.html) (to perform the frequency adjustment)
 4. Insert another Normalize at different settings (without offset removal, setting a final amplitude of -1 dB)
-5. Click OK to close the [Manage Macros](manage-macros.md) window
+5. Click OK to close the [Manage Macros](../macros/manage-macros.md) window
 
 ![Macro example: Noise Reduction and Equalization](../../.gitbook/assets/macro\_example\_nr\_eq.png)
 
-When later needed in your workflow, choose Tools > [Apply Macro...](macros-palette.md), select the **NR\&EQ** Macro then click **Apply Macro to:** **Project** to apply the Macro to the selected track(s) in the current project window.
+When later needed in your workflow, choose Tools > [Apply Macro...](../macros/macros-palette.md), select the **NR\&EQ** Macro then click **Apply Macro to:** **Project** to apply the Macro to the selected track(s) in the current project window.
 
 {% hint style="info" %}
 * If a Noise Profile exists, that Noise Profile will be used. It is often best to capture a suitable Noise Profile before running a Macro.

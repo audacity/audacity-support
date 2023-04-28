@@ -207,9 +207,9 @@ To dismiss the dialog simply click on the Close button.
 
 If there any unsaved changes you will be asked if you want to save them or not.
 
-### [Macros Examples](macros-examples.md)
+### [Macros Examples](../splitting-a-recording-into-separate-tracks/macros-examples.md)
 
-See the [Macros Examples](macros-examples.md) page for examples of using Macros.
+See the [Macros Examples](../splitting-a-recording-into-separate-tracks/macros-examples.md) page for examples of using Macros.
 
 ### Error: Batch command not recognized
 

@@ -55,11 +55,11 @@ When using PulseAudio (default for Ubuntu, Linux Mint, and others):
     If your system uses Pulse by default, the pulse device may be called **default**.
 3.  Enable the recording meter by selecting **Start Monitoring**.
 
-    <figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Click the Microphone icon to start monitoring the recording level</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (2) (2).png" alt=""><figcaption><p>Click the Microphone icon to start monitoring the recording level</p></figcaption></figure>
 4. Open **PulseAudio Volume Control** and choose the **Recording** tab.
 5.  In the **Capture from** dropdown, select the "Monitor" option of the playback device used by the application you want to record from
 
-    <figure><img src="../.gitbook/assets/image (2) (2) (1).png" alt=""><figcaption><p>PulseAudio Volume Control - Select <strong>Capture from:</strong> Monitor of device</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption><p>PulseAudio Volume Control - Select <strong>Capture from:</strong> Monitor of device</p></figcaption></figure>
 6. Launch the application that you wish to record and begin playback.
 7. In the "Recording" tab of PulseAudio Volume Control, drag the volume sliders so that the recording level in Audacity's Recording Meter is to left of 0 dB (-6 dB is a good level to aim for).
 {% endtab %}

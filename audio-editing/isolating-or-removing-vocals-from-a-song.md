@@ -2,7 +2,7 @@
 description: This page describes some methods to try to isolate vocals in stereo tracks.
 ---
 
-# Isolating or Removing Vocals from a Song
+# Isolating or removing vocals from a song
 
 {% hint style="warning" %}
 **Note:** There is no reliable way of separating vocals. The methods described in the article depend on the position of the vocal track in the stereo field.&#x20;

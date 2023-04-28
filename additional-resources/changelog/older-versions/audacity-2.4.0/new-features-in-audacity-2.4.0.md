@@ -12,7 +12,7 @@ When Playing or Recording Time Toolbar dynamically shows the current playhead or
 
 When Audacity is not Playing or Recording it will display either the current cursor position or the beginning of the current selection if present.
 
-<figure><img src="../../../../../.gitbook/assets/image (36).png" alt=""><figcaption><p>Time Toolbar showing the current playback position of 44 seconds</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (36).png" alt=""><figcaption><p>Time Toolbar showing the current playback position of 44 seconds</p></figcaption></figure>
 
 #### Features of Time Toolbar:
 
@@ -57,7 +57,7 @@ Spectrograms and Waveforms have different strengths and weaknesses:
 
 Choose whichever one gives you the best information for the task in hand.
 
-<figure><img src="../../../../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Example of a stereo audio track with a Multi-view split 50:50 Waveform/Spectrogram</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (7).png" alt=""><figcaption><p>Example of a stereo audio track with a Multi-view split 50:50 Waveform/Spectrogram</p></figcaption></figure>
 
 To get a split Multi-view for a track select **Multi-view** from the track's **Track Control Panel** dropdown menu.
 
@@ -67,7 +67,7 @@ To get a split Multi-view for a track select **Multi-view** from the track's **T
 
 It is accessed from those commands then choosing **Opus (OggOpus) Files (FFmpeg)** from the **Save as type** dropdown menu in the Export dialog:
 
-<figure><img src="../../../../../.gitbook/assets/opus.png" alt=""><figcaption><p><strong>Opus (OggOpus) Files (FFmpeg)</strong> option for exporting</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/opus.png" alt=""><figcaption><p><strong>Opus (OggOpus) Files (FFmpeg)</strong> option for exporting</p></figcaption></figure>
 
 This **Opus Export** replaces the previous "opus" export from the (**external program)** option in the Export dialogs, which never worked for "opus", always giving a failure error message.
 
@@ -106,7 +106,7 @@ The region never collapses down to a single line, rather there is always a line 
 
 Spectrogram views have changed, they now show **Clip Boundaries**, the dark vertical lines in the image below.
 
-<figure><img src="../../../../../.gitbook/assets/spectro old colors.png" alt=""><figcaption><p><strong>Clip Boundaries</strong> in Spectrogram view</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/spectro old colors.png" alt=""><figcaption><p><strong>Clip Boundaries</strong> in Spectrogram view</p></figcaption></figure>
 
 Formerly these clip boundaries were only shown on Waveform views.
 
@@ -118,7 +118,7 @@ This used to be accomplished with the TCP dropdown menu, it is now in the Wavefo
 
 A right-click in the Vertical Scale will bring up a dropdown context menu enabling swapping between **Linear Waveform** _(default)_ and **Waveform dB** views.
 
-<figure><img src="../../../../../.gitbook/assets/vzoom options.png" alt=""><figcaption><p>Waveform dB option added to the  context menu</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/vzoom options.png" alt=""><figcaption><p>Waveform dB option added to the  context menu</p></figcaption></figure>
 
 ### Scrubbing using the keyboard
 
@@ -156,7 +156,7 @@ The mechanism for toggling the Play and Record head from its default unpinned po
 
 Formerly a single click on the head icon at the left of the icon would toggle between the two modes. Now when you click on that icon a context menu is displayed:
 
-<figure><img src="../../../../../.gitbook/assets/green arrow options.png" alt=""><figcaption><p>Context menu for Play/Record head</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/green arrow options.png" alt=""><figcaption><p>Context menu for Play/Record head</p></figcaption></figure>
 
 From this menu you can choose to select or un-select **Pinned Play Head**.
 
@@ -176,7 +176,7 @@ Use Loudness Normalization to change the level of the audio _(normally reduce it
 
 It is based on EBU R 128 recommendations on limiting the loudness of audio signals.
 
-<figure><img src="../../../../../.gitbook/assets/loudness norm.png" alt=""><figcaption><p><strong>Loudness Normalization</strong> effect</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/loudness norm.png" alt=""><figcaption><p><strong>Loudness Normalization</strong> effect</p></figcaption></figure>
 
 {% hint style="info" %}
 Why use **Loudness Normalization** rather than **Normalize** or **Amplify**?
@@ -191,7 +191,7 @@ Why use **Loudness Normalization** rather than **Normalize** or **Amplify**?
 
 A simple analyzer to measure the _**RMS**_ _(Root Mean Square)_ levels in a track.
 
-<figure><img src="../../../../../.gitbook/assets/measure rms.png" alt=""><figcaption><p><strong>Measure RMS</strong> analyzer</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/measure rms.png" alt=""><figcaption><p><strong>Measure RMS</strong> analyzer</p></figcaption></figure>
 
 The example above is the measurement of a typical stereo track.
 
@@ -205,7 +205,7 @@ A noise gate is a kind of "dynamics processor" that allows audio above a specifi
 
 Noise Gates may be used to cut the level of residual noise between sections of a recording. This Noise Gate has a number of settings that allow it to be effective, unobtrusive and well suited to most types of audio.
 
-<figure><img src="../../../../../.gitbook/assets/noise gate (1).png" alt=""><figcaption><p><strong>Noise Gate</strong> effect options</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/noise gate (1).png" alt=""><figcaption><p><strong>Noise Gate</strong> effect options</p></figcaption></figure>
 
 #### Spectral Delete
 
@@ -213,7 +213,7 @@ A new effect has been added to the spectral editing effects.
 
 The Spectral Delete effect acts on a spectral selection to delete a spectral selection from the audio.
 
-<figure><img src="../../../../../.gitbook/assets/spectro toolbar.png" alt=""><figcaption><p>A spectral selection, shown in Multi-view, after applying Spectral Delete, deleting the frequencies from 5 kHz to 7kHz</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/spectro toolbar.png" alt=""><figcaption><p>A spectral selection, shown in Multi-view, after applying Spectral Delete, deleting the frequencies from 5 kHz to 7kHz</p></figcaption></figure>
 
 For this we have used a higher than default "Window Size" of 4096 in the spectrogram settings, because that shows the accuracy of the frequency cut much better.
 
@@ -227,7 +227,7 @@ For various technical reasons we cannot provide a Search box/button for the Manu
 
 The page can readily be accessed from any Manual page you are on from the **Reference** section of the left-hand navigation bars.
 
-<figure><img src="../../../../../.gitbook/assets/search manual.png" alt=""><figcaption><p>Search option added to the manual</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/search manual.png" alt=""><figcaption><p>Search option added to the manual</p></figcaption></figure>
 
 There is also an entry for it in the **Quick Help** section on the Manual's front page.
 
