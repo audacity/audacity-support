@@ -12,6 +12,10 @@ description: How-Tos and Tutorials for Audacity
 
 <table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Download plugins</strong></td><td>A directory of a wide range of free plugins you can use in Audacity</td><td><a href="https://plugins.audacityteam.org"><em>plugins.audacityteam.org</em></a></td><td><a href="http://localhost:5000/o/-MhmG2mhIIHTtQPuHV_k/s/klCVENFte0GRy5IqVz0W/">Audacity Plugins</a></td><td><a href=".gitbook/assets/Card Download.png">Card Download.png</a></td></tr><tr><td><strong>Sharing audio online</strong></td><td>Learn how to share audio with our new sister service, <a href="https://audio.com"><em>audio.com</em></a></td><td></td><td><a href="basics/sharing-audio-online.md">sharing-audio-online.md</a></td><td><a href=".gitbook/assets/Card share.png">Card share.png</a></td></tr><tr><td><strong>Aligning music to beats and measures</strong> <em>(beta)</em></td><td>The first step to making Audacity more capable for music production</td><td></td><td><a href="music/aligning-music-to-beats-and-measures.md">aligning-music-to-beats-and-measures.md</a></td><td><a href=".gitbook/assets/Card Beats Measures.png">Card Beats Measures.png</a></td></tr></tbody></table>
 
+{% embed url="https://www.youtube.com/watch?v=-qzvqn-08D0" %}
+Community member Mike Adams walks through the latest version, [Audacity 3.3](additional-resources/changelog/audacity-3.3.md)
+{% endembed %}
+
 ## Contribute to this site
 
 {% hint style="success" %}

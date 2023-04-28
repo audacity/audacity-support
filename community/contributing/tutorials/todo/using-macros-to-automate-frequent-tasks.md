@@ -31,7 +31,7 @@ You can manage and apply Macros using the [Tools Menu](https://manual.audacityte
 * **Tools > Apply Macro > Palette...** for a [toolbox of Macros](../../../../audio-editing/macros/macros-palette.md)
 * **Tools > Apply Macro >** _named Macro_ to [apply one named Macro](https://manual.audacityteam.org/man/tools\_menu\_apply\_macro.html)
 
-There are some [**examples of Macros**](../../../../audio-editing/splitting-a-recording-into-separate-tracks/macros-examples.md) and tips on using them.
+There are some [**examples of Macros**](../../../../audio-editing/macros/macros-examples.md) and tips on using them.
 
 ### [Manage Macros](../../../../audio-editing/macros/manage-macros.md)
 
@@ -107,4 +107,4 @@ In order to see the **Macros** folder on Windows, macOS or GNU/Linux, you must s
 
 ### Macros Examples
 
-See the [Macros Examples](../../../../audio-editing/splitting-a-recording-into-separate-tracks/macros-examples.md) page for examples of using Macros
+See the [Macros Examples](../../../../audio-editing/macros/macros-examples.md) page for examples of using Macros

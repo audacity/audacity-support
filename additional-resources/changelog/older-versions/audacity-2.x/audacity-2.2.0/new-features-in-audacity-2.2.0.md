@@ -8,7 +8,7 @@
 
 The logo has been given a refresh, and now uses a sans-serif font and a flatter style.
 
-<figure><img src="../../../../.gitbook/assets/audacity splash.png" alt=""><figcaption><p>New Audacity logo</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/audacity splash.png" alt=""><figcaption><p>New Audacity logo</p></figcaption></figure>
 
 ### [Themes](http://manual.audacityteam.org/man/themes.html)
 
@@ -42,7 +42,7 @@ There is a new entry in the [Tracks Preferences](http://manual.audacityteam.org/
 * **Stem plot:** This is the default setting which draws a vertical line from the track center line to the sample dot, giving a clearer impression of the relative amplitude of the samples. As seen in the images below, when zoomed out close to the minimum for a stem plot, the horizontal distance between sample dots may be more uneven than seen with the connect dots default.
 * **Connect dots:** This is alternative setting yields a waveform where each sample dot is connected to the next sample by a line drawn between them.
 
-<figure><img src="../../../../.gitbook/assets/sampledisplay.png" alt=""><figcaption><p>Display samples alternatives</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/sampledisplay.png" alt=""><figcaption><p>Display samples alternatives</p></figcaption></figure>
 
 {% hint style="info" %}
 Uneven spacing is due to "aliasing", but zooming in further will equalize the spacing whether choosing Connect dots or Stem plot.
@@ -68,7 +68,7 @@ There are two new additional menus that are hidden by default. They can be turne
 
 These extra menus have many extra less frequently used commands. They are particularly useful to VI users, but normally-sighted users may find them useful too.
 
-<figure><img src="../../../../.gitbook/assets/windowheader.png" alt=""><figcaption><p>Image of the Extended Menu bar as it appears on Windows</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/windowheader.png" alt=""><figcaption><p>Image of the Extended Menu bar as it appears on Windows</p></figcaption></figure>
 
 _**Image of the Extended Menu bar as it appears on Windows**_
 
@@ -87,7 +87,7 @@ From Audacity 2.2.0 onward the default recording mode has changed so that when y
 
 #### To record on a new track
 
-If you hold the Shift key down the Record button in [Transport Toolbar](http://manual.audacityteam.org/man/transport\_toolbar.html) will temporarily change to ![](<../../../../.gitbook/assets/record new track.png>). Then clicking on this modified Record button, or using the shortcut Shift + R will cause Audacity to create a new track and begin recording on that track from the current cursor position (or from the left edge of a region on the [Timeline](http://manual.audacityteam.org/man/timeline.html)).
+If you hold the Shift key down the Record button in [Transport Toolbar](http://manual.audacityteam.org/man/transport\_toolbar.html) will temporarily change to ![](<../../../../../.gitbook/assets/record new track.png>). Then clicking on this modified Record button, or using the shortcut Shift + R will cause Audacity to create a new track and begin recording on that track from the current cursor position (or from the left edge of a region on the [Timeline](http://manual.audacityteam.org/man/timeline.html)).
 
 ### Help buttons
 
@@ -97,7 +97,7 @@ Clicking on that button in the dialog will link you to the appropriate page in t
 
 **Example:** the Amplify effect. Try clicking on the "**?**" at the bottom right of this image.
 
-<figure><img src="../../../../.gitbook/assets/amplify.png" alt=""><figcaption><p>Help button on the Amplify effect window</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/amplify.png" alt=""><figcaption><p>Help button on the Amplify effect window</p></figcaption></figure>
 
 ### Standard and Full shortcut sets
 
@@ -107,7 +107,7 @@ You can choose to revert to the full set of shortcuts that were in 2.1.3 and ear
 
 You can use the **Defaults** button to switch between the two provided default sets of shortcuts at any time.
 
-<figure><img src="../../../../.gitbook/assets/shortcutstandards.png" alt=""><figcaption><p>Standard and Full shortcuts sets</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/shortcutstandards.png" alt=""><figcaption><p>Standard and Full shortcuts sets</p></figcaption></figure>
 
 See [Commands and Keyboard Shortcut Reference](http://manual.audacityteam.org/man/keyboard\_shortcut\_reference.html) for more details.
 
@@ -120,7 +120,7 @@ There are now four available settings in the Selection and Audio Position Boxes 
 * **Length and End of selection**: the length and the end time of your selection
 * **Length and Center of selection**: the length and the time at the center of your selection
 
-<figure><img src="../../../../.gitbook/assets/selectiontoolbar.png" alt=""><figcaption><p>Selection and audio position options</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/selectiontoolbar.png" alt=""><figcaption><p>Selection and audio position options</p></figcaption></figure>
 
 ### New commands for using clips via the keyboard
 

@@ -14,7 +14,7 @@ The pinned head can be selected by using the new button at the left of the Timel
 
 When pinned playback or recording is chosen, the playhead displays as a green drawing-pin (as shown in the image below) and the recording head displays as a red drawing-pin.
 
-<figure><img src="../../../../.gitbook/assets/pinnedplayhead.png" alt=""><figcaption><p>Pinned playhead</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/pinnedplayhead.png" alt=""><figcaption><p>Pinned playhead</p></figcaption></figure>
 
 Clicking the drawing-pin reverts to default unpinned playback and recording, and the button will change back to the green triangle.
 
@@ -26,7 +26,7 @@ We have introduced a new [Scrub Ruler](http://manual.audacityteam.org/man/scrubb
 
 If you hover the mouse over the Scrub Ruler you will see the Scrub widget's green left- and right-pointing arrows appear _(along with a tooltip if you continue to hover)_. Clicking anywhere in the Scrub Ruler, releasing the mouse button then moving the mouse left or right will start Scrubbing from there. Note that in this image the green scrub widget is to the right of the green triangle playhead, indicating that forwards scrubbing towards the pointer is taking place.
 
-<figure><img src="../../../../.gitbook/assets/trackandscrub.png" alt=""><figcaption><p>Scrub widget</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/trackandscrub.png" alt=""><figcaption><p>Scrub widget</p></figcaption></figure>
 
 To stop scrub play and set the cursor at the current playback position, just click the Stop button _(or its shortcut SPACE)_.
 
@@ -44,11 +44,11 @@ We have added some new features to improve Timer Record.
 
 You can now specify optional actions on completion such as Save and/or Export, quit Audacity and, on Windows, shut down.
 
-<figure><img src="../../../../.gitbook/assets/timerrecord.png" alt=""><figcaption><p>Timer Record additional options</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/timerrecord.png" alt=""><figcaption><p>Timer Record additional options</p></figcaption></figure>
 
 Audacity will now warn you in advance if it calculates that you have insufficient disk space for the length of your scheduled recording.
 
-<figure><img src="../../../../.gitbook/assets/timerrecordwarning.png" alt=""><figcaption><p>Insufficient disk space for the scheduled recording</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/timerrecordwarning.png" alt=""><figcaption><p>Insufficient disk space for the scheduled recording</p></figcaption></figure>
 
 ### Effects and Generators
 
