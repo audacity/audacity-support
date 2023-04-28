@@ -13,6 +13,7 @@ The Audacity Wiki has been shut down.
 Its replacements are as follows:
 
 * Plugin downloads can be found on [https://plugins.audacityteam.org/](https://plugins.audacityteam.org/), with all plugins hosted in the Wiki being listed in the Nyquist Plugins section.&#x20;
+* The ACX check plugin is here: [https://plugins.audacityteam.org/analyzers/analysis-plugins#acx-check](https://plugins.audacityteam.org/analyzers/analysis-plugins#acx-check)
 * Developer info can be found on [https://audacity.gitbook.io/dev/](https://audacity.gitbook.io/dev/)&#x20;
 * Other contributor instructions can be found on this page: [contributing](../community/contributing/ "mention")
 * Changelogs and release notes of previous versions are on this page: [changelog](../additional-resources/changelog/ "mention")
