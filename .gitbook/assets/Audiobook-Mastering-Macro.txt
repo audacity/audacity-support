@@ -1,0 +1,4 @@
+Comment:_="Audiobook-Mastering-Macro.txt runs the ACX Audiobook Mastering Suite  Rel 1.1  20210424  Kozikowski"
+FilterCurve:f0="50" f1="60" f2="65" f3="70" f4="80" f5="90" f6="100" FilterLength="8191" InterpolateLin="0" InterpolationMethod="B-spline" v0="-120" v1="-50" v2="-24" v3="-12" v4="-4" v5="-1" v6="0"
+LoudnessNormalization:DualMono="1" LUFSLevel="-23" NormalizeTo="1" RMSLevel="-20" StereoIndependent="0"
+Limiter:gain-L="0" gain-R="0" hold="10" makeup="No" thresh="-3.5" type="SoftLimit"

@@ -28,6 +28,18 @@ Export a WAV (Microsoft) 16-bit sound file of your raw reading and save it in a 
 
 ## Process
 
+#### Automatic
+
+To automate the audiobook mastering process, first download the macro:
+
+{% file src="../.gitbook/assets/Audiobook-Mastering-Macro.txt" %}
+
+Then, in Audacity, go to **Tools -> Macro Manager** and press the **Import...** button and browse to the file. Import it and then close the Macro Manager.
+
+You now can apply the Audiobook Mastering Macro via **Tools -> Apply Macro -> Audiobook-Mastering-Macro** similarly to how you would apply any individual effect.
+
+#### Manual
+
 These instructions are in short-form: Menu > Tool : Options > Apply
 
 Select the whole reading or chapter by clicking the **Select** button at the bottom of the Track Control Panel.

@@ -1,16 +1,16 @@
-# Audacity 3.3.1
+# Audacity 3.3.2
 
-Audacity 3.3.1 was released on 28. Apr 2023.
+Audacity 3.3.2 was released on 5. May 2023.
 
 This is a hotfix release.
 
 ## Bug Fixes
 
-* [#4600](https://github.com/audacity/audacity/issues/4600) Fixed cut lines massively inflating project size.
-* [#4612](https://github.com/audacity/audacity/issues/4612) Fixed custom project sample rates being uneditable.
-* [#4604](https://github.com/audacity/audacity/pull/4604) Fixed crash reporting being disabled.
-* [#4234](https://github.com/audacity/audacity/issues/4234) Audacity now shows an error if the upload to audio.com exceeds file size limits.
-* [#4114](https://github.com/audacity/audacity/issues/4114) Fixed an error in calculating channels when uploading to audio.com.
+* [#4629](https://github.com/audacity/audacity/issues/4629) Linux AppImage fails to start.
+* [#4637](https://github.com/audacity/audacity/issues/4637) Issues with selection and time toolbars on Linux packages.
+* [#4639](https://github.com/audacity/audacity/issues/4639) Missing duration input in generators on Linux packages.
+* [#4646](https://github.com/audacity/audacity/issues/4646) Potentialy extreme memory usage with Jack host.
+* [#4654](https://github.com/audacity/audacity/pull/4654) Anonymous upload to [audio.com](http://audio.com/) is disabled.
 
 ### Supported Platforms
 
