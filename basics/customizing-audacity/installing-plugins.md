@@ -37,7 +37,8 @@ You can access the Common Files folder quickly by hitting `🪟 WINDOWS key + R`
 All Plugins can be installed per-user (`~/Library/Audio/Plug-Ins/...`) or system-wide (`/Library/Audio/Plug-Ins/...`). In following, only the system-wide path is named
 
 * Audio Unit: `/Library/Audio/Plug-Ins/Components/`
-* VST2 and VST3: `/Library/Audio/Plug-Ins/VST/`
+* VST2: `/Library/Audio/Plug-Ins/VST/`
+* VST3: `/Library/Audio/Plug-Ins/VST3/`
 * LV2: `~/.lv2` or `/Library/Audio/Plug-Ins/LV2`,\
   **Note:** always copy the entire .lv2 _folder_
 * Vamp: `/Library/Audio/Plug-Ins/Vamp`
