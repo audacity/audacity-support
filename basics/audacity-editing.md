@@ -62,7 +62,7 @@ To trim a clip, hover with your cursor around the **upper third** of the left or
 Then **click and drag** the edge to trim the clip to it's desired length.&#x20;
 
 {% hint style="info" %}
-**Note:** Trimming is a non-destructive operation. You can un-trim a clip at any time. If you have created your clip by [splitting up](audacity-editing.md#splitting-up-clips) a larger clip, you can even un-trim the current clip until it's at the length of the old clip. &#x20;
+**Note:** Trimming is a non-destructive operation. You can un-trim a clip at any time. If you have created your clip by [splitting up](audacity-editing.md#splitting-up-clips) a larger clip, you can even un-trim the current clip until it's at the length of the old clip. If you want to permanently remove the trimmed data, you can copy the clip to another project, choose **Selected audio only** when pasting, and move it back.
 {% endhint %}
 
 ## Applying Effects
