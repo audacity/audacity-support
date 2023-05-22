@@ -1,7 +1,7 @@
 ---
 description: >-
   Crossfades blend the end of one song with the beginning of the next one. There
-  are several methods to achieve this in Audacity
+  are several methods to achieve this in Audacity.
 ---
 
 # Making crossfades
@@ -15,14 +15,14 @@ If you have two clips in one track you'd like to crossfade, you can use **Crossf
 
     ![](../.gitbook/assets/waveforms.png)\
     **Note:** Any empty space between the clips will be automatically removed and ignored in the crossfade.&#x20;
-3. Use **Effects > Crossfade Clips** to crossfade the clips.&#x20;
+3. Use **Effects > Fading > Crossfade Clips** to crossfade the clips.&#x20;
 
 ## Crossfading between Tracks
 
 To crossfade between tracks, use the following steps:&#x20;
 
-1.  Position the clips on the tracks so that they overlap in the range you want to crossfade:
+1.  Position the clips on the tracks so that they overlap in the range you want to crossfade, and select the audio in the overlapping region in both clips:
 
     ![](<../.gitbook/assets/track overlap.png>)
-2. Select the audio in the first clip in the overlapping region and choose **Effects > Fade Out**
-3. Select the audio in the second clip in the overlapping region and choose **Effects > Fade In**
+2. Use **Effects > Fading > Crossfade Tracks** to crossfade the tracks.\
+   ![](<../.gitbook/assets/Crossfade Tracks.png>)

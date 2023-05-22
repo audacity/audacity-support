@@ -10,13 +10,21 @@ description: >-
 
 Each track in Audacity can be viewed in a Spectrogram view:
 
-![Spectrogram view of a track](../.gitbook/assets/spectrogram.png)
+<div align="left">
+
+<img src="../.gitbook/assets/spectrogram.png" alt="Spectrogram view of a track">
+
+</div>
 
 To access it, click on the **track menu dropdown** and select **Spectrogram.**
 
 The track menu also features Spectrogram settings, where you can tweak the scale, the colors, the used algorithms and the window size.
 
-![The Track Menu dropdown](<../.gitbook/assets/track menu spectrogram.png>)
+<div align="left">
+
+<img src="../.gitbook/assets/track menu spectrogram.png" alt="The Track Menu dropdown">
+
+</div>
 
 {% hint style="info" %}
 **Tip:** To view the waveform and the spectrogram at the same time, choose **Multi-view** instead.
@@ -26,7 +34,11 @@ The track menu also features Spectrogram settings, where you can tweak the scale
 
 You may notice that the spectrogram is somewhat blurry usually, where even if you have a precise frequency, the spectrogram makes it look like a whole range of frequencies is being played. This is an inherent mathematical tradeoff related to the window size:
 
-![Different window sizes in comparison](../.gitbook/assets/Audacity\_u0lMBchIkj.png)
+<div align="left">
+
+<img src="../.gitbook/assets/Audacity_u0lMBchIkj.png" alt="Different window sizes in comparison">
+
+</div>
 
 Depending on what you're after, you can change the window size to fit your analysis: Smaller window sizes benefit time resolution, larger window sizes benefit frequency resolution.
 
