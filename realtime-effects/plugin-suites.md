@@ -32,6 +32,12 @@ A set of open source plugins by the Institute of Electronic Music and Acoustics 
 
 {% embed url="https://plugins.iem.at/" %}
 
+### ToneBoosters
+
+Powerful plugins for any type of audio mixing: eq, dynamics, reverb, and more. Premium with free demo.
+
+{% embed url="https://www.toneboosters.com/" %}
+
 ## Available for Windows
 
 ### Reaplugs
