@@ -66,6 +66,10 @@ The recording slider in [Mixer Toolbar](https://alphamanual.audacityteam.org/man
 
 If the slider is disabled, check first in [Device Toolbar](https://alphamanual.audacityteam.org/man/Device\_Toolbar) that you are selecting the correct device. Audacity should be able to control the recording level of most built-in sound devices subject to the device having appropriate [Sound Device Drivers](https://wiki.audacityteam.org/wiki/Updating\_Sound\_Device\_Drivers).
 
-If necessary look in the operating system mixer or in the audio interface's control panel for an input slider. For Windows see [Windows: accessing the Windows Sound controls](https://alphamanual.audacityteam.org/man/Windows:\_accessing\_the\_Windows\_Sound\_controls). To locate the system mixer for Mac and Linux see the help on our Wiki for [Mac](https://wiki.audacityteam.org/wiki/Mac\_OS\_X) or [Linux](https://wiki.audacityteam.org/wiki/Linux\_System\_Mixer).
+If necessary, look in the operating system mixer or in the audio interface's control panel for an input slider. For Windows see [Windows: accessing the Windows Sound controls](https://alphamanual.audacityteam.org/man/Windows:\_accessing\_the\_Windows\_Sound\_controls). To locate the system mixer for Mac and Linux see the help on our Wiki for [Mac](https://wiki.audacityteam.org/wiki/Mac\_OS\_X) or [Linux](https://wiki.audacityteam.org/wiki/Linux\_System\_Mixer).
 
 External recording devices such as [USB turntables or tapedecks](https://alphamanual.audacityteam.org/man/Recording\_with\_USB\_turntables) or interfaces may not have an operating system slider, especially on Mac. For all cases where there is no system slider, try to adjust the playback level on the recording device itself.
+
+## New Window appears when trying to add tracks
+If you're struggling with tracking your favorite show or song, consider right-clicking on the external file and then click on **Open with Audacity**. This will cause the track appear in a new **Audacity Project** window. Then, do Ctrl-A, Ctrl-C to copy the track, Alt-Tab back and Ctrl-V to paste, then Alt-Tab back and exit the old window. 
+You can also select the recording with your cursor, cut the select spot in the show with cursor, and paste into a new window. Lastly, delete the track from window below.
