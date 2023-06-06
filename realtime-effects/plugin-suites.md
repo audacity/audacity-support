@@ -38,6 +38,24 @@ Powerful plugins for any type of audio mixing: eq, dynamics, reverb, and more. P
 
 {% embed url="https://www.toneboosters.com/" %}
 
+What is Included:
+- Barricade 4 : Limiter
+- BitJuggler : Sampler / Processor
+- Compressor 4 : Dynamics processor
+- Dual VCF : non-linear filters
+- Enhancer : preset filter eq
+- Equalizer 4: Digital remasterd Anolog dynamic eq
+- Flowtones : synthesizer 
+- GonioMeter : Stereo Image Analyzer
+- MBC : Multiband Compression and saturation
+- Morphit : Headphones correction and personalization
+- ReelBus 4 : Magnetic tape recording, echo and flanger simulator
+- Reverb 4 : Lush reverberation and shimmer
+- Sibalance 4 : Spectral de-esser and harshness remover
+- Spectogram : Insightful time and frequency visualization
+- VoicePitcher 4 : Vocal doubling, pitch shifting and freezing effect
+
+
 ## Available for Windows
 
 ### Reaplugs
