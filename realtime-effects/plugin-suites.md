@@ -76,6 +76,14 @@ What is Included:
 
 </details>
 
+### Kilohearts Essentials
+
+Kilohearts Essentials is free collection of 30+ plugins.
+
+{% embed url="https://kilohearts.com/products/kilohearts_essentials" %}
+Download page (requires registration)
+{% endembed %}
+
 ## Available for Windows only
 
 ### Reaplugs
@@ -86,7 +94,7 @@ A selection of some effects found in Reaper.
 Download page
 {% endembed %}
 
-## Available for macOS only
+## Available for macOS
 
 {% hint style="info" %}
 MacOS already ships with a range of Audio Unit effects which you can try out

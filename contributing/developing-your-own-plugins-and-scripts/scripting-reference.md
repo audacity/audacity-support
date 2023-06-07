@@ -38,12 +38,7 @@ The File Menu provides commands for creating, opening and saving Audacity projec
 
 Various ways to save a project.
 
-| Scripting Id    | Action                             | Parameters | Description                                                                                                    |
-| --------------- | ---------------------------------- | ---------- | -------------------------------------------------------------------------------------------------------------- |
-| Save:           | Save Project                       | _none_     | Saves the current Audacity project .AUP3 file.                                                                 |
-| SaveAs:         | Save Project As...                 | _none_     | Same as "Save Project" above, but allows you to save a copy of an open project to a different name or location |
-| SaveCopy:       | Save Lossless Copy of Project...   | _none_     | Saves the current Audacity project .AUP3 file.                                                                 |
-| SaveCompressed: | Save Compressed Copy of Project... | _none_     | Saves in the audacity .aup3 project file format, but compressed (Suitable for mailing)                         |
+<table><thead><tr><th>Scripting Id</th><th>Action</th><th width="118">Parameters</th><th>Description</th></tr></thead><tbody><tr><td>Save:</td><td>Save Project</td><td><em>none</em></td><td>Saves the current Audacity project .AUP3 file.</td></tr><tr><td>SaveAs:</td><td>Save Project As...</td><td><em>none</em></td><td>Same as "Save Project" above, but allows you to save a copy of an open project to a different name or location</td></tr><tr><td>SaveCopy:</td><td>Save Lossless Copy of Project...</td><td><em>none</em></td><td>Saves the current Audacity project .AUP3 file.</td></tr><tr><td>SaveCompressed:</td><td>Save Compressed Copy of Project...</td><td><em>none</em></td><td>Saves in the audacity .aup3 project file format, but compressed (Suitable for mailing)</td></tr></tbody></table>
 
 ### File: Export
 

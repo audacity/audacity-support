@@ -50,7 +50,7 @@ See [Prompt Basics](prompt-basics.md) for an explanation how the Nyquist prompt 
 {% endhint %}
 
 * To run this example in the Nyquist Prompt, ensure that "Use legacy (version 3) syntax" is **not** selected.
-* For more information about the \*_**track\***_** ** keyword, refer to the [Plugin Reference](../plugin-reference.md#track)
+* For more information about the \*_**track\***_ keyword, refer to the [Plugin Reference](../plugin-reference.md#track)
 
 **1.** Create an audio track with some audio \[eg a short recording]
 
