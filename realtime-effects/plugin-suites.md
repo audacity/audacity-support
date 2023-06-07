@@ -32,39 +32,7 @@ A set of open source plugins by the Institute of Electronic Music and Acoustics 
 
 {% embed url="https://plugins.iem.at/" %}
 
-### ToneBoosters
-
-Powerful plugins for any type of audio mixing: eq, dynamics, reverb, and more. Premium with free demo.
-
-{% embed url="https://www.toneboosters.com/" %}
-
-What is Included:
-- Barricade 4 : Limiter
-- BitJuggler : Sampler / Processor
-- Compressor 4 : Dynamics processor
-- Dual VCF : non-linear filters
-- Enhancer : preset filter eq
-- Equalizer 4: Digital remasterd Anolog dynamic eq
-- Flowtones : synthesizer 
-- GonioMeter : Stereo Image Analyzer
-- MBC : Multiband Compression and saturation
-- Morphit : Headphones correction and personalization
-- ReelBus 4 : Magnetic tape recording, echo and flanger simulator
-- Reverb 4 : Lush reverberation and shimmer
-- Sibalance 4 : Spectral de-esser and harshness remover
-- Spectogram : Insightful time and frequency visualization
-- VoicePitcher 4 : Vocal doubling, pitch shifting and freezing effect
-
-
-## Available for Windows
-
-### Reaplugs
-
-A selection of some effects found in Reaper.
-
-{% embed url="https://www.reaper.fm/reaplugs" %}
-Download page
-{% endembed %}
+## Available for Windows and macOS
 
 ### MFreeFXBundle
 
@@ -74,19 +42,55 @@ A collection of 37 effects in categories like Analysis, Saturation & distortion,
 Download page
 {% endembed %}
 
-## Available for macOS
+### ToneBoosters
+
+Powerful plugins for any type of audio mixing: eq, dynamics, reverb, and more.&#x20;
+
+{% embed url="https://www.toneboosters.com/" %}
+Download page
+{% endembed %}
+
+<details>
+
+<summary>Details</summary>
+
+"Demo" mode is fully functional except for preset saving. You can use Audacity's preset system instead.
+
+What is Included:
+
+* Barricade 4 : Limiter
+* BitJuggler : Sampler / Processor
+* Compressor 4 : Dynamics processor
+* Dual VCF : non-linear filters
+* Enhancer : preset filter eq
+* Equalizer 4: Digital remasterd Anolog dynamic eq
+* Flowtones : synthesizer
+* GonioMeter : Stereo Image Analyzer
+* MBC : Multiband Compression and saturation
+* Morphit : Headphones correction and personalization
+* ReelBus 4 : Magnetic tape recording, echo and flanger simulator
+* Reverb 4 : Lush reverberation and shimmer
+* Sibalance 4 : Spectral de-esser and harshness remover
+* Spectogram : Insightful time and frequency visualization
+* VoicePitcher 4 : Vocal doubling, pitch shifting and freezing effect
+
+</details>
+
+## Available for Windows only
+
+### Reaplugs
+
+A selection of some effects found in Reaper.
+
+{% embed url="https://www.reaper.fm/reaplugs" %}
+Download page
+{% endembed %}
+
+## Available for macOS only
 
 {% hint style="info" %}
 MacOS already ships with a range of Audio Unit effects which you can try out
 {% endhint %}
-
-## MFreeFXBundle
-
-A collection of 37 effects in categories like Analysis, Saturation & distortion, Dynamics, Equalization, Mastering, Mixing, Pitch and others.
-
-{% embed url="https://www.meldaproduction.com/MFreeFXBundle" %}
-Download page
-{% endembed %}
 
 ## Available for Linux
 
