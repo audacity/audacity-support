@@ -10,13 +10,13 @@ description: Audacity has several methods available to change speed and tempo of
 **Caution:** Changing speed without affecting the pitch always leads to artefacts. Avoid repeatedly applying these effects.
 {% endhint %}
 
-To change the speed while preserving the pitch, select the audio you want to apply the effect on and go to **Effect > Change Tempo**
+To change the speed while preserving the pitch, select the audio you want to apply the effect on and go to **Effect > Pitch and Tempo > Change Tempo**
 
 ![The "Change Tempo" Effect dialog](<../.gitbook/assets/change tempo.png>)
 
 Drag the slider or enter some numbers to change how much you want to speed up or slow down your audio. The controls are linked, so you just need to change the value you care about, the rest will update accordingly.&#x20;
 
-For extreme slowdowns (10x slower to thousands of times slower), you may want to use **Effect > Paulstretch** instead.&#x20;
+For extreme slowdowns (10x slower to thousands of times slower), you may want to use **Effect > Pitch and Tempo > Paulstretch** instead.&#x20;
 
 ![The "Paulstretch" Effect dialog](../.gitbook/assets/paulstretch.png)
 
@@ -28,7 +28,7 @@ The time resolution decides on whether the algorithm will focus on frequencies a
 
 ## Changing speed and pitch at the same time
 
-To change speed and pitch at the same time, use **Effect > Change Speed**.
+To change speed and pitch at the same time, use **Effect > Pitch and Tempo > Change Speed**.
 
 ![The "Change speed" effect dialog](<../.gitbook/assets/change speed.png>)
 
