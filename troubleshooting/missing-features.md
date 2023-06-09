@@ -22,7 +22,7 @@ In Audacity version 3.3.0, the Device preference page has been renamed to **Audi
 
 ## Project Rate
 
-In Audacity version 3.3.0, the Project Rate has been renamed to **Project Sample Rate** and moved into the **Audio Setup button** -> **Audio Settings**
+In Audacity version 3.3.0, the Project Rate has been renamed to **Project Sample Rate** and moved into the **Audio Setup button** -> **Audio Settings.**
 
 ## Cut, Copy and Paste buttons
 
