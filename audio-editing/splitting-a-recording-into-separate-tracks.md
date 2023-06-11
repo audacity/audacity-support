@@ -57,7 +57,7 @@ This tool depends on correctly detecting the "silences" between tracks and this 
 If you did the original recording properly and avoided clipping, the recording is probably not at the maximum possible volume. In order for the LP or CD to be burned at maximum volume and thus match other LPs or CDs in your collection we need to fix this.
 
 1. Click on **Select >** [**All**](https://manual.audacityteam.org/man/select\_menu.html#all), or use shortcut **Ctrl + A**
-2. Click on **Effect >** [**Normalize...**](https://manual.audacityteam.org/man/normalize.html)
+2. Click on **Effect > Volume and Compression >** [**Normalize...**](https://manual.audacityteam.org/man/normalize.html)
 
 The default choice in this dialog is to amplify to a maximum of -1.0 dB. The maximum setting is 0 dB, but the default setting of -1.0 dB provides a little headroom as some players can have playback problems with audio at 0 dB.
 
