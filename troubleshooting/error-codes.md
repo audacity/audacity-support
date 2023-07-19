@@ -29,9 +29,11 @@ This error indicates a problem with the hardware used for recording, whether it 
 [common-troubleshooting-steps.md](common-troubleshooting-steps.md)
 {% endcontent-ref %}
 
-## Error code 11, error code 13, error code 101 and "Audacity failed to read a file in C:"
+## Error code 11, error code 13, error code 101, "Audacity failed to read a file in C:", "Failed to Open Database File"
 
-These errors can occur when attempting to load a damaged .aup3 project file. Damaged project files can be recovered as described in the following article.
+These errors may occur when the project you're trying to open is in a read-only location. Make sure  Audacity has write access to the folder the file is located in,  or move the project file to a different location.&#x20;
+
+These errors may also occur when attempting to load a damaged .aup3 project file. Damaged project files can be recovered as described in the following article.
 
 {% content-ref url="recovering-corrupted-projects/" %}
 [recovering-corrupted-projects](recovering-corrupted-projects/)
