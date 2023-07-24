@@ -9,7 +9,7 @@ description: >-
 
 {% tabs %}
 {% tab title="Windows" %}
-### Downloading through the Microsoft Store
+## Downloading through the Microsoft Store
 
 Audacity is available from the [Microsoft Store](https://apps.microsoft.com/store/detail/audacity/XP8K0J757HHRDW).
 
@@ -23,7 +23,7 @@ Audacity is available from the [Microsoft Store](https://apps.microsoft.com/stor
 
 Audacity is now installed. You can start Audacity from the start menu.
 
-### Downloading from the Internet
+## Downloading from the Internet
 
 * Head to the download page: [https://www.audacityteam.org/download/windows/](https://www.audacityteam.org/download/windows/)\
   It will automatically download the latest version of Audacity after 5 seconds.
@@ -64,10 +64,6 @@ Audacity is now installed. You can start Audacity from the start menu.
 
 ![Wait until the setup process completes](<../.gitbook/assets/Setup - Extracting.png>)
 
-* Please take some time to know how to get community support through the Audacity Forum and how to make suggestions or report bugs.
-
-![Information on how to make suggestions or report bugs](<../.gitbook/assets/Setup - Information before finish.png>)
-
 * Click **Finish** to close the installer and **Launch Audacity**
 
 ![Click Finish to close the installer](<../.gitbook/assets/Setup - Completed.png>)
@@ -94,6 +90,8 @@ Audacity is now installed. You can start Audacity from the start menu.
 {% endtab %}
 
 {% tab title="Linux" %}
+## Downloading and installing using an AppImage
+
 1. Head to the download page: [https://www.audacityteam.org/download/linux/](https://www.audacityteam.org/download/linux/)\
    It will automatically download the AppImage after 5 seconds.
 2.  Make the downloaded AppImage runnable.\
@@ -105,12 +103,29 @@ Audacity is now installed. You can start Audacity from the start menu.
     ```
 3. Double-click the AppImage to run Audacity.
 
-Additionally, your Linux distribution (for example Ubuntu, Fedora or Debian) may have a version of Audacity as part of the repository. This version is typically _older_ than the latest AppImage, but may be better integrated into your distribution.
-
 {% hint style="warning" %}
-Note: If you have trouble opening the AppImage, try installing **libfuse2**. Exact steps for various distributions can be found at
+**Note:** If you have trouble opening the AppImage, try installing **libfuse2**. Exact steps for various distributions can be found at
 
 [https://github.com/AppImage/AppImageKit/wiki/FUSE](https://github.com/AppImage/AppImageKit/wiki/FUSE)
 {% endhint %}
+
+## Using a package from a repository
+
+Your Linux distribution (for example Ubuntu, Fedora or Debian) may have an Audacity package as part of the repository. This version is typically _older_ than the latest AppImage, but may be better integrated into your distribution.
+
+To install Audacity through the repository, use the Software Center, App Store or similar software on your computer. Alternatively, you can try the following commands:&#x20;
+
+* Ubuntu, Debian, Pop\_OS!, Linux Mint: `sudo apt install audacity`
+* RHEL, Fedora: `sudo yum install audacity`
+* Arch Linux: `sudo pacman -Syu audacity`
+
+{% hint style="info" %}
+Repository packages are maintained by the community, not by the Audacity Team.
+{% endhint %}
+
+## Using Flatpak or Snap
+
+Community-maintained Flatpaks and Snaps are available from [Flathub ](https://flathub.org/apps/org.audacityteam.Audacity)and [Snapcraft](https://snapcraft.io/audacity), respectively.&#x20;
 {% endtab %}
 {% endtabs %}
+
