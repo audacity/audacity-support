@@ -22,27 +22,19 @@ Further information about using realtime effects can be found here:
 
 ## Installing plugins
 
-When you install plugins, they're automatically enabled the next time you restart Audacity 3.2. Further instructions can be found here:
+When you install plugins, they're automatically enabled the next time you restart Audacity. Alternatively, you can also locate and enable them via **Effect -> Plugin Manager -> Rescan Plugins**. Further instructions can be found here:
 
 {% embed url="https://support.audacityteam.org/basics/installing-plugins" %}
-
-{% hint style="info" %}
-For Audacity 3.1.3 and prior, see consult [the manual](https://manual.audacityteam.org/man/installing\_plug\_ins.html) on further installation instructions.
-
-Note: Audacity 3.1.3 does not yet support VST3 plugins.
-{% endhint %}
 
 ## Popular plugins
 
 * [#acx-check](analyzers/analysis-plugins.md#acx-check "mention"), a plugin to check if an audio book complies with the ACX guidelines
-* \*\*\*\*[**MuseFX**](realtime-effects/plugin-suites.md#muse-fx), an effects library from Audacity's sister project.
-* [**FFMPEG**](https://support.audacityteam.org/basics/downloading-and-installing-audacity/installing-ffmpeg), a library to import and export various media formats such as M4A, WMA and MP4.
+* [**MuseFX**](realtime-effects/plugin-suites.md#muse-fx), an effects library from Audacity's sister project.
+* [**FFmpeg**](https://support.audacityteam.org/basics/installing-ffmpeg), a library to import and export various media formats such as M4A, WMA and MP4.
 
 ## Contributing to this site
 
 {% hint style="success" %}
-This site is still in development.
-
 If you want to add your own plugin, or one that you found on the web, read the [contributing instructions](contributing/adding-plugins-to-this-site.md).
 {% endhint %}
 
@@ -70,7 +62,7 @@ On Mac OS X only, you can add [Audio Unit](http://wiki.audacityteam.org/wiki/Aud
 
 ### LADSPA plugins
 
-LADSPA is superseded by LV2. These plugins are mostly built for Linux, but some old LADSPA plugins are available via the [Legacy Windows](http://www.audacityteam.org/download/legacy-windows/) and [Legacy Mac](http://www.audacityteam.org/download/legacy-mac/) sections.
+LADSPA is superseded by LV2. These plugins are mostly built for Linux.
 
 ## Other sources
 
