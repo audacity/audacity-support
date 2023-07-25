@@ -11,9 +11,9 @@ description: >-
 On this site you can find download links for [equalizer plugins](realtime-effects/equalizers.md), [filter plugins](realtime-effects/filters.md), [delay and reverb plugins](realtime-effects/delay-and-reverb.md), and more. If you'd like to download many plugins at once, you also can try entire [plugin suites](realtime-effects/plugin-suites.md).
 
 {% hint style="success" %}
-All plugins in the [realtime effects](broken-reference/) section can be previewed in realtime in Audacity 3.2.
+All plugins in the **realtime effects** section can be used instantly and non-destructively from the effects panel in Audacity.
 
-This means that you can change the effect settings while playing, and come back to your settings after doing many other things - without the need to undo anything.
+This means that you can change the effect settings while playing, and come back to your settings after doing many other things - without the need to undo anything, or to wait for the effect to be applied to the track.
 {% endhint %}
 
 Further information about using realtime effects can be found here:
@@ -35,7 +35,7 @@ Note: Audacity 3.1.3 does not yet support VST3 plugins.
 ## Popular plugins
 
 * [#acx-check](analyzers/analysis-plugins.md#acx-check "mention"), a plugin to check if an audio book complies with the ACX guidelines
-* ****[**MuseFX**](realtime-effects/plugin-suites.md#muse-fx), an effects library from Audacity's sister project.
+* \*\*\*\*[**MuseFX**](realtime-effects/plugin-suites.md#muse-fx), an effects library from Audacity's sister project.
 * [**FFMPEG**](https://support.audacityteam.org/basics/downloading-and-installing-audacity/installing-ffmpeg), a library to import and export various media formats such as M4A, WMA and MP4.
 
 ## Contributing to this site
