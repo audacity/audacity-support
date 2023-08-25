@@ -121,6 +121,10 @@ The speed controls set the initial and final speed as a multiple of the original
 
 ### Tempo Change
 
+{% hint style="warning" %}
+**Caution:** This plugin only works as intended on a sample rate of 44100Hz
+{% endhint %}
+
 This plugin allows you to change tempo making it faster or slower
 
 {% file src="../../.gitbook/assets/tempo.ny" %}
