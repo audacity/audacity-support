@@ -1,5 +1,5 @@
 ;nyquist plug-in
-;version 
+;version 1
 ;type process
 ;name "Bouncing ball delay with panning..."
 ;action "Performing bouncing ball Delay with panning..."
