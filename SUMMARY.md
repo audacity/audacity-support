@@ -38,6 +38,7 @@
 ## Analyzers
 
 * [Analysis plugins](analyzers/analysis-plugins.md)
+* [Loudness compliance checks](analyzers/loudness-compliance-checks.md)
 
 ## Contributing
 
