@@ -14,6 +14,8 @@ Due to patent restrictions, FFmpeg cannot be distributed with Audacity itself. H
 
 You can download and install FFmpeg as follows:
 
+{% embed url="https://youtu.be/mY9wBvDgnfQ" %}
+
 {% tabs %}
 {% tab title="Windows" %}
 ### Recommended installer
@@ -44,13 +46,7 @@ If you prefer a manual installation of FFmpeg you can download a ZIP file from a
 * Different versions of FFmpeg may have different codecs enabled in them. In particular, AMR (narrowband) is not featured in the recommended installer.&#x20;
 {% endhint %}
 
-
-
 ### Manual installation
-
-{% embed url="https://youtu.be/ROk5Hw_MWDE" %}
-Video guide
-{% endembed %}
 
 If you have installed FFmpeg from a different source, or installed it in a different location, you'll need to tell Audacity where to find it. To do this:&#x20;
 
