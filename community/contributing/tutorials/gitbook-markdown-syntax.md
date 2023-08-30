@@ -10,6 +10,7 @@ Contrast this page to:
 
 * raw markdown: [https://raw.githubusercontent.com/audacity/audacity-support/main/community/contributing/tutorials/gitbook-markdown-syntax.md](https://raw.githubusercontent.com/audacity/audacity-support/main/community/contributing/tutorials/gitbook-markdown-syntax.md)&#x20;
 * Github's markdown renderer: [https://github.com/audacity/audacity-support/blob/main/community/contributing/tutorials/gitbook-markdown-syntax.md](gitbook-markdown-syntax.md)
+* the live page: [https://support.audacityteam.org/community/contributing/tutorials/gitbook-markdown-syntax](https://support.audacityteam.org/community/contributing/tutorials/gitbook-markdown-syntax)
 
 ## Heading 1&#x20;
 
@@ -134,13 +135,19 @@ Embeds cannot be used inside of other blocks except the Tabs block, nor can othe
 
 <table><thead><tr><th data-type="checkbox">checkbox column</th><th align="center">text column, center-aligned</th><th data-type="number">number column</th><th data-hidden>hidden text column</th></tr></thead><tbody><tr><td>true</td><td align="center">text</td><td>123</td><td>hidden</td></tr><tr><td>false</td><td align="center">text</td><td>456</td><td>hidden</td></tr><tr><td>true</td><td align="center">text</td><td>789</td><td>hidden</td></tr></tbody></table>
 
-<table><thead><tr><th data-type="select" data-multiple>select-option column</th><th data-type="files">files column</th><th data-type="rating" data-max="3">Ratings column</th></tr></thead><tbody><tr><td></td><td></td><td>3</td></tr><tr><td></td><td></td><td>2</td></tr><tr><td></td><td></td><td>1</td></tr></tbody></table>
+<table><thead><tr><th data-type="select" data-multiple>select-option column</th><th data-type="files">files column</th><th data-type="rating" data-max="3">Ratings column</th></tr></thead><tbody><tr><td></td><td><a href="../../../.gitbook/assets/ZoomIn.png">ZoomIn.png</a></td><td>3</td></tr><tr><td></td><td><a href="../../../.gitbook/assets/transport toolbar.png">transport toolbar.png</a></td><td>2</td></tr><tr><td></td><td><a href="../../../.gitbook/assets/ZoomIn.png">ZoomIn.png</a><a href="../../../.gitbook/assets/transport toolbar.png">transport toolbar.png</a><a href="../../../.gitbook/assets/Trim.png">Trim.png</a></td><td>1</td></tr></tbody></table>
 
-{% hint style="danger" %}
-Select-option and files columns appear empty in Markdown. Avoid using them.
+{% hint style="warning" %}
+Any table but the most simple option will be converted into HTML, rather than markdown when edited through gitbook.
 {% endhint %}
 
 Tables cannot be used inside other blocks except the Tabs block, nor can other blocks be placed inside them. Inline content works inside of text columns only.
+
+## Cards
+
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Card 1 top. Card has an image on top.</td><td>Card 1 mid</td><td>Card 1 bottom</td><td><a href="../../../.gitbook/assets/Card Beats Measures.png">Card Beats Measures.png</a></td><td></td></tr><tr><td>Card 2 top. Entire card links to a page.</td><td>Card 2 mid</td><td>Card 2 bottom</td><td></td><td><a href="../../../">..</a></td></tr><tr><td>Card 3 top. <mark style="color:blue;">With inline formatting.</mark></td><td><strong>Card 3 mid</strong></td><td>Card 3 bottom</td><td></td><td></td></tr></tbody></table>
+
+Cards and tables can be converted into each other.
 
 ## Tabs
 
@@ -240,7 +247,11 @@ Description
 
 Cannot be used inside other blocks. Can only contain plain text. Unfortunately very tailored towards web APIs only.
 
+## Dividers
 
+***
+
+The  above line is a divider.
 
 
 
