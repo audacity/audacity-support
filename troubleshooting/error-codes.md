@@ -59,14 +59,18 @@ You can attempt to fix this issue with the following methods:
 
 ## Error -9997 Invalid Sample Rate
 
-This error can indicate an unsupported sample rate. Double-check that both your **OS settings** and the **Audacity project rate** are set to a supported sample rate (usually 44100 Hz or 48000 Hz).&#x20;
+This error can indicate an unsupported sample rate.&#x20;
 
-This error can also occur when using Audacity on Windows to record a track while listening another existing track (also known as overdubbing) with Windows WASAPI as the Host if the sample rate of the recording device is different than the sample rate of the playback device. If possible set the same sample rate for your devices or use MME as the Host.
+This error can also occur when using Audacity on Windows to record a track while listening another existing track (also known as overdubbing) with Windows WASAPI as the Host if the sample rate of the recording device is different than the sample rate of the playback device.&#x20;
 
-This error can also occur when you are trying to record a number of channels that is not supported in the current configuration To fix this, you can do the following:
+This error can also occur when you are trying to record a number of channels that is not supported in the current configuration.
 
+#### Potential fixes
+
+* Double-check that both your **OS settings** and the **Audacity project rate** are set to a supported sample rate (usually 44100 Hz or 48000 Hz).&#x20;
 * **Use a different audio host**. Sometimes WASAPI works when MME doesn't, sometimes it's the other way round.&#x20;
 * **Use a different number of channels**. For example, some Realtek only work when recording in Mono, while some others only work in Stereo when recording a (loopback) stream.
+* **Use the same playback device that you use as a recording device**, especially when recording desktop audio.
 
 ## Error -9999 Unanticipated Host Error
 
