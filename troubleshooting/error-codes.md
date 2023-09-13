@@ -112,6 +112,10 @@ If you are on a low-end machine, this may be caused by insufficient resources, s
 
 This also can happen if you assign yourself a static IP in the `hosts` file. If that's the case, simply commenting out the assignment may solve this.
 
-## Error code=12 : "cannot allocate memory"
+## Error code=12 : "cannot allocate memory" (macOS)
 
-This is caused by an unexpected system state. Rebooting the computer resolves it.
+This is caused by an unexpected system state. Specifically, macOS typically allows allocation of 32 instances of shared memory, out of which Audacity requires one to start. However, other apps on your computer may have filled up these allocations, in which case Audacity cannot start.
+
+Rebooting the computer generally resolves it.&#x20;
+
+You also can edit the macOS kernel to allow for more shared memory, but this is a very technical process. Essentially, `shmni` needs to be increased, and potentially `shmall` needs to be as well. [This thread](https://developer.apple.com/forums/thread/669625) may have further instructions.&#x20;
