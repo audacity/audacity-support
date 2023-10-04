@@ -26,12 +26,6 @@ A set of simple VST effects, most known for the GSnap (auto-tune) effect.
 Download page
 {% endembed %}
 
-### IEM Plugin Suite
-
-A set of open source plugins by the Institute of Electronic Music and Acoustics of the University of Music and Performing Arts Graz. Strong focus on ambisonic functions; see their [plugin descriptions](https://plugins.iem.at/docs/plugindescriptions/).
-
-{% embed url="https://plugins.iem.at/" %}
-
 ## Available for Windows and macOS
 
 ### MFreeFXBundle
