@@ -7,7 +7,7 @@ This is a patch release for Audacity 3.2. It enables use of VST2 as realtime eff
 ## Changes and improvements since previous version
 
 * [#2850](https://github.com/audacity/audacity/issues/2850) VST2 effects are now realtime capable. \
-  Additional plugins have been added to [plugins.audacityteam.org](http://localhost:5000/o/-MhmG2mhIIHTtQPuHV\_k/s/klCVENFte0GRy5IqVz0W/)
+  Additional plugins have been added to [plugins.audacityteam.org](http://127.0.0.1:5000/o/-MhmG2mhIIHTtQPuHV\_k/s/klCVENFte0GRy5IqVz0W/)
 * [#3696](https://github.com/audacity/audacity/pull/3696) Improved accessibility of the meters
 * [#3769](https://github.com/audacity/audacity/issues/3769) Fixed a crash when editing some macro parameters
 * [#3792](https://github.com/audacity/audacity/issues/3792) Fixed some play commands getting stuck in play mode

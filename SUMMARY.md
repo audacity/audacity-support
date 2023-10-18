@@ -11,7 +11,7 @@
 * [Recording desktop audio](basics/recording-desktop-audio.md)
 * [Editing audio](basics/audacity-editing.md)
 * [Saving and exporting projects](basics/saving-and-exporting-projects.md)
-* [🆕 Sharing audio online](basics/sharing-audio-online.md)
+* [☁ Sharing audio online](basics/sharing-audio-online.md)
 * [Customizing Audacity](basics/customizing-audacity/README.md)
   * [Using themes](basics/customizing-audacity/using-themes.md)
   * [Installing plugins](basics/customizing-audacity/installing-plugins.md)
@@ -28,7 +28,7 @@
 
 * [Using realtime effects](audio-editing/using-realtime-effects.md)
 * [Making crossfades](audio-editing/making-crossfades.md)
-* [Speeding up and slowing down audio](audio-editing/speeding-up-and-slowing-down-audio.md)
+* [🆕 Speeding up and slowing down audio](audio-editing/speeding-up-and-slowing-down-audio.md)
 * [Mixing and panning tracks](audio-editing/mixing-and-panning-tracks.md)
 * [Splitting a recording into separate tracks](audio-editing/splitting-a-recording-into-separate-tracks.md)
 * [Loudness Normalization](audio-editing/loudness-normalization.md)
@@ -40,7 +40,8 @@
 
 ## Music
 
-* [🆕 Aligning music to beats and measures](music/aligning-music-to-beats-and-measures.md)
+* [🆕 Enabling music view](music/enabling-music-view.md)
+* [🆕 Aligning music to beats and bars](music/aligning-music-to-beats-and-measures.md)
 * [Making audio loops](music/making-audio-loops.md)
 * [Isolating or removing vocals from a song](music/isolating-or-removing-vocals-from-a-song.md)
 
@@ -92,11 +93,12 @@
 ## Additional resources
 
 * [📄 Changelog](additional-resources/changelog/README.md)
-  * [Audacity 3.3.3](additional-resources/changelog/audacity-3.3.3.md)
-  * [Audacity 3.3.2](additional-resources/changelog/audacity-3.3.2.md)
-  * [Audacity 3.3.1](additional-resources/changelog/audacity-3.3.1.md)
-  * [Audacity 3.3](additional-resources/changelog/audacity-3.3.md)
+  * [Audacity 3.4](additional-resources/changelog/audacity-3.4.md)
   * [Older versions](additional-resources/changelog/older-versions/README.md)
+    * [Audacity 3.3.3](additional-resources/changelog/older-versions/audacity-3.3.3.md)
+    * [Audacity 3.3.2](additional-resources/changelog/older-versions/audacity-3.3.2.md)
+    * [Audacity 3.3.1](additional-resources/changelog/older-versions/audacity-3.3.1.md)
+    * [Audacity 3.3](additional-resources/changelog/older-versions/audacity-3.3.md)
     * [Audacity 3.2.5](additional-resources/changelog/older-versions/audacity-3.2.5.md)
     * [Audacity 3.2.4](additional-resources/changelog/older-versions/audacity-3.2.4.md)
     * [Audacity 3.2.3](additional-resources/changelog/older-versions/audacity-3.2.3.md)
