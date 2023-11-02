@@ -16,6 +16,10 @@ Additionally, if you want to render the stretching, that option is in the same r
 
 <figure><img src="../.gitbook/assets/context stretch.png" alt=""><figcaption><p>The speed-related</p></figcaption></figure>
 
+{% hint style="info" %}
+**Note:** When applying an effect directly to the waveform (as opposed to [using realtime effects](using-realtime-effects.md)) will render clip stretching for your selection. Rendering clip stretching multiple times incurs some loss of quality.
+{% endhint %}
+
 ## Dynamically changing speed and pitch over time
 
 You can change the speed of an entire project over time using Time Tracks. To add one, go to **Tracks > Add New > Time Track**.&#x20;

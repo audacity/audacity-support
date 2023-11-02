@@ -1,12 +1,8 @@
 ---
-description: Audacity 3.4 was released on xx Oct 2023
+description: Audacity 3.4 was released on 02 Nov 2023
 ---
 
 # Audacity 3.4
-
-{% hint style="info" %}
-This release currently is in Beta
-{% endhint %}
 
 Audacity 3.4 adds a musical view, time stretching and a new exporter.
 

@@ -10,9 +10,9 @@ description: How-Tos and Tutorials for Audacity
 
 ## New in Audacity 3.4
 
-{% hint style="info" %}
-This release is currently in beta.
-{% endhint %}
+{% embed url="https://www.youtube.com/watch?v=xgdYuSHdkso" %}
+Watch the release video
+{% endembed %}
 
 <table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Music View</strong></td><td>A new view that makes music making a breeze</td><td></td><td><a href="music/enabling-music-view.md">enabling-music-view.md</a></td><td><a href=".gitbook/assets/Card Beats Measures.png">Card Beats Measures.png</a></td></tr><tr><td><strong>Time Stretching</strong></td><td>Quickly change the speed of clips</td><td></td><td><a href="audio-editing/speeding-up-and-slowing-down-audio.md">speeding-up-and-slowing-down-audio.md</a></td><td><a href=".gitbook/assets/Card stretch.png">Card stretch.png</a></td></tr><tr><td><strong>Aligning music to beats and measures</strong></td><td><em>See also:</em> <a href="music/making-audio-loops.md"><em>Making audio loops</em></a></td><td></td><td><a href="music/aligning-music-to-beats-and-measures.md">aligning-music-to-beats-and-measures.md</a></td><td><a href=".gitbook/assets/Card align.png">Card align.png</a></td></tr></tbody></table>
 
