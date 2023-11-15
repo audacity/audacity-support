@@ -6,6 +6,14 @@ description: >-
 
 # Missing features
 
+## Export Selection and Export Multiple
+
+In Audacity version 3.4.0, these options are now integrated into **File -> Export Audio...**
+
+## Join-clips line
+
+In Audacity version 3.4.0, this functionality was removed. You can select multiple clips and **right-click -> Join Clips** (`Ctrl+J`) instead.
+
 ## Audacity Wiki
 
 The Audacity Wiki has been shut down.
@@ -22,7 +30,7 @@ In Audacity version 3.3.0, the Device preference page has been renamed to **Audi
 
 ## Project Rate
 
-In Audacity version 3.3.0, the Project Rate has been renamed to **Project Sample Rate** and moved into the **Audio Setup button** -> **Audio Settings.**
+In Audacity version 3.3.0, the Project Rate has been renamed to **Project Sample Rate** and moved into the **Audio Setup button** -> **Audio Settings.** For the purposes of exporting, Project Rate also can be found in the File -> Export audio dialog.
 
 ## Cut, Copy and Paste buttons
 
