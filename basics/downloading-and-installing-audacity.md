@@ -25,8 +25,7 @@ Audacity is now installed. You can start Audacity from the start menu.
 
 ## Downloading from the Internet
 
-* Head to the download page: [https://www.audacityteam.org/download/windows/](https://www.audacityteam.org/download/windows/)\
-  It will automatically download the latest version of Audacity after 5 seconds.
+* Head to the download page: [https://www.audacityteam.org/](https://www.audacityteam.org/) and click the blue download button.&#x20;
 * If prompted, click **Run** or **Save**.
 * If you clicked Save, head to your downloads, locate the Audacity installer and double-click it.
   * In Windows 11 it is possible that you get a warning about Audacity being a non Microsoft-verified app. Click **Install anyway.**
@@ -70,9 +69,7 @@ Audacity is now installed. You can start Audacity from the start menu.
 {% endtab %}
 
 {% tab title="macOS" %}
-*   Head to the download page: [https://www.audacityteam.org/download/mac/](https://www.audacityteam.org/download/mac/)
-
-    It will automatically download the latest version of Audacity after 5 seconds.
+* Head to the download page: [https://www.audacityteam.org/](https://www.audacityteam.org/) and click the blue download button.&#x20;
 * If prompted, click **Save**.
 * Once the download has completed to your Downloads folder, double-click the DMG file to mount it.
 *   Drag the Audacity.app icon rightwards onto the "Applications" folder shortcut.
@@ -92,8 +89,7 @@ Audacity is now installed. You can start Audacity from the start menu.
 {% tab title="Linux" %}
 ## Downloading and installing using an AppImage
 
-1. Head to the download page: [https://www.audacityteam.org/download/linux/](https://www.audacityteam.org/download/linux/)\
-   It will automatically download the AppImage after 5 seconds.
+1. Head to the download page: [https://www.audacityteam.org/](https://www.audacityteam.org/) and click the blue download button.&#x20;
 2.  Make the downloaded AppImage runnable.\
     To do this, you can **right-click** the file **-> Properties -> Permissions**\
     or run the following command in the terminal:
