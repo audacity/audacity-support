@@ -1,3 +1,7 @@
+---
+description: Audacity 3.4.2 was released on 16 Nov 2023.
+---
+
 # Audacity 3.4.2
 
 This is a hotfix release. It fixes the following issues:
