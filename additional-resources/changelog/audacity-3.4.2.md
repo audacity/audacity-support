@@ -2,23 +2,23 @@
 
 This is a hotfix release. It fixes the following issues:
 
-* &#x20;\#5568 Fix a crash when opening projects with zero-length clips.
-* &#x20;\#5032 When exporting a file, the sample rate of the tracks is now considered, and last-used sample rate is remembered.&#x20;
+* &#x20;[#5568](https://github.com/audacity/audacity/issues/5568) Fix a crash when opening projects with zero-length clips.
+* &#x20;\#[5032 ](https://github.com/audacity/audacity/issues/5032)When exporting a file, the sample rate of the tracks is now considered, and last-used sample rate is remembered.&#x20;
 * &#x20;[#5555](https://github.com/audacity/audacity/pull/5555) Copy-pasting behavior now pastes into clips again by default. This can be changed via Preferences -> Track Behavior -> Always paste audio as new clips.
-* \#5549 Mix and render now also resets the gain for the resulting track.
-* &#x20;\#5571 Fix clips shifting to the right when effects are applied to them.
-* &#x20;\#5106 Fix clicks occurring when overdubbing a project with muted tracks.
-* &#x20;\#5533 Fix files being exported without a file extension in rare cases.
-* &#x20;\#5539 Show all sample rates possible for MP2 exports.
-* &#x20;\#5518 Fix pasting into labels.
-* &#x20;\#5543 Fix a crash when clearing loops.
-* &#x20;\#5529 Fix copying when "select all audio if selection required" is enabled.
-* &#x20;\#5598 #5552 Fix GTK detection and compilation for wxWidgets 3.2.4.
+* \#[5549 ](https://github.com/audacity/audacity/issues/5549)Mix and render now also resets the gain for the resulting track.
+* &#x20;\#[5571 ](https://github.com/audacity/audacity/issues/5571)Fix clips shifting to the right when effects are applied to them.
+* &#x20;\#[5106 ](https://github.com/audacity/audacity/issues/5106)Fix clicks occurring when overdubbing a project with muted tracks.
+* &#x20;\#[5533 ](https://github.com/audacity/audacity/issues/5533)Fix files being exported without a file extension in rare cases.
+* &#x20;\#[5539 ](https://github.com/audacity/audacity/issues/5539)Show all sample rates possible for MP2 exports.
+* &#x20;\#[5518 ](https://github.com/audacity/audacity/issues/5518)Fix pasting into labels.
+* &#x20;\#[5543 ](https://github.com/audacity/audacity/issues/5543)Fix a crash when clearing loops.
+* &#x20;\#[5529 ](https://github.com/audacity/audacity/issues/5529)Fix copying when "select all audio if selection required" is enabled.
+* &#x20;\#[5598 ](https://github.com/audacity/audacity/issues/5598)#[5552 ](https://github.com/audacity/audacity/pull/5552)Fix GTK detection and compilation for wxWidgets 3.2.4.
 * &#x20;[#5551](https://github.com/audacity/audacity/pull/5551) Fix Nyquist-related crashes.
-* &#x20;\#5604 Fix EQs in macros.
-* &#x20;\#5511 Fix a crash when closing Audacity.
-* &#x20;\#5476 Fix builds on arm64/armhf.
-* &#x20;\#5631 Use dladdr when possible to setup modules paths
+* &#x20;\#[5604 ](https://github.com/audacity/audacity/issues/5604)Fix EQs in macros.
+* &#x20;\#[5511 ](https://github.com/audacity/audacity/issues/5511)Fix a crash when closing Audacity.
+* &#x20;\#[5476 ](https://github.com/audacity/audacity/issues/5476)Fix builds on arm64/armhf.
+* &#x20;\#[5631 ](https://github.com/audacity/audacity/pull/5631)Use dladdr when possible to setup modules paths
 
 ### Supported Platforms
 
