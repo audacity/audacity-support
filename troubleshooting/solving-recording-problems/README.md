@@ -69,3 +69,24 @@ If the slider is disabled, check first in [Device Toolbar](https://alphamanual.a
 If necessary look in the operating system mixer or in the audio interface's control panel for an input slider. For Windows see [Windows: accessing the Windows Sound controls](https://alphamanual.audacityteam.org/man/Windows:\_accessing\_the\_Windows\_Sound\_controls). To locate the system mixer for Mac and Linux see the help on our Wiki for [Mac](https://wiki.audacityteam.org/wiki/Mac\_OS\_X) or [Linux](https://wiki.audacityteam.org/wiki/Linux\_System\_Mixer).
 
 External recording devices such as [USB turntables or tapedecks](https://alphamanual.audacityteam.org/man/Recording\_with\_USB\_turntables) or interfaces may not have an operating system slider, especially on Mac. For all cases where there is no system slider, try to adjust the playback level on the recording device itself.
+
+## New Window Appears When You Add a New Track
+
+### How to Track Your Favorite Show or Song in Audacity:
+1. Right-click on the external file and click on "Open with Audacity".<br>
+2. The track will appear in a new Audacity Project window.<br>
+3. To copy the track, press  <kbd>Ctrl</kbd> + <kbd>A</kbd> and then <kbd>Ctrl</kbd> + <kbd>C</kbd>.<br>
+4. To paste the track, press <kbd>ALt</kbd> + <kbd>tab</kbd> to switch back to the original window, press <kbd>Ctrl</kbd> + <kbd>V</kbd>, and then press <kbd>ALt</kbd> + <kbd>tab</kbd> to switch back to Audacity.<br>
+5. To exit the original window, click on the "X" in the top-right corner.
+
+### Alternative Instructions:
+1. select the recording with your cursor, click and drag the cursor over the desired portion of the track.<br>
+2. To cut the selected portion of the track, press <kbd>Ctrl</kbd> + <kbd>X</kbd>.<br>
+3. To paste the cut portion of the track, press <kbd>Ctrl</kbd> + <kbd>V</kbd>.<br>
+4. To delete the original track, click on the "Delete" button in the toolbar.
+
+## Tips:
+- You can also use the "Export" feature in Audacity to save the track to a new file.
+- If you are having trouble copying or pasting the track, try closing any other programs that are running in the background.
+
+
