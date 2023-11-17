@@ -39,6 +39,10 @@ These errors may also occur when attempting to load a damaged .aup3 project file
 [recovering-corrupted-projects](recovering-corrupted-projects/)
 {% endcontent-ref %}
 
+## Error FFmpeg:1008
+
+This error indicates that FFmpeg isn't loaded correctly. Restarting Audacity fixes this.&#x20;
+
 ## Error -9996 Invalid Device Error
 
 This error indicates that the device that's being attempted to use is not valid, for example:
