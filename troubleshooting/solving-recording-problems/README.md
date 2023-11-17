@@ -69,3 +69,7 @@ If the slider is disabled, check first in [Device Toolbar](https://alphamanual.a
 If necessary look in the operating system mixer or in the audio interface's control panel for an input slider. For Windows see [Windows: accessing the Windows Sound controls](https://alphamanual.audacityteam.org/man/Windows:\_accessing\_the\_Windows\_Sound\_controls). To locate the system mixer for Mac and Linux see the help on our Wiki for [Mac](https://wiki.audacityteam.org/wiki/Mac\_OS\_X) or [Linux](https://wiki.audacityteam.org/wiki/Linux\_System\_Mixer).
 
 External recording devices such as [USB turntables or tapedecks](https://alphamanual.audacityteam.org/man/Recording\_with\_USB\_turntables) or interfaces may not have an operating system slider, especially on Mac. For all cases where there is no system slider, try to adjust the playback level on the recording device itself.
+
+## Audacity records silence when using a Bluetooth headset as a recording device
+
+The default project sample rate in Audacity is 44.1 kHz, whereas most modern Bluetooth headsets utilize mSBC codec which has a 16 kHz sampling rate when using microphone. Thus, in order for Audacity to record audio from a Bluetooth headset, its Audio Settings need to be changed accordingly: in [Audio Setup](https://manual.audacityteam.org/man/audio_setup_toolbar.html) toolbar, select Audio Settings. In the opened dialog, set the Project Sample Rate to 16000 Hz and Default Sample Format to 16-bit. Submit the changes by clicking the OK button.
