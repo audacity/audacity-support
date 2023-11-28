@@ -6,8 +6,8 @@ The audio on almost every phonograph record is not the same as that originally p
 
 The most relevant EQ curves are presented as [Table 1](playback-equalization-for-78-rpm-shellacs-and-early-33-lps.md#table-1-playback-equalization-curves):
 
-* You can download some of them from the [EQ Curves Library](broken-reference) section of this page, convert them to a TXT file with EQ XML to TXT Converter and import them into Audacity using or
-* You can generate any curve yourself with the [78 rpm EQ Curve Generator](broken-reference) plugin
+* You can download some of them from the [EQ Curves Library](broken-reference/) section of this page, [convert them to a TXT file with **EQ XML to TXT Converter**](eq-xml-to-txt-converter.md) and import them into Audacity using or
+* You can generate any curve yourself with the [78 rpm EQ Curve Generator](broken-reference/) plugin
 * You can set the sliders of any digital or analog graphic equalizer manually
 * You can determine appropriate settings for any adjustable analog pre-amplifier.
 
@@ -18,7 +18,7 @@ Which EQ curve will be needed for a specific record label is answered:
 
 ### Using EQ curves in Audacity
 
-In **Filter Curve EQ** or **Graphic EQ**, click on **Presets & settings**, then **Import...**.&#x20;
+Once [converted to txt](eq-xml-to-txt-converter.md), you can import the curve in the **Filter Curve EQ** or **Graphic EQ effects**, by clicking **Presets & settings** -> **Import...**.
 
 ### Equalization (EQ) Curves explained
 
@@ -30,18 +30,17 @@ Modern vinyl records use a method of pre-emphasis and de-emphasis adopted by the
 
 Each EQ curve is a combination of two filter characteristics; a bass boost curve, defined by a 'Bass Turnover' (or 3dB) frequency, and a treble cut curve, defined by a '10 kHz Gain Roll-off' parameter, i.e. a defined level of treble cut at 10 kHz.
 
-As an example, Figure 1 below shows the characteristic of the bass boost curve defined by a 500Hz Bass Turnover, and Figure 2 shows the characteristic of the treble cut curve defined by a 10 kHz Gain Roll-off of -13.7dB. These two curves, when combined, give the characteristic shown in Figure 3.\
-
+As an example, Figure 1 below shows the characteristic of the bass boost curve defined by a 500Hz Bass Turnover, and Figure 2 shows the characteristic of the treble cut curve defined by a 10 kHz Gain Roll-off of -13.7dB. These two curves, when combined, give the characteristic shown in Figure 3.\\
 
 <figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption><p>Figure 1. Bass Boost curve: 3dB at 500 Hz</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Figure 2. Treble Cut curve: -13.7 dB at 10 kHz</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Figure 3. Combined Bass Boost and Treble Cut curve</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption><p>Figure 3. Combined Bass Boost and Treble Cut curve</p></figcaption></figure>
 
 The EQ curve may also include a Low Frequency Shelving filter, (although it is absent from the definition of most 78 rpm EQ curves). This addition reduces the effect of the bass boost at very low frequencies (typically 50 or 100 Hz) in order to attenuate low-frequency noise such as turntable rumble. Figure 4 shows the effect of a 50 Hz LF shelving filter being added to the curve in Figure 3. This is in fact the RIAA standard EQ curve.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Figure 4. Combined Bass Boost, Treble Cut and 50 Hz LF Shelving curve</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Figure 4. Combined Bass Boost, Treble Cut and 50 Hz LF Shelving curve</p></figcaption></figure>
 
 Acoustically recorded (pre-electric) 78 rpm records have a completely different characteristic because they were cut with a different type of cutter (For more details see: Acoustic recordings). In some early EQ curves of electrically recorded shellacs, while there is a bass boost curve, there is no treble cut necessary – i.e. the 10 kHz gain roll-off is zero.
 
@@ -131,7 +130,7 @@ Table 1 is mostly based on Tab. 2a of: Heinz O. Graumann, Schallplatten-Schneidk
 
 \[4] Old RCA is one of the original RCA curves for shellacs. It continued to be used for 33⅓ LPs by RCA-Victor, Brunswick, Concert Hall, Coral, Decca (Amer.) and Westminster. The turnover f3 and the time constants are computed values for an equalizer set at 800N-8.
 
-\[5] 250 Hz or 300 Hz seem to be a question of personal listening preference, as explained in [Individual fine tuning](broken-reference)
+\[5] 250 Hz or 300 Hz seem to be a question of personal listening preference, as explained in [Individual fine tuning](broken-reference/)
 
 \[6] Robert C. Moyer, Evolution of a Recording Curve; in: Audio Engineering, vol.37, no.7, July 1953; pp 19-22, 53-54. Roll-off is frequently listed as between 10 and 12 dB, but this “flattening off” to ca 10 dB at 10 kHz was an intentional high cut which must not be compensated for in playback. Thus a setting of 13.7 dB is correct!
 
@@ -161,7 +160,7 @@ EQ Curves for Audacity can be generated from these Frequency and Roll-off values
 
 ## EQ Curves Library
 
-Here you can find some useful EQ curves for download to Audacity for use in Effect -> EQ and Filters -> Graphic EQ and Filter Curve EQ. (Curves are in TXT file format, as required in current Audacity and compatible down to version 2.4.0).&#x20;
+Here you can find some useful EQ curves for download to Audacity for use in Effect -> EQ and Filters -> Graphic EQ and Filter Curve EQ. (Curves are in TXT file format, as required in current Audacity and compatible down to version 2.4.0).
 
 ### 78 rpm shellacs
 
@@ -336,7 +335,7 @@ In case sources did not agree on one EQ curve, their different opinions are list
 | Mercury                     | 1945 - 1953; approx. to matrix YB9700; since late 1953 => RIAA                                                                                         | AES            | 400N-12.3 | 400                          |                      | -12.3                                  | ia,ES,mm,JP,Mc                                                                                    |
 | MGM (American)              | founded 1946; up to E3071                                                                                                                              | MGM \[MGM]     | 500N-12   | 500                          |                      | -12                                    | ia,ES,mil,JP,RF                                                                                   |
 | MGM (British)               | 1949 - 7/1953, matrix no. 0SM420                                                                                                                       | 500-FLAT       | 500N-0    | 500                          |                      | 0                                      | PC                                                                                                |
-| Musicraft                   |  ??? RCA Old Ortho.???                                                                                                                                 |                |           | 700-800                      |                      | -13.7                                  | ES,mil                                                                                            |
+| Musicraft                   | ??? RCA Old Ortho.???                                                                                                                                  |                |           | 700-800                      |                      | -13.7                                  | ES,mil                                                                                            |
 | Musicraft                   |                                                                                                                                                        |                |           | 500                          |                      | -8.5 or -12                            | JP                                                                                                |
 | Nat. Gramophonic Soc.       | 1926 - 1933, with M in a circle, cat. HHH to TTT and NGS.65 to NGS.102                                                                                 | BBC 2dB/oct.   |           |                              |                      |                                        | PC                                                                                                |
 | Nixa                        | 1950 - ?, Britain, shellacs produced by Decca UK                                                                                                       | Decca 78       | 300N-5.5  | 300                          |                      | -5.7                                   | ris                                                                                               |
@@ -507,7 +506,7 @@ In case that sources did not agree on one EQ curve, their different opinions are
 | Decca (American)                        | 1953, 33⅓ and 45 rpm                                                                                                                                                       | AES               | 400N-12.3 | 400                          | N                    | -12.3                                  | mm,JP,RF                                                                                          |
 | Decca (American)                        | 1953 - Nov 1955, 33⅓ and 45 rpm                                                                                                                                            | NAB               | 500B-16   | 500                          | B                    | -16                                    | Hi,mm,JP,RF                                                                                       |
 | Decca (British)                         | 1950-1956                                                                                                                                                                  | London LP         | 500C-10.5 | 500                          | C                    | -10.5                                  | mm                                                                                                |
-| Decca (British)                         | ffrr (from ARL1186-1B)\*\*\*                                                                                                                                               |  ???London        |           | 500                          |                      | -10                                    | ES                                                                                                |
+| Decca (British)                         | ffrr (from ARL1186-1B)\*\*\*                                                                                                                                               | ???London         |           | 500                          |                      | -10                                    | ES                                                                                                |
 | Decca (British)                         | ffrr (after 6/50)\*\*\*                                                                                                                                                    | 500-FLAT          | 500N-0    | 500                          | N                    | 0                                      | ES                                                                                                |
 | Decca (British)                         | ffrr (from ARL2530-2A)                                                                                                                                                     | RIAA              | 500R-13.7 | 500                          | R                    | -13.7                                  | ES                                                                                                |
 | Decca (European)                        | 1949 - 1954, (Telefunken + Decca UK = TELDEC since 1950)                                                                                                                   | Telefunken        | 400N-0    | 400                          | N                    | 0                                      | mm                                                                                                |
@@ -554,7 +553,7 @@ In case that sources did not agree on one EQ curve, their different opinions are
 | Lyrichord                               | 1951 - 1957(?)                                                                                                                                                             | NAB               | 500B-16   | 500                          | B                    | -16                                    | Hi,mm                                                                                             |
 | Lyrichord                               | 1950 - 1952, mastered by RCA                                                                                                                                               | Old Ortho. \[R-D] | 500N-13.7 | 500                          | N                    | 13.7                                   | PC                                                                                                |
 | Lyrichord                               |                                                                                                                                                                            |                   |           | 400                          |                      | -16                                    | mil,JP,RF                                                                                         |
-| Lyrichord                               | before 1953, (E0-E3 matrix)                                                                                                                                                |  ???AES           |           | 400                          |                      | -12                                    | ES                                                                                                |
+| Lyrichord                               | before 1953, (E0-E3 matrix)                                                                                                                                                | ???AES            |           | 400                          |                      | -12                                    | ES                                                                                                |
 | Lyrichord                               | if labeled "629"                                                                                                                                                           | Bartok            | 630C-16   | 629                          | C                    | -16                                    | ES,mil,JP,Mc                                                                                      |
 | Mercury                                 | 1948 - 1952, marked "2000Hz/3dB p.octave", MG10000 series                                                                                                                  |                   |           | 500                          |                      | -7 (3 dB/oct.)                         | PC,ES                                                                                             |
 | Mercury                                 | 1953 - Oct 1954, 33⅓ and 45s, to matrix MG50026, 7000                                                                                                                      | AES               | 400N-12.3 | 400                          | N                    | -12.3                                  | Hi,ES,mil,mm,JP, PC,Hk,Mc                                                                         |

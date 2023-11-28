@@ -67,6 +67,7 @@
 
 * [Audacity themes](additional-resources/audacity-themes.md)
 * [EQ curves](additional-resources/eq-curves/README.md)
+  * [EQ XML to TXT converter](additional-resources/eq-curves/eq-xml-to-txt-converter.md)
   * [Weighted curves](additional-resources/eq-curves/weighted-curves.md)
   * [Playback equalization for 78 rpm shellacs and early 33⅓ LPs](additional-resources/eq-curves/playback-equalization-for-78-rpm-shellacs-and-early-33-lps.md)
 * [External scripts](additional-resources/tools.md)
