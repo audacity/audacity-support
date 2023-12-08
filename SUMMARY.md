@@ -30,3 +30,7 @@
     * [Stereo Tracks Tutorial](developing-your-own-plugins-and-scripts/creating-your-own-nyquist-plugins/tutorials/stereo-tracks-tutorial.md)
     * [The \*SCRATCH\* Symbol Tutorial](developing-your-own-plugins-and-scripts/creating-your-own-nyquist-plugins/tutorials/the-scratch-symbol-tutorial.md)
 * [Creating custom themes](scripting/creating-custom-themes.md)
+
+## Refactoring
+
+* [4 steps to make an effect stateless](refactoring/4-steps-to-make-an-effect-stateless.md)
