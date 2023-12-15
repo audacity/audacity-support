@@ -4,7 +4,7 @@
 * [Installing plugins](https://support.audacityteam.org/basics/installing-plugins)
 * [FFMPEG & LAME](https://support.audacityteam.org/basics/downloading-and-installing-audacity/installing-ffmpeg)
 
-## 🆕 realtime effects
+## realtime effects
 
 * [Plugin Suites](realtime-effects/plugin-suites.md)
 * [Pitch and Tempo](realtime-effects/pitch-and-tempo.md)
@@ -15,6 +15,10 @@
 * [Equalizers](realtime-effects/equalizers.md)
 * [Modulation](realtime-effects/modulation.md)
 * [Noise Removal and Repair](realtime-effects/noise-removal-and-repair.md)
+
+## AI plugins
+
+* [AI plugins](ai-plugins/ai-plugins.md)
 
 ## Nyquist Plugins
 

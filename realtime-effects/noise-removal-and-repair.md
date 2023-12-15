@@ -94,6 +94,18 @@ Information From the vendor:
 
 </details>
 
+## RNNoise suppression for voice
+
+Removes most sounds that aren't speech.
+
+{% hint style="warning" %}
+This plugin only works with a 48000Hz sample rate. You can change the project sample rate in Audio Setup -> Audio Settings.
+{% endhint %}
+
+{% embed url="https://github.com/werman/noise-suppression-for-voice/releases" %}
+Download page
+{% endembed %}
+
 ## NVIDIA Broadcast
 
 A virtual device that sits between your microphone and Audacity and other programs which allows you to use an AI denoiser.

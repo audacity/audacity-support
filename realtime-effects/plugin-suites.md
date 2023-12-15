@@ -88,6 +88,14 @@ A selection of some effects found in Reaper.
 Download page
 {% endembed %}
 
+### Intel OpenVINO
+
+Music separation, remix and generation, noise suppression, and transscription
+
+{% embed url="https://github.com/intel/openvino-plugins-ai-audacity/releases" %}
+Download page
+{% endembed %}
+
 ## Available for macOS
 
 {% hint style="info" %}
