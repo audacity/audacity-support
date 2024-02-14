@@ -93,6 +93,7 @@
 ## Additional resources
 
 * [📄 Changelog](additional-resources/changelog/README.md)
+  * [🆕 Audacity 3.5](additional-resources/changelog/audacity-3.5.md)
   * [Audacity 3.4.2](additional-resources/changelog/audacity-3.4.2.md)
   * [Audacity 3.4.1](additional-resources/changelog/audacity-3.4.1.md)
   * [Audacity 3.4](additional-resources/changelog/audacity-3.4.md)
@@ -156,4 +157,4 @@
       * [Audacity 2.0.1](additional-resources/changelog/older-versions/audacity-2.x/audacity-2.0.1.md)
       * [Audacity 2.0.0](additional-resources/changelog/older-versions/audacity-2.x/audacity-2.0.0.md)
     * [Audacity 1.x](additional-resources/changelog/older-versions/audacity-1.x.md)
-* [Audacity Plugins](http://127.0.0.1:5000/o/-MhmG2mhIIHTtQPuHV\_k/s/klCVENFte0GRy5IqVz0W/)
+* [Audacity Plugins](https://app.gitbook.com/o/-MhmG2mhIIHTtQPuHV\_k/s/klCVENFte0GRy5IqVz0W/)
