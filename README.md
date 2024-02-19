@@ -4,6 +4,10 @@ This documentation is geared toward directing developers to any relevant informa
 
 ## Most Pertinent Information
 
+{% hint style="info" %}
+New to open source? Check out [introduction.md](getting-started/introduction.md "mention")
+{% endhint %}
+
 The go-to place for information for contributors is the [Contributing Documentation](https://github.com/audacity/audacity/blob/master/CONTRIBUTING.md). Some other sources for important information that may be necessary or useful as a developer are listed below:
 
 * [**Building Instructions**](https://github.com/audacity/audacity/blob/master/BUILDING.md) **- How to download and build the code.**
