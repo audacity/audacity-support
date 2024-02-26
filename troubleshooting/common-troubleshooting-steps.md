@@ -26,13 +26,11 @@ After rescanning audio devices try selecting a different host using the **Audio 
 
 </div>
 
-If the error is still present try changing the Project Rate to a different value:
-
-<figure><img src="../.gitbook/assets/snap to, project rate.png" alt=""><figcaption><p>Set <strong>Project Rate</strong> to a different value</p></figcaption></figure>
+If the error is still present try changing the Project Rate to a different value. This can be done via **Audio Setup -> Audio Settings -> Project Sample Rate**. Common values are 44100 and 48000.
 
 ## Recording and Playback Levels
 
-Verify that the **Recording Meter Toolbar** and the **Playback Meter Toolbar** sliders are set to an appropiate level.  Place the mouse cursor over the meter and Audacity will display the corresponding level
+Verify that the **Recording Meter Toolbar** and the **Playback Meter Toolbar** sliders are set to an appropriate level.  Place the mouse cursor over the meter and Audacity will display the corresponding level
 
 <figure><img src="../.gitbook/assets/recording level.png" alt=""><figcaption></figcaption></figure>
 
@@ -75,11 +73,11 @@ After enabling your microphone use the Audacity **Transport - Rescan Audio Devic
 {% endtab %}
 
 {% tab title="MacOS" %}
-
+No instructions for macOS are available at this time.
 {% endtab %}
 
 {% tab title="Linux" %}
-
+No instructions for Linux are available at this time.
 {% endtab %}
 {% endtabs %}
 
