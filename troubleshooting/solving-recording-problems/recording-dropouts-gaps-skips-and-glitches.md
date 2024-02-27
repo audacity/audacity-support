@@ -2,7 +2,7 @@
 description: Learn about causes and fixes for this problem.
 ---
 
-# Recording gaps, skips and glitches
+# Recording dropouts, gaps, skips and glitches
 
 ## Causes
 
@@ -12,7 +12,7 @@ Recording gaps are typically caused by an overloaded computer, or by broken cabl
 
 Audacity is for the most part a single-core application. On modern multi-core systems it typically isn't possible to bring it down with normal computer use, but it may be bottlenecked by hard drive access, and by creating very complex projects with many realtime effects.
 
-You may be able to see the bottleneck in the performance tab of the task manager (macOS: activity monitor). It typocally is CPU or storage.
+You may be able to see the bottleneck in the performance tab of the task manager (macOS: activity monitor). Typical bottlenecks are CPU or storage.
 
 {% hint style="info" %}
 **Note:** To view single-core capability, you need to view logical cores. Overall system performance averages an overloaded core with many idle cores, creating the impression that everything is fine.
@@ -41,8 +41,8 @@ There are several parts on the path between a mic and Audacity which can break: 
 * End background tasks, or wait for them to finish. These often may be antivirus scans, system updates or updates of other applications (like games).
 * Record to a hard drive which is directly attached to the computer (as opposed to a USB hub or similar).
 * Reduce the amount of data being written. In particular:&#x20;
-  * Record Mono instead of Stereo (Audio Setup -> Recording channels)
-  * Record in 16-bit instead of 32-bit (Audio Setup -> Audio Settings)
+  * Record Mono instead of Stereo (**Audio Setup -> Recording channels**)
+  * Record in 16-bit instead of 32-bit (**Audio Setup -> Audio Settings**)
 
 ### Working around broken cables, connectors and other broken hardware
 

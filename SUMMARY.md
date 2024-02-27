@@ -78,7 +78,7 @@
   * [Recording volume slider cannot be moved](troubleshooting/solving-recording-problems/recording-volume-slider-cannot-be-moved.md)
   * [Audacity records silence when using a Bluetooth headset as a recording device](troubleshooting/solving-recording-problems/audacity-records-silence-when-using-a-bluetooth-headset-as-a-recording-device.md)
   * [Only the left channel is recording](troubleshooting/solving-recording-problems/only-the-left-channel-is-recording.md)
-  * [Recording gaps, skips and glitches](troubleshooting/solving-recording-problems/recording-gaps-skips-and-glitches.md)
+  * [Recording dropouts, gaps, skips and glitches](troubleshooting/solving-recording-problems/recording-dropouts-gaps-skips-and-glitches.md)
   * [Latency Compensation](troubleshooting/solving-recording-problems/latency-compensation.md)
 * [Solving other problems](troubleshooting/solving-other-problems.md)
 * [Resetting Audacity](troubleshooting/resetting-audacity.md)
