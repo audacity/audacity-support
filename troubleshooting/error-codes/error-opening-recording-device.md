@@ -1,3 +1,7 @@
+---
+description: Learn about causes and fixes for this error.
+---
+
 # Error opening recording device
 
 ## Causes

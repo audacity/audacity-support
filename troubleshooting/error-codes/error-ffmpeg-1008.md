@@ -1,3 +1,7 @@
+---
+description: Learn about causes and fixes for this error.
+---
+
 # Error FFmpeg:1008
 
 ## Causes
