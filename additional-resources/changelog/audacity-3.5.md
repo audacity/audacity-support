@@ -38,13 +38,13 @@ You now can non-destructively change the pitch of a clip by holding Alt and pres
 
 ### Changes
 
-* Reworked the plugin manager. It's now simplified and filterable, and also has a search box.
+* \[not yet in the beta] Reworked the plugin manager. It's now simplified and filterable, and also has a search box.
 * Added an option to skip plugin scanning to Preferences -> Effects.
-* Added an option for custom plugin scanning paths to Preferences -> Effects.
+* \[not yet in the beta] Added an option for custom plugin scanning paths to Preferences -> Effects.
 * Improved accessibility. (Thanks, David Bailes!)
 * When zooming in vertically (Ctrl+scroll on the vertical scale), the zeroline now remains centered. Moving the vertical zoom off-center still is possible via Shift+scroll on the vertical scale.&#x20;
 * Changed the look of the selection adjust cursors (previously pointing fingers on Windows and macOS, now look like `>|` everywhere).
-* Changed the timeline options button from a green triangle to a settings gear. From it, you can switch between Beats & Measures or hh:mm:ss timeline rulers, set various preferences regarding to looping, as well as playhead behaviors: "Scroll view to playhead" (previously: "Update display while playing") and "Continuous scrolling" (previously: Pinned Play Head).
+* \[not yet in the beta] Changed the timeline options button from a green triangle to a settings gear. From it, you can switch between Beats & Measures or hh:mm:ss timeline rulers, set various preferences regarding to looping, as well as playhead behaviors: "Scroll view to playhead" (previously: "Update display while playing") and "Continuous scrolling" (previously: Pinned Play Head).
 * Improved BSD support. (Thanks, Brad Smith!)
 * Changed the Audacity.app icon on macOS to fit new design guidelines.
 * Added an overflow menu, as well as speed and pitch indicators to clips.

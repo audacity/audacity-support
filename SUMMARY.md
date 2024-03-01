@@ -43,7 +43,7 @@
 
 * [🆕 Enabling music view](music/enabling-music-view.md)
 * [Aligning music to beats and bars](music/aligning-music-to-beats-and-measures.md)
-* [🆕 Working with audio loops](music/working-with-audio-loops/README.md)
+* [Working with audio loops](music/working-with-audio-loops/README.md)
   * [Making audio loops](music/working-with-audio-loops/making-audio-loops.md)
 * [Isolating or removing vocals from a song](music/isolating-or-removing-vocals-from-a-song.md)
 
