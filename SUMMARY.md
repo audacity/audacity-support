@@ -28,7 +28,8 @@
 
 * [Using realtime effects](audio-editing/using-realtime-effects.md)
 * [Making crossfades](audio-editing/making-crossfades.md)
-* [🆕 Speeding up and slowing down audio](audio-editing/speeding-up-and-slowing-down-audio.md)
+* [Speeding up and slowing down audio](audio-editing/speeding-up-and-slowing-down-audio.md)
+* [🆕 Changing pitch](audio-editing/changing-pitch.md)
 * [Mixing and panning tracks](audio-editing/mixing-and-panning-tracks.md)
 * [Splitting a recording into separate tracks](audio-editing/splitting-a-recording-into-separate-tracks.md)
 * [Loudness Normalization](audio-editing/loudness-normalization.md)
@@ -41,8 +42,9 @@
 ## Music
 
 * [🆕 Enabling music view](music/enabling-music-view.md)
-* [🆕 Aligning music to beats and bars](music/aligning-music-to-beats-and-measures.md)
-* [Making audio loops](music/making-audio-loops.md)
+* [Aligning music to beats and bars](music/aligning-music-to-beats-and-measures.md)
+* [🆕 Working with audio loops](music/working-with-audio-loops/README.md)
+  * [Making audio loops](music/working-with-audio-loops/making-audio-loops.md)
 * [Isolating or removing vocals from a song](music/isolating-or-removing-vocals-from-a-song.md)
 
 ## Audio Analysis

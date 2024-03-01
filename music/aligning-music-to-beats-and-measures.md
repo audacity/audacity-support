@@ -1,4 +1,4 @@
-# 🆕 Aligning music to beats and bars
+# Aligning music to beats and bars
 
 {% hint style="info" %}
 **Note:** A measure and a bar are the same thing. Audacity uses "bar" in places where "measure" would be too long. &#x20;
@@ -34,3 +34,7 @@ When trimming a clip, you may need to turn off snapping to make finer adjustment
 Once you have everything set up and snapping enabled, simply dragging your clips will align them to the beat and bars grid.&#x20;
 
 <figure><img src="../.gitbook/assets/snap options.png" alt=""><figcaption><p>The snapping toolbar with its dropdowns. </p></figcaption></figure>
+
+***
+
+Once you have aligned your music, you can get started with adding loops and other content to the project [working-with-audio-loops](working-with-audio-loops/ "mention")

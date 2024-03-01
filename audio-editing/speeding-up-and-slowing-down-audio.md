@@ -2,7 +2,7 @@
 description: Audacity has several methods available to change speed and tempo of audio.
 ---
 
-# 🆕 Speeding up and slowing down audio
+# Speeding up and slowing down audio
 
 ## Changing speed while preserving pitch
 

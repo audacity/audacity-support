@@ -1,7 +1,7 @@
 ---
 description: >-
-  This is an overview of various error codes existing in Audacity. Each error
-  listed here shows a cause and a potential fix to it.
+  This page lists Audacity error codes and provides some troubleshooting steps
+  on how to fix them.
 ---
 
 # Error codes
