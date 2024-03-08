@@ -80,8 +80,6 @@ We **do** use this detail in our own QA work.
 
 **Selected Bugzilla-Tracked Bugs**
 
-| **ID**                                                         | **P** | **Status** | **Summary**                                                     |
-| -------------------------------------------------------------- | ----- | ---------- | --------------------------------------------------------------- |
-| [2672](http://bugzilla.audacityteam.org/show\_bug.cgi?id=2672) | P3    | RESOLVED   | Plug-ins listed in reverse alphabetic order in Plug-ins Manager |
+<table data-header-hidden><thead><tr><th width="144"></th><th width="101"></th><th width="124"></th><th></th></tr></thead><tbody><tr><td><strong>ID</strong></td><td><strong>P</strong></td><td><strong>Status</strong></td><td><strong>Summary</strong></td></tr><tr><td><a href="http://bugzilla.audacityteam.org/show_bug.cgi?id=2672">2672</a></td><td>P3</td><td>RESOLVED</td><td>Plug-ins listed in reverse alphabetic order in Plug-ins Manager</td></tr></tbody></table>
 
 * Click on the bug numbers to see work done on these bugs.

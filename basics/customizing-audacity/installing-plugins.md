@@ -2,8 +2,8 @@
 
 You can download various plugins here:
 
-{% content-ref url="http://localhost:5000/o/-MhmG2mhIIHTtQPuHV_k/s/klCVENFte0GRy5IqVz0W/" %}
-[Audacity Plugins](http://localhost:5000/o/-MhmG2mhIIHTtQPuHV\_k/s/klCVENFte0GRy5IqVz0W/)
+{% content-ref url="https://app.gitbook.com/o/-MhmG2mhIIHTtQPuHV_k/s/klCVENFte0GRy5IqVz0W/" %}
+[Audacity Plugins](https://app.gitbook.com/o/-MhmG2mhIIHTtQPuHV\_k/s/klCVENFte0GRy5IqVz0W/)
 {% endcontent-ref %}
 
 Most plugins get automatically activated once you install them on your system.

@@ -14,6 +14,8 @@ Due to patent restrictions, FFmpeg cannot be distributed with Audacity itself. H
 
 You can download and install FFmpeg as follows:
 
+{% embed url="https://youtu.be/mY9wBvDgnfQ" %}
+
 {% tabs %}
 {% tab title="Windows" %}
 ### Recommended installer
@@ -44,13 +46,7 @@ If you prefer a manual installation of FFmpeg you can download a ZIP file from a
 * Different versions of FFmpeg may have different codecs enabled in them. In particular, AMR (narrowband) is not featured in the recommended installer.&#x20;
 {% endhint %}
 
-
-
 ### Manual installation
-
-{% embed url="https://youtu.be/ROk5Hw_MWDE" %}
-Video guide
-{% endembed %}
 
 If you have installed FFmpeg from a different source, or installed it in a different location, you'll need to tell Audacity where to find it. To do this:&#x20;
 
@@ -140,11 +136,7 @@ Additionally, make sure you're using the latest version of Audacity.&#x20;
 {% tab title="Linux" %}
 On Linux, you generally can install FFmpeg as well as LAME through the package manager. You can use the following command in your Terminal/Console to install it:
 
-|                                |                                                                                                                                                                               |
-| ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Debian, Ubuntu, Pop\_OS!, Mint | `sudo apt install ffmpeg lame`                                                                                                                                                |
-| Fedora, Redhat, CentOS         | <p>First install the <a href="https://rpmfusion.org/Configuration">RPM Fusion repository</a> and check for updates, then </p><p><code>sudo dnf install ffmpeg lame</code></p> |
-| Arch, Manjaro                  | `sudo pacman -Syu ffmpeg lame`                                                                                                                                                |
+<table><thead><tr><th width="194"></th><th></th></tr></thead><tbody><tr><td>Debian, Ubuntu, Pop_OS!, Mint</td><td><code>sudo apt install ffmpeg lame</code></td></tr><tr><td>Fedora, Redhat, CentOS</td><td><p>First install the <a href="https://rpmfusion.org/Configuration">RPM Fusion repository</a> and check for updates, then </p><p><code>sudo dnf install ffmpeg lame</code></p></td></tr><tr><td>Arch, Manjaro</td><td><code>sudo pacman -Syu ffmpeg lame</code></td></tr></tbody></table>
 
 Once you have installed FFMPEG and LAME, restart Audacity. It will automatically try to detect them.&#x20;
 

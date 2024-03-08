@@ -8,11 +8,11 @@ This release is mostly focused on under-the-hood changes
 
 * Some of the built-in effects are now realtime capable (Bass & Treble, Distortion, Phaser, Reverb and Wahwah).
 * [#4352](https://github.com/audacity/audacity/pull/4352) Added a new effect: Shelf Filter.
-* Added an initial (beta) version of Beats and Bars. See [aligning-music-to-beats-and-measures.md](../../music/aligning-music-to-beats-and-measures.md "mention") for further info.&#x20;
+* Added an initial (beta) version of Beats and Bars. See [aligning-music-to-beats-and-measures.md](../../../music/aligning-music-to-beats-and-measures.md "mention") for further info.&#x20;
 * [#4414](https://github.com/audacity/audacity/pull/4414) reworked the bottom toolbar dock:
   * Project Sample Rate is now found in Audio Setup -> Audio Settings (formerly known as Project Rate).
   * The Snapping Toolbar (formerly known as Snap-To) is now independent of the Selection Toolbar.
-  * Added a new Time Signature Toolbar (beta). It is hidden by default. See [aligning-music-to-beats-and-measures.md](../../music/aligning-music-to-beats-and-measures.md "mention") for further info.
+  * Added a new Time Signature Toolbar (beta). It is hidden by default. See [aligning-music-to-beats-and-measures.md](../../../music/aligning-music-to-beats-and-measures.md "mention") for further info.
 * [#4212](https://github.com/audacity/audacity/issues/4212) Improved Zooming behavior slightly (more to come in the future).
 * [#4393](https://github.com/audacity/audacity/pull/4393) Added a new ruler, Linear (dB). This ruler goes from 0 dBFS to -∞ dBFS and better reflects the volume as shown in the recording/playback meters.
 * [#3820](https://github.com/audacity/audacity/issues/3820) When copying clips between projects, you now can choose between whether to copy smart clips or just the visible portion.

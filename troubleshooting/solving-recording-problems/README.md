@@ -73,3 +73,4 @@ External recording devices such as [USB turntables or tapedecks](https://alphama
 ## New Window appears when trying to add tracks
 If you're struggling with tracking your favorite show or song, consider right-clicking on the external file and then click on **Open with Audacity**. This will cause the track appear in a new **Audacity Project** window. Then, do Ctrl-A, Ctrl-C to copy the track, Alt-Tab back and Ctrl-V to paste, then Alt-Tab back and exit the old window. 
 You can also select the recording with your cursor, cut the select spot in the show with cursor, and paste into a new window. Lastly, delete the track from window below.
+

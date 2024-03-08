@@ -6,6 +6,10 @@ description: >-
 
 # Recording desktop audio
 
+{% embed url="https://www.youtube.com/watch?v=VB0-XfW6lms" %}
+Video tutorial for Windows
+{% endembed %}
+
 ## 1. Select the loopback device
 
 {% tabs %}
