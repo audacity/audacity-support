@@ -18,7 +18,7 @@ A band-rejection filter that passes most frequencies unaltered, but stops those 
 
 Parameters:
 
-**Center Frequency**: 100.0 to 10000.0 \[Hz].  Set the 'Center Frequency' slider, or type in a value for the center of the frequency band to block.
+**Center Frequency**: 100.0 to 10000.0 \[Hz]. Set the 'Center Frequency' slider, or type in a value for the center of the frequency band to block.
 
 **Stop-Band Width**: 0.250 to 4.000 \[Octaves]. Set the Stop-Band Width to determine how wide the cut frequency band will be. Smaller numbers will produce a narrower 'notch' and larger numbers will cut a broader band of frequencies.
 
@@ -515,5 +515,212 @@ Download Plugin
 Author: [David R.Sky](https://audionyq.com/david\_r\_sky)
 
 An Equalizer (EQ) that can modify one band at a time. Select the **band number** (1 to 10) and **gain** (-24 to +24 dB).
+
+</details>
+
+### Vocal reduction and isolation
+
+{% hint style="danger" %}
+Warning: This effect can cause data loss on macOS. See [#5864](https://github.com/audacity/audacity/issues/5864) for details.
+{% endhint %}
+
+This is the vocal reduction and isolation effect that was included in Audacity prior version 3.5.&#x20;
+
+{% file src="../../.gitbook/assets/vocalrediso.ny" %}
+Download plugin
+{% endfile %}
+
+<details>
+
+<summary>Details</summary>
+
+
+
+_**Vocal Reduction and Isolation**_ attempts to remove or isolate center-panned audio from a stereo track. Vocals are sometimes (but not always) recorded in this way. The simplest and quickest removal method subtracts one channel from the other, but the result will be (dual) mono. This method is available at "Remove Center Classic: (Mono)" under Action. All other "Remove" options in this effect preserve the stereo image.
+
+The **Isolate** options all return (dual) mono output. The narrowness of the center slice can be adjusted with the "Strength" slider. Center isolation is not possible using the classic subtraction method.
+
+The **Analyze** option displays the amount of correlation between the stereo channels and the degree of likelihood that center removal or isolation will work effectively.
+
+**WARNING:** Note carefully that when you apply an effect to a **time-stretched clip** the changed speed of the clip will be automatically **rendered**.
+
+* If you apply an effect to a selection within a time-stretched clip then Audacity will **split the original clip** so that the selection can be rendered as part of applying the effect.
+
+### Action
+
+#### Bandwidth Limited Actions <a href="#bandwidth_limited_actions" id="bandwidth_limited_actions"></a>
+
+WARNING: The Low Cut and High Cut sliders affect these actions.
+
+* **Remove Vocals: to mono:** (default). If the audio is center-panned, removes the vocal range defined by the Low Cut and High Cut sliders, and returns it as a dual-channel mono track. Audio is said to be "_center-panned_" if it is common to both left and right channels. _Cancellation_ of center panned audio is achieved by the well known "invert and mix" method.
+
+NOTE: This option is usually much quicker than the other actions because the processing is much simpler.
+
+* This setting is identical to the **"Vocal Remover** > Remove frequency band" effect in previous versions of Audacity.
+* The Strength slider is **not** used when "Remove Vocals: to mono:" is selected.
+
+<!---->
+
+* **Remove Vocals:** If the audio is center-panned, removes the vocal range defined by the Low Cut and High Cut sliders, and returns it as a stereo track.
+
+<!---->
+
+* **Isolate Vocals:** If the audio is center-panned, extracts the slider-defined vocal range and returns it as a (dual) mono track.
+
+<!---->
+
+* **Isolate Vocals and Invert:** If the audio is center-panned, extracts the slider-defined vocal range and returns it as an inverted (dual) mono track.
+
+HINT: **Inverting** a waveform is the action of flipping the audio samples upside-down, reversing their polarity. The positive samples (above the horizontal zero line in the Audacity Waveform) are moved below the zero line (so becoming negative), and negative samples are made positive.
+
+* This option is equivalent to applying the **Isolate Vocals** option and then inverting.
+* The "and Invert" options may be useful when processing using duplicated tracks. See the examples below.
+
+#### Full Spectrum Actions <a href="#full_spectrum_actions" id="full_spectrum_actions"></a>
+
+WARNING: The Low Cut and High Cut sliders have no effect with these actions.
+
+* **Remove Center: to mono:** Removes all audio (the whole frequency spectrum) that is common to both left and right channels and returns a (dual) mono track. _Cancellation_ of center panned audio is achieved by the well known "invert and mix" method.
+
+NOTE: This option is usually much quicker than the other actions because the processing is much simpler.
+
+* This setting is identical to the "**Vocal Remover** > entire spectrum" effect in previous versions of Audacity.
+* _**None**_ of the sliders are used when "Remove Center: to mono" is selected.
+
+<!---->
+
+* **Remove Center:** Removes all audio (the whole frequency spectrum) that is common to both left and right channels and returns a true stereo track.
+
+<!---->
+
+* **Isolate Center:** If the audio is center-panned, extracts the whole frequency spectrum and returns it as a (dual) mono track.
+
+<!---->
+
+* **Isolate Center and Invert:** If the audio is center-panned, extracts the whole frequency spectrum from and returns it as an inverted (dual) mono track.
+
+INFO: This option is equivalent to applying the **Isolate Center** option and then inverting.
+
+#### Analysis Action <a href="#analysis_action" id="analysis_action"></a>
+
+* **Analyze:** Tells you how great the chances are of a successful vocal reduction or isolation. It returns also the average Pan position for the selected audio. See below for an in-depth explanation.
+
+NOTE: This option only analyzes the audio. The selected audio is not modified by the effect.
+
+### Strength
+
+The shape of the center is not a thin band but rather like a tent with a pole in the middle. This means that there will always audio from other pan positions included. The **Strength** slider modifies the shape of the center. Higher values increase the degree of reduction or isolation. Zero is off (no reduction or isolation). This slider has no effect with the "Remove Center Classic: (Mono)" choice.
+
+#### Remove
+
+* **Less than 1.0:** Produces a notch with a _**V**_ shape like a ship's keel, but also with a sharp point. Use this setting to preserve some amount of the center.
+* **1.0 - the default:** Produces a notch with a _**V**_ shape. The power distribution is preserved. This is the ideal setting for most cases.
+* **Greater than 1.0:** Produces a notch with a _**U**_ shape. This removes some audio adjacent to the center, as well as the center. Note that this will not remove stereo reverberation since it is distributed over the entire pan width.
+
+#### Isolate
+
+* **Less than 1.0:** Produces a peak like a _**U**_ shape upside down, similar to an arch. Only extreme left and right are eliminated.
+* **1.0 - the default:** Produces a peak like a **''V**'' shape upside down. The power distribution is preserved. You might want a higher value when a lot of side audio leaks in. This is also the recommended setting when working with two tracks (options with **...and Invert**).
+* **Greater than 1.0:** Produces a peak with an _**A**_ shape like the Eiffel Tower (with a sharp point). This will attenuate most of the side energy but might produce artifacts or musical noise. Normalize the audio after using Isolate with a high strength setting.
+
+### Low Cut for Vocals <a href="#low_cut_for_vocals" id="low_cut_for_vocals"></a>
+
+All actions with **Vocals** in the name use this value. The frequencies below will either not be removed or not be included in the isolated audio. It is useful to exclude bass and kick drum. The default value of 120 Hz is good for most lead vocals, or even low male voices. You can enter a higher value around 170 Hz for female voices and about 230 Hz for those of children. NOTE: This control only affects "Actions" that contain the word **Vocals** in their name.
+
+### High Cut for Vocals <a href="#high_cut_for_vocals" id="high_cut_for_vocals"></a>
+
+All actions with **Vocals** in the name use this value. The frequencies above will either not be removed or not be included in the isolated audio. It is useful to exclude high sounds like bells, cymbals or Hi-hat. Note that human sounds like **S** or **Z** can also be very high in frequency - 5000 to 8000 Hz, so listen carefully to the preview. NOTE: This control only affects "Actions" that contain the word **Vocals** in their name.
+
+### Interpreting the analysis results <a href="#interpreting_the_analysis_results" id="interpreting_the_analysis_results"></a>
+
+It is recommended to analyze the audio prior to actual processing of the effect. Analysis is very fast compared to the time needed for processing.
+
+The two important values are:
+
+* **Pan Position:** This gives the average pan position for the whole selected audio. The value of the track pan slider is not included in this calculation.
+* **Correlation:** This is a measure for the similarity of the two channels. Values of +/-100 mean that the channels are exactly the same, even if one is inverted. A value of 0 means no relationship. It is fruitless to attempt removal or isolation in these cases. The ideal value is normally around +50. Values below 0 are rare and indicate that the stereo width is more than 100%. Inverting one channel makes the correlation positive.
+
+NOTE Sometimes the lead vocals are not exactly in the middle. In this case, select a short portion of audio where only the voice is audible and no other instrument. Choose **Analyze**.
+
+1. The correlation should be fairly high (around 100) which would indicate that there is indeed only the voice.
+2. Copy the value for the Pan Position. Double-click in the Pan slider to open the adjustment dialog then paste in the value with reversed sign (that is, put a minus sign in front of a positive value and a positive sign in front of a negative value).
+3. Mix and render the track. The voice will now be exactly centered and you can remove or isolate it.
+4. Do not forget to readjust the selection.
+
+### Limitations
+
+* The input must be a true stereo track and not mere (dual) mono.
+* Stereo Reverberation will not be fully removed because it is independently distributed over the whole stereo image.
+* Naturally the plug-in does not know what kind of audio is in the center. All is removed or isolated equally, whether vocals, bass or solo instruments.
+* This effect is quite slow, except for the _"Remove Center Classic: (Mono)"_ and _"Analyze"_ actions.
+
+WARNING: The whole processing is done in memory. Long selections (over half an hour) might therefore cause Audacity to crash.
+
+### Examples
+
+This effect can be used in a variety of ways:
+
+* Creating a Karaoke version from an original song\
+  Choose **Remove Vocals** if you want to keep some bass and drum beat.
+
+<!---->
+
+* Creating an acapella version from an original song\
+  Choose **Isolate Vocals** with a high Strength value. The result will probably still have some music in it. It is therefore better suited for a remix with a different accompaniment. Pure vocal versions have to be post-processed with other tools. &#x20;
+
+<!---->
+
+* Alternative to "Auto Duck" with podcasts\
+  Duplicate the track and choose **Isolate Center and Invert** on the second track. Record your voice. Silence the second track where you do not speak and the original music should be heard. On the same track, make fades at the boundaries (where the speech starts or stops).  &#x20;
+
+<!---->
+
+* Removing excessive stereo reverb from a vocal or instrument track.\
+  Use **Isolate** to make a single vocal or instrument track "dry" again.  &#x20;
+
+<!---->
+
+* Removing random system noise from a two channel recording of a mono source.\
+  use **Isolate** to remove random noise produced by the audio interface, the cables or the computer itself.
+
+<!---->
+
+* Removing single words or phrases\
+  You can remove offending content from a song or movie dialog by selecting it and choosing **Remove Vocals**. Mask it with other sounds, if necessary.
+
+<!---->
+
+* Amplifying dialogs in a movie.\
+  Duplicate the track, isolate the vocals and adjust the gain.
+
+<!---->
+
+* Converting stereo files into 3.1, 5.1 and other multi-channel formats.\
+  Duplicate the track and choose "Isolate Center and Invert" on the second track. Render all to a new track. Delete the first track, invert the second track and split the third track. Rearrange the tracks accordingly. Thus you end up with "Front Left", "Center" and "Front Right" eventually.
+
+<!---->
+
+* Extracting instrument solos\
+  Isolate the center if the solo is there, otherwise remove the center, split to mono and delete the superfluous track.
+
+<!---->
+
+* Blending between original, karaoke version and vocals only\
+  Duplicate the track and choose **Isolate Vocals and Invert** on the second track. Choose the envelope tool or fade effects to gradually change from one mode to the other. Silencing the first track results in the vocals being isolated. Silencing the second track produces the original audio. Playing both tracks together removes the vocals.
+
+<!---->
+
+* Correcting the pan position\
+  Analyze the whole track and copy the value for the pan position. Paste the value into the pan dialog and reverse the sign, that is, set a minus sign in front of positive values and vice versa.
+
+<!---->
+
+* Measuring similarity between two mono tracks\
+  Make the two tracks stereo and choose **Analyze**. The correlation value is the measure for the similarity in percent.
+
+<!---->
+
+* Applying a brick wall filter to mono tracks\
+  Duplicate a mono track, make it stereo and choose **Isolate Vocals** for band pass and **Remove Vocals** for band stop filtering. Adjust the frequencies accordingly.
 
 </details>
