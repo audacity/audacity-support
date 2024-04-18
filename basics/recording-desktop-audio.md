@@ -79,4 +79,8 @@ Recording the desktop audio will record all desktop audio, including notificatio
 
 ## 3. Record
 
-Hit the record button to record your desktop audio.&#x20;
+Hit play to ensure audio is playing and then the record button to record your desktop audio.&#x20;
+
+{% hint style="danger" %}
+**Ensure audio is playing first** when recording desktop audio as although WASAPI can record a silent audio stream it can’t record when there’s no audio stream.&#x20;
+{% endhint %}
