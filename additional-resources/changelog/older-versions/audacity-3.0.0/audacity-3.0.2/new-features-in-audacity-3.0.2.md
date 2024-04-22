@@ -26,7 +26,7 @@ We added a **Show Log** to this error message so we could gather more informatio
 
 Even so, because the original error was only occasional, we can't know for sure that it, or similar issues, are gone! We still have the extra logging in Audacity. If you do encounter the dialog indicating a problem, please click on the **Show Log** chevron to generate the log and send us a copy of the screenshot to the [Audacity Forum](https://forum.audacityteam.org/index.php). You may see a variant of the message, "**The project's database failed to reopen**"
 
-<figure><img src="../../../../.gitbook/assets/image (50).png" alt=""><figcaption><p>Clicking on the <strong>Show Log</strong> chevron will expand the message to show log data.</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (50).png" alt=""><figcaption><p>Clicking on the <strong>Show Log</strong> chevron will expand the message to show log data.</p></figcaption></figure>
 
 {% hint style="info" %}
 This can normally be resolved by simply exiting Audacity, relaunching and then making the required import of an audio file.
@@ -60,13 +60,13 @@ The **Manage Macros** dialog has been improved for this release:
 
 The Save button is grayed-out until you edit a Macro.
 
-<figure><img src="../../../../.gitbook/assets/image (44).png" alt=""><figcaption><p><strong>Manage Macros</strong> improvements</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (44).png" alt=""><figcaption><p><strong>Manage Macros</strong> improvements</p></figcaption></figure>
 
 ### Changes in Macros working on files
 
 We have extended the options in **Directories Preferences** to include a new entry for **Macro output**.
 
-<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption><p>Macro output option in <strong>Directories Preferences</strong></p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image.png" alt=""><figcaption><p>Macro output option in <strong>Directories Preferences</strong></p></figcaption></figure>
 
 If you leave the entry for **Macro output** blank then Audacity will default to creating a folder called "**macro-output**" in:
 

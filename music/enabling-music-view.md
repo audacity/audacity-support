@@ -15,3 +15,8 @@ Once you have enabled all of them, your Audacity may look something like this:
 
 <figure><img src="../.gitbook/assets/Audacity 3.4 project demo.png" alt=""><figcaption><p>Audacity with the timeline ruler set to Beats &#x26; Measures, Time Signature Toolbar enabled, snapping to 16th notes, and the Time and Selection toolbars set to beats, bars and ticks. Also visible: The<a href="../audio-editing/using-realtime-effects.md"> realtime effects</a> sidebar</p></figcaption></figure>
 
+## Benefits of music view
+
+Music view is useful to help you [align pieces of music to beats and measures](aligning-music-to-beats-and-measures.md).&#x20;
+
+It also automatically adjusts the tempo of newly imported files to fit your project tempo.

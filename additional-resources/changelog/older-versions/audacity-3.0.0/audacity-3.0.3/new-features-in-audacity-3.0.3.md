@@ -24,13 +24,13 @@ A new colorway has been introduced on Audacity 3.0.3 for Spectrograms.
 
 The image below shows a sample track in Spectrogram view with a spectral selection:
 
-<figure><img src="../../../../.gitbook/assets/image (13).png" alt=""><figcaption><p>This is now the new default colorway for Spectrograms in Audacity.</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (13).png" alt=""><figcaption><p>This is now the new default colorway for Spectrograms in Audacity.</p></figcaption></figure>
 
 #### Classic colorway
 
 If you wish to revert to the former colorway just go to and choose the **Spectrograms** tab and from there in the **Scheme** dropdown menu select **Color (classic)**.
 
-<figure><img src="../../../../.gitbook/assets/image (15).png" alt=""><figcaption><p>Use Preferences window to revert to the former colorway</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (15).png" alt=""><figcaption><p>Use Preferences window to revert to the former colorway</p></figcaption></figure>
 
 #### Additional grayscale
 
@@ -46,7 +46,7 @@ When this is enabled the audio track name is displayed superimposed translucentl
 
 Note that the track name is always shown in the Track Control Panel but will be truncated if the name is too long to fit.
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Audacity can display the track name as an overlay in the timeline</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Audacity can display the track name as an overlay in the timeline</p></figcaption></figure>
 
 This has the same effect as the setting for **Show track name as overlay** in **Tracks Preferences**.
 
@@ -56,7 +56,7 @@ Audacity will now check for updates to see if a new update of Audacity is availa
 
 The first time that you launch Audacity 3.0.3 you will see this dialog:
 
-<figure><img src="../../../../.gitbook/assets/image (12).png" alt=""><figcaption><p>Audacity will check if there are updates available</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (12).png" alt=""><figcaption><p>Audacity will check if there are updates available</p></figcaption></figure>
 
 The dialog has a direct link to **Application Preferences** enabling you to turn update checking "**off**" in order to [opt-out](new-features-in-audacity-3.0.3.md#opt-out) of update checking.
 
@@ -68,7 +68,7 @@ This has long been one of the most-requested feature requests submitted by users
 
 You can opt-out of update checking by using a new preference in **Application Preferences** where you can turn this "**off**" or "**on**" at any time, the default setting is "**on**".
 
-<figure><img src="../../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Opt-out update checking</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (3).png" alt=""><figcaption><p>Opt-out update checking</p></figcaption></figure>
 
 {% hint style="info" %}
 The setting you make in **Application Preferences** for update checking is _**not**_ changed by Reset Configuration.
@@ -81,7 +81,7 @@ The setting you make in **Application Preferences** for update checking is _**no
 
 Now if and when Audacity crashes, or produces an error, there will be a dialog to enable you to optionally send error and crash reports back to the developers and Quality Assurance.
 
-<figure><img src="../../../../.gitbook/assets/image (8).png" alt=""><figcaption><p>You can optionally send a report when Audacity crashes</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (8).png" alt=""><figcaption><p>You can optionally send a report when Audacity crashes</p></figcaption></figure>
 
 Not all error messages have the ability to automatically send back information to the developers and Quality Assurance.
 

@@ -6,11 +6,7 @@ description: Audacity can make audio sound higher or lower
 
 ## Changing pitch per clip
 
-{% hint style="info" %}
-This feature is only available in the Audacity 3.5 beta. Try it now: [https://audacityteam.org/beta ](https://audacityteam.org/beta)
-{% endhint %}
-
-You can change the pitch of a clip by selecting the clip, and then pressing **Alt+↓↑** to change the pitch by a semitone. Alternatively, you also can click on the overflow menu (...) in the top right of the clip, and then Pitch and Speed... to change it via a dialog. You can also use the dialog to change the pitch by cents instead of just semitones.
+You can change the pitch of a clip by selecting the clip, and then pressing **Alt+↓↑** to change the pitch by a semitone. Alternatively, you also can click on the overflow menu (...) in the top right of the clip, and then **Pitch and Speed...** to change it via a dialog. You can also use the dialog to change the pitch by cents instead of just semitones.
 
 Once you have changed the pitch, the clip will have an indication of how much it's been changed:
 

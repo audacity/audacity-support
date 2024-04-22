@@ -34,7 +34,7 @@ When using the (default) MME device, you may find a virtual microphone called _S
 **Note:** MacOS does not have built-in desktop audio recording capabilities. You'll need to download Soundflower to record desktop audio.
 {% endhint %}
 
-## Soundflower&#x20;
+### Soundflower
 
 {% hint style="warning" %}
 **Caution:** Soundflower is not compatible with Apple Silicon-based machines ("M1", "M2", ...)
@@ -74,13 +74,13 @@ When using PulseAudio (default for Ubuntu, Linux Mint, and others):
 Recording the desktop audio will record all desktop audio, including notification-pings, games, and Audacity itself (for example, other tracks in the timeline if you're using overdub). So unless you specifically want these noises, make sure to turn them off.
 
 {% hint style="danger" %}
-**DON'T use software playthrough** when recording desktop audio. Make sure it's off in the menu: **Transport > Transport Options > Software playthrough (on/off)** - The :heavy\_check\_mark:checkmark next to it must be turned off. You can turn off overdub here as well.&#x20;
+**DON'T use software playthrough** when recording desktop audio. Make sure it's off in the menu: **Transport > Transport Options > Software playthrough (on/off)** - The :heavy\_check\_mark:checkmark next to it must be turned off. You can turn off overdub here as well.
 {% endhint %}
 
 ## 3. Record
 
-Hit play to ensure audio is playing and then the record button to record your desktop audio.&#x20;
+Hit play to ensure audio is playing and then the record button to record your desktop audio.
 
 {% hint style="danger" %}
-**Ensure audio is playing first** when recording desktop audio as although WASAPI can record a silent audio stream it can’t record when there’s no audio stream.&#x20;
+**Ensure audio is playing first** when recording desktop audio as although WASAPI can record a silent audio stream it can’t record when there’s no audio stream.
 {% endhint %}

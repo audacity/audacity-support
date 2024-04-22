@@ -18,22 +18,22 @@ Audacity now features several music related features, such as switching between 
 
 Details can be found in the following pages:
 
-* [enabling-music-view.md](../../music/enabling-music-view.md "mention")
-* [aligning-music-to-beats-and-measures.md](../../music/aligning-music-to-beats-and-measures.md "mention")
+* [enabling-music-view.md](../../../../music/enabling-music-view.md "mention")
+* [aligning-music-to-beats-and-measures.md](../../../../music/aligning-music-to-beats-and-measures.md "mention")
 
-<figure><img src="../../.gitbook/assets/Audacity 3.4 project demo.png" alt=""><figcaption><p>Example project in Audacity 3.4</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Audacity 3.4 project demo.png" alt=""><figcaption><p>Example project in Audacity 3.4</p></figcaption></figure>
 
 ### Time stretching
 
 Hold Alt (macOS: Option) while hovering over the top third of a clip edge to stretch it.&#x20;
 
-<figure><img src="../../.gitbook/assets/clip stretch.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/clip stretch.png" alt=""><figcaption></figcaption></figure>
 
-More info: [#changing-speed-while-preserving-pitch](../../audio-editing/speeding-up-and-slowing-down-audio.md#changing-speed-while-preserving-pitch "mention")
+More info: [#changing-speed-while-preserving-pitch](../../../../audio-editing/speeding-up-and-slowing-down-audio.md#changing-speed-while-preserving-pitch "mention")
 
 ### New exporter
 
-<figure><img src="../../.gitbook/assets/export-mp3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/export-mp3.png" alt=""><figcaption></figcaption></figure>
 
 Audacity now features a new export window with easier access to options such as sample rate and custom mapping (for 5.1 or 7.1 audio). Additionally, the "Browse" button uses the native file browser now!
 

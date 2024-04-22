@@ -11,7 +11,7 @@ Fixed a bug with envelope points, which could multiply uncontrollably and cause 
 * [#1476](https://github.com/audacity/audacity/issues/1476): Envelope points are multiplied when using Filter Curve EQ or Graphic EQ
 * [#1477](https://github.com/audacity/audacity/issues/1477): Filter Curve EQ will crash if there is an envelope point outside of the selection
 
-<figure><img src="../../../../.gitbook/assets/brokenenvelopes.png" alt=""><figcaption><p>Example of the bug. It now is fixed.</p></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/brokenenvelopes.png" alt=""><figcaption><p>Example of the bug. It now is fixed.</p></figcaption></figure>
 
 ### Updating from Audacity 2.x to Audacity 3.x
 

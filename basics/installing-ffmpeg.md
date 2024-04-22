@@ -131,6 +131,8 @@ If you're using an Apple Silicon ("M1", "M2") system, make sure that your FFmpeg
 * x86\_64 (intel, also known as x64 and amd64) Audacity needs x86\_64 FFmpeg.&#x20;
 
 Additionally, make sure you're using the latest version of Audacity.&#x20;
+
+If you're using homebrew, it may be that a freshly released version is incompatible with Audacity for a while. You can run run `brew install ffmpeg@6` to install an older version of FFmpeg (in this case version 6, which corresponds to avformat 60).&#x20;
 {% endtab %}
 
 {% tab title="Linux" %}

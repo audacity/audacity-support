@@ -2,7 +2,7 @@
 description: An introduction of Audacity's loop-based music making capabilities
 ---
 
-# 🆕 Working with audio loops
+# Working with audio loops
 
 ## Getting loops
 
