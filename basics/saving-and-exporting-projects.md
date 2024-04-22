@@ -8,10 +8,6 @@ description: >-
 
 ## :cloud: Saving projects to cloud
 
-{% hint style="warning" %}
-This feature is only available in the Audacity 3.5 Beta. Try it now: [https://audacityteam.org/beta](https://audacityteam.org/beta)&#x20;
-{% endhint %}
-
 {% hint style="info" %}
 Cloud projects have backups and versioning, ensuring you'll never lose your work, even if your computer was to fail. Additionally, you can easily share them with collaborators.&#x20;
 {% endhint %}
