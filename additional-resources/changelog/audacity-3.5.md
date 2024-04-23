@@ -107,7 +107,8 @@ A full list of changes can be found [on Github](https://github.com/audacity/auda
 **macOS / Mac OS X**
 
 * Audacity 3.5 is tested on macOS 14
-  * Any macOS version since OS X 10.9  may still work, but is no longer tested.
+  * ~~Any macOS version since OS X 10.9  may still work, but is no longer tested.~~
+  * 3.5.0 is incompatible with macOS 11 and earlier due to a bug on Apple's side. 3.5.1 will be made compatible again.
 
 **Linux**
 
