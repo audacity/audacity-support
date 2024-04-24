@@ -97,6 +97,10 @@ There have been a number of removals of niche features to simplify the app. This
 
 A full list of changes can be found [on Github](https://github.com/audacity/audacity/milestone/21?closed=1).
 
+## Patches
+
+* [audacity-3.5.1.md](audacity-3.5.1.md "mention")
+
 ## Supported Platforms
 
 **Windows**

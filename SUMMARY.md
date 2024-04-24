@@ -117,6 +117,7 @@
 
 * [📄 Changelog](additional-resources/changelog/README.md)
   * [Audacity 3.5](additional-resources/changelog/audacity-3.5.md)
+  * [Audacity 3.5.1](additional-resources/changelog/audacity-3.5.1.md)
   * [Older versions](additional-resources/changelog/older-versions/README.md)
     * [Audacity 3.4](additional-resources/changelog/older-versions/audacity-3.4/README.md)
       * [Audacity 3.4.1](additional-resources/changelog/older-versions/audacity-3.4/audacity-3.4.1.md)
