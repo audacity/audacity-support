@@ -18,7 +18,7 @@ Then install the plugin in Audacity via **Tools -> Nyquist Plugin Installer** an
 
 Once installed, the converter appears in **Tools -> EQ XML to TXT Converter**.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Screenshot</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Screenshot</p></figcaption></figure>
 
 To use it,
 

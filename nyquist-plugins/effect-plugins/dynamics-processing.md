@@ -45,8 +45,7 @@ Parameters:
 1. **Exciter:** controls the high-range distortion in linear numbers from 1 to 10
 2. **Threshold:** sets the 'cutting edge' in a linear volume number from 0.0 to 1.0
 
-The plugin has no memory limits, it can process audio tracks of several hours in length without problems.\
-
+The plugin has no memory limits, it can process audio tracks of several hours in length without problems.\\
 
 </details>
 
@@ -92,7 +91,69 @@ Parameters:
 
 </details>
 
-### Limiter
+### Limiter (Audacity <3.6)
+
+Use the _Limiter_ effect to pass signals below a specified input level unaffected or gently reduced, while preventing the peaks of stronger signals from exceeding this threshold. Mastering engineers often use limiting combined with make-up gain to increase the perceived loudness of an audio recording during the audio mastering process.
+
+This limiter effect provides two basic types of effect; "limiting" and "clipping". The "limiting" effect is a special kind of [dynamic compression](https://manual.audacityteam.org/man/compressor.html) that responds very rapidly to peaks in the waveform. The "clipping" effect is a kind of [distortion](http://en.wikipedia.org/wiki/Distortion\_\(music\)) that changes the shape of the waves by "clipping" off the high and low peaks.
+
+{% file src="../../.gitbook/assets/limiter.ny" %}
+
+<details>
+
+<summary>Details</summary>
+
+![](../../.gitbook/assets/image.png)
+
+Author: Steve Daulton
+
+Usage:
+
+### Type
+
+Soft Limit (default) progressively reduces the [gain](https://manual.audacityteam.org/man/glossary.html#gain) as the amplitude of the waveform approaches the ["Limit to (dB)"](https://manual.audacityteam.org/man/limiter.html#limit\_to) threshold and prevents the waveform from exceeding that level.
+
+Hard Limit makes no change to the audio until the peaks reach the "Limit to (dB)" threshold. Where the input level (after applying optional [input gain](https://manual.audacityteam.org/man/limiter.html#Input\_Gain)) exceeds the threshold, an equal amount of negative gain is applied so that the peaks never exceed the threshold.
+
+Hard Clipping is the simplest method for reducing peaks. It just chops off the peaks at the "Limit to" threshold. Note that [clipping](https://manual.audacityteam.org/man/glossary.html#clipping) causes distortion. Hard clipping may be useful for purposefully introducing distortion on high peaks, for example to add high harmonics to percussive sounds. Excessive use of hard clipping creates a harsh distortion that is usually unpleasant. For heavier use of distortion the "Soft Clipping" option may be preferable. Hard clipping may also be useful for producing synthetic signals for scientific purposes.
+
+Soft Clipping works in much the same way as "Hard Clipping", but is less fierce in that it "squashes" the peaks rather than cutting them off flat. Soft clipping starts to reduce the peaks a little below the threshold level and progressively increases its effect as the input level increases such that the threshold is never exceeded. When applied heavily, the effect is similar to a "Fuzz Box" effect.
+
+The difference between "Hard" and "Soft" clipping is that "Hard" clipping cuts off the peaks flat, whereas "Soft" clipping rounds the corners where the waveform has been clipped, resulting in a softer sounding distortion.
+
+### Input Gain
+
+Amplifies the audio before applying the limiter.
+
+As the limiter acts on audio peaks that exceed the [Limit to (dB)](https://manual.audacityteam.org/man/limiter.html#limit\_to) threshold, it will clearly have little or no effect on audio tracks in which all of the audio is below the threshold level. In such cases, the audio should be amplified before limiting so that the limiter can work properly. Amplification could be applied using Audacity's [Amplify](https://manual.audacityteam.org/man/amplify.html) effect, or more conveniently using the "Input Gain" controls.
+
+For mono tracks, only the "mono/Left" gain control has any affect. For stereo tracks the left and right channel gains may be adjusted independently of each other.
+
+### Limit to (dB)
+
+Limits the amplitude (after optional amplifying) to this level.
+
+Whichever [type](https://manual.audacityteam.org/man/limiter.html#type) is selected, the limiter prevents the waveform from exceeding this level. (Note that [makeup gain](https://manual.audacityteam.org/man/limiter.html#mugain), if used, is applied to the waveform _after_ it has been limited.)
+
+### Hold
+
+This applies only to the "Hard Limiter" and "Soft Limiter" settings. It has no effect when using either of the "Clip" settings.
+
+In order to catch even the most sudden peak, the limiter "looks ahead" to see when the next peak is coming, and begins to reduce the gain just a little in advance of the peak. The gain level is then held at the reduced level for a short while before being released back to the normal level. Looking ahead and holding the gain level allows the gain to adjust more smoothly and reduces the amount of distortion. The shorter the "Hold" duration, the faster the limiter responds to changes in input level. It is generally desirable for the limiter to respond very rapidly, but responding _too_ rapidly will produce distortion, especial when processing low frequency sounds such as a double bass.
+
+Normally this control can be left at the default (10 ms) setting.
+
+### Apply makeup gain
+
+Amplifies the output (post limiter) close to 0 dB (usually just a little below 0 dB). This is useful when using the limiter to maximize loudness.
+
+Basically, a limiter reduces the gain (negative amplification) when the audio exceeds the "threshold" ("Limit to") level. The "Hold" time is how long (in milliseconds) the gain remains at the reduced level before returning back to normal. Usually you would want the gain to return back to normal pretty quickly after the peak has passed because you normally only want to limit the peaks and then return back to normal as quickly as possible. However, there is a problem if the limiter responds too quickly, and this is most noticeable when processing bass instruments.
+
+If there is a very low note, say below 100 Hz, then the time from one peak to the next may be longer than the "hold" time. Thus the gain will start to reduce as the peak level rises, then will start to "release" (return to normal gain) between one peak and the next. This rapid "fluttering" of the gain level distorts the waveform, which is usually undesirable. The solution to the problem is simple - just hold the gain at the reduced level for a little while so that the limiter is responding to the overall shape of the note and not the individual waveform peaks.
+
+</details>
+
+### Limiter (legacy)
 
 A "lookahead" dynamic range limiter to compress peaks that extend beyond the set threshold value.
 

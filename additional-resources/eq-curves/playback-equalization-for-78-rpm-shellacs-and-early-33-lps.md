@@ -36,11 +36,11 @@ As an example, Figure 1 below shows the characteristic of the bass boost curve d
 
 <figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Figure 2. Treble Cut curve: -13.7 dB at 10 kHz</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption><p>Figure 3. Combined Bass Boost and Treble Cut curve</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2) (1).png" alt=""><figcaption><p>Figure 3. Combined Bass Boost and Treble Cut curve</p></figcaption></figure>
 
 The EQ curve may also include a Low Frequency Shelving filter, (although it is absent from the definition of most 78 rpm EQ curves). This addition reduces the effect of the bass boost at very low frequencies (typically 50 or 100 Hz) in order to attenuate low-frequency noise such as turntable rumble. Figure 4 shows the effect of a 50 Hz LF shelving filter being added to the curve in Figure 3. This is in fact the RIAA standard EQ curve.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Figure 4. Combined Bass Boost, Treble Cut and 50 Hz LF Shelving curve</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption><p>Figure 4. Combined Bass Boost, Treble Cut and 50 Hz LF Shelving curve</p></figcaption></figure>
 
 Acoustically recorded (pre-electric) 78 rpm records have a completely different characteristic because they were cut with a different type of cutter (For more details see: Acoustic recordings). In some early EQ curves of electrically recorded shellacs, while there is a bass boost curve, there is no treble cut necessary – i.e. the 10 kHz gain roll-off is zero.
 
