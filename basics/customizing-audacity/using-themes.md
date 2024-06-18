@@ -25,6 +25,12 @@ Then,&#x20;
 3. select Custom as the theme and
 4. press OK.
 
-{% hint style="warning" %}
-Be aware that custom themes may break from one Audacity version to the next.
+{% hint style="info" %}
+**Note:** Custom themes are optimized for one version of Audacity only and may break from one Audacity version to the next. If a theme looks different from the screenshots, that's likely the reason.
 {% endhint %}
+
+## Creating custom themes
+
+For instructions on creating custom themes, please check the following page:
+
+{% embed url="https://audacity.gitbook.io/dev/scripting/creating-custom-themes" %}
