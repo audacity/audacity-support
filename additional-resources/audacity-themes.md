@@ -2,28 +2,20 @@
 description: Audacity supports custom themes in the form of ImageCache.png files.
 ---
 
-# Audacity themes
+# Audacity custom themes
 
 Installation instructions can be found here:
 
 {% embed url="https://support.audacityteam.org/basics/customizing-audacity/using-themes" %}
 
-## Audacity Theme Repository
+## Audacity themes forum
 
-A site hosting some popular themes
+Themes created by the Audacity community
 
-{% embed url="https://visoart.github.io/audacity-themes/" %}
-Download site
-{% endembed %}
-
-## Audacity Graphics forum
-
-User-submitted themes
-
-{% embed url="https://forum.audacityteam.org/viewforum.php?f=67" %}
+{% embed url="https://forum.audacityteam.org/c/themes/63" %}
 
 ## Creating custom themes
 
 Instructions on creating your own custom theme can be found here:
 
-{% embed url="https://github.com/audacity/audacity/wiki/Creating-custom-themes" %}
+{% embed url="https://audacity.gitbook.io/dev/scripting/creating-custom-themes" %}

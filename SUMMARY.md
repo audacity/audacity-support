@@ -69,7 +69,7 @@
 
 ## Additional resources
 
-* [Audacity themes](additional-resources/audacity-themes.md)
+* [Audacity custom themes](additional-resources/audacity-themes.md)
 * [EQ curves](additional-resources/eq-curves/README.md)
   * [EQ XML to TXT converter](additional-resources/eq-curves/eq-xml-to-txt-converter.md)
   * [Weighted curves](additional-resources/eq-curves/weighted-curves.md)
