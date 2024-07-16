@@ -2,7 +2,7 @@
 description: Audacity can make audio sound higher or lower
 ---
 
-# 🆕 Changing pitch
+# Changing pitch
 
 ## Changing pitch per clip
 
@@ -12,11 +12,11 @@ Once you have changed the pitch, the clip will have an indication of how much it
 
 <figure><img src="../.gitbook/assets/clip pitch indicator" alt=""><figcaption><p>The clip pitch indicator shows that the pitch has been raised by 4 semitones.</p></figcaption></figure>
 
-You can change or reset pitch at any time by clicking on the indicator.&#x20;
+You can change pitch at any time by clicking on the indicator, or reset it by `Ctrl`+clicking it (macOS: `Cmd`+clicking) .&#x20;
 
 ## Pitch correction of an entire track (Auto-Tune)
 
-&#x20;While Audacity does not have any pitch correction natively, you can use plugins such as [MuseFX PitchFix](https://www.musehub.com/) for this task. See [using-realtime-effects.md](using-realtime-effects.md "mention") and [installing-plugins.md](../basics/customizing-audacity/installing-plugins.md "mention")on how to use these plugins.
+While Audacity does not have any pitch correction natively, you can use plugins such as [MuseFX PitchFix](https://www.musehub.com/) for this task. See [using-realtime-effects.md](using-realtime-effects.md "mention") and [installing-plugins.md](../basics/customizing-audacity/installing-plugins.md "mention")on how to use these plugins.
 
 ## Changing pitch for an arbitrary audio selection
 

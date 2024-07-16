@@ -28,7 +28,7 @@ Automatic tempo detection can be turned off via **Preferences -> Import/Export**
 
 You now can non-destructively change the pitch of a clip by holding Alt and pressing the Up and Down arrow keys. Alternatively, you can click on the overflow menu (...) and select "Pitch and speed...". When changing the pitch this way, an arrow in the UI indicates how much you've shifted it.
 
-<figure><img src="../../.gitbook/assets/clip pitch indicator" alt=""><figcaption><p>Change Pitch indicator on a clip (alongside a speed indicator, and the 3-dot overflow menu)</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/clip pitch indicator" alt=""><figcaption><p>Change Pitch indicator on a clip (alongside a speed indicator, and the 3-dot overflow menu)</p></figcaption></figure>
 
 Additionally, the Pitch and speed dialog also features an option to optimize for voice which preserves [formants](https://en.wikipedia.org/wiki/Formant).
 
