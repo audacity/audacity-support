@@ -117,11 +117,15 @@ git pull upstream master
 
 ## Editing the ImageCache.png directly
 
-If you want to avoid the dance described above, you can also edit the ImageCache.png directly. A copy for the version found in 3.2.x can be found below.
+If you want to avoid the dance described above, you can also edit the ImageCache.png directly. A copy for the version found in 3.6.x can be found below.
 
-[3.2.0 imagecache.zip](https://github.com/audacity/audacity/files/10104404/3.2.0.imagecache.zip)
+<figure><img src="../.gitbook/assets/ImageCache.png" alt=""><figcaption><p>ImageCache.png</p></figcaption></figure>
 
-But again, the version of the ImageCache in above ZIP will likely only work for one version of Audacity.
+Additionally, an accompanying HTML explains what each button is called. Simply download both the PNG and HTM into the same folder, open the HTM in a browser and mouseover a button or color to get its name.
+
+{% file src="../.gitbook/assets/ImageCache.zip" %}
+
+But again, the version of the ImageCache above will likely only work for one version of Audacity.
 
 ## For users
 
