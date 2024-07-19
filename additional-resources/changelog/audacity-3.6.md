@@ -50,3 +50,27 @@ Audacity is now quite a bit snappier than before, especially when working on lar
 * [#5626](https://github.com/audacity/audacity/issues/5626) Fixed the quality slider for Ogg export on Linux. (Thanks, Devpriya Nalin!)
 * [#6875](https://github.com/audacity/audacity/issues/6875) Fixed a bug which could open a project with the wrong sample rate.
 * Various compiler warning fixes and OpenBSD build fixes. (Thanks, Brad Smith!)
+
+## Patches
+
+* [audacity-3.6.1.md](audacity-3.6.1.md "mention")
+
+## Supported Platforms
+
+**Windows**
+
+* Audacity 3.6 is tested on Windows 10 & 11
+  * Windows Vista, 7 and 8.1 may still work, but are no longer tested. We are not actively supporting these versions anymore, but still accept patches which improve compatibility with these versions.
+
+**macOS / Mac OS X**
+
+* Audacity 3.6 is tested on macOS 14
+  * Older macOS versions down to OS X 10.9 may still work, but is no longer tested. We are not actively supporting OSX versions anymore, but still accept patches which improve compatibility with these versions.
+  * The Universal Binary may not work on various OSX versions. Use the Intel (x86\_64) installer instead.
+
+**Linux**
+
+* Linux support is tested with AppImages on Ubuntu 22.04.
+  * Other Linux distributions should work, but aren't tested by the Audacity team.
+  * On some distributions, `libfuse2` needs to be installed for AppImages to work. See [https://github.com/AppImage/AppImageKit/wiki/FUSE](https://github.com/AppImage/AppImageKit/wiki/FUSE) for more information.
+  * Community-maintained distro-specific versions and other repackages (such as Flatpak) are often available, too.
