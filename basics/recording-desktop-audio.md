@@ -14,7 +14,7 @@ Video tutorial for Windows
 
 {% tabs %}
 {% tab title="Windows" %}
-* Click on **Audio Setup** and select **Windows WASAPI** as the Host
+* Click on **Audio Setup** and select **Windows WASAPI** as the Host.
 
 <figure><img src="../.gitbook/assets/Audio Setup Host Selection.png" alt=""><figcaption><p>Select <strong>Windows WASAPI in Audio Setup > Host</strong></p></figcaption></figure>
 

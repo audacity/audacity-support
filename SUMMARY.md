@@ -6,7 +6,7 @@
 
 * [Downloading & installing Audacity](basics/downloading-and-installing-audacity.md)
 * [Installing FFmpeg](basics/installing-ffmpeg.md)
-* [Recording your voice & microphone](basics/recording-your-voice-and-microphone/README.md)
+* [Recording your voice with a microphone](basics/recording-your-voice-and-microphone/README.md)
   * [Setting recording and playback levels](basics/recording-your-voice-and-microphone/setting-recording-levels-and-playback-levels.md)
 * [Recording desktop audio](basics/recording-desktop-audio.md)
 * [Editing audio](basics/audacity-editing.md)

@@ -1,8 +1,10 @@
 ---
-description: Audacity can record various types of microphones and other audio devices.
+description: >-
+  Audacity can use many types of microphones and other audio devices to record
+  audio.
 ---
 
-# Recording your voice & microphone
+# Recording your voice with a microphone
 
 ## 1. Connect your Microphone
 
@@ -12,21 +14,19 @@ You can connect your mic by plugging it into the appropriate port. In general, t
 * If you have a mic with a 3.5mm jack, plug it into a mic-in port.
 * If you have an XLR mic, plug it into an XLR-USB audio interface and the interface into the USB port.
 
-The exact details depend on both your exact computer model and your microphone model. Please see their respective manuals or support pages for further information. You may need adapters if your computer is missing appropriate ports.&#x20;
+How you will connect your microphone will depend on your computer model and your microphone. Use your manuals or support pages for further information. You may need adapters if your computer does not have the correct ports for your microphone.&#x20;
 
 {% hint style="info" %}
-**Note:** Many Laptops and Notebooks feature built-in microphones. While they may be good enough to record your voice to an intelligible standard, the recordings they produce tend to be somewhat unpleasant to listen to.&#x20;
+**Note:** Many laptops and notebooks feature built-in microphones. While they may be good enough to record your voice properly, other recordings that they produce will often be somewhat unpleasant.&#x20;
 {% endhint %}
 
 ## 2. Select your Microphone
 
-Select the microphone to record from the list of available recording devices in the **Audio Setup** toolbar
+Once you have plugged in your microphone into your computer, select the microphone to record from the list of available recording devices in the **Audio Setup** toolbar.
 
 <figure><img src="../../.gitbook/assets/Microphone Selection - Audio Setup.png" alt=""><figcaption><p>Use the <strong>Audio Setup</strong> toolbar to select the microphone you want to record</p></figcaption></figure>
 
-You may see some unexpected devices here (for example, webcams), as well as virtual devices (software pretending to be a microphone). Choose the entry that matches the microphone you actually want to use.
-
-You can also use the **Audio Setup** toolbar to select whether you'll be recording in Mono or Stereo.
+This toolbar may display some unexpected devices here (for example, webcams), as well as virtual devices (software pretending to be a microphone). Select the entry that matches the microphone you actually want to use. The **Audio Setup** toolbar will also allow you to select whether you'll be recording in Mono or Stereo.
 
 <figure><img src="../../.gitbook/assets/Recording Channels selection - Audio Setup.png" alt=""><figcaption><p>The <strong>Audio Setup</strong> toolbar also displays the number of recording channels available from your microphone</p></figcaption></figure>
 
@@ -36,7 +36,7 @@ You can also use the **Audio Setup** toolbar to select whether you'll be recordi
 
 ## 3. Test your Settings
 
-Turn on the monitoring (shown below) and tap onto your mic. If you see the green bar move when tapping the mic, you have selected the correct device in the previous step.
+Select the microphone icon and choose **Start Monitoring** (shown below) and tap your mic with your finger. If you see the green bar move when you tap the mic, you have selected the correct device in the previous step.
 
 <div>
 
@@ -58,7 +58,7 @@ Next, make a test recording. To start recording your voice in Audacity, simply p
 
 ![Transport toolbar: the record button is the second from the right](<../../.gitbook/assets/transport toolbar.png>)
 
-When you have made the recording, listen back to it. If everything went well, you should now hear your voice clearly and you should now be able to continue with the next steps.
+When you have ended the recording, listen back to it. If everything went well, you should now hear your voice clearly. Once you hear your voice clearly, you should now be able to continue with the next steps.
 
 ### Common problems
 
