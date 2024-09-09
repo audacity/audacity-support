@@ -54,6 +54,8 @@ Audacity is now quite a bit snappier than before, especially when working on lar
 ## Patches
 
 * [audacity-3.6.1.md](audacity-3.6.1.md "mention")
+* [audacity-3.6.2.md](audacity-3.6.2.md "mention")
+* [audacity-3.6.3.md](audacity-3.6.3.md "mention")
 
 ## Supported Platforms
 

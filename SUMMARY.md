@@ -120,6 +120,7 @@
   * [Audacity 3.6](additional-resources/changelog/audacity-3.6.md)
   * [Audacity 3.6.1](additional-resources/changelog/audacity-3.6.1.md)
   * [Audacity 3.6.2](additional-resources/changelog/audacity-3.6.2.md)
+  * [Audacity 3.6.3](additional-resources/changelog/audacity-3.6.3.md)
   * [Older versions](additional-resources/changelog/older-versions/README.md)
     * [Audacity 1.x](additional-resources/changelog/older-versions/audacity-1.x.md)
     * [Audacity 2.x](additional-resources/changelog/older-versions/audacity-2.x/README.md)
