@@ -6,15 +6,11 @@ description: >-
 
 # Translating Audacity
 
-Audacity is translated into multiple languages by volunteers across the world.  If you want to  contribute to translation please join the [audacity-translation](https://sourceforge.net/projects/audacity/lists/audacity-translation) mailing list and read the instructions below.
+Audacity is translated into multiple languages by volunteers across the world. You can contribute either using Transifex, or by using a local translation editor.
 
 ## Using Transifex to translate Audacity
 
-{% hint style="info" %}
-Before joining the Audacity project in Transifex please subscribe to the [audacity-translation](https://sourceforge.net/projects/audacity/lists/audacity-translation) mailing list and check the status of the translation you would like to contribute to with others members of the list.
-{% endhint %}
-
-You can find and join the Audacity project at [**https://explore.transifex.com/klyok/audacity/**](https://explore.transifex.com/klyok/audacity/)
+You can find and join the Audacity project at [**https://explore.transifex.com/audacity/audacity/**](https://explore.transifex.com/audacity/audacity/)
 
 * Click the **JOIN THIS PROJECT** button on the right side.
 * Select the language you would like to contribute to from the dropdown.
@@ -32,6 +28,23 @@ Once you have been approved as a translator you will receive a notification by e
 * Click **Save Translation** and select the next string to translate.
 
 <figure><img src="../../.gitbook/assets/Recording #57.gif" alt=""><figcaption><p>Use the Transifex Editor to translate strings</p></figcaption></figure>
+
+To speed up your workflow, various shortcuts are available, which you can see by pressing the overflow menu in the Transifex editor:
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+The most important one of these probably is `Tab`, which saves your string and automatically moves you onto the next.
+
+And that's it! Happy translating!
+
+## Join the translator community
+
+The translator community exists in two places:&#x20;
+
+* [On discord](https://discord.gg/UvNH4cFjVP)
+* [In the audacity-translation mailing list](https://sourceforge.net/projects/audacity/lists/audacity-translation)
+
+If you have any questions, or want to get notified of upcoming releases in need of translation you can do so here.
 
 ## Translate Audacity using a standalone application
 

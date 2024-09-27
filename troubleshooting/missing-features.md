@@ -55,7 +55,7 @@ You can also access the Cut/Copy/Paste functionality in the following ways inste
 
 ## Device Toolbar
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Look of the Device Toolbar</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Look of the Device Toolbar</p></figcaption></figure>
 
 The Device toolbar has been replaced by the Audio Setup button in version 3.2.0. However, you can re-enable it via **View -> Toolbars -> Device Toolbar.**
 
