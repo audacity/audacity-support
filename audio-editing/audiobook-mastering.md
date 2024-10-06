@@ -7,7 +7,7 @@ description: >-
 # Audiobook Mastering
 
 {% hint style="info" %}
-See[#notes-and-comments](audiobook-mastering.md#notes-and-comments "mention") at the end for general information about this process
+See [#notes-and-comments](audiobook-mastering.md#notes-and-comments "mention") at the end for general information about this process
 {% endhint %}
 
 ## Install the ACX Check plugin
@@ -15,10 +15,10 @@ See[#notes-and-comments](audiobook-mastering.md#notes-and-comments "mention") at
 Download and install the [ACX Check](https://plugins.audacityteam.org/analyzers/analysis-plugins#acx-check) plugin which will help you check the levels of your recording.
 
 {% hint style="info" %}
-Check [#installing-nyquist-plugins](../basics/customizing-audacity/installing-plugins.md#installing-nyquist-plugins "mention")for instructions on how to install the ACX Check plugin
+Check [#installing-nyquist-plugins](../basics/customizing-audacity/installing-plugins.md#installing-nyquist-plugins "mention") for instructions on how to install the ACX Check plugin
 {% endhint %}
 
-If you are using a version of Audacity previous to 2.4.1 you will also need to download and install [rms-normalize](https://forum.audacityteam.org/viewtopic.php?p=325078#p325078)
+If you are using a version of Audacity previous to 2.4.1 you will also need to download and install [rms-normalize](https://forum.audacityteam.org/t/rms-normalize/45334)
 
 ## Setup
 
@@ -58,7 +58,7 @@ The tool settings are sticky and you don't have to keep typing them in. If you d
 * Effect > Volume and Compression > Loudness Normalization... > Apply.
 * Effect > Volume and Compression > Limiter... > Apply.
 
-If you fail noise, then the process can be a great deal more interesting. See [#noise-compliance](audiobook-mastering.md#noise-compliance "mention")below.
+If you fail noise, then the process can be a great deal more interesting. See [#noise-compliance](audiobook-mastering.md#noise-compliance "mention") below.
 
 ## Notes and Comments
 
