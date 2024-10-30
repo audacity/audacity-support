@@ -117,10 +117,7 @@
 ## Additional resources
 
 * [📄 Changelog](additional-resources/changelog/README.md)
-  * [Audacity 3.6](additional-resources/changelog/audacity-3.6.md)
-  * [Audacity 3.6.1](additional-resources/changelog/audacity-3.6.1.md)
-  * [Audacity 3.6.2](additional-resources/changelog/audacity-3.6.2.md)
-  * [Audacity 3.6.3](additional-resources/changelog/audacity-3.6.3.md)
+  * [Audacity 3.7](additional-resources/changelog/audacity-3.7.md)
   * [Older versions](additional-resources/changelog/older-versions/README.md)
     * [Audacity 1.x](additional-resources/changelog/older-versions/audacity-1.x.md)
     * [Audacity 2.x](additional-resources/changelog/older-versions/audacity-2.x/README.md)
@@ -186,4 +183,9 @@
       * [Audacity 3.4.2](additional-resources/changelog/older-versions/audacity-3.4/audacity-3.4.2.md)
     * [Audacity 3.5](additional-resources/changelog/older-versions/audacity-3.5/README.md)
       * [Audacity 3.5.1](additional-resources/changelog/older-versions/audacity-3.5/audacity-3.5.1.md)
+    * [Audacity 3.6](additional-resources/changelog/older-versions/audacity-3.6/README.md)
+      * [Audacity 3.6.1](additional-resources/changelog/older-versions/audacity-3.6/audacity-3.6.1.md)
+      * [Audacity 3.6.2](additional-resources/changelog/older-versions/audacity-3.6/audacity-3.6.2.md)
+      * [Audacity 3.6.3](additional-resources/changelog/older-versions/audacity-3.6/audacity-3.6.3.md)
+      * [Audacity 3.6.4](additional-resources/changelog/older-versions/audacity-3.6/audacity-3.6.4.md)
 * [Audacity Plugins](https://app.gitbook.com/o/-MhmG2mhIIHTtQPuHV\_k/s/klCVENFte0GRy5IqVz0W/)

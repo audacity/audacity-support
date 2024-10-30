@@ -10,17 +10,17 @@ description: Audacity 3.6 was released on 16 July 2024, together with Muse Hub 2
 
 ### Master effects
 
-Audacity now features master effects. Master effects are effects which apply to the entire project at once. More information can be found at [using-realtime-effects.md](../../audio-editing/using-realtime-effects.md "mention").
+Audacity now features master effects. Master effects are effects which apply to the entire project at once. More information can be found at [using-realtime-effects.md](../../../../audio-editing/using-realtime-effects.md "mention").
 
 ### New compressor and limiter
 
-A new compressor and limiter has been added, replacing the previous versions. A gain reduction history has been added to these effects when they're used as a [realtime effect](../../audio-editing/using-realtime-effects.md).&#x20;
+A new compressor and limiter has been added, replacing the previous versions. A gain reduction history has been added to these effects when they're used as a [realtime effect](../../../../audio-editing/using-realtime-effects.md).&#x20;
 
 Factory Presets suitable for a wide range of use cases for these effects have been provided by Vladislav Isaev and Marek Iwaszkiewicz, available via the Presets & Settings button.
 
 ### New themes
 
-Audacity now features new and improved dark and light themes. You can switch between themes via Preferences -> Interface. The theme previously used still is around as the Classic theme, and themes even older than that can be optionally [installed as custom themes](../../basics/customizing-audacity/using-themes.md#installing-custom-themes) from [here](https://github.com/LWinterberg/classicTheme).
+Audacity now features new and improved dark and light themes. You can switch between themes via Preferences -> Interface. The theme previously used still is around as the Classic theme, and themes even older than that can be optionally [installed as custom themes](../../../../basics/customizing-audacity/using-themes.md#installing-custom-themes) from [here](https://github.com/LWinterberg/classicTheme).
 
 Updated instructions on creating custom themes can be found [here](https://audacity.gitbook.io/dev/scripting/creating-custom-themes).
 
@@ -56,6 +56,7 @@ Audacity is now quite a bit snappier than before, especially when working on lar
 * [audacity-3.6.1.md](audacity-3.6.1.md "mention")
 * [audacity-3.6.2.md](audacity-3.6.2.md "mention")
 * [audacity-3.6.3.md](audacity-3.6.3.md "mention")
+* [audacity-3.6.4.md](audacity-3.6.4.md "mention")
 
 ## Supported Platforms
 
