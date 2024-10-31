@@ -22,6 +22,7 @@ The 3.7.x series is primarily maintenance releases while we're working on Audaci
 * [#7573](https://github.com/audacity/audacity/issues/7573) Closing a project upon turning a realtime effect stack on and off doesn't crash Audacity anymore.
 * [#7610](https://github.com/audacity/audacity/issues/7610) Canceling a stereo track mid-operation no longer crashes Audacity.
 * [#7385](https://github.com/audacity/audacity/issues/7385) Importing Opus files using libopus no longer shifts the audio data.
+* Changed the login flow for cloud uploads.
 
 
 
