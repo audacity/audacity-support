@@ -20,7 +20,7 @@ Has modes optimized for male/female voices and more, and can snap to major, mino
 
 ## MAutoPitch <a href="#mwavefolder" id="mwavefolder"></a>
 
-Automatic vocal tunning effect, part of the [#mfreefxbundle](plugin-suites.md#mfreefxbundle "mention") pack
+Automatic vocal tuning effect, part of the [#mfreefxbundle](plugin-suites.md#mfreefxbundle "mention") pack
 
 <details>
 
