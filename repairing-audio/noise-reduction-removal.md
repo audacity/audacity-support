@@ -17,13 +17,12 @@ The Noise Reduction effect works best to remove a constant source of noise, like
 &#x20;To use it, use the following steps:&#x20;
 
 1. Locate a section of your recording that's just your background noise, preferably a few seconds long, and select it.
-2. Go to **Effects > Noise Reduction** and press the "**Get noise profile**" button.
+2. Go to **Effect > Noise Removal and Repair > Noise Reduction** and press the "**Get noise profile**" button.
 3. Select all the audio for which you want to reduce the noise.
-4. Go to **Effects > Noise Reduction** again. You now can tweak the settings of the reduction to your liking.\
-   **Tip:** While tuning the settings, use the "Residue" toggle to hear what sound will be removed.&#x20;
+4. Go to **Effect > Noise Removal and Repair > Noise Reduction** again. You now can tweak the settings of the reduction to your liking.\
+   **Tip:** While tuning the settings, use "Preview" to hear what sound will be removed.&#x20;
 5. Once you're satisfied with the result, click **OK** to apply it to the selected audio.\
-   **Note:** If you used the Residue toggle before, make sure to switch it back to Reduce before pressing OK.
-
+   
 {% hint style="info" %}
 **Tips:**&#x20;
 
@@ -36,10 +35,10 @@ The Noise Reduction effect works best to remove a constant source of noise, like
 The Noise Gate effect attenuates any sound quieter than a certain threshold while leaving sounds louder completely unaffected. To use it
 
 1. Select a part of the audio that's just background noise.
-2. Go to **Effects > Noise Gate...** to open the effect.
+2. Go to **Effect > Noise Removal and Repair > Noise Gate...** to open the effect.
 3. Click **Select Function: Analyse Noise Level** and press **OK**. Audacity will now tell you where your noise level lies and recommending a threshold.&#x20;
 4. Select the audio you want to apply the effect to.
-5. Go back into **Effects > Noise Gate...**, set it back to Select Function: Gate, and enter the threshold level from earlier.&#x20;
+5. Go back into **Effect > Noise Gate...**, set it back to Select Function: Gate, and enter the threshold level from earlier.&#x20;
 6. Tweak the other parameters as sound best to you.&#x20;
 7. Press OK to apply the noise gate.
 
@@ -52,7 +51,7 @@ The Noise Gate effect attenuates any sound quieter than a certain threshold whil
 The notch filter removes a hum or whistle at a specific frequency. To use it:&#x20;
 
 1. Select the audio you want to apply the effect on
-2. Go to **Effects > Notch Filter** to open the effect.
+2. Go to **Effect > EQ and Filtes > Notch Filter** to open the effect.
 3. Enter the frequency you want to reduce, together with the Q-value (how many frequencies around the main one you want it to affect - the higher the number, the less frequencies).
 4. Press OK to apply the effect.
 
