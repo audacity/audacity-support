@@ -121,7 +121,7 @@ If you want to avoid the dance described above, you can also edit the ImageCache
 
 <figure><img src="../.gitbook/assets/ImageCache.png" alt=""><figcaption><p>ImageCache.png</p></figcaption></figure>
 
-Additionally, an accompanying HTML explains what each button is called. Simply download both the PNG and HTM into the same folder, open the HTM in a browser and mouseover a button or color to get its name.
+Additionally, an accompanying HTML explains what each button is called. Simply download both the PNG and HTML into the same folder, open the HTML in a browser and mouseover a button or color to get its name.
 
 {% file src="../.gitbook/assets/ImageCache.zip" %}
 
