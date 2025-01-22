@@ -178,7 +178,7 @@ We realized that we had a couple of settings in **Tracks Behaviors Preferences**
 
 <figure><img src="../../../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Track Behaviors Preferences that affect Cut, Paste and Delete commands</p></figcaption></figure>
 
-So a new page was added to the Manual to explain the subtleties of these behaviors. See [**this page**](https://manual.audacityteam.org/man/preferences\_settings\_that\_affect\_edit\_behavior.html).
+So a new page was added to the Manual to explain the subtleties of these behaviors. See [**this page**](https://manual.audacityteam.org/man/preferences_settings_that_affect_edit_behavior.html).
 
 ### Mixer Board improvement
 
@@ -195,7 +195,7 @@ A **Repeat last used** command has been added for Generators, Analyzers and Tool
 This enables you to simply repeat the last generator, analyzer or tool that you used, with the last settings that you used.
 
 {% hint style="info" %}
-By default, **Macro' **_**commands cannot be applied either from a main menu or from a shortcut. They are not "Tool menu" items, and they do not respond to**_** Repeat Last Tool**.
+By default, **Macro'&#x20;**_**commands cannot be applied either from a main menu or from a shortcut. They are not "Tool menu" items, and they do not respond to**_**&#x20;Repeat Last Tool**.
 
 However, if a Macro has a shortcut, then it becomes listed in and it will now respond to "Repeat Last Tool", but only if it has been launched via the shortcut. The macro is still not a "Tool menu item", even though the shortcut effectively is.
 {% endhint %}
@@ -214,44 +214,44 @@ Here is a small selection of some of the most important.
 
 #### Key P1 bugs fixed
 
-* P1 [208](https://bugzilla.audacityteam.org/show\_bug.cgi?id=208) - Some effects (including equalization effects) delete Envelope Control Points, or do not move them when timeline changes
-* P1 [2367](https://bugzilla.audacityteam.org/show\_bug.cgi?id=2367) - Change Pitch effect may create spurious clip at end
-* P1 [2492](https://bugzilla.audacityteam.org/show\_bug.cgi?id=2492) - Linux: Crash when applying or previewing Sliding Stretch effect on stereo track
-* P1 [2544](https://bugzilla.audacityteam.org/show\_bug.cgi?id=2544) - "Editing a clip can move other clips" turned off can cause corruption when copying and pasting audio
-* P1 [2630](https://bugzilla.audacityteam.org/show\_bug.cgi?id=2630) - A project saved with an imported MP3 with Unicode metadata cannot be opened
-* P1 [2656](https://bugzilla.audacityteam.org/show\_bug.cgi?id=2656) - Cannot horizontal scroll when paused in Play-at-Speed
-* P1 [2669](https://bugzilla.audacityteam.org/show\_bug.cgi?id=2669) - Win: Save As can be used to overwrite the existing project without warning
+* P1 [208](https://bugzilla.audacityteam.org/show_bug.cgi?id=208) - Some effects (including equalization effects) delete Envelope Control Points, or do not move them when timeline changes
+* P1 [2367](https://bugzilla.audacityteam.org/show_bug.cgi?id=2367) - Change Pitch effect may create spurious clip at end
+* P1 [2492](https://bugzilla.audacityteam.org/show_bug.cgi?id=2492) - Linux: Crash when applying or previewing Sliding Stretch effect on stereo track
+* P1 [2544](https://bugzilla.audacityteam.org/show_bug.cgi?id=2544) - "Editing a clip can move other clips" turned off can cause corruption when copying and pasting audio
+* P1 [2630](https://bugzilla.audacityteam.org/show_bug.cgi?id=2630) - A project saved with an imported MP3 with Unicode metadata cannot be opened
+* P1 [2656](https://bugzilla.audacityteam.org/show_bug.cgi?id=2656) - Cannot horizontal scroll when paused in Play-at-Speed
+* P1 [2669](https://bugzilla.audacityteam.org/show_bug.cgi?id=2669) - Win: Save As can be used to overwrite the existing project without warning
 
 #### Key P2 bugs fixed
 
-* P2 [1300](https://bugzilla.audacityteam.org/show\_bug.cgi?id=1300) - Mac: COMMAND + V paste limitations in standard file save dialogs
-* P2 [1579](https://bugzilla.audacityteam.org/show\_bug.cgi?id=1579) - Mac: Cut/Copy from file save dialogs using shortcuts does not work
-* P2 [2187](https://bugzilla.audacityteam.org/show\_bug.cgi?id=2187) - No error/warning message when using a missing aliased audio file
-* P2 [2296](https://bugzilla.audacityteam.org/show\_bug.cgi?id=2296) - There is no Import or Export for Macros
-* P2 [2464](https://bugzilla.audacityteam.org/show\_bug.cgi?id=2464) - Cannot drag just the selected audio and label with Time Shift Tool
-* P2 [2437](https://bugzilla.audacityteam.org/show\_bug.cgi?id=2437) - Mac: "Open with" fails when Audacity is running
-* P2 [2473](https://bugzilla.audacityteam.org/show\_bug.cgi?id=2473) - Linux: Numbers on meters have opaque backgrounds
-* P2 [2487](https://bugzilla.audacityteam.org/show\_bug.cgi?id=2487) - Playback meters do not respond during preview of non-real-time effects
-* P2 [2491](https://bugzilla.audacityteam.org/show\_bug.cgi?id=2491) - Reset Configuration does not reset Extended Import preferences
-* P2 [2509](https://bugzilla.audacityteam.org/show\_bug.cgi?id=2509) - Filter curve and Graphic EQ help links are broken in release version
-* P2 [2527](https://bugzilla.audacityteam.org/show\_bug.cgi?id=2527) - Reset Configuration does not reset Project rate or selection timers
-* P2 [2573](https://bugzilla.audacityteam.org/show\_bug.cgi?id=2573) - High / Low Pass filters limited to \~94 mins stereo at 44100 Hz
-* P2 [2581](https://bugzilla.audacityteam.org/show\_bug.cgi?id=2581) - Inconsistent behavior when pasting and not enough room
-* P2 [2593](https://bugzilla.audacityteam.org/show\_bug.cgi?id=2593) - Play-at-Speed does not play unless you have used normal Play first
-* P2 [2616](https://bugzilla.audacityteam.org/show\_bug.cgi?id=2616) - Labelled Audio Cut and Delete disabled by Sync-Lock
+* P2 [1300](https://bugzilla.audacityteam.org/show_bug.cgi?id=1300) - Mac: COMMAND + V paste limitations in standard file save dialogs
+* P2 [1579](https://bugzilla.audacityteam.org/show_bug.cgi?id=1579) - Mac: Cut/Copy from file save dialogs using shortcuts does not work
+* P2 [2187](https://bugzilla.audacityteam.org/show_bug.cgi?id=2187) - No error/warning message when using a missing aliased audio file
+* P2 [2296](https://bugzilla.audacityteam.org/show_bug.cgi?id=2296) - There is no Import or Export for Macros
+* P2 [2464](https://bugzilla.audacityteam.org/show_bug.cgi?id=2464) - Cannot drag just the selected audio and label with Time Shift Tool
+* P2 [2437](https://bugzilla.audacityteam.org/show_bug.cgi?id=2437) - Mac: "Open with" fails when Audacity is running
+* P2 [2473](https://bugzilla.audacityteam.org/show_bug.cgi?id=2473) - Linux: Numbers on meters have opaque backgrounds
+* P2 [2487](https://bugzilla.audacityteam.org/show_bug.cgi?id=2487) - Playback meters do not respond during preview of non-real-time effects
+* P2 [2491](https://bugzilla.audacityteam.org/show_bug.cgi?id=2491) - Reset Configuration does not reset Extended Import preferences
+* P2 [2509](https://bugzilla.audacityteam.org/show_bug.cgi?id=2509) - Filter curve and Graphic EQ help links are broken in release version
+* P2 [2527](https://bugzilla.audacityteam.org/show_bug.cgi?id=2527) - Reset Configuration does not reset Project rate or selection timers
+* P2 [2573](https://bugzilla.audacityteam.org/show_bug.cgi?id=2573) - High / Low Pass filters limited to \~94 mins stereo at 44100 Hz
+* P2 [2581](https://bugzilla.audacityteam.org/show_bug.cgi?id=2581) - Inconsistent behavior when pasting and not enough room
+* P2 [2593](https://bugzilla.audacityteam.org/show_bug.cgi?id=2593) - Play-at-Speed does not play unless you have used normal Play first
+* P2 [2616](https://bugzilla.audacityteam.org/show_bug.cgi?id=2616) - Labelled Audio Cut and Delete disabled by Sync-Lock
 
 #### Key P3 bugs fixed
 
-* P3 [852](https://bugzilla.audacityteam.org/show\_bug.cgi?id=852) - Noise Reduction preview failure when track rate is different from project rate
-* P3 [1592](https://bugzilla.audacityteam.org/show\_bug.cgi?id=1592) - Sound Activated Recording fails when recording meter disabled
-* P3 [1686](https://bugzilla.audacityteam.org/show\_bug.cgi?id=1686) - Equalization effects ignore and remove any amplitude envelope
-* P3 [2295](https://bugzilla.audacityteam.org/show\_bug.cgi?id=2295) - ENH: cannot add a comment in a Macro with Audacity
-* P3 [2366](https://bugzilla.audacityteam.org/show\_bug.cgi?id=2366) - Macros: Run does "Select All" ignoring setting in Tracks Behaviors Preferences
-* P3 [2460](https://bugzilla.audacityteam.org/show\_bug.cgi?id=2460) - Enh: Can't select "Multi-view" as default view mode in Tracks preferences
-* P3 [2510](https://bugzilla.audacityteam.org/show\_bug.cgi?id=2510) - Mac: Drag\&Drop of a project file onto Audacity in Apps bar or Finder fails if Audacity is active in the Apps bar
-* P3 [2534](https://bugzilla.audacityteam.org/show\_bug.cgi?id=2534) - Change Speed merges selected clip with adjacent clips - _**residual fix to be tested**_
-* P3 [2564](https://bugzilla.audacityteam.org/show\_bug.cgi?id=2564) - Metadata: Artist and Year tags missing on M4A(AAC) exports
-* P3 [2611](https://bugzilla.audacityteam.org/show\_bug.cgi?id=2611) - Mixer Board does not stay on top of main window
+* P3 [852](https://bugzilla.audacityteam.org/show_bug.cgi?id=852) - Noise Reduction preview failure when track rate is different from project rate
+* P3 [1592](https://bugzilla.audacityteam.org/show_bug.cgi?id=1592) - Sound Activated Recording fails when recording meter disabled
+* P3 [1686](https://bugzilla.audacityteam.org/show_bug.cgi?id=1686) - Equalization effects ignore and remove any amplitude envelope
+* P3 [2295](https://bugzilla.audacityteam.org/show_bug.cgi?id=2295) - ENH: cannot add a comment in a Macro with Audacity
+* P3 [2366](https://bugzilla.audacityteam.org/show_bug.cgi?id=2366) - Macros: Run does "Select All" ignoring setting in Tracks Behaviors Preferences
+* P3 [2460](https://bugzilla.audacityteam.org/show_bug.cgi?id=2460) - Enh: Can't select "Multi-view" as default view mode in Tracks preferences
+* P3 [2510](https://bugzilla.audacityteam.org/show_bug.cgi?id=2510) - Mac: Drag\&Drop of a project file onto Audacity in Apps bar or Finder fails if Audacity is active in the Apps bar
+* P3 [2534](https://bugzilla.audacityteam.org/show_bug.cgi?id=2534) - Change Speed merges selected clip with adjacent clips - _**residual fix to be tested**_
+* P3 [2564](https://bugzilla.audacityteam.org/show_bug.cgi?id=2564) - Metadata: Artist and Year tags missing on M4A(AAC) exports
+* P3 [2611](https://bugzilla.audacityteam.org/show_bug.cgi?id=2611) - Mixer Board does not stay on top of main window
 
 ### Links
 

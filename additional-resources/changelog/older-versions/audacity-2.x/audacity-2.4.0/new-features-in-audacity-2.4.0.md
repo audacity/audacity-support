@@ -38,11 +38,11 @@ Note carefully that this Export creates a single exported text file with just th
 {% endhint %}
 
 {% hint style="info" %}
-**The equalization effects:** Filter Curve EQ **and** Graphic EQ**:**
+**The equalization effects:** Filter Curve EQ **and** Graphic E&#x51;**:**
 
 In common with all other effects these now facilitate the import of pre-existing equalization curves for use in the effect.
 
-* Many published curves, such as those on the [**Audacity Wiki**](https://wiki.audacityteam.org/wiki/78rpm\_playback\_curves#curves), and curves you may have exported in earlier versions of Audacity with the old Equalization effect, are in .XML format.
+* Many published curves, such as those on the [**Audacity Wiki**](https://wiki.audacityteam.org/wiki/78rpm_playback_curves#curves), and curves you may have exported in earlier versions of Audacity with the old Equalization effect, are in .XML format.
 * Graphic EQ, like all other Audacity effects, expects the imports to be text files in .TXT format. To facilitate this we have provided a tool **EQ XML to TXT Converter**, this is not enabled by default but you can enable it with the **Plug-in Manager** after which it will be present in the Tools Menu.
 {% endhint %}
 
@@ -72,7 +72,7 @@ It is accessed from those commands then choosing **Opus (OggOpus) Files (FFmpeg)
 This **Opus Export** replaces the previous "opus" export from the (**external program)** option in the Export dialogs, which never worked for "opus", always giving a failure error message.
 
 {% hint style="info" %}
-Opus Export is only available on Windows and Linux for now - we aim to provide it on Mac in a future release - see [Bug #2381](https://bugzilla.audacityteam.org/show\_bug.cgi?id=2381).
+Opus Export is only available on Windows and Linux for now - we aim to provide it on Mac in a future release - see [Bug #2381](https://bugzilla.audacityteam.org/show_bug.cgi?id=2381).
 {% endhint %}
 
 ### Changed behaviors for resizing and moving labels
@@ -239,21 +239,21 @@ Here is a small selection of some of the most important.
 
 #### Key P1 bugs fixed
 
-* P1 [2227](https://bugzilla.audacityteam.org/show\_bug.cgi?id=2227) - Mac: Audacity does not run properly on macOS 10.15 Catalina
-* P1 [2237](https://bugzilla.audacityteam.org/show\_bug.cgi?id=2237) - Equalization effects have no Import or Export for curves
-* P1 [2261](https://bugzilla.audacityteam.org/show\_bug.cgi?id=2261) - Graphic EQ sliders have no frequency labels
-* P1 [2265](https://bugzilla.audacityteam.org/show\_bug.cgi?id=2265) - Track heights are reset to default on project re-opening
-* P1 [2303](https://bugzilla.audacityteam.org/show\_bug.cgi?id=2303) - Playback does not start at the saved cursor position on reopening a saved project.
-* P1 [2314](https://bugzilla.audacityteam.org/show\_bug.cgi?id=2314) - Zoom in fail when playing
+* P1 [2227](https://bugzilla.audacityteam.org/show_bug.cgi?id=2227) - Mac: Audacity does not run properly on macOS 10.15 Catalina
+* P1 [2237](https://bugzilla.audacityteam.org/show_bug.cgi?id=2237) - Equalization effects have no Import or Export for curves
+* P1 [2261](https://bugzilla.audacityteam.org/show_bug.cgi?id=2261) - Graphic EQ sliders have no frequency labels
+* P1 [2265](https://bugzilla.audacityteam.org/show_bug.cgi?id=2265) - Track heights are reset to default on project re-opening
+* P1 [2303](https://bugzilla.audacityteam.org/show_bug.cgi?id=2303) - Playback does not start at the saved cursor position on reopening a saved project.
+* P1 [2314](https://bugzilla.audacityteam.org/show_bug.cgi?id=2314) - Zoom in fail when playing
 
 #### Key P2 bugs fixed
 
-* P2 [2062](https://bugzilla.audacityteam.org/show\_bug.cgi?id=2062) - Export as WAV does not remember the previously used setting
-* P2 [2214](https://bugzilla.audacityteam.org/show\_bug.cgi?id=2214) - Rendering a single track unnecessarily moves the track to project bottom
-* P2 [2218](https://bugzilla.audacityteam.org/show\_bug.cgi?id=2218) - Rendering a single track unnecessarily strips it of its properties
-* P2 [2345](https://bugzilla.audacityteam.org/show\_bug.cgi?id=2345) - "Ignore blank space" Preference fails on Export Multiple based on "Tracks"
-* P2 [2358](https://bugzilla.audacityteam.org/show\_bug.cgi?id=2358) - Loop Quick-Play does not scroll when playing
-* P2 [2382](https://bugzilla.audacityteam.org/show\_bug.cgi?id=2382) - Timer record: if a labels are present recording starts at last label position - not cursor position
+* P2 [2062](https://bugzilla.audacityteam.org/show_bug.cgi?id=2062) - Export as WAV does not remember the previously used setting
+* P2 [2214](https://bugzilla.audacityteam.org/show_bug.cgi?id=2214) - Rendering a single track unnecessarily moves the track to project bottom
+* P2 [2218](https://bugzilla.audacityteam.org/show_bug.cgi?id=2218) - Rendering a single track unnecessarily strips it of its properties
+* P2 [2345](https://bugzilla.audacityteam.org/show_bug.cgi?id=2345) - "Ignore blank space" Preference fails on Export Multiple based on "Tracks"
+* P2 [2358](https://bugzilla.audacityteam.org/show_bug.cgi?id=2358) - Loop Quick-Play does not scroll when playing
+* P2 [2382](https://bugzilla.audacityteam.org/show_bug.cgi?id=2382) - Timer record: if a labels are present recording starts at last label position - not cursor position
 
 ### Links
 

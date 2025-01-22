@@ -164,7 +164,7 @@ If your FFmpeg or LAME installation didn't get detected, you'll need to tell Aud
     If this message **does not appear**, proceed with the next steps.
 4. _In case of FFMPEG:_\
    In the "**Locate FFmpeg**" dialog, click **Browse...** to locate the **libavformat.so.\*** from the FFMPEG folder you downloaded/installed elsewhere.\
-   _In case of LAME:_\
+   &#xNAN;_&#x49;n case of LAME:_\
    In the "**Locate LAME**" dialog, click **Browse...** to locate the **libmp3lame.so** that you downloaded/installed elsewhere.
 5. Once you've found it, click **Open**, then **OK** and **OK** again to close the preferences.&#x20;
 {% endtab %}

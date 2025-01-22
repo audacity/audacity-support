@@ -38,15 +38,7 @@ This toolbar may display some unexpected devices here (for example, webcams), as
 
 Select the microphone icon and choose **Start Monitoring** (shown below) and tap your mic with your finger. If you see the green bar move when you tap the mic, you have selected the correct device in the previous step.
 
-<div>
-
-<figure><img src="../../.gitbook/assets/Start Monitoring (1).png" alt=""><figcaption><p>Click on the microphone to start monitoring</p></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/Monitoring Recording Level.png" alt=""><figcaption><p>Audacity will display the microphone level in the recording meter</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../../.gitbook/assets/Enable silent monitoring.png" alt=""><figcaption><p>Click on the microphone to start monitoring</p></figcaption></figure> <figure><img src="../../.gitbook/assets/silent monitoring.png" alt=""><figcaption><p>Audacity will display the microphone level in the recording meter</p></figcaption></figure></div>
 
 Then try to speak in a normal volume. In general, the volume should remain in the green zone throughout (in general, between -18 and -12 dB is best).
 

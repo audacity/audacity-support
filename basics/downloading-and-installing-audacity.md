@@ -28,7 +28,7 @@ Audacity has been installed and you can open it from the Start menu.
 
 * Go to Audacity's download page at [https://www.audacityteam.org/](https://www.audacityteam.org/), then click the site's blue download button.&#x20;
 * Once the site has responded, you can click **Run** or **Save**.&#x20;
-* If you click the **Save** button, go to your Downloads folder (usually C:\users\your name\Downloads_),_ locate the Audacity installer, and double-click it.
+* If you click the **Save** button, go to your Downloads folder (usually C:\users\your name\Download&#x73;_),_ locate the Audacity installer, and double-click it.
   * If you are using Windows 11, you may be warned that Audacity has not been verified by Microsoft. You should click **Install anyway.**
 
 ![Windows 11 warning when running Audacity installer](<../.gitbook/assets/Windows 11 - Microsoft-verified app warning.png>)
