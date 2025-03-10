@@ -1,14 +1,10 @@
 ---
-description: Audacity 3.7.2 will be released on 3 Mar 2025 (probably)
+description: Audacity 3.7.2 was released on 10 Mar 2025
 ---
 
 # Audacity 3.7.2
 
 
-
-{% hint style="danger" %}
-This release is not published yet.
-{% endhint %}
 
 This is a patch release. It contains the following changes:&#x20;
 
@@ -31,3 +27,6 @@ This is a patch release. It contains the following changes:&#x20;
 * [#7154](https://github.com/audacity/audacity/issues/7154) Fixed label texts using the wrong color in dark themes. (Thanks, GovindaMadhava!)
 * [#8261](https://github.com/audacity/audacity/pull/8261) Fixed tracks being incorrectly drawn on high zoom levels using high precision trackpads.
 * [#7902](https://github.com/audacity/audacity/issues/7902) Linux: Fixed FFmpeg loading in the Ubuntu 22.04 AppImage.
+* [#8309](https://github.com/audacity/audacity/issues/8309) Fixed crossfading tracks on stretched clips.
+* [#8234](https://github.com/audacity/audacity/issues/8234) You no longer need to click OK twice to exit the label editor in some edit states. (Thanks, Kurtsley!)
+* [#8160](https://github.com/audacity/audacity/issues/8160) Playback quality is now the same as rendering quality by default.&#x20;
