@@ -112,7 +112,7 @@
   * [Credits & License](community/contributing/credits-and-license.md)
 * [💬 Discord](https://discord.gg/audacity)
 * [💬 Forum](https://forum.audacityteam.org/)
-* [Info for Visually Impaired Users](https://vip.chowo.co.uk/wp-content/uploads/jaws/Audacity-3.6.2-Guide.html)
+* [Info for Visually Impaired Users](https://vip.chowo.co.uk/wp-content/uploads/jaws/Audacity-3.7.3-Guide.html)
 
 ## Additional resources
 
