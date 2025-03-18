@@ -26,8 +26,8 @@ Audacity has been installed and you can open it from the Start menu.
 
 ## Installing Audacity from the Internet
 
-* Go to Audacity's download page at [https://www.audacityteam.org/](https://www.audacityteam.org/), then click the site's blue download button.&#x20;
-* Once the site has responded, you can click **Run** or **Save**.&#x20;
+* Go to Audacity's download page at [https://www.audacityteam.org/](https://www.audacityteam.org/), then click the **Download Audacity without MuseHub** button. You alternatively can download Audacity through MuseHub in which case the following procedure will differ.&#x20;
+* Once the download starts, you can click **Run** or **Save**.&#x20;
 * If you click the **Save** button, go to your Downloads folder (usually C:\users\your name\Download&#x73;_),_ locate the Audacity installer, and double-click it.
   * If you are using Windows 11, you may be warned that Audacity has not been verified by Microsoft. You should click **Install anyway.**
 
@@ -70,7 +70,7 @@ Audacity has been installed and you can open it from the Start menu.
 {% endtab %}
 
 {% tab title="macOS" %}
-* Go to the download page: [https://www.audacityteam.org/](https://www.audacityteam.org/) and click the blue download button.&#x20;
+* Go to the download page: [https://www.audacityteam.org/](https://www.audacityteam.org/) and click the "**Download without MuseHub**" button. Alternatively, you also can download Audacity through MuseHub, in which case the following procedure will differ.
 * If your system prompts you, click **Save**.&#x20;
 * The Audacity website will save the Audacity DMG file in your Downloads folder. Next, double-click the DMG file to start the install process.
 *   Once the Audacity application icon appears, drag it into the Applications folder (see below). You will need administrator privileges to accomplish this task. _Do not launch Audacity from the DMG folder._&#x20;
@@ -88,7 +88,7 @@ Audacity has been installed and you can open it from the Start menu.
 {% tab title="Linux" %}
 ## Installing Audacity with an AppImage
 
-1. Go to the download page: [https://www.audacityteam.org/](https://www.audacityteam.org/) and click the blue download button.&#x20;
+1. Go to the download page: [https://www.audacityteam.org/](https://www.audacityteam.org/) and click the download button.&#x20;
 2.  The downloaded AppImage needs to be runnable. To achieve this, **right-click** the file **-> Properties -> Permissions** or run the following command inside your terminal:
 
     ```
