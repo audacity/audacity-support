@@ -6,6 +6,7 @@
 
 * [BUILDING.md](https://github.com/audacity/audacity/blob/master/BUILDING.md)
 * [Introduction to Audacity development](getting-started/introduction.md)
+* [Codebase overview](getting-started/codebase-overview.md)
 * [Coding standards](getting-started/coding-standards/README.md)
   * [Making Audacity Doxygenable](getting-started/coding-standards/making-audacity-doxygenable.md)
 * [Strings & translatable code](getting-started/strings-and-translatable-code.md)
