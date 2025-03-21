@@ -31,10 +31,10 @@ Audacity 4-specific code can be found in [`src/`](https://github.com/audacity/au
 
 The directories in src/ contain subdirectories with some separation of concerns:&#x20;
 
-* `internal/` contains the internal calculations, often only displaying
+* `internal/` contains the internal calculations, generally only relevant within the directory its in.
 * `qml/` contains QML files - ie layouts for various components.
 * `tests/` contains unit tests. New code should have at least 80% unit test coverage.&#x20;
-* `types/` contains custom types and data structures needed in that area
+* `types/` contains custom types and data structures needed in that area.
 * `view/` contains the things data which should be displayed by the QML above.
 
 {% hint style="info" %}
