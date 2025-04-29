@@ -6,7 +6,7 @@ description: Learn about causes and fixes for this problem.
 
 ## Causes
 
-This is a visual indication that your recording has [clipping](https://alphamanual.audacityteam.org/man/Audacity\_Waveform#clip). See [crackles-pops-and-distortion-in-the-recording.md](crackles-pops-and-distortion-in-the-recording.md "mention")for more information.
+This is a visual indication that your recording has [clipping](https://manual.audacityteam.org/man/audacity_waveform.html#clip). See [crackles-pops-and-distortion-in-the-recording.md](crackles-pops-and-distortion-in-the-recording.md "mention") for more information.
 
 ## Fixes
 
