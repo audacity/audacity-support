@@ -15,6 +15,12 @@ Audacity does not come with any group policies or installers intended for instit
 
 ## Compliance
 
+### Accessibility
+
+Audacity is largely accessible. A usage guide can be found in the sidebar; a VPAT document can be found at [audacityteam.org/VPAT](https://audacityteam.org/VPAT).
+
+### Privacy
+
 Audacity by default only collects minimal data for update checking and crash reporting; details can be found in the [privacy policy](https://www.audacityteam.org/desktop-privacy-notice/). Audacity's data is stored in the Netherlands; the **only personal data stored is a UUID** (which can be turned off in the preferences). This also is true for the [AI plugins ](https://www.audacityteam.org/download/openvino/)- those process all data on your own device, without sending them to some cloud server (hence why the installer downloads so much stuff).
 
 In addition, it has an Audio.com ([privacy policy](https://audio.com/legal/privacy-notice.pdf)) integration which needs explicit user action (sign up) to activate.&#x20;
