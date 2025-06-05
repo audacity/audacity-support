@@ -14,7 +14,7 @@ MuseFX is a free and expanding collection of high quality plugins for Audacity, 
 Download Muse hub
 {% endembed %}
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>MuseFX can be downloaded from the "Effects" tab in the Muse Hub</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>MuseFX can be downloaded from the "Effects" tab in the Muse Hub.</p><p>Check individual plugins for availablility on Linux Platforms.</p></figcaption></figure>
 
 ## Available for all platforms
 
