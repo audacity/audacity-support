@@ -85,6 +85,7 @@
   * [Latency Compensation](troubleshooting/solving-recording-problems/latency-compensation.md)
 * [Solving other problems](troubleshooting/solving-other-problems.md)
 * [Resetting Audacity](troubleshooting/resetting-audacity.md)
+* [Uninstalling OpenVINO models](troubleshooting/uninstalling-openvino-models.md)
 * [Missing features](troubleshooting/missing-features.md)
 
 ## Special uses

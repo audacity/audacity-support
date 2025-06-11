@@ -1,15 +1,15 @@
 ---
-description: Audacity 3.7.4 will be released on xx Jun 2025
+description: Audacity 3.7.4 was released on 10 Jun 2025
 ---
 
 # Audacity 3.7.4
 
-{% hint style="danger" %}
-This version is not released yet.
-{% endhint %}
-
 This is a patch release. It contains the following changes:
 
+* Added a new welcome/what's new screen.
+* OpenVINO effects are now available on macOS.&#x20;
+* OpenVINO effects can now be found via the Get Effects button. (NB, this is a slow rollout - you may not see it there just yet at the time of release)
+* OpenVINO effects have been recategorized into their own category in the effects menu. This also goes for the transcription and music generator feature, previously found in the Generate and Analyze menus, respectively.
 * [#6890](https://github.com/audacity/audacity/issues/6890) Fixed a crash when closing a large unsaved project.
 * [#8709](https://github.com/audacity/audacity/issues/8709) Fixed a crash when using real-time effects that activate delay compensation.
 * [#8494](https://github.com/audacity/audacity/issues/8494) Fixed issue where Studio Fade Out creates a new clip when applied at the end of a clip.
