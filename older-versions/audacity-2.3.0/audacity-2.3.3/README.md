@@ -94,7 +94,7 @@ On the dynamic buglist page you can select to view:
 * Workarounds for some bugs.
 * Serious bugs and less serious bugs.
 
-You can choose various combinations of these. However, there are probably too many minor bugs and too much detail on that [dynamic buglist page](broken-reference) for most users.
+You can choose various combinations of these. However, there are probably too many minor bugs and too much detail on that [dynamic buglist page](../../audacity-2.x/audacity-2.3.0/audacity-2.3.3/broken-reference/) for most users.
 
 We **do** use this detail in our own QA work.
 
@@ -116,9 +116,9 @@ We **do** use this detail in our own QA work.
 
 **Selected Bugzilla-Tracked Bugs**
 
-| **ID**                                                         | **P** | **Status** | **Summary (2 tasks)** [**⇒**](http://bugzilla.audacityteam.org/buglist.cgi?\&field0-0-0=bug\_id\&type0-0-0=equals\&value0-0-0=276\&field0-0-1=bug\_id\&type0-0-1=equals\&value0-0-1=1585\&field0-0-2=bug\_id\&type0-0-2=equals\&value0-0-2=2227\&field0-1-0=bug\_status\&type0-1-0=notequals\&value0-1-0=CLOSED) | **ID**                                                         |
-| -------------------------------------------------------------- | ----- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
-| [2227](http://bugzilla.audacityteam.org/show\_bug.cgi?id=2227) | P1    | RESOLVED   | Mac: Audacity does not run properly on macOS 10.15 Catalina                                                                                                                                                                                                                                                      | [2227](http://bugzilla.audacityteam.org/show\_bug.cgi?id=2227) |
-| [276](http://bugzilla.audacityteam.org/show\_bug.cgi?id=276)   | P3    | NEW        | Linux: PULSE-AUDIO issues. Freeze repeatedly starting/stopping streams                                                                                                                                                                                                                                           | [276](http://bugzilla.audacityteam.org/show\_bug.cgi?id=276)   |
+| **ID**                                                        | **P** | **Status** | **Summary (2 tasks)** [**⇒**](http://bugzilla.audacityteam.org/buglist.cgi?\&field0-0-0=bug_id\&type0-0-0=equals\&value0-0-0=276\&field0-0-1=bug_id\&type0-0-1=equals\&value0-0-1=1585\&field0-0-2=bug_id\&type0-0-2=equals\&value0-0-2=2227\&field0-1-0=bug_status\&type0-1-0=notequals\&value0-1-0=CLOSED) | **ID**                                                        |
+| ------------------------------------------------------------- | ----- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------- |
+| [2227](http://bugzilla.audacityteam.org/show_bug.cgi?id=2227) | P1    | RESOLVED   | Mac: Audacity does not run properly on macOS 10.15 Catalina                                                                                                                                                                                                                                                  | [2227](http://bugzilla.audacityteam.org/show_bug.cgi?id=2227) |
+| [276](http://bugzilla.audacityteam.org/show_bug.cgi?id=276)   | P3    | NEW        | Linux: PULSE-AUDIO issues. Freeze repeatedly starting/stopping streams                                                                                                                                                                                                                                       | [276](http://bugzilla.audacityteam.org/show_bug.cgi?id=276)   |
 
 * Click on the bug numbers to see work done on these bugs.

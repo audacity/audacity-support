@@ -15,11 +15,11 @@ This is a patch release. It contains the following changes:
 * [#9100](https://github.com/audacity/audacity/issues/9100), [#8890](https://github.com/audacity/audacity/issues/8890) Updated libopus to 1.5.2, updated libcurl to 8.12.1, updated libpng to 1.6.50
 
 {% hint style="warning" %}
-## A note on Windows on ARM support
+### A note on Windows on ARM support
 
 Windows on ARM (WoA) Audacity only works in Windows 11.
 
-The normal "FFmpeg for Audacity" installer does not work for WoA Audacity. You need to find an WoA FFmpeg version and manually link it.&#x20;
+The normal "FFmpeg for Audacity" installer does not work for WoA Audacity. You need to find an WoA FFmpeg version and manually link it.
 
 Other plugins (VST, OpenVINO, ...) won't work at all at this time.
 
