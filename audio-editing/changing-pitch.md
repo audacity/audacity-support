@@ -10,13 +10,13 @@ You can change the pitch of a clip by selecting the clip, and then pressing **Al
 
 Once you have changed the pitch, the clip will have an indication of how much it's been changed:
 
-<figure><img src="../.gitbook/assets/clip pitch indicator" alt=""><figcaption><p>The clip pitch indicator shows that the pitch has been raised by 4 semitones.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/clip%20pitch%20indicator" alt=""><figcaption><p>The clip pitch indicator shows that the pitch has been raised by 4 semitones.</p></figcaption></figure>
 
-You can change pitch at any time by clicking on the indicator, or reset it by `Ctrl`+clicking it (macOS: `Cmd`+clicking) .&#x20;
+You can change pitch at any time by clicking on the indicator, or reset it by `Ctrl`+clicking it (macOS: `Cmd`+clicking) .
 
 ## Pitch correction of an entire track (Auto-Tune)
 
-While Audacity does not have any pitch correction natively, you can use plugins such as [MuseFX PitchFix](https://www.musehub.com/) for this task. See [using-realtime-effects.md](using-realtime-effects.md "mention") and [installing-plugins.md](../basics/customizing-audacity/installing-plugins.md "mention")on how to use these plugins.
+While Audacity does not have any pitch correction natively, you can use plugins such as [MuseFX PitchFix](https://www.musehub.com/) for this task. See [using-realtime-effects.md](using-realtime-effects.md "mention") and [Broken link](broken-reference "mention")on how to use these plugins.
 
 ## Changing pitch for an arbitrary audio selection
 
@@ -24,4 +24,4 @@ While Audacity does not have any pitch correction natively, you can use plugins 
 **Caution:** This method permanently alters the audio data and cannot be changed later.
 {% endhint %}
 
-To change the pitch of an arbitrary selection of audio, go to **Effects -> Pitch and Tempo -> Change Pitch**.&#x20;
+To change the pitch of an arbitrary selection of audio, go to **Effects -> Pitch and Tempo -> Change Pitch**.

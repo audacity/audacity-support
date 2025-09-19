@@ -8,7 +8,7 @@ During onboarding, you'll be asked for app theme (light or dark), clip theme and
 
 ## Knobs
 
-In addition to sliders, we've added a new Knob control. To increase the value of a knob, simply click it and drag it up or right, to decrease it, drag it down or left. Double-clicking resets the knob value, `Shift`+dragging lets you do finer adjustments.
+In addition to sliders, we've added a new Knob control. **To increase the value of a knob, simply click it and drag it up or right, to decrease it, drag it down or left**. Double-clicking resets the knob value, `Shift`+dragging lets you do finer adjustments.
 
 ## Sync Lock
 
@@ -20,11 +20,13 @@ In Audacity 4, clips can be selected directly, and multiple clips can be selecte
 
 <figure><img src="../.gitbook/assets/grafik.png" alt=""><figcaption></figcaption></figure>
 
-You can trim and stretch all selected clips at once using the handles that appear on the side of selected clips. You can also move clips on top of other existing clips; doing so will cause the existing clip to be "eaten" into.
+You can trim and stretch all selected clips at once using the handles that appear on the side of selected clips.&#x20;
+
+You can also move clips on top of other existing clips; doing so will cause the existing clip to be "eaten" into.
 
 ## Plugins
 
-At the time of writing (before the first alpha), only the following plugin formats are supported: VST3, VST, AU (macOS only), LV2 (Linux only). The remaining plugin formats (LADSPA, Nyquist, VAMP, as well as new ones like CLAP) may be (re-)added in the future.&#x20;
+At the time of writing (Alpha 1), only the following plugin formats are supported: VST3, VST, AU (macOS only), LV2 (Linux only). The remaining plugin formats (LADSPA, Nyquist, VAMP, as well as new ones like CLAP) may be (re-)added in the future.&#x20;
 
 ## Tool modes
 

@@ -15,11 +15,12 @@ We expect the following flow to work reasonably well:&#x20;
 
 We haven't completed all development tasks for the full app yet. As such, a lot of features are missing, or appear disabled for the moment. We expect the following things to not work right now:
 
-* Various menu items and buttons, which you'll see greyed out
-* Various plugins – Nyquist, LADSPA and VAMP and the OpenVINO plugins have not been ported over yet.
-* Automatic carrying over of Audacity 3 preferences
-* Some more advanced features, like envelopes, labels, spectrograms aren't available yet
-* Most effects/generators/analyzers aren't available yet
+* Various menu items and buttons haven't been hooked up to functionality yet, you'll see them greyed out.
+* Various plugins – Nyquist, LADSPA and VAMP and the OpenVINO plugins  – have not been ported over yet.
+* Preferences from Audacity 3 are not carried over.
+* Some more advanced features, like envelopes, labels, spectrograms aren't available yet.
+* Most effects/generators/analyzers aren't available yet.
+* Opening multiple projects at the same time is not supported yet.
 
 ## We want your feedback
 

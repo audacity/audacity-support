@@ -15,7 +15,7 @@ See [#notes-and-comments](audiobook-mastering.md#notes-and-comments "mention") a
 Download and install the [ACX Check](https://plugins.audacityteam.org/analyzers/analysis-plugins#acx-check) plugin which will help you check the levels of your recording.
 
 {% hint style="info" %}
-Check [#installing-nyquist-plugins](../basics/customizing-audacity/installing-plugins.md#installing-nyquist-plugins "mention") for instructions on how to install the ACX Check plugin
+Check [Broken link](broken-reference "mention") for instructions on how to install the ACX Check plugin
 {% endhint %}
 
 If you are using a version of Audacity previous to 2.4.1 you will also need to download and install [rms-normalize](https://forum.audacityteam.org/t/rms-normalize/45334)
@@ -31,8 +31,6 @@ Export a WAV (Microsoft) 16-bit sound file of your raw reading and save it in a 
 #### Automatic
 
 To automate the audiobook mastering process, first download the macro:
-
-{% file src="../.gitbook/assets/Audiobook-Mastering-Macro.txt" %}
 
 Then, in Audacity, go to **Tools -> Macro Manager** and press the **Import...** button and browse to the file. Import it and then close the Macro Manager.
 
@@ -80,7 +78,7 @@ Only then start editing, processing, filtering and correcting. Keep testing the 
 
 Those are the three values displayed in the ACX Check panel
 
-<figure><img src="../.gitbook/assets/ACX Check plugin analysis result.png" alt=""><figcaption><p><strong>ACX Check</strong> plugin analysis result</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/ACX%20Check%20plugin%20analysis%20result.png" alt=""><figcaption><p><strong>ACX Check</strong> plugin analysis result</p></figcaption></figure>
 
 <details>
 
@@ -110,13 +108,9 @@ We assume you've already been through Audiobook Mastering and failed ACX Technic
 
 ### Microphone Hiss
 
-{% file src="../.gitbook/assets/NoisyMicrophone.mp3" %}
-Microphone hiss sound sample
-{% endfile %}
-
 This is a gentle spring rain in the trees sound behind your voice. Microphone systems make noises like this naturally and it's your job to make your voice loud enough so nobody notices the noise, but not so loud your voice distorts.
 
-If the hiss isn't too bad, try a gentle correction such as Noise Reduction of the Beast (6, 6, 6) or **Edit > Undo** and try 9, 6, 6. You can hear the hiss getting quieter and recede into the background as you increase the first number.  Apply Nose Reduction and then try ACX Check again. If you need reduction as high as 12, 6, 6, your voice may get wine-glassy or honky and the show may not pass ACX inspection.
+If the hiss isn't too bad, try a gentle correction such as Noise Reduction of the Beast (6, 6, 6) or **Edit > Undo** and try 9, 6, 6. You can hear the hiss getting quieter and recede into the background as you increase the first number. Apply Nose Reduction and then try ACX Check again. If you need reduction as high as 12, 6, 6, your voice may get wine-glassy or honky and the show may not pass ACX inspection.
 
 {% hint style="info" %}
 See [noise-reduction-removal.md](../repairing-audio/noise-reduction-removal.md "mention") for further details.
@@ -134,7 +128,7 @@ The solution may be to change your announcing style or even the microphone. You 
 
 Computer fan, air conditioning, refrigerators or other machines.
 
-If possible turn off fans or machines while you're presenting. And yes, we understand the contradiction of needing to watch the Audacity screen, remove the noisy computer from your room and keep the computer one USB cable away from your USB microphone all at the same time.&#x20;
+If possible turn off fans or machines while you're presenting. And yes, we understand the contradiction of needing to watch the Audacity screen, remove the noisy computer from your room and keep the computer one USB cable away from your USB microphone all at the same time.
 
 People have done it by extending the keyboard, mouse and monitor outside their studio, but you are warned against extending a USB cable, particularly with audio (or video) production.
 
@@ -151,10 +145,6 @@ See [noise-reduction-removal.md](../repairing-audio/noise-reduction-removal.md "
 ### Mosquito Whine
 
 Some computers and USB microphones hate each other and produce mosquito whine sound.
-
-{% file src="../.gitbook/assets/USBMicrophoneWhineClip.mp3" %}
-USB microphone whine sound sample
-{% endfile %}
 
 Whine doesn't respond well to **Effect > Noise Removal and Repair >** **Noise Reduction**.
 
