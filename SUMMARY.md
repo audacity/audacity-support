@@ -9,6 +9,22 @@
 * [Workspaces](new-in-audacity-4/workspaces.md)
 * [Page](new-in-audacity-4/page.md)
 
+## Audacity Basics <a href="#basics" id="basics"></a>
+
+* [Downloading & installing Audacity](basics/downloading-and-installing-audacity.md)
+* [Installing FFmpeg](basics/installing-ffmpeg.md)
+* [Recording your voice with a microphone](basics/recording-your-voice-and-microphone/README.md)
+  * [Setting recording and playback levels](basics/recording-your-voice-and-microphone/setting-recording-levels-and-playback-levels.md)
+* [Recording desktop audio](basics/recording-desktop-audio.md)
+* [Editing audio](basics/audacity-editing.md)
+* [Saving and exporting projects](basics/saving-and-exporting-projects.md)
+* [☁️ Sharing audio online](basics/sharing-audio-online.md)
+* [Customizing Audacity](basics/customizing-audacity/README.md)
+  * [Using themes](basics/customizing-audacity/using-themes.md)
+  * [Installing plugins](basics/customizing-audacity/installing-plugins.md)
+  * [Effect Presets](basics/customizing-audacity/effect-presets.md)
+* [Keyboard shortcuts](basics/keyboard-shortcuts.md)
+
 ## Tutorials
 
 * [Editing basics](tutorials/editing-basics.md)
@@ -16,3 +32,25 @@
 ## How-to-guides
 
 * [Page 1](how-to-guides/page-1.md)
+
+## Audio Editing
+
+* [🆕 Using master effects & realtime effects](audio-editing/using-realtime-effects.md)
+* [Making crossfades](audio-editing/making-crossfades.md)
+* [Speeding up and slowing down audio](audio-editing/speeding-up-and-slowing-down-audio.md)
+* [Changing pitch](audio-editing/changing-pitch.md)
+* [Mixing and panning tracks](audio-editing/mixing-and-panning-tracks.md)
+* [🆕 Reducing dynamic range (Compressor / Limiter)](audio-editing/reducing-dynamic-range-compressor-limiter.md)
+* [Splitting a recording into separate tracks](audio-editing/splitting-a-recording-into-separate-tracks.md)
+* [Loudness Normalization](audio-editing/loudness-normalization.md)
+* [Macros](audio-editing/macros/README.md)
+  * [Manage Macros](audio-editing/macros/manage-macros.md)
+  * [Macros Palette](audio-editing/macros/macros-palette.md)
+  * [Macros Examples](audio-editing/macros/macros-examples.md)
+* [Audiobook Mastering](audio-editing/audiobook-mastering.md)
+
+## Special uses
+
+* [Expected uses](special-uses/expected-uses.md)
+* [Info for Visually Impaired Users](https://vip.chowo.co.uk/wp-content/uploads/jaws/Audacity-3.7.3-Guide.html)
+* [Info for System Administrators](special-uses/info-for-system-administrators.md)
