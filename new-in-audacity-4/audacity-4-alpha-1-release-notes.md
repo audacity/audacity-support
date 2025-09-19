@@ -18,6 +18,21 @@ We haven't completed all development tasks for the full app yet. As such, a lot 
 * Various menu items and buttons, which you'll see greyed out
 * Various plugins – Nyquist, LADSPA and VAMP and the OpenVINO plugins have not been ported over yet.
 * Automatic carrying over of Audacity 3 preferences
+* Some more advanced features, like envelopes, labels, spectrograms aren't available yet
+* Most effects/generators/analyzers aren't available yet
 
-## What we want your feedback on
+## We want your feedback
+
+Please let us know your thoughts on how things feel and behave, as well as performance. You can leave your feedback at the following places:&#x20;
+
+* [Audacity 4 forum](https://forum.audacityteam.org/c/au4/64)
+* [Audacity Discord](https://discord.gg/audacity)
+
+## System requirements
+
+Audacity 4 has higher system requirements than Audacity 3, mostly due to [Qt's platform support](https://doc.qt.io/qt-6/supported-platforms.html). We expect Audacity 4 Alpha 1 to work on the following platforms:&#x20;
+
+* Windows 10 & 11 (x64, but not ARM yet)
+* macOS 12 and later
+* Linux: Ubuntu 22.04, RedHat 8.6, openSUSE 15.6, Debian 11.6 and later
 

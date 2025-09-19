@@ -16,17 +16,17 @@ Video tutorial for Windows
 {% tab title="Windows" %}
 * Click on **Audio Setup** and select **Windows WASAPI** as the Host.
 
-<figure><img src="../.gitbook/assets/Audio Setup Host Selection.png" alt=""><figcaption><p>Select <strong>Windows WASAPI in Audio Setup > Host</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Audio%20Setup%20Host%20Selection.png" alt=""><figcaption><p>Select <strong>Windows WASAPI in Audio Setup > Host</strong></p></figcaption></figure>
 
 * Select the output you want to use (the device you're using to listen) as the input. It will be marked with a (loopback) after it's name.
 
-<figure><img src="../.gitbook/assets/Loopback device selection.png" alt=""><figcaption><p>Select the <strong>loopback</strong> option for the device you want to record audio from.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Loopback%20device%20selection.png" alt=""><figcaption><p>Select the <strong>loopback</strong> option for the device you want to record audio from.</p></figcaption></figure>
 
 {% hint style="info" %}
 When using the (default) MME device, you may find a virtual microphone called _Stereo Mix_, _What you hear_ or similar in it. This also will record your desktop audio.
 {% endhint %}
 
-![Selecting Stereo Mix as an alternative to record desktop audio](<../.gitbook/assets/Stereo Mix Recording option.png>)
+![Selecting Stereo Mix as an alternative to record desktop audio](../.gitbook/assets/Stereo%20Mix%20Recording%20option.png)
 {% endtab %}
 
 {% tab title="macOS" %}
@@ -34,7 +34,7 @@ When using the (default) MME device, you may find a virtual microphone called _S
 **Note:** MacOS does not have built-in desktop audio recording capabilities. You'll need to download Soundflower to record desktop audio.
 {% endhint %}
 
-### Soundflower
+#### Soundflower
 
 {% hint style="warning" %}
 **Caution:** Soundflower is not compatible with Apple Silicon-based machines ("M1", "M2", ...)
@@ -59,11 +59,11 @@ When using PulseAudio (default for Ubuntu, Linux Mint, and others):
     If your system uses Pulse by default, the pulse device may be called **default**.
 3.  Enable the recording meter by selecting **Start Monitoring**.
 
-    <figure><img src="../.gitbook/assets/image (2) (2).png" alt=""><figcaption><p>Click the Microphone icon to start monitoring the recording level</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image%20(2)%20(2).png" alt=""><figcaption><p>Click the Microphone icon to start monitoring the recording level</p></figcaption></figure>
 4. Open **PulseAudio Volume Control** and choose the **Recording** tab.
 5.  In the **Capture from** dropdown, select the "Monitor" option of the playback device used by the application you want to record from
 
-    <figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption><p>PulseAudio Volume Control - Select <strong>Capture from:</strong> Monitor of device</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image%20(17).png" alt=""><figcaption><p>PulseAudio Volume Control - Select <strong>Capture from:</strong> Monitor of device</p></figcaption></figure>
 6. Launch the application that you wish to record and begin playback.
 7. In the "Recording" tab of PulseAudio Volume Control, drag the volume sliders so that the recording level in Audacity's Recording Meter is to left of 0 dB (-6 dB is a good level to aim for).
 {% endtab %}
