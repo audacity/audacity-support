@@ -14,69 +14,71 @@ To start editing, you need some sort of sound to edit. You can either [record so
 **Note:** To import proprietary file formats such as M4A or WMA, you need to [install FFMPEG](installing-ffmpeg.md) first.
 {% endhint %}
 
-Once you have that, you will see a waveform of your sound:
+Once you have imported a file, you will see a waveform of your sound:
 
-![The waveform of a song](../.gitbook/assets/audacity%20project%20window.png)
+![The waveform of a song](../.gitbook/assets/audacity_z6GbENS4oe.png)
 
-This waveform is a visual representation of the song. The larger the blue "blob" is, the louder the section. Lines standing alone ("spikes") indicate sudden and short loud sections such as clicks, snaps, claps and drum hits. With a bit of practice, you can use the waveform to quickly find your way around an audio file.
+This waveform is a visual representation of the song. The larger the dark "blob" is, the louder the section. Lines standing alone ("spikes") indicate sudden and short loud sections such as clicks, snaps, claps and drum hits. With a bit of practice, you can use the waveform to quickly find your way around an audio file.
 
 ## Removing sections of a song
 
 To remove a section of an audio file, first select the section by **clicking and dragging** in the waveform.
 
-![A selected waveform](../.gitbook/assets/create_selection.png)
+![A selected waveform](../.gitbook/assets/audacity_yRdnwreOtc.png)
 
 {% hint style="info" %}
-**Hint**: You can zoom in using the ![](../.gitbook/assets/ZoomIn.png)Zoom+ icon, or by `Ctrl+Scroll` (`Cmd+Scroll`) to precisely adjust the beginning and end of the selection.
+**Hint**: You can zoom in using the by scrolling while holding the Ctrl key ( `Ctrl+Scroll`, macOS: `Cmd+Scroll`) to precisely adjust the beginning and end of the selection.
 {% endhint %}
 
 Once you have a selection, press `Delete` or `Backspace` to delete it.
 
 ## Moving sections of audio (clips)
 
-Audacity supports clips, which are pieces of audio inside the project which can be moved independently. Technically, any audio you record or import already exists as a clip, denoted by the rounded clip handle bars above the waveform.
+Audacity supports clips, which are pieces of audio inside the project which can be moved independently. Any audio you record or import already exists as a clip.&#x20;
 
-You can **click + drag** on the clip handle bar to move a clip around.
+You can **click + drag** on the clip header bar to move a clip around.
 
-![A clip handle bar. double-click to rename, Click and drag to move around.](../.gitbook/assets/clip.png)
+![A clip handle bar. Double-click to rename, Click and drag to move around.](../.gitbook/assets/audacity_kPOwT5F7Jb.png)
+
+{% hint style="info" %}
+**Note**: You can move a clip on top of another clip, into other tracks, or into the empty space below the tracks to create a new track.
+{% endhint %}
 
 ## Splitting up clips
 
-To split a clip into two independent clips,
+To split a clip into two independent clips, use the following steps:
 
-1.  Click into the waveform where you want to split the clip.
+1. Click on the **split tool** icon (scissors), or press `S`. This will cause any subsequent clicks to split the clip.
+2. **Click** into a clip to split it.&#x20;
 
-    **Tip:** To make precise adjustments, zoom in first.
-2. **Right-click > Split Clip** (`Ctrl+I` / `Cmd+I`)
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-**Note:** If you select some audio instead, it will create a clip out of the selection.
+**Note:** You can also Click+drag across the waveform to split out a section.
 {% endhint %}
 
 ## Resizing and trimming clips
 
-To trim a clip, hover with your cursor around the **upper third** of the left or right edge of a clip:
+To trim a clip, first select it by clicking into its header bar. This will cause some icons ("handles") to appear next to the clip.
 
-![To trim a clip, click + drag on the upper third of the sides.](../.gitbook/assets/trim_clip.png)
+![To trim a clip, click + drag on the upper set of icons](../.gitbook/assets/audacity_gBS9ZRuYHe.png)
 
-Then **click and drag** the edge to trim the clip to it's desired length.
+Once you see them, **click and drag** with the upper set of icons to trim the clip to it's desired length.
 
 {% hint style="info" %}
 **Note:** Trimming is a non-destructive operation. You can un-trim a clip at any time. If you have created your clip by [splitting up](audacity-editing.md#splitting-up-clips) a larger clip, you can even un-trim the current clip until it's at the length of the old clip. If you want to permanently remove the trimmed data, you can copy the clip to another project, choose **Selected audio only** when pasting, and move it back.
 {% endhint %}
 
-## Applying Effects
+## Speeding up and slowing down clips
 
-Audacity supports a wide range of effects and effect plugins. These effects can be used for [noise-reduction-removal.md](../repairing-audio/noise-reduction-removal.md "mention") and more, and while each effect does different things, they all generally can be applied in the following way:
+Just like trimming, speeding up and slowing down clips is done with handles next to the clip. To summon them, first click into the header bar to select it.&#x20;
 
-1. Select the audio you want to apply the effect to.
-2. Go to the **Effect menu.**
-3.  Select the effect you want to use. Typically, a window like this will open:
+<figure><img src="../.gitbook/assets/audacity_gBS9ZRuYHe.png" alt=""><figcaption></figcaption></figure>
 
-    ![](../.gitbook/assets/Normalize_effect.png)
-4. Tweak the effect to your liking. You can click the **Preview** button to hear a short sample before applying it to the whole selection.
-5. Press OK to apply the effect.
+Then, click and drag on the lower set of icons (the clocks) to speed it up or slow it down.&#x20;
 
-{% hint style="success" %}
-**Best practice:** If you want to apply an effect to an entire track, use [realtime effects ](../audio-editing/using-realtime-effects.md)instead. By doing so, you can change the effect at any point later on.
+{% hint style="info" %}
+Note: A sped-up or slowed down clip will have a little indicator in the top right corner. \
+![](<../.gitbook/assets/image (1).png>)\
+You can click on it to access advanced options (such as optimizing the stretching algorithm for voice), or to enter an exact number.
 {% endhint %}

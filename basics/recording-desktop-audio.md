@@ -70,7 +70,7 @@ Recording the desktop audio will record all desktop audio, including notificatio
 {% hint style="danger" %}
 **DON'T use input monitoring** when recording desktop audio. Make sure it's off.
 
-<img src="../.gitbook/assets/image (8).png" alt="" data-size="original">
+<img src="../.gitbook/assets/image (10).png" alt="" data-size="original">
 {% endhint %}
 
 ## 3. Record

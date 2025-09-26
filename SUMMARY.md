@@ -17,15 +17,6 @@
 * [Editing audio](basics/audacity-editing.md)
 * [Saving and exporting projects](basics/saving-and-exporting-projects.md)
 
-## Tutorials
-
-* [How to use Audacity 4](tutorials/how-to-use-audacity-4.md)
-* [Editing basics](tutorials/editing-basics.md)
-
-## How-to-guides
-
-* [Page 1](how-to-guides/page-1.md)
-
 ## Audio Editing
 
 * [🆕 Using master effects & realtime effects](audio-editing/using-realtime-effects.md)
@@ -41,5 +32,4 @@
 ## Special uses
 
 * [Expected uses](special-uses/expected-uses.md)
-* [Info for Visually Impaired Users](https://vip.chowo.co.uk/wp-content/uploads/jaws/Audacity-3.7.3-Guide.html)
 * [Info for System Administrators](special-uses/info-for-system-administrators.md)
