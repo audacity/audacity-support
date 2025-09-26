@@ -24,7 +24,7 @@ How you will connect your microphone will depend on your computer model and your
 
 Once you have plugged in your microphone into your computer, select the microphone using **Audio setup -> Recording devices**.
 
-<figure><img src="../.gitbook/assets/audacity_8NX36Ll2oh.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/audacity_8NX36Ll2oh.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 ### Notes
@@ -38,7 +38,7 @@ Once you have plugged in your microphone into your computer, select the micropho
 
 To start recording your voice in Audacity, simply press the red record button.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 When you have ended the recording, listen back to it. If everything went well, you should now hear your voice clearly.&#x20;
 
@@ -46,11 +46,11 @@ When you have ended the recording, listen back to it. If everything went well, y
 ### Best practices
 
 If the meter next to the track goes into the red, or the waveform looks like a square block, you likely are recording too loud, resulting in distortion called _clipping_. Turn down your mic or move away from it to avoid clipping.\
-&#x20;<img src="../.gitbook/assets/image (2).png" alt="" data-size="original">
+&#x20;<img src="../../.gitbook/assets/image (2).png" alt="" data-size="original">
 
 If you see the meter next to the track stay close to the bottom, and barely see the waveform move at all, you likely are recording too quietly. Turn up your mic, or move closer to it. You can also raise the volume afterwards by amplifying it with the Amplify effect. \
-![](<../.gitbook/assets/image (3).png>)
+![](<../../.gitbook/assets/image (3).png>)
 
 If you click on the microphone button in the toolbar, you can see a meter with decibel markings. Typically the ideal range for your recording to sit at is at -18 to -12 dB, if you're speaking normally.\
-<img src="../.gitbook/assets/image (4).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (4).png" alt="" data-size="original">
 {% endhint %}

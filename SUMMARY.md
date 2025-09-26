@@ -12,11 +12,10 @@
 ## Audacity Basics <a href="#basics" id="basics"></a>
 
 * [Installing FFmpeg](basics/installing-ffmpeg.md)
-* [Recording your voice with a microphone](basics/recording-your-voice-and-microphone.md)
+* [Recording your voice with a microphone](basics/recording-your-voice-and-microphone/README.md)
 * [Recording desktop audio](basics/recording-desktop-audio.md)
 * [Editing audio](basics/audacity-editing.md)
 * [Saving and exporting projects](basics/saving-and-exporting-projects.md)
-* [Keyboard shortcuts](basics/keyboard-shortcuts.md)
 
 ## Tutorials
 
@@ -37,10 +36,6 @@
 * [🆕 Reducing dynamic range (Compressor / Limiter)](audio-editing/reducing-dynamic-range-compressor-limiter.md)
 * [Splitting a recording into separate tracks](audio-editing/splitting-a-recording-into-separate-tracks.md)
 * [Loudness Normalization](audio-editing/loudness-normalization.md)
-* [Macros](audio-editing/macros/README.md)
-  * [Manage Macros](audio-editing/macros/manage-macros.md)
-  * [Macros Palette](audio-editing/macros/macros-palette.md)
-  * [Macros Examples](audio-editing/macros/macros-examples.md)
 * [Audiobook Mastering](audio-editing/audiobook-mastering.md)
 
 ## Special uses
