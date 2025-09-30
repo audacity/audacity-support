@@ -7,7 +7,6 @@
 * [Audacity 3 to 4 transition guide](new-in-audacity-4/audacity-3-to-4-transition-guide.md)
 * [Audacity 4 Alpha 1 release notes](new-in-audacity-4/audacity-4-alpha-1-release-notes.md)
 * [Customizing Audacity's UI](new-in-audacity-4/workspaces.md)
-* [Page](new-in-audacity-4/page.md)
 
 ## Audacity Basics <a href="#basics" id="basics"></a>
 
@@ -19,15 +18,9 @@
 
 ## Audio Editing
 
-* [🆕 Using master effects & realtime effects](audio-editing/using-realtime-effects.md)
-* [Making crossfades](audio-editing/making-crossfades.md)
-* [Speeding up and slowing down audio](audio-editing/speeding-up-and-slowing-down-audio.md)
-* [Changing pitch](audio-editing/changing-pitch.md)
+* [Using master effects & realtime effects](audio-editing/using-realtime-effects.md)
 * [Mixing and panning tracks](audio-editing/mixing-and-panning-tracks.md)
-* [🆕 Reducing dynamic range (Compressor / Limiter)](audio-editing/reducing-dynamic-range-compressor-limiter.md)
-* [Splitting a recording into separate tracks](audio-editing/splitting-a-recording-into-separate-tracks.md)
-* [Loudness Normalization](audio-editing/loudness-normalization.md)
-* [Audiobook Mastering](audio-editing/audiobook-mastering.md)
+* [Reducing dynamic range (Compressor / Limiter)](audio-editing/reducing-dynamic-range-compressor-limiter.md)
 
 ## Special uses
 

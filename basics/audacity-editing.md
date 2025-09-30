@@ -51,7 +51,7 @@ To split a clip into two independent clips, use the following steps:
 1. Click on the **split tool** icon (scissors), or press `S`. This will cause any subsequent clicks to split the clip.
 2. **Click** into a clip to split it.&#x20;
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Note:** You can also Click+drag across the waveform to split out a section.
@@ -79,6 +79,18 @@ Then, click and drag on the lower set of icons (the clocks) to speed it up or sl
 
 {% hint style="info" %}
 Note: A sped-up or slowed down clip will have a little indicator in the top right corner. \
-![](<../.gitbook/assets/image (1).png>)\
+![](<../.gitbook/assets/image (1) (1).png>)\
 You can click on it to access advanced options (such as optimizing the stretching algorithm for voice), or to enter an exact number.
+{% endhint %}
+
+## Changing pitch of a clip
+
+To change the pitch of a clip, right-click it, or click on the three-dot menu. Then select "Open pitch and speed dialog".&#x20;
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+In the dialog that opens, you then can change the pitch using the semitones and cents boxes.&#x20;
+
+{% hint style="success" %}
+Best practice: When changing the pitch of a clip which involves the human voice, such as spoken word content or singing, make sure to check the "optimize for voice" tickbox. This will preserve formants and prevent the voice from sounding like a chipmunk.&#x20;
 {% endhint %}

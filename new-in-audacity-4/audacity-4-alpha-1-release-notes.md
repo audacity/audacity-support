@@ -7,6 +7,8 @@ The first alpha version of Audacity 4 is intended as an early preview and feedba
 We expect the following flow to work reasonably well:&#x20;
 
 * Recording, generating and importing audio
+* Opening projects\
+  **NOTE:** Once opened in Audacity 4, a project can no longer be opened in Audacity 3. Make sure to have a backup!
 * The core editing flow of applying effects (destructive or realtime), making cuts, moving clips and such.
 * Exporting (without metadata)
 * Customization of the app (themes, and editing/moving the toolbar)

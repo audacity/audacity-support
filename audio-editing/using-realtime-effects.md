@@ -1,15 +1,19 @@
-# 🆕 Using master effects & realtime effects
+# Using master effects & realtime effects
 
 ## Adding effects to a track
 
 You can add realtime effects using the following steps:
 
-<div><figure><img src="../.gitbook/assets/RT%20Effects%20button.png" alt="Click the Effects button or press the E key to activate the realtime effects panel"><figcaption><p>1 Click the <strong>Effects</strong> button or press the <strong>E</strong> key to activate the realtime effects panel</p></figcaption></figure> <figure><img src="../.gitbook/assets/Add%20effect%20button%20(1).png" alt="Clck Add effect to display the list of available effects"><figcaption><p>2 Click <strong>Add effect</strong> to display the list of available effects</p></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/audacity_U6xn9MIqiL.png" alt="Click the Effects button or press the E key to activate the realtime effects panel"><figcaption><p>1 Click the <strong>Effects</strong> button or press the <strong>E</strong> key to activate the realtime effects panel</p></figcaption></figure> <figure><img src="../.gitbook/assets/audacity_7WW2IhXa52.png" alt="Clck Add effect to display the list of available effects"><figcaption><p>2 Click <strong>Add effect</strong> to display the list of available effects</p></figcaption></figure></div>
 
-<div><figure><img src="../.gitbook/assets/RT%20Effect%20selected.png" alt="Select the effect to add to your track"><figcaption><p>3 Select the effect to add to your track</p></figcaption></figure> <figure><img src="../.gitbook/assets/RT%20Effect%20Enabled%20(1).png" alt="Click the blue power button to toggle the state of the effect"><figcaption><p>4 You can toggle the state of the effect if necessary</p></figcaption></figure></div>
+<div><figure><img src="../.gitbook/assets/audacity_W9Aub4dujC.png" alt="Select the effect to add to your track"><figcaption><p>3 Select the effect to add to your track</p></figcaption></figure> <figure><img src="../.gitbook/assets/audacity_8pVejTGdEX.png" alt="Example image of Audacity&#x27;s compressor"><figcaption><p>4 Change the effect to your liking.</p></figcaption></figure></div>
 
 {% hint style="info" %}
-**Note:** Realtime effects always apply to an entire track. Since they're calculated realtime, they won't change the source waveform.
+### Notes
+
+* Realtime effects always apply to an entire track.&#x20;
+* Since these effects are calculated realtime, they won't change the source waveform.
+* Realtime effects are automatically applied to the track. You can safely close the effect window once you're done tweaking the effect.&#x20;
 {% endhint %}
 
 ## Adding effects to all tracks (Master effects)
