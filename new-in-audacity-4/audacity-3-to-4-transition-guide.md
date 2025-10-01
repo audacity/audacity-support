@@ -10,9 +10,9 @@ During onboarding, you'll be asked for app theme (light or dark), clip theme and
 
 In addition to sliders, we've added a new Knob control. **To increase the value of a knob, simply click it and drag it up or right, to decrease it, drag it down or left**. Double-clicking resets the knob value, `Shift`+dragging lets you do finer adjustments.
 
-## Sync Lock
+## Sync Lock & Ripple editing
 
-Sync lock has been replaced by ripple editing. You can set your default delete behavior in Preferences -> Editing. To make an edit while keeping all tracks in sync, use "Delete and close gap (all tracks)" (`Ctrl+Delete`) and "Insert and preserve sync" (`Ctrl+Shift+V`), respectively. You can edit these shortcuts in preferences.
+Sync lock has been replaced by ripple editing. You can set your default delete behavior in **Preferences -> Editing**. To make an edit while keeping all tracks in sync, use "**Delete and close gap (all tracks)**" (`Ctrl+Delete`) and "**Insert and preserve sync" (`Ctrl+Shift+V`)**, respectively. You can edit these shortcuts in preferences.
 
 ## Clips
 

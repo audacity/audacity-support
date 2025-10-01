@@ -4,8 +4,8 @@
 
 ## new in Audacity 4
 
-* [Audacity 3 to 4 transition guide](new-in-audacity-4/audacity-3-to-4-transition-guide.md)
 * [Audacity 4 Alpha 1 release notes](new-in-audacity-4/audacity-4-alpha-1-release-notes.md)
+* [Audacity 3 to 4 transition guide](new-in-audacity-4/audacity-3-to-4-transition-guide.md)
 * [Customizing Audacity's UI](new-in-audacity-4/workspaces.md)
 
 ## Audacity Basics <a href="#basics" id="basics"></a>
