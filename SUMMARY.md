@@ -31,8 +31,8 @@
 ## Manual
 
 * [Manual Index](manual/manual-index/README.md)
-  * [Edit Menu](manual/manual-index/edit-menu.md)
   * [Header](manual/manual-index/header/README.md)
     * [File](manual/manual-index/header/file.md)
+    * [Edit Menu](manual/manual-index/header/edit-menu.md)
   * [Import](manual/manual-index/import.md)
   * [Export Menu](manual/manual-index/export-menu.md)
