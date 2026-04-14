@@ -8,8 +8,7 @@ Audacity 4 alpha 1 is not yet published.
 
 ## What am I testing in this build?
 
-The purpose of this early-stage alpha release is to provide a build for our community so they can test core aspects of Audacity’s functionality. This will greatly help us spot issues and refine the experience. When reporting issues, please keep them limited to these six areas. \
-
+The purpose of this early-stage alpha release is to provide a build for our community so they can test core aspects of Audacity’s functionality. This will greatly help us spot issues and refine the experience. When reporting issues, please keep them limited to these six areas. <br>
 
 * Recording & playback
 * Editing audio

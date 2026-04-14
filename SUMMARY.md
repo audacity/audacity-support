@@ -27,3 +27,12 @@
 
 * [Expected uses](special-uses/expected-uses.md)
 * [Info for System Administrators](special-uses/info-for-system-administrators.md)
+
+## Manual
+
+* [Manual Index](manual/manual-index/README.md)
+  * [Edit Menu](manual/manual-index/edit-menu.md)
+  * [Header](manual/manual-index/header/README.md)
+    * [File](manual/manual-index/header/file.md)
+  * [Import](manual/manual-index/import.md)
+  * [Export Menu](manual/manual-index/export-menu.md)
