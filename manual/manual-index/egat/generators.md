@@ -78,7 +78,37 @@ Duty Cycle
 
 #### MIDI pitch of strong beat
 
-#### MIDI pitch of weka beat
+#### MIDI pitch of weak beat
+
+## Risset Drum
+
+#### Frequency (Hz)
+
+#### Decay (seconds)
+
+#### Center frequenct of noise (Hz)
+
+#### Width of noise band (Hz)
+
+#### Amount of noise in mix (percent)
+
+#### Amplitude
+
+## Silence&#x20;
+
+#### Duration
+
+## Tone&#x20;
+
+#### Waveform
+
+#### Frequency (Hz)
+
+#### Amplitude&#x20;
+
+#### Duration&#x20;
+
+
 
 
 
