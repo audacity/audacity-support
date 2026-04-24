@@ -38,7 +38,7 @@ Once you have plugged in your microphone into your computer, select the micropho
 
 To start recording your voice in Audacity, simply press the red record button.
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 When you have ended the recording, listen back to it. If everything went well, you should now hear your voice clearly.&#x20;
 

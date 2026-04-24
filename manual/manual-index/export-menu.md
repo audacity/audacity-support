@@ -4,7 +4,7 @@ description: Dialog menu that allows to configure export
 
 # Export Menu
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## **Export Audio**
 
