@@ -95,6 +95,20 @@ This is a universal binary installer. It automatically matches your system archi
 
 If you have problems with Audacity detecting FFmpeg, follow the steps below to **manually locate FFmpeg**.
 
+### Installing on older macOS (Big Sur or earlier)
+
+The recommended installer above requires macOS 12 (Monterey) or newer. For older systems, use the legacy installer instead:
+
+1. Download [ffmpeg\_64bit\_osx.pkg](https://lame.buanzo.org/ffmpeg_64bit_osx.pkg) from lame.buanzo.org. It supports macOS 10.11 (El Capitan) and later.
+2. Open the .pkg and follow the installer steps.
+3. Restart Audacity. It should detect FFmpeg automatically.
+
+This installer is Intel-only, so make sure you're using the **x86\_64** Audacity dmg.
+
+{% hint style="warning" %}
+**Note:** This legacy FFmpeg build is not supported and can cause crashes (for example when exporting AAC). Use at your own risk.
+{% endhint %}
+
 ### Homebrew
 
 One way to install an FFmpeg version that matches your system architecture is using [**homebrew**](https://brew.sh/). You can install it through the Terminal.app by typing in:&#x20;
