@@ -92,7 +92,7 @@ Allows you to remove or add channels to the file you're exporting
 \
 Channel Matrix
 
-![](https://alice.mu.se/download/thumbnails/761949594/image-2026-2-13_14-11-36.png?version=1\&modificationDate=1770988297000\&api=v2)
+<img src="https://alice.mu.se/download/thumbnails/761949594/image-2026-2-13_14-11-36.png?version=1&#x26;modificationDate=1770988297000&#x26;api=v2" alt="" height="123">
 
 Shows a matrix view of created channels and which tracks will be populated within what track.
 

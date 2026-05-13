@@ -1,6 +1,8 @@
 # Header
 
-{% content-ref url="file.md" %}
-[file.md](file.md)
+
+
+{% content-ref url="file/" %}
+[file](file/)
 {% endcontent-ref %}
 

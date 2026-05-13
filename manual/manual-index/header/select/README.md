@@ -24,7 +24,7 @@ Additional Select options defined with regions.&#x20;
 
 Allows the User to define a selection range left of playback position with a time toolbar.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Right of Playback Position
 
@@ -60,7 +60,7 @@ Sets the loop region to the ranged selection currently available. If no selectio
 
 Allows the User to use the time toolbar to define the looping region
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 
 

@@ -6,15 +6,5 @@ description: >-
 
 # Workspaces
 
-## Default Workspaces
-
-### Music
-
-### Classic
-
-### Modern
-
-## Editing Workspaces
-
-## Creating new Workspaces
+##
 

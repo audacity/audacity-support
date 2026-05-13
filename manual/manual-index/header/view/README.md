@@ -60,7 +60,7 @@ Creates a new UI elements that allows you to see all of the actions that can be 
 
 Allows you to change, create and edit workspaces.&#x20;
 
-[Separate Workscpaces Page](../workspaces.md)
+[Separate Workscpaces Page](../../workspaces/)
 
 ## Fullscreen
 
@@ -70,7 +70,7 @@ Maximizes the Audacity window to fullscreen
 
 Shows clipping within clips' waveform via a red line that spans the entire channel vertically
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 ## Show RMS in waveform
 
@@ -80,6 +80,6 @@ Shows the RMS of the signal in a clips' waveform
 
 Enables vertical rulers of all tracks&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 More about this feature in&#x20;

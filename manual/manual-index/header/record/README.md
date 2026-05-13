@@ -22,7 +22,7 @@ This command enables you to correct errors easily during the course of a recordi
 
 You can stop, back up over a mistake, and continue recording, resulting in one track that eliminates the error and is properly timed, without the use of cutting, pasting, and clip-moving commands, or mixing of multiple tracks.
 
-See [Punch and Roll Record](../punch-and-roll-recording.md) for more details on the use of this command.
+See [Punch and Roll Record](../../punch-and-roll-recording.md) for more details on the use of this command.
 
 ## Enable sound activating recording
 
