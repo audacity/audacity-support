@@ -19,7 +19,7 @@ First, download the latest version of the Audacity Project Tools:
 
 {% embed url="https://github.com/audacity/audacity-project-tools/releases" %}
 
-After downloading, follow the instructions relevant to your system. Note: macOS is not supported yet.
+After downloading, follow the instructions relevant to your system. Note: macOS is supported on Apple Silicon, but not Intel.
 
 {% hint style="warning" %}
 **Caution:** Make sure you have plenty of space left on your computer. You will need roughly 4 times the size of your .aup3 for a successful recovery. If you have a 10GB file, you should have at least 40GB available.
@@ -86,6 +86,35 @@ If the messages "`Invalid block xxxx: Block not found`", check to see if some au
 
 If the messages "`Invalid block xxxx: Block not found`", check to see if some audio was silenced - typically near your most recent edits. Usually these messages are spurious.
 {% endtab %}
+
+{% tab title="MacOS" %}
+1. In your Downloads folder, create a new sub-folder "AudRepair".
+2. **Move** the two files from the downloaded folder into AudRepair.
+3. **Copy** your defective .aup3 project file into the AudRepair folder.
+4. **Rename** the file to `broken.aup3`.
+5. Press `command + space`, type `terminal`, and press `return`. A (black) terminal screen will appear.
+6. Navigate to your AudRepair folder by typing `cd Downloads/AudRepair` and pressing `return`.
+7. Type `ls` and press `return`. The following three files should be listed: `audacity-project-tools`, `broken.aup3`, and `sqlite3`.
+8. Type `audacity-project-tools -drop_autosave broken.aup3` and press `return`.
+9. When the command prompt (`~/Downloads/AudRepair/`) reappears, type `ls` again.
+10. If a `broken.recovered.aup3` file appears, open it in Audacity.\
+    \
+    If that file works as expected, go to **File -> Save As...** and save it to your usual location. The recovery process is now over, you can continue working as normal.\
+    \
+    If that file does not appear, or is still broken, continue with the following steps:
+11. Type `audacity-project-tools -recover_db -recover_project broken.aup3` and press `return`.
+12. The messages "`Project requires Audacity 3.0.0`", and "`Using 'sqlite3.exe' for recovery`" will appear. Later the message "`Executing query #xxxx....`" will appear as the rescued file is being recreated.\
+    **Note:** This process can take quite a while depending on your specific machine. There is no status (or % completion) indicator, so you just have to **be patient**.\
+    You should plan 15-30 minutes per GB, though it may be faster if you have a fast PC.\
+    **Keep an eye on available disk space**.\
+    \
+    Due to a glitch, sometimes a single character can appear when the program is done, eg "`z`". If this happens, simply press **Delete**.
+13. When the process completes, your should be able to **open** the "broken.recovered.aup3" in Audacity.\
+    The message "File not saved properly" will appear the first time you open the recovered project. This is normal and you can ignore this message.
+
+If the messages "`Invalid block xxxx: Block not found`", check to see if some audio was silenced - typically near your most recent edits. Usually these messages are spurious.
+{% endtab %}
+
 {% endtabs %}
 
 {% hint style="info" %}
