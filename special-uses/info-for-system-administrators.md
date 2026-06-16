@@ -17,7 +17,7 @@ Audacity does not come with any group policies or installers intended for instit
 
 ### Accessibility
 
-Audacity is largely accessible. A usage guide can be found in the sidebar; a VPAT document can be found at [audacityteam.org/VPAT](https://audacityteam.org/VPAT).
+Audacity is largely accessible. A usage guide can be found in the sidebar; a VPAT document can be found at [audacityteam.org/VPAT.pdf](https://audacityteam.org/VPAT.pdf).
 
 ### Privacy
 
