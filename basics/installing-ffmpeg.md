@@ -40,7 +40,7 @@ winget install --id=Buanzo.FFmpegforAudacity  -e
 
 #### Other FFMPEG builds
 
-**Note:** Audacity does not support work-in-progress (i.e., master branch) builds of FFmpeg. Choose the version according to the Audacity you use.
+**Note:** Audacity does not support work-in-progress (i.e., master branch) builds of FFmpeg. Choose the FFmpeg version that matches your Audacity release.
 
 If you prefer a manual installation of FFmpeg you can download a ZIP file from a different source:
 
