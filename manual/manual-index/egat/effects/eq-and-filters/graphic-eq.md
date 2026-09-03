@@ -1,2 +1,0 @@
-# Graphic EQ
-

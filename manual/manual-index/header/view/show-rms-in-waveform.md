@@ -1,2 +1,0 @@
-# Show RMS in Waveform
-

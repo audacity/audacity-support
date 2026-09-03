@@ -1,2 +1,0 @@
-# Update Display while Playing
-

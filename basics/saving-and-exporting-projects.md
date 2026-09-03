@@ -9,14 +9,14 @@ description: >-
 ## :cloud: Saving projects to cloud
 
 {% hint style="info" %}
-Cloud projects have backups and versioning, ensuring you'll never lose your work, even if your computer was to fail. Additionally, you can easily share them with collaborators.&#x20;
+Cloud projects have backups and versioning, ensuring you'll never lose your work, even if your computer was to fail. Additionally, you can easily share them with collaborators.
 {% endhint %}
 
 To save a project to the cloud, first go to **File -> Save to Cloud**. In the dialog that follows, click **Link Account**.
 
-<figure><img src="../.gitbook/assets/audiocom link account.png" alt=""><figcaption><p>Save to audio.com</p></figcaption></figure>
+<figure><img src="https://github.com/audacity/audacity-support/blob/au4/.gitbook/assets/audiocom%20link%20account.png" alt=""><figcaption><p>Save to audio.com</p></figcaption></figure>
 
-You will be guided through the [audio.com](https://audio.com) signup process, and finally given an option to link your [audio.com](https://audio.com) account to Audacity.&#x20;
+You will be guided through the [audio.com](https://audio.com) signup process, and finally given an option to link your [audio.com](https://audio.com) account to Audacity.
 
 Once you have linked your audio.com account to Audacity, simply **enter the project name** and hit **Save**. The project will now be uploaded in the background.
 
@@ -24,12 +24,12 @@ For the first time you save, you'll be asked how often you want to generate a mi
 
 ## Saving projects to the computer (.aup3)
 
-You can save projects using the **File -> Save Project -> Save Project** menu.&#x20;
+You can save projects using the **File -> Save Project -> Save Project** menu.
 
 A saved project has the most information about your project available. If you save a project, you can change [realtime effects](../audio-editing/using-realtime-effects.md) later on, or untrim clips.
 
 {% hint style="warning" %}
-**Warning:** Avoid saving active projects on external drives, USB sticks, or network storage. Audacity requires fast, uninterrupted access to your storage when recording and editing.&#x20;
+**Warning:** Avoid saving active projects on external drives, USB sticks, or network storage. Audacity requires fast, uninterrupted access to your storage when recording and editing.
 {% endhint %}
 
 ## Exporting audio (.mp3, .wav, .ogg, ...)
@@ -40,7 +40,7 @@ A saved project has the most information about your project available. If you sa
 
 You can export your project into an audio file using the **File -> Export Audio...** menu item. Exported audio files can be opened with a wide variety of programs.
 
-<figure><img src="../.gitbook/assets/export-mp3.png" alt=""><figcaption><p>The Export Audio Window</p></figcaption></figure>
+<figure><img src="https://github.com/audacity/audacity-support/blob/au4/.gitbook/assets/export-mp3.png" alt=""><figcaption><p>The Export Audio Window</p></figcaption></figure>
 
 {% hint style="success" %}
 **Tips & Tricks**
@@ -49,4 +49,3 @@ You can export your project into an audio file using the **File -> Export Audio.
 * As an alternative to MP3, the Opus and M4A (AAC) options deliver higher quality at the same file size compared to MP3.
 * As an alternative to WAV, the FLAC and Wavpack options offer lossless compression, reducing file sizes by up to half while not losing any information.
 {% endhint %}
-

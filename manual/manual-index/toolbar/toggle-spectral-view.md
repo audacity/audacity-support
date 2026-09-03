@@ -1,2 +1,0 @@
-# Toggle Spectral View
-

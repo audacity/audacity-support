@@ -1,2 +1,0 @@
-# Vocal Reduction and Isolation
-

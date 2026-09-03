@@ -1,2 +1,0 @@
-# Noise Removal & Repair
-

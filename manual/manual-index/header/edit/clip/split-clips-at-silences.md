@@ -1,2 +1,0 @@
-# Split Clips at Silences
-

@@ -1,2 +1,0 @@
-# Pinned Playhead
-

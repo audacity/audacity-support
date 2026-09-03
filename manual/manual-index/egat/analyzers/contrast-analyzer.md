@@ -1,2 +1,0 @@
-# Contrast Analyzer
-

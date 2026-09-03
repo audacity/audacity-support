@@ -1,2 +1,0 @@
-# Format, Rate and Resampling
-

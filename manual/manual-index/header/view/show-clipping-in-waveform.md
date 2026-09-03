@@ -1,2 +1,0 @@
-# Show Clipping in Waveform
-

@@ -1,2 +1,0 @@
-# Show Metadata Editor
-

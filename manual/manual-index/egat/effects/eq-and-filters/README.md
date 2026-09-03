@@ -1,2 +1,0 @@
-# EQ and Filters
-

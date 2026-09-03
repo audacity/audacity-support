@@ -1,2 +1,0 @@
-# Zoom to Selection
-

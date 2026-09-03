@@ -1,7 +1,0 @@
-# Noise
-
-#### Type
-
-#### Amplitude
-
-#### Duration
