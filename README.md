@@ -1,9 +1,6 @@
 # Home
 
-Audacity 4 is currently in alpha. You can download it here:
+Audacity 4 support is in the 'Help' section of our website.
 
-{% embed url="https://www.audacityteam.org/beta/" %}
+{% embed url="https://www.audacityteam.org/help" %}
 
-{% hint style="danger" %}
-All content on this page is for Audacity 4. To see help contents for Audacity 3.x, select the option in the top left to switch between versions.
-{% endhint %}
