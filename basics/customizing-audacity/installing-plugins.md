@@ -42,6 +42,7 @@ All Plugins can be installed per-user (`~/Library/Audio/Plug-Ins/...`) or system
 * LV2: `~/.lv2` or `/Library/Audio/Plug-Ins/LV2`,\
   **Note:** always copy the entire .lv2 _folder_
 * Vamp: `/Library/Audio/Plug-Ins/Vamp`
+* LADSPA: `~/Library/Application Support/audacity/Plug-Ins/`
 * Nyquist: See below
 {% endtab %}
 
