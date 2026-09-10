@@ -23,6 +23,11 @@
 * [Mixing and panning tracks](audio-editing/mixing-and-panning-tracks.md)
 * [Reducing dynamic range (Compressor / Limiter)](audio-editing/reducing-dynamic-range-compressor-limiter.md)
 
+## Community
+
+* [Contributing to Audacity](community/contributing/README.md)
+  * [Translating Audacity](community/contributing/translating.md)
+
 ## Special uses
 
 * [Expected uses](special-uses/expected-uses.md)
