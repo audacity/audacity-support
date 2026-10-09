@@ -14,6 +14,8 @@ Due to patent restrictions, FFmpeg cannot be distributed with Audacity itself. H
 
 You can download and install FFmpeg as follows:
 
+{% embed url="https://youtu.be/Yc_krVz-8-o" %}
+
 {% tabs %}
 {% tab title="Windows" %}
 #### Recommended installer
