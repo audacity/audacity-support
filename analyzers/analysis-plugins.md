@@ -93,6 +93,30 @@ _All of GŌN’s functionality is wrapped in an information-rich yet visually un
 
 </details>
 
+### OpenGonio
+
+A free, open-source goniometer (Lissajous / vectorscope / stereo field meter) with a phase-correlation bar, L/R peak meters, stereo width and balance readouts, and a MONO OK / CAUTION / PHASE ISSUE light. No account, no bundle, no telemetry.
+
+**Note:** This Analyzer is a realtime effect and can be found in the Effects category (VST3 and, on macOS, AudioUnit).
+
+{% embed url="https://github.com/brady1408/opengonio/releases/latest" %}
+Download (macOS, Windows, Linux)
+{% endembed %}
+
+<details>
+
+<summary>Details</summary>
+
+©2026 Brady Cole. Licensed under the AGPL-3.0; source code at [github.com/brady1408/opengonio](https://github.com/brady1408/opengonio).
+
+**How to use:** install, then Effect → Plugin manager → Rescan plugins. Select a track, open its Effects panel, Add effect → VST3 → Brady Cole → OpenGonio, and press play. A mono signal draws a vertical line, a wide mix a round cloud, an inverted channel a horizontal line. The light turns red when the correlation stays below −0.2 for half a second; L ONLY / R ONLY flag a dead channel. The window is resizable and remembers its size.
+
+macOS builds are signed and notarized. Windows builds are unsigned (SmartScreen → More info → Run anyway). Linux builds are produced by CI but untested by the author.
+
+![OpenGonio running in Audacity 4](https://raw.githubusercontent.com/brady1408/opengonio/main/docs/screenshots/editor.jpg)
+
+</details>
+
 ### Peak Finder rft
 
 Either places a single label at the first instance of a peak volume, or multiple labels at all the instances of that peak.
