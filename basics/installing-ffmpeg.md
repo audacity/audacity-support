@@ -51,12 +51,12 @@ If you prefer a manual installation of FFmpeg you can download a ZIP file from a
 **Note:**
 
 * Not all FFmpeg versions are supported on all releases.
-  * Audacity prior 3.1 only supports avformat-55.dll.
-  * Audacity 3.1 and later supports avformat-55.dll, avformat-57.dll and avformat-58.dll.
-  * Audacity 3.2 and later also supports avformat-59.dll.
-  * Audacity 3.3 and later also supports avformat-60.dll.
-  * Audacity 3.5 and later also supports avformat-61.dll.
-  * You can check which dll is in which FFmpeg release [here](https://ffmpeg.org/download.html#releases).
+  * Audacity prior 3.1 only supports **avformat-55**.
+  * Audacity 3.1 and later supports **avformat-55**, **avformat-57** and **avformat-58**.
+  * Audacity 3.2 and later also supports **avformat-59**.
+  * Audacity 3.3 and later also supports **avformat-60**.
+  * Audacity 3.5 and later also supports **avformat-61**.
+  * You can check which avformat version is included in each FFmpeg release [here](https://ffmpeg.org/download.html#releases).
 * Make sure you download full FFmpeg copies, not just the avformat-\*.dll's individually. Further, make sure to download or build the **shared** versions as only those contain .dll's.
 * Different versions of FFmpeg may have different codecs enabled in them. In particular, AMR (narrowband) is not featured in the recommended installer.
 {% endhint %}
@@ -113,12 +113,12 @@ brew install ffmpeg
 **Note:**
 
 * Not all FFmpeg versions are supported on all releases.
-  * Audacity prior 3.1 only supports avformat-55.dll.
-  * Audacity 3.1 and later supports avformat-55.dll, avformat-57.dll and avformat-58.dll.
-  * Audacity 3.2 and later also supports avformat-59.dll.
-  * Audacity 3.3 and later also supports avformat-60.dll.
-  * Audacity 3.5 and later also supports avformat-61.dll.
-  * You can check which dll is in which FFmpeg release [here](https://ffmpeg.org/download.html#releases).
+  * Audacity prior 3.1 only supports **avformat-55**.
+  * Audacity 3.1 and later supports **avformat-55**, **avformat-57** and **avformat-58**.
+  * Audacity 3.2 and later also supports **avformat-59**.
+  * Audacity 3.3 and later also supports **avformat-60**.
+  * Audacity 3.5 and later also supports **avformat-61**.
+  * You can check which avformat version is included in each FFmpeg release [here](https://ffmpeg.org/download.html#releases).
 * Different versions of FFmpeg may have different codecs enabled in them.
 
 In Homebrew, you can install a specific version of FFmpeg by appending `@` followed by the version number. You can check which FFmpeg versions are available in Homebrew [here](https://formulae.brew.sh/formula/ffmpeg), under the **Other Versions** section.
@@ -140,7 +140,7 @@ You can download or compile FFmpeg yourself as described here: [https://trac.ffm
 {% hint style="info" %}
 **Note:**
 
-* Audacity 3.1 and later supports **avformat 55, 57** and **58**. Audacity 3.2 and later also supports **avformat 59**. Audacity 3.3 and later also supports avformat 60. Audacity 3.5 and later also supports avformat-61.dll.
+* Audacity 3.1 and later supports **avformat 55, 57** and **58**. Audacity 3.2 and later also supports **avformat 59**. Audacity 3.3 and later also supports **avformat 60**. Audacity 3.5 and later also supports **avformat 61**.
 * Make sure to download or build the **shared** versions (with .dylib's) as only those can be used by Audacity.
 * Different versions of FFmpeg may have different codecs enabled in them. In particular, AMR (narrowband) is not featured in the recommended installer.
 {% endhint %}
