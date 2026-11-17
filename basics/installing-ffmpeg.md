@@ -32,11 +32,7 @@ Audacity should now automatically detect FFmpeg and allow you to use it.
 
 #### Installing using WinGet
 
-FFmpeg for Audacity is also available on WinGet:
-
-```powershell
-winget install --id=Buanzo.FFmpegforAudacity  -e
-```
+The `Buanzo.FFmpegforAudacity` package is no longer available on WinGet. Use the recommended installer above or choose a manual installation from one of the sources below.
 
 #### Other FFMPEG builds
 
