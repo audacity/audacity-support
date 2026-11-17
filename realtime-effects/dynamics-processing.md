@@ -110,3 +110,23 @@ Information From the vendor:
 
 * Nyquist [dynamics-processing.md](../nyquist-plugins/effect-plugins/dynamics-processing.md "mention") effects
 * Nyquist [amplify-mix-and-pan-effects.md](../nyquist-plugins/effect-plugins/amplify-mix-and-pan-effects.md "mention")
+
+## FONI
+
+A voice leveler for podcast and YouTube: evens out loud and quiet speech, compresses, de-esses and lands the voice on a loudness target (−16 LUFS Apple Podcasts, −14 LUFS Spotify/YouTube) with a true-peak ceiling. Free, Windows and macOS.
+
+{% embed url="https://revolver-audio.github.io/foni-plugin/" %}
+Download page
+{% endembed %}
+
+<details>
+
+<summary>Details</summary>
+
+Developer: Revolver Audio. Freeware (free beta, no account needed). Formats: VST3, CLAP, AU (macOS), standalone. Tested with Audacity 4.0.2 on Windows (VST3).
+
+How to use: select the voice track, choose Effect → VST3 → Revolver Audio → FONI, pick a platform under Target, set Amount and apply.
+
+![](../.gitbook/assets/foni.png)
+
+</details>
