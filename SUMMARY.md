@@ -31,6 +31,7 @@
 * [Speeding up and slowing down audio](audio-editing/speeding-up-and-slowing-down-audio.md)
 * [Changing pitch](audio-editing/changing-pitch.md)
 * [Mixing and panning tracks](audio-editing/mixing-and-panning-tracks.md)
+* [Synchronizing recordings with claps](audio-editing/synchronizing-recordings-with-claps.md)
 * [🆕 Reducing dynamic range (Compressor / Limiter)](audio-editing/reducing-dynamic-range-compressor-limiter.md)
 * [Splitting a recording into separate tracks](audio-editing/splitting-a-recording-into-separate-tracks.md)
 * [Loudness Normalization](audio-editing/loudness-normalization.md)
