@@ -8,8 +8,6 @@ Various streaming platforms and other institutions expect content to have a cert
 
 <table><thead><tr><th data-type="files"></th><th>Service</th></tr></thead><tbody><tr><td><a href="../.gitbook/assets/ACX-Check.ny">ACX-Check.ny</a></td><td>ACX, Audible</td></tr><tr><td><a href="../.gitbook/assets/amazon.ny">amazon.ny</a></td><td>Amazon Music, Alexa</td></tr><tr><td><a href="../.gitbook/assets/apple.ny">apple.ny</a></td><td>Apple Music</td></tr><tr><td><a href="../.gitbook/assets/clubplay.ny">clubplay.ny</a></td><td>Club Play</td></tr><tr><td><a href="../.gitbook/assets/deezer.ny">deezer.ny</a></td><td>Deezer</td></tr><tr><td><a href="../.gitbook/assets/netflix.ny">netflix.ny</a></td><td>Netflix</td></tr><tr><td><a href="../.gitbook/assets/PodCheck.ny">PodCheck.ny</a></td><td>(Podcasts)</td></tr><tr><td><a href="../.gitbook/assets/sony.ny">sony.ny</a></td><td>Sony related</td></tr><tr><td><a href="../.gitbook/assets/soundcloud.ny">soundcloud.ny</a></td><td>Soundcloud</td></tr><tr><td><a href="../.gitbook/assets/spotify.ny">spotify.ny</a></td><td>Spotify</td></tr><tr><td><a href="../.gitbook/assets/spotify-loud.ny">spotify-loud.ny</a></td><td>Spotify</td></tr><tr><td><a href="../.gitbook/assets/tidal.ny">tidal.ny</a></td><td>Tidal</td></tr><tr><td><a href="../.gitbook/assets/youtube.ny">youtube.ny</a></td><td>YouTube</td></tr></tbody></table>
 
-
-
 <details>
 
 <summary>Details</summary>
@@ -38,3 +36,7 @@ Original ACX plugin by Will McCown. Modifications for services other than ACX by
 Also beware that some noise sources are worse than others, and noise such as the 1000 Hz whine found in some USB audio interfaces may result in an ACX rejection even though it is below the -60 dBFS noise floor requirement.
 
 </details>
+
+<figure><img src="../.gitbook/assets/do-more-with-plugins2x.png" alt="MuseHub: Do more with plugins. Find effects for Audacity on MuseHub."><figcaption></figcaption></figure>
+
+<a href="https://www.musehub.com/category/plugin/voice-and-podcasting?utm_source=AU&#x26;utm_medium=referral&#x26;utm_campaign=MH_WW_REF_AU_WEB_ALL_231126_crosslink&#x26;utm_content=plugins-loudness" class="button primary">Browse voice and podcasting plugins</a>

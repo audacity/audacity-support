@@ -6,8 +6,8 @@ The audio on almost every phonograph record is not the same as that originally p
 
 The most relevant EQ curves are presented as [Table 1](playback-equalization-for-78-rpm-shellacs-and-early-33-lps.md#table-1-playback-equalization-curves):
 
-* You can download some of them from the [EQ Curves Library](broken-reference/) section of this page, [convert them to a TXT file with **EQ XML to TXT Converter**](eq-xml-to-txt-converter.md) and import them into Audacity using or
-* You can generate any curve yourself with the [78 rpm EQ Curve Generator](broken-reference/) plugin
+* You can download some of them from the [EQ Curves Library](https://github.com/audacity/audacity-support/blob/plugins/additional-resources/eq-curves/broken-reference/README.md) section of this page, [convert them to a TXT file with **EQ XML to TXT Converter**](eq-xml-to-txt-converter.md) and import them into Audacity using or
+* You can generate any curve yourself with the [78 rpm EQ Curve Generator](https://github.com/audacity/audacity-support/blob/plugins/additional-resources/eq-curves/broken-reference/README.md) plugin
 * You can set the sliders of any digital or analog graphic equalizer manually
 * You can determine appropriate settings for any adjustable analog pre-amplifier.
 
@@ -130,7 +130,7 @@ Table 1 is mostly based on Tab. 2a of: Heinz O. Graumann, Schallplatten-Schneidk
 
 \[4] Old RCA is one of the original RCA curves for shellacs. It continued to be used for 33⅓ LPs by RCA-Victor, Brunswick, Concert Hall, Coral, Decca (Amer.) and Westminster. The turnover f3 and the time constants are computed values for an equalizer set at 800N-8.
 
-\[5] 250 Hz or 300 Hz seem to be a question of personal listening preference, as explained in [Individual fine tuning](broken-reference/)
+\[5] 250 Hz or 300 Hz seem to be a question of personal listening preference, as explained in [Individual fine tuning](https://github.com/audacity/audacity-support/blob/plugins/additional-resources/eq-curves/broken-reference/README.md)
 
 \[6] Robert C. Moyer, Evolution of a Recording Curve; in: Audio Engineering, vol.37, no.7, July 1953; pp 19-22, 53-54. Roll-off is frequently listed as between 10 and 12 dB, but this “flattening off” to ca 10 dB at 10 kHz was an intentional high cut which must not be compensated for in playback. Thus a setting of 13.7 dB is correct!
 
@@ -197,7 +197,7 @@ All acoustics were recorded without any pre-equalization, simply because a modif
 
 According to various authors the acoustical recording process had an "inherent mechanical equalization", which results – within the limited frequency range of approx. 150 to 4000 Hz – in a constant velocity characteristic one would only expect from a magnetic cutter. With a magnetic cartridge this would command to be replayed “flat”. Please note that the acoustical recording characteristic is not equalized at all.
 
-According to Robinson an acoustical recording must have a constant-amplitude characteristic which will be correctly reproduced by playing back with a gramophone needle or a piezoelectric crystal pickup. A magnetic cartridge will – by its constant velocity characteristic – double the amplitude whenever the frequency doubles. To compensate for the magnetic pickup MidiMagic recommends an “800N-16” EQ curve, which comes close to the theoretical characteristic of a constant velocity device. Some more information is here on [record labels](http://audacity.xmission.eu/acoustics\_2016\_05\_19.pdf) and on [technical background](http://audacity.xmission.eu/Acoustic\_Electric.pdf). Please note that the acoustical recording characteristic is not equalized at all.
+According to Robinson an acoustical recording must have a constant-amplitude characteristic which will be correctly reproduced by playing back with a gramophone needle or a piezoelectric crystal pickup. A magnetic cartridge will – by its constant velocity characteristic – double the amplitude whenever the frequency doubles. To compensate for the magnetic pickup MidiMagic recommends an “800N-16” EQ curve, which comes close to the theoretical characteristic of a constant velocity device. Some more information is here on [record labels](http://audacity.xmission.eu/acoustics_2016_05_19.pdf) and on [technical background](http://audacity.xmission.eu/Acoustic_Electric.pdf). Please note that the acoustical recording characteristic is not equalized at all.
 
 Kolkowski’s results of a [reenactment](http://journal.sciencemuseum.ac.uk/browse/issue-03/the-art-and-science-of-acoustic-recording/) of an acoustic recording session show that bass needs heavy equalization if the losses in the recording horn (here below 400 Hz) shall be compensated for. Parametric equalization may be used at resonant frequencies. Treble should be amplified (!) to compensate for the high-frequency roll-off of the recorder. Due to the individual properties (defects) of recording horns and recorders there will be no “general characteristic” of acoustics and therefore no general EQ.
 
@@ -207,7 +207,7 @@ Kolkowski’s results of a [reenactment](http://journal.sciencemuseum.ac.uk/brow
 Scientific help regarding valuable historic recordings can be found at [IASA](http://www.iasa-web.org/tc04/mechanical-carriers-replay-equalisation) (International Association of Sound and Audiovisual Archives) and at [ARSC](http://www.arsc-audio.org/index.php) (Association for Recorded Sound Collections).
 {% endhint %}
 
-Broadcast Transcription Discs are not in the focus of this page either. Those were recordable lacquer discs, mostly 16 inch in diameter, played at 33⅓ or 78 rpm. They were professionally used by radio broadcasters. Some more information is in [this PDF](http://audacity.xmission.eu/transcr\_2016\_05\_19.pdf).
+Broadcast Transcription Discs are not in the focus of this page either. Those were recordable lacquer discs, mostly 16 inch in diameter, played at 33⅓ or 78 rpm. They were professionally used by radio broadcasters. Some more information is in [this PDF](http://audacity.xmission.eu/transcr_2016_05_19.pdf).
 
 In America many of these discs were recorded under the standard of the National Association of Broadcasters (NAB) of 1942. The very same recording curve had been used by NBC under the name “Orthacoustic” since mid 1930s. This “NAB Transcription (1942)” playback EQ setting can be downloaded here.
 
@@ -418,7 +418,7 @@ In case sources did not agree on one EQ curve, their different opinions are list
 * \[R-C] ... RCA recommends replaying with “Old Ortho.”. High frequencies were cut off more deliberately at 8,500 Hz (with no effect on playback EQ!) than in later years. \[cf. Moyer]
 * \[R-B] ... From c. 1931 to 1938 high frequencies were even cut off at 5,500 Hz! The bass curve is “subject to some question, however,” since it was extensively modified by electronic filters and mechanical damping. But RCA found 500 Hz to be the best average characteristic and used this in re-recording pre-1938 masters. So in principle: “Old Ortho.” for playback again! \[cf. Moyer]
 * \[TCH] ... Technichord used its own “Technichord curve” 800N-12. Play back with “RCA 45” 800N-13.7!
-* \[W.E.] ... Very early Columbia and Victor recordings (1926) used a bass turnover frequency of 250 or 300 Hz but their treble is described as “flat”. The perceived treble amplification was possibly only the result of resonant peaks of the early Western Electric condenser microphones used in recording. Background information is given in [this PDF](http://audacity.xmission.eu/Early\_Western\_Electric\_Characteristic.pdf). An experimental replay EQ curve for this microphone / pre-emphasis combination can be downloaded ‎here.
+* \[W.E.] ... Very early Columbia and Victor recordings (1926) used a bass turnover frequency of 250 or 300 Hz but their treble is described as “flat”. The perceived treble amplification was possibly only the result of resonant peaks of the early Western Electric condenser microphones used in recording. Background information is given in [this PDF](http://audacity.xmission.eu/Early_Western_Electric_Characteristic.pdf). An experimental replay EQ curve for this microphone / pre-emphasis combination can be downloaded ‎here.
 
 </details>
 
@@ -642,11 +642,11 @@ In case that sources did not agree on one EQ curve, their different opinions are
 * mil ... [Millennia Music and Media Systems](http://www.mil-media.com/index.html) manufacturer of [LOCi pre-amp](http://www.mil-media.com/LOCi.html)and other high end professional audio recording products. Their EQ chart was initially part of the manual of the LPE-2 pre-amp. A revised version was released in 2010 as “MM Legacy Recordings“ chart.
 * mm ... [MidiMagic](http://midimagic.sgc-hosting.com/mixlabls.htm) is probably the most comprehensive and reliable websource. Data were researched in the 1970s and are based on publications of the 1950s.
 * PC ...Peter Copeland, [Manual](http://www.bl.uk/help/manual-of-analogue-audio-restoration-techniques) of Analogue Sound Restoration Techniques, The British Library, 2014
-* RB ... Richard Brice in [PspatialAudio](http://pspatialaudio.com/record\_characters.htm)
+* RB ... Richard Brice in [PspatialAudio](http://pspatialaudio.com/record_characters.htm)
 * RF ... Russell Fisher / [W.A.M.S.](http://www.shellac.org/wams/wequal.html)
 * RM ... Robert C. Moyer, Evolution of a Recording Curve; in: Audio Engineering, vol.37, no.7, July 1953; pp 19-22, 53-54. (about "New Orthophonic" and previous RCA curves)
 * TP ... Tom Packard of Packburn Electronics, Inc. Personal correspondence re Overtone.
-* Discographical information about catalogue numbers, matrix numbers and release dates is based on [Both Sides Now](http://bsnpubs.com/), [The Online Discographical Project](http://www.78discography.com/), [45worlds](http://www.45worlds.com/) (who also show 78 rpm and LPs), [Decca Classical](http://www.charm.rhul.ac.uk/discography/decca.html) discography by Philip Stuart (July 2009 edition], [Record Information Services](http://www.record-information-services.info/uk\_labels\_discography/introduction.html) (post-war UK labels), [Yale University, Music Cataloging](http://www.library.yale.edu/cataloging/music/78sources.htm), [Grammophon-Platten.de](http://grammophon-platten.de/page.php?384) (German/European labels) and [Discogs](https://www.discogs.com/) (database and trading platform) as well as some discographies specialized on specific labels.
+* Discographical information about catalogue numbers, matrix numbers and release dates is based on [Both Sides Now](http://bsnpubs.com/), [The Online Discographical Project](http://www.78discography.com/), [45worlds](http://www.45worlds.com/) (who also show 78 rpm and LPs), [Decca Classical](http://www.charm.rhul.ac.uk/discography/decca.html) discography by Philip Stuart (July 2009 edition], [Record Information Services](http://www.record-information-services.info/uk_labels_discography/introduction.html) (post-war UK labels), [Yale University, Music Cataloging](http://www.library.yale.edu/cataloging/music/78sources.htm), [Grammophon-Platten.de](http://grammophon-platten.de/page.php?384) (German/European labels) and [Discogs](https://www.discogs.com/) (database and trading platform) as well as some discographies specialized on specific labels.
 
 </details>
 

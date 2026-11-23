@@ -46,9 +46,6 @@ COMPATIBILITY:
 
 * WINDOWS: WINDOWS 7/8/10
 * PLUGIN FORMATS: 64-BIT VST2.4/VST3/AAX
-
-<!---->
-
 * MAC: OSX 10.8/10.9/10.10/10.11, MACOS 10.12/10.13/10.14/10.15, MACOS 11 BIG SUR
 * PLUGIN FORMATS: 64-BIT VST2.4/VST3/AAX/AU
 
@@ -92,3 +89,7 @@ See the [pack ](plugin-suites.md#mfreefxbundle)for installation instructions.
 ## See also
 
 * Nyquist [modulation-effects.md](../nyquist-plugins/effect-plugins/modulation-effects.md "mention")
+
+<figure><img src="../.gitbook/assets/do-more-with-plugins2x.png" alt="MuseHub: Do more with plugins. Find effects for Audacity on MuseHub."><figcaption></figcaption></figure>
+
+<a href="https://www.musehub.com/category/plugin?utm_source=AU&#x26;utm_medium=referral&#x26;utm_campaign=MH_WW_REF_AU_WEB_ALL_231126_crosslink&#x26;utm_content=plugins-modulation" class="button primary">Browse plugins on MuseHub</a>

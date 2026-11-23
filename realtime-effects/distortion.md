@@ -19,7 +19,7 @@ A distortion tool, part of the [#mfreefxbundle](plugin-suites.md#mfreefxbundle "
 * Extremely fast, optimized for newest AVX2 and AVX512 capable processors
 * Supports VST, VST3, AU and AAX interfaces on Windows and macOS
 
-See the [pack ](plugin-suites.md#mfreefxbundle)for installation instructions.&#x20;
+See the [pack ](plugin-suites.md#mfreefxbundle)for installation instructions.
 
 </details>
 
@@ -42,7 +42,7 @@ A frequency shifter plugin, part of the [#mfreefxbundle](plugin-suites.md#mfreef
 * Extremely fast, optimized for newest AVX2 and AVX512 capable processors
 * Supports VST, VST3, AU and AAX interfaces on Windows and macOS
 
-See the [pack ](plugin-suites.md#mfreefxbundle)for installation instructions.&#x20;
+See the [pack ](plugin-suites.md#mfreefxbundle)for installation instructions.
 
 </details>
 
@@ -65,7 +65,7 @@ MSaturator performs smooth saturation in a definitive tube-like way improving th
 * Extremely fast, optimized for newest AVX2 and AVX512 capable processors
 * Supports VST, VST3, AU and AAX interfaces on Windows and macOS
 
-See the [pack ](plugin-suites.md#mfreefxbundle)for installation instructions.&#x20;
+See the [pack ](plugin-suites.md#mfreefxbundle)for installation instructions.
 
 </details>
 
@@ -88,7 +88,7 @@ MWaveFolder is an analog-inspired distortion module with a unique character rang
 * Extremely fast, optimized for newest AVX2 and AVX512 capable processors
 * Supports VST, VST3, AU and AAX interfaces on Windows and macOS
 
-See the [pack ](plugin-suites.md#mfreefxbundle)for installation instructions.&#x20;
+See the [pack ](plugin-suites.md#mfreefxbundle)for installation instructions.
 
 </details>
 
@@ -111,10 +111,14 @@ MWaveShaper goes beyond a traditional wave-shaping plugin. Unlike the convention
 * Extremely fast, optimized for newest AVX2 and AVX512 capable processors
 * Supports VST, VST3, AU and AAX interfaces on Windows and macOS
 
-See the [pack ](plugin-suites.md#mfreefxbundle)for installation instructions.&#x20;
+See the [pack ](plugin-suites.md#mfreefxbundle)for installation instructions.
 
 </details>
 
 ## See also <a href="#undefined" id="undefined"></a>
 
 * Nyquist [distortion-effects.md](../nyquist-plugins/effect-plugins/distortion-effects.md "mention")
+
+<figure><img src="../.gitbook/assets/do-more-with-plugins2x.png" alt="MuseHub: Do more with plugins. Find effects for Audacity on MuseHub."><figcaption></figcaption></figure>
+
+<a href="https://www.musehub.com/category/plugin?utm_source=AU&#x26;utm_medium=referral&#x26;utm_campaign=MH_WW_REF_AU_WEB_ALL_231126_crosslink&#x26;utm_content=plugins-distortion" class="button primary">Browse plugins on MuseHub</a>

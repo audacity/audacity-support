@@ -38,7 +38,7 @@ Download page
 
 ### ToneBoosters
 
-Powerful plugins for any type of audio mixing: eq, dynamics, reverb, and more.&#x20;
+Powerful plugins for any type of audio mixing: eq, dynamics, reverb, and more.
 
 {% embed url="https://www.toneboosters.com/" %}
 Download page
@@ -119,3 +119,7 @@ Note: The virtual instruments included are not supported in Audacity.
 The Calf plugins can be found in the repositories of most Linux distributions, additionally, compilation instructions can be found here:
 
 {% embed url="https://calf-studio-gear.org/#install" %}
+
+<figure><img src="../.gitbook/assets/do-more-with-plugins2x.png" alt="MuseHub: Do more with plugins. Find effects for Audacity on MuseHub."><figcaption></figcaption></figure>
+
+<a href="https://www.musehub.com/category/plugin/trending-plugins?utm_source=AU&#x26;utm_medium=referral&#x26;utm_campaign=MH_WW_REF_AU_WEB_ALL_231126_crosslink&#x26;utm_content=plugins-suites" class="button primary">Browse trending plugins</a>

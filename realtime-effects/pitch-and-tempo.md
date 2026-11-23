@@ -12,9 +12,7 @@ See the pack for installation instructions.
 
 Has modes optimized for male/female voices and more, and can snap to major, minor and even more rare scales (eg Lydian).
 
-![](<../.gitbook/assets/musefx pitchfix.png>)
-
-
+<img src="../.gitbook/assets/musefx pitchfix.png" alt="" data-size="original">
 
 </details>
 
@@ -37,12 +35,14 @@ MAutoPitch is a simple but great sounding automatic tuning and pitch correction 
 * Extremely fast, optimized for newest AVX2 and AVX512 capable processors
 * Supports VST, VST3, AU and AAX interfaces on Windows and macOS
 
-See the [pack ](plugin-suites.md#mfreefxbundle)for installation instructions.&#x20;
+See the [pack ](plugin-suites.md#mfreefxbundle)for installation instructions.
 
 </details>
-
-
 
 ## See also
 
 * Nyquist [time-pitch-and-tempo.md](../nyquist-plugins/effect-plugins/time-pitch-and-tempo.md "mention") effects
+
+<figure><img src="../.gitbook/assets/do-more-with-plugins2x.png" alt="MuseHub: Do more with plugins. Find effects for Audacity on MuseHub."><figcaption></figcaption></figure>
+
+<a href="https://www.musehub.com/category/plugin?utm_source=AU&#x26;utm_medium=referral&#x26;utm_campaign=MH_WW_REF_AU_WEB_ALL_231126_crosslink&#x26;utm_content=plugins-pitch-tempo" class="button primary">Browse plugins on MuseHub</a>

@@ -219,3 +219,7 @@ ValhallaSupermassive is based around feedback delay networks. The individual del
 ## See also
 
 * Nyquist [delay-and-reverb.md](../nyquist-plugins/effect-plugins/delay-and-reverb.md "mention") effects
+
+<figure><img src="../.gitbook/assets/do-more-with-plugins2x.png" alt="MuseHub: Do more with plugins. Find effects for Audacity on MuseHub."><figcaption></figcaption></figure>
+
+<a href="https://www.musehub.com/category/plugin?utm_source=AU&#x26;utm_medium=referral&#x26;utm_campaign=MH_WW_REF_AU_WEB_ALL_231126_crosslink&#x26;utm_content=plugins-delay-reverb" class="button primary">Browse plugins on MuseHub</a>

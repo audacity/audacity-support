@@ -14,9 +14,9 @@ Download page
 
 © 2011-2022 AudioThing Ltd.
 
-Homepage: [https://www.audiothing.net/effects/filterjam/](https://www.audiothing.net/effects/filterjam/)&#x20;
+Homepage: [https://www.audiothing.net/effects/filterjam/](https://www.audiothing.net/effects/filterjam/)
 
-Description from the vendor:&#x20;
+Description from the vendor:
 
 **Filterjam** is a multi-band resonant filter delivering weird ringmod-like filtered sounds. The input signal is divided into 4 bands that are then summed or multiplied together according to the selected mode. Filterjam can be very harsh or gentle, it can add brightness or depth to synth sounds, but it can also completely mangle acoustic sources.
 
@@ -145,3 +145,7 @@ See the [pack ](plugin-suites.md#mfreefxbundle)for download page.
 ## See also
 
 * Nyquist [filters-and-eq.md](../nyquist-plugins/effect-plugins/filters-and-eq.md "mention") effects
+
+<figure><img src="../.gitbook/assets/do-more-with-plugins2x.png" alt="MuseHub: Do more with plugins. Find effects for Audacity on MuseHub."><figcaption></figcaption></figure>
+
+<a href="https://www.musehub.com/category/plugin?utm_source=AU&#x26;utm_medium=referral&#x26;utm_campaign=MH_WW_REF_AU_WEB_ALL_231126_crosslink&#x26;utm_content=plugins-filters" class="button primary">Browse plugins on MuseHub</a>

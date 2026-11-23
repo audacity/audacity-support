@@ -73,7 +73,7 @@ Information from the vendor
 * 16-band graphic equalizing
 * Freehand drawing mode
 * Linear-phase equalizing
-* \+/- 12 dB gain range per band
+* +/- 12 dB gain range per band
 * Stereo and multi-channel processing
 * Internal channel routing
 * Channel grouping
@@ -189,3 +189,7 @@ With its super intuitive controls and musically interacting curves, the W2395c i
 ## See also
 
 * Nyquist [filters-and-eq.md](../nyquist-plugins/effect-plugins/filters-and-eq.md "mention") effects
+
+<figure><img src="../.gitbook/assets/do-more-with-plugins2x.png" alt="MuseHub: Do more with plugins. Find effects for Audacity on MuseHub."><figcaption></figcaption></figure>
+
+<a href="https://www.musehub.com/category/plugin?utm_source=AU&#x26;utm_medium=referral&#x26;utm_campaign=MH_WW_REF_AU_WEB_ALL_231126_crosslink&#x26;utm_content=plugins-eq" class="button primary">Browse plugins on MuseHub</a>

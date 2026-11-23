@@ -18,7 +18,7 @@ The Audacity Nyquist Interface is implemented in the following files in the Auda
 * audacity/src/effects/nyquist/Nyquist.cpp
 * audacity/lib-src/libnyquist/nyx.c
 
-Nyquist is in many ways a separate program from Audacity (and is also available as a [standalone programming language](https://www.cs.cmu.edu/\~music/nyquist/)). Nyquist is embedded in Audacity as a software [library](https://en.wikipedia.org/wiki/Library\_\(computing\)) that may be called from the main Audacity application to provide additional functionality, most notably as "plugins".
+Nyquist is in many ways a separate program from Audacity (and is also available as a [standalone programming language](https://www.cs.cmu.edu/~music/nyquist/)). Nyquist is embedded in Audacity as a software [library](https://en.wikipedia.org/wiki/Library_\(computing\)) that may be called from the main Audacity application to provide additional functionality, most notably as "plugins".
 
 When a Nyquist plugin is selected from one of Audacity's menus, Audacity locates the plugin script (the ".NY" file), starts a Nyquist session and passes the Nyquist code to be interpreted by the Nyquist library. Nyquist then attempts to run the program. The result of running the Nyquist script is returned to Audacity.
 
@@ -32,7 +32,7 @@ In Audacity, special comments are used in Nyquist plugins to pass information to
 
 ### Plugin Header Example <a href="#plug_in_header_example" id="plug_in_header_example"></a>
 
-In this example (derived from the [High-Pass Filter](https://manual.audacityteam.org/man/high\_pass\_filter.html) effect), the first four lines make up the essential headers that are required in all Nyquist plugins.
+In this example (derived from the [High-Pass Filter](https://manual.audacityteam.org/man/high_pass_filter.html) effect), the first four lines make up the essential headers that are required in all Nyquist plugins.
 
 * `;nyquist plug-in`\
   This header tells Audacity that this file is a Nyquist plugin.
@@ -95,8 +95,6 @@ When a plugin is launched, Audacity searches the plugin **.NY** file for valid h
 | ;control | _symbol_ |  _string_ |     **file**     |  _string_  |    _string_   |     _string_    |     _string_    |
 | ;control |     -    |     -     |     **text**     |  _string_  |       -       |        -        |        -        |
 
-
-
 {% hint style="info" %}
 Note: "real" (deprecated) is an alternative name for "float" and is provided as legacy support for old plugins. It should not be used in new code.
 {% endhint %}
@@ -109,7 +107,7 @@ _Italic_ words in the table denote data types. Because tokens are separated by w
 Note: Older versions of Audacity may not support all of these controls, which may lead to an "unbound symbol" error. Plugin users are encouraged to use the current version of Audacity, to ensure that they can benefit from all of the latest features.
 {% endhint %}
 
-The following code may be run in the [Nyquist Prompt](https://manual.audacityteam.org/man/nyquist\_prompt.html) of Audacity 2.3.1 or later, and produces the GUI shown above:
+The following code may be run in the [Nyquist Prompt](https://manual.audacityteam.org/man/nyquist_prompt.html) of Audacity 2.3.1 or later, and produces the GUI shown above:
 
 ```lisp
 ;version 4
@@ -152,7 +150,7 @@ Audacity passes information about the current Audacity session to the Nyquist in
 
 For process and analyze type plugins, Nyquist runs the plugin code on each selected track in turn. The audio data is passed from Audacity to Nyquist as a variable called **\*TRACK\*** (the asterisks are part of the name).
 
-* For mono tracks, the value of \*TRACK\* is a "sound" (which is a Nyquist [data type](https://en.wikipedia.org/wiki/Data\_type)).
+* For mono tracks, the value of \*TRACK\* is a "sound" (which is a Nyquist [data type](https://en.wikipedia.org/wiki/Data_type)).
 * For stereo tracks, the value of \*TRACK\* is an "array". An array is a special kind of ordered list. The array has two elements, both of which are "sounds". The first element holds audio data from the left channel, and the second element hold data from the right channel.
 
 The selected audio is only available to "process" and "analyze" type plugins (including the compound types "tool process" and "tool analyze").
@@ -195,42 +193,42 @@ but if the same code is used in a 'process' type plugin, the generated tone will
 (osc 60 2.5)
 ```
 
-If a duration in seconds is required in a 'process' type plugin, this may be done using the [ABS-ENV](http://www.cs.cmu.edu/\~rbd/doc/nyquist/part8.html#index583) command:
+If a duration in seconds is required in a 'process' type plugin, this may be done using the [ABS-ENV](http://www.cs.cmu.edu/~rbd/doc/nyquist/part8.html#index583) command:
 
 ```lisp
 ;type process
 (abs-env (osc 60 2.5))
 ```
 
-The above examples may be run in the [Nyquist Prompt](https://manual.audacityteam.org/man/nyquist\_prompt.html).
+The above examples may be run in the [Nyquist Prompt](https://manual.audacityteam.org/man/nyquist_prompt.html).
 
 ## Global Variables and Reserved Variable Names <a href="#global_variables_and_reserved_variable_names" id="global_variables_and_reserved_variable_names"></a>
 
-In addition to the standard global variables defined in the [Nyquist Reference Manual](http://www.cs.cmu.edu/\~rbd/doc/nyquist/part9.html), Nyquist in Audacity also has global variables that relate specifically to Audacity. Listed here are a few common standard Nyquist globals, and global variables that are relevant to Nyquist in Audacity.
+In addition to the standard global variables defined in the [Nyquist Reference Manual](http://www.cs.cmu.edu/~rbd/doc/nyquist/part9.html), Nyquist in Audacity also has global variables that relate specifically to Audacity. Listed here are a few common standard Nyquist globals, and global variables that are relevant to Nyquist in Audacity.
 
-* [**\*CONTROL-SRATE\***](http://www.cs.cmu.edu/\~rbd/doc/nyquist/part9.html#index844) : \[float] The sample frequency of the control signals (such as those created by [piecewise approximations](http://www.cs.cmu.edu/\~rbd/doc/nyquist/part8.html#index389). By default 1/20 of the sample rate of the track.
-* **\*DECIMAL-SEPARATOR\*** : \[char] A comma character (#\\') or dot character (#\\.) depending on the language selected in [Audacity's Preferences](https://manual.audacityteam.org/man/interface\_preferences.html).
+* [**\*CONTROL-SRATE\***](http://www.cs.cmu.edu/~rbd/doc/nyquist/part9.html#index844) : \[float] The sample frequency of the control signals (such as those created by [piecewise approximations](http://www.cs.cmu.edu/~rbd/doc/nyquist/part8.html#index389). By default 1/20 of the sample rate of the track.
+* **\*DECIMAL-SEPARATOR\*** : \[char] A comma character (#\\') or dot character (#\\.) depending on the language selected in [Audacity's Preferences](https://manual.audacityteam.org/man/interface_preferences.html).
 * **\*FILE-SEPARATOR\*** : \[char] The character that separates directories in a path, e.g. "/" (#\\/) for Unix, ":" (#\\:) for Mac, and "\\" (#\\\\) for Win32.
 * **LEN** : \[int] The number of samples contained in the selected Audacity sound.
-* **\*LOCALE\*** : \[list] This is variable name is reserved for [translation strings](broken-reference).
+* **\*LOCALE\*** : \[list] This is variable name is reserved for [translation strings](https://github.com/audacity/audacity-support/blob/plugins/contributing/developing-your-own-plugins-and-scripts/creating-your-own-nyquist-plugins/broken-reference/README.md).
 * **\*PREVIEWP\*** : \[bool] True when previewing an effect, otherwise false.
 * **\*RUNTIME-PATH\*** : \[string] Path to Nyquist .lsp files.
 * **\*PROJECT\*** : A variable with a list of properties relating to the current Audacity project.
-* **S** (obsolete) : \[sound or array of two sounds] Prior to version 4 plugins, in process and analyze type plugins this was the Audacity sound \[the selected part of the Audacity audio track]. In generate type plugins "S" is the [Adagio notation](http://www.cs.cmu.edu/\~rbd/doc/nyquist/part11.html) for a _quarter note_ (float value 0.25).
-* [**S**](http://www.cs.cmu.edu/\~rbd/doc/nyquist/part2.html#index53) : [Adagio notation](http://www.cs.cmu.edu/\~rbd/doc/nyquist/part11.html). \[float] A _quarter note_ (float value 0.25).
+* **S** (obsolete) : \[sound or array of two sounds] Prior to version 4 plugins, in process and analyze type plugins this was the Audacity sound \[the selected part of the Audacity audio track]. In generate type plugins "S" is the [Adagio notation](http://www.cs.cmu.edu/~rbd/doc/nyquist/part11.html) for a _quarter note_ (float value 0.25).
+* [**S**](http://www.cs.cmu.edu/~rbd/doc/nyquist/part2.html#index53) : [Adagio notation](http://www.cs.cmu.edu/~rbd/doc/nyquist/part11.html). \[float] A _quarter note_ (float value 0.25).
 * **\*SCRATCH\*** : \[any] a symbol whose value and property list are preserved from one effect invocation to the next.
 * **\*SELECTION\*** : A variable with a list of properties relating to the current selection.
-* [**\*SOUND-SRATE\***](http://www.cs.cmu.edu/\~rbd/doc/nyquist/part9.html#index868) : \[float] The sample frequency of the selected track audio.
+* [**\*SOUND-SRATE\***](http://www.cs.cmu.edu/~rbd/doc/nyquist/part9.html#index868) : \[float] The sample frequency of the selected track audio.
 * **\*SYSTEM-DIR\*** : A variable with a list of properties relating to the file system.
 * **\*SYSTEM-TIME\*** : A variable with a list of properties relating to the system time/date.
 * **\*TRACK\*** : \[sound or array of sounds] The Audacity sound \[the selected part of the Audacity audio track]. The \*TRACK\* variable also has a list of "properties" that pass additional information to Nyquist.
-* [**\*WARP\***](http://www.cs.cmu.edu/\~rbd/doc/nyquist/part4.html#index144) : information that communicates start-time and duration to Nyquist functions. In Audacity, the start-time is always considered to be zero (regardless of the actual start time of the selection) and the duration indicates the duration of the selection. \*warp\* should not normally be accessed directly.
+* [**\*WARP\***](http://www.cs.cmu.edu/~rbd/doc/nyquist/part4.html#index144) : information that communicates start-time and duration to Nyquist functions. In Audacity, the start-time is always considered to be zero (regardless of the actual start time of the selection) and the duration indicates the duration of the selection. \*warp\* should not normally be accessed directly.
 
-Other global variables provided by Nyquist can be found in the [Nyquist manual index](http://www.cs.cmu.edu/\~rbd/doc/nyquist/indx.html).
+Other global variables provided by Nyquist can be found in the [Nyquist manual index](http://www.cs.cmu.edu/~rbd/doc/nyquist/indx.html).
 
 ## Global Property Lists <a href="#global_property_lists" id="global_property_lists"></a>
 
-Property lists are defined for the global variables \*AUDACITY\*, \*PROJECT\*, \*SELECTION\*, \*SYSTEM-DIR\*, \*SYSTEM-TIME\*, and \*TRACK\*.&#x20;
+Property lists are defined for the global variables \*AUDACITY\*, \*PROJECT\*, \*SELECTION\*, \*SYSTEM-DIR\*, \*SYSTEM-TIME\*, and \*TRACK\*.
 
 For examples using property lists, see the [Nyquist Property List Tutorial](tutorials/property-list-tutorial.md).
 
@@ -240,7 +238,7 @@ This property list was added in Audacity version 2.1.0
 
 **Value:** Unbound (not defined).
 
-* **LANGUAGE** : \[string] The country code for the language set in [Audacity Preferences](http://manual.audacityteam.org/man/interface\_preferences.html#display).\
+* **LANGUAGE** : \[string] The country code for the language set in [Audacity Preferences](http://manual.audacityteam.org/man/interface_preferences.html#display).\
   Example - when Audacity's locale setting is for English, `(print (get '*audacity* 'language))`will print `en`.
 * **VERSION** : \[integer list] A list in the form (Audacity\_version Audacity\_release Audacity\_revision)\
   Example: Print the full Audacity version for Audacity 2.1.3\
@@ -255,7 +253,7 @@ This property list was added in Audacity version 2.1.0
 * **LABELTRACKS** : \[integer] The number of label tracks in the project.
 * **MIDITRACKS** : \[integer] The number of note tracks in the project.
 * **NAME** : \[string] The name of the current project. A project that has not been named (not yet saved) returns an empty string.
-* **PREVIEW-DURATION** : \[float] The [Effects Preview Length](https://manual.audacityteam.org/man/playback\_preferences.html) set in Audacity preferences.
+* **PREVIEW-DURATION** : \[float] The [Effects Preview Length](https://manual.audacityteam.org/man/playback_preferences.html) set in Audacity preferences.
 * **PROJECTS** : \[integer] The number of open projects.
 * **RATE** : \[integer] The project rate in the project.
 * **TIMETRACKS** : \[integer] The number of time tracks in the project.
@@ -286,7 +284,7 @@ This property list was added in Audacity version 2.1.0
 * **DATA** : \[string] The Audacity data directory. This is where the audacity.cfg, pluginregistry.cfg and EQCurves.xml files are located.
 * **DOCUMENTS** \[string] The system default documents directory.
 * **HELP** : \[string] The installation directory for the Audacity Manual (note that the Manual may not exist).
-* **HOME** : \[string] The current user's "[home](https://en.wikipedia.org/wiki/Home\_directory)" directory.
+* **HOME** : \[string] The current user's "[home](https://en.wikipedia.org/wiki/Home_directory)" directory.
 * **PLUG-IN** : \[string list] The Nyquist plugin search path. This includes the directories where Audacity looks for Nyquist plugins, and other Nyquist related files. Not all directories are currently used and some are for legacy support only.
 * **SYS-TEMP** : \[string] The system temp directory.
 * **TEMP** : \[string] The Audacity temp directory. This is where unsaved project data is temporarily stored.
@@ -304,7 +302,7 @@ This property list was added in Audacity version 2.1.1.
 Note that "day" is a number in the range 1 to 366, counted from the start of the year.
 {% endhint %}
 
-This is the time that the Nyquist code is parsed, NOT the time it is executed. It cannot therefore be used for timing events that occur while the code is running. Possible uses for \*SYSTEM-TIME\* could include automatic naming of files written to disk, or for "[seeding](https://en.wikipedia.org/wiki/Random\_seed)" random processes.
+This is the time that the Nyquist code is parsed, NOT the time it is executed. It cannot therefore be used for timing events that occur while the code is running. Possible uses for \*SYSTEM-TIME\* could include automatic naming of files written to disk, or for "[seeding](https://en.wikipedia.org/wiki/Random_seed)" random processes.
 
 * **DATE** : \[string] The date formatted according to the current locale. Example: "dd/mm/yy".
 * **DAY** : \[integer] Day of the month.
@@ -325,8 +323,8 @@ Properties of \*TRACK\* all relate to the track that is being processed. Current
 * **CHANNELS** : \[integer] The number of channels in the track (mono = 1, stereo = 2).
 * **CLIPS** : \[list or array] For mono tracks, a list of start and end time of each audio clip. For stereo tracks, an array containing a list of clips for each channel.\
   Due to a limitation in Nyquist, the "clips" property can hold a maximum of 1000 start / end times.\
-  &#x20;  If an audio channel contains more than 1000 clips, the first 1000 will be listed, and the 1001th item will be NIL.\
-  &#x20;  See [AUD-GET-INFO](https://manual.audacityteam.org/man/nyquist\_macros.html#AUD-GET-INFO) for an alternative way to get clip times that will work with 1000's of clips.
+  If an audio channel contains more than 1000 clips, the first 1000 will be listed, and the 1001th item will be NIL.\
+  See [AUD-GET-INFO](https://manual.audacityteam.org/man/nyquist_macros.html#AUD-GET-INFO) for an alternative way to get clip times that will work with 1000's of clips.
 * **END-TIME** : \[float] The track end time.
 * **FORMAT** : \[integer or float] The track sample format. One of (Integer) 16, (Integer) 24, or (float) 32.
 * **GAIN** : \[float] The value of the track Gain slider.
@@ -334,11 +332,11 @@ Properties of \*TRACK\* all relate to the track that is being processed. Current
 * **NAME** : \[string] The name of the track.
 * **PAN** : \[float] The value of the track Pan slider.
 * **RATE** : \[float] The track sample rate.
-* **SPECTRAL-EDIT-ENABLED** : \[bool] Returns 'T' (_true_) if [spectral editing is enabled](https://manual.audacityteam.org/man/spectrograms\_preferences.html#Enable\_Spectral\_Selection), otherwise 'NIL'. Note that this is irrespective of the track view and will return 'T' if the spectral editing option for the track is enabled even if the track is not displaying a spectrogram.
+* **SPECTRAL-EDIT-ENABLED** : \[bool] Returns 'T' (_true_) if [spectral editing is enabled](https://manual.audacityteam.org/man/spectrograms_preferences.html#Enable_Spectral_Selection), otherwise 'NIL'. Note that this is irrespective of the track view and will return 'T' if the spectral editing option for the track is enabled even if the track is not displaying a spectrogram.
 * **START-TIME** : \[float] The track start time (note that this will often be different from the _selection_ start time.)
 * **TYPE** : \[string] The type of track. One of: "wave", "midi", "label", "time". Currently only "wave" (audio tracks) are processed by Nyquist plugins.
 * **VIEW** : \[string or list] The track view. Only applies to audio tracks.\
-  \* A single track view returns one of "Waveform", "Spectrogram" or NIL. [Multi-View](https://manual.audacityteam.org/man/multi\_view.html) returns a list of strings or NIL.\
+  \* A single track view returns one of "Waveform", "Spectrogram" or NIL. [Multi-View](https://manual.audacityteam.org/man/multi_view.html) returns a list of strings or NIL.\
   \* Multi-view returns the upper view as the first element, and the lower view as the second (either "Waveform" or "Spectrogram"). Both normal "Waveform" and "Waveform (dB)" return the string "Waveform".\
   \* Prior to Audacity 2.4.x : \[string] One of: "Waveform", "Waveform (dB)", "Spectrogram" or NIL.
 
@@ -346,7 +344,7 @@ The _VIEW_ property may change in future versions of Audacity, so is not recomme
 
 ## Return Values <a href="#return_values" id="return_values"></a>
 
-Nyquist supports many _"data types_", including "numbers" (integer or floating-point), "characters" (such as the letter "A", the number "4", or any other [ASCII character](https://en.wikipedia.org/wiki/ASCII)), "strings" (text), "[list](https://en.wikipedia.org/wiki/List\_\(abstract\_data\_type\))" (a list of data), "[array](https://en.wikipedia.org/wiki/Array\_data\_type)" (special kind of indexed list), and "sounds" (a sound / digital signal).
+Nyquist supports many _"data types_", including "numbers" (integer or floating-point), "characters" (such as the letter "A", the number "4", or any other [ASCII character](https://en.wikipedia.org/wiki/ASCII)), "strings" (text), "[list](https://en.wikipedia.org/wiki/List_\(abstract_data_type\))" (a list of data), "[array](https://en.wikipedia.org/wiki/Array_data_type)" (special kind of indexed list), and "sounds" (a sound / digital signal).
 
 The result of the last computation within the plugin code will be given back from Nyquist to Audacity. According to the _data type_ of the returned value one of the following actions will be invoked in Audacity:
 
@@ -376,7 +374,7 @@ If an appropriately formatted list is returned to Audacity, a label track will b
 
 For point labels the format is:
 
-&#x20;`((`_`number`_` ``"`_`string`_`") (`_`number`_` ``"`_`string`_`") ... )`
+`((`_`number`_` `` ``" `_`string`_`") (`_`number`_` `` ``" `_`string`_`") ... )`
 
 The list to create a label track must contain one or more lists, each of which must have:
 
@@ -385,9 +383,9 @@ The list to create a label track must contain one or more lists, each of which m
 
 For region labels, each label list must contain two _int-or-float_ elements, one for the start and one for the end of the label region.
 
-&#x20;`((`_`number`_` ```` `_`number`_` ``"`_`string`_`") (`_`number`_` ```` `_`number`_` ``"`_`string`_`") ... )`
+`((`_`number`_` ```` `_`number`_` `` ``" `_`string`_`") (`_`number`_` ```` `_`number`_` `` ``" `_`string`_`") ... )`
 
-Audacity will always place returned audio or labels relative to the start of the [selection](https://manual.audacityteam.org/man/Audacity\_Selection) and not the start of the [Timeline](https://manual.audacityteam.org/man/Timeline).
+Audacity will always place returned audio or labels relative to the start of the [selection](https://manual.audacityteam.org/man/Audacity_Selection) and not the start of the [Timeline](https://manual.audacityteam.org/man/Timeline).
 
 #### Empty String <a href="#empty_string" id="empty_string"></a>
 
@@ -404,13 +402,13 @@ An empty string may be used as a "null return", which means that the plugin retu
 
 ## Playing sounds with Nyquist <a href="#playing_sounds_with_nyquist" id="playing_sounds_with_nyquist"></a>
 
-When using the [Nyquist Prompt](https://manual.audacityteam.org/man/nyquist\_prompt.html) or (most) Nyquist plugins that have a [GUI](https://en.wikipedia.org/wiki/Graphical\_user\_interface), if the plugin returns a sound, it may be previewed using the `Preview` button. In addition to this, it is also possible to play sounds directly from Nyquist, using the [PLAY](http://www.cs.cmu.edu/\~rbd/doc/nyquist/part8.html#index626) function. The PLAY function will be executed when the plugin code runs.&#x20;
+When using the [Nyquist Prompt](https://manual.audacityteam.org/man/nyquist_prompt.html) or (most) Nyquist plugins that have a [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface), if the plugin returns a sound, it may be previewed using the `Preview` button. In addition to this, it is also possible to play sounds directly from Nyquist, using the [PLAY](http://www.cs.cmu.edu/~rbd/doc/nyquist/part8.html#index626) function. The PLAY function will be executed when the plugin code runs.
 
 {% hint style="info" %}
-The PLAY function is described in the [Nyquist manual](http://www.cs.cmu.edu/\~rbd/doc/nyquist/part8.html#index626). The information here describes aspects that are specific to Nyquist in Audacity.
+The PLAY function is described in the [Nyquist manual](http://www.cs.cmu.edu/~rbd/doc/nyquist/part8.html#index626). The information here describes aspects that are specific to Nyquist in Audacity.
 {% endhint %}
 
-Note that the Nyquist PLAY command does not use Audacity's [audio device settings](http://manual.audacityteam.org/man/devices\_preferences.html). Nyquist uses the system default device for playback, and has a default buffer of 100 ms. The buffer setting may be changed with the [SND-SET-LATENCY](http://www.cs.cmu.edu/\~rbd/doc/nyquist/part8.html#index340) command. The actual latency values are dependent on the computer sound system and may differ from those requested by Nyquist.
+Note that the Nyquist PLAY command does not use Audacity's [audio device settings](http://manual.audacityteam.org/man/devices_preferences.html). Nyquist uses the system default device for playback, and has a default buffer of 100 ms. The buffer setting may be changed with the [SND-SET-LATENCY](http://www.cs.cmu.edu/~rbd/doc/nyquist/part8.html#index340) command. The actual latency values are dependent on the computer sound system and may differ from those requested by Nyquist.
 
 To see the list of available devices when Nyquist plays, set \*snd-list-device\* to "true" before the play command, then use `Debug` button to see the output.
 
@@ -447,19 +445,19 @@ The other method may be used by plugin developers for their "third party" plugin
 
 Header comments in translated plugins begin with a dollar "$" character rather than the usual semicolon ";" character. The strings to be translated are then wrapped in a function that has a one character name "\_" (underscore).
 
-**Example:** In the [Adjustable Fade](https://manual.audacityteam.org/man/adjustable\_fade.html) effect, the [Name](broken-reference) header is changed from:
+**Example:** In the [Adjustable Fade](https://manual.audacityteam.org/man/adjustable_fade.html) effect, the [Name](https://github.com/audacity/audacity-support/blob/plugins/contributing/developing-your-own-plugins-and-scripts/creating-your-own-nyquist-plugins/broken-reference/README.md) header is changed from:
 
-&#x20;`;name "Adjustable Fade"`
+`;name "Adjustable Fade"`
 
 to:
 
-&#x20;`$name (_ "Adjustable Fade")`
+`$name (_ "Adjustable Fade")`
 
-**;control** lines become **$control**. As with other translated headers, the **$** symbol replaces the normal semicolon. The line is ignored by Nyquist as a _comment_, but is visible to Audacity for translation and for creating a [widget](broken-reference).
+**;control** lines become **$control**. As with other translated headers, the **$** symbol replaces the normal semicolon. The line is ignored by Nyquist as a _comment_, but is visible to Audacity for translation and for creating a [widget](https://github.com/audacity/audacity-support/blob/plugins/contributing/developing-your-own-plugins-and-scripts/creating-your-own-nyquist-plugins/broken-reference/README.md).
 
 The options in Multiple-choice widgets may be translated. For example:
 
-&#x20;`;control var (_ "Translated left text") choice ((_ "Yes") (_ "No")) 0`
+`;control var (_ "Translated left text") choice ((_ "Yes") (_ "No")) 0`
 
 {% hint style="danger" %}
 The above example is not safe to use. See the "Limitations" section below.
@@ -467,27 +465,27 @@ The above example is not safe to use. See the "Limitations" section below.
 
 **Macros and portability:** To allow portability of settings and macros, choices may include a non-translated form of each choice. The non-translated form is used by Macros but is not normally visible to users.
 
-&#x20;`;control var (_ "Translated left text") choice (("Label1" (_ "Translated Label 1")) ("Label2" (_ "Translated Label 2"))) 0`
+`;control var (_ "Translated left text") choice (("Label1" (_ "Translated Label 1")) ("Label2" (_ "Translated Label 2"))) 0`
 
 **Other user visible strings:** Other strings that are visible to users are marked for translation using the "underscore" function. An example from the Adjustable Fade plugin:
 
-&#x20;`(format nil (_ "~aPercentage values cannot be negative.") err)`
+`(format nil (_ "~aPercentage values cannot be negative.") err)`
 
 ### **Limitations**
 
-Control characters like  (new line),  (tab) are not supported. The workaround is to use Lisp format directives instead:
+Control characters like (new line), (tab) are not supported. The workaround is to use Lisp format directives instead:
 
 * **Bad** (does not work correctly):
 
-&#x20;`(print (_ "Line one.\nLine two."))`
+`(print (_ "Line one.\nLine two."))`
 
 * **Good**:
 
-&#x20;`(print (format nil (_ "Line one.~%Line two.")))`
+`(print (format nil (_ "Line one.~%Line two.")))`
 
 Note that translations may contain Unicode characters that are not supported by Nyquist. It is therefore important that any translated strings that need to be _machine readable_ (such as Multiple-Choice widget options) _**should**_ also have a non-translated form.
 
-&#x20;`;control var (_ "Translated left text") choice (("Label1" (_ "Translated Label 1")) ("Label2" (_ "Translated Label 2"))) 0`
+`;control var (_ "Translated left text") choice (("Label1" (_ "Translated Label 1")) ("Label2" (_ "Translated Label 2"))) 0`
 
 ### Translation for third party effects <a href="#translation_for_third_party_effects" id="translation_for_third_party_effects"></a>
 
@@ -514,5 +512,5 @@ A working example may be found in the [RMS effect](https://github.com/audacity/a
 
 * [Nyquist](https://manual.audacityteam.org/man/nyquist.html) in the Audacity manual
 * Nyquist [Basics ](basics/)and [Tutorials](tutorials/)
-* [Nyquist 3.02 Reference Manual](http://www.cs.cmu.edu/\~rbd/doc/nyquist/)
+* [Nyquist 3.02 Reference Manual](http://www.cs.cmu.edu/~rbd/doc/nyquist/)
 * [XLISP 2.0 Manual](http://www.audacity-forum.de/download/edgar/nyquist/nyquist-doc/xlisp/xlisp-index.htm)

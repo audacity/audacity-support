@@ -137,3 +137,7 @@ Technically, NVIDIA Broadcast isn't a plugin but a virtual device. You will find
 ## See also
 
 * [dynamics-processing.md](dynamics-processing.md "mention") - Dynamics processors can often be used for noise reduction purposes
+
+<figure><img src="../.gitbook/assets/do-more-with-plugins2x.png" alt="MuseHub: Do more with plugins. Find effects for Audacity on MuseHub."><figcaption></figcaption></figure>
+
+<a href="https://www.musehub.com/category/plugin/voice-and-podcasting?utm_source=AU&#x26;utm_medium=referral&#x26;utm_campaign=MH_WW_REF_AU_WEB_ALL_231126_crosslink&#x26;utm_content=plugins-noise-repair" class="button primary">Browse voice and podcasting plugins</a>

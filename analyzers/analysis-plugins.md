@@ -28,7 +28,7 @@ Download page:
 This analyzer was developed as an aid for audiobook producers. It displays a number of useful statistics about the selected audio, and compares them to the specifications published by [ACX](https://www.acx.com/help/acx-audio-submission-requirements/201456300) (an Amazon.com subsidiary).
 
 {% file src="../.gitbook/assets/ACX-Check.ny" %}
-Download&#x20;
+Download
 {% endfile %}
 
 <details>
@@ -39,21 +39,21 @@ Author: Steve Daulton
 
 Based on a plugin by Will McCown.
 
-#### Displayed Results
+**Displayed Results**
 
 * **Peak leve**l\
-  Maximum peak level in the selection&#x20;
+  Maximum peak level in the selection
 * **RMS level**\
-  The RMS level of the selected audio.&#x20;
+  The RMS level of the selected audio.
 * **Noise floo**r\
-  The RMS level of the quietest 500 milliseconds in the selection&#x20;
+  The RMS level of the quietest 500 milliseconds in the selection
 * **Warnings**: _(These are only displayed when applicable.)_
-  * Warning: ACX require 44100 Hz sample rate.&#x20;
-  * Warning: ACX require running time no longer than 120 minutes&#x20;
-  * Noise floor: -inf dB Warning (too low - Dead silence sounds unnatural.) \
+  * Warning: ACX require 44100 Hz sample rate.
+  * Warning: ACX require running time no longer than 120 minutes
+  * Noise floor: -inf dB Warning (too low - Dead silence sounds unnatural.)\
     ACX require constant, low level "room tone" rather than an unnaturally silent background noise level.
 
-#### **Limitations**
+**Limitations**
 
 * This tool is intended only as an aid in achieving ACX acceptance. Even straight passes from this tool is NO guarantee of ACX acceptance.
 * The Noise Floor measurement is taken from the quietest half second of audio found in the selection. If one part of the selection is quieter than the rest, you will get a false value.
@@ -66,12 +66,12 @@ Also beware that some noise sources are worse than others, and noise such as the
 
 ### MAAT GON
 
-A Goniometer, also known as XY-Oscilloscope or Phase Scope.&#x20;
+A Goniometer, also known as XY-Oscilloscope or Phase Scope.
 
 **Note:** Requires registration. This Analyzer can be found in the Effects category.
 
 {% embed url="https://www.maat.digital/gon/" %}
-Download&#x20;
+Download
 {% endembed %}
 
 <details>
@@ -84,12 +84,11 @@ Information from the vendor:
 
 _This “phase scope” plug–in quickly conveys global trends and troubles, with a visual out–of–phase warning built in. Plus, an optional autogain feature insures that you’ll see an understandable display with a very wide range of input amplitudes._
 
-_Usable metering is essential for any engineer, and GŌN’s options are equally practical, with a notable absence of controls. Unlike an oscilloscope which takes up room on your producer’s desk or meter bridge, GŌN’s lack of any knobs or switches means its straightforward user interface contains only a single button, the preference’s gear icon at upper right. Control over gain, focus, “phosphor” color, drawing style and persistence are all there in the preferences, and everything can be saved as a personal preset._
+_Usable metering is essential for any engineer, and GŌN’s options are equally practical, with a notable absence of controls. Unlike an oscilloscope which takes up room on your producer’s desk or meter bridge, GŌN’s lack of any knobs or switches means its straightforward user interface contains only a single button, the preference’s gear icon at upper right. Control over gain, focus, “phosphor” color, drawing style and persistence are all there in the preferences, and everything can be saved as a personal preset._
 
 _All of GŌN’s functionality is wrapped in an information-rich yet visually unobtrusive user interface that occupies only a small slice of screen real estate. Likewise, the plugin is very "light weight" demanding an absolute minimum of CPU resources so it won´t slow down your host. As a bonus to everyone in the audio community, we’re giving you this free and rather useful plug-in. Thanks for visiting, and we hope to see more of you in the future!_
 
-\
-
+\\
 
 </details>
 
@@ -107,14 +106,12 @@ Download
 
 Author: Edgar-rft.
 
-
-
-#### Parameters
+**Parameters**
 
 1. **Place labels at:** \[Choice: first peak only, all equally loud peaks (default)] The default setting will create labels for all peaks at the maximum absolute amplitude. "Absolute" amplitude disregards whether the value is positive or negative, so peaks may be up or down.
 2. **Minimum Distance: \[samples]:** \[1 to 1000, (default 100)] The minimum distance between labels (in samples). If audio is clipped there may be many samples in succession at the maximum amplitude. This setting avoids labeling every successive sample by setting a minimum distance between labels.
 
-#### **Limitations**
+**Limitations**
 
 * This effect can be very slow on long selections.
 * If the audio is clipped and "Place labels at: all equally loud peaks" is selected, there may be an extremely large number of labels created. The "Minimum Distance" setting is useful to reduce the number of labels.
@@ -138,12 +135,12 @@ Author: Steve Daulton
 
 By default, the plugin detects the pitch by analyzing the first 0.2 seconds of the selection. In most cases this should work well. If required the analyzed section can be set to the first part of the selection ranging from the first 10th of a second (0.1 seconds) up to one second.
 
-#### Parameters
+**Parameters**
 
 1. **Frequency range:** \[Choice: 20-1000 Hz, 100-2000 Hz, 1 kHz-10 kHz. Default 100-2000 Hz] In most cases the default should be used as most musical pitches are in the range 100 to 2000 Hz.
 2. **Analyse first (seconds):** \[0.1 to 1. Default 0.2] At the default setting the first 0.2 seconds of the selection will be analyzed.
 
-#### **Limitations**
+**Limitations**
 
 This plugin is intended to detect single notes - you may get strange results if you try to analyze chords.
 
@@ -151,7 +148,7 @@ Extremely high frequencies may not be detected very accurately, especially if th
 
 The plugin should usually be able to detect pitches of single notes to within a few percent of the actual frequency. Don't expect the frequency in Hz to be exact..
 
-#### **Advanced usage tips**
+**Advanced usage tips**
 
 * For detecting very low frequencies (less than a few hundred Hz) the plugin should be set to the low frequency range (20 to 1000 Hz).
 * For detecting very high frequencies (several kHz) the plugin should be set to the high frequency range (1 kHz to 10 kHz).
@@ -159,8 +156,10 @@ The plugin should usually be able to detect pitches of single notes to within a 
 
 </details>
 
-
-
 ## Other sources
 
-Additional Vamp Plugins can be found on [https://www.vamp-plugins.org/download.html](https://www.vamp-plugins.org/download.html)&#x20;
+Additional Vamp Plugins can be found on [https://www.vamp-plugins.org/download.html](https://www.vamp-plugins.org/download.html)
+
+<figure><img src="../.gitbook/assets/do-more-with-plugins2x.png" alt="MuseHub: Do more with plugins. Find effects for Audacity on MuseHub."><figcaption></figcaption></figure>
+
+<a href="https://www.musehub.com/category/plugin?utm_source=AU&#x26;utm_medium=referral&#x26;utm_campaign=MH_WW_REF_AU_WEB_ALL_231126_crosslink&#x26;utm_content=plugins-analysis" class="button primary">Browse plugins on MuseHub</a>
