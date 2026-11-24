@@ -10,7 +10,6 @@
 ## Audacity Basics <a href="#basics" id="basics"></a>
 
 * [Installing FFmpeg](basics/installing-ffmpeg.md)
-* [Recording your voice with a microphone](basics/recording-your-voice-and-microphone/README.md)
 * [Recording desktop audio](basics/recording-desktop-audio.md)
 
 ## Audio Editing
