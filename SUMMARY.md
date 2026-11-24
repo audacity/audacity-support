@@ -4,7 +4,6 @@
 
 ## new in Audacity 4
 
-* [Audacity 4 Alpha 1 release notes](new-in-audacity-4/audacity-4-alpha-1-release-notes.md)
 * [Customizing Audacity's UI](new-in-audacity-4/workspaces.md)
 * [Changing clip color](new-in-audacity-4/changing-clip-color.md)
 
