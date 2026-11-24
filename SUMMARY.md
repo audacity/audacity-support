@@ -14,7 +14,6 @@
 
 ## Audio Editing
 
-* [Mixing and panning tracks](audio-editing/mixing-and-panning-tracks.md)
 * [Reducing dynamic range (Compressor / Limiter)](audio-editing/reducing-dynamic-range-compressor-limiter.md)
 
 ## Special uses
