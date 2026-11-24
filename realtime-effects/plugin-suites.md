@@ -10,11 +10,9 @@ A collection of essential effects. Contains a **Chorus**, **Compressor**, **De-e
 
 MuseFX is a free and expanding collection of high quality plugins for Audacity, MuseScore 4 and any VST3 compatible host. MuseFX brings the tools you need to elevate your mix to a higher level.
 
-{% embed url="https://www.musehub.com/" %}
-Download Muse hub
+{% embed url="https://www.musehub.com/plugin/musefx?utm_source=AU&utm_medium=referral&utm_campaign=MH_WW_REF_AU_WEB_ALL_231126_crosslink&utm_content=plugins-suites-musefx" %}
+Get MuseFX on MuseHub
 {% endembed %}
-
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>MuseFX can be downloaded from the "Effects" tab in the Muse Hub</p></figcaption></figure>
 
 ## Available for all platforms
 
