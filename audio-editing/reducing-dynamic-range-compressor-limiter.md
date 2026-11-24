@@ -14,8 +14,8 @@ The compressor can be used to reduce the dynamic range by a certain ratio for al
 ### Best practices
 
 * To get started, try a **factory preset** from the **preset dropdown**. This effect comes with useful presets for a variety of content.
-* Use this effect as a [master effect or realtime effect](using-realtime-effects.md) to see a graph of it working in realtime. In the example shown above, you can see the effect engaging three times (where the yellow line goes down)
-* Lower the threshold if the compressor isn't doing anything. However, you typically don't want the compressor to _always_ be engaged.&#x20;
+* Use this effect as a [master effect or realtime effect](/broken/pages/gVhdPD9kq6nWk7mLUu0Y) to see a graph of it working in realtime. In the example shown above, you can see the effect engaging three times (where the yellow line goes down)
+* Lower the threshold if the compressor isn't doing anything. However, you typically don't want the compressor to _always_ be engaged.
 {% endhint %}
 
 ## Limiter
@@ -28,6 +28,6 @@ A limiter is effectively identical to a compressor, with the difference that it'
 ### Best practices
 
 * To get started, try a **factory preset** from the **Presets & settings** button. This effect comes with useful presets for a variety of content.
-* Use this effect as a [master effect](using-realtime-effects.md) to see a graph of it working in realtime, and to prevent your project from clipping.
-* Typically, limiters are used as a "last line of defense" to prevent clipping.&#x20;
+* Use this effect as a [master effect](/broken/pages/gVhdPD9kq6nWk7mLUu0Y) to see a graph of it working in realtime, and to prevent your project from clipping.
+* Typically, limiters are used as a "last line of defense" to prevent clipping.
 {% endhint %}
