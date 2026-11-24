@@ -25,8 +25,7 @@
 
 ## Community
 
-* [Contributing to Audacity](community/contributing/README.md)
-  * [Translating Audacity](community/contributing/translating.md)
+* [Contributing to Audacity](community/contributing.md)
 
 ## Special uses
 

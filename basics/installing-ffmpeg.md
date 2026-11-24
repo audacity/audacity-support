@@ -29,15 +29,15 @@ Video walkthrough of installing FFmpeg for Audacity on Windows and macOS.
 
 Audacity loads FFmpeg's **avformat** library, and each Audacity release supports a fixed set of avformat versions. If your FFmpeg is newer than your Audacity, Audacity won't detect it. Update Audacity, or install an older FFmpeg.
 
-| Audacity version  | Supported avformat versions | Matching FFmpeg releases |
-| ----------------- | --------------------------- | ------------------------ |
-| before 3.1        | 55                          | 2.2 – 2.4                |
-| 3.1               | 55, 57, 58                  | 2.2 – 2.4, 3.x – 4.x     |
-| 3.2               | 55, 57 – 59                 | 2.2 – 2.4, 3.x – 5.x     |
-| 3.3 – 3.5         | 55, 57 – 60                 | 2.2 – 2.4, 3.x – 6.x     |
-| 3.6 – 3.7.5       | 55, 57 – 61                 | 2.2 – 2.4, 3.x – 7.x     |
-| 3.7.6 – 3.7.8     | 55, 57 – 62                 | 2.2 – 2.4, 3.x – 8.x     |
-| 3.7.9, 4.0 and later | 55, 57 – 63              | 2.2 – 2.4, 3.x – 9.x     |
+| Audacity version     | Supported avformat versions | Matching FFmpeg releases |
+| -------------------- | --------------------------- | ------------------------ |
+| before 3.1           | 55                          | 2.2 – 2.4                |
+| 3.1                  | 55, 57, 58                  | 2.2 – 2.4, 3.x – 4.x     |
+| 3.2                  | 55, 57 – 59                 | 2.2 – 2.4, 3.x – 5.x     |
+| 3.3 – 3.5            | 55, 57 – 60                 | 2.2 – 2.4, 3.x – 6.x     |
+| 3.6 – 3.7.5          | 55, 57 – 61                 | 2.2 – 2.4, 3.x – 7.x     |
+| 3.7.6 – 3.7.8        | 55, 57 – 62                 | 2.2 – 2.4, 3.x – 8.x     |
+| 3.7.9, 4.0 and later | 55, 57 – 63                 | 2.2 – 2.4, 3.x – 9.x     |
 
 Notes:
 
@@ -86,17 +86,11 @@ Different FFmpeg builds have different codecs enabled. For example, AMR narrowba
 If you installed FFmpeg from another source or to a different location, tell Audacity where to find it:
 
 1. Go to **Edit > Preferences > Libraries**.
-2.  Click **Locate...**.
-
-    ![The Libraries preferences page, showing the FFmpeg Library Version and the Locate button.](<../.gitbook/assets/ffmpeg prefs.png>)
+2. Click **Locate...**.
 3.  If a **Success** message says Audacity has already detected FFmpeg, click **No**. You're done.
 
-    ![The Success message: "Audacity has automatically detected valid FFmpeg libraries. Do you still want to locate them manually?"](<../.gitbook/assets/ffmpeg success.png>)
-
     If this message doesn't appear, continue with the next step.
-4.  In the **Locate FFmpeg** dialog, click **Browse...** and select the `avformat-XX.dll` file (for example `avformat-61.dll`) in the folder where you installed or unzipped FFmpeg. In downloaded ZIP builds, it's in the `bin` folder.
-
-    ![The Locate FFmpeg dialog with the Browse button.](<../.gitbook/assets/ffmpeg locate.png>)
+4. In the **Locate FFmpeg** dialog, click **Browse...** and select the `avformat-XX.dll` file (for example `avformat-61.dll`) in the folder where you installed or unzipped FFmpeg. In downloaded ZIP builds, it's in the `bin` folder.
 5. Click **Open**, then **OK**, then **OK** again to close Preferences.
 {% endtab %}
 
@@ -107,7 +101,7 @@ This is a universal installer: it works on both Apple silicon and Intel Macs. It
 
 1. Download FFmpeg for macOS from [lame.buanzo.org/ffmpeg.php](https://lame.buanzo.org/ffmpeg.php).
 2. Open the downloaded `.pkg` file and follow the steps in the installer.\
-   _On some Macs the installer may seem stuck on "Validating packages". This is normal. Wait for it to finish._
+   _&#x4F;n some Macs the installer may seem stuck on "Validating packages". This is normal. Wait for it to finish._
 3. If Audacity was open, restart it.
 
 Audacity should now detect FFmpeg automatically. If it doesn't, follow the **Manual installation** steps below.
@@ -162,7 +156,7 @@ If you installed FFmpeg from another source or to a different location, tell Aud
 
     If this message doesn't appear, continue with the next step.
 4. In the **Locate FFmpeg** dialog, click **Browse...** and select the `libavformat.XX.dylib` file (for example `libavformat.61.dylib`). Files from the recommended installer are named `ffmpeg.XX.64bit.dylib` and are in `/Library/Application Support/audacity/libs`.\
-   _Tip: In the file dialog, press **Cmd+Shift+G** to type a folder path directly._
+   _&#x54;ip: In the file dialog, press **Cmd+Shift+G** to type a folder path directly._
 5. Click **Open**, then **OK**, then **OK** again to close Preferences.
 
 #### Troubleshooting
